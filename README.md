@@ -1,33 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Career Deck is a Next.js/Vercel-ready research database and monitoring platform
+for internships, co-ops, fellowships, student communities, part-time and
+full-time roles, hackathons, conferences, and startup opportunities.
 
-## Getting Started
+The platform is built around a database contract first. Scrapers are independent
+source adapters, so blocked or incomplete sources are recorded as review work
+instead of being guessed into real opportunity records.
 
-First, run the development server:
+## Architecture
+
+- `src/lib/career-deck/database.schema.sql` defines the relational data model.
+- `src/lib/career-deck/adapters.ts` defines the `fetch`, `parse`, `normalize`,
+  `validate`, and `save` adapter interface.
+- `src/lib/career-deck/monitoring.ts` runs adapters without coupling them to
+  the dashboard.
+- `src/lib/career-deck/reports.ts` generates daily changelogs only from
+  repository data.
+- `src/lib/career-deck/exports.ts` exports validated database records.
+- `src/app/components/CareerDeckDashboard.tsx` is the operational dashboard and
+  manual review surface.
+
+## Run
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Guardrails
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Blocked sources save attempted timestamps and failure reasons.
+- Manual review items can be approved, rejected, merged, edited, and associated
+  with screenshots or PDFs.
+- Confidence scores are shown for source, extraction, freshness, and duplicate
+  probability.
+- Daily reports compare today's report with the previous dated report.
+- Missing source data is never fabricated.
 
-## Learn More
+## API
 
-To learn more about Next.js, take a look at the following resources:
+- `POST /api/monitor/run` runs the adapter registry and returns safe attempts.
+- `GET /api/exports/opportunities` downloads database opportunity records as CSV.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+```
 
 ## Deploy on Vercel
 

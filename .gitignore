@@ -29,6 +29,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+.dev.*.log
+.dev.pid
+
+# local qa artifacts
+/output/
+/tools/vercel-ascii-hostname.mjs
 
 # env files (can opt-in for committing if needed)
 .env*
@@ -39,3 +45,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
