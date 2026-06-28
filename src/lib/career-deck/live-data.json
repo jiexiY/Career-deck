@@ -1,6 +1,3246 @@
 {
-  "updatedAt": "2026-06-28T13:45:00-07:00",
+  "updatedAt": "2026-06-28T22:19:04.034Z",
   "opportunities": [
+    {
+      "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
+      "title": "Internships",
+      "organization": "Crystal Dynamics",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.crystaldynamics.com/careers/internships/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-hubspot-emerging-talent-www-hubspot-com-careers-emerging-talent",
+      "title": "Emerging Talent",
+      "organization": "HubSpot",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.hubspot.com/careers/emerging-talent",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-advancelocal-career-opportunities-www-advancelocal-com-careers",
+      "title": "Career Opportunities",
+      "organization": "Advancelocal",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.advancelocal.com/careers/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-2k-career-opportunities-2k-com-careers",
+      "title": "Career Opportunities",
+      "organization": "2K",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://2k.com/careers/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-remotegamejobs-career-opportunities-remotegamejobs-com",
+      "title": "Career Opportunities",
+      "organization": "Remotegamejobs",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://remotegamejobs.com/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-xgames-career-opportunities-www-xgames-com-careers",
+      "title": "Career Opportunities",
+      "organization": "Xgames",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.xgames.com/careers/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-americold-internships-careers-americold-com-internships",
+      "title": "Internships",
+      "organization": "Americold",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.americold.com/internships",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-playstation-early-careers-careers-playstation-com-early-careers",
+      "title": "Early Careers",
+      "organization": "PlayStation",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.playstation.com/early-careers",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-watchjobs-watchjobs-net-zh-explore-job-papergames-social-7643780916418939172-e8-90-a5-e9-9",
+      "title": "营销策划 线下活动 恋与深空 星叠 叠纸游戏",
+      "organization": "Watchjobs",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://watchjobs.net/zh/explore/job/PAPERGAMES_SOCIAL_7643780916418939172/%E8%90%A5%E9%94%80%E7%AD%96%E5%88%92-%E7%BA%BF%E4%B8%8B%E6%B4%BB%E5%8A%A8-%E6%81%8B%E4%B8%8E%E6%B7%B1%E7%A9%BA-%E6%98%9F%E5%8F%A0-%E5%8F%A0%E7%BA%B8%E6%B8%B8%E6%88%8F",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-showbizjobs-all-www-showbizjobs-com-internships-all",
+      "title": "All",
+      "organization": "Showbizjobs",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.showbizjobs.com/internships/all",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-riot-games-student-internships-www-riotgames-com-en-student-internships",
+      "title": "Student Internships",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.riotgames.com/en/student-internships",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-edu-student-programs-jysd-bigc-edu-cn-campus-view-id-868262",
+      "title": "Student Programs",
+      "organization": "Edu",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://jysd.bigc.edu.cn/campus/view/id/868262",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-campus-student-programs-campus-papergames",
+      "title": "Student Programs",
+      "organization": "Campus",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://campus.papergames/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-activision-early-careers-careers-activision-com-early-careers",
+      "title": "Early Careers",
+      "organization": "Activision",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.activision.com/early-careers",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-prosple-game-design-internships-usa-prosple-com-game-design-internships-usa",
+      "title": "Game Design Internships Usa",
+      "organization": "Prosple",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://prosple.com/game-design-internships-usa",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-blizzard-entertainment-student-programs-careers-blizzard-com-global-en-earlycareers",
+      "title": "Student Programs",
+      "organization": "Blizzard Entertainment",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.blizzard.com/global/en/earlycareers",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-workinsports-view-www-workinsports-com-jobs-view-504184069",
+      "title": "View",
+      "organization": "Workinsports",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.workinsports.com/jobs/view/504184069",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-epic-games-student-programs-www-epicgames-com-site-earlycareers",
+      "title": "Student Programs",
+      "organization": "Epic Games",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.epicgames.com/site/earlycareers",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-paper-games-3t-g0jqwckk-career-papegames-com-s-3t-g0jqwckk",
+      "title": "3T G0jqWckk",
+      "organization": "Paper Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://career.papegames.com/s/3T-g0jqWckk",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-king-early-careers-careers-king-com-us-en-early-careers",
+      "title": "Early Careers",
+      "organization": "King",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.king.com/us/en/early-careers",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-indeed-q-game-internship-l-california-jobs-www-indeed-com-q-game-internship-l-california-j",
+      "title": "Q Game Internship L California Jobs",
+      "organization": "Indeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.indeed.com/q-game-internship-l-california-jobs.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-indeed-q-marketing-intern-gaming-jobs-www-indeed-com-q-marketing-intern-gaming-jobs-html",
+      "title": "Q Marketing Intern Gaming Jobs",
+      "organization": "Indeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.indeed.com/q-marketing-intern-gaming-jobs.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-wbd-global-tech-and-games-early-talent-programs-careers-wbd-com-global-en-global-tech-and-",
+      "title": "Global Tech And Games Early Talent Programs",
+      "organization": "Wbd",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.wbd.com/global/en/global-tech-and-games-early-talent-programs",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-edu-career-opportunities-career-cuhk-edu-cn-job-view-id-467190",
+      "title": "Career Opportunities",
+      "organization": "Edu",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://career.cuhk.edu.cn/job/view/id/467190",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-ziprecruiter-internship-game-localization-www-ziprecruiter-com-jobs-internship-game-locali",
+      "title": "Internship Game Localization",
+      "organization": "Ziprecruiter",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.ziprecruiter.com/Jobs/Internship-Game-Localization",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-blizzard-entertainment-early-careers-careers-activisionblizzard-com-early-careers",
+      "title": "Early Careers",
+      "organization": "Blizzard Entertainment",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.activisionblizzard.com/early-careers",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-search-jobs-cn-recruit-net-search-e8-90-a5-e9-94-80-e7-ad-96-e5-88-92-jobs",
+      "title": "Search 营销策划 Jobs",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cn.recruit.net/search-%E8%90%A5%E9%94%80%E7%AD%96%E5%88%92-jobs",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-search-rpg-jobs-shanghai-cn-recruit-net-search-rpg-jobs-shanghai",
+      "title": "Search Rpg Jobs Shanghai",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cn.recruit.net/search-rpg-jobs-shanghai",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-search-jobs-shanghai-cn-recruit-net-search-e4-ba-a4-e4-ba-92-e8-ae-be-e8-ae-a1-e5-",
+      "title": "Search 交互设计师 Jobs Shanghai",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cn.recruit.net/search-%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E5%B8%88-jobs-shanghai",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-search-maya-jobs-cn-recruit-net-search-maya-jobs",
+      "title": "Search Maya Jobs",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cn.recruit.net/search-maya-jobs",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-search-psd-jobs-cn-recruit-net-search-psd-jobs-e4-b8-8a-e6-b5-b7",
+      "title": "Search Psd Jobs 上海",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cn.recruit.net/search-psd-jobs-%E4%B8%8A%E6%B5%B7",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-search-animation-jobs-cn-recruit-net-search-animation-jobs",
+      "title": "Search Animation Jobs",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cn.recruit.net/search-animation-jobs",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-2d68f161c2ece832-www-recruit-net-job-e5-b9-b3-e9-9d-a2-e8-ae-be-e8-ae-a1-e5-b8-88-",
+      "title": "2D68F161C2ECE832",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1%E5%B8%88-jobs/2D68F161C2ECE832",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-search-kol-jobs-shanghai-cn-recruit-net-search-kol-jobs-shanghai",
+      "title": "Search Kol Jobs Shanghai",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cn.recruit.net/search-kol-jobs-shanghai",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-a09a50a04391e87f-www-recruit-net-job-ip-jobs-a09a50a04391e87f",
+      "title": "A09A50A04391E87F",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/-ip--jobs/A09A50A04391E87F",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-wondercv-guvoozk-www-wondercv-com-jobs-guvoozk-html",
+      "title": "GuvOOzk",
+      "organization": "Wondercv",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.wondercv.com/jobs/GuvOOzk.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-wondercv-campus-paperlove-f2f2b90ef1-www-wondercv-com-sample-campus-paperlove-f2f2b90ef1",
+      "title": "Campus Paperlove F2f2b90ef1",
+      "organization": "Wondercv",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.wondercv.com/sample/campus_paperlove-_f2f2b90ef1",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-shixiseng-inn-e0j91l0jmjvt-wap-shixiseng-com-intern-inn-e0j91l0jmjvt-pcm-pc-company",
+      "title": "Inn E0j91l0jmjvt",
+      "organization": "Shixiseng",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://wap.shixiseng.com/intern/inn_e0j91l0jmjvt?pcm=pc_Company",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-shixiseng-inn-g2xwjop0ldzo-www-shixiseng-com-intern-inn-g2xwjop0ldzo-pcm-pc-searchlist",
+      "title": "Inn G2xwjop0ldzo",
+      "organization": "Shixiseng",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.shixiseng.com/intern/inn_g2xwjop0ldzo?pcm=pc_SearchList",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-paper-games-career-opportunities-career-papegames-com",
+      "title": "Career Opportunities",
+      "organization": "Paper Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://career.papegames.com/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-paper-games-student-programs-career-papegames-com-campus",
+      "title": "Student Programs",
+      "organization": "Paper Games",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://career.papegames.com/campus",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-tencent-campusrecruit-careers-tencent-com-en-us-campusrecruit-html",
+      "title": "Campusrecruit",
+      "organization": "Tencent",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.tencent.com/en-us/campusrecruit.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-hkjc-career-opportunities-careers-hkjc-com",
+      "title": "Career Opportunities",
+      "organization": "Hkjc",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.hkjc.com/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-on-early-careers-culture-on-com-what-we-do-early-careers",
+      "title": "Early Careers",
+      "organization": "On",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://culture.on.com/what-we-do/early-careers/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-gov-career-opportunities-www-investhk-gov-hk-en-careers",
+      "title": "Career Opportunities",
+      "organization": "Gov",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.investhk.gov.hk/en/careers",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-thatgamecompany-career-opportunities-thatgamecompany-com-careers",
+      "title": "Career Opportunities",
+      "organization": "Thatgamecompany",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://thatgamecompany.com/careers/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-hkstp-career-opportunities-careers-hkstp-org",
+      "title": "Career Opportunities",
+      "organization": "Hkstp",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.hkstp.org/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-stillfront-join-the-team-www-stillfront-com-en-career-join-the-team",
+      "title": "Join The Team",
+      "organization": "Stillfront",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.stillfront.com/en/career/join-the-team/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-expertini-senior-rigging-director-facial-mocap-ue-rigging-singapore-infold-games-sg-expert",
+      "title": "Senior Rigging Director Facial Mocap Ue Rigging Singapore Infold Games",
+      "organization": "Expertini",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://sg.expertini.com/jobs/in/senior-rigging-director-facial-mocap-ue-rigging-singapore-infold-games/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-37-index-zhaopin-37-com-index-php-a-recruit-c-recruit-m-home-recruit-1-search-e7-ad-96-e5-",
+      "title": "Index",
+      "organization": "37",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://zhaopin.37.com/index.php?a=recruit&c=recruit&m=Home&recruit=1&search=%E7%AD%96%E5%88%92",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-com-joblist-careers-mtr-com-hk-careersection-mtr-external-joblist-ftl-lang-en",
+      "title": "Joblist",
+      "organization": "Com",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.mtr.com.hk/careersection/mtr_external/joblist.ftl?lang=en",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-edu-highlight-job-postings-cpdc-osa-cuhk-edu-hk-en-find-a-job-highlight-job-postings",
+      "title": "Highlight Job Postings",
+      "organization": "Edu",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cpdc.osa.cuhk.edu.hk/en/find-a-job/highlight-job-postings",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-edu-internship-and-part-time-work-www-studyinhongkong-edu-hk-hk-hong-kong-education-intern",
+      "title": "Internship And Part Time Work",
+      "organization": "Edu",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.studyinhongkong.edu.hk/hk/hong-kong-education/internship-and-part-time-work.php",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-showreelbio-career-opportunities-www-showreelbio-com-jobs",
+      "title": "Career Opportunities",
+      "organization": "Showreelbio",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.showreelbio.com/jobs",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-edu-current-opening-hkustcareers-hkust-edu-hk-join-us-current-opening",
+      "title": "Current Opening",
+      "organization": "Edu",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://hkustcareers.hkust.edu.hk/join-us/current-opening",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-deloitte-internship-program-www-deloitte-com-cn-zh-careers-explore-your-fit-students-inter",
+      "title": "Internship Program",
+      "organization": "Deloitte",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.deloitte.com/cn/zh/careers/explore-your-fit/students/internship-program.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-hku-career-opportunities-jobs-hku-hk",
+      "title": "Career Opportunities",
+      "organization": "Hku",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://jobs.hku.hk/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-scopely-career-opportunities-careers-scopely-com",
+      "title": "Career Opportunities",
+      "organization": "Scopely",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.scopely.com/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-erb-introduction-www-erb-org-youthintern-introduction",
+      "title": "Introduction",
+      "organization": "Erb",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.erb.org/youthintern/introduction/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-ctgoodjobs-career-opportunities-www-ctgoodjobs-hk",
+      "title": "Career Opportunities",
+      "organization": "Ctgoodjobs",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.ctgoodjobs.hk/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-paper-games-detail-career-papegames-com-social-m-position-detail-7243746610202577212",
+      "title": "Detail",
+      "organization": "Paper Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://career.papegames.com/social/m/position/detail/7243746610202577212",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-gov-index-www-itf-gov-hk-tc-support-measures-stem-internship-scheme-index-html",
+      "title": "Index",
+      "organization": "Gov",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.itf.gov.hk/tc/support-measures/stem-internship-scheme/index.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-jobsdb-game-intern-jobs-hk-jobsdb-com-game-intern-jobs",
+      "title": "Game Intern Jobs",
+      "organization": "Jobsdb",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://hk.jobsdb.com/game-intern-jobs",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-jobsdb-in-hong-kong-sar-hk-jobsdb-com-game-intern-jobs-in-hong-kong-sar",
+      "title": "In Hong Kong SAR",
+      "organization": "Jobsdb",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://hk.jobsdb.com/game-intern-jobs/in-Hong-Kong-SAR",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-jobsdb-jobs-hk-jobsdb-com-e5-af-a6-e7-bf-92-e7-94-9f-jobs",
+      "title": "實習生 Jobs",
+      "organization": "Jobsdb",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://hk.jobsdb.com/%E5%AF%A6%E7%BF%92%E7%94%9F-jobs",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-jobsdb-career-opportunities-hk-jobsdb-com",
+      "title": "Career Opportunities",
+      "organization": "Jobsdb",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://hk.jobsdb.com/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-jobsdb-in-hong-kong-island-hk-jobsdb-com-game-intern-jobs-in-hong-kong-island",
+      "title": "In Hong Kong Island",
+      "organization": "Jobsdb",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://hk.jobsdb.com/game-intern-jobs/in-Hong-Kong-Island",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-nowcoder-detail-www-nowcoder-com-jobs-detail-317672-channel-newcompanypage-pagesource-5012",
+      "title": "Detail",
+      "organization": "Nowcoder",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.nowcoder.com/jobs/detail/317672?channel=newCompanyPage&pageSource=5012",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-workable-ec84dfe008-apply-workable-com-homa-games-j-ec84dfe008",
+      "title": "EC84DFE008",
+      "organization": "Workable",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://apply.workable.com/homa-games/j/EC84DFE008/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-smartrecruiters-recruiting-event-jobs-smartrecruiters",
+      "title": "Recruiting Event",
+      "organization": "Smartrecruiters",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://jobs.smartrecruiters/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-google-applications-www-google-com-about-careers-applications",
+      "title": "Applications",
+      "organization": "Google",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.google.com/about/careers/applications/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-edu-career-opportunities-career-cuhk-edu-cn-lecture-view-id-1292",
+      "title": "Career Opportunities",
+      "organization": "Edu",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://career.cuhk.edu.cn/lecture/view/id/1292",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-shixiseng-inn-3no26f6g8lav-www-shixiseng-com-intern-inn-3no26f6g8lav",
+      "title": "Inn 3no26f6g8lav",
+      "organization": "Shixiseng",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.shixiseng.com/intern/inn_3no26f6g8lav",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-search-psd-jobs-china-cn-recruit-net-search-psd-jobs-china",
+      "title": "Search Psd Jobs China",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cn.recruit.net/search-psd-jobs-china",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-search-bmp-jobs-cn-recruit-net-search-bmp-jobs",
+      "title": "Search Bmp Jobs",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cn.recruit.net/search-bmp-jobs",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-ashbyhq-thatgamecompany-jobs-ashbyhq-com-thatgamecompany-ab5224b7-e0b7-4f29-bef4-3ca482920",
+      "title": "Thatgamecompany",
+      "organization": "Ashbyhq",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/ab5224b7-e0b7-4f29-bef4-3ca48292071e",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-soundlister-20-great-new-audio-jobs-at-google-tesla-more-soundlister-com-20-great-new-audi",
+      "title": "20 Great New Audio Jobs At Google Tesla More",
+      "organization": "Soundlister",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://soundlister.com/20-great-new-audio-jobs-at-google-tesla-more/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-peoplefunction-83883413-social-media-operation-intern-jobs-peoplefunction-com-companies-th",
+      "title": "83883413 Social Media Operation Intern",
+      "organization": "Peoplefunction",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://jobs.peoplefunction.com/companies/thatgamecompany/jobs/83883413-social-media-operation-intern",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-shixiseng-inn-wlt2v2trnnlu-www-shixiseng-com-intern-inn-wlt2v2trnnlu",
+      "title": "Inn Wlt2v2trnnlu",
+      "organization": "Shixiseng",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.shixiseng.com/intern/inn_wlt2v2trnnlu",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-niuqizp-schedule-7yk85cltm-campus-niuqizp-com-schedule-7yk85cltm-html",
+      "title": "Schedule 7yk85CLtM",
+      "organization": "Niuqizp",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://campus.niuqizp.com/schedule-7yk85CLtM.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-niuqizp-schedule-7wmk5nzzm-campus-niuqizp-com-schedule-7wmk5nzzm-html",
+      "title": "Schedule 7wmk5NZzM",
+      "organization": "Niuqizp",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://campus.niuqizp.com/schedule-7wmk5NZzM.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-niuqizp-job-vsy5zlznz-campus-niuqizp-com-job-vsy5zlznz-html",
+      "title": "Job Vsy5zLZNz",
+      "organization": "Niuqizp",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://campus.niuqizp.com/job-vsy5zLZNz.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-niuqizp-schedule-7krl5zmza-campus-niuqizp-com-schedule-7krl5zmza-html",
+      "title": "Schedule 7krl5ZMZa",
+      "organization": "Niuqizp",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://campus.niuqizp.com/schedule-7krl5ZMZa.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-niuqizp-job-vmy5zl5ta-campus-niuqizp-com-job-vmy5zl5ta-html",
+      "title": "Job VmY5zL5ta",
+      "organization": "Niuqizp",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://campus.niuqizp.com/job-vmY5zL5ta.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-edu-career-opportunities-career-cuhk-edu-cn-job-view-id-463620",
+      "title": "Career Opportunities",
+      "organization": "Edu",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://career.cuhk.edu.cn/job/view/id/463620",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-search-jobs-cn-recruit-net-search-e7-bc-96-e5-af-bc-jobs-e4-b8-8a-e6-b5-b7",
+      "title": "Search 编导 Jobs 上海",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://cn.recruit.net/search-%E7%BC%96%E5%AF%BC-jobs-%E4%B8%8A%E6%B5%B7",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-b36e07d271e20f86-www-recruit-net-job-e7-bc-96-e5-89-a7-jobs-b36e07d271e20f86",
+      "title": "B36E07D271E20F86",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/%E7%BC%96%E5%89%A7-jobs/B36E07D271E20F86",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-dc57c4c933f677ba-www-recruit-net-job-e7-bb-8f-e7-90-86-jobs-dc57c4c933f677ba",
+      "title": "DC57C4C933F677BA",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/%E7%BB%8F%E7%90%86-jobs/DC57C4C933F677BA",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-1ff0e7a78f4531f6-www-recruit-net-job-e9-a1-be-e9-97-ae-jobs-1ff0e7a78f4531f6",
+      "title": "1FF0E7A78F4531F6",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/%E9%A1%BE%E9%97%AE-jobs/1FF0E7A78F4531F6",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-512d073815b973e9-www-recruit-net-job-nova-jobs-512d073815b973e9",
+      "title": "512D073815B973E9",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/nova--jobs/512D073815B973E9",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-watchjobs-ai-watchjobs-net-zh-explore-job-papergames-social-7637050114694990134-e7-bc-96-e",
+      "title": "编剧 AI原生新项目 叠纸游戏",
+      "organization": "Watchjobs",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://watchjobs.net/zh/explore/job/PAPERGAMES_SOCIAL_7637050114694990134/%E7%BC%96%E5%89%A7-AI%E5%8E%9F%E7%94%9F%E6%96%B0%E9%A1%B9%E7%9B%AE-%E5%8F%A0%E7%BA%B8%E6%B8%B8%E6%88%8F",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-shixiseng-inn-bsxwefha65lm-wap-shixiseng-com-intern-inn-bsxwefha65lm",
+      "title": "Inn Bsxwefha65lm",
+      "organization": "Shixiseng",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://wap.shixiseng.com/intern/inn_bsxwefha65lm",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-edu-student-programs-job-wzu-edu-cn-campus-view-id-494720",
+      "title": "Student Programs",
+      "organization": "Edu",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://job.wzu.edu.cn/campus/view/id/494720",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-electronic-arts-early-careers-www-ea-com-careers-early-careers",
+      "title": "Early Careers",
+      "organization": "Electronic Arts",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.ea.com/careers/early-careers",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-hasbro-career-opportunities-jobs-hasbro-com",
+      "title": "Career Opportunities",
+      "organization": "Hasbro",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://jobs.hasbro.com/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-zynga-university-www-zynga-com-jobs-university",
+      "title": "University",
+      "organization": "Zynga",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.zynga.com/jobs/university/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-wellfound-4395709-senior-content-games-marketing-manager-wellfound-com-jobs-4395709-senior",
+      "title": "4395709 Senior Content Games Marketing Manager",
+      "organization": "Wellfound",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://wellfound.com/jobs/4395709-senior-content-games-marketing-manager",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-indeed-q-game-publishing-jobs-sg-indeed-com-q-game-publishing-jobs-html",
+      "title": "Q Game Publishing Jobs",
+      "organization": "Indeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://sg.indeed.com/q-game-publishing-jobs.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-gamejobs-search-gamejobs-co-search-w-redwood-city-2c-california-2c-united-states-of-americ",
+      "title": "Search",
+      "organization": "Gamejobs",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://gamejobs.co/search?w=Redwood+City%2C+California%2C+United+States+of+America+Location%3A+Offsite+-+GeorgiaState%3A+GeorgiaCountry%3A+United+States+of+AmericaLocation%3A+Vancouver+-+Great+Northern+WayState%3A+British+ColumbiaCountry%3A+Canada",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-gamejobs-search-gamejobs-co-search-w-taiwan",
+      "title": "Search",
+      "organization": "Gamejobs",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://gamejobs.co/search?w=Taiwan",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-gamejobs-career-opportunities-gamejobs-co",
+      "title": "Career Opportunities",
+      "organization": "Gamejobs",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://gamejobs.co/",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-hitmarker-thatgamecompany-brand-intern-vietnam-1742286-hitmarker-net-jobs-thatgamecompany-",
+      "title": "Thatgamecompany Brand Intern Vietnam 1742286",
+      "organization": "Hitmarker",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://hitmarker.net/jobs/thatgamecompany-brand-intern-vietnam-1742286",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-infold-games-career-opportunities-career-infoldgames-com-en",
+      "title": "Career Opportunities",
+      "organization": "InFold Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://career.infoldgames.com/EN",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-a11e6aa258791faa-www-recruit-net-job-nova-jobs-a11e6aa258791faa",
+      "title": "A11E6AA258791FAA",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/nova--jobs/A11E6AA258791FAA",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-d188a5537a38371a-www-recruit-net-job-nova-jobs-d188a5537a38371a",
+      "title": "D188A5537A38371A",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/nova--jobs/D188A5537A38371A",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-1d6466c70ec00e53-www-recruit-net-job-nova-jobs-1d6466c70ec00e53",
+      "title": "1D6466C70EC00E53",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/nova--jobs/1D6466C70EC00E53",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-paper-games-detail-career-papegames-com-campus-m-position-detail-7382903228495071514",
+      "title": "Detail",
+      "organization": "Paper Games",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://career.papegames.com/campus/m/position/detail/7382903228495071514",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-paper-games-career-opportunities-career-papegames-com-en",
+      "title": "Career Opportunities",
+      "organization": "Paper Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://career.papegames.com/EN",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-290310054ea46451-www-recruit-net-job-nova-jobs-290310054ea46451",
+      "title": "290310054EA46451",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/nova--jobs/290310054EA46451",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-3fd2f7ac063f2f96-www-recruit-net-job-nova-jobs-3fd2f7ac063f2f96",
+      "title": "3FD2F7AC063F2F96",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/nova--jobs/3FD2F7AC063F2F96",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-530de63b91aecdf7-www-recruit-net-job-nova-jobs-530de63b91aecdf7",
+      "title": "530DE63B91AECDF7",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/nova--jobs/530DE63B91AECDF7",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-recruit-d47296ee3c339622-www-recruit-net-job-nova-jobs-d47296ee3c339622",
+      "title": "D47296EE3C339622",
+      "organization": "Recruit",
+      "section": "game",
+      "type": "recruiting-event",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.recruit.net/job/nova--jobs/D47296EE3C339622",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-onlocationexp-career-opportunities-onlocationexp-com-careers",
+      "title": "Career Opportunities",
+      "organization": "Onlocationexp",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://onlocationexp.com/careers",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-jobleads-game-day-marketing-operations-intern-sports-promotions-plymouth-e859102857bfcb226",
+      "title": "Game Day Marketing Operations Intern Sports Promotions Plymouth E859102857bfcb2260c09795d43575f76",
+      "organization": "Jobleads",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.jobleads.com/us/job/game-day-marketing-operations-intern-sports-promotions--plymouth--e859102857bfcb2260c09795d43575f76",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-glassdoor-los-angeles-gaming-marketing-intern-jobs-srch-il-0-11-ic1146821-ko12-35-www-glas",
+      "title": "Los Angeles Gaming Marketing Intern Jobs SRCH IL.0,11 IC1146821 KO12,35",
+      "organization": "Glassdoor",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.glassdoor.com/Job/los-angeles-gaming-marketing-intern-jobs-SRCH_IL.0%2C11_IC1146821_KO12%2C35.htm",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-landolakesinc-undergraduate-internships-careers-landolakesinc-com-us-en-undergraduate-inte",
+      "title": "Undergraduate Internships",
+      "organization": "Landolakesinc",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://careers.landolakesinc.com/us/en/undergraduate-internships",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-bytedance-detail-jobs-bytedance-com-campus-m-position-detail-7619239532092983557-recomid-8",
+      "title": "Detail",
+      "organization": "Bytedance",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://jobs.bytedance.com/campus/m/position/detail/7619239532092983557?recomId=83691e27-27b5-11f1-a403-0c42a1a84b32&sourceJobId=7527596623766767879&utm_device=pc&utm_keyword=pc202303098",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-teamworkonline-jobs-in-sports-www-teamworkonline-com-jobs-in-sports-commit-search-employme",
+      "title": "Jobs In Sports",
+      "organization": "Teamworkonline",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.teamworkonline.com/jobs-in-sports?commit=Search&employment_opportunity_search%5Bquery%5D=Internships&employment_opportunity_search%5Bsort_by%5D=most_recent",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-edu-ckzpgwxq-www-career-zju-edu-cn-jyxt-sczp-zpztgl-ckzpgwxq-zf-dwxxid-jg1196703-zpxxbh-31",
+      "title": "CkZpgwXq",
+      "organization": "Edu",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?dwxxid=JG1196703&zpxxbh=3113AD08D109D6C4E0653A68DD0E9B18",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.56,
+        "freshness": 0.68,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "conversation-game-indeed-q-game-operations-internship-jobs-www-indeed-com-q-game-operations-internship-jobs-",
+      "title": "Q Game Operations Internship Jobs",
+      "organization": "Indeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "chatgpt-game-source",
+      "sourceName": "Game Conversation Source",
+      "url": "https://www.indeed.com/q-game-operations-internship-jobs.html",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "TBD",
+      "discoveredAt": "2026-06-28T22:19:04.034Z",
+      "updatedAt": "2026-06-28T22:19:04.034Z",
+      "confidence": {
+        "source": 0.48,
+        "extraction": 0.46,
+        "freshness": 0.5,
+        "duplicateProbability": 0.36
+      },
+      "evidence": [
+        "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
     {
       "id": "game-riot-student-internships",
       "title": "Student Internships",
@@ -17,8 +3257,15 @@
       "eligibility": "Riot internship eligibility requires official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.9, "extraction": 0.62, "freshness": 0.78, "duplicateProbability": 0.16 },
-      "evidence": ["Imported from the game shared ChatGPT conversation; official source still requires review."],
+      "confidence": {
+        "source": 0.9,
+        "extraction": 0.62,
+        "freshness": 0.78,
+        "duplicateProbability": 0.16
+      },
+      "evidence": [
+        "Imported from the game shared ChatGPT conversation; official source still requires review."
+      ],
       "needsReview": true
     },
     {
@@ -37,8 +3284,15 @@
       "eligibility": "Aggregator-only record; verify against Riot Games before approval.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.46, "extraction": 0.58, "freshness": 0.5, "duplicateProbability": 0.34 },
-      "evidence": ["GameJobs URL was present in the shared conversation; employer source must be checked."],
+      "confidence": {
+        "source": 0.46,
+        "extraction": 0.58,
+        "freshness": 0.5,
+        "duplicateProbability": 0.34
+      },
+      "evidence": [
+        "GameJobs URL was present in the shared conversation; employer source must be checked."
+      ],
       "needsReview": true
     },
     {
@@ -57,8 +3311,15 @@
       "eligibility": "Aggregator-only record; verify against Riot Games before approval.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.46, "extraction": 0.58, "freshness": 0.5, "duplicateProbability": 0.34 },
-      "evidence": ["GameJobs URL was present in the shared conversation; employer source must be checked."],
+      "confidence": {
+        "source": 0.46,
+        "extraction": 0.58,
+        "freshness": 0.5,
+        "duplicateProbability": 0.34
+      },
+      "evidence": [
+        "GameJobs URL was present in the shared conversation; employer source must be checked."
+      ],
       "needsReview": true
     },
     {
@@ -77,8 +3338,15 @@
       "eligibility": "Aggregator-only record; verify against Riot Games before approval.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.46, "extraction": 0.58, "freshness": 0.5, "duplicateProbability": 0.34 },
-      "evidence": ["GameJobs URL was present in the shared conversation; employer source must be checked."],
+      "confidence": {
+        "source": 0.46,
+        "extraction": 0.58,
+        "freshness": 0.5,
+        "duplicateProbability": 0.34
+      },
+      "evidence": [
+        "GameJobs URL was present in the shared conversation; employer source must be checked."
+      ],
       "needsReview": true
     },
     {
@@ -97,8 +3365,15 @@
       "eligibility": "Early-career program details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.9, "extraction": 0.6, "freshness": 0.78, "duplicateProbability": 0.18 },
-      "evidence": ["Official Activision early-careers URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.9,
+        "extraction": 0.6,
+        "freshness": 0.78,
+        "duplicateProbability": 0.18
+      },
+      "evidence": [
+        "Official Activision early-careers URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -117,8 +3392,15 @@
       "eligibility": "Co-op eligibility and term details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.9, "extraction": 0.72, "freshness": 0.78, "duplicateProbability": 0.12 },
-      "evidence": ["Official Activision role URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.9,
+        "extraction": 0.72,
+        "freshness": 0.78,
+        "duplicateProbability": 0.12
+      },
+      "evidence": [
+        "Official Activision role URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -137,8 +3419,15 @@
       "eligibility": "Early-career program details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.9, "extraction": 0.6, "freshness": 0.78, "duplicateProbability": 0.2 },
-      "evidence": ["Official Blizzard early-careers URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.9,
+        "extraction": 0.6,
+        "freshness": 0.78,
+        "duplicateProbability": 0.2
+      },
+      "evidence": [
+        "Official Blizzard early-careers URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -157,8 +3446,15 @@
       "eligibility": "Early-career program details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.9, "extraction": 0.6, "freshness": 0.78, "duplicateProbability": 0.18 },
-      "evidence": ["Official Epic Games early-careers URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.9,
+        "extraction": 0.6,
+        "freshness": 0.78,
+        "duplicateProbability": 0.18
+      },
+      "evidence": [
+        "Official Epic Games early-careers URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -177,8 +3473,15 @@
       "eligibility": "Early-career program details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.9, "extraction": 0.6, "freshness": 0.78, "duplicateProbability": 0.18 },
-      "evidence": ["Official EA early-careers URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.9,
+        "extraction": 0.6,
+        "freshness": 0.78,
+        "duplicateProbability": 0.18
+      },
+      "evidence": [
+        "Official EA early-careers URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -197,8 +3500,15 @@
       "eligibility": "Intern and graduate program details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.9, "extraction": 0.6, "freshness": 0.78, "duplicateProbability": 0.18 },
-      "evidence": ["Official Ubisoft interns-and-graduates URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.9,
+        "extraction": 0.6,
+        "freshness": 0.78,
+        "duplicateProbability": 0.18
+      },
+      "evidence": [
+        "Official Ubisoft interns-and-graduates URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -217,8 +3527,15 @@
       "eligibility": "Early-career program details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.9, "extraction": 0.6, "freshness": 0.78, "duplicateProbability": 0.18 },
-      "evidence": ["Official PlayStation early-careers URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.9,
+        "extraction": 0.6,
+        "freshness": 0.78,
+        "duplicateProbability": 0.18
+      },
+      "evidence": [
+        "Official PlayStation early-careers URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -237,8 +3554,15 @@
       "eligibility": "Open roles and student-fit details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.88, "extraction": 0.52, "freshness": 0.74, "duplicateProbability": 0.2 },
-      "evidence": ["Official 2K careers URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.88,
+        "extraction": 0.52,
+        "freshness": 0.74,
+        "duplicateProbability": 0.2
+      },
+      "evidence": [
+        "Official 2K careers URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -257,8 +3581,15 @@
       "eligibility": "Early-career program details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.88, "extraction": 0.58, "freshness": 0.76, "duplicateProbability": 0.18 },
-      "evidence": ["Official King early-careers URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.88,
+        "extraction": 0.58,
+        "freshness": 0.76,
+        "duplicateProbability": 0.18
+      },
+      "evidence": [
+        "Official King early-careers URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -277,8 +3608,15 @@
       "eligibility": "University program details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.88, "extraction": 0.58, "freshness": 0.76, "duplicateProbability": 0.18 },
-      "evidence": ["Official Zynga university URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.88,
+        "extraction": 0.58,
+        "freshness": 0.76,
+        "duplicateProbability": 0.18
+      },
+      "evidence": [
+        "Official Zynga university URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -297,8 +3635,15 @@
       "eligibility": "Open roles and student-fit details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.88, "extraction": 0.52, "freshness": 0.74, "duplicateProbability": 0.2 },
-      "evidence": ["Official Scopely careers URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.88,
+        "extraction": 0.52,
+        "freshness": 0.74,
+        "duplicateProbability": 0.2
+      },
+      "evidence": [
+        "Official Scopely careers URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -317,8 +3662,15 @@
       "eligibility": "Campus recruitment details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.86, "extraction": 0.58, "freshness": 0.74, "duplicateProbability": 0.22 },
-      "evidence": ["Official Tencent campus recruitment URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.86,
+        "extraction": 0.58,
+        "freshness": 0.74,
+        "duplicateProbability": 0.22
+      },
+      "evidence": [
+        "Official Tencent campus recruitment URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -337,8 +3689,15 @@
       "eligibility": "Open roles and internship fit require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.86, "extraction": 0.58, "freshness": 0.74, "duplicateProbability": 0.24 },
-      "evidence": ["Official Garena careers category URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.86,
+        "extraction": 0.58,
+        "freshness": 0.74,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Official Garena careers category URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -357,8 +3716,15 @@
       "eligibility": "Role title, campus eligibility, and deadline require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.78, "extraction": 0.38, "freshness": 0.68, "duplicateProbability": 0.3 },
-      "evidence": ["Paper Games campus role URL was present in the shared conversation; structured details were not trusted."],
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.38,
+        "freshness": 0.68,
+        "duplicateProbability": 0.3
+      },
+      "evidence": [
+        "Paper Games campus role URL was present in the shared conversation; structured details were not trusted."
+      ],
       "needsReview": true
     },
     {
@@ -377,8 +3743,15 @@
       "eligibility": "Open roles and student-fit details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.84, "extraction": 0.5, "freshness": 0.72, "duplicateProbability": 0.22 },
-      "evidence": ["InFold Games careers URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.84,
+        "extraction": 0.5,
+        "freshness": 0.72,
+        "duplicateProbability": 0.22
+      },
+      "evidence": [
+        "InFold Games careers URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -397,8 +3770,15 @@
       "eligibility": "Campus jobs and eligibility require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.82, "extraction": 0.54, "freshness": 0.72, "duplicateProbability": 0.22 },
-      "evidence": ["Century Games campus jobs URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.82,
+        "extraction": 0.54,
+        "freshness": 0.72,
+        "duplicateProbability": 0.22
+      },
+      "evidence": [
+        "Century Games campus jobs URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -417,8 +3797,15 @@
       "eligibility": "Role title and internship fit require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.78, "extraction": 0.38, "freshness": 0.68, "duplicateProbability": 0.28 },
-      "evidence": ["Workable role URL was present in the shared conversation; structured details were not trusted."],
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.38,
+        "freshness": 0.68,
+        "duplicateProbability": 0.28
+      },
+      "evidence": [
+        "Workable role URL was present in the shared conversation; structured details were not trusted."
+      ],
       "needsReview": true
     },
     {
@@ -437,8 +3824,15 @@
       "eligibility": "Role title and internship fit require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.78, "extraction": 0.38, "freshness": 0.68, "duplicateProbability": 0.28 },
-      "evidence": ["Greenhouse role URL was present in the shared conversation; structured details were not trusted."],
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.38,
+        "freshness": 0.68,
+        "duplicateProbability": 0.28
+      },
+      "evidence": [
+        "Greenhouse role URL was present in the shared conversation; structured details were not trusted."
+      ],
       "needsReview": true
     },
     {
@@ -457,8 +3851,15 @@
       "eligibility": "Co-op eligibility and term details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.8, "extraction": 0.62, "freshness": 0.7, "duplicateProbability": 0.24 },
-      "evidence": ["Kabam Lever role URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.8,
+        "extraction": 0.62,
+        "freshness": 0.7,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Kabam Lever role URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -477,8 +3878,15 @@
       "eligibility": "Co-op eligibility and term details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.8, "extraction": 0.62, "freshness": 0.7, "duplicateProbability": 0.24 },
-      "evidence": ["Kabam Lever role URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.8,
+        "extraction": 0.62,
+        "freshness": 0.7,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Kabam Lever role URL was present in the shared conversation."
+      ],
       "needsReview": true
     },
     {
@@ -497,8 +3905,15 @@
       "eligibility": "Open roles and student-fit details require official page review.",
       "discoveredAt": "2026-06-28T13:45:00-07:00",
       "updatedAt": "2026-06-28T13:45:00-07:00",
-      "confidence": { "source": 0.84, "extraction": 0.5, "freshness": 0.72, "duplicateProbability": 0.22 },
-      "evidence": ["Razer careers URL was present in the shared conversation."],
+      "confidence": {
+        "source": 0.84,
+        "extraction": 0.5,
+        "freshness": 0.72,
+        "duplicateProbability": 0.22
+      },
+      "evidence": [
+        "Razer careers URL was present in the shared conversation."
+      ],
       "needsReview": true
     }
   ]

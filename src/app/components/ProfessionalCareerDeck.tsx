@@ -189,43 +189,23 @@ export function ProfessionalCareerDeck({
 
       <section className="mx-auto max-w-7xl px-5 py-6">
         <div className="grid gap-4 lg:grid-cols-[1fr_360px]">
-          <div className="grid gap-4">
-            <section className="rounded-lg border border-[#dfe4ea] bg-white p-4">
-              <label className="relative block">
-                <Search
-                  size={18}
-                  className="absolute left-3 top-1/2 -translate-y-1/2 text-[#6b7788]"
-                  aria-hidden="true"
-                />
-                <input
-                  value={query}
-                  onChange={(event) => setQuery(event.target.value)}
-                  placeholder="Search roles, studios, companies, programs"
-                  className="h-11 w-full rounded-lg border border-[#cfd8e3] bg-[#f8fafc] pl-10 pr-3 text-sm outline-none focus:border-[#101418] focus:bg-white"
-                />
-              </label>
-            </section>
+          <section className="rounded-lg border border-[#dfe4ea] bg-white p-4">
+            <label className="relative block">
+              <Search
+                size={18}
+                className="absolute left-3 top-1/2 -translate-y-1/2 text-[#6b7788]"
+                aria-hidden="true"
+              />
+              <input
+                value={query}
+                onChange={(event) => setQuery(event.target.value)}
+                placeholder="Search roles, studios, companies, programs"
+                className="h-11 w-full rounded-lg border border-[#cfd8e3] bg-[#f8fafc] pl-10 pr-3 text-sm outline-none focus:border-[#101418] focus:bg-white"
+              />
+            </label>
+          </section>
 
-            <SectionDeck
-              section="tech"
-              category={categories.tech}
-              setCategory={(value) => setSectionCategory("tech", value)}
-              opportunities={filteredFor("tech")}
-              total={counts.tech}
-              update={updatesBySection.get("tech")}
-            />
-
-            <SectionDeck
-              section="game"
-              category={categories.game}
-              setCategory={(value) => setSectionCategory("game", value)}
-              opportunities={filteredFor("game")}
-              total={counts.game}
-              update={updatesBySection.get("game")}
-            />
-          </div>
-
-          <aside className="rounded-lg border border-[#dfe4ea] bg-white p-4 lg:sticky lg:top-4 lg:self-start">
+          <aside className="rounded-lg border border-[#dfe4ea] bg-white p-4 lg:self-start">
             <p className="text-sm font-semibold text-[#101418]">Deck Snapshot</p>
             <div className="mt-4 grid gap-3 text-sm">
               <SnapshotRow label="Total records" value={String(counts.all)} />
@@ -240,6 +220,26 @@ export function ProfessionalCareerDeck({
               liveStatuses={liveSourceStatuses}
             />
           </aside>
+        </div>
+
+        <div className="mt-4 grid gap-4 xl:grid-cols-2">
+          <SectionDeck
+            section="tech"
+            category={categories.tech}
+            setCategory={(value) => setSectionCategory("tech", value)}
+            opportunities={filteredFor("tech")}
+            total={counts.tech}
+            update={updatesBySection.get("tech")}
+          />
+
+          <SectionDeck
+            section="game"
+            category={categories.game}
+            setCategory={(value) => setSectionCategory("game", value)}
+            opportunities={filteredFor("game")}
+            total={counts.game}
+            update={updatesBySection.get("game")}
+          />
         </div>
       </section>
     </main>
@@ -340,7 +340,7 @@ function SectionDeck({
 
       <div className="p-4">
         {opportunities.length ? (
-          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid gap-4 2xl:grid-cols-2">
             {opportunities.map((opportunity) => (
               <OpportunityCard
                 key={opportunity.id}
@@ -367,6 +367,7 @@ function OpportunityCard({
   section: OpportunitySection;
 }) {
   const theme = sectionTheme(section);
+  const [expanded, setExpanded] = useState(false);
 
   return (
     <article className={`flex min-h-[318px] flex-col rounded-lg border p-5 ${theme.card}`}>
@@ -398,6 +399,54 @@ function OpportunityCard({
         <QualityLine label="Freshness" value={opportunity.confidence.freshness} section={section} />
       </div>
 
+      <button
+        type="button"
+        onClick={() => setExpanded((current) => !current)}
+        className={`mt-5 inline-flex h-10 items-center justify-between gap-3 rounded-lg border bg-white px-3 text-sm font-semibold ${theme.detailButton}`}
+        aria-expanded={expanded}
+      >
+        Details
+        <ChevronDown
+          size={16}
+          className={`transition-transform ${expanded ? "rotate-180" : ""}`}
+          aria-hidden="true"
+        />
+      </button>
+
+      {expanded && (
+        <div className={`mt-4 grid gap-4 border-t pt-4 text-sm ${theme.softBorder}`}>
+          <div className="grid gap-3">
+            <DetailRow label="Compensation" value={opportunity.compensation} />
+            <DetailRow label="Eligibility" value={opportunity.eligibility} />
+            <DetailRow label="Discovered" value={formatTimestamp(opportunity.discoveredAt)} />
+            <DetailRow label="Updated" value={formatTimestamp(opportunity.updatedAt)} />
+          </div>
+
+          <div className="grid gap-2">
+            <QualityLine
+              label="Extract"
+              value={opportunity.confidence.extraction}
+              section={section}
+            />
+            <QualityLine
+              label="Duplicate"
+              value={opportunity.confidence.duplicateProbability}
+              section={section}
+            />
+          </div>
+
+          {opportunity.evidence.length > 0 && (
+            <ul className="grid gap-2 text-xs leading-5 text-[#516071]">
+              {opportunity.evidence.map((item) => (
+                <li key={item} className="border-l-2 border-[#cfd8e3] pl-3">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
+
       <a
         href={opportunity.url}
         target="_blank"
@@ -408,6 +457,15 @@ function OpportunityCard({
         <ExternalLink size={15} aria-hidden="true" />
       </a>
     </article>
+  );
+}
+
+function DetailRow({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="grid gap-1">
+      <span className="text-xs font-medium text-[#647184]">{label}</span>
+      <span className="leading-6 text-[#344256]">{value}</span>
+    </div>
   );
 }
 
@@ -657,6 +715,7 @@ function sectionTheme(section: OpportunitySection) {
       selectBorder: "border-[#8a5ce0] focus:border-[#6b2fc9]",
       card: "border-[#8a5ce0] bg-[#f4efff]",
       action: "bg-[#6b2fc9] hover:bg-[#5925ad]",
+      detailButton: "border-[#8a5ce0] text-[#4c2a89] hover:bg-[#faf7ff]",
       meter: "bg-[#6b2fc9]",
       emptyState: "border-[#bda7f2] bg-[#faf7ff] text-[#4c2a89]",
     };
@@ -670,6 +729,7 @@ function sectionTheme(section: OpportunitySection) {
     selectBorder: "border-[#ff73b8] focus:border-[#ff2f92]",
     card: "border-[#ff73b8] bg-[#fff0f7]",
     action: "bg-[#ff2f92] hover:bg-[#d81f78]",
+    detailButton: "border-[#ff73b8] text-[#8a0f4f] hover:bg-[#fff8fb]",
     meter: "bg-[#ff2f92]",
     emptyState: "border-[#ffacd1] bg-[#fff8fb] text-[#8a0f4f]",
   };
