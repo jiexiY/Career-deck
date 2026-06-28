@@ -55,12 +55,12 @@ The source links are stored in
 - Game: `https://chatgpt.com/share/6a418e8c-b8f4-83e8-863c-dde3976f0019`
 
 Vercel Cron runs `/api/cron/detect-conversation-updates`, configured in
-`vercel.json`. The project uses Vercel's fastest cron cadence, once per minute,
-where the Vercel plan supports it. Hobby plans limit cron to daily schedules.
-The first successful run creates the baseline snapshot. Later runs mark the
-source as `changed`, `unchanged`, `blocked`, or `failed`; changed means the
-public conversation page snapshot changed and should be synced into opportunity
-records deliberately.
+`vercel.json`. The deployed Hobby plan uses the fastest supported Hobby cadence,
+once per day. Vercel Pro can run the same endpoint once per minute by changing
+the schedule to `* * * * *`. The first successful run creates the baseline
+snapshot. Later runs mark the source as `changed`, `unchanged`, `blocked`, or
+`failed`; changed means the public conversation page snapshot changed and should
+be synced into opportunity records deliberately.
 
 Required Vercel environment variables:
 
