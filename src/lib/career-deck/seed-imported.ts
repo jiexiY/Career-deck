@@ -73,7 +73,7 @@ export const sources: Source[] = [
   {
     id: "src-chatgpt-share",
     name: "Shared ChatGPT Conversation Import",
-    homepage: "https://chatgpt.com/share/6a41792d-1580-83e8-86ba-ed6040307ce9",
+    homepage: "https://chatgpt.com/share/6a418ef2-e89c-83e8-9434-1af2bff1693",
     adapterKey: "chatGptShareImportAdapter",
     category: "mixed",
     status: "manual_review_required",

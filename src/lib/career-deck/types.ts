@@ -6,7 +6,9 @@ export type OpportunityType =
   | "part-time"
   | "full-time"
   | "hackathon"
+  | "recruiting-event"
   | "conference"
+  | "training-program"
   | "startup";
 
 export type SourceStatus =

@@ -1,9 +1,8 @@
 "use client";
 
 import {
-  BriefcaseBusiness,
   CalendarDays,
-  Check,
+  ChevronDown,
   CircleAlert,
   Cpu,
   ExternalLink,
@@ -19,9 +18,21 @@ import type {
   LiveUpdate,
   Opportunity,
   OpportunitySection,
+  OpportunityType,
 } from "@/lib/career-deck/types";
 
-type SectionFilter = "all" | OpportunitySection;
+type CategoryFilter = "all" | OpportunityType;
+
+const categoryOptions: Array<{ value: CategoryFilter; label: string }> = [
+  { value: "all", label: "All categories" },
+  { value: "internship", label: "Internships" },
+  { value: "student-community", label: "Student programs" },
+  { value: "co-op", label: "Co-ops" },
+  { value: "hackathon", label: "Hackathons" },
+  { value: "recruiting-event", label: "Recruiting events" },
+  { value: "fellowship", label: "Fellowships" },
+  { value: "training-program", label: "Training programs" },
+];
 
 export function ProfessionalCareerDeck({
   opportunities,
@@ -34,8 +45,11 @@ export function ProfessionalCareerDeck({
   conversationSources: ConversationSource[];
   conversationSnapshots: ConversationSnapshot[];
 }) {
-  const [section, setSection] = useState<SectionFilter>("all");
   const [query, setQuery] = useState("");
+  const [categories, setCategories] = useState<Record<OpportunitySection, CategoryFilter>>({
+    tech: "all",
+    game: "all",
+  });
 
   const counts = useMemo(
     () => ({
@@ -46,12 +60,17 @@ export function ProfessionalCareerDeck({
     [opportunities],
   );
 
-  const filtered = useMemo(() => {
-    const normalizedQuery = query.trim().toLowerCase();
+  const normalizedQuery = query.trim().toLowerCase();
+  const updatesBySection = new Map(
+    liveUpdates.map((update) => [update.section ?? "tech", update] as const),
+  );
+
+  function filteredFor(section: OpportunitySection) {
+    const category = categories[section];
 
     return opportunities.filter((opportunity) => {
-      const matchesSection =
-        section === "all" ? true : (opportunity.section ?? "tech") === section;
+      const matchesSection = (opportunity.section ?? "tech") === section;
+      const matchesCategory = category === "all" || opportunity.type === category;
       const searchable = [
         opportunity.title,
         opportunity.organization,
@@ -61,16 +80,28 @@ export function ProfessionalCareerDeck({
         .join(" ")
         .toLowerCase();
 
-      return matchesSection && (!normalizedQuery || searchable.includes(normalizedQuery));
+      return (
+        matchesSection &&
+        matchesCategory &&
+        (!normalizedQuery || searchable.includes(normalizedQuery))
+      );
     });
-  }, [opportunities, query, section]);
+  }
 
-  const spotlight = filtered.slice(0, 6);
+  function setSectionCategory(section: OpportunitySection, value: CategoryFilter) {
+    setCategories((current) => ({ ...current, [section]: value }));
+    window.requestAnimationFrame(() => {
+      document.getElementById(`${section}-${value}-opportunities`)?.scrollIntoView({
+        block: "start",
+        behavior: "smooth",
+      });
+    });
+  }
 
   return (
-    <main className="min-h-screen bg-[#f4f6f8] text-[#101418]">
+    <main className="min-h-screen bg-[#f7f8fb] text-[#101418]">
       <section className="border-b border-[#dfe4ea] bg-white">
-        <div className="mx-auto grid max-w-7xl gap-8 px-5 py-8 lg:grid-cols-[1fr_360px] lg:items-end">
+        <div className="mx-auto grid max-w-7xl gap-8 px-5 py-8 lg:grid-cols-[1fr_380px] lg:items-end">
           <div>
             <div className="mb-5 inline-flex items-center gap-2 rounded-lg border border-[#cfd8e3] bg-[#f7fafc] px-3 py-2 text-sm font-medium text-[#344256]">
               <Sparkles size={16} aria-hidden="true" />
@@ -80,8 +111,8 @@ export function ProfessionalCareerDeck({
               Career Deck
             </h1>
             <p className="mt-4 max-w-3xl text-lg leading-8 text-[#516071]">
-              A curated opportunity board for tech and game careers, synced from your shared
-              research conversations and organized for fast scanning.
+              Tech and game opportunities synced from your shared research conversations, grouped
+              by the career paths you want to watch.
             </p>
           </div>
 
@@ -94,17 +125,47 @@ export function ProfessionalCareerDeck({
       </section>
 
       <section className="mx-auto max-w-7xl px-5 py-6">
-        <div className="grid gap-4 lg:grid-cols-[1fr_340px]">
-          <div className="grid gap-3">
-            {liveUpdates.map((update) => (
-              <SyncCard key={update.id} update={update} />
-            ))}
+        <div className="grid gap-4 lg:grid-cols-[1fr_360px]">
+          <div className="grid gap-4">
+            <section className="rounded-lg border border-[#dfe4ea] bg-white p-4">
+              <label className="relative block">
+                <Search
+                  size={18}
+                  className="absolute left-3 top-1/2 -translate-y-1/2 text-[#6b7788]"
+                  aria-hidden="true"
+                />
+                <input
+                  value={query}
+                  onChange={(event) => setQuery(event.target.value)}
+                  placeholder="Search roles, studios, companies, programs"
+                  className="h-11 w-full rounded-lg border border-[#cfd8e3] bg-[#f8fafc] pl-10 pr-3 text-sm outline-none focus:border-[#101418] focus:bg-white"
+                />
+              </label>
+            </section>
+
+            <SectionDeck
+              section="tech"
+              category={categories.tech}
+              setCategory={(value) => setSectionCategory("tech", value)}
+              opportunities={filteredFor("tech")}
+              total={counts.tech}
+              update={updatesBySection.get("tech")}
+            />
+
+            <SectionDeck
+              section="game"
+              category={categories.game}
+              setCategory={(value) => setSectionCategory("game", value)}
+              opportunities={filteredFor("game")}
+              total={counts.game}
+              update={updatesBySection.get("game")}
+            />
           </div>
 
-          <aside className="rounded-lg border border-[#dfe4ea] bg-white p-4">
+          <aside className="rounded-lg border border-[#dfe4ea] bg-white p-4 lg:sticky lg:top-4 lg:self-start">
             <p className="text-sm font-semibold text-[#101418]">Deck Snapshot</p>
             <div className="mt-4 grid gap-3 text-sm">
-              <SnapshotRow label="Visible records" value={String(filtered.length)} />
+              <SnapshotRow label="Total records" value={String(counts.all)} />
               <SnapshotRow label="Tech section" value={String(counts.tech)} />
               <SnapshotRow label="Game section" value={String(counts.game)} />
               <SnapshotRow label="Last sync" value={latestSync(liveUpdates)} />
@@ -116,63 +177,6 @@ export function ProfessionalCareerDeck({
             />
           </aside>
         </div>
-
-        <section className="mt-6 rounded-lg border border-[#dfe4ea] bg-white p-4">
-          <div className="grid gap-3 lg:grid-cols-[auto_1fr] lg:items-center">
-            <div className="flex flex-wrap gap-2">
-              {(["all", "tech", "game"] as const).map((item) => (
-                <button
-                  type="button"
-                  key={item}
-                  onClick={() => setSection(item)}
-                  className={`inline-flex h-10 items-center gap-2 rounded-lg px-4 text-sm font-medium capitalize ${
-                    section === item
-                      ? "bg-[#101418] text-white"
-                      : "border border-[#cfd8e3] bg-white text-[#344256] hover:bg-[#f4f6f8]"
-                  }`}
-                >
-                  {item === "game" && <Gamepad2 size={16} aria-hidden="true" />}
-                  {item === "tech" && <Cpu size={16} aria-hidden="true" />}
-                  {item === "all" && <BriefcaseBusiness size={16} aria-hidden="true" />}
-                  {item} ({counts[item]})
-                </button>
-              ))}
-            </div>
-
-            <label className="relative block">
-              <Search
-                size={18}
-                className="absolute left-3 top-1/2 -translate-y-1/2 text-[#6b7788]"
-                aria-hidden="true"
-              />
-              <input
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search roles, studios, programs"
-                className="h-10 w-full rounded-lg border border-[#cfd8e3] bg-[#f8fafc] pl-10 pr-3 text-sm outline-none focus:border-[#101418] focus:bg-white"
-              />
-            </label>
-          </div>
-        </section>
-
-        <section className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {spotlight.map((opportunity) => (
-            <OpportunityCard key={opportunity.id} opportunity={opportunity} />
-          ))}
-        </section>
-
-        {filtered.length > spotlight.length && (
-          <section className="mt-6 rounded-lg border border-[#dfe4ea] bg-white">
-            <div className="border-b border-[#e8edf2] px-4 py-3">
-              <h2 className="text-base font-semibold text-[#101418]">More Opportunities</h2>
-            </div>
-            <div className="divide-y divide-[#e8edf2]">
-              {filtered.slice(6).map((opportunity) => (
-                <CompactOpportunity key={opportunity.id} opportunity={opportunity} />
-              ))}
-            </div>
-          </section>
-        )}
       </section>
     </main>
   );
@@ -187,43 +191,125 @@ function HeroStat({ label, value }: { label: string; value: number }) {
   );
 }
 
-function SyncCard({ update }: { update: LiveUpdate }) {
+function SectionDeck({
+  section,
+  category,
+  setCategory,
+  opportunities,
+  total,
+  update,
+}: {
+  section: OpportunitySection;
+  category: CategoryFilter;
+  setCategory: (value: CategoryFilter) => void;
+  opportunities: Opportunity[];
+  total: number;
+  update?: LiveUpdate;
+}) {
+  const theme = sectionTheme(section);
+  const categoryLabel = categoryOptions.find((item) => item.value === category)?.label ?? "All";
+
   return (
-    <article className="rounded-lg border border-[#dfe4ea] bg-white p-4">
-      <div className="flex flex-wrap items-center gap-2">
-        <SectionBadge section={update.section ?? "tech"} />
-        <span className="inline-flex h-7 items-center gap-1 rounded-lg border border-[#bfd8c7] bg-[#f0faf3] px-2 text-xs font-medium text-[#1d6b3b]">
-          <Check size={13} aria-hidden="true" />
-          Synced
-        </span>
-      </div>
-      <h2 className="mt-3 text-lg font-semibold text-[#101418]">{update.title}</h2>
-      <p className="mt-2 text-sm leading-6 text-[#516071]">{update.summary}</p>
-      <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
-        <span className="font-mono text-xs text-[#647184]">{formatTimestamp(update.updatedAt)}</span>
-        {update.sourceUrl && (
-          <a
-            href={update.sourceUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex h-8 items-center gap-2 rounded-lg border border-[#cfd8e3] px-3 font-medium text-[#263241] hover:bg-[#f4f6f8]"
-          >
-            <ExternalLink size={14} aria-hidden="true" />
-            Open source
-          </a>
+    <section
+      id={`${section}-${category}-opportunities`}
+      className={`rounded-lg border bg-white ${theme.border}`}
+    >
+      <div className={`border-b ${theme.softBorder} ${theme.headerBg} p-4`}>
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <div>
+            <div className="flex flex-wrap items-center gap-2">
+              <SectionBadge section={section} />
+              <span className={`rounded-lg px-2 py-1 text-xs font-semibold ${theme.countBadge}`}>
+                {opportunities.length} shown
+              </span>
+              <span className="text-xs font-medium text-[#647184]">{total} total</span>
+            </div>
+            <h2 className="mt-3 text-2xl font-semibold text-[#101418]">
+              {section === "tech" ? "Tech Opportunities" : "Game Opportunities"}
+            </h2>
+            <p className="mt-2 max-w-2xl text-sm leading-6 text-[#516071]">
+              {update?.summary ??
+                "Synced opportunities from the connected conversation source."}
+            </p>
+          </div>
+
+          <label className="relative min-w-[220px]">
+            <span className="sr-only">
+              {section === "tech" ? "Tech category" : "Game category"}
+            </span>
+            <select
+              value={category}
+              onChange={(event) => setCategory(event.target.value as CategoryFilter)}
+              className={`h-11 w-full appearance-none rounded-lg border bg-white pl-3 pr-10 text-sm font-medium outline-none ${theme.selectBorder}`}
+            >
+              {categoryOptions.map((item) => (
+                <option key={item.value} value={item.value}>
+                  {item.label}
+                </option>
+              ))}
+            </select>
+            <ChevronDown
+              size={16}
+              className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[#647184]"
+              aria-hidden="true"
+            />
+          </label>
+        </div>
+
+        {update?.sourceUrl && (
+          <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
+            <span className="font-mono text-xs text-[#647184]">
+              {formatTimestamp(update.updatedAt)}
+            </span>
+            <a
+              href={update.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex h-8 items-center gap-2 rounded-lg border border-[#cfd8e3] bg-white px-3 font-medium text-[#263241] hover:bg-[#f4f6f8]"
+            >
+              <ExternalLink size={14} aria-hidden="true" />
+              Open source
+            </a>
+          </div>
         )}
       </div>
-    </article>
+
+      <div className="p-4">
+        {opportunities.length ? (
+          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {opportunities.map((opportunity) => (
+              <OpportunityCard
+                key={opportunity.id}
+                opportunity={opportunity}
+                section={section}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className={`rounded-lg border border-dashed p-6 text-sm ${theme.emptyState}`}>
+            No {categoryLabel.toLowerCase()} found in this section yet.
+          </div>
+        )}
+      </div>
+    </section>
   );
 }
 
-function OpportunityCard({ opportunity }: { opportunity: Opportunity }) {
+function OpportunityCard({
+  opportunity,
+  section,
+}: {
+  opportunity: Opportunity;
+  section: OpportunitySection;
+}) {
+  const theme = sectionTheme(section);
+
   return (
-    <article className="flex min-h-[300px] flex-col rounded-lg border border-[#dfe4ea] bg-white p-5">
+    <article className={`flex min-h-[318px] flex-col rounded-lg border p-5 ${theme.card}`}>
       <div className="flex flex-wrap items-center gap-2">
-        <SectionBadge section={opportunity.section ?? "tech"} />
-        <span className="rounded-lg bg-[#eef2f6] px-2 py-1 text-xs font-medium capitalize text-[#344256]">
-          {opportunity.type.replace("-", " ")}
+        <SectionBadge section={section} />
+        <span className="rounded-lg bg-white/80 px-2 py-1 text-xs font-medium capitalize text-[#344256]">
+          {formatOpportunityType(opportunity.type)}
         </span>
         {needsVerification(opportunity) && (
           <span className="rounded-lg border border-[#e0c47a] bg-[#fff8dc] px-2 py-1 text-xs font-medium text-[#765800]">
@@ -244,46 +330,18 @@ function OpportunityCard({ opportunity }: { opportunity: Opportunity }) {
       </div>
 
       <div className="mt-5 grid gap-2 text-sm">
-        <QualityLine label="Source" value={opportunity.confidence.source} />
-        <QualityLine label="Freshness" value={opportunity.confidence.freshness} />
+        <QualityLine label="Source" value={opportunity.confidence.source} section={section} />
+        <QualityLine label="Freshness" value={opportunity.confidence.freshness} section={section} />
       </div>
 
       <a
         href={opportunity.url}
         target="_blank"
         rel="noreferrer"
-        className="mt-auto inline-flex h-10 items-center justify-center gap-2 rounded-lg bg-[#101418] px-4 text-sm font-medium text-white hover:bg-[#28313c]"
+        className={`mt-auto inline-flex h-10 items-center justify-center gap-2 rounded-lg px-4 text-sm font-semibold text-white ${theme.action}`}
       >
-        Open role
+        Open opportunity
         <ExternalLink size={15} aria-hidden="true" />
-      </a>
-    </article>
-  );
-}
-
-function CompactOpportunity({ opportunity }: { opportunity: Opportunity }) {
-  return (
-    <article className="grid gap-3 px-4 py-4 lg:grid-cols-[1fr_150px_120px_auto] lg:items-center">
-      <div>
-        <div className="flex flex-wrap items-center gap-2">
-          <SectionBadge section={opportunity.section ?? "tech"} />
-          {needsVerification(opportunity) && (
-            <span className="text-xs font-medium text-[#765800]">Verify source</span>
-          )}
-        </div>
-        <h3 className="mt-2 font-semibold text-[#101418]">{opportunity.title}</h3>
-        <p className="mt-1 text-sm text-[#647184]">{opportunity.organization}</p>
-      </div>
-      <p className="text-sm capitalize text-[#344256]">{opportunity.type.replace("-", " ")}</p>
-      <p className="font-mono text-xs text-[#647184]">{opportunity.deadline}</p>
-      <a
-        href={opportunity.url}
-        target="_blank"
-        rel="noreferrer"
-        className="inline-flex h-9 items-center justify-center gap-2 rounded-lg border border-[#cfd8e3] px-3 text-sm font-medium text-[#263241] hover:bg-[#f4f6f8]"
-      >
-        Open
-        <ExternalLink size={14} aria-hidden="true" />
       </a>
     </article>
   );
@@ -295,7 +353,7 @@ function SectionBadge({ section }: { section: OpportunitySection }) {
   return (
     <span
       className={`inline-flex h-7 items-center gap-1 rounded-lg px-2 text-xs font-semibold capitalize ${
-        isGame ? "bg-[#ede7ff] text-[#4b2ba8]" : "bg-[#e8f2ff] text-[#1f5d99]"
+        isGame ? "bg-[#6b2fc9] text-white" : "bg-[#ff2f92] text-white"
       }`}
     >
       {isGame ? <Gamepad2 size={13} aria-hidden="true" /> : <Cpu size={13} aria-hidden="true" />}
@@ -313,13 +371,23 @@ function InfoLine({ icon, value }: { icon: React.ReactNode; value: string }) {
   );
 }
 
-function QualityLine({ label, value }: { label: string; value: number }) {
+function QualityLine({
+  label,
+  value,
+  section,
+}: {
+  label: string;
+  value: number;
+  section: OpportunitySection;
+}) {
+  const theme = sectionTheme(section);
+
   return (
     <div className="grid grid-cols-[78px_1fr_42px] items-center gap-2">
       <span className="text-xs text-[#647184]">{label}</span>
-      <span className="h-2 rounded-sm bg-[#e7edf3]">
+      <span className="h-2 rounded-sm bg-white/80">
         <span
-          className="block h-2 rounded-sm bg-[#1f6f8b]"
+          className={`block h-2 rounded-sm ${theme.meter}`}
           style={{ width: `${Math.round(value * 100)}%` }}
         />
       </span>
@@ -465,4 +533,40 @@ function statusTone(status: ConversationSnapshot["status"]) {
   }
 
   return "text-[#647184]";
+}
+
+function formatOpportunityType(type: OpportunityType) {
+  return type
+    .replace("student-community", "student program")
+    .replace("recruiting-event", "recruiting event")
+    .replace("training-program", "training program")
+    .replace("-", " ");
+}
+
+function sectionTheme(section: OpportunitySection) {
+  if (section === "game") {
+    return {
+      border: "border-[#6b2fc9]",
+      softBorder: "border-[#d7c6ff]",
+      headerBg: "bg-[#f5f0ff]",
+      countBadge: "bg-[#6b2fc9] text-white",
+      selectBorder: "border-[#8a5ce0] focus:border-[#6b2fc9]",
+      card: "border-[#8a5ce0] bg-[#f4efff]",
+      action: "bg-[#6b2fc9] hover:bg-[#5925ad]",
+      meter: "bg-[#6b2fc9]",
+      emptyState: "border-[#bda7f2] bg-[#faf7ff] text-[#4c2a89]",
+    };
+  }
+
+  return {
+    border: "border-[#ff2f92]",
+    softBorder: "border-[#ffc2dd]",
+    headerBg: "bg-[#fff0f7]",
+    countBadge: "bg-[#ff2f92] text-white",
+    selectBorder: "border-[#ff73b8] focus:border-[#ff2f92]",
+    card: "border-[#ff73b8] bg-[#fff0f7]",
+    action: "bg-[#ff2f92] hover:bg-[#d81f78]",
+    meter: "bg-[#ff2f92]",
+    emptyState: "border-[#ffacd1] bg-[#fff8fb] text-[#8a0f4f]",
+  };
 }

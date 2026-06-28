@@ -4,7 +4,7 @@
       "id": "chatgpt-tech-source",
       "name": "Tech Conversation Source",
       "section": "tech",
-      "url": "https://chatgpt.com/share/6a41792d-1580-83e8-86ba-ed6040307ce9",
+      "url": "https://chatgpt.com/share/6a418ef2-e89c-83e8-9434-1af2bff1693",
       "status": "active",
       "description": "Shared ChatGPT research conversation used to sync the Tech section."
     },
@@ -12,7 +12,7 @@
       "id": "chatgpt-game-source",
       "name": "Game Conversation Source",
       "section": "game",
-      "url": "https://chatgpt.com/share/6a4181c9-c0ac-83e8-8d08-7bf304c26a88",
+      "url": "https://chatgpt.com/share/6a418e8c-b8f4-83e8-863c-dde3976f0019",
       "status": "active",
       "description": "Shared ChatGPT research conversation used to sync the Game section."
     }

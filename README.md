@@ -51,14 +51,16 @@ Open [http://localhost:3000](http://localhost:3000).
 The source links are stored in
 `src/lib/career-deck/conversation-sources.json`:
 
-- Tech: `https://chatgpt.com/share/6a41792d-1580-83e8-86ba-ed6040307ce9`
-- Game: `https://chatgpt.com/share/6a4181c9-c0ac-83e8-8d08-7bf304c26a88`
+- Tech: `https://chatgpt.com/share/6a418ef2-e89c-83e8-9434-1af2bff1693`
+- Game: `https://chatgpt.com/share/6a418e8c-b8f4-83e8-863c-dde3976f0019`
 
-Vercel Cron runs `/api/cron/detect-conversation-updates` daily, configured in
-`vercel.json`. The first successful run creates the baseline snapshot. Later
-runs mark the source as `changed`, `unchanged`, `blocked`, or `failed`; changed
-means the public conversation page snapshot changed and should be synced into
-opportunity records deliberately.
+Vercel Cron runs `/api/cron/detect-conversation-updates`, configured in
+`vercel.json`. The project uses Vercel's fastest cron cadence, once per minute,
+where the Vercel plan supports it. Hobby plans limit cron to daily schedules.
+The first successful run creates the baseline snapshot. Later runs mark the
+source as `changed`, `unchanged`, `blocked`, or `failed`; changed means the
+public conversation page snapshot changed and should be synced into opportunity
+records deliberately.
 
 Required Vercel environment variables:
 
