@@ -7,6 +7,7 @@ import {
   Clock3,
   Database,
   Download,
+  ExternalLink,
   FileText,
   GitMerge,
   RefreshCw,
@@ -201,7 +202,7 @@ function OpportunityTable({
         <h2 className="text-lg font-semibold">Opportunity Deck</h2>
       </div>
       <div className="overflow-x-auto">
-        <table className="w-full min-w-[940px] border-collapse text-left text-sm">
+        <table className="w-full min-w-[1040px] border-collapse text-left text-sm">
           <thead>
             <tr className="border-b border-[#d9dde3] bg-[#f2f4f7] text-[#4b5563]">
               <th className="px-4 py-3 font-medium">Role</th>
@@ -210,6 +211,7 @@ function OpportunityTable({
               <th className="px-4 py-3 font-medium">Confidence</th>
               <th className="px-4 py-3 font-medium">Status</th>
               <th className="px-4 py-3 font-medium">Source</th>
+              <th className="px-4 py-3 font-medium">Link</th>
             </tr>
           </thead>
           <tbody>
@@ -237,6 +239,17 @@ function OpportunityTable({
                     )}
                   </td>
                   <td className="px-4 py-4">{source?.name ?? "Unknown"}</td>
+                  <td className="px-4 py-4">
+                    <a
+                      href={opportunity.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`Open ${opportunity.title}`}
+                      className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-[#c7ced8] hover:bg-[#eef2f6]"
+                    >
+                      <ExternalLink size={15} aria-hidden="true" />
+                    </a>
+                  </td>
                 </tr>
               );
             })}
