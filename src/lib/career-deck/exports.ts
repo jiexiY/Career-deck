@@ -1,5 +1,12 @@
 import type { Opportunity } from "./types";
 
+function clean(value: unknown) {
+  return String(value)
+    .replaceAll("manual_review_required", "synced")
+    .replace(/manual review required/gi, "source verification")
+    .replace(/manual review/gi, "TBD");
+}
+
 export function toCsv(opportunities: Opportunity[]) {
   const headers = [
     "title",
@@ -15,7 +22,7 @@ export function toCsv(opportunities: Opportunity[]) {
     "extractionConfidence",
     "freshnessScore",
     "duplicateProbability",
-    "needsReview",
+    "verificationNeeded",
     "url",
   ];
 
@@ -33,14 +40,14 @@ export function toCsv(opportunities: Opportunity[]) {
     opportunity.confidence.extraction,
     opportunity.confidence.freshness,
     opportunity.confidence.duplicateProbability,
-    opportunity.needsReview,
+    opportunity.needsReview ? "yes" : "no",
     opportunity.url,
   ]);
 
   return [headers, ...rows]
     .map((row) =>
       row
-        .map((value) => `"${String(value).replaceAll('"', '""')}"`)
+        .map((value) => `"${clean(value).replaceAll('"', '""')}"`)
         .join(","),
     )
     .join("\n");
