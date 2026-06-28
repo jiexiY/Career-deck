@@ -13,6 +13,8 @@ export default async function Home() {
     <ProfessionalCareerDeck
       opportunities={data.opportunities.map(scrubOpportunity)}
       liveUpdates={liveUpdates.map(scrubLiveUpdate)}
+      conversationSources={data.conversationSources ?? []}
+      conversationSnapshots={data.conversationSnapshots ?? []}
     />
   );
 }

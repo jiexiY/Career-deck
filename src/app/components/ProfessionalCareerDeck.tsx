@@ -4,6 +4,7 @@ import {
   BriefcaseBusiness,
   CalendarDays,
   Check,
+  CircleAlert,
   Cpu,
   ExternalLink,
   Gamepad2,
@@ -13,6 +14,8 @@ import {
 } from "lucide-react";
 import { useMemo, useState } from "react";
 import type {
+  ConversationSnapshot,
+  ConversationSource,
   LiveUpdate,
   Opportunity,
   OpportunitySection,
@@ -23,9 +26,13 @@ type SectionFilter = "all" | OpportunitySection;
 export function ProfessionalCareerDeck({
   opportunities,
   liveUpdates,
+  conversationSources,
+  conversationSnapshots,
 }: {
   opportunities: Opportunity[];
   liveUpdates: LiveUpdate[];
+  conversationSources: ConversationSource[];
+  conversationSnapshots: ConversationSnapshot[];
 }) {
   const [section, setSection] = useState<SectionFilter>("all");
   const [query, setQuery] = useState("");
@@ -102,6 +109,11 @@ export function ProfessionalCareerDeck({
               <SnapshotRow label="Game section" value={String(counts.game)} />
               <SnapshotRow label="Last sync" value={latestSync(liveUpdates)} />
             </div>
+
+            <SourceMonitor
+              sources={conversationSources}
+              snapshots={conversationSnapshots}
+            />
           </aside>
         </div>
 
@@ -325,6 +337,69 @@ function SnapshotRow({ label, value }: { label: string; value: string }) {
   );
 }
 
+function SourceMonitor({
+  sources,
+  snapshots,
+}: {
+  sources: ConversationSource[];
+  snapshots: ConversationSnapshot[];
+}) {
+  const snapshotBySource = new Map(snapshots.map((item) => [item.sourceId, item]));
+
+  if (!sources.length) {
+    return null;
+  }
+
+  return (
+    <div className="mt-5 border-t border-[#eef2f5] pt-4">
+      <p className="text-sm font-semibold text-[#101418]">Source Monitor</p>
+      <div className="mt-3 divide-y divide-[#eef2f5]">
+        {sources.map((source) => {
+          const snapshot = snapshotBySource.get(source.id);
+          const status = snapshot?.status ?? "baseline_pending";
+
+          return (
+            <div key={source.id} className="py-3 first:pt-0 last:pb-0">
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <SectionBadge section={source.section} />
+                    <span className={`text-xs font-semibold ${statusTone(status)}`}>
+                      {sourceStatusLabel(status)}
+                    </span>
+                  </div>
+                  <p className="mt-2 text-sm font-medium text-[#101418]">{source.name}</p>
+                  <p className="mt-1 text-xs leading-5 text-[#647184]">
+                    {snapshot?.lastFetchedAt
+                      ? `Checked ${formatTimestamp(snapshot.lastFetchedAt)}`
+                      : "Waiting for first scheduled check"}
+                  </p>
+                </div>
+                <a
+                  href={source.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-[#cfd8e3] text-[#263241] hover:bg-[#f4f6f8]"
+                  aria-label={`Open ${source.name}`}
+                  title={`Open ${source.name}`}
+                >
+                  <ExternalLink size={14} aria-hidden="true" />
+                </a>
+              </div>
+              {snapshot?.failureReason && (
+                <p className="mt-2 inline-flex items-center gap-1 text-xs text-[#8a4b10]">
+                  <CircleAlert size={13} aria-hidden="true" />
+                  {snapshot.failureReason}
+                </p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 function needsVerification(opportunity: Opportunity) {
   return (
     opportunity.needsReview ||
@@ -354,4 +429,40 @@ function formatTimestamp(value: string) {
     hour: "numeric",
     minute: "2-digit",
   }).format(date);
+}
+
+function sourceStatusLabel(status: ConversationSnapshot["status"]) {
+  if (status === "changed") {
+    return "Changed";
+  }
+
+  if (status === "unchanged") {
+    return "Unchanged";
+  }
+
+  if (status === "blocked") {
+    return "Blocked";
+  }
+
+  if (status === "failed") {
+    return "Fetch failed";
+  }
+
+  return "Baseline pending";
+}
+
+function statusTone(status: ConversationSnapshot["status"]) {
+  if (status === "changed") {
+    return "text-[#8a4b10]";
+  }
+
+  if (status === "blocked" || status === "failed") {
+    return "text-[#9b1c1c]";
+  }
+
+  if (status === "unchanged") {
+    return "text-[#1d6b3b]";
+  }
+
+  return "text-[#647184]";
 }

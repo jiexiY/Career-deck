@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/detect-conversation-updates",
+      "schedule": "0 16 * * *"
+    }
+  ]
+}

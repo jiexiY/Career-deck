@@ -27,6 +27,13 @@ export type OpportunityStatus = "open" | "changed" | "closed" | "removed";
 
 export type OpportunitySection = "tech" | "game";
 
+export type ConversationSnapshotStatus =
+  | "baseline_pending"
+  | "unchanged"
+  | "changed"
+  | "blocked"
+  | "failed";
+
 export interface ConfidenceScores {
   source: number;
   extraction: number;
@@ -131,6 +138,28 @@ export interface LiveUpdate {
   items: string[];
 }
 
+export interface ConversationSource {
+  id: string;
+  name: string;
+  section: OpportunitySection;
+  url: string;
+  status: "active" | "blocked" | "paused";
+  description: string;
+}
+
+export interface ConversationSnapshot {
+  sourceId: string;
+  url: string;
+  status: ConversationSnapshotStatus;
+  lastFetchedAt?: string;
+  lastChangedAt?: string;
+  rawHash?: string;
+  normalizedHash?: string;
+  rawLength?: number;
+  normalizedLength?: number;
+  failureReason?: string;
+}
+
 export interface DashboardData {
   sources: Source[];
   attempts: FetchAttempt[];
@@ -139,4 +168,6 @@ export interface DashboardData {
   report: DailyReport;
   liveUpdate?: LiveUpdate;
   liveUpdates?: LiveUpdate[];
+  conversationSources?: ConversationSource[];
+  conversationSnapshots?: ConversationSnapshot[];
 }

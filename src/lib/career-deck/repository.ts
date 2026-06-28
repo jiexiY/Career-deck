@@ -1,6 +1,8 @@
 import fallbackLiveData from "./live-data.json";
 import fallbackLiveUpdate from "./live-update.json";
 import fallbackLiveUpdates from "./live-updates.json";
+import fallbackConversationSources from "./conversation-sources.json";
+import fallbackConversationSnapshots from "./conversation-snapshots.json";
 import {
   attempts,
   opportunities,
@@ -10,6 +12,8 @@ import {
 } from "./seed-imported";
 import type {
   DashboardData,
+  ConversationSnapshot,
+  ConversationSource,
   DailyReport,
   FetchAttempt,
   LiveUpdate,
@@ -36,6 +40,15 @@ type LiveUpdatesData = {
   updates?: LiveUpdate[];
 };
 
+type ConversationSourcesData = {
+  sources?: ConversationSource[];
+};
+
+type ConversationSnapshotsData = {
+  updatedAt?: string | null;
+  snapshots?: ConversationSnapshot[];
+};
+
 const rawBaseUrl =
   "https://raw.githubusercontent.com/jiexiY/Career-deck/main/src/lib/career-deck";
 const liveDataUrl = process.env.CAREER_DECK_LIVE_DATA_URL ?? `${rawBaseUrl}/live-data.json`;
@@ -43,6 +56,12 @@ const liveUpdateUrl =
   process.env.CAREER_DECK_LIVE_UPDATE_URL ?? `${rawBaseUrl}/live-update.json`;
 const liveUpdatesUrl =
   process.env.CAREER_DECK_LIVE_UPDATES_URL ?? `${rawBaseUrl}/live-updates.json`;
+const conversationSourcesUrl =
+  process.env.CAREER_DECK_CONVERSATION_SOURCES_URL ??
+  `${rawBaseUrl}/conversation-sources.json`;
+const conversationSnapshotsUrl =
+  process.env.CAREER_DECK_CONVERSATION_SNAPSHOTS_URL ??
+  `${rawBaseUrl}/conversation-snapshots.json`;
 
 const opportunityTypes: OpportunityType[] = [
   "internship",
@@ -187,6 +206,14 @@ async function getDashboardSnapshot(): Promise<DashboardData> {
     liveUpdatesUrl,
     fallbackLiveUpdates as LiveUpdatesData,
   );
+  const conversationSourcesPayload = await fetchJson<ConversationSourcesData>(
+    conversationSourcesUrl,
+    fallbackConversationSources as ConversationSourcesData,
+  );
+  const conversationSnapshotsPayload = await fetchJson<ConversationSnapshotsData>(
+    conversationSnapshotsUrl,
+    fallbackConversationSnapshots as ConversationSnapshotsData,
+  );
   const liveUpdates = normalizeLiveUpdates(liveUpdatesPayload);
   const liveRecords = liveData.opportunities ?? [];
   const liveOpportunities = liveRecords.map((record, index) =>
@@ -202,6 +229,8 @@ async function getDashboardSnapshot(): Promise<DashboardData> {
     report,
     liveUpdate,
     liveUpdates,
+    conversationSources: conversationSourcesPayload.sources ?? [],
+    conversationSnapshots: conversationSnapshotsPayload.snapshots ?? [],
   };
 }
 

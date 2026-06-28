@@ -3,7 +3,7 @@ for internships, co-ops, fellowships, student communities, part-time and
 full-time roles, hackathons, conferences, and startup opportunities.
 
 The platform is built around a database contract first. Scrapers are independent
-source adapters, so blocked or incomplete sources are recorded as review work
+source adapters, so blocked or incomplete sources are recorded as source status
 instead of being guessed into real opportunity records.
 
 ## Architecture
@@ -16,8 +16,11 @@ instead of being guessed into real opportunity records.
 - `src/lib/career-deck/reports.ts` generates daily changelogs only from
   repository data.
 - `src/lib/career-deck/exports.ts` exports validated database records.
-- `src/app/components/CareerDeckDashboard.tsx` is the operational dashboard and
-  manual review surface.
+- `src/app/components/ProfessionalCareerDeck.tsx` is the public career website.
+- `src/lib/career-deck/conversation-sources.json` stores the ChatGPT share links
+  used as Tech and Game source inputs.
+- `src/lib/career-deck/conversation-snapshots.json` stores source-page hashes
+  written by the scheduled detector.
 
 ## Run
 
@@ -30,8 +33,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Guardrails
 
 - Blocked sources save attempted timestamps and failure reasons.
-- Manual review items can be approved, rejected, merged, edited, and associated
-  with screenshots or PDFs.
+- Blocked or failed sources stay visible with their latest reason.
 - Confidence scores are shown for source, extraction, freshness, and duplicate
   probability.
 - Daily reports compare today's report with the previous dated report.
@@ -41,6 +43,33 @@ Open [http://localhost:3000](http://localhost:3000).
 
 - `POST /api/monitor/run` runs the adapter registry and returns safe attempts.
 - `GET /api/exports/opportunities` downloads database opportunity records as CSV.
+- `GET /api/cron/detect-conversation-updates` checks the ChatGPT source links,
+  compares normalized page hashes, and saves changed or blocked status.
+
+## Conversation Source Sync
+
+The source links are stored in
+`src/lib/career-deck/conversation-sources.json`:
+
+- Tech: `https://chatgpt.com/share/6a41792d-1580-83e8-86ba-ed6040307ce9`
+- Game: `https://chatgpt.com/share/6a4181c9-c0ac-83e8-8d08-7bf304c26a88`
+
+Vercel Cron runs `/api/cron/detect-conversation-updates` daily, configured in
+`vercel.json`. The first successful run creates the baseline snapshot. Later
+runs mark the source as `changed`, `unchanged`, `blocked`, or `failed`; changed
+means the public conversation page snapshot changed and should be synced into
+opportunity records deliberately.
+
+Required Vercel environment variables:
+
+- `CRON_SECRET`: protects the cron endpoint.
+- `CAREER_DECK_GITHUB_TOKEN`: lets the cron route save snapshot updates back to
+  this repository.
+
+Optional variables:
+
+- `CAREER_DECK_GITHUB_REPO`: defaults to `jiexiY/Career-deck`.
+- `CAREER_DECK_GITHUB_BRANCH`: defaults to `main`.
 
 ## Build
 
