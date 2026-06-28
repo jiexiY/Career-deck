@@ -11,7 +11,7 @@ import {
   Search,
   Sparkles,
 } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type {
   ConversationSnapshot,
   ConversationSource,
@@ -22,6 +22,11 @@ import type {
 } from "@/lib/career-deck/types";
 
 type CategoryFilter = "all" | OpportunityType;
+
+type LiveConversationResponse = {
+  ok?: boolean;
+  opportunities?: Opportunity[];
+};
 
 const categoryOptions: Array<{ value: CategoryFilter; label: string }> = [
   { value: "all", label: "All categories" },
@@ -46,18 +51,51 @@ export function ProfessionalCareerDeck({
   conversationSnapshots: ConversationSnapshot[];
 }) {
   const [query, setQuery] = useState("");
+  const [deckOpportunities, setDeckOpportunities] = useState(opportunities);
   const [categories, setCategories] = useState<Record<OpportunitySection, CategoryFilter>>({
     tech: "all",
     game: "all",
   });
 
+  useEffect(() => {
+    let cancelled = false;
+
+    async function refreshConversationOpportunities() {
+      try {
+        const response = await fetch("/api/live/conversation-opportunities", {
+          cache: "no-store",
+        });
+
+        if (!response.ok) {
+          return;
+        }
+
+        const payload = (await response.json()) as LiveConversationResponse;
+
+        if (!cancelled && Array.isArray(payload.opportunities)) {
+          setDeckOpportunities((current) => mergeOpportunities(current, payload.opportunities ?? []));
+        }
+      } catch {
+        // The persistent cron path remains the source of record if this viewer refresh fails.
+      }
+    }
+
+    refreshConversationOpportunities();
+    const interval = window.setInterval(refreshConversationOpportunities, 60_000);
+
+    return () => {
+      cancelled = true;
+      window.clearInterval(interval);
+    };
+  }, []);
+
   const counts = useMemo(
     () => ({
-      all: opportunities.length,
-      tech: opportunities.filter((item) => (item.section ?? "tech") === "tech").length,
-      game: opportunities.filter((item) => item.section === "game").length,
+      all: deckOpportunities.length,
+      tech: deckOpportunities.filter((item) => (item.section ?? "tech") === "tech").length,
+      game: deckOpportunities.filter((item) => item.section === "game").length,
     }),
-    [opportunities],
+    [deckOpportunities],
   );
 
   const normalizedQuery = query.trim().toLowerCase();
@@ -68,7 +106,7 @@ export function ProfessionalCareerDeck({
   function filteredFor(section: OpportunitySection) {
     const category = categories[section];
 
-    return opportunities.filter((opportunity) => {
+    return deckOpportunities.filter((opportunity) => {
       const matchesSection = (opportunity.section ?? "tech") === section;
       const matchesCategory = category === "all" || opportunity.type === category;
       const searchable = [
@@ -474,6 +512,19 @@ function needsVerification(opportunity: Opportunity) {
     opportunity.confidence.source < 0.8 ||
     opportunity.confidence.extraction < 0.7
   );
+}
+
+function mergeOpportunities(current: Opportunity[], incoming: Opportunity[]) {
+  const byId = new Map(current.map((opportunity) => [opportunity.id, opportunity]));
+
+  for (const opportunity of incoming) {
+    byId.set(opportunity.id, {
+      ...(byId.get(opportunity.id) ?? {}),
+      ...opportunity,
+    });
+  }
+
+  return Array.from(byId.values()).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 
 function latestSync(updates: LiveUpdate[]) {
