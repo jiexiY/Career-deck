@@ -59,8 +59,11 @@ Vercel Cron runs `/api/cron/detect-conversation-updates`, configured in
 once per day. Vercel Pro can run the same endpoint once per minute by changing
 the schedule to `* * * * *`. The first successful run creates the baseline
 snapshot. Later runs mark the source as `changed`, `unchanged`, `blocked`, or
-`failed`; changed means the public conversation page snapshot changed and should
-be synced into opportunity records deliberately.
+`failed`. Each successful run also extracts opportunity-like URLs from the
+shared conversations and merges them into `src/lib/career-deck/live-data.json`
+with unknown fields set to `TBD` and `needsReview: true`. The adapter never
+invents deadlines, compensation, eligibility, or locations that were not
+actually verified.
 
 Required Vercel environment variables:
 
