@@ -65,6 +65,11 @@ with unknown fields set to `TBD` and `needsReview: true`. The adapter never
 invents deadlines, compensation, eligibility, or locations that were not
 actually verified.
 
+The website also calls `/api/live/conversation-opportunities` while it is open
+and merges read-only extracted records into the visible deck about once per
+minute. This gives a near-live viewer experience on Vercel Hobby without
+exposing the protected GitHub-writing cron endpoint.
+
 Required Vercel environment variables:
 
 - `CRON_SECRET`: protects the cron endpoint.
