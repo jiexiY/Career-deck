@@ -1,3 +1,4 @@
+﻿import liveCareerDeckData from "./live-data.json";
 import {
   attempts,
   opportunities,
@@ -61,3 +62,4 @@ export function getRepository(): CareerDeckRepository {
   repository ??= new SeedRepository();
   return repository;
 }
+
