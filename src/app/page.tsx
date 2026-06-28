@@ -29,6 +29,8 @@ function scrubText(value: string) {
 function scrubOpportunity(opportunity: Opportunity): Opportunity {
   return {
     ...opportunity,
+    title: scrubText(opportunity.title),
+    organization: scrubText(opportunity.organization),
     location: scrubText(opportunity.location),
     deadline: scrubText(opportunity.deadline),
     compensation: scrubText(opportunity.compensation),
