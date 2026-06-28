@@ -21,12 +21,14 @@ import type {
   DashboardData,
   LiveUpdate,
   Opportunity,
+  OpportunitySection,
   ReviewItem,
   Source,
 } from "@/lib/career-deck/types";
 import { summarizeReport } from "@/lib/career-deck/reports";
 
 type Tab = "overview" | "sources" | "review" | "reports" | "exports";
+type SectionFilter = "all" | OpportunitySection;
 
 const tabs: Array<{ id: Tab; label: string }> = [
   { id: "overview", label: "Overview" },
@@ -38,11 +40,31 @@ const tabs: Array<{ id: Tab; label: string }> = [
 
 export function CareerDeckDashboard({ data }: { data: DashboardData }) {
   const [activeTab, setActiveTab] = useState<Tab>("overview");
+  const [sectionFilter, setSectionFilter] = useState<SectionFilter>("all");
   const [reviewItems, setReviewItems] = useState(data.reviewQueue);
   const [selectedReviewId, setSelectedReviewId] = useState(data.reviewQueue[0]?.id ?? "");
   const [runStatus, setRunStatus] = useState("Idle");
   const selectedReview = reviewItems.find((item) => item.id === selectedReviewId);
   const summary = summarizeReport(data.report);
+  const liveUpdates = data.liveUpdates ?? (data.liveUpdate ? [data.liveUpdate] : []);
+  const filteredOpportunities = useMemo(
+    () =>
+      sectionFilter === "all"
+        ? data.opportunities
+        : data.opportunities.filter(
+            (opportunity) => (opportunity.section ?? "tech") === sectionFilter,
+          ),
+    [data.opportunities, sectionFilter],
+  );
+  const sectionCounts = useMemo(
+    () => ({
+      all: data.opportunities.length,
+      tech: data.opportunities.filter((opportunity) => (opportunity.section ?? "tech") === "tech")
+        .length,
+      game: data.opportunities.filter((opportunity) => opportunity.section === "game").length,
+    }),
+    [data.opportunities],
+  );
 
   const metrics = useMemo(() => {
     const blocked = data.sources.filter((source) => source.status === "blocked").length;
@@ -118,7 +140,32 @@ export function CareerDeckDashboard({ data }: { data: DashboardData }) {
           <Metric label="Low Confidence" value={metrics.lowConfidence} tone="gray" />
         </section>
 
-        {data.liveUpdate && <LiveUpdatePanel update={data.liveUpdate} />}
+        {liveUpdates.length > 0 && (
+          <div className="mb-5 grid gap-3">
+            {liveUpdates.map((update) => (
+              <LiveUpdatePanel key={update.id} update={update} />
+            ))}
+          </div>
+        )}
+
+        <section className="mb-5 border-y border-[#d9dde3] bg-white px-3 py-3">
+          <div className="flex flex-wrap items-center gap-2">
+            {(["all", "tech", "game"] as const).map((section) => (
+              <button
+                type="button"
+                key={section}
+                onClick={() => setSectionFilter(section)}
+                className={`h-9 rounded-lg px-3 text-sm font-medium capitalize ${
+                  sectionFilter === section
+                    ? "bg-[#14213d] text-white"
+                    : "text-[#374151] hover:bg-[#eef2f6]"
+                }`}
+              >
+                {section} ({sectionCounts[section]})
+              </button>
+            ))}
+          </div>
+        </section>
 
         <section className="mb-5 border-y border-[#d9dde3] bg-white px-3 py-3">
           <div className="grid gap-2 sm:flex sm:items-center">
@@ -144,7 +191,7 @@ export function CareerDeckDashboard({ data }: { data: DashboardData }) {
 
         {activeTab === "overview" && (
           <div className="grid gap-5 lg:grid-cols-[1.5fr_1fr]">
-            <OpportunityTable opportunities={data.opportunities} sources={data.sources} />
+            <OpportunityTable opportunities={filteredOpportunities} sources={data.sources} />
             <IntegrityPanel data={data} />
           </div>
         )}
@@ -166,7 +213,7 @@ export function CareerDeckDashboard({ data }: { data: DashboardData }) {
           <ReportsPanel data={data} summary={summary} />
         )}
 
-        {activeTab === "exports" && <ExportPanel opportunities={data.opportunities} />}
+        {activeTab === "exports" && <ExportPanel opportunities={filteredOpportunities} />}
       </main>
     </div>
   );
@@ -174,11 +221,12 @@ export function CareerDeckDashboard({ data }: { data: DashboardData }) {
 
 function LiveUpdatePanel({ update }: { update: LiveUpdate }) {
   return (
-    <section className="mb-5 rounded-lg border border-[#d9dde3] bg-white">
+    <section className="rounded-lg border border-[#d9dde3] bg-white">
       <div className="grid gap-4 p-4 lg:grid-cols-[1fr_220px] lg:items-start">
         <div>
           <div className="flex flex-wrap items-center gap-2">
             <h2 className="text-lg font-semibold">{update.title}</h2>
+            {update.section && <StatusPill label={update.section} />}
             <StatusPill label={update.status} />
           </div>
           <p className="mt-2 max-w-4xl text-sm text-[#4b5563]">{update.summary}</p>
@@ -248,10 +296,11 @@ function OpportunityTable({
         <h2 className="text-lg font-semibold">Opportunity Deck</h2>
       </div>
       <div className="overflow-x-auto">
-        <table className="w-full min-w-[1040px] border-collapse text-left text-sm">
+        <table className="w-full min-w-[1120px] border-collapse text-left text-sm">
           <thead>
             <tr className="border-b border-[#d9dde3] bg-[#f2f4f7] text-[#4b5563]">
               <th className="px-4 py-3 font-medium">Role</th>
+              <th className="px-4 py-3 font-medium">Section</th>
               <th className="px-4 py-3 font-medium">Type</th>
               <th className="px-4 py-3 font-medium">Deadline</th>
               <th className="px-4 py-3 font-medium">Confidence</th>
@@ -269,6 +318,9 @@ function OpportunityTable({
                   <td className="px-4 py-4">
                     <p className="font-medium">{opportunity.title}</p>
                     <p className="mt-1 text-[#5c6675]">{opportunity.organization}</p>
+                  </td>
+                  <td className="px-4 py-4">
+                    <StatusPill label={opportunity.section ?? "tech"} />
                   </td>
                   <td className="px-4 py-4 capitalize">{opportunity.type.replace("-", " ")}</td>
                   <td className="px-4 py-4 font-mono text-xs">{opportunity.deadline}</td>

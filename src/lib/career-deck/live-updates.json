@@ -1,0 +1,34 @@
+{
+  "updates": [
+    {
+      "id": "tech-sync-2026-06-28",
+      "title": "Tech Section Synced",
+      "summary": "The first shared ChatGPT conversation was converted into Career Deck database records and published with manual review preserved for uncertain fields.",
+      "section": "tech",
+      "updatedAt": "2026-06-28T13:20:00-07:00",
+      "status": "manual_review_required",
+      "sourceUrl": "https://chatgpt.com/share/6a41792d-1580-83e8-86ba-ed6040307ce9",
+      "items": [
+        "Imported Claude Corps, Apple undergraduate internships, Microsoft student programs, MLH programs, AI hackathons, and company career role links.",
+        "Marked unknown deadlines, compensation, eligibility, and role titles as Manual review instead of fabricating fields.",
+        "Flagged BeBee and Jobright as aggregator-only records pending official employer verification.",
+        "Kept LinkedIn and X as blocked sources because login, platform restrictions, and anti-bot protections prevent compliant scraping."
+      ]
+    },
+    {
+      "id": "game-sync-2026-06-28",
+      "title": "Game Section Synced",
+      "summary": "The game-industry shared ChatGPT conversation was synced into a separate Game section with studio career pages, internships, co-ops, early-career programs, and aggregator-only leads marked for review.",
+      "section": "game",
+      "updatedAt": "2026-06-28T13:45:00-07:00",
+      "status": "manual_review_required",
+      "sourceUrl": "https://chatgpt.com/share/6a4181c9-c0ac-83e8-8d08-7bf304c26a88",
+      "items": [
+        "Added game-studio sources including Riot Games, Activision, Blizzard, Epic Games, EA, Ubisoft, PlayStation, 2K, King, Zynga, Scopely, Tencent, Garena, Paper Games, InFold Games, NetEase, Kabam, and Razer.",
+        "Separated official studio career pages from aggregator links such as GameJobs, BuiltIn, LinkedIn, BeBee, ZipRecruiter, and ShowbizJobs.",
+        "Preserved role titles that were visible in the shared conversation URL paths, but kept deadlines, compensation, eligibility, and locations as Manual review unless the chat source clearly exposed them.",
+        "Kept every game record review-required until a future source adapter can fetch, parse, normalize, validate, and save the official page directly."
+      ]
+    }
+  ]
+}

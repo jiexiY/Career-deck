@@ -4,6 +4,7 @@ export function toCsv(opportunities: Opportunity[]) {
   const headers = [
     "title",
     "organization",
+    "section",
     "type",
     "status",
     "location",
@@ -21,6 +22,7 @@ export function toCsv(opportunities: Opportunity[]) {
   const rows = opportunities.map((opportunity) => [
     opportunity.title,
     opportunity.organization,
+    opportunity.section ?? "tech",
     opportunity.type,
     opportunity.status,
     opportunity.location,

@@ -1,7 +1,8 @@
 {
   "id": "chat-sync-2026-06-28",
-  "title": "Shared ChatGPT Import Synced",
+  "title": "Tech Section Synced",
   "summary": "The shared ChatGPT conversation was converted into Career Deck database records and published to the live website with manual review preserved for uncertain fields.",
+  "section": "tech",
   "updatedAt": "2026-06-28T13:20:00-07:00",
   "status": "manual_review_required",
   "sourceUrl": "https://chatgpt.com/share/6a41792d-1580-83e8-86ba-ed6040307ce9",

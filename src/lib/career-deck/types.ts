@@ -25,6 +25,8 @@ export type ReviewStatus = "pending" | "approved" | "rejected" | "merged";
 
 export type OpportunityStatus = "open" | "changed" | "closed" | "removed";
 
+export type OpportunitySection = "tech" | "game";
+
 export interface ConfidenceScores {
   source: number;
   extraction: number;
@@ -59,6 +61,7 @@ export interface Opportunity {
   id: string;
   title: string;
   organization: string;
+  section?: OpportunitySection;
   type: OpportunityType;
   status: OpportunityStatus;
   sourceId: string;
@@ -121,6 +124,7 @@ export interface LiveUpdate {
   id: string;
   title: string;
   summary: string;
+  section?: OpportunitySection;
   updatedAt: string;
   status: "synced" | "manual_review_required" | "blocked";
   sourceUrl?: string;
@@ -134,4 +138,5 @@ export interface DashboardData {
   reviewQueue: ReviewItem[];
   report: DailyReport;
   liveUpdate?: LiveUpdate;
+  liveUpdates?: LiveUpdate[];
 }
