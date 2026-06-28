@@ -25,7 +25,17 @@ type CategoryFilter = "all" | OpportunityType;
 
 type LiveConversationResponse = {
   ok?: boolean;
+  checkedAt?: string;
+  sources?: LiveSourceStatus[];
   opportunities?: Opportunity[];
+};
+
+type LiveSourceStatus = {
+  sourceId: string;
+  status: "success" | "blocked" | "failed";
+  rawLength?: number;
+  opportunities: number;
+  failureReason?: string;
 };
 
 const categoryOptions: Array<{ value: CategoryFilter; label: string }> = [
@@ -52,6 +62,7 @@ export function ProfessionalCareerDeck({
 }) {
   const [query, setQuery] = useState("");
   const [deckOpportunities, setDeckOpportunities] = useState(opportunities);
+  const [liveSourceStatuses, setLiveSourceStatuses] = useState<LiveSourceStatus[]>([]);
   const [categories, setCategories] = useState<Record<OpportunitySection, CategoryFilter>>({
     tech: "all",
     game: "all",
@@ -72,6 +83,10 @@ export function ProfessionalCareerDeck({
 
         const payload = (await response.json()) as LiveConversationResponse;
 
+        if (!cancelled && Array.isArray(payload.sources)) {
+          setLiveSourceStatuses(payload.sources);
+        }
+
         if (!cancelled && Array.isArray(payload.opportunities)) {
           setDeckOpportunities((current) => mergeOpportunities(current, payload.opportunities ?? []));
         }
@@ -81,11 +96,21 @@ export function ProfessionalCareerDeck({
     }
 
     refreshConversationOpportunities();
-    const interval = window.setInterval(refreshConversationOpportunities, 60_000);
+    const interval = window.setInterval(refreshConversationOpportunities, 30_000);
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        refreshConversationOpportunities();
+      }
+    };
+
+    window.addEventListener("focus", refreshConversationOpportunities);
+    document.addEventListener("visibilitychange", handleVisibilityChange);
 
     return () => {
       cancelled = true;
       window.clearInterval(interval);
+      window.removeEventListener("focus", refreshConversationOpportunities);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
     };
   }, []);
 
@@ -212,6 +237,7 @@ export function ProfessionalCareerDeck({
             <SourceMonitor
               sources={conversationSources}
               snapshots={conversationSnapshots}
+              liveStatuses={liveSourceStatuses}
             />
           </aside>
         </div>
@@ -446,11 +472,14 @@ function SnapshotRow({ label, value }: { label: string; value: string }) {
 function SourceMonitor({
   sources,
   snapshots,
+  liveStatuses,
 }: {
   sources: ConversationSource[];
   snapshots: ConversationSnapshot[];
+  liveStatuses: LiveSourceStatus[];
 }) {
   const snapshotBySource = new Map(snapshots.map((item) => [item.sourceId, item]));
+  const liveStatusBySource = new Map(liveStatuses.map((item) => [item.sourceId, item]));
 
   if (!sources.length) {
     return null;
@@ -462,6 +491,7 @@ function SourceMonitor({
       <div className="mt-3 divide-y divide-[#eef2f5]">
         {sources.map((source) => {
           const snapshot = snapshotBySource.get(source.id);
+          const liveStatus = liveStatusBySource.get(source.id);
           const status = snapshot?.status ?? "baseline_pending";
 
           return (
@@ -480,6 +510,11 @@ function SourceMonitor({
                       ? `Checked ${formatTimestamp(snapshot.lastFetchedAt)}`
                       : "Waiting for first scheduled check"}
                   </p>
+                  {liveStatus && (
+                    <p className="mt-1 text-xs leading-5 text-[#344256]">
+                      Live extraction: {liveSourceStatusLabel(liveStatus)}
+                    </p>
+                  )}
                 </div>
                 <a
                   href={source.url}
@@ -498,12 +533,30 @@ function SourceMonitor({
                   {snapshot.failureReason}
                 </p>
               )}
+              {liveStatus?.failureReason && (
+                <p className="mt-2 inline-flex items-center gap-1 text-xs text-[#8a4b10]">
+                  <CircleAlert size={13} aria-hidden="true" />
+                  {liveStatus.failureReason}
+                </p>
+              )}
             </div>
           );
         })}
       </div>
     </div>
   );
+}
+
+function liveSourceStatusLabel(status: LiveSourceStatus) {
+  if (status.status === "blocked") {
+    return "blocked";
+  }
+
+  if (status.status === "failed") {
+    return "failed";
+  }
+
+  return `${status.opportunities} URL-backed records`;
 }
 
 function needsVerification(opportunity: Opportunity) {
