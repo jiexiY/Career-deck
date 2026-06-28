@@ -30,7 +30,17 @@ export function blockedReason(status: number) {
     return "Blocked by legal restriction: HTTP 451";
   }
 
+  if (status === 503) {
+    return "Source temporarily unavailable or blocking server-side fetches: HTTP 503";
+  }
+
   return `Fetch failed: HTTP ${status}`;
+}
+
+function sourceStatusFromHttp(status: number): ConversationAdapterResult["status"] {
+  return status === 401 || status === 403 || status === 429 || status === 451 || status === 503
+    ? "blocked"
+    : "failed";
 }
 
 export function slugify(value: string) {
@@ -302,18 +312,12 @@ export async function fetchConversationOpportunities(
   checkedAt: string,
 ): Promise<ConversationAdapterResult> {
   try {
-    const response = await fetch(source.url, {
-      headers: {
-        Accept: "text/html,application/xhtml+xml",
-        "User-Agent": "CareerDeckSourceMonitor/1.0",
-      },
-      cache: "no-store",
-    });
+    const response = await fetchConversationSource(source.url);
 
     if (!response.ok) {
       return {
         sourceId: source.id,
-        status: response.status === 401 || response.status === 403 || response.status === 429 || response.status === 451 ? "blocked" : "failed",
+        status: sourceStatusFromHttp(response.status),
         checkedAt,
         failureReason: blockedReason(response.status),
         opportunities: [],
@@ -338,4 +342,35 @@ export async function fetchConversationOpportunities(
       opportunities: [],
     };
   }
+}
+
+async function fetchConversationSource(url: string) {
+  const headerSets: HeadersInit[] = [
+    {
+      Accept: "text/html,application/xhtml+xml",
+      "Accept-Language": "en-US,en;q=0.9",
+      "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+    },
+    {
+      Accept: "text/html,application/xhtml+xml",
+      "User-Agent": "CareerDeckSourceMonitor/1.0",
+    },
+  ];
+  let lastResponse: Response | null = null;
+
+  for (const headers of headerSets) {
+    const response = await fetch(url, {
+      headers,
+      cache: "no-store",
+    });
+
+    if (response.ok) {
+      return response;
+    }
+
+    lastResponse = response;
+  }
+
+  return lastResponse ?? fetch(url, { cache: "no-store" });
 }
