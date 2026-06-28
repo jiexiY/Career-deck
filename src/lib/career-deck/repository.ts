@@ -1,4 +1,5 @@
-﻿import liveCareerDeckData from "./live-data.json";
+import fallbackLiveData from "./live-data.json";
+import fallbackLiveUpdate from "./live-update.json";
 import {
   attempts,
   opportunities,
@@ -10,6 +11,7 @@ import type {
   DashboardData,
   DailyReport,
   FetchAttempt,
+  LiveUpdate,
   Opportunity,
   OpportunityStatus,
   OpportunityType,
@@ -28,6 +30,12 @@ type LiveData = {
   opportunities?: LiveOpportunity[];
 };
 
+const rawBaseUrl =
+  "https://raw.githubusercontent.com/jiexiY/Career-deck/main/src/lib/career-deck";
+const liveDataUrl = process.env.CAREER_DECK_LIVE_DATA_URL ?? `${rawBaseUrl}/live-data.json`;
+const liveUpdateUrl =
+  process.env.CAREER_DECK_LIVE_UPDATE_URL ?? `${rawBaseUrl}/live-update.json`;
+
 const opportunityTypes: OpportunityType[] = [
   "internship",
   "co-op",
@@ -41,7 +49,6 @@ const opportunityTypes: OpportunityType[] = [
 ];
 
 const opportunityStatuses: OpportunityStatus[] = ["open", "changed", "closed", "removed"];
-const liveData = liveCareerDeckData as LiveData;
 
 function normalizedType(value: unknown): OpportunityType {
   return typeof value === "string" && opportunityTypes.includes(value as OpportunityType)
@@ -55,7 +62,24 @@ function normalizedStatus(value: unknown): OpportunityStatus {
     : "open";
 }
 
-function normalizeLiveOpportunity(record: LiveOpportunity, index: number): Opportunity {
+async function fetchJson<T>(url: string, fallback: T): Promise<T> {
+  try {
+    const response = await fetch(url, { cache: "no-store" });
+    if (!response.ok) {
+      return fallback;
+    }
+
+    return (await response.json()) as T;
+  } catch {
+    return fallback;
+  }
+}
+
+function normalizeLiveOpportunity(
+  record: LiveOpportunity,
+  index: number,
+  liveData: LiveData,
+): Opportunity {
   const sourceId = record.sourceId ?? "src-live-ingest";
   const updatedAt = record.updatedAt ?? liveData.updatedAt ?? new Date().toISOString();
 
@@ -87,26 +111,67 @@ function normalizeLiveOpportunity(record: LiveOpportunity, index: number): Oppor
   };
 }
 
-const liveOpportunities = (liveData.opportunities ?? []).map(normalizeLiveOpportunity);
-const liveSourceIds = new Set(liveOpportunities.map((item) => item.sourceId));
-const liveSources: Source[] = [...liveSourceIds]
-  .filter((sourceId) => !sources.some((source) => source.id === sourceId))
-  .map((sourceId) => ({
-    id: sourceId,
-    name: "Live Ingested Source",
-    homepage: "https://career-deck-amber.vercel.app/api/ingest/opportunities",
-    adapterKey: "liveIngestAdapter",
-    category: "mixed",
-    status: "manual_review_required",
-    robotsPolicy: "unknown",
-    lastAttemptAt: liveData.updatedAt ?? new Date().toISOString(),
-    lastFailureReason:
-      "Live-ingested records are accepted only as manual-review candidates until a source adapter verifies them.",
-    owner: "platform",
-  }));
+function mergeOpportunities(liveOpportunities: Opportunity[]) {
+  const byId = new Map(opportunities.map((opportunity) => [opportunity.id, opportunity]));
 
-const allSources = [...sources, ...liveSources];
-const allOpportunities = [...liveOpportunities, ...opportunities];
+  for (const opportunity of liveOpportunities) {
+    byId.set(opportunity.id, {
+      ...(byId.get(opportunity.id) ?? {}),
+      ...opportunity,
+    });
+  }
+
+  return Array.from(byId.values()).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+}
+
+function sourceNameFor(sourceId: string, liveRecords: LiveOpportunity[]) {
+  return (
+    liveRecords.find((record) => record.sourceId === sourceId && record.sourceName)?.sourceName ??
+    "Live Ingested Source"
+  );
+}
+
+function buildLiveSources(liveOpportunities: Opportunity[], liveRecords: LiveOpportunity[]) {
+  const liveSourceIds = new Set(liveOpportunities.map((item) => item.sourceId));
+
+  return [...liveSourceIds]
+    .filter((sourceId) => !sources.some((source) => source.id === sourceId))
+    .map<Source>((sourceId) => ({
+      id: sourceId,
+      name: sourceNameFor(sourceId, liveRecords),
+      homepage: "https://career-deck-amber.vercel.app/api/ingest/opportunities",
+      adapterKey: "liveIngestAdapter",
+      category: "mixed",
+      status: "manual_review_required",
+      robotsPolicy: "unknown",
+      lastAttemptAt: new Date().toISOString(),
+      lastFailureReason:
+        "Live-ingested records are accepted only as manual-review candidates until a source adapter verifies them.",
+      owner: "platform",
+    }));
+}
+
+async function getDashboardSnapshot(): Promise<DashboardData> {
+  const liveData = await fetchJson<LiveData>(liveDataUrl, fallbackLiveData as LiveData);
+  const liveUpdate = await fetchJson<LiveUpdate>(
+    liveUpdateUrl,
+    fallbackLiveUpdate as LiveUpdate,
+  );
+  const liveRecords = liveData.opportunities ?? [];
+  const liveOpportunities = liveRecords.map((record, index) =>
+    normalizeLiveOpportunity(record, index, liveData),
+  );
+  const liveSources = buildLiveSources(liveOpportunities, liveRecords);
+
+  return {
+    sources: [...sources, ...liveSources],
+    attempts,
+    opportunities: mergeOpportunities(liveOpportunities),
+    reviewQueue,
+    report,
+    liveUpdate,
+  };
+}
 
 export interface CareerDeckRepository {
   listSources(): Promise<Source[]>;
@@ -119,7 +184,7 @@ export interface CareerDeckRepository {
 
 class SeedRepository implements CareerDeckRepository {
   async listSources() {
-    return allSources;
+    return (await getDashboardSnapshot()).sources;
   }
 
   async listAttempts() {
@@ -127,7 +192,7 @@ class SeedRepository implements CareerDeckRepository {
   }
 
   async listOpportunities() {
-    return allOpportunities;
+    return (await getDashboardSnapshot()).opportunities;
   }
 
   async listReviewQueue() {
@@ -139,13 +204,7 @@ class SeedRepository implements CareerDeckRepository {
   }
 
   async getDashboardData() {
-    return {
-      sources: allSources,
-      attempts,
-      opportunities: allOpportunities,
-      reviewQueue,
-      report,
-    };
+    return getDashboardSnapshot();
   }
 }
 

@@ -117,10 +117,21 @@ export interface DailyReport {
   changes: ReportChange[];
 }
 
+export interface LiveUpdate {
+  id: string;
+  title: string;
+  summary: string;
+  updatedAt: string;
+  status: "synced" | "manual_review_required" | "blocked";
+  sourceUrl?: string;
+  items: string[];
+}
+
 export interface DashboardData {
   sources: Source[];
   attempts: FetchAttempt[];
   opportunities: Opportunity[];
   reviewQueue: ReviewItem[];
   report: DailyReport;
+  liveUpdate?: LiveUpdate;
 }

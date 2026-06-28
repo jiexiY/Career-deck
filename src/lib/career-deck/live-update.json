@@ -1,0 +1,14 @@
+{
+  "id": "chat-sync-2026-06-28",
+  "title": "Shared ChatGPT Import Synced",
+  "summary": "The shared ChatGPT conversation was converted into Career Deck database records and published to the live website with manual review preserved for uncertain fields.",
+  "updatedAt": "2026-06-28T13:20:00-07:00",
+  "status": "manual_review_required",
+  "sourceUrl": "https://chatgpt.com/share/6a41792d-1580-83e8-86ba-ed6040307ce9",
+  "items": [
+    "Imported Claude Corps, Apple undergraduate internships, Microsoft student programs, MLH programs, AI hackathons, and company career role links.",
+    "Marked unknown deadlines, compensation, eligibility, and role titles as Manual review instead of fabricating fields.",
+    "Flagged BeBee and Jobright as aggregator-only records pending official employer verification.",
+    "Kept LinkedIn and X as blocked sources because login, platform restrictions, and anti-bot protections prevent compliant scraping."
+  ]
+}

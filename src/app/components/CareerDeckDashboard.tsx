@@ -17,7 +17,13 @@ import {
   X,
 } from "lucide-react";
 import { useMemo, useState } from "react";
-import type { DashboardData, Opportunity, ReviewItem, Source } from "@/lib/career-deck/types";
+import type {
+  DashboardData,
+  LiveUpdate,
+  Opportunity,
+  ReviewItem,
+  Source,
+} from "@/lib/career-deck/types";
 import { summarizeReport } from "@/lib/career-deck/reports";
 
 type Tab = "overview" | "sources" | "review" | "reports" | "exports";
@@ -112,6 +118,8 @@ export function CareerDeckDashboard({ data }: { data: DashboardData }) {
           <Metric label="Low Confidence" value={metrics.lowConfidence} tone="gray" />
         </section>
 
+        {data.liveUpdate && <LiveUpdatePanel update={data.liveUpdate} />}
+
         <section className="mb-5 border-y border-[#d9dde3] bg-white px-3 py-3">
           <div className="grid gap-2 sm:flex sm:items-center">
             <div className="grid max-w-full grid-cols-2 items-center gap-2 sm:flex sm:flex-wrap">
@@ -161,6 +169,44 @@ export function CareerDeckDashboard({ data }: { data: DashboardData }) {
         {activeTab === "exports" && <ExportPanel opportunities={data.opportunities} />}
       </main>
     </div>
+  );
+}
+
+function LiveUpdatePanel({ update }: { update: LiveUpdate }) {
+  return (
+    <section className="mb-5 rounded-lg border border-[#d9dde3] bg-white">
+      <div className="grid gap-4 p-4 lg:grid-cols-[1fr_220px] lg:items-start">
+        <div>
+          <div className="flex flex-wrap items-center gap-2">
+            <h2 className="text-lg font-semibold">{update.title}</h2>
+            <StatusPill label={update.status} />
+          </div>
+          <p className="mt-2 max-w-4xl text-sm text-[#4b5563]">{update.summary}</p>
+          <ul className="mt-3 grid gap-2 text-sm text-[#374151] md:grid-cols-2">
+            {update.items.map((item) => (
+              <li key={item} className="flex gap-2">
+                <Check size={15} className="mt-0.5 shrink-0 text-[#1c6b3c]" aria-hidden="true" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="grid gap-2 text-sm">
+          <DataLine label="Synced" value={update.updatedAt} />
+          {update.sourceUrl && (
+            <a
+              href={update.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex h-9 items-center justify-center gap-2 rounded-lg border border-[#c7ced8] px-3 font-medium hover:bg-[#eef2f6]"
+            >
+              <ExternalLink size={15} aria-hidden="true" />
+              Source
+            </a>
+          )}
+        </div>
+      </div>
+    </section>
   );
 }
 
