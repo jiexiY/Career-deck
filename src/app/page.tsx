@@ -1,4 +1,4 @@
-import { FigmaCareerDeck } from "./components/FigmaCareerDeck";
+import { RemadeCareerDeck } from "./components/RemadeCareerDeck";
 import { getRepository } from "@/lib/career-deck/repository";
 import type { LiveUpdate, Opportunity } from "@/lib/career-deck/types";
 
@@ -10,7 +10,7 @@ export default async function Home() {
   const liveUpdates = data.liveUpdates ?? (data.liveUpdate ? [data.liveUpdate] : []);
 
   return (
-    <FigmaCareerDeck
+    <RemadeCareerDeck
       opportunities={data.opportunities.map(scrubOpportunity)}
       liveUpdates={liveUpdates.map(scrubLiveUpdate)}
       conversationSources={data.conversationSources ?? []}
