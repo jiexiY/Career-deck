@@ -1,4 +1,25 @@
 {
-  "updatedAt": null,
-  "snapshots": []
+  "updatedAt": "2026-06-29T16:58:28.169Z",
+  "snapshots": [
+    {
+      "sourceId": "chatgpt-tech-source",
+      "url": "https://chatgpt.com/share/6a418ef2-e89c-83e8-9434-1af2bff1693",
+      "status": "baseline_pending",
+      "lastFetchedAt": "2026-06-29T16:58:28.169Z",
+      "rawHash": "da7d69f269280fa173e1bde6dac6f868e9e8c5c60727f633f4fe8b39f91bd4ee",
+      "normalizedHash": "0b69cafab5cf1537be2b520e37caad44841402e3a25d90321354c5b8a819e3b8",
+      "rawLength": 509017,
+      "normalizedLength": 502696
+    },
+    {
+      "sourceId": "chatgpt-game-source",
+      "url": "https://chatgpt.com/share/6a418e8c-b8f4-83e8-863c-dde3976f0019",
+      "status": "baseline_pending",
+      "lastFetchedAt": "2026-06-29T16:58:28.169Z",
+      "rawHash": "b27d6b9cf66cf0c452126cb3d53e759fa709c323527eed2e35569a0c6cf1a0e8",
+      "normalizedHash": "5f07c2c7553401509b0b4203631183b8327c3192025e87704e2512da62a292b8",
+      "rawLength": 9627303,
+      "normalizedLength": 9605989
+    }
+  ]
 }
