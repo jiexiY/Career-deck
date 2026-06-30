@@ -310,7 +310,7 @@ function HomePage({
         <GlassBackButton onClick={onBack} label="Back to cover" />
         <div className="mx-auto grid min-h-[calc(100vh-6rem)] max-w-[1440px] gap-8 lg:grid-cols-[1fr_430px]">
           <div className="relative min-h-[620px]">
-            <h1 className="text-6xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
+            <h1 className="pl-14 text-6xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
               Career Deck
             </h1>
 
@@ -387,7 +387,7 @@ function OpportunitiesPage({
       <section className="min-h-screen bg-[radial-gradient(circle_at_0%_0%,rgba(193,139,202,0.95)_0%,rgba(218,184,224,0.86)_48%,rgba(243,229,245,0.98)_100%)] px-5 pb-28 pt-10 sm:px-8 lg:px-12">
         <GlassBackButton onClick={onBack} label="Back to home" />
         <header className="mx-auto flex max-w-[1440px] flex-col gap-5 md:flex-row md:items-start md:justify-between">
-          <h1 className="text-6xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
+          <h1 className="pl-14 text-6xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
             Career Deck
           </h1>
 
@@ -459,9 +459,9 @@ function OpportunityCard({
   const priority = isPriority(opportunity);
 
   return (
-    <article className="relative min-h-[352px] rounded-[29px] border border-white/45 bg-white/20 px-5 pb-4 pt-7 shadow-[inset_0_1px_0_rgba(255,255,255,0.62),0_28px_70px_rgba(92,38,105,0.12)] backdrop-blur-2xl transition duration-200 hover:-translate-y-1 hover:bg-white/28">
+    <article className="relative min-h-[352px] rounded-[29px] border border-white/45 bg-white/20 px-5 pb-4 pt-14 shadow-[inset_0_1px_0_rgba(255,255,255,0.62),0_28px_70px_rgba(92,38,105,0.12)] backdrop-blur-2xl transition duration-200 hover:-translate-y-1 hover:bg-white/28">
       <span
-        className={`absolute left-[-26px] top-8 rounded-full px-5 py-1 text-sm font-medium text-white shadow-[0_12px_30px_rgba(103,0,130,0.22)] ${
+        className={`absolute left-4 top-4 rounded-full px-3 py-0.5 text-xs font-medium text-white shadow-[0_8px_22px_rgba(103,0,130,0.18)] ${
           priority ? "bg-[#a100c6]" : "bg-[#d774dc]"
         }`}
       >
@@ -503,9 +503,9 @@ function GlassBackButton({ label, onClick }: { label: string; onClick: () => voi
       onClick={onClick}
       aria-label={label}
       title={label}
-      className="fixed left-4 top-5 z-40 flex h-16 w-16 items-center justify-center rounded-full border border-white/55 bg-white/22 text-black shadow-[inset_0_1px_0_rgba(255,255,255,0.72),0_16px_45px_rgba(96,0,118,0.16)] backdrop-blur-2xl transition hover:scale-[1.04] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7b00a7]"
+      className="fixed left-3 top-3 z-40 flex h-11 w-11 items-center justify-center rounded-full border border-white/60 bg-white/24 text-black shadow-[inset_0_1px_0_rgba(255,255,255,0.72),0_10px_28px_rgba(96,0,118,0.14)] backdrop-blur-2xl transition hover:scale-[1.04] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7b00a7]"
     >
-      <ArrowLeft size={28} strokeWidth={2.3} aria-hidden="true" />
+      <ArrowLeft size={20} strokeWidth={2.4} aria-hidden="true" />
     </button>
   );
 }
