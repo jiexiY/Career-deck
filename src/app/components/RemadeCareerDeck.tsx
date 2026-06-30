@@ -146,14 +146,28 @@ export function RemadeCareerDeck({
     });
   }, [activeSection, categories, deckOpportunities, query]);
 
+  function updateSecurityAnswer(value: string) {
+    setSecurityAnswer(value);
+
+    if (securityError && value.trim().toLowerCase() === "charlie") {
+      setSecurityError("");
+    }
+  }
+
   function openDeck() {
     if (securityAnswer.trim().toLowerCase() !== "charlie") {
-      setSecurityError("Answer the cover note name to open the deck.");
+      setSecurityError("Answer is wrong. Try again.");
       return;
     }
 
     setSecurityError("");
     setView("home");
+  }
+
+  function returnToLanding() {
+    setSecurityAnswer("");
+    setSecurityError("");
+    setView("landing");
   }
 
   function openSection(section: OpportunitySection) {
@@ -178,7 +192,7 @@ export function RemadeCareerDeck({
       <LandingPage
         answer={securityAnswer}
         error={securityError}
-        onAnswerChange={setSecurityAnswer}
+        onAnswerChange={updateSecurityAnswer}
         onOpen={openDeck}
       />
     );
@@ -191,7 +205,7 @@ export function RemadeCareerDeck({
         categories={categories}
         liveUpdates={liveUpdates}
         liveSourceStatuses={liveSourceStatuses}
-        onBack={() => setView("landing")}
+        onBack={returnToLanding}
         onOpenSection={openSection}
         onOpenAll={() => {
           setActiveSection("all");
