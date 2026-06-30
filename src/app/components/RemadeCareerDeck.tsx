@@ -2,7 +2,7 @@
 
 import { ArrowLeft, ChevronDown, ExternalLink, Search, X } from "lucide-react";
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type {
   ConversationSnapshot,
   ConversationSource,
@@ -14,6 +14,14 @@ import type {
 
 type DeckView = "landing" | "home" | "opportunities";
 type CategoryFilter = "all" | OpportunityType;
+type FloatingBubbleBody = {
+  section: OpportunitySection;
+  size: number;
+  x: number;
+  y: number;
+  vx: number;
+  vy: number;
+};
 
 type LiveConversationResponse = {
   ok?: boolean;
@@ -323,26 +331,12 @@ function HomePage({
       <section className="min-h-screen bg-[radial-gradient(circle_at_0%_0%,rgba(243,229,245,1)_0%,rgba(211,173,217,0.9)_48%,rgba(179,117,189,1)_100%)] px-6 py-12">
         <GlassBackButton onClick={onBack} label="Back to cover" />
         <div className="mx-auto grid min-h-[calc(100vh-6rem)] max-w-[1440px] gap-8 lg:grid-cols-[1fr_430px]">
-          <div className="relative min-h-[620px]">
+          <div className="relative min-h-[620px] overflow-hidden">
             <h1 className="pl-14 text-6xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
               Career Deck
             </h1>
 
-            <button
-              type="button"
-              onClick={() => onOpenSection("tech")}
-              className="absolute left-[31%] top-[27%] flex h-[min(38vw,384px)] w-[min(38vw,384px)] items-center justify-center rounded-full border border-white/45 bg-white/18 text-4xl font-semibold shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_24px_80px_rgba(101,36,112,0.16)] backdrop-blur-2xl transition hover:scale-[1.02]"
-            >
-              Tech
-            </button>
-
-            <button
-              type="button"
-              onClick={() => onOpenSection("game")}
-              className="absolute bottom-[7%] left-[2%] flex h-[min(40vw,412px)] w-[min(40vw,412px)] items-center justify-center rounded-full border border-white/45 bg-white/18 text-4xl font-semibold shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_24px_80px_rgba(101,36,112,0.16)] backdrop-blur-2xl transition hover:scale-[1.02]"
-            >
-              Game
-            </button>
+            <FloatingSectionBubbles onOpenSection={onOpenSection} />
           </div>
 
           <aside className="flex min-h-[620px] flex-col justify-center rounded-[240px] border border-white/45 bg-white/15 px-12 py-16 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.55),0_24px_90px_rgba(101,36,112,0.16)] backdrop-blur-2xl">
@@ -366,6 +360,201 @@ function HomePage({
         </div>
       </section>
     </main>
+  );
+}
+
+function FloatingSectionBubbles({
+  onOpenSection,
+}: {
+  onOpenSection: (section: OpportunitySection) => void;
+}) {
+  const arenaRef = useRef<HTMLDivElement | null>(null);
+  const frameRef = useRef<number | null>(null);
+  const lastFrameRef = useRef<number | null>(null);
+  const bodiesRef = useRef<FloatingBubbleBody[]>([]);
+  const bubbleRefs = useRef<Record<OpportunitySection, HTMLButtonElement | null>>({
+    game: null,
+    tech: null,
+  });
+
+  useEffect(() => {
+    const arena = arenaRef.current;
+
+    if (!arena) {
+      return;
+    }
+
+    const arenaElement = arena;
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function applyBodies() {
+      for (const body of bodiesRef.current) {
+        const node = bubbleRefs.current[body.section];
+
+        if (!node) {
+          continue;
+        }
+
+        node.style.width = `${body.size}px`;
+        node.style.height = `${body.size}px`;
+        node.style.transform = `translate3d(${body.x}px, ${body.y}px, 0)`;
+      }
+    }
+
+    function clampBody(body: FloatingBubbleBody, width: number, height: number) {
+      body.x = Math.max(0, Math.min(width - body.size, body.x));
+      body.y = Math.max(0, Math.min(height - body.size, body.y));
+    }
+
+    function resetBodies() {
+      const { width, height } = arenaElement.getBoundingClientRect();
+      const gap = Math.max(28, Math.min(54, width * 0.05));
+      const size = Math.max(168, Math.min(360, (width - gap - 40) / 2, height * 0.72));
+      const gameSize = size;
+      const techSize = Math.max(158, size * 0.9);
+
+      bodiesRef.current = [
+        {
+          section: "game",
+          size: gameSize,
+          x: Math.max(0, width * 0.06),
+          y: Math.max(0, height * 0.33 - gameSize / 2),
+          vx: 0.019 + Math.random() * 0.013,
+          vy: -0.013 - Math.random() * 0.012,
+        },
+        {
+          section: "tech",
+          size: techSize,
+          x: Math.max(gameSize + gap, width * 0.52),
+          y: Math.max(0, height * 0.24 - techSize / 2),
+          vx: -0.017 - Math.random() * 0.012,
+          vy: 0.014 + Math.random() * 0.013,
+        },
+      ];
+
+      for (const body of bodiesRef.current) {
+        clampBody(body, width, height);
+      }
+
+      applyBodies();
+    }
+
+    function randomizeBounce(body: FloatingBubbleBody) {
+      const speed = 0.017 + Math.random() * 0.02;
+      const angle = Math.atan2(body.vy, body.vx) + (Math.random() - 0.5) * 0.72;
+
+      body.vx = Math.cos(angle) * speed;
+      body.vy = Math.sin(angle) * speed;
+    }
+
+    function tick(timestamp: number) {
+      const { width, height } = arenaElement.getBoundingClientRect();
+      const previous = lastFrameRef.current ?? timestamp;
+      const dt = Math.min(34, timestamp - previous);
+
+      lastFrameRef.current = timestamp;
+
+      for (const body of bodiesRef.current) {
+        body.x += body.vx * dt;
+        body.y += body.vy * dt;
+
+        if (body.x <= 0 || body.x + body.size >= width) {
+          body.vx *= -1;
+          randomizeBounce(body);
+        }
+
+        if (body.y <= 0 || body.y + body.size >= height) {
+          body.vy *= -1;
+          randomizeBounce(body);
+        }
+
+        clampBody(body, width, height);
+      }
+
+      const [game, tech] = bodiesRef.current;
+
+      if (game && tech) {
+        const gameCenterX = game.x + game.size / 2;
+        const gameCenterY = game.y + game.size / 2;
+        const techCenterX = tech.x + tech.size / 2;
+        const techCenterY = tech.y + tech.size / 2;
+        const dx = techCenterX - gameCenterX;
+        const dy = techCenterY - gameCenterY;
+        const distance = Math.max(1, Math.hypot(dx, dy));
+        const minimumDistance = (game.size + tech.size) / 2 + 8;
+
+        if (distance < minimumDistance) {
+          const nx = dx / distance;
+          const ny = dy / distance;
+          const overlap = minimumDistance - distance;
+
+          game.x -= (nx * overlap) / 2;
+          game.y -= (ny * overlap) / 2;
+          tech.x += (nx * overlap) / 2;
+          tech.y += (ny * overlap) / 2;
+
+          const gameSpeed = 0.018 + Math.random() * 0.017;
+          const techSpeed = 0.018 + Math.random() * 0.017;
+          const angle = Math.atan2(ny, nx) + (Math.random() - 0.5) * 0.62;
+
+          game.vx = -Math.cos(angle) * gameSpeed;
+          game.vy = -Math.sin(angle) * gameSpeed;
+          tech.vx = Math.cos(angle) * techSpeed;
+          tech.vy = Math.sin(angle) * techSpeed;
+
+          clampBody(game, width, height);
+          clampBody(tech, width, height);
+        }
+      }
+
+      applyBodies();
+      frameRef.current = window.requestAnimationFrame(tick);
+    }
+
+    resetBodies();
+
+    if (!reducedMotion) {
+      frameRef.current = window.requestAnimationFrame(tick);
+    }
+
+    const resizeObserver = new ResizeObserver(resetBodies);
+    resizeObserver.observe(arenaElement);
+
+    return () => {
+      if (frameRef.current) {
+        window.cancelAnimationFrame(frameRef.current);
+      }
+
+      resizeObserver.disconnect();
+    };
+  }, []);
+
+  return (
+    <div
+      ref={arenaRef}
+      className="absolute inset-x-0 bottom-0 top-[132px] overflow-hidden"
+      aria-label="Career deck sections"
+    >
+      {(["game", "tech"] as const).map((section) => (
+        <button
+          key={section}
+          ref={(node) => {
+            bubbleRefs.current[section] = node;
+          }}
+          type="button"
+          onClick={() => onOpenSection(section)}
+          className="absolute left-0 top-0 flex items-center justify-center rounded-full border border-white/45 bg-white/18 text-4xl font-semibold shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_24px_80px_rgba(101,36,112,0.16)] backdrop-blur-2xl transition-[background,box-shadow,transform] hover:scale-[1.02] hover:bg-white/24 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          style={{
+            width: section === "game" ? 340 : 310,
+            height: section === "game" ? 340 : 310,
+            transform: section === "game" ? "translate3d(28px, 132px, 0)" : "translate3d(430px, 84px, 0)",
+            willChange: "transform",
+          }}
+        >
+          {section === "game" ? "Game" : "Tech"}
+        </button>
+      ))}
+    </div>
   );
 }
 
