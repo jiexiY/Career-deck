@@ -1,6 +1,620 @@
 {
-  "updatedAt": "2026-07-01T16:25:13.408Z",
+  "updatedAt": "2026-07-01T23:04:12.162Z",
   "opportunities": [
+    {
+      "id": "library-game-2026-07-01-netease-social-media-content-marketing-intern",
+      "title": "Social Media Content Marketing Intern",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5165597007",
+      "location": "Canada Remote; United States Remote",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Social/media/business/social sciences background; English community culture; TikTok, Instagram, YouTube, Reddit, X, Discord; performance tracking; Chinese highly preferred.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.92,
+        "extraction": 0.86,
+        "freshness": 0.98,
+        "duplicateProbability": 0.12
+      },
+      "evidence": [
+        "Library report ranked this as the best fit and marked it NEW verified.",
+        "Source appendix S8: NetEase Games Greenhouse Social Media Content Marketing Intern."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "library-game-2026-07-01-tencent-level-infinite-game-operations-intern-r107226",
+      "title": "Game Operations Intern R107226 (Delta Force)",
+      "organization": "Tencent / Level Infinite",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/Game-Operations-Intern_R107226",
+      "location": "Official Workday; location not fully visible in report crawl",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Publishing/promotional operations, game operations support, and cross-team execution.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.66,
+        "freshness": 0.86,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Library report marked this NEW verified and high fit, but location was not fully visible in the crawl.",
+        "Source appendix S4: Tencent Workday Game Operations Intern R107226."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-tencent-game-research-intern-r107142",
+      "title": "Game Research Intern R107142",
+      "organization": "Tencent",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/Game-Research-Intern_R107142",
+      "location": "Official Workday; location not fully visible in report crawl",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Playtest and review games; market release tracking; structured game evaluation.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.66,
+        "freshness": 0.86,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Library report marked this NEW verified and medium-high fit.",
+        "Source appendix S5: Tencent Workday Game Research Intern R107142."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-garena-general-openings-internships-game-operations",
+      "title": "General Openings (Internships) - Game Operations",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://careers.garena.com/global/careers/J02131351",
+      "location": "Singapore",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Bachelor's degree or above; games/tech interest; problem solving; teamwork; internship availability.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.92,
+        "extraction": 0.86,
+        "freshness": 0.98,
+        "duplicateProbability": 0.12
+      },
+      "evidence": [
+        "Library report marked this NEW verified and medium-high fit.",
+        "Source appendix S11: Garena General Openings Internships."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "library-game-2026-07-01-garena-product-coordinator-game-operations",
+      "title": "Product Coordinator - Game Operations",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://careers.garena.com/global/careers/J02106618",
+      "location": "Mexico City",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Player behavior analysis; local market insight; in-game events; backend configuration; English and Spanish.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.92,
+        "extraction": 0.86,
+        "freshness": 0.98,
+        "duplicateProbability": 0.12
+      },
+      "evidence": [
+        "Library report marked this NEW verified and medium fit.",
+        "Source appendix S12: Garena Product Coordinator."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "library-game-2026-07-01-tencent-product-manager-intern-r107232",
+      "title": "Product Manager Intern R107232",
+      "organization": "Tencent",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/Product-Manager-Intern_R107232-1",
+      "location": "Official Workday; location not fully visible in report crawl",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Master's+ per report snippet; product, marketing, or customer service preferred.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.66,
+        "freshness": 0.86,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Library report marked this NEW verified but medium-low fit due to degree/requirements.",
+        "Source appendix S6: Tencent Workday Product Manager Intern R107232."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-tencent-data-science-intern-r107184",
+      "title": "Data Science Intern R107184",
+      "organization": "Tencent",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/Data-Science-Intern_R107184",
+      "location": "Official Workday; location not fully visible in report crawl",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Analytics/data-science track; likely technical analytics expectations.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.66,
+        "freshness": 0.86,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Library report marked this NEW verified and medium fit.",
+        "Source appendix S7: Tencent Workday Data Science Intern R107184."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-papergames-infold-video-design-intern-shining-nikki",
+      "title": "Video Design Intern - Shining Nikki",
+      "organization": "Papergames / Infold",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://career.papegames.com/EN",
+      "location": "Shanghai",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Promotional video/design production; market operations category; video/design portfolio likely required.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.66,
+        "freshness": 0.86,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Library report carried this forward with an official snippet visible.",
+        "Source appendix S1: Papergames official careers."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-papergames-infold-recruitment-intern-game-rd-planning",
+      "title": "Recruitment Intern - Game R&D Planning Direction",
+      "organization": "Papergames / Infold",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://career.papegames.com/EN",
+      "location": "Not fully visible in report crawl",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Recruiting / game R&D planning direction; details require manual portal verification.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.66,
+        "freshness": 0.86,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Library report carried this forward but noted details were not retrievable.",
+        "Source appendix S1: Papergames official careers."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-tencent-level-infinite-game-operations-intern-r106760",
+      "title": "Game Operations Intern R106760",
+      "organization": "Tencent / Level Infinite",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/Game-Operations-Intern_R106760",
+      "location": "Irvine / Los Angeles area from report search snippet",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Community/user operations, content operations, market research, and player needs.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.66,
+        "freshness": 0.86,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Library report carried this forward / re-verified and ranked it as one of the strongest US-based game-ops matches.",
+        "Source appendix S3: Tencent Workday Game Operations Intern R106760."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-netease-user-experience-center-junior-ux-designer",
+      "title": "User Experience Center - Junior UX Designer",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://job-boards.greenhouse.io/neteasegames",
+      "location": "Hangzhou Office; Shanghai Office",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Game UX portfolio, interaction design, task flows, prototypes, and gaming preferences.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.66,
+        "freshness": 0.86,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Library report carried this forward / board-verified and marked medium-high fit.",
+        "Source appendix S9: NetEase Games current openings."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-netease-overseas-influencer-kol-operations-intern-indonesia",
+      "title": "Overseas Influencer/KOL Operations Intern (Indonesia)",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://job-boards.greenhouse.io/neteasegames",
+      "location": "Indonesia",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Creator/KOL sourcing, campaign execution, platform/community awareness.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.66,
+        "freshness": 0.86,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Library report carried this forward / board-verified and marked location or eligibility as a possible blocker.",
+        "Source appendix S9: NetEase Games current openings."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-garena-associate-project-coordinator-contract",
+      "title": "Associate Project Coordinator (Contract)",
+      "organization": "Garena",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://careers.garena.com/global/careers/J02112091",
+      "location": "Singapore",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "1+ year PM/account/project coordination; developer-marketing-revenue liaison; post-campaign reports.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.78,
+        "extraction": 0.66,
+        "freshness": 0.86,
+        "duplicateProbability": 0.24
+      },
+      "evidence": [
+        "Library report marked this as carried-forward / adjacent, not an internship.",
+        "Source appendix S13: Garena Associate Project Coordinator Contract."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-hoyoverse-internships-early-career-no-open-internship",
+      "title": "Internships / Early-Career Openings",
+      "organization": "HoYoverse",
+      "section": "game",
+      "type": "internship",
+      "status": "closed",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://www.hoyoverse.com/en-us/careers",
+      "location": "Official careers / Greenhouse",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "No open internship verified in the July 1 Library report.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.92,
+        "extraction": 0.86,
+        "freshness": 0.98,
+        "duplicateProbability": 0.12
+      },
+      "evidence": [
+        "Library report marked HoYoverse internships as no longer actionable: official page/Greenhouse surfaced no current openings.",
+        "Source appendix S14/S15: HoYoverse official careers and Greenhouse."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "library-game-2026-07-01-riot-games-internship-roles-no-specific-open-role",
+      "title": "Internship Roles",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "internship",
+      "status": "closed",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://www.riotgames.com/en/student-internships",
+      "location": "Official careers / emerging talent",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "No specific official open intern role was safely verified in the July 1 Library report.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.92,
+        "extraction": 0.86,
+        "freshness": 0.98,
+        "duplicateProbability": 0.12
+      },
+      "evidence": [
+        "Library report marked Riot internship roles as no longer actionable unless an official role page opens.",
+        "Source appendix S16/S17: Riot Emerging Talent and Riot Careers."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "library-game-2026-07-01-garena-esports-event-management-free-fire-contract-expired",
+      "title": "Esports Event Management - Free Fire (Contract)",
+      "organization": "Garena",
+      "section": "game",
+      "type": "part-time",
+      "status": "closed",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://careers.garena.com/global/careers?category=Game+Operations",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Expired / not actionable in the July 1 Library report.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.92,
+        "extraction": 0.86,
+        "freshness": 0.98,
+        "duplicateProbability": 0.12
+      },
+      "evidence": [
+        "Library report marked this official Garena page as expired or not existing in search/open result.",
+        "Source appendix S10: Garena Careers Game Operations category."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "library-game-2026-07-01-papergames-infold-official-role-7530545356938479922-offline",
+      "title": "Official Role ID 7530545356938479922",
+      "organization": "Papergames / Infold",
+      "section": "game",
+      "type": "internship",
+      "status": "closed",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://career.papegames.com/EN",
+      "location": "TBD",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Position offline / not actionable in the July 1 Library report.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.92,
+        "extraction": 0.86,
+        "freshness": 0.98,
+        "duplicateProbability": 0.12
+      },
+      "evidence": [
+        "Library report marked the previously surfaced official page as position offline.",
+        "Source appendix S1: Papergames official careers."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "library-game-2026-07-01-lilith-games-2027-campus-internship-program-watchlist",
+      "title": "2027 Campus Internship Program Watchlist",
+      "organization": "Lilith Games",
+      "section": "game",
+      "type": "internship",
+      "status": "changed",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://uk.linkedin.com/company/lilith-games",
+      "location": "Official portal not rendered in report run",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Discovery lead only; official posting must be verified before treating as open.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.46,
+        "extraction": 0.45,
+        "freshness": 0.62,
+        "duplicateProbability": 0.4
+      },
+      "evidence": [
+        "Library report marked this as stale/unverified: LinkedIn snippet said launched, but official Feishu/jobs portal did not render.",
+        "Source appendix S21: Lilith Games LinkedIn snippet."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-riot-software-game-producer-intern-aggregator-watchlist",
+      "title": "Software/Game Producer Intern Aggregator Watchlist",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "internship",
+      "status": "changed",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://www.riotgames.com/en/work-with-us/jobs",
+      "location": "Aggregator leads",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Discovery lead only; official Riot verification was not achieved in the report run.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.46,
+        "extraction": 0.45,
+        "freshness": 0.62,
+        "duplicateProbability": 0.4
+      },
+      "evidence": [
+        "Library report found aggregator results but did not verify official Riot openings.",
+        "Source appendix S17: Riot Careers."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-hoyoverse-linkedin-aggregator-full-time-watchlist",
+      "title": "LinkedIn/Aggregator Full-Time Roles Watchlist",
+      "organization": "HoYoverse",
+      "section": "game",
+      "type": "full-time",
+      "status": "changed",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://job-boards.greenhouse.io/hoyoverse",
+      "location": "Aggregator leads",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Not internships/trainee/new-grad; official Greenhouse showed no openings in report run.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.46,
+        "extraction": 0.45,
+        "freshness": 0.62,
+        "duplicateProbability": 0.4
+      },
+      "evidence": [
+        "Library report marked these as stale/unverified full-time aggregator leads, not internship openings.",
+        "Source appendix S15: HoYoverse Greenhouse."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-indeed-game-operations-intern-broad-search-watchlist",
+      "title": "Game Operations Intern Broad Search Watchlist",
+      "organization": "Indeed Aggregator",
+      "section": "game",
+      "type": "internship",
+      "status": "changed",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "https://www.indeed.com/jobs?q=game+operations+intern",
+      "location": "Aggregator search",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Many results are sports/game-day operations rather than video-game live operations.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.46,
+        "extraction": 0.45,
+        "freshness": 0.62,
+        "duplicateProbability": 0.4
+      },
+      "evidence": [
+        "Library report marked Indeed broad searches as discovery only and not safe to call open video-game internships."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "library-game-2026-07-01-tapblaze-gamepoint-social-marketing-internship-watchlist",
+      "title": "Social Marketing Internship Leads Watchlist",
+      "organization": "TapBlaze / GamePoint",
+      "section": "game",
+      "type": "internship",
+      "status": "changed",
+      "sourceId": "openai-library-game-report-2026-07-01",
+      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "url": "#",
+      "location": "Aggregator leads",
+      "deadline": "TBD",
+      "compensation": "TBD",
+      "eligibility": "Relevant keywords, but not official-source verified in the July 1 report.",
+      "discoveredAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "confidence": {
+        "source": 0.46,
+        "extraction": 0.45,
+        "freshness": 0.62,
+        "duplicateProbability": 0.4
+      },
+      "evidence": [
+        "Library report marked TapBlaze / GamePoint social marketing internship leads as stale/unverified and requiring official verification."
+      ],
+      "needsReview": true
+    },
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
       "title": "Internships",

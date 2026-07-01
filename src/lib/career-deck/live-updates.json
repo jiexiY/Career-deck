@@ -1,6 +1,21 @@
 {
   "updates": [
     {
+      "id": "game-library-sync-2026-07-01",
+      "title": "Game Library Report Synced",
+      "summary": "OpenAI Library game internship report for July 1 was merged into Career Deck with verified, carried-forward, closed, and stale leads labeled separately.",
+      "section": "game",
+      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "status": "synced",
+      "sourceUrl": "openai-library://game_internship_daily_report_fixed_2026-07-01.pptx",
+      "items": [
+        "Added 7 newly verified or newly re-verified game internship and operations roles.",
+        "Carried forward 6 still-open or adjacent roles with review notes where location, portfolio, or eligibility was uncertain.",
+        "Marked 4 no-longer-actionable leads as closed instead of presenting them as open opportunities.",
+        "Added stale or aggregator-only leads as changed records with low confidence and needsReview=true."
+      ]
+    },
+    {
       "id": "tech-sync-2026-06-28",
       "title": "Tech Section Synced",
       "summary": "The first shared ChatGPT conversation was converted into Career Deck website records with uncertain fields shown as TBD.",
