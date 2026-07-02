@@ -53,6 +53,123 @@ const categoryOptions: Array<{ value: CategoryFilter; label: string }> = [
   { value: "startup", label: "Startups" },
 ];
 
+const libraryGameReportIdPrefix = "library-game-2026-07-01-";
+
+const gameReportBuckets = [
+  { label: "New verified", value: 7, note: "Apply or manual-check today" },
+  { label: "Carried forward", value: 6, note: "Track; act where fit is realistic" },
+  { label: "Closed", value: 4, note: "Do not spend application time" },
+  { label: "Stale / unverified", value: 5, note: "Discovery only" },
+  { label: "Watchlist notes", value: 6, note: "Strategic prep" },
+];
+
+const gameReportPriorityRoles = [
+  {
+    rank: 1,
+    role: "NetEase Social Media Content Marketing Intern",
+    reason: "Remote, social sciences accepted, bilingual EN/CN, content + community + metrics.",
+  },
+  {
+    rank: 2,
+    role: "Tencent Game Operations Interns",
+    reason: "Strongest true game-ops path; apply if Workday forms are active.",
+  },
+  {
+    rank: 3,
+    role: "Garena Game Operations Internship",
+    reason: "Broad game-ops gateway; Singapore availability is the constraint.",
+  },
+  {
+    rank: 4,
+    role: "NetEase UX / KOL roles",
+    reason: "Good fit only if portfolio or location/work eligibility is credible.",
+  },
+];
+
+const gameReportSignals = [
+  "Bilingual EN/CN",
+  "Content calendars",
+  "Campaign metrics",
+  "Community feedback loops",
+  "Game-analysis writing",
+  "Game UX portfolio",
+];
+
+const gameReportFixes = [
+  "Build 3 one-page game-ops case studies.",
+  "Publish a mock social/player analytics dashboard.",
+  "Prepare Mandarin + English resume variants.",
+  "Document end-to-end event/content workflows.",
+];
+
+const gameReportInsights: Record<string, { fit: string; bucket: string; action: string }> = {
+  "library-game-2026-07-01-netease-social-media-content-marketing-intern": {
+    fit: "High",
+    bucket: "New verified",
+    action: "Apply with social + analytics + bilingual positioning.",
+  },
+  "library-game-2026-07-01-tencent-level-infinite-game-operations-intern-r107226": {
+    fit: "High",
+    bucket: "New verified",
+    action: "Manual Workday check; submit if active.",
+  },
+  "library-game-2026-07-01-tencent-game-research-intern-r107142": {
+    fit: "Medium-High",
+    bucket: "New verified",
+    action: "Show game-analysis writing and player research examples.",
+  },
+  "library-game-2026-07-01-garena-general-openings-internships-game-operations": {
+    fit: "Medium-High",
+    bucket: "New verified",
+    action: "Apply only if Singapore availability is realistic.",
+  },
+  "library-game-2026-07-01-garena-product-coordinator-game-operations": {
+    fit: "Medium",
+    bucket: "New verified",
+    action: "Use as a live-ops duties template if location blocks action.",
+  },
+  "library-game-2026-07-01-tencent-product-manager-intern-r107232": {
+    fit: "Medium-Low",
+    bucket: "New verified",
+    action: "Treat as PM trajectory research unless degree requirements match.",
+  },
+  "library-game-2026-07-01-tencent-data-science-intern-r107184": {
+    fit: "Medium",
+    bucket: "New verified",
+    action: "Strengthen public analytics proof before prioritizing.",
+  },
+  "library-game-2026-07-01-papergames-infold-video-design-intern-shining-nikki": {
+    fit: "Medium",
+    bucket: "Carried forward",
+    action: "Proceed only with a credible video/design portfolio.",
+  },
+  "library-game-2026-07-01-papergames-infold-recruitment-intern-game-rd-planning": {
+    fit: "Medium",
+    bucket: "Carried forward",
+    action: "Manual portal verification required before applying.",
+  },
+  "library-game-2026-07-01-tencent-level-infinite-game-operations-intern-r106760": {
+    fit: "High",
+    bucket: "Carried forward",
+    action: "Manual Workday check; submit if active.",
+  },
+  "library-game-2026-07-01-netease-user-experience-center-junior-ux-designer": {
+    fit: "Medium-High",
+    bucket: "Carried forward",
+    action: "Proceed only with game-specific UX portfolio proof.",
+  },
+  "library-game-2026-07-01-netease-overseas-influencer-kol-operations-intern-indonesia": {
+    fit: "Medium",
+    bucket: "Carried forward",
+    action: "Check location/work eligibility before applying.",
+  },
+  "library-game-2026-07-01-garena-associate-project-coordinator-contract": {
+    fit: "Medium",
+    bucket: "Adjacent",
+    action: "Use as an operations portfolio template; not an internship.",
+  },
+};
+
 export function RemadeCareerDeck({
   opportunities,
   liveUpdates,
@@ -624,6 +741,8 @@ function OpportunitiesPage({
           </div>
         </header>
 
+        <GameReportCharts opportunities={opportunities} />
+
         <section className="mx-auto mt-8 grid max-w-[1368px] gap-5 md:grid-cols-2 xl:grid-cols-3">
           {opportunities.length ? (
             opportunities.map((opportunity) => (
@@ -660,9 +779,10 @@ function OpportunityCard({
   onSelect: () => void;
 }) {
   const priority = isPriority(opportunity);
+  const reportInsight = gameReportInsights[opportunity.id];
 
   return (
-    <article className="relative min-h-[352px] rounded-[29px] border border-white/45 bg-white/20 px-5 pb-4 pt-14 shadow-[inset_0_1px_0_rgba(255,255,255,0.62),0_28px_70px_rgba(92,38,105,0.12)] backdrop-blur-2xl transition duration-200 hover:-translate-y-1 hover:bg-white/28">
+    <article className="relative min-h-[430px] rounded-[29px] border border-white/45 bg-white/20 px-5 pb-4 pt-14 shadow-[inset_0_1px_0_rgba(255,255,255,0.62),0_28px_70px_rgba(92,38,105,0.12)] backdrop-blur-2xl transition duration-200 hover:-translate-y-1 hover:bg-white/28">
       <span
         className={`absolute left-4 top-4 rounded-full px-3 py-0.5 text-xs font-medium text-white shadow-[0_8px_22px_rgba(103,0,130,0.18)] ${
           priority ? "bg-[#a100c6]" : "bg-[#d774dc]"
@@ -681,21 +801,122 @@ function OpportunityCard({
         </span>
         <span className="mt-1 block text-2xl font-thin leading-tight">{opportunity.organization}</span>
 
-        <span className="mt-4 grid grid-cols-2 gap-3">
-          <span className="flex min-h-[160px] items-center justify-center rounded-[27px] border border-white/45 bg-white/18 px-4 text-sm font-semibold leading-tight shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
+        <span className="mt-4 grid gap-3">
+          <span className="flex min-h-[104px] items-center justify-center rounded-[27px] border border-white/45 bg-white/18 px-4 text-sm font-semibold leading-tight shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
             {conciseSummary(opportunity)}
           </span>
-          <span className="flex min-h-[160px] flex-col items-center justify-center gap-4 rounded-[27px] border border-white/45 bg-white/18 px-4 text-sm font-semibold leading-tight shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
-            My fitness rating
-            <FitnessDots rating={fitnessRating(opportunity)} compact />
-          </span>
+          <FitnessBreakdown opportunity={opportunity} compact />
         </span>
+
+        {reportInsight && (
+          <span className="mt-3 grid grid-cols-[96px_1fr] gap-2 rounded-[20px] border border-white/45 bg-white/16 px-3 py-2 text-left text-xs font-semibold leading-snug">
+            <span className="rounded-full bg-white/38 px-2 py-1 text-center">{reportInsight.fit}</span>
+            <span>
+              {reportInsight.bucket}: {reportInsight.action}
+            </span>
+          </span>
+        )}
 
         <span className="mt-4 block text-sm font-semibold">
           {formatDateLabel(opportunity.discoveredAt)} - {deadlineLabel(opportunity.deadline)}
         </span>
       </button>
     </article>
+  );
+}
+
+function GameReportCharts({ opportunities }: { opportunities: Opportunity[] }) {
+  const reportRecords = opportunities.filter((opportunity) => opportunity.id.startsWith(libraryGameReportIdPrefix));
+
+  if (!reportRecords.length) {
+    return null;
+  }
+
+  const openCount = reportRecords.filter((opportunity) => opportunity.status === "open").length;
+  const closedCount = reportRecords.filter((opportunity) => opportunity.status === "closed").length;
+  const reviewCount = reportRecords.filter((opportunity) => opportunity.needsReview).length;
+  const maxBucket = Math.max(...gameReportBuckets.map((bucket) => bucket.value));
+
+  return (
+    <section className="mx-auto mt-8 grid max-w-[1368px] gap-4 lg:grid-cols-[1.2fr_1fr]">
+      <div className="rounded-[29px] border border-white/50 bg-white/18 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_24px_80px_rgba(101,36,112,0.12)] backdrop-blur-2xl">
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <div>
+            <h2 className="text-2xl font-semibold">Game report summary</h2>
+            <p className="mt-1 text-sm font-medium text-black/58">OpenAI Library file: July 1 source-verified where possible</p>
+          </div>
+          <div className="grid grid-cols-3 gap-2 text-center text-xs font-semibold">
+            <MetricChip label="Open" value={openCount} />
+            <MetricChip label="Review" value={reviewCount} />
+            <MetricChip label="Closed" value={closedCount} />
+          </div>
+        </div>
+
+        <div className="mt-5 grid gap-3">
+          {gameReportBuckets.map((bucket) => (
+            <div key={bucket.label} className="grid gap-1.5">
+              <div className="flex items-center justify-between gap-3 text-sm font-semibold">
+                <span>{bucket.label}</span>
+                <span>{bucket.value}</span>
+              </div>
+              <div className="h-3 overflow-hidden rounded-full border border-white/40 bg-white/24">
+                <div
+                  className="h-full rounded-full bg-[#9e00b8]"
+                  style={{ width: `${Math.max(8, (bucket.value / maxBucket) * 100)}%` }}
+                />
+              </div>
+              <p className="text-xs font-medium text-black/55">{bucket.note}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="grid gap-4">
+        <div className="rounded-[29px] border border-white/50 bg-white/18 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_24px_80px_rgba(101,36,112,0.12)] backdrop-blur-2xl">
+          <h2 className="text-xl font-semibold">Apply priority</h2>
+          <div className="mt-4 grid gap-3">
+            {gameReportPriorityRoles.map((item) => (
+              <div key={item.rank} className="grid grid-cols-[32px_1fr] gap-3 rounded-[20px] border border-white/40 bg-white/16 p-3">
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/48 text-sm font-semibold">
+                  {item.rank}
+                </span>
+                <span className="text-sm font-medium leading-snug">
+                  <strong className="block">{item.role}</strong>
+                  <span className="text-black/62">{item.reason}</span>
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="rounded-[29px] border border-white/50 bg-white/18 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_24px_80px_rgba(101,36,112,0.12)] backdrop-blur-2xl">
+          <h2 className="text-xl font-semibold">Fitness signals</h2>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {gameReportSignals.map((signal) => (
+              <span key={signal} className="rounded-full border border-white/45 bg-white/22 px-3 py-1 text-xs font-semibold">
+                {signal}
+              </span>
+            ))}
+          </div>
+          <div className="mt-4 grid gap-2">
+            {gameReportFixes.map((fix) => (
+              <p key={fix} className="rounded-[18px] bg-white/16 px-3 py-2 text-xs font-semibold text-black/65">
+                {fix}
+              </p>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function MetricChip({ label, value }: { label: string; value: number }) {
+  return (
+    <span className="rounded-[18px] border border-white/45 bg-white/22 px-3 py-2">
+      <span className="block text-lg leading-none">{value}</span>
+      <span className="text-black/52">{label}</span>
+    </span>
   );
 }
 
@@ -729,6 +950,7 @@ function DetailPage({
   const source = conversationSources.find((item) => item.id === opportunity.sourceId);
   const snapshot = conversationSnapshots.find((item) => item.sourceId === opportunity.sourceId);
   const liveSource = liveSourceStatuses.find((item) => item.sourceId === opportunity.sourceId);
+  const reportInsight = gameReportInsights[opportunity.id];
 
   return (
     <main className="min-h-screen bg-[#f3e5f5] text-black">
@@ -782,9 +1004,14 @@ function DetailPage({
 
                 <div>
                   <p className="text-3xl font-semibold">My fitness rate</p>
-                  <div className="mt-8">
-                    <FitnessMatrix rating={fitnessRating(opportunity)} />
-                  </div>
+                  <FitnessBreakdown opportunity={opportunity} />
+                  {reportInsight && (
+                    <div className="mt-4 rounded-[24px] border border-white/45 bg-white/18 p-4 text-left text-sm font-semibold leading-snug shadow-[inset_0_1px_0_rgba(255,255,255,0.42)]">
+                      <p className="text-xs uppercase text-black/48">Library report read</p>
+                      <p className="mt-1">{reportInsight.fit} fit - {reportInsight.bucket}</p>
+                      <p className="mt-2 text-black/62">{reportInsight.action}</p>
+                    </div>
+                  )}
                 </div>
 
                 <div className="grid w-full gap-3 text-sm font-medium text-black/70">
@@ -894,13 +1121,49 @@ function FitnessDots({ rating, compact = false }: { rating: number; compact?: bo
   );
 }
 
-function FitnessMatrix({ rating }: { rating: number }) {
+function FitnessBreakdown({
+  opportunity,
+  compact = false,
+}: {
+  opportunity: Opportunity;
+  compact?: boolean;
+}) {
+  const rating = fitnessRating(opportunity);
+  const confidenceRows = [
+    { label: "Source", value: opportunity.confidence.source, tone: "bg-[#9e00b8]" },
+    { label: "Extract", value: opportunity.confidence.extraction, tone: "bg-[#b83bc8]" },
+    { label: "Fresh", value: opportunity.confidence.freshness, tone: "bg-[#7b00a7]" },
+    { label: "Low dup", value: 1 - opportunity.confidence.duplicateProbability, tone: "bg-[#d774dc]" },
+  ];
+
   return (
-    <div className="grid gap-5">
-      {[0, 1, 2, 3, 4].map((row) => (
-        <FitnessDots key={row} rating={Math.max(1, Math.min(5, rating + row - 2))} />
-      ))}
-    </div>
+    <span
+      className={`block rounded-[27px] border border-white/45 bg-white/18 shadow-[inset_0_1px_0_rgba(255,255,255,0.45)] ${
+        compact ? "px-4 py-3 text-xs" : "mt-6 px-5 py-5 text-sm"
+      }`}
+    >
+      <span className="flex items-center justify-between gap-3 font-semibold">
+        <span>{compact ? "Fitness detail" : "Detailed fitness rating"}</span>
+        <span className="flex items-center gap-2">
+          <FitnessDots rating={rating} compact />
+          <span>{rating}/5</span>
+        </span>
+      </span>
+
+      <span className={`mt-3 grid ${compact ? "gap-2" : "gap-3"}`}>
+        {confidenceRows.map((row) => (
+          <span key={row.label} className="grid gap-1">
+            <span className="flex justify-between gap-3 font-semibold text-black/68">
+              <span>{row.label}</span>
+              <span>{Math.round(row.value * 100)}%</span>
+            </span>
+            <span className="h-2 overflow-hidden rounded-full bg-white/34">
+              <span className={`block h-full rounded-full ${row.tone}`} style={{ width: `${Math.round(row.value * 100)}%` }} />
+            </span>
+          </span>
+        ))}
+      </span>
+    </span>
   );
 }
 
