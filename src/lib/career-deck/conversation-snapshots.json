@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-01T16:25:13.408Z",
+  "updatedAt": "2026-07-02T16:12:45.378Z",
   "snapshots": [
     {
       "sourceId": "chatgpt-tech-source",
       "url": "https://chatgpt.com/share/6a418ef2-e89c-83e8-9434-1af2bff1693",
       "status": "changed",
-      "lastFetchedAt": "2026-07-01T16:25:13.408Z",
-      "lastChangedAt": "2026-07-01T16:25:13.408Z",
-      "rawHash": "b40f33fdb8f60fac38935c53b3e90fa26f9f04dbdbd8d5e4c617586a60fc5ec1",
-      "normalizedHash": "a476deb0a35b62a72c8fff207f0698d96297ff5dd2a36aad5b0069a9d307097f",
-      "rawLength": 515924,
-      "normalizedLength": 509603
+      "lastFetchedAt": "2026-07-02T16:12:45.378Z",
+      "lastChangedAt": "2026-07-02T16:12:45.378Z",
+      "rawHash": "3d8b31e4405d0e1e19abd955a58d5be8734742fd5703b285d1f937352b422888",
+      "normalizedHash": "448ddaac82bb4fe06cc9ea950fc4134e5b9bb814e58962fdcee4e4512b20c3d1",
+      "rawLength": 515230,
+      "normalizedLength": 508910
     },
     {
       "sourceId": "chatgpt-game-source",
       "url": "https://chatgpt.com/share/6a418e8c-b8f4-83e8-863c-dde3976f0019",
       "status": "changed",
-      "lastFetchedAt": "2026-07-01T16:25:13.408Z",
-      "lastChangedAt": "2026-07-01T16:25:13.408Z",
-      "rawHash": "c66397054bd4d051f0cf320c3963940bb29dd6e64853c2a251446e8afd500f6b",
-      "normalizedHash": "16d08e4a3cb33699c2782f74f1420683dccfd4bec71aca47a3c1d98ecfdde9c7",
-      "rawLength": 9633567,
-      "normalizedLength": 9612253
+      "lastFetchedAt": "2026-07-02T16:12:45.378Z",
+      "lastChangedAt": "2026-07-02T16:12:45.378Z",
+      "rawHash": "d8b932f504b92e68f2bb1baa3421abe33767888cb05f76c12907b78c1ff75aa8",
+      "normalizedHash": "7a6a13d9aa6d151d6f128e0ca319af4717953585cf05c8b8c0c71a9e23479009",
+      "rawLength": 9633111,
+      "normalizedLength": 9611796
     }
   ]
 }
