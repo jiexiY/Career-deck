@@ -38,6 +38,18 @@ type LiveSourceStatus = {
   failureReason?: string;
 };
 
+type ReportConfig = {
+  section: OpportunitySection;
+  idPrefix: string;
+  title: string;
+  subtitle: string;
+  accent: string;
+  buckets: Array<{ label: string; value: number; note: string }>;
+  priorityRoles: Array<{ rank: number; role: string; reason: string }>;
+  signals: string[];
+  fixes: string[];
+};
+
 const categoryOptions: Array<{ value: CategoryFilter; label: string }> = [
   { value: "all", label: "All" },
   { value: "internship", label: "Internships" },
@@ -54,6 +66,7 @@ const categoryOptions: Array<{ value: CategoryFilter; label: string }> = [
 ];
 
 const libraryGameReportIdPrefix = "library-game-2026-07-01-";
+const libraryTechReportIdPrefix = "library-tech-2026-07-02-";
 
 const gameReportBuckets = [
   { label: "New verified", value: 7, note: "Apply or manual-check today" },
@@ -169,6 +182,148 @@ const gameReportInsights: Record<string, { fit: string; bucket: string; action: 
     action: "Use as an operations portfolio template; not an internship.",
   },
 };
+
+const techReportBuckets = [
+  { label: "New / changed", value: 21, note: "July 1 revised PDF; fastest deadline checks first" },
+  { label: "Prior monitor", value: 57, note: "July 2 catchup records with detailed fit notes" },
+  { label: "Top fit", value: 12, note: "5/5 or strongest 4.5/5 applications" },
+  { label: "Portfolio sprints", value: 28, note: "Hackathons and build challenges for proof-of-work" },
+  { label: "Needs timing check", value: 18, note: "Rolling, active-looking, or stale-source caveats" },
+];
+
+const techReportPriorityRoles = [
+  {
+    rank: 1,
+    role: "Claude Corps Fellow",
+    reason: "Urgent July 17 deadline, strongest AI adoption plus social-impact fellowship fit.",
+  },
+  {
+    rank: 2,
+    role: "OpenAI Campus Network",
+    reason: "Best match for AI club leadership, workshops, and student AI programming.",
+  },
+  {
+    rank: 3,
+    role: "Microsoft Copilot Student Ambassador",
+    reason: "Strong responsible AI tooling and campus adoption path with rolling review.",
+  },
+  {
+    rank: 4,
+    role: "Google Student Researcher",
+    reason: "Research/evaluation lane with July 17 timing and strong stats + AI testing fit.",
+  },
+  {
+    rank: 5,
+    role: "Scale AI Technical Advisor Specialist",
+    reason: "High-upside paid AI evaluation role, but verify the stale January start-date caveat.",
+  },
+];
+
+const techReportSignals = [
+  "AI evaluation",
+  "Campus workshops",
+  "Source confidence",
+  "Product analytics",
+  "GitHub demo",
+  "Figma prototype",
+  "Workflow audits",
+  "Student community",
+];
+
+const techReportFixes = [
+  "Ship one AI Opportunity Monitor demo with source confidence and database-backed reports.",
+  "Prepare a reusable GitHub/Figma/demo packet for applications and hackathons.",
+  "Write one short AI-evaluation case study with stale-source and duplicate handling.",
+  "Verify rolling or active-looking postings before spending more than 30 minutes tailoring.",
+];
+
+const techReportInsights: Record<string, { fit: string; bucket: string; action: string }> = {
+  "library-tech-2026-07-02-anthropic-codepath-claude-corps-fellow": {
+    fit: "5/5",
+    bucket: "New / changed",
+    action: "Apply urgently with AI adoption and social-impact framing.",
+  },
+  "library-tech-2026-07-02-openai-campus-network-student-club-interest-form": {
+    fit: "5/5",
+    bucket: "New / changed",
+    action: "Pitch AI club leadership, workshops, and student programming.",
+  },
+  "library-tech-2026-07-02-microsoft-copilot-student-ambassador": {
+    fit: "5/5",
+    bucket: "New / changed",
+    action: "Use campus AI adoption and responsible-tooling examples.",
+  },
+  "library-tech-2026-07-02-notion-campus-leaders": {
+    fit: "5/5",
+    bucket: "New / changed",
+    action: "Lead with systems building, Notion workflows, and community operations.",
+  },
+  "library-tech-2026-07-02-cloudflare-people-team-intern-hr-operations-ai-innovation-fall-2026": {
+    fit: "5/5",
+    bucket: "Prior monitor",
+    action: "Apply with AI operations, documentation, dashboards, and people-systems proof.",
+  },
+  "library-tech-2026-07-02-google-student-researcher-bs-ms-winter-summer-2026": {
+    fit: "5/5",
+    bucket: "Prior monitor",
+    action: "Apply by July 17 with a stats/research resume and AI-evaluation artifact.",
+  },
+  "library-tech-2026-07-02-google-gemini-build-with-gemini-xprize": {
+    fit: "5/5",
+    bucket: "Prior monitor",
+    action: "Turn Career Deck into a product demo with users and source confidence.",
+  },
+  "library-tech-2026-07-02-scale-ai-technical-advisor-specialist-part-time-internship": {
+    fit: "5/5 if current",
+    bucket: "Prior monitor",
+    action: "Verify recruiter timing, then emphasize AI evaluation and model-failure analysis.",
+  },
+  "library-tech-2026-07-02-sharkninja-sharkbyte-applied-ai-analytics-co-op-fall-2026": {
+    fit: "5/5",
+    bucket: "Prior monitor",
+    action: "Position around AI workflows, dashboards, SQL/Python, and messy-data decisions.",
+  },
+  "library-tech-2026-07-02-whitney-museum-technology-ai-product-engineering-intern-fall-2026": {
+    fit: "5/5",
+    bucket: "Prior monitor",
+    action: "Apply with a RAG assistant demo, privacy risks, eval notes, and user research framing.",
+  },
+  "library-tech-2026-07-02-zipline-software-systems-validation-intern-fall-2026": {
+    fit: "5/5",
+    bucket: "Prior monitor",
+    action: "Build a simulated flight-log validation dashboard with anomaly flags.",
+  },
+};
+
+const opportunityReportInsights: Record<string, { fit: string; bucket: string; action: string }> = {
+  ...gameReportInsights,
+  ...techReportInsights,
+};
+
+const reportConfigs: ReportConfig[] = [
+  {
+    section: "game",
+    idPrefix: libraryGameReportIdPrefix,
+    title: "Game report summary",
+    subtitle: "OpenAI Library file: July 1 source-verified where possible",
+    accent: "#9e00b8",
+    buckets: gameReportBuckets,
+    priorityRoles: gameReportPriorityRoles,
+    signals: gameReportSignals,
+    fixes: gameReportFixes,
+  },
+  {
+    section: "tech",
+    idPrefix: libraryTechReportIdPrefix,
+    title: "Tech report summary",
+    subtitle: "OpenAI Library files: July 1 revised set plus July 2 catchup PDF",
+    accent: "#d10aa5",
+    buckets: techReportBuckets,
+    priorityRoles: techReportPriorityRoles,
+    signals: techReportSignals,
+    fixes: techReportFixes,
+  },
+];
 
 export function RemadeCareerDeck({
   opportunities,
@@ -363,6 +518,18 @@ export function RemadeCareerDeck({
   );
 }
 
+function DeckHeadline({ className = "" }: { className?: string }) {
+  return (
+    <div
+      className={`pointer-events-none flex min-h-[104px] w-[min(760px,calc(100vw-1.5rem))] items-center rounded-r-[999px] border-y border-r border-white/54 bg-white/18 px-8 pl-16 shadow-[inset_0_1px_0_rgba(255,255,255,0.72),0_24px_80px_rgba(84,14,105,0.13)] backdrop-blur-2xl sm:min-h-[132px] sm:px-12 sm:pl-20 ${className}`}
+    >
+      <h1 className="text-5xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
+        Career Deck
+      </h1>
+    </div>
+  );
+}
+
 function LandingPage({
   answer,
   error,
@@ -377,11 +544,7 @@ function LandingPage({
   return (
     <main className="min-h-screen bg-white text-black">
       <section className="relative mx-auto min-h-screen max-w-[1440px] overflow-hidden px-6 py-10">
-        <div className="absolute left-6 top-5 z-10 w-[min(790px,calc(100%-3rem))] rounded-[120px] border border-black/5 bg-white/58 px-10 py-11 shadow-[0_30px_85px_rgba(0,0,0,0.16),inset_0_1px_0_rgba(255,255,255,0.8)] backdrop-blur-2xl">
-          <h1 className="text-6xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
-            Career Deck
-          </h1>
-        </div>
+        <DeckHeadline className="absolute left-0 top-5 z-10" />
 
         <Image
           src="/career-deck-landing.jpg"
@@ -449,9 +612,7 @@ function HomePage({
         <GlassBackButton onClick={onBack} label="Back to cover" />
         <div className="mx-auto grid min-h-[calc(100vh-6rem)] max-w-[1440px] gap-8 lg:grid-cols-[1fr_430px]">
           <div className="relative min-h-[620px] overflow-hidden">
-            <h1 className="pl-14 text-6xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
-              Career Deck
-            </h1>
+            <DeckHeadline />
 
             <FloatingSectionBubbles onOpenSection={onOpenSection} />
           </div>
@@ -707,9 +868,7 @@ function OpportunitiesPage({
       <section className="min-h-screen bg-[radial-gradient(circle_at_0%_0%,rgba(193,139,202,0.95)_0%,rgba(218,184,224,0.86)_48%,rgba(243,229,245,0.98)_100%)] px-5 pb-28 pt-10 sm:px-8 lg:px-12">
         <GlassBackButton onClick={onBack} label="Back to home" />
         <header className="mx-auto flex max-w-[1440px] flex-col gap-5 md:flex-row md:items-start md:justify-between">
-          <h1 className="pl-14 text-6xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
-            Career Deck
-          </h1>
+          <DeckHeadline className="shrink-0" />
 
           <div className="grid w-full max-w-[520px] gap-3">
             <label className="relative">
@@ -741,7 +900,7 @@ function OpportunitiesPage({
           </div>
         </header>
 
-        <GameReportCharts opportunities={opportunities} />
+        <ReportCharts opportunities={opportunities} />
 
         <section className="mx-auto mt-8 grid max-w-[1368px] gap-5 md:grid-cols-2 xl:grid-cols-3">
           {opportunities.length ? (
@@ -779,7 +938,7 @@ function OpportunityCard({
   onSelect: () => void;
 }) {
   const priority = isPriority(opportunity);
-  const reportInsight = gameReportInsights[opportunity.id];
+  const reportInsight = opportunityReportInsights[opportunity.id];
 
   return (
     <article className="relative min-h-[430px] rounded-[29px] border border-white/45 bg-white/20 px-5 pb-4 pt-14 shadow-[inset_0_1px_0_rgba(255,255,255,0.62),0_28px_70px_rgba(92,38,105,0.12)] backdrop-blur-2xl transition duration-200 hover:-translate-y-1 hover:bg-white/28">
@@ -825,25 +984,40 @@ function OpportunityCard({
   );
 }
 
-function GameReportCharts({ opportunities }: { opportunities: Opportunity[] }) {
-  const reportRecords = opportunities.filter((opportunity) => opportunity.id.startsWith(libraryGameReportIdPrefix));
+function ReportCharts({ opportunities }: { opportunities: Opportunity[] }) {
+  const activeReports = reportConfigs
+    .map((report) => ({
+      report,
+      records: opportunities.filter((opportunity) => opportunity.id.startsWith(report.idPrefix)),
+    }))
+    .filter(({ records }) => records.length);
 
-  if (!reportRecords.length) {
+  if (!activeReports.length) {
     return null;
   }
 
-  const openCount = reportRecords.filter((opportunity) => opportunity.status === "open").length;
-  const closedCount = reportRecords.filter((opportunity) => opportunity.status === "closed").length;
-  const reviewCount = reportRecords.filter((opportunity) => opportunity.needsReview).length;
-  const maxBucket = Math.max(...gameReportBuckets.map((bucket) => bucket.value));
+  return (
+    <div className="mx-auto mt-8 grid max-w-[1368px] gap-6">
+      {activeReports.map(({ report, records }) => (
+        <ReportPanel key={report.section} report={report} records={records} />
+      ))}
+    </div>
+  );
+}
+
+function ReportPanel({ report, records }: { report: ReportConfig; records: Opportunity[] }) {
+  const openCount = records.filter((opportunity) => opportunity.status === "open").length;
+  const closedCount = records.filter((opportunity) => opportunity.status === "closed").length;
+  const reviewCount = records.filter((opportunity) => opportunity.needsReview).length;
+  const maxBucket = Math.max(...report.buckets.map((bucket) => bucket.value));
 
   return (
-    <section className="mx-auto mt-8 grid max-w-[1368px] gap-4 lg:grid-cols-[1.2fr_1fr]">
+    <section className="grid gap-4 lg:grid-cols-[1.2fr_1fr]">
       <div className="rounded-[29px] border border-white/50 bg-white/18 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_24px_80px_rgba(101,36,112,0.12)] backdrop-blur-2xl">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
-            <h2 className="text-2xl font-semibold">Game report summary</h2>
-            <p className="mt-1 text-sm font-medium text-black/58">OpenAI Library file: July 1 source-verified where possible</p>
+            <h2 className="text-2xl font-semibold">{report.title}</h2>
+            <p className="mt-1 text-sm font-medium text-black/58">{report.subtitle}</p>
           </div>
           <div className="grid grid-cols-3 gap-2 text-center text-xs font-semibold">
             <MetricChip label="Open" value={openCount} />
@@ -853,7 +1027,7 @@ function GameReportCharts({ opportunities }: { opportunities: Opportunity[] }) {
         </div>
 
         <div className="mt-5 grid gap-3">
-          {gameReportBuckets.map((bucket) => (
+          {report.buckets.map((bucket) => (
             <div key={bucket.label} className="grid gap-1.5">
               <div className="flex items-center justify-between gap-3 text-sm font-semibold">
                 <span>{bucket.label}</span>
@@ -861,8 +1035,11 @@ function GameReportCharts({ opportunities }: { opportunities: Opportunity[] }) {
               </div>
               <div className="h-3 overflow-hidden rounded-full border border-white/40 bg-white/24">
                 <div
-                  className="h-full rounded-full bg-[#9e00b8]"
-                  style={{ width: `${Math.max(8, (bucket.value / maxBucket) * 100)}%` }}
+                  className="h-full rounded-full"
+                  style={{
+                    width: `${Math.max(8, (bucket.value / maxBucket) * 100)}%`,
+                    backgroundColor: report.accent,
+                  }}
                 />
               </div>
               <p className="text-xs font-medium text-black/55">{bucket.note}</p>
@@ -875,7 +1052,7 @@ function GameReportCharts({ opportunities }: { opportunities: Opportunity[] }) {
         <div className="rounded-[29px] border border-white/50 bg-white/18 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_24px_80px_rgba(101,36,112,0.12)] backdrop-blur-2xl">
           <h2 className="text-xl font-semibold">Apply priority</h2>
           <div className="mt-4 grid gap-3">
-            {gameReportPriorityRoles.map((item) => (
+            {report.priorityRoles.map((item) => (
               <div key={item.rank} className="grid grid-cols-[32px_1fr] gap-3 rounded-[20px] border border-white/40 bg-white/16 p-3">
                 <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/48 text-sm font-semibold">
                   {item.rank}
@@ -892,14 +1069,14 @@ function GameReportCharts({ opportunities }: { opportunities: Opportunity[] }) {
         <div className="rounded-[29px] border border-white/50 bg-white/18 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_24px_80px_rgba(101,36,112,0.12)] backdrop-blur-2xl">
           <h2 className="text-xl font-semibold">Fitness signals</h2>
           <div className="mt-4 flex flex-wrap gap-2">
-            {gameReportSignals.map((signal) => (
+            {report.signals.map((signal) => (
               <span key={signal} className="rounded-full border border-white/45 bg-white/22 px-3 py-1 text-xs font-semibold">
                 {signal}
               </span>
             ))}
           </div>
           <div className="mt-4 grid gap-2">
-            {gameReportFixes.map((fix) => (
+            {report.fixes.map((fix) => (
               <p key={fix} className="rounded-[18px] bg-white/16 px-3 py-2 text-xs font-semibold text-black/65">
                 {fix}
               </p>
@@ -950,15 +1127,13 @@ function DetailPage({
   const source = conversationSources.find((item) => item.id === opportunity.sourceId);
   const snapshot = conversationSnapshots.find((item) => item.sourceId === opportunity.sourceId);
   const liveSource = liveSourceStatuses.find((item) => item.sourceId === opportunity.sourceId);
-  const reportInsight = gameReportInsights[opportunity.id];
+  const reportInsight = opportunityReportInsights[opportunity.id];
 
   return (
     <main className="min-h-screen bg-[#f3e5f5] text-black">
       <section className="min-h-screen bg-[radial-gradient(circle_at_0%_0%,rgba(243,229,245,1)_0%,rgba(226,176,234,0.92)_100%)] px-4 py-8">
         <div className="mx-auto max-w-[1440px]">
-          <h1 className="px-6 text-6xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
-            Career Deck
-          </h1>
+          <DeckHeadline />
 
           <div className="mt-5 min-h-[calc(100vh-210px)] rounded-[120px] border border-white/45 bg-white/18 p-7 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_30px_120px_rgba(96,0,118,0.18)] backdrop-blur-2xl md:p-12 lg:p-16">
             <div className="grid gap-8 lg:grid-cols-[1fr_360px] xl:grid-cols-[1fr_430px]">

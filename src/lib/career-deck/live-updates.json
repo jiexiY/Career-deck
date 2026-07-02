@@ -1,6 +1,21 @@
 {
   "updates": [
     {
+      "id": "tech-library-sync-2026-07-02",
+      "title": "Tech Library PDFs Synced",
+      "summary": "Two OpenAI Library Tech deck PDFs were merged into Career Deck with PDF-derived fit, priorities, timing caveats, compensation where present, and no fabricated apply links.",
+      "section": "tech",
+      "updatedAt": "2026-07-02T19:05:40.617Z",
+      "status": "synced",
+      "sourceUrl": "openai-library://Tech deck",
+      "items": [
+        "Imported July 1 revised new/changed tech opportunities including Claude Corps, OpenAI Campus Network, Microsoft Copilot Student Ambassador, Notion Campus Leaders, and AI hackathons.",
+        "Imported July 2 prior-monitor catchup highlights including Cloudflare, Google Student Researcher, Scale AI, SharkNinja, Whitney Museum, Zipline, Great Question, Notion, Postman, YC, and CAIS.",
+        "Added Tech report summary buckets, Apply priority, and fitness signals to match the Game opportunity page.",
+        "Kept missing direct apply URLs as # and labeled uncertain timing/rolling postings through confidence and review flags instead of pretending direct verification."
+      ]
+    },
+    {
       "id": "game-library-sync-2026-07-01",
       "title": "Game Library Report Synced",
       "summary": "OpenAI Library game internship report for July 1 was merged into Career Deck with verified, carried-forward, closed, and stale leads labeled separately.",
