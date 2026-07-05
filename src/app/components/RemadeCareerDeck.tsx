@@ -3,6 +3,7 @@
 import { ArrowLeft, ChevronDown, ExternalLink, Search, X } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
+import LiquidEther from "./LiquidEther";
 import type {
   ConversationSnapshot,
   ConversationSource,
@@ -530,6 +531,34 @@ function DeckHeadline({ className = "" }: { className?: string }) {
   );
 }
 
+function LiquidEtherBackground({ variant }: { variant: "home" | "opportunities" }) {
+  const isHome = variant === "home";
+
+  return (
+    <div className="pointer-events-none absolute inset-0 z-0">
+      <LiquidEther
+        colors={isHome ? ["#5227FF", "#FF9FFC", "#B497CF"] : ["#D10AA5", "#7C3AED", "#F3E5F5"]}
+        mouseForce={isHome ? 16 : 12}
+        cursorSize={isHome ? 110 : 92}
+        isViscous={false}
+        viscous={26}
+        iterationsViscous={24}
+        iterationsPoisson={24}
+        resolution={0.42}
+        isBounce={false}
+        autoDemo
+        autoSpeed={isHome ? 0.34 : 0.24}
+        autoIntensity={isHome ? 1.8 : 1.35}
+        takeoverDuration={0.25}
+        autoResumeDelay={2200}
+        autoRampDuration={0.7}
+        className="h-full w-full opacity-80"
+      />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(255,255,255,0.36),transparent_34%),linear-gradient(115deg,rgba(255,255,255,0.34),rgba(255,255,255,0.08)_46%,rgba(137,39,158,0.16))]" />
+    </div>
+  );
+}
+
 function LandingPage({
   answer,
   error,
@@ -608,9 +637,10 @@ function HomePage({
 }) {
   return (
     <main className="min-h-screen bg-[#f3e5f5] text-black">
-      <section className="min-h-screen bg-[radial-gradient(circle_at_0%_0%,rgba(243,229,245,1)_0%,rgba(211,173,217,0.9)_48%,rgba(179,117,189,1)_100%)] px-6 py-12">
+      <section className="relative min-h-screen overflow-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(243,229,245,1)_0%,rgba(211,173,217,0.9)_48%,rgba(179,117,189,1)_100%)] px-6 py-12">
+        <LiquidEtherBackground variant="home" />
         <GlassBackButton onClick={onBack} label="Back to cover" />
-        <div className="mx-auto grid min-h-[calc(100vh-6rem)] max-w-[1440px] gap-8 lg:grid-cols-[1fr_430px]">
+        <div className="relative z-10 mx-auto grid min-h-[calc(100vh-6rem)] max-w-[1440px] gap-8 lg:grid-cols-[1fr_430px]">
           <div className="relative min-h-[620px] overflow-hidden">
             <DeckHeadline />
 
@@ -865,9 +895,10 @@ function OpportunitiesPage({
 }) {
   return (
     <main className="min-h-screen bg-[#f3e5f5] text-black">
-      <section className="min-h-screen bg-[radial-gradient(circle_at_0%_0%,rgba(193,139,202,0.95)_0%,rgba(218,184,224,0.86)_48%,rgba(243,229,245,0.98)_100%)] px-5 pb-28 pt-10 sm:px-8 lg:px-12">
+      <section className="relative min-h-screen overflow-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(193,139,202,0.95)_0%,rgba(218,184,224,0.86)_48%,rgba(243,229,245,0.98)_100%)] px-5 pb-28 pt-10 sm:px-8 lg:px-12">
+        <LiquidEtherBackground variant="opportunities" />
         <GlassBackButton onClick={onBack} label="Back to home" />
-        <header className="mx-auto flex max-w-[1440px] flex-col gap-5 md:flex-row md:items-start md:justify-between">
+        <header className="relative z-10 mx-auto flex max-w-[1440px] flex-col gap-5 md:flex-row md:items-start md:justify-between">
           <DeckHeadline className="shrink-0" />
 
           <div className="grid w-full max-w-[520px] gap-3">
@@ -900,9 +931,11 @@ function OpportunitiesPage({
           </div>
         </header>
 
-        <ReportCharts opportunities={opportunities} />
+        <div className="relative z-10">
+          <ReportCharts opportunities={opportunities} />
+        </div>
 
-        <section className="mx-auto mt-8 grid max-w-[1368px] gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <section className="relative z-10 mx-auto mt-8 grid max-w-[1368px] gap-5 md:grid-cols-2 xl:grid-cols-3">
           {opportunities.length ? (
             opportunities.map((opportunity) => (
               <OpportunityCard
