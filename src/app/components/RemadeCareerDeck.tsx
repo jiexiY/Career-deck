@@ -1,9 +1,9 @@
 "use client";
 
 import { ArrowLeft, ChevronDown, ExternalLink, Search, X } from "lucide-react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
-import LiquidEther from "./LiquidEther";
 import type {
   ConversationSnapshot,
   ConversationSource,
@@ -50,6 +50,8 @@ type ReportConfig = {
   signals: string[];
   fixes: string[];
 };
+
+const LiquidEther = dynamic(() => import("./LiquidEther"), { ssr: false });
 
 const categoryOptions: Array<{ value: CategoryFilter; label: string }> = [
   { value: "all", label: "All" },
@@ -531,30 +533,43 @@ function DeckHeadline({ className = "" }: { className?: string }) {
   );
 }
 
-function LiquidEtherBackground({ variant }: { variant: "home" | "opportunities" }) {
+function LiquidEtherBackground({ variant }: { variant: "landing" | "home" | "opportunities" }) {
   const isHome = variant === "home";
+  const isLanding = variant === "landing";
 
   return (
     <div className="pointer-events-none absolute inset-0 z-0">
       <LiquidEther
-        colors={isHome ? ["#5227FF", "#FF9FFC", "#B497CF"] : ["#D10AA5", "#7C3AED", "#F3E5F5"]}
-        mouseForce={isHome ? 16 : 12}
-        cursorSize={isHome ? 110 : 92}
+        colors={
+          isLanding
+            ? ["#F8EFFB", "#FF9FFC", "#5227FF", "#B497CF"]
+            : isHome
+              ? ["#5227FF", "#FF9FFC", "#B497CF"]
+              : ["#D10AA5", "#7C3AED", "#F3E5F5"]
+        }
+        mouseForce={isLanding ? 14 : isHome ? 16 : 12}
+        cursorSize={isLanding ? 130 : isHome ? 110 : 92}
         isViscous={false}
         viscous={26}
         iterationsViscous={24}
         iterationsPoisson={24}
-        resolution={0.42}
+        resolution={isLanding ? 0.38 : 0.42}
         isBounce={false}
         autoDemo
-        autoSpeed={isHome ? 0.34 : 0.24}
-        autoIntensity={isHome ? 1.8 : 1.35}
+        autoSpeed={isLanding ? 0.28 : isHome ? 0.34 : 0.24}
+        autoIntensity={isLanding ? 1.55 : isHome ? 1.8 : 1.35}
         takeoverDuration={0.25}
         autoResumeDelay={2200}
         autoRampDuration={0.7}
-        className="h-full w-full opacity-80"
+        className={`h-full w-full ${isLanding ? "opacity-70" : "opacity-80"}`}
       />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(255,255,255,0.36),transparent_34%),linear-gradient(115deg,rgba(255,255,255,0.34),rgba(255,255,255,0.08)_46%,rgba(137,39,158,0.16))]" />
+      <div
+        className={
+          isLanding
+            ? "absolute inset-0 bg-[radial-gradient(circle_at_12%_8%,rgba(255,255,255,0.72),transparent_34%),radial-gradient(circle_at_86%_22%,rgba(255,255,255,0.38),transparent_32%),linear-gradient(115deg,rgba(255,255,255,0.58),rgba(255,255,255,0.1)_48%,rgba(137,39,158,0.12))]"
+            : "absolute inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(255,255,255,0.36),transparent_34%),linear-gradient(115deg,rgba(255,255,255,0.34),rgba(255,255,255,0.08)_46%,rgba(137,39,158,0.16))]"
+        }
+      />
     </div>
   );
 }
@@ -572,8 +587,9 @@ function LandingPage({
 }) {
   return (
     <main className="min-h-screen bg-white text-black">
-      <section className="relative mx-auto min-h-screen max-w-[1440px] overflow-hidden px-6 py-10">
-        <DeckHeadline className="absolute left-0 top-5 z-10" />
+      <section className="relative mx-auto min-h-screen max-w-[1440px] overflow-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(255,255,255,1)_0%,rgba(245,224,249,0.86)_45%,rgba(186,126,198,0.7)_100%)] px-6 py-10">
+        <LiquidEtherBackground variant="landing" />
+        <DeckHeadline className="absolute left-0 top-5 z-20" />
 
         <Image
           src="/career-deck-landing.jpg"
@@ -581,10 +597,10 @@ function LandingPage({
           width={4564}
           height={3006}
           priority
-          className="absolute bottom-[120px] right-0 h-auto w-[min(82vw,1150px)] object-contain"
+          className="absolute bottom-[120px] right-0 z-10 h-auto w-[min(82vw,1150px)] object-contain"
         />
 
-        <div className="absolute bottom-7 right-10 z-10 w-[min(810px,calc(100%-5rem))] rounded-[70px] border border-black/5 bg-white/55 px-8 py-6 shadow-[0_24px_70px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.9)] backdrop-blur-2xl">
+        <div className="absolute bottom-7 right-10 z-20 w-[min(810px,calc(100%-5rem))] rounded-[70px] border border-black/5 bg-white/55 px-8 py-6 shadow-[0_24px_70px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.9)] backdrop-blur-2xl">
           <div className="grid items-center gap-4 md:grid-cols-[1fr_240px_120px]">
             <p className="font-serif text-5xl italic leading-none">To my beloved</p>
             <label>
