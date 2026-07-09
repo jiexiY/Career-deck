@@ -1583,11 +1583,15 @@ export async function runGameMonitor({
 
   const nextOpportunities = dedupeMonitor(closedAwareMonitor);
   const newRolesFound = changes.filter((change) => change.kind === "new").length;
-  const stillOpen = nextOpportunities.filter((item) => item.monitorStatus === "active" || item.monitorStatus === "urgent" || item.monitorStatus === "new").length;
-  const urgent = nextOpportunities.filter((item) => item.monitorStatus === "urgent").length;
+  const verifiedOpenOpportunities = nextOpportunities.filter(
+    (item) =>
+      item.verified &&
+      (item.monitorStatus === "active" || item.monitorStatus === "urgent" || item.monitorStatus === "new"),
+  );
+  const stillOpen = verifiedOpenOpportunities.length;
+  const urgent = verifiedOpenOpportunities.filter((item) => item.monitorStatus === "urgent").length;
   const closed = nextOpportunities.filter((item) => item.monitorStatus === "closed").length;
-  const bestFit = nextOpportunities
-    .filter((item) => item.monitorStatus !== "closed")
+  const bestFit = verifiedOpenOpportunities
     .sort((a, b) => b.fitScore - a.fitScore)[0];
 
   const nextMonitor = {

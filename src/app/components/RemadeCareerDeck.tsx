@@ -1054,16 +1054,18 @@ function GameMonitorPanel({
       monitor: getGameMonitorRecord(opportunity.id),
     }))
     .filter((item): item is { opportunity: Opportunity; monitor: GameMonitorOpportunity } => Boolean(item.monitor));
+  const actionableLinkedOpportunities = linkedOpportunities.filter((item) =>
+    isVerifiedActionableOpportunity(item.opportunity, item.monitor),
+  );
   const bestFit =
-    linkedOpportunities.find(
+    actionableLinkedOpportunities.find(
       (item) => item.monitor.opportunityId === gameMonitorData.dailyBrief.bestFitOpportunityId,
-    ) ?? linkedOpportunities.toSorted((a, b) => b.monitor.fitScore - a.monitor.fitScore)[0];
-  const urgent = linkedOpportunities
+    ) ?? actionableLinkedOpportunities.toSorted((a, b) => b.monitor.fitScore - a.monitor.fitScore)[0];
+  const urgent = actionableLinkedOpportunities
     .filter((item) => item.monitor.monitorStatus === "urgent")
     .toSorted((a, b) => b.monitor.fitScore - a.monitor.fitScore)
     .slice(0, 3);
-  const newestHighFit = linkedOpportunities
-    .filter((item) => item.monitor.verified && item.monitor.monitorStatus !== "closed")
+  const newestHighFit = actionableLinkedOpportunities
     .toSorted((a, b) => b.monitor.fitScore - a.monitor.fitScore)
     .slice(0, 4);
 
@@ -1266,6 +1268,7 @@ function OpportunityCard({
   onSelect: () => void;
 }) {
   const priority = isPriority(opportunity);
+  const statusLabel = opportunity.needsReview ? "Source check" : priority ? "Priority" : "Standard";
   const reportInsight = opportunityReportInsights[opportunity.id];
   const gameMonitor = getGameMonitorRecord(opportunity.id);
 
@@ -1273,10 +1276,10 @@ function OpportunityCard({
     <article className="relative min-h-[430px] rounded-[29px] border border-white/45 bg-white/20 px-5 pb-4 pt-14 shadow-[inset_0_1px_0_rgba(255,255,255,0.62),0_28px_70px_rgba(92,38,105,0.12)] backdrop-blur-2xl transition duration-200 hover:-translate-y-1 hover:bg-white/28">
       <span
         className={`absolute left-4 top-4 rounded-full px-3 py-0.5 text-xs font-medium text-white shadow-[0_8px_22px_rgba(103,0,130,0.18)] ${
-          priority ? "bg-[#a100c6]" : "bg-[#d774dc]"
+          opportunity.needsReview ? "bg-[#6d6470]" : priority ? "bg-[#a100c6]" : "bg-[#d774dc]"
         }`}
       >
-        {priority ? "Priority" : "Standard"}
+        {statusLabel}
       </span>
 
       <button
@@ -1751,7 +1754,23 @@ function SourceLine({ label, value }: { label: string; value: string }) {
 }
 
 function isPriority(opportunity: Opportunity) {
-  return opportunity.confidence.source >= 0.8 && opportunity.confidence.freshness >= 0.65;
+  return (
+    !opportunity.needsReview &&
+    opportunity.confidence.source >= 0.8 &&
+    opportunity.confidence.freshness >= 0.65
+  );
+}
+
+function isVerifiedActionableOpportunity(
+  opportunity: Opportunity,
+  monitor?: GameMonitorOpportunity,
+) {
+  return Boolean(
+    monitor?.verified &&
+      !opportunity.needsReview &&
+      monitor.monitorStatus !== "closed" &&
+      opportunity.status !== "closed",
+  );
 }
 
 function fitnessRating(opportunity: Opportunity) {
