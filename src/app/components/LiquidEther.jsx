@@ -1168,7 +1168,7 @@ export default function LiquidEther({
   return (
     <div
       ref={mountRef}
-      className={className || ''}
+      className={`liquid-ether-container ${className || ''}`}
       style={{
         position: 'relative',
         overflow: 'hidden',

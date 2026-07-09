@@ -564,12 +564,12 @@ function LiquidEtherBackground({ variant }: { variant: "landing" | "home" | "opp
   return (
     <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
       {isLanding && (
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_18%_38%,rgba(82,39,255,0.22),transparent_36%),radial-gradient(ellipse_at_54%_72%,rgba(255,159,252,0.22),transparent_34%),radial-gradient(ellipse_at_86%_20%,rgba(180,151,207,0.26),transparent_34%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_12%_28%,rgba(82,39,255,0.24),transparent_34%),radial-gradient(ellipse_at_48%_74%,rgba(255,159,252,0.28),transparent_36%),radial-gradient(ellipse_at_88%_18%,rgba(180,151,207,0.32),transparent_36%),linear-gradient(135deg,rgba(255,255,255,0.88),rgba(245,232,255,0.76)_42%,rgba(231,196,236,0.62))]" />
       )}
       <div
         className={`absolute ${
           isLanding
-            ? "inset-[-12%] opacity-100 saturate-[1.25] contrast-[1.12]"
+            ? "inset-[-8%] opacity-95 saturate-[1.18] contrast-[1.08]"
             : "inset-0 opacity-80"
         }`}
       >
@@ -582,26 +582,27 @@ function LiquidEtherBackground({ variant }: { variant: "landing" | "home" | "opp
                 : ["#D10AA5", "#7C3AED", "#F3E5F5"]
           }
           mouseForce={isLanding ? 20 : isHome ? 16 : 12}
-          cursorSize={isLanding ? 118 : isHome ? 110 : 92}
+          cursorSize={isLanding ? 100 : isHome ? 110 : 92}
           isViscous={false}
           viscous={isLanding ? 30 : 26}
           iterationsViscous={isLanding ? 32 : 24}
           iterationsPoisson={isLanding ? 32 : 24}
-          resolution={isLanding ? 0.48 : 0.42}
+          resolution={isLanding ? 0.5 : 0.42}
           isBounce={false}
           autoDemo
-          autoSpeed={isLanding ? 0.42 : isHome ? 0.34 : 0.24}
-          autoIntensity={isLanding ? 2.45 : isHome ? 1.8 : 1.35}
+          autoSpeed={isLanding ? 0.5 : isHome ? 0.34 : 0.24}
+          autoIntensity={isLanding ? 2.2 : isHome ? 1.8 : 1.35}
           takeoverDuration={0.25}
-          autoResumeDelay={isLanding ? 2400 : 2200}
-          autoRampDuration={isLanding ? 0.72 : 0.7}
+          autoResumeDelay={isLanding ? 3000 : 2200}
+          autoRampDuration={isLanding ? 0.6 : 0.7}
           className="h-full w-full"
+          style={{ height: "100%", width: "100%" }}
         />
       </div>
       <div
         className={
           isLanding
-            ? "absolute inset-0 bg-[radial-gradient(circle_at_11%_9%,rgba(255,255,255,0.38),transparent_30%),radial-gradient(circle_at_82%_16%,rgba(255,255,255,0.12),transparent_28%),linear-gradient(115deg,rgba(255,255,255,0.14),rgba(255,255,255,0.03)_44%,rgba(137,39,158,0.03))]"
+            ? "absolute inset-0 bg-[radial-gradient(circle_at_11%_9%,rgba(255,255,255,0.42),transparent_30%),radial-gradient(circle_at_82%_16%,rgba(255,255,255,0.16),transparent_28%),linear-gradient(115deg,rgba(255,255,255,0.18),rgba(255,255,255,0.04)_44%,rgba(137,39,158,0.04))]"
             : "absolute inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(255,255,255,0.36),transparent_34%),linear-gradient(115deg,rgba(255,255,255,0.34),rgba(255,255,255,0.08)_46%,rgba(137,39,158,0.16))]"
         }
       />
