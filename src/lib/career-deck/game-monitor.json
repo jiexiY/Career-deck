@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T03:14:31.799Z",
+  "updatedAt": "2026-07-09T03:48:55.831Z",
   "timezone": "America/Los_Angeles",
   "nextScheduledRun": "Daily at 7:00 PM Pacific via /api/cron/update-game-opportunities",
   "monitoringPolicy": {
@@ -15,51 +15,51 @@
   "dailyBrief": {
     "date": "2026-07-08",
     "summary": "Daily game monitor parsed official adapter feeds, updated verified roles, and preserved blocked/manual-review sources without fabricating missing data.",
-    "newRolesFound": 106,
-    "stillOpen": 115,
+    "newRolesFound": 114,
+    "stillOpen": 123,
     "urgent": 2,
     "closed": 109,
     "bestFitOpportunityId": "official-game-garena-marketing-associate-jakarta-j02071077",
     "changes": [
       {
         "kind": "new",
-        "label": "Garena: Marketing Associate",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
+        "label": "thatgamecompany: Brand Intern-Vietnam",
+        "detail": "Verified official application route added with fit score 10/10."
       },
       {
         "kind": "new",
-        "label": "Garena: Marketing Associate",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
+        "label": "thatgamecompany: Content & Creator Program Manager - Japan / ★ソーシャル・コンテンツストラテジスト",
+        "detail": "Verified official application route added with fit score 10/10."
       },
       {
         "kind": "new",
-        "label": "Garena: [HN, Lien Quan Mobile] Assistant Manager, Marketing (Brand Manager)",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
+        "label": "thatgamecompany: Brand Marketing Manager - Indonesia",
+        "detail": "Verified official application route added with fit score 10/10."
       },
       {
         "kind": "new",
-        "label": "Garena: [HCM, FC Mobile] Cộng tác viên Campaign Marketing",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
+        "label": "thatgamecompany: Japan Community Manager",
+        "detail": "Verified official application route added with fit score 10/10."
       },
       {
         "kind": "new",
-        "label": "NetEase Games: Content Marketing",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
+        "label": "thatgamecompany: Brand Intern-Japan",
+        "detail": "Verified official application route added with fit score 10/10."
       },
       {
         "kind": "new",
-        "label": "NetEase Games: Esport Specialist",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
+        "label": "thatgamecompany: Social Media Operation Intern - 新媒体运营实习生",
+        "detail": "Verified official application route added with fit score 7/10."
       },
       {
         "kind": "new",
-        "label": "NetEase Games: Influencer/KOL Marketing Specialist (Indonesia)",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
+        "label": "thatgamecompany: Brand Marketing Partner",
+        "detail": "Verified official application route added with fit score 10/10."
       },
       {
         "kind": "new",
-        "label": "NetEase Games: Influencer Marketing Manager（ Global Growth）",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
+        "label": "thatgamecompany: Brand Publishing Manager – Sky China",
+        "detail": "Verified official application route added with fit score 9/10."
       }
     ]
   },
@@ -151,7 +151,7 @@
       "company": "Papergames / Paper Games / 叠纸游戏",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "manual_review_required",
       "failureReason": "Official page is retained as the source of truth, but Mandarin role descriptions and JavaScript-rendered lists need reviewed extraction before automated publishing."
     },
@@ -160,7 +160,7 @@
       "company": "Infold Games",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "manual_review_required",
       "failureReason": "Infold roles are monitored through Paper Games career pages and require source-language preservation."
     },
@@ -171,7 +171,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "roblox",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "active"
     },
     {
@@ -184,7 +184,7 @@
       "pageSize": 20,
       "maxRecords": 180,
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "active"
     },
     {
@@ -194,7 +194,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "epicgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "active"
     },
     {
@@ -204,7 +204,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "neteasegames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "active"
     },
     {
@@ -217,7 +217,7 @@
       "pageSize": 20,
       "maxRecords": 400,
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "active"
     },
     {
@@ -227,7 +227,7 @@
       "adapterKey": "garena-nuxt",
       "atsOrigin": "https://ats.workatsea.com",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "active"
     },
     {
@@ -235,7 +235,7 @@
       "company": "HoYoverse / miHoYo",
       "url": "https://www.hoyoverse.com/en-us/careers",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "manual_review_required",
       "failureReason": "No open internship was verified in the current curated data; keep as watchlist."
     },
@@ -246,7 +246,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "riotgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "active"
     },
     {
@@ -254,25 +254,26 @@
       "company": "Niantic",
       "url": "https://nianticlabs.com/careers/openings",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "manual_review_required",
       "failureReason": "Official Niantic roles are monitored as a source record until a reviewed adapter is added."
     },
     {
       "id": "game-source-thatgamecompany",
       "company": "thatgamecompany",
-      "url": "https://thatgamecompany.com/careers/",
-      "priority": "official",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
-      "status": "manual_review_required",
-      "failureReason": "Official thatgamecompany roles are monitored as a source record until a reviewed adapter is added."
+      "url": "https://jobs.ashbyhq.com/thatgamecompany",
+      "priority": "official_application_route",
+      "adapterKey": "ashby",
+      "boardToken": "thatgamecompany",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "status": "active"
     },
     {
       "id": "game-source-linkedin",
       "company": "LinkedIn game reposts",
       "url": "https://www.linkedin.com/jobs/",
       "priority": "reposting_watchlist",
-      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
       "status": "blocked",
       "failureReason": "Login and platform restrictions prevent compliant scraping."
     }
@@ -1139,6 +1140,227 @@
       "adapterSourceId": "game-source-tencent-workday"
     },
     {
+      "opportunityId": "official-game-thatgamecompany-brand-intern-vietnam-remote-vietnam-167df23d-5a11-4527-bd32-230174522741",
+      "company": "thatgamecompany",
+      "roleTitle": "Brand Intern-Vietnam",
+      "location": "Remote - Vietnam",
+      "locationMode": "remote",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://jobs.ashbyhq.com/thatgamecompany/167df23d-5a11-4527-bd32-230174522741/application",
+      "sourceLink": "https://jobs.ashbyhq.com/thatgamecompany/167df23d-5a11-4527-bd32-230174522741",
+      "requiredQualifications": [
+        "Enthusiastic about games, with in-depth knowledge and rich experience of Sky: Children of the Light, and a good understanding of the game's user group.",
+        "Familiar with international user communities and social media platforms; experienced with the gaming content ecosystem of at least 1 to 2 platforms, including but not limited to TikTok, Instagram, Facebook, YouTube and Discord.",
+        "Enthusiastic about games, with in-depth knowledge and rich experience of Sky: Children of the Light, and a good understanding of the game's user group.",
+        "Familiar with international user communities and social media platforms; experienced with the gaming content ecosystem of at least 1 to 2 platforms, including but not limited to TikTok, Instagram, Facebook, YouTube and Discord."
+      ],
+      "preferredQualifications": [
+        "Enthusiastic about games, with in-depth knowledge and rich experience of Sky: Children of the Light, and a good understanding of the game's user group.",
+        "Familiar with international user communities and social media platforms; experienced with the gaming content ecosystem of at least 1 to 2 platforms, including but not limited to TikTok, Instagram, Facebook, YouTube and Discord.",
+        "Enthusiastic about games, with in-depth knowledge and rich experience of Sky: Children of the Light, and a good understanding of the game's user group."
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-thatgamecompany"
+    },
+    {
+      "opportunityId": "official-game-thatgamecompany-content-creator-program-manager-japan-japan-2ab99c73-084c-4ce2-888b-6b7a9be3f47b",
+      "company": "thatgamecompany",
+      "roleTitle": "Content & Creator Program Manager - Japan / ★ソーシャル・コンテンツストラテジスト",
+      "location": "Japan",
+      "locationMode": "in_person",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://jobs.ashbyhq.com/thatgamecompany/2ab99c73-084c-4ce2-888b-6b7a9be3f47b/application",
+      "sourceLink": "https://jobs.ashbyhq.com/thatgamecompany/2ab99c73-084c-4ce2-888b-6b7a9be3f47b",
+      "requiredQualifications": [
+        "【Job Requirements】 Education & Experience: Bachelor’s degree or above; 3+ years of experience in Japan social media operations for live-ops games.",
+        "Experience independently managing official accounts and creator ecosystems is a plus.",
+        "Game Knowledge: Deep experience with Sky: Children of the Light and a profound understanding of its world and mechanics is a must.",
+        "【Job Requirements】 Education & Experience: Bachelor’s degree or above; 3+ years of experience in Japan social media operations for live-ops games."
+      ],
+      "preferredQualifications": [
+        "【Job Requirements】 Education & Experience: Bachelor’s degree or above; 3+ years of experience in Japan social media operations for live-ops games.",
+        "Experience independently managing official accounts and creator ecosystems is a plus.",
+        "Game Knowledge: Deep experience with Sky: Children of the Light and a profound understanding of its world and mechanics is a must."
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-thatgamecompany"
+    },
+    {
+      "opportunityId": "official-game-thatgamecompany-brand-marketing-manager-indonesia-remote-south-east-asia-481cd61f-e855-4e18-9925-1ee4104bc480",
+      "company": "thatgamecompany",
+      "roleTitle": "Brand Marketing Manager - Indonesia",
+      "location": "Remote - South East Asia",
+      "locationMode": "remote",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://jobs.ashbyhq.com/thatgamecompany/481cd61f-e855-4e18-9925-1ee4104bc480/application",
+      "sourceLink": "https://jobs.ashbyhq.com/thatgamecompany/481cd61f-e855-4e18-9925-1ee4104bc480",
+      "requiredQualifications": [
+        "Responsibilities - Plan, execute, and manage local marketing campaigns and social content - Serve as a key liaison between TGC and our Indonesia publishing partners - Establish and maintain relationships with local content creators and influencers - Use quantitative approaches to evaluate marketing campaigns’ effectiveness and improve key performance indicators - Support local events hosted by TGC - Be the voice of the Indonesia community; monitor and provide community feedback Must Haves - 3+ years of experience working in marketing and/or live community management - Must be native in Bahasa Indonesia and is bilingual in English (preferred) or Chinese - Experience in Southeast Asia/Indonesia gaming industry - A deep understanding of thatgamecompany’s core values and vision - Awesome at communications and relationship management Nice To Have - Huge plus if you are a Sky Player and are already familiar with the game’s community Responsibilities Plan, execute, and manage local marketing campaigns and social content Serve as a key liaison between TGC and our Indonesia publishing partners Establish and maintain relationships with local content creators and influencers Use quantitative approaches to evaluate marketing campaigns’ effectiveness and improve key performance indicators Support local events hosted by TGC Be the voice of the Indonesia community; monitor and provide community feedback Must Haves 3+ years of experience working in marketing and/or live community management Must be native in Bahasa Indonesia and is bilingual in English (preferred) or Chinese Experience in Southeast Asia/Indonesia gaming industry A deep understanding of thatgamecompany’s core values and vision Awesome at communications and relationship management Nice To Have Huge plus if you are a Sky Player and are already familiar with the game’s community Growth Growth FullTime Remote"
+      ],
+      "preferredQualifications": [
+        "Responsibilities - Plan, execute, and manage local marketing campaigns and social content - Serve as a key liaison between TGC and our Indonesia publishing partners - Establish and maintain relationships with local content creators and influencers - Use quantitative approaches to evaluate marketing campaigns’ effectiveness and improve key performance indicators - Support local events hosted by TGC - Be the voice of the Indonesia community; monitor and provide community feedback Must Haves - 3+ years of experience working in marketing and/or live community management - Must be native in Bahasa Indonesia and is bilingual in English (preferred) or Chinese - Experience in Southeast Asia/Indonesia gaming industry - A deep understanding of thatgamecompany’s core values and vision - Awesome at communications and relationship management Nice To Have - Huge plus if you are a Sky Player and are already familiar with the game’s community Responsibilities Plan, execute, and manage local marketing campaigns and social content Serve as a key liaison between TGC and our Indonesia publishing partners Establish and maintain relationships with local content creators and influencers Use quantitative approaches to evaluate marketing campaigns’ effectiveness and improve key performance indicators Support local events hosted by TGC Be the voice of the Indonesia community; monitor and provide community feedback Must Haves 3+ years of experience working in marketing and/or live community management Must be native in Bahasa Indonesia and is bilingual in English (preferred) or Chinese Experience in Southeast Asia/Indonesia gaming industry A deep understanding of thatgamecompany’s core values and vision Awesome at communications and relationship management Nice To Have Huge plus if you are a Sky Player and are already familiar with the game’s community Growth Growth FullTime Remote"
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-thatgamecompany"
+    },
+    {
+      "opportunityId": "official-game-thatgamecompany-japan-community-manager-other-7401ca29-6cc7-4248-adee-a2b1ce57ba40",
+      "company": "thatgamecompany",
+      "roleTitle": "Japan Community Manager",
+      "location": "Other",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://jobs.ashbyhq.com/thatgamecompany/7401ca29-6cc7-4248-adee-a2b1ce57ba40/application",
+      "sourceLink": "https://jobs.ashbyhq.com/thatgamecompany/7401ca29-6cc7-4248-adee-a2b1ce57ba40",
+      "requiredQualifications": [
+        "Industry Experience: 3–5 years of experience in game publishing or community operations specifically for the Japanese market.",
+        "Having出海 (global publishing) experience with well-known Anime/ACG, female-oriented, or hardcore gaming titles is a significant plus.",
+        "Educational Background: Bachelor’s degree or higher, preferably in Journalism, Communications, Linguistics, Marketing, or other related fields.",
+        "Job Requirements Industry Experience : 3–5 years of experience in game publishing or community operations specifically for the Japanese market."
+      ],
+      "preferredQualifications": [
+        "Industry Experience: 3–5 years of experience in game publishing or community operations specifically for the Japanese market.",
+        "Having出海 (global publishing) experience with well-known Anime/ACG, female-oriented, or hardcore gaming titles is a significant plus.",
+        "Educational Background: Bachelor’s degree or higher, preferably in Journalism, Communications, Linguistics, Marketing, or other related fields."
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-thatgamecompany"
+    },
+    {
+      "opportunityId": "official-game-thatgamecompany-brand-intern-japan-japan-9ec1e441-b05a-4a00-a5ff-168eed66483f",
+      "company": "thatgamecompany",
+      "roleTitle": "Brand Intern-Japan",
+      "location": "Japan",
+      "locationMode": "in_person",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://jobs.ashbyhq.com/thatgamecompany/9ec1e441-b05a-4a00-a5ff-168eed66483f/application",
+      "sourceLink": "https://jobs.ashbyhq.com/thatgamecompany/9ec1e441-b05a-4a00-a5ff-168eed66483f",
+      "requiredQualifications": [
+        "Enthusiastic about games, with in-depth knowledge and rich experience of Sky: Children of the Light, and a good understanding of the game's user group.",
+        "Familiar with international user communities and social media platforms; experienced with the gaming content ecosystem of at least 1 to 2 platforms, including but not limited to TikTok, Instagram, Facebook, YouTube and Discord.",
+        "Enthusiastic about games, with in-depth knowledge and rich experience of Sky: Children of the Light, and a good understanding of the game's user group.",
+        "Familiar with international user communities and social media platforms; experienced with the gaming content ecosystem of at least 1 to 2 platforms, including but not limited to TikTok, Instagram, Facebook, YouTube and Discord."
+      ],
+      "preferredQualifications": [
+        "Enthusiastic about games, with in-depth knowledge and rich experience of Sky: Children of the Light, and a good understanding of the game's user group.",
+        "Familiar with international user communities and social media platforms; experienced with the gaming content ecosystem of at least 1 to 2 platforms, including but not limited to TikTok, Instagram, Facebook, YouTube and Discord.",
+        "Enthusiastic about games, with in-depth knowledge and rich experience of Sky: Children of the Light, and a good understanding of the game's user group."
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-thatgamecompany"
+    },
+    {
+      "opportunityId": "official-game-thatgamecompany-brand-marketing-partner-remote-us-cbe0c9ca-56fa-420e-8781-a8f90f415b9c",
+      "company": "thatgamecompany",
+      "roleTitle": "Brand Marketing Partner",
+      "location": "Remote - US",
+      "locationMode": "remote",
+      "roleTrack": "community operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://jobs.ashbyhq.com/thatgamecompany/cbe0c9ca-56fa-420e-8781-a8f90f415b9c/application",
+      "sourceLink": "https://jobs.ashbyhq.com/thatgamecompany/cbe0c9ca-56fa-420e-8781-a8f90f415b9c",
+      "requiredQualifications": [
+        "You design campaigns worth sharing and know exactly why they worked - Deep understanding of platform mechanics, creator culture, and audience behavior across TikTok, Instagram, YouTube Shorts, and emerging platforms - Excellent writing and communication skills with the ability to shift voice across brands, audiences, and moments - Experience leading complex, cross-functional projects from concept to launch with precision and accountability - Familiarity with gaming communities and their cultures is a strong plus, paired with genuine curiosity for audiences less represented in gaming.",
+        "You design campaigns worth sharing and know exactly why they worked Deep understanding of platform mechanics, creator culture, and audience behavior across TikTok, Instagram, YouTube Shorts, and emerging platforms Excellent writing and communication skills with the ability to shift voice across brands, audiences, and moments Experience leading complex, cross-functional projects from concept to launch with precision and accountability Familiarity with gaming communities and their cultures is a strong plus, paired with genuine curiosity for audiences less represented in gaming."
+      ],
+      "preferredQualifications": [
+        "You design campaigns worth sharing and know exactly why they worked - Deep understanding of platform mechanics, creator culture, and audience behavior across TikTok, Instagram, YouTube Shorts, and emerging platforms - Excellent writing and communication skills with the ability to shift voice across brands, audiences, and moments - Experience leading complex, cross-functional projects from concept to launch with precision and accountability - Familiarity with gaming communities and their cultures is a strong plus, paired with genuine curiosity for audiences less represented in gaming.",
+        "You design campaigns worth sharing and know exactly why they worked Deep understanding of platform mechanics, creator culture, and audience behavior across TikTok, Instagram, YouTube Shorts, and emerging platforms Excellent writing and communication skills with the ability to shift voice across brands, audiences, and moments Experience leading complex, cross-functional projects from concept to launch with precision and accountability Familiarity with gaming communities and their cultures is a strong plus, paired with genuine curiosity for audiences less represented in gaming."
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong community operations match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-thatgamecompany"
+    },
+    {
       "opportunityId": "official-game-garena-garena-internship-program-jakarta-j02067184",
       "company": "Garena",
       "roleTitle": "Garena Internship Program",
@@ -1848,6 +2070,44 @@
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-tencent-workday"
+    },
+    {
+      "opportunityId": "official-game-thatgamecompany-brand-publishing-manager-sky-china-china-shanghai-ff5cd7cb-ed3e-4741-b863-d34b194333cd",
+      "company": "thatgamecompany",
+      "roleTitle": "Brand Publishing Manager – Sky China",
+      "location": "China - Shanghai",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://jobs.ashbyhq.com/thatgamecompany/ff5cd7cb-ed3e-4741-b863-d34b194333cd/application",
+      "sourceLink": "https://jobs.ashbyhq.com/thatgamecompany/ff5cd7cb-ed3e-4741-b863-d34b194333cd",
+      "requiredQualifications": [
+        "It is a live experience continuously evolving inside a global online theme park.",
+        "We are seeking an experienced Publishing Manager The ideal candidate should have experience working in a research and development-oriented publishing company, have successfully independently launched projects rated S or above, and possess strong user operation thinking skills.",
+        "Bachelor's degree or higher, with over 5 years of experience in marketing and publishing at a research and development-oriented publishing company.",
+        "Experience working across multiple publishing functions (social, community, PR, etc.), especially in matrixed teams."
+      ],
+      "preferredQualifications": [
+        "It is a live experience continuously evolving inside a global online theme park.",
+        "We are seeking an experienced Publishing Manager The ideal candidate should have experience working in a research and development-oriented publishing company, have successfully independently launched projects rated S or above, and possess strong user operation thinking skills.",
+        "Bachelor's degree or higher, with over 5 years of experience in marketing and publishing at a research and development-oriented publishing company."
+      ],
+      "fitScore": 9,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-thatgamecompany"
     },
     {
       "opportunityId": "library-game-2026-07-01-garena-general-openings-internships-game-operations",
@@ -3392,6 +3652,39 @@
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-tencent-workday"
+    },
+    {
+      "opportunityId": "official-game-thatgamecompany-social-media-operation-intern-china-shanghai-ab5224b7-e0b7-4f29-bef4-3ca48292071e",
+      "company": "thatgamecompany",
+      "roleTitle": "Social Media Operation Intern - 新媒体运营实习生",
+      "location": "China - Shanghai",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://jobs.ashbyhq.com/thatgamecompany/ab5224b7-e0b7-4f29-bef4-3ca48292071e/application",
+      "sourceLink": "https://jobs.ashbyhq.com/thatgamecompany/ab5224b7-e0b7-4f29-bef4-3ca48292071e",
+      "requiredQualifications": [
+        "Official Ashby posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant content marketing path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-thatgamecompany"
     },
     {
       "opportunityId": "official-game-garena-garena-strategy-and-operations-vn-ho-chi-minh-city-j02074989",

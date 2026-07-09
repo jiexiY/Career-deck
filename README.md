@@ -155,7 +155,10 @@ adapter coverage:
   parsing, official detail/apply links, target-lane validation, fit scoring,
   risks, and prep checklist. Technical programming/engineering and HR/legal
   roles are rejected rather than published.
-- Paper Games / Infold, HoYoverse, Niantic, and thatgamecompany:
+- thatgamecompany Ashby: official Ashby job-board API parsing, official
+  `jobs.ashbyhq.com/thatgamecompany` application links, target-lane validation,
+  source status refresh, fit scoring, risks, and prep checklist.
+- Paper Games / Infold, HoYoverse, and Niantic:
   checked as official source records and retained as manual-review sources until
   safe source-specific parsers are added.
 - LinkedIn reposts: kept blocked because login/platform restrictions prevent
