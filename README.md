@@ -159,7 +159,10 @@ adapter coverage:
 - thatgamecompany Ashby: official Ashby job-board API parsing, official
   `jobs.ashbyhq.com/thatgamecompany` application links, target-lane validation,
   source status refresh, fit scoring, risks, and prep checklist.
-- Paper Games / Infold and Niantic:
+- Niantic via Scopely Phenom: official `careers.scopely.com` keyword search
+  parsing for Niantic, zero-result tracking, official Greenhouse application
+  link validation, and no publication when the official search returns no jobs.
+- Paper Games / Infold:
   checked as official source records and retained as manual-review sources until
   safe source-specific parsers are added.
 - LinkedIn reposts: kept blocked because login/platform restrictions prevent

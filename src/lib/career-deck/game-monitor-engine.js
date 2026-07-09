@@ -707,6 +707,166 @@ function inferAshbyBoardToken(url) {
   return match?.[1] ?? "thatgamecompany";
 }
 
+function createPhenomSearchAdapter(source) {
+  return {
+    key: "phenom-search",
+    source,
+    async fetch(context) {
+      const response = await context.fetch(source.url, {
+        cache: "no-store",
+        headers: monitorHeaders("text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"),
+        signal: AbortSignal.timeout(15_000),
+      });
+      const raw = await response.text();
+
+      if (!response.ok) {
+        return {
+          ok: false,
+          status: response.status === 404 ? "manual_review_required" : "blocked",
+          failureReason: blockedReason(response.status),
+          raw,
+          rawLength: raw.length,
+        };
+      }
+
+      if (!extractPhenomDdo(raw)) {
+        return {
+          ok: false,
+          status: "manual_review_required",
+          failureReason: "Official Phenom page was reachable, but embedded search data was not available for parsing.",
+          raw,
+          rawLength: raw.length,
+        };
+      }
+
+      return {
+        ok: true,
+        status: "active",
+        raw,
+        rawLength: raw.length,
+      };
+    },
+    async parse(result) {
+      if (!result.ok) return [];
+      const ddo = extractPhenomDdo(result.raw);
+      const jobs = ddo?.eagerLoadRefineSearch?.data?.jobs;
+
+      return Array.isArray(jobs) ? jobs : [];
+    },
+    async normalize(records, context) {
+      return records.map((job) => {
+        const title = String(job.title ?? "Untitled role").trim();
+        const location = String(job.location || job.cityStateCountry || job.cityState || "Location not listed").trim();
+        const applicationLink = String(job.applyUrl ?? "").trim();
+        const sourceLink = applicationLink || `${new URL(source.url).origin}/us/en/search-results`;
+        const content = stripHtml(
+          [
+            job.descriptionTeaser,
+            job.category,
+            job.multi_category,
+            job.type,
+            job.workArrangement,
+            job.location,
+            job.multi_location,
+          ].join(" "),
+        );
+        const roleTrack = inferRoleTrack(`${title} ${job.category ?? ""}`, content);
+        const fitScore = inferFitScore(`${title} ${job.category ?? ""}`, content, location);
+        const type = inferOpportunityType(title);
+        const existing = findExistingMonitor(context.monitor, {
+          applicationLink,
+          company: source.company,
+          roleTitle: title,
+          location,
+        });
+        const opportunityId =
+          existing?.opportunityId ??
+          `official-game-${slugify(`${source.company}-${title}-${location}-${job.jobId ?? job.jobSeqNo ?? sourceLink}`)}`;
+
+        return {
+          opportunityId,
+          company: source.company,
+          roleTitle: title,
+          location,
+          locationMode: inferLocationMode(`${location} ${job.workArrangement ?? ""}`),
+          roleTrack,
+          monitorStatus: existing ? "active" : "new",
+          verified: true,
+          applicationLink,
+          sourceLink,
+          requiredQualifications: summarizeQualifications(content, [
+            "Official Phenom posting should be reviewed before final tailoring.",
+          ]),
+          preferredQualifications: summarizeQualifications(content, [
+            "Game/community/content/analytics proof improves fit for this lane.",
+          ]).slice(0, 3),
+          fitScore,
+          fitReason: fitReasonFor(roleTrack, fitScore),
+          blockersRisks: risksFor({ ...job, content }, location, type),
+          portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
+          dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
+          lastCheckedDate: context.checkedDate,
+          adapterSourceId: source.id,
+          publicType: type,
+          publicEligibility: content.slice(0, 240) || "Official Phenom posting verified; details require source review.",
+          sourceFeedLabel: "Phenom",
+        };
+      });
+    },
+    async validate(opportunity) {
+      const title = String(opportunity.roleTitle);
+      const relevant = textIncludesAny(title, TARGET_TITLE_KEYWORDS);
+      const official = /^https?:\/\/job-boards\.greenhouse\.io\/scopely\/jobs\/\d+/i.test(
+        String(opportunity.applicationLink),
+      );
+
+      if (!official) {
+        return {
+          valid: false,
+          reason: "Rejected because the official Phenom feed did not provide a verified Scopely/Niantic application link.",
+        };
+      }
+
+      if (hasHardExcludedTitle(title)) {
+        return {
+          valid: false,
+          reason: "Rejected because the title is senior/technical/legal/art-focused rather than the requested early-career ops/community/content/UX lane.",
+        };
+      }
+
+      if (hasNonTargetTitle(title)) {
+        return {
+          valid: false,
+          reason: "Rejected because the title is outside the requested game ops/community/content/UX/product/publishing lane.",
+        };
+      }
+
+      if (!relevant || opportunity.fitScore < 6) {
+        return {
+          valid: false,
+          reason: "Rejected as low-confidence for the requested game operations/community/content/UX lane.",
+        };
+      }
+
+      return { valid: true };
+    },
+    async save(opportunities) {
+      return { saved: opportunities.length };
+    },
+  };
+}
+
+function extractPhenomDdo(raw) {
+  const match = String(raw).match(/phApp\.ddo\s*=\s*({[\s\S]*?});\s*phApp\.experimentData/);
+  if (!match) return null;
+
+  try {
+    return JSON.parse(match[1]);
+  } catch {
+    return null;
+  }
+}
+
 function createWorkdayAdapter(source) {
   const config = workdayConfigFromSource(source);
   const apiUrl = `${config.origin}/wday/cxs/${config.tenant}/${config.siteId}/jobs`;
@@ -1259,12 +1419,14 @@ function createAdapters(sources) {
         source.adapterKey === "ashby" ||
         source.adapterKey === "workday" ||
         source.adapterKey === "garena-nuxt" ||
+        source.adapterKey === "phenom-search" ||
         source.boardToken,
     )
     .map((source) => {
       if (source.adapterKey === "ashby") return createAshbyAdapter(source);
       if (source.adapterKey === "workday") return createWorkdayAdapter(source);
       if (source.adapterKey === "garena-nuxt") return createGarenaNuxtAdapter(source);
+      if (source.adapterKey === "phenom-search") return createPhenomSearchAdapter(source);
       return createGreenhouseAdapter(source);
     });
 }
