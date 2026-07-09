@@ -184,6 +184,7 @@ const NON_TARGET_TITLE_KEYWORDS = [
 
 const OFFICIAL_GREENHOUSE_API = "https://boards-api.greenhouse.io/v1/boards";
 const OFFICIAL_ASHBY_API = "https://api.ashbyhq.com/posting-api/job-board";
+const OFFICIAL_LEVER_API = "https://api.lever.co/v0/postings";
 const DEFAULT_MONITOR_USER_AGENT = "CareerDeckGameMonitor/1.0 (+https://career-deck-amber.vercel.app)";
 
 export function blockedReason(status) {
@@ -705,6 +706,174 @@ function createAshbyAdapter(source) {
 function inferAshbyBoardToken(url) {
   const match = String(url).match(/ashbyhq\.com\/([^/?#]+)/i);
   return match?.[1] ?? "thatgamecompany";
+}
+
+function createLeverAdapter(source) {
+  const siteToken = source.boardToken ?? inferLeverSiteToken(source.url);
+  const apiUrl = `${OFFICIAL_LEVER_API}/${siteToken}?mode=json`;
+
+  return {
+    key: "lever",
+    source,
+    async fetch(context) {
+      const response = await context.fetch(apiUrl, {
+        cache: "no-store",
+        headers: monitorHeaders(),
+        signal: AbortSignal.timeout(12_000),
+      });
+      const raw = await response.text();
+
+      if (!response.ok) {
+        return {
+          ok: false,
+          status: response.status === 404 ? "manual_review_required" : "blocked",
+          failureReason: blockedReason(response.status),
+          raw,
+          rawLength: raw.length,
+        };
+      }
+
+      return {
+        ok: true,
+        status: "active",
+        raw,
+        rawLength: raw.length,
+      };
+    },
+    async parse(result) {
+      if (!result.ok) return [];
+      const payload = JSON.parse(result.raw);
+      if (Array.isArray(payload)) return payload;
+      return Array.isArray(payload.postings) ? payload.postings : [];
+    },
+    async normalize(records, context) {
+      return records.map((job) => {
+        const title = String(job.text ?? job.title ?? "Untitled role").trim();
+        const location = String(job.categories?.location ?? job.location ?? "Location not listed").trim();
+        const applicationLink = String(job.applyUrl ?? job.hostedUrl ?? "").trim();
+        const sourceLink = String(job.hostedUrl ?? applicationLink).trim();
+        const content = leverPostingContent(job);
+        const roleTrack = inferRoleTrack(title, content);
+        const fitScore = inferFitScore(title, content, location);
+        const type = inferOpportunityType(title);
+        const existing = findExistingMonitor(context.monitor, {
+          applicationLink,
+          company: source.company,
+          roleTitle: title,
+          location,
+        });
+        const opportunityId =
+          existing?.opportunityId ??
+          `official-game-${slugify(`${source.company}-${title}-${location}-${job.id ?? sourceLink}`)}`;
+
+        return {
+          opportunityId,
+          company: source.company,
+          roleTitle: title,
+          location,
+          locationMode: inferLocationMode(location),
+          roleTrack,
+          monitorStatus: existing ? "active" : "new",
+          verified: true,
+          applicationLink,
+          sourceLink,
+          requiredQualifications: summarizeQualifications(content, [
+            "Official Lever posting should be reviewed before final tailoring.",
+          ]),
+          preferredQualifications: summarizeQualifications(content, [
+            "Game/community/content/analytics proof improves fit for this lane.",
+          ]).slice(0, 3),
+          fitScore,
+          fitReason: fitReasonFor(roleTrack, fitScore),
+          blockersRisks: risksFor({ ...job, content }, location, type),
+          portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
+          dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
+          lastCheckedDate: context.checkedDate,
+          adapterSourceId: source.id,
+          publicType: type,
+          publicEligibility: content.slice(0, 240) || "Official Lever posting verified; details require source review.",
+          sourceFeedLabel: "Lever",
+        };
+      });
+    },
+    async validate(opportunity) {
+      const title = String(opportunity.roleTitle);
+      const relevant = textIncludesAny(title, TARGET_TITLE_KEYWORDS);
+      const applicationLink = String(opportunity.applicationLink);
+      const sourceLink = String(opportunity.sourceLink);
+      const official = isOfficialLeverPostingUrl(applicationLink, siteToken) && isOfficialLeverPostingUrl(sourceLink, siteToken);
+
+      if (!official) {
+        return {
+          valid: false,
+          reason: "Rejected because the official Lever feed did not provide matching jobs.lever.co application/source links.",
+        };
+      }
+
+      if (hasHardExcludedTitle(title)) {
+        return {
+          valid: false,
+          reason: "Rejected because the title is senior/technical/legal/art-focused rather than the requested early-career ops/community/content/UX lane.",
+        };
+      }
+
+      if (hasNonTargetTitle(title)) {
+        return {
+          valid: false,
+          reason: "Rejected because the title is outside the requested game ops/community/content/UX/product/publishing lane.",
+        };
+      }
+
+      if (!relevant || opportunity.fitScore < 6) {
+        return {
+          valid: false,
+          reason: "Rejected as low-confidence for the requested game operations/community/content/UX lane.",
+        };
+      }
+
+      return { valid: true };
+    },
+    async save(opportunities) {
+      return { saved: opportunities.length };
+    },
+  };
+}
+
+function inferLeverSiteToken(url) {
+  const apiMatch = String(url).match(/api\.lever\.co\/v0\/postings\/([^/?#]+)/i);
+  if (apiMatch?.[1]) return apiMatch[1];
+
+  const jobsMatch = String(url).match(/jobs\.lever\.co\/([^/?#]+)/i);
+  return jobsMatch?.[1] ?? "unknown";
+}
+
+function isOfficialLeverPostingUrl(value, siteToken) {
+  const url = String(value);
+  const token = String(siteToken).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`^https?:\\/\\/jobs\\.lever\\.co\\/${token}\\/[^/?#]+(?:\\/apply)?(?:[?#].*)?$`, "i").test(url);
+}
+
+function leverPostingContent(job) {
+  const listContent = Array.isArray(job.lists)
+    ? job.lists.map((item) => [item.text, item.content].filter(Boolean).join(" ")).join(" ")
+    : "";
+  const categories = job.categories
+    ? Object.values(job.categories)
+        .flatMap((value) => (Array.isArray(value) ? value : [value]))
+        .filter(Boolean)
+        .join(" ")
+    : "";
+
+  return stripHtml(
+    [
+      job.descriptionPlain,
+      job.description,
+      job.additionalPlain,
+      job.additional,
+      listContent,
+      categories,
+    ].join(" "),
+  );
 }
 
 function createPhenomSearchAdapter(source) {
@@ -1417,6 +1586,7 @@ function createAdapters(sources) {
       (source) =>
         source.adapterKey === "greenhouse" ||
         source.adapterKey === "ashby" ||
+        source.adapterKey === "lever" ||
         source.adapterKey === "workday" ||
         source.adapterKey === "garena-nuxt" ||
         source.adapterKey === "phenom-search" ||
@@ -1424,6 +1594,7 @@ function createAdapters(sources) {
     )
     .map((source) => {
       if (source.adapterKey === "ashby") return createAshbyAdapter(source);
+      if (source.adapterKey === "lever") return createLeverAdapter(source);
       if (source.adapterKey === "workday") return createWorkdayAdapter(source);
       if (source.adapterKey === "garena-nuxt") return createGarenaNuxtAdapter(source);
       if (source.adapterKey === "phenom-search") return createPhenomSearchAdapter(source);

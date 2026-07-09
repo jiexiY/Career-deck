@@ -159,6 +159,11 @@ adapter coverage:
 - thatgamecompany Ashby: official Ashby job-board API parsing, official
   `jobs.ashbyhq.com/thatgamecompany` application links, target-lane validation,
   source status refresh, fit scoring, risks, and prep checklist.
+- Lever official application routes: adapter support is implemented for future
+  `jobs.lever.co/<site>` sources via `adapterKey: "lever"` and `boardToken`.
+  It reads the official Lever postings API, requires matching `jobs.lever.co`
+  source/apply links, and uses the same target-lane validation before publishing
+  verified cards.
 - Niantic via Scopely Phenom: official `careers.scopely.com` keyword search
   parsing for Niantic, zero-result tracking, official Greenhouse application
   link validation, and no publication when the official search returns no jobs.
