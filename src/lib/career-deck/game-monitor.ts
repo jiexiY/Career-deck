@@ -33,6 +33,7 @@ export type GameMonitorOpportunity = {
   portfolioMaterials: string[];
   dateFirstFound: string;
   lastCheckedDate: string;
+  adapterSourceId?: string;
 };
 
 export type GamePortfolioPrep = {

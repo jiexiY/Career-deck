@@ -64,6 +64,69 @@ const HIGH_FIT_KEYWORDS = [
   "campaign",
 ];
 
+const TARGET_TITLE_KEYWORDS = [
+  "intern",
+  "internship",
+  "fellow",
+  "fellowship",
+  "junior",
+  "part-time",
+  "part time",
+  "contractor",
+  "developer engagement",
+  "developer relations",
+  "community",
+  "social",
+  "content",
+  "marketing",
+  "influencer",
+  "kol",
+  "creator",
+  "product marketing",
+  "product manager",
+  "product management",
+  "operations",
+  "ops",
+  "esport",
+  "publishing",
+  "localization",
+  "producer",
+  "coordinator",
+  "analyst",
+  "quality analyst",
+  "support specialist",
+  "human evaluator",
+  "ux",
+  "user experience",
+  "research",
+];
+
+const HARD_EXCLUDE_TITLE_KEYWORDS = [
+  "counsel",
+  "legal",
+  "engineer",
+  "programmer",
+  "architect",
+  "artist",
+  "director",
+  "senior",
+  "sr.",
+  "staff",
+  "principal",
+  "lead",
+  "finance",
+  "fp&a",
+  "public policy",
+  "data center",
+  "global mobility",
+  "office of the ceo",
+  "架构师",
+  "工程师",
+  "程序员",
+  "艺术家",
+  "法务",
+];
+
 const OFFICIAL_GREENHOUSE_API = "https://boards-api.greenhouse.io/v1/boards";
 
 export function blockedReason(status) {
@@ -117,7 +180,24 @@ function normalizedKey(...parts) {
 
 function textIncludesAny(text, keywords) {
   const haystack = text.toLowerCase();
-  return keywords.some((keyword) => haystack.includes(keyword));
+
+  return keywords.some((keyword) => {
+    const needle = keyword.toLowerCase();
+
+    if (/^[a-z0-9 ]+$/.test(needle)) {
+      const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
+      return new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`).test(haystack);
+    }
+
+    return haystack.includes(needle);
+  });
+}
+
+function hasHardExcludedTitle(title) {
+  const text = title.toLowerCase();
+  const isExplicitEarlyCareer = textIncludesAny(text, ["intern", "fellow", "junior", "part-time", "part time"]);
+
+  return !isExplicitEarlyCareer && textIncludesAny(text, HARD_EXCLUDE_TITLE_KEYWORDS);
 }
 
 function inferRoleTrack(title, content) {
@@ -232,6 +312,55 @@ function risksFor(job, location, type) {
   return risks;
 }
 
+async function checkManualSource(source, fetchImpl, checkedAt) {
+  if (source.priority === "reposting_watchlist") {
+    return {
+      ...source,
+      lastAttemptAt: checkedAt,
+      status: "blocked",
+      failureReason:
+        source.failureReason ??
+        "Reposting/watchlist source is not treated as verified and requires manual review before publishing.",
+    };
+  }
+
+  try {
+    const response = await fetchImpl(source.url, {
+      cache: "no-store",
+      headers: {
+        "user-agent": "CareerDeckGameMonitor/1.0 (+https://career-deck-amber.vercel.app)",
+        accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      },
+      signal: AbortSignal.timeout(12_000),
+    });
+
+    if (!response.ok) {
+      return {
+        ...source,
+        lastAttemptAt: checkedAt,
+        status: response.status === 404 ? "manual_review_required" : "blocked",
+        failureReason: blockedReason(response.status),
+      };
+    }
+
+    return {
+      ...source,
+      lastAttemptAt: checkedAt,
+      status: "manual_review_required",
+      failureReason:
+        source.failureReason ??
+        "Source is reachable, but no reviewed parser adapter is configured. Manual review required before publishing roles.",
+    };
+  } catch (error) {
+    return {
+      ...source,
+      lastAttemptAt: checkedAt,
+      status: "blocked",
+      failureReason: error instanceof Error ? error.message : "Fetch failed before parsing.",
+    };
+  }
+}
+
 function createGreenhouseAdapter(source) {
   const boardToken = source.boardToken ?? inferGreenhouseBoardToken(source.url);
   const apiUrl = `${OFFICIAL_GREENHOUSE_API}/${boardToken}/jobs?content=true`;
@@ -313,34 +442,28 @@ function createGreenhouseAdapter(source) {
           portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
           dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
           lastCheckedDate: context.checkedDate,
+          adapterSourceId: source.id,
           publicType: type,
           publicEligibility: content.slice(0, 240) || "Official Greenhouse posting verified; details require source review.",
         };
       });
     },
     async validate(opportunity) {
-      const text = `${opportunity.roleTitle} ${opportunity.publicEligibility} ${opportunity.roleTrack}`;
-      const relevant = textIncludesAny(text, [
-        "intern",
-        "community",
-        "content",
-        "marketing",
-        "kol",
-        "influencer",
-        "operations",
-        "ux",
-        "user experience",
-        "research",
-        "campaign",
-        "publishing",
-        "esport",
-      ]);
-      const official = String(opportunity.applicationLink).includes("job-boards.greenhouse.io/neteasegames/jobs/");
+      const title = String(opportunity.roleTitle);
+      const relevant = textIncludesAny(title, TARGET_TITLE_KEYWORDS);
+      const official = /^https?:\/\//i.test(String(opportunity.applicationLink));
 
       if (!official) {
         return {
           valid: false,
-          reason: "Rejected because the application link is not the official NetEase Greenhouse route.",
+          reason: "Rejected because the official Greenhouse feed did not provide a valid application link.",
+        };
+      }
+
+      if (hasHardExcludedTitle(title)) {
+        return {
+          valid: false,
+          reason: "Rejected because the title is senior/technical/legal/art-focused rather than the requested early-career ops/community/content/UX lane.",
         };
       }
 
@@ -381,7 +504,7 @@ function publicOpportunityFromMonitor(monitorRecord, checkedAt) {
     section: "game",
     type: monitorRecord.publicType ?? "full-time",
     status: monitorRecord.monitorStatus === "closed" ? "closed" : "open",
-    sourceId: "game-monitor-greenhouse",
+    sourceId: `game-monitor-${monitorRecord.adapterSourceId ?? "official"}`,
     sourceName: "Game Monitor Official Adapter",
     url: monitorRecord.applicationLink,
     location: monitorRecord.location,
@@ -429,14 +552,12 @@ function mergePublicOpportunity(existing, incoming) {
   };
 }
 
-function markClosedMissingOfficialRoles(current, openUrls, checkedDate) {
+function markClosedMissingOfficialRoles(current, openUrls, checkedDate, successfulSourceIds) {
   return current.map((opportunity) => {
-    const isAdapterOwned =
-      opportunity.verified &&
-      typeof opportunity.applicationLink === "string" &&
-      opportunity.applicationLink.includes("job-boards.greenhouse.io/neteasegames/jobs/");
+    const isAdapterOwned = opportunity.verified && opportunity.opportunityId?.startsWith("official-game-");
+    const sourceWasParsed = opportunity.adapterSourceId && successfulSourceIds.has(opportunity.adapterSourceId);
 
-    if (!isAdapterOwned || openUrls.has(opportunity.applicationLink)) {
+    if (!isAdapterOwned || !sourceWasParsed || openUrls.has(opportunity.applicationLink)) {
       return opportunity;
     }
 
@@ -488,8 +609,24 @@ export async function runGameMonitor({
   const liveOpportunities = Array.isArray(liveData?.opportunities) ? liveData.opportunities : [];
   const nextPublicById = new Map(liveOpportunities.map((opportunity) => [opportunity.id, opportunity]));
   const openOfficialUrls = new Set();
+  const adapterSourceIds = new Set(adapters.map((adapter) => adapter.source.id));
+  const successfulSourceIds = new Set();
   const changes = [];
   const adapterResults = [];
+
+  for (const source of monitor.sources) {
+    if (adapterSourceIds.has(source.id)) continue;
+
+    const checkedSource = await checkManualSource(source, fetchImpl, checkedAt);
+    nextSourcesById.set(source.id, checkedSource);
+    adapterResults.push({
+      sourceId: source.id,
+      status: checkedSource.status,
+      failureReason: checkedSource.failureReason,
+      recordsSeen: 0,
+      recordsSaved: 0,
+    });
+  }
 
   for (const adapter of adapters) {
     const source = adapter.source;
@@ -514,6 +651,7 @@ export async function runGameMonitor({
     }
 
     const parsed = await adapter.parse(result);
+    successfulSourceIds.add(source.id);
     const normalized = await adapter.normalize(parsed, { checkedAt, checkedDate, monitor });
     const valid = [];
 
@@ -562,6 +700,7 @@ export async function runGameMonitor({
     Array.from(nextMonitorById.values()),
     openOfficialUrls,
     checkedDate,
+    successfulSourceIds,
   );
 
   for (const opportunity of closedAwareMonitor) {
@@ -577,6 +716,18 @@ export async function runGameMonitor({
         status: opportunity.monitorStatus === "closed" ? "closed" : publicOpportunity.status,
         updatedAt: checkedAt,
       });
+    }
+  }
+
+  const activeMonitorIds = new Set(
+    closedAwareMonitor
+      .filter((opportunity) => opportunity.monitorStatus !== "closed")
+      .map((opportunity) => opportunity.opportunityId),
+  );
+
+  for (const id of nextPublicById.keys()) {
+    if (String(id).startsWith("official-game-") && !activeMonitorIds.has(id)) {
+      nextPublicById.delete(id);
     }
   }
 

@@ -25,8 +25,9 @@ instead of being guessed into real opportunity records.
   opportunity monitor: verified role metadata, fit scores, source status,
   daily brief, and portfolio prep.
 - `src/lib/career-deck/game-monitor-engine.js` runs replaceable game-source
-  adapters. The first production adapter reads the official NetEase Games
-  Greenhouse API and updates both monitor metadata and public opportunity cards.
+  adapters. The current production adapters read official Greenhouse APIs for
+  NetEase Games, Roblox, Epic Games, and Riot Games, then update both monitor
+  metadata and public opportunity cards.
 - `scripts/update-game-opportunities.mjs` refreshes the game monitor locally
   and can commit the changed JSON when run with `--commit`.
 
@@ -138,11 +139,15 @@ does not add new roles from blocked, mirrored, or unparsed pages; new cards are
 published only when an official adapter verifies an application route. Current
 adapter coverage:
 
-- NetEase Games Greenhouse: official API parsing, dedupe, status refresh, public
-  card generation, fit scoring, source links, risks, and prep checklist.
-- Paper Games / Infold, Tencent Workday, Garena, HoYoverse, LinkedIn reposts:
-  retained as source records or watchlists until safe source-specific adapters
-  are added.
+- NetEase Games, Roblox, Epic Games, and Riot Games Greenhouse: official API
+  parsing, dedupe, status refresh, public card generation, fit scoring, source
+  links, risks, and prep checklist. The adapter publishes only roles that match
+  the target game ops/community/content/UX/early-career lane.
+- Paper Games / Infold, Unity, Tencent Workday, Garena, HoYoverse, Niantic, and
+  thatgamecompany: checked as official source records and retained as
+  manual-review sources until safe source-specific parsers are added.
+- LinkedIn reposts: kept blocked because login/platform restrictions prevent
+  compliant scraping and mirrored posts are not verified application routes.
 
 ## Build
 
