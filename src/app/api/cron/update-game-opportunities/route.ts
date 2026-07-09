@@ -9,6 +9,8 @@ export const revalidate = 0;
 
 const GAME_MONITOR_PATH = "src/lib/career-deck/game-monitor.json";
 const LIVE_DATA_PATH = "src/lib/career-deck/live-data.json";
+const PACIFIC_TIME_ZONE = "America/Los_Angeles";
+const TARGET_PACIFIC_HOUR = 19;
 
 type GitHubJsonFile<T> = {
   sha: string;
@@ -38,6 +40,30 @@ function repoConfig() {
     branch: process.env.CAREER_DECK_GITHUB_BRANCH ?? "main",
     token: process.env.CAREER_DECK_GITHUB_TOKEN,
   };
+}
+
+function pacificHour(value: Date) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: PACIFIC_TIME_ZONE,
+    hour: "2-digit",
+    hour12: false,
+  }).formatToParts(value);
+  const hour = parts.find((part) => part.type === "hour")?.value;
+  return Number(hour);
+}
+
+function shouldRunForPacificSchedule(request: Request, checkedAt: Date) {
+  const url = new URL(request.url);
+
+  if (url.searchParams.get("force") === "1") {
+    return true;
+  }
+
+  if (request.method !== "GET") {
+    return true;
+  }
+
+  return pacificHour(checkedAt) === TARGET_PACIFIC_HOUR;
 }
 
 async function readGithubJson<T>(path: string): Promise<GitHubJsonFile<T>> {
@@ -106,7 +132,19 @@ async function run(request: Request) {
     return json({ ok: false, error: "Unauthorized" }, 401);
   }
 
-  const checkedAt = new Date().toISOString();
+  const checkedDate = new Date();
+  const checkedAt = checkedDate.toISOString();
+
+  if (!shouldRunForPacificSchedule(request, checkedDate)) {
+    return json({
+      ok: true,
+      skipped: true,
+      checkedAt,
+      schedule: "Daily at 7:00 PM Pacific via dual UTC cron entries (0 2 and 0 3); non-7 PM Pacific invocation skipped.",
+      pacificHour: pacificHour(checkedDate),
+    });
+  }
+
   let monitorSource = {
     sha: "local-fallback",
     data: gameMonitorFile as GameMonitorFile,
@@ -149,7 +187,7 @@ async function run(request: Request) {
   return json({
     ok: true,
     checkedAt,
-    schedule: "Daily at 7:00 PM Pacific (0 2 * * * UTC during PDT)",
+    schedule: "Daily at 7:00 PM Pacific via dual UTC cron entries (0 2 and 0 3); non-7 PM Pacific invocation skipped.",
     persisted: monitorPersistence.persisted && livePersistence.persisted,
     monitorPersistence,
     livePersistence,

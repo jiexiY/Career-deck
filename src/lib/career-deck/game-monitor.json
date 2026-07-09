@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026-07-09T06:32:02.580Z",
   "timezone": "America/Los_Angeles",
-  "nextScheduledRun": "Daily at 7:00 PM Pacific via /api/cron/update-game-opportunities",
+  "nextScheduledRun": "Daily at 7:00 PM Pacific via /api/cron/update-game-opportunities (dual UTC cron entries with Pacific-time guard)",
   "monitoringPolicy": {
     "sourcePriority": [
       "official career pages",

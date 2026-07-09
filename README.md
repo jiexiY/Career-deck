@@ -127,10 +127,10 @@ Commit the refreshed monitor JSON from a local run:
 npm run update:game-opportunities -- --commit
 ```
 
-Vercel Cron runs `/api/cron/update-game-opportunities` at `0 2 * * *`, which is
-7:00 PM Pacific during daylight saving time. If strict year-round 7:00 PM
-Pacific is required across daylight saving changes, update the UTC cron seasonally
-or move scheduling to a timezone-aware GitHub Action.
+Vercel Cron runs `/api/cron/update-game-opportunities` at both `0 2 * * *` and
+`0 3 * * *` UTC. The route checks `America/Los_Angeles` time and skips the
+non-7:00 PM Pacific invocation, so the monitor stays aligned across daylight
+saving changes. Manual runs can use `POST` or append `?force=1`.
 
 Automatic persistence requires:
 
