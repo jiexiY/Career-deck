@@ -51,17 +51,18 @@ type ConversationSnapshotsData = {
 
 const rawBaseUrl =
   "https://raw.githubusercontent.com/jiexiY/Career-deck/main/src/lib/career-deck";
-const liveDataUrl = process.env.CAREER_DECK_LIVE_DATA_URL ?? `${rawBaseUrl}/live-data.json`;
+const shouldUseBundledData = process.env.NODE_ENV !== "production";
+const liveDataUrl = process.env.CAREER_DECK_LIVE_DATA_URL ?? (shouldUseBundledData ? null : `${rawBaseUrl}/live-data.json`);
 const liveUpdateUrl =
-  process.env.CAREER_DECK_LIVE_UPDATE_URL ?? `${rawBaseUrl}/live-update.json`;
+  process.env.CAREER_DECK_LIVE_UPDATE_URL ?? (shouldUseBundledData ? null : `${rawBaseUrl}/live-update.json`);
 const liveUpdatesUrl =
-  process.env.CAREER_DECK_LIVE_UPDATES_URL ?? `${rawBaseUrl}/live-updates.json`;
+  process.env.CAREER_DECK_LIVE_UPDATES_URL ?? (shouldUseBundledData ? null : `${rawBaseUrl}/live-updates.json`);
 const conversationSourcesUrl =
   process.env.CAREER_DECK_CONVERSATION_SOURCES_URL ??
-  `${rawBaseUrl}/conversation-sources.json`;
+  (shouldUseBundledData ? null : `${rawBaseUrl}/conversation-sources.json`);
 const conversationSnapshotsUrl =
   process.env.CAREER_DECK_CONVERSATION_SNAPSHOTS_URL ??
-  `${rawBaseUrl}/conversation-snapshots.json`;
+  (shouldUseBundledData ? null : `${rawBaseUrl}/conversation-snapshots.json`);
 
 const opportunityTypes: OpportunityType[] = [
   "internship",
@@ -98,7 +99,11 @@ function normalizedSection(value: unknown): OpportunitySection {
     : "tech";
 }
 
-async function fetchJson<T>(url: string, fallback: T): Promise<T> {
+async function fetchJson<T>(url: string | null, fallback: T): Promise<T> {
+  if (!url) {
+    return fallback;
+  }
+
   try {
     const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) {

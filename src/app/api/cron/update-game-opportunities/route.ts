@@ -1,11 +1,14 @@
 import { NextResponse } from "next/server";
 import gameMonitorFile from "@/lib/career-deck/game-monitor.json";
+import liveDataFile from "@/lib/career-deck/live-data.json";
+import { runGameMonitor } from "@/lib/career-deck/game-monitor-engine";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 const GAME_MONITOR_PATH = "src/lib/career-deck/game-monitor.json";
+const LIVE_DATA_PATH = "src/lib/career-deck/live-data.json";
 
 type GitHubJsonFile<T> = {
   sha: string;
@@ -13,6 +16,7 @@ type GitHubJsonFile<T> = {
 };
 
 type GameMonitorFile = typeof gameMonitorFile;
+type LiveDataFile = typeof liveDataFile;
 
 function json(data: unknown, status = 200) {
   return NextResponse.json(data, { status });
@@ -33,125 +37,6 @@ function repoConfig() {
     repo: process.env.CAREER_DECK_GITHUB_REPO ?? "jiexiY/Career-deck",
     branch: process.env.CAREER_DECK_GITHUB_BRANCH ?? "main",
     token: process.env.CAREER_DECK_GITHUB_TOKEN,
-  };
-}
-
-function blockedReason(status: number) {
-  if (status === 401 || status === 403) {
-    return `Blocked by source access policy: HTTP ${status}`;
-  }
-
-  if (status === 429) {
-    return "Blocked by source rate limiting: HTTP 429";
-  }
-
-  if (status === 451) {
-    return "Blocked by legal restriction: HTTP 451";
-  }
-
-  if (status === 503) {
-    return "Source temporarily unavailable or blocking server-side fetches: HTTP 503";
-  }
-
-  return `Fetch failed: HTTP ${status}`;
-}
-
-async function checkSource(url: string) {
-  try {
-    const response = await fetch(url, {
-      cache: "no-store",
-      headers: {
-        "user-agent": "CareerDeckGameMonitor/1.0 (+https://career-deck-amber.vercel.app)",
-        accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      },
-      signal: AbortSignal.timeout(12_000),
-    });
-
-    if (!response.ok) {
-      return {
-        status: response.status === 404 ? "manual_review_required" : "blocked",
-        failureReason: blockedReason(response.status),
-        rawLength: 0,
-      };
-    }
-
-    const text = await response.text();
-
-    return {
-      status: "active",
-      failureReason: undefined,
-      rawLength: text.length,
-    };
-  } catch (error) {
-    return {
-      status: "blocked",
-      failureReason: error instanceof Error ? error.message : "Fetch failed before parsing.",
-      rawLength: 0,
-    };
-  }
-}
-
-function pacificDate(value: Date) {
-  return new Intl.DateTimeFormat("en-CA", {
-    timeZone: "America/Los_Angeles",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(value);
-}
-
-async function buildNextMonitorData(current: GameMonitorFile, checkedAt: string) {
-  const checkedDate = pacificDate(new Date(checkedAt));
-  const sourceResults = await Promise.all(
-    current.sources.map(async (source) => ({
-      source,
-      result: await checkSource(source.url),
-    })),
-  );
-  const nextSources = sourceResults.map(({ source, result }) => ({
-    ...source,
-    lastAttemptAt: checkedAt,
-    status: result.status,
-    failureReason: result.failureReason,
-  }));
-  const activeSourceCount = nextSources.filter((source) => source.status === "active").length;
-  const blockedSourceCount = nextSources.filter((source) => source.status === "blocked").length;
-  const sourceChangedCount = nextSources.filter((source, index) => source.status !== current.sources[index]?.status)
-    .length;
-  const nextOpportunities = current.opportunities.map((opportunity) => ({
-    ...opportunity,
-    lastCheckedDate: checkedDate,
-  }));
-
-  return {
-    ...current,
-    updatedAt: checkedAt,
-    dailyBrief: {
-      ...current.dailyBrief,
-      date: checkedDate,
-      summary:
-        "Daily game monitor ran source reachability checks and refreshed last-checked dates. New roles are added only when an official application route can be verified.",
-      newRolesFound: 0,
-      stillOpen: nextOpportunities.filter((item) => item.monitorStatus === "active" || item.monitorStatus === "urgent")
-        .length,
-      urgent: nextOpportunities.filter((item) => item.monitorStatus === "urgent").length,
-      closed: nextOpportunities.filter((item) => item.monitorStatus === "closed").length,
-      changes: [
-        {
-          kind: "source-check",
-          label: "Source reachability check",
-          detail: `${activeSourceCount} active source(s), ${blockedSourceCount} blocked source(s), ${sourceChangedCount} source status change(s).`,
-        },
-        {
-          kind: "integrity",
-          label: "No fabricated roles",
-          detail:
-            "The run did not add roles from unparsed pages. Official or official-application-route verification is still required before publishing new cards.",
-        },
-      ],
-    },
-    sources: nextSources,
-    opportunities: nextOpportunities,
   };
 }
 
@@ -222,33 +107,56 @@ async function run(request: Request) {
   }
 
   const checkedAt = new Date().toISOString();
-  let source = {
+  let monitorSource = {
     sha: "local-fallback",
     data: gameMonitorFile as GameMonitorFile,
   };
+  let liveSource = {
+    sha: "local-fallback",
+    data: liveDataFile as LiveDataFile,
+  };
 
   try {
-    source = await readGithubJson<GameMonitorFile>(GAME_MONITOR_PATH);
+    monitorSource = await readGithubJson<GameMonitorFile>(GAME_MONITOR_PATH);
   } catch {
     // Local fallback keeps preview/dev runs useful even without GitHub access.
   }
 
-  const nextData = await buildNextMonitorData(source.data, checkedAt);
-  const persistence = await persistGithubJson(
+  try {
+    liveSource = await readGithubJson<LiveDataFile>(LIVE_DATA_PATH);
+  } catch {
+    // Local fallback keeps preview/dev runs useful even without GitHub access.
+  }
+
+  const result = await runGameMonitor({
+    monitor: monitorSource.data,
+    liveData: liveSource.data,
+    checkedAt,
+  });
+  const monitorPersistence = await persistGithubJson(
     GAME_MONITOR_PATH,
-    source.sha,
-    nextData,
+    monitorSource.sha,
+    result.monitor,
     "Update Career Deck game opportunity monitor",
+  );
+  const livePersistence = await persistGithubJson(
+    LIVE_DATA_PATH,
+    liveSource.sha,
+    result.liveData,
+    "Update Career Deck game opportunity cards",
   );
 
   return json({
     ok: true,
     checkedAt,
     schedule: "Daily at 7:00 PM Pacific (0 2 * * * UTC during PDT)",
-    persisted: persistence.persisted,
-    reason: persistence.reason,
-    opportunities: nextData.opportunities.length,
-    sources: nextData.sources.map((source) => ({
+    persisted: monitorPersistence.persisted && livePersistence.persisted,
+    monitorPersistence,
+    livePersistence,
+    opportunities: result.monitor.opportunities.length,
+    publicOpportunities: result.liveData?.opportunities?.length ?? 0,
+    adapterResults: result.adapterResults,
+    sources: (result.monitor.sources as GameMonitorFile["sources"]).map((source) => ({
       id: source.id,
       company: source.company,
       status: source.status,

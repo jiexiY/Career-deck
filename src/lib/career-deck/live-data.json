@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T16:57:40.102Z",
+  "updatedAt": "2026-07-09T00:58:13.919Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -4630,7 +4630,7 @@
       "compensation": "TBD",
       "eligibility": "Bachelor's degree or above; games/tech interest; problem solving; teamwork; internship availability.",
       "discoveredAt": "2026-07-01T23:04:12.162Z",
-      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
       "confidence": {
         "source": 0.92,
         "extraction": 0.86,
@@ -4789,26 +4789,26 @@
       "section": "game",
       "type": "internship",
       "status": "open",
-      "sourceId": "openai-library-game-report-2026-07-01",
-      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
-      "url": "https://job-boards.greenhouse.io/neteasegames",
+      "sourceId": "game-monitor-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5124727007",
       "location": "Indonesia",
-      "deadline": "TBD",
+      "deadline": "Rolling / official posting open",
       "compensation": "TBD",
-      "eligibility": "Creator/KOL sourcing, campaign execution, platform/community awareness.",
+      "eligibility": "&lt;p&gt;&nbsp;&lt;/p&gt; &lt;p data-start=\"76\" data-end=\"97\"&gt;&lt;strong data-start=\"76\" data-end=\"97\"&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;ul data-start=\"98\" data-end=\"724\"&gt; &lt;li data-section-id=\"13kmvvw\" data-start=\"9",
       "discoveredAt": "2026-07-01T23:04:12.162Z",
-      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
       "confidence": {
-        "source": 0.78,
-        "extraction": 0.66,
-        "freshness": 0.86,
-        "duplicateProbability": 0.24
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
       },
       "evidence": [
-        "Library report carried this forward / board-verified and marked location or eligibility as a possible blocker.",
-        "Source appendix S9: NetEase Games current openings."
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5124727007",
+        "Game monitor fit score 10/10; last checked 2026-07-08."
       ],
-      "needsReview": true
+      "needsReview": false
     },
     {
       "id": "library-game-2026-07-01-netease-social-media-content-marketing-intern",
@@ -4817,24 +4817,24 @@
       "section": "game",
       "type": "internship",
       "status": "open",
-      "sourceId": "openai-library-game-report-2026-07-01",
-      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
+      "sourceId": "game-monitor-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
       "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5165597007",
-      "location": "Canada Remote; United States Remote",
-      "deadline": "TBD",
+      "location": "Canada-Remote; United States-Remote",
+      "deadline": "Rolling / official posting open",
       "compensation": "TBD",
-      "eligibility": "Social/media/business/social sciences background; English community culture; TikTok, Instagram, YouTube, Reddit, X, Discord; performance tracking; Chinese highly preferred.",
+      "eligibility": "&lt;p&gt;&lt;strong&gt;About the Project:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;Where Winds Meet&lt;/em&gt; is an epic open-world action-adventure RPG rooted in the rich legacy of Wuxia.&lt;/p&gt; &lt;p&gt;Set during the turbulent era",
       "discoveredAt": "2026-07-01T23:04:12.162Z",
-      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
       "confidence": {
-        "source": 0.92,
-        "extraction": 0.86,
-        "freshness": 0.98,
-        "duplicateProbability": 0.12
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
       },
       "evidence": [
-        "Library report ranked this as the best fit and marked it NEW verified.",
-        "Source appendix S8: NetEase Games Greenhouse Social Media Content Marketing Intern."
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5165597007",
+        "Game monitor fit score 10/10; last checked 2026-07-08."
       ],
       "needsReview": false
     },
@@ -4845,26 +4845,26 @@
       "section": "game",
       "type": "full-time",
       "status": "open",
-      "sourceId": "openai-library-game-report-2026-07-01",
-      "sourceName": "OpenAI Library: game_internship_daily_report_fixed_2026-07-01.pptx",
-      "url": "https://job-boards.greenhouse.io/neteasegames",
+      "sourceId": "game-monitor-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5010694007",
       "location": "Hangzhou Office; Shanghai Office",
-      "deadline": "TBD",
+      "deadline": "Rolling / official posting open",
       "compensation": "TBD",
-      "eligibility": "Game UX portfolio, interaction design, task flows, prototypes, and gaming preferences.",
+      "eligibility": "&lt;p class=\"ds-markdown-paragraph\"&gt;&lt;strong&gt;About the Company:&nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;As a leading internet technology company based in China, NetEase, Inc. (NASDAQ: NTES and HKEX:9999",
       "discoveredAt": "2026-07-01T23:04:12.162Z",
-      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
       "confidence": {
-        "source": 0.78,
-        "extraction": 0.66,
-        "freshness": 0.86,
-        "duplicateProbability": 0.24
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
       },
       "evidence": [
-        "Library report carried this forward / board-verified and marked medium-high fit.",
-        "Source appendix S9: NetEase Games current openings."
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5010694007",
+        "Game monitor fit score 9/10; last checked 2026-07-08."
       ],
-      "needsReview": true
+      "needsReview": false
     },
     {
       "id": "library-game-2026-07-01-papergames-infold-official-role-7530545356938479922-offline",
@@ -4909,7 +4909,7 @@
       "compensation": "TBD",
       "eligibility": "Recruiting / game R&D planning direction; details require manual portal verification.",
       "discoveredAt": "2026-07-01T23:04:12.162Z",
-      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
       "confidence": {
         "source": 0.78,
         "extraction": 0.66,
@@ -4937,7 +4937,7 @@
       "compensation": "TBD",
       "eligibility": "Promotional video/design production; market operations category; video/design portfolio likely required.",
       "discoveredAt": "2026-07-01T23:04:12.162Z",
-      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
       "confidence": {
         "source": 0.78,
         "extraction": 0.66,
@@ -4965,7 +4965,7 @@
       "compensation": "TBD",
       "eligibility": "No specific official open intern role was safely verified in the July 1 Library report.",
       "discoveredAt": "2026-07-01T23:04:12.162Z",
-      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
       "confidence": {
         "source": 0.92,
         "extraction": 0.86,
@@ -5076,7 +5076,7 @@
       "compensation": "TBD",
       "eligibility": "Playtest and review games; market release tracking; structured game evaluation.",
       "discoveredAt": "2026-07-01T23:04:12.162Z",
-      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
       "confidence": {
         "source": 0.78,
         "extraction": 0.66,
@@ -5104,7 +5104,7 @@
       "compensation": "TBD",
       "eligibility": "Community/user operations, content operations, market research, and player needs.",
       "discoveredAt": "2026-07-01T23:04:12.162Z",
-      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
       "confidence": {
         "source": 0.78,
         "extraction": 0.66,
@@ -5132,7 +5132,7 @@
       "compensation": "TBD",
       "eligibility": "Publishing/promotional operations, game operations support, and cross-team execution.",
       "discoveredAt": "2026-07-01T23:04:12.162Z",
-      "updatedAt": "2026-07-01T23:04:12.162Z",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
       "confidence": {
         "source": 0.78,
         "extraction": 0.66,
@@ -5847,6 +5847,202 @@
         "Official Zynga university URL was present in the shared conversation."
       ],
       "needsReview": true
+    },
+    {
+      "id": "official-game-netease-games-community-manager-united-kingdom-remote-4927747007",
+      "title": "Community Manager",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "game-monitor-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927747007",
+      "location": "United Kingdom-Remote",
+      "deadline": "Rolling / official posting open",
+      "compensation": "TBD",
+      "eligibility": "&lt;article&gt; &lt;p&gt;&lt;strong&gt;About NetEaseGames:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As a leading internet technology company based in China, NetEase, Inc. (NASDAQ: NTES and HKEX:9999, “NetEase”) provides premium online services cen",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/4927747007",
+        "Game monitor fit score 9/10; last checked 2026-07-08."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-content-marketing-united-kingdom-remote-4927750007",
+      "title": "Content Marketing",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927750007",
+      "location": "United Kingdom-Remote",
+      "deadline": "Rolling / official posting open",
+      "compensation": "TBD",
+      "eligibility": "&lt;article&gt; &lt;p&gt;&lt;strong&gt;About NetEase Games:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As&nbsp;a&nbsp;leading&nbsp;internet&nbsp;technology&nbsp;company&nbsp;based&nbsp;inChina,&nbsp;NetEase,&nbsp;Inc.&nbsp;(NASDAQ:&nbsp;NTES&nbsp;an",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/4927750007",
+        "Game monitor fit score 10/10; last checked 2026-07-08."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-esport-specialist-united-kingdom-remote-4927758007",
+      "title": "Esport Specialist",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927758007",
+      "location": "United Kingdom-Remote",
+      "deadline": "Rolling / official posting open",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&lt;strong&gt;About NetEaseGames:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As a leading internet technology company based in China, NetEase, Inc. (NASDAQ: NTES and HKEX:9999, “NetEase”)provides premium online services centered around cont",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/4927758007",
+        "Game monitor fit score 10/10; last checked 2026-07-08."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-influencerkol-marketing-specialist-indonesia-indonesia-5100788007",
+      "title": "Influencer/KOL Marketing Specialist (Indonesia)",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5100788007",
+      "location": "Indonesia",
+      "deadline": "Rolling / official posting open",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&nbsp;&lt;/p&gt; &lt;h4&gt;&lt;strong&gt;Job Description&lt;/strong&gt;&lt;/h4&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Influencer Network Development:&lt;/strong&gt;&nbsp;Responsible for scouting, recruiting, and maintaini",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5100788007",
+        "Game monitor fit score 10/10; last checked 2026-07-08."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-influencer-marketing-manager-global-growth-singapore-guoco-midtown-5029745007",
+      "title": "Influencer Marketing Manager（ Global Growth）",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5029745007",
+      "location": "Singapore-Guoco Midtown",
+      "deadline": "Rolling / official posting open",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&lt;/p&gt; &lt;h3&gt;&lt;strong&gt;Job Description&lt;/strong&gt;&lt;/h3&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Strategy &amp; Execution:&lt;/strong&gt;&nbsp;Responsible for the growth and operation of our overseas influe",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5029745007",
+        "Game monitor fit score 10/10; last checked 2026-07-08."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-marketing-campaign-ipbranding-united-kingdom-remote-4927744007",
+      "title": "Marketing Campaign (IP/Branding)",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "training-program",
+      "status": "open",
+      "sourceId": "game-monitor-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927744007",
+      "location": "United Kingdom-Remote",
+      "deadline": "Rolling / official posting open",
+      "compensation": "TBD",
+      "eligibility": "&lt;article&gt; &lt;p&gt;&lt;strong&gt;About NetEase Games:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As a leading internet technology company based in China, NetEase, Inc. (NASDAQ: NTES and HKEX:9999, “NetEase”) provides premium online services ce",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/4927744007",
+        "Game monitor fit score 10/10; last checked 2026-07-08."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-overseas-kolinfluencer-operations-specialist-singapore-singapore-guoco-midtown-5180061007",
+      "title": "Overseas KOL/Influencer Operations Specialist (Singapore)",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5180061007",
+      "location": "Singapore-Guoco Midtown",
+      "deadline": "Rolling / official posting open",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&nbsp;&lt;/p&gt; &lt;h3&gt;&lt;/h3&gt; &lt;h4&gt;&lt;strong&gt;Job Description / Responsibilities:&lt;/strong&gt;&lt;/h4&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Lead and execute overseas influencer marketing initiatives (K",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-07-09T00:58:13.919Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5180061007",
+        "Game monitor fit score 10/10; last checked 2026-07-08."
+      ],
+      "needsReview": false
     }
   ]
 }

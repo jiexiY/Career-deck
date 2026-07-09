@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T19:00:00-07:00",
+  "updatedAt": "2026-07-09T00:58:13.919Z",
   "timezone": "America/Los_Angeles",
   "nextScheduledRun": "Daily at 7:00 PM Pacific via /api/cron/update-game-opportunities",
   "monitoringPolicy": {
@@ -14,27 +14,47 @@
   },
   "dailyBrief": {
     "date": "2026-07-08",
-    "summary": "Game monitor scaffold installed with curated verified game records, watchlist separation, fit scoring, and portfolio-prep recommendations. Live source checks require the scheduled cron plus GitHub token persistence.",
-    "newRolesFound": 0,
-    "stillOpen": 9,
-    "urgent": 5,
+    "summary": "Daily game monitor parsed official adapter feeds, updated verified roles, and preserved blocked/manual-review sources without fabricating missing data.",
+    "newRolesFound": 7,
+    "stillOpen": 16,
+    "urgent": 2,
     "closed": 3,
     "bestFitOpportunityId": "library-game-2026-07-01-netease-social-media-content-marketing-intern",
     "changes": [
       {
         "kind": "new",
-        "label": "Game monitor UI/data layer added",
-        "detail": "Existing curated game opportunities now have role-track, fit score, source, risk, and prep metadata."
+        "label": "NetEase Games: Content Marketing",
+        "detail": "Verified official adapter role first found today with fit score 10/10."
       },
       {
-        "kind": "status",
-        "label": "Watchlists separated from verified roles",
-        "detail": "Aggregator-only leads remain visible as monitor context, not verified application targets."
+        "kind": "new",
+        "label": "NetEase Games: Esport Specialist",
+        "detail": "Verified official adapter role first found today with fit score 10/10."
       },
       {
-        "kind": "automation",
-        "label": "7 PM Pacific cron scaffold",
-        "detail": "A dedicated cron route and local update script can update this monitor once GitHub persistence credentials are configured."
+        "kind": "new",
+        "label": "NetEase Games: Influencer/KOL Marketing Specialist (Indonesia)",
+        "detail": "Verified official adapter role first found today with fit score 10/10."
+      },
+      {
+        "kind": "new",
+        "label": "NetEase Games: Influencer Marketing Manager（ Global Growth）",
+        "detail": "Verified official adapter role first found today with fit score 10/10."
+      },
+      {
+        "kind": "new",
+        "label": "NetEase Games: Marketing Campaign (IP/Branding)",
+        "detail": "Verified official adapter role first found today with fit score 10/10."
+      },
+      {
+        "kind": "new",
+        "label": "NetEase Games: Overseas KOL/Influencer Operations Specialist (Singapore)",
+        "detail": "Verified official adapter role first found today with fit score 10/10."
+      },
+      {
+        "kind": "new",
+        "label": "NetEase Games: Community Manager",
+        "detail": "Verified official adapter role first found today with fit score 9/10."
       }
     ]
   },
@@ -143,8 +163,10 @@
       "id": "game-source-netease-greenhouse",
       "company": "NetEase Games",
       "url": "https://job-boards.greenhouse.io/neteasegames",
+      "adapterKey": "greenhouse",
+      "boardToken": "neteasegames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-08T19:00:00-07:00",
+      "lastAttemptAt": "2026-07-09T00:58:13.919Z",
       "status": "active"
     },
     {
@@ -188,7 +210,7 @@
       "opportunityId": "library-game-2026-07-01-netease-social-media-content-marketing-intern",
       "company": "NetEase Games",
       "roleTitle": "Social Media Content Marketing Intern",
-      "location": "Canada Remote; United States Remote",
+      "location": "Canada-Remote; United States-Remote",
       "locationMode": "remote",
       "roleTrack": "content marketing",
       "monitorStatus": "urgent",
@@ -196,29 +218,333 @@
       "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5165597007",
       "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5165597007",
       "requiredQualifications": [
-        "Social/media/business/social sciences background",
-        "English community culture knowledge",
-        "TikTok, Instagram, YouTube, Reddit, X, Discord familiarity",
-        "Performance tracking"
+        "Familiarity with &lt;em&gt;Where Winds Meet&lt;/em&gt; or the Wuxia genre is highly desirable.&lt;/li&gt; &lt;li&gt;Active user of social media platforms such as TikTok, Instagram, YouTube, Reddit, and X (Twitter).&lt;/li&gt; &lt;li&gt;Strong understanding of English-speaking social media culture, internet trends, memes, and platform-specific content formats.&lt;/li&gt; &lt;li&gt;Demonstrates cultural awareness and sensitivity when engaging with global gaming communities and creating content for diverse audiences.&lt;/li&gt; &lt;li&gt;Strong awareness of gaming creators, influencers, streamers, and the broader gaming content ecosystem in English Community.&lt;/li&gt; &lt;li&gt;Excellent written and verbal communication skills in English.&lt;/li&gt; &lt;li&gt;Self-motivated, organized, and eager to learn in a fast-paced environment.&lt;/li&gt; &lt;li&gt;Proficient in Chinese is highly preferred as the position will have cross team working with game development in China.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
       ],
       "preferredQualifications": [
-        "Chinese highly preferred",
-        "Game/fan-community research",
-        "Content calendar and campaign reporting experience"
+        "Familiarity with &lt;em&gt;Where Winds Meet&lt;/em&gt; or the Wuxia genre is highly desirable.&lt;/li&gt; &lt;li&gt;Active user of social media platforms such as TikTok, Instagram, YouTube, Reddit, and X (Twitter).&lt;/li&gt; &lt;li&gt;Strong understanding of English-speaking social media culture, internet trends, memes, and platform-specific content formats.&lt;/li&gt; &lt;li&gt;Demonstrates cultural awareness and sensitivity when engaging with global gaming communities and creating content for diverse audiences.&lt;/li&gt; &lt;li&gt;Strong awareness of gaming creators, influencers, streamers, and the broader gaming content ecosystem in English Community.&lt;/li&gt; &lt;li&gt;Excellent written and verbal communication skills in English.&lt;/li&gt; &lt;li&gt;Self-motivated, organized, and eager to learn in a fast-paced environment.&lt;/li&gt; &lt;li&gt;Proficient in Chinese is highly preferred as the position will have cross team working with game development in China.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
       ],
       "fitScore": 10,
-      "fitReason": "Best direct match for Sociology + Statistics, social/content work, bilingual/community angle, and game/fan-community research.",
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
       "blockersRisks": [
-        "Deadline not listed; treat as rolling or close-when-filled.",
-        "Remote eligibility still needs final application confirmation."
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears."
       ],
       "portfolioMaterials": [
-        "Content calendar",
+        "Game KPI dashboard",
         "Community sentiment memo",
-        "KOL tracker",
+        "Content calendar",
         "Campaign metrics dashboard"
       ],
       "dateFirstFound": "2026-07-01",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "library-game-2026-07-01-netease-overseas-influencer-kol-operations-intern-indonesia",
+      "company": "NetEase Games",
+      "roleTitle": "Overseas Influencer/KOL Operations Intern (Indonesia)",
+      "location": "Indonesia",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "active",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5124727007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5124727007",
+      "requiredQualifications": [
+        "&lt;p&gt;&nbsp;&lt;/p&gt; &lt;p data-start=\"76\" data-end=\"97\"&gt;&lt;strong data-start=\"76\" data-end=\"97\"&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;ul data-start=\"98\" data-end=\"724\"&gt; &lt;li data-section-id=\"13kmvvw\" data-start=\"98\" data-end=\"374\"&gt;Be familiar with major overseas social media platforms (e.g., YouTube, Instagram, TikTok), identify and source suitable influencers based on campaign requirements, evaluate accounts based on data and content quality, and proactively reach out to establish collaborations;&lt;/li&gt; &lt;li data-section-id=\"v99gnb\" data-start=\"375\" data-end=\"530\"&gt;Assist in end-to-end KOL marketing campaigns, including script ideation, market research, video translation/transcription, and post-campaign analysis;&lt;/li&gt; &lt;li data-section-id=\"1dv7kkk\" data-start=\"531\" data-end=\"669\"&gt;Maintain relationships with influencer channels, support pricing negotiations, and assist in exploring deeper strategic partnerships;&lt;/li&gt; &lt;li data-section-id=\"cey1bz\" data-start=\"670\" data-end=\"724\"&gt;Deliver assigned tasks on time with high quality.&lt;/li&gt; &lt;/ul&gt; &lt;p data-start=\"731\" data-end=\"748\"&gt;&lt;strong data-start=\"731\" data-end=\"748\"&gt;Requirements:&lt;/strong&gt;&lt;/p&gt; &lt;ul data-start=\"749\" data-end=\"1289\"&gt; &lt;li data-section-id=\"oqy4r4\" data-start=\"749\" data-end=\"830\"&gt;Familiar with various social media platforms, especially international ones;&lt;/li&gt; &lt;li data-section-id=\"xy0tag\" data-start=\"831\" data-end=\"941\"&gt;Strong communication and collaboration skills, with a proactive attitude toward tasks and responsiveness;&lt;/li&gt; &lt;li data-section-id=\"1qg6wh2\" data-start=\"942\" data-end=\"1028\"&gt;Proficient language skills at a working level (to be assessed during interviews);&lt;/li&gt; &lt;li data-section-id=\"1g22oc\" data-start=\"1029\" data-end=\"1125\"&gt;Available to work at least 4 days per week, with a minimum internship duration of 4 months;&lt;/li&gt; &lt;li data-section-id=\"wwpxwt\" data-start=\"1126\" data-end=\"1289\"&gt;Currently pursuing or holding a Bachelor’s degree or above; candidates with overseas study experience and strong understanding of local culture are preferred.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "preferredQualifications": [
+        "&lt;p&gt;&nbsp;&lt;/p&gt; &lt;p data-start=\"76\" data-end=\"97\"&gt;&lt;strong data-start=\"76\" data-end=\"97\"&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;ul data-start=\"98\" data-end=\"724\"&gt; &lt;li data-section-id=\"13kmvvw\" data-start=\"98\" data-end=\"374\"&gt;Be familiar with major overseas social media platforms (e.g., YouTube, Instagram, TikTok), identify and source suitable influencers based on campaign requirements, evaluate accounts based on data and content quality, and proactively reach out to establish collaborations;&lt;/li&gt; &lt;li data-section-id=\"v99gnb\" data-start=\"375\" data-end=\"530\"&gt;Assist in end-to-end KOL marketing campaigns, including script ideation, market research, video translation/transcription, and post-campaign analysis;&lt;/li&gt; &lt;li data-section-id=\"1dv7kkk\" data-start=\"531\" data-end=\"669\"&gt;Maintain relationships with influencer channels, support pricing negotiations, and assist in exploring deeper strategic partnerships;&lt;/li&gt; &lt;li data-section-id=\"cey1bz\" data-start=\"670\" data-end=\"724\"&gt;Deliver assigned tasks on time with high quality.&lt;/li&gt; &lt;/ul&gt; &lt;p data-start=\"731\" data-end=\"748\"&gt;&lt;strong data-start=\"731\" data-end=\"748\"&gt;Requirements:&lt;/strong&gt;&lt;/p&gt; &lt;ul data-start=\"749\" data-end=\"1289\"&gt; &lt;li data-section-id=\"oqy4r4\" data-start=\"749\" data-end=\"830\"&gt;Familiar with various social media platforms, especially international ones;&lt;/li&gt; &lt;li data-section-id=\"xy0tag\" data-start=\"831\" data-end=\"941\"&gt;Strong communication and collaboration skills, with a proactive attitude toward tasks and responsiveness;&lt;/li&gt; &lt;li data-section-id=\"1qg6wh2\" data-start=\"942\" data-end=\"1028\"&gt;Proficient language skills at a working level (to be assessed during interviews);&lt;/li&gt; &lt;li data-section-id=\"1g22oc\" data-start=\"1029\" data-end=\"1125\"&gt;Available to work at least 4 days per week, with a minimum internship duration of 4 months;&lt;/li&gt; &lt;li data-section-id=\"wwpxwt\" data-start=\"1126\" data-end=\"1289\"&gt;Currently pursuing or holding a Bachelor’s degree or above; candidates with overseas study experience and strong understanding of local culture are preferred.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard",
+        "KOL tracker"
+      ],
+      "dateFirstFound": "2026-07-01",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "official-game-netease-games-content-marketing-united-kingdom-remote-4927750007",
+      "company": "NetEase Games",
+      "roleTitle": "Content Marketing",
+      "location": "United Kingdom-Remote",
+      "locationMode": "remote",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/4927750007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/4927750007",
+      "requiredQualifications": [
+        "&lt;article&gt; &lt;p&gt;&lt;strong&gt;About NetEase Games:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As&nbsp;a&nbsp;leading&nbsp;internet&nbsp;technology&nbsp;company&nbsp;based&nbsp;inChina,&nbsp;NetEase,&nbsp;Inc.&nbsp;(NASDAQ:&nbsp;NTES&nbsp;and&nbsp;HKEX:9999,&nbsp;“NetEase”)&nbsp;provides&nbsp;premium&nbsp;online&nbsp;services&nbsp;centered&nbsp;around&nbsp;content&nbsp;creation.&nbsp;With&nbsp;extensive&nbsp;offerings&nbsp;across&nbsp;its&nbsp;expanding&nbsp;gaming&nbsp;ecosystem,&nbsp;the&nbsp;Company&nbsp;develops&nbsp;and&nbsp;operates&nbsp;someof&nbsp;China’s&nbsp;most&nbsp;popular&nbsp;and&nbsp;longest-running&nbsp;mobile&nbsp;and&nbsp;PC&nbsp;games.&nbsp;Powered&nbsp;by&nbsp;industry-leading&nbsp;in-house&nbsp;R&amp;D&nbsp;capabilities&nbsp;in&nbsp;China&nbsp;and&nbsp;globally,&nbsp;NetEase&nbsp;creates&nbsp;superior&nbsp;gaming&nbsp;experiences,&nbsp;inspires&nbsp;players,&nbsp;and&nbsp;passionately&nbsp;delivers&nbsp;value&nbsp;for&nbsp;its&nbsp;thriving&nbsp;community&nbsp;worldwide.&nbsp;By&nbsp;infusing&nbsp;play&nbsp;with&nbsp;culture&nbsp;and&nbsp;education&nbsp;with&nbsp;technology,&nbsp;NetEase&nbsp;transforms&nbsp;gaming&nbsp;into&nbsp;a&nbsp;meaningful&nbsp;vehicle&nbsp;to&nbsp;build&nbsp;a&nbsp;more&nbsp;entertaining&nbsp;and&nbsp;enlightened&nbsp;world.&lt;/p&gt; &lt;p&gt;NetEase’s&nbsp;ESG&nbsp;initiatives&nbsp;are&nbsp;among&nbsp;the&nbsp;best&nbsp;in&nbsp;the&nbsp;global&nbsp;media&nbsp;and&nbsp;entertainment&nbsp;industry,&nbsp;earning&nbsp;it&nbsp;a&nbsp;distinction&nbsp;as&nbsp;one&nbsp;of&nbsp;the&nbsp;S&amp;P&nbsp;Global&nbsp;Industry&nbsp;Movers&nbsp;and&nbsp;an&nbsp;“A”&nbsp;rating&nbsp;from&nbsp;MSCI.&nbsp;For&nbsp;more&nbsp;information,&nbsp;please&nbsp;visit:&nbsp;&lt;a href=\"http://ir.netease.com/\" target=\"_blank\"&gt;http://ir.netease.com/&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Responsible for building the product content ecosystem, deeply understanding and analyzing the player-driven creative ecosystem.",
+        "Plan marketing campaigns based on product features, user insights, and trending topics, participate in execution, and take accountability for communication results.&lt;/li&gt; &lt;li&gt;Oversee and manage the development of the player UGC ecosystem, optimize ecosystem operation strategies, design omni-channelplayer ecosystem operation plans, and drive implementation.&lt;/li&gt; &lt;li&gt;Monitor and analyze content operation data,employ various operational methods to enhance business objectives, and take responsibility for multiple metrics such as content creation, consumption, and traffic acquisition.&lt;/li&gt; &lt;li&gt;Establish and maintain relationships with high-quality content creators, conduct periodic user research, and optimize the content ecosystem.&nbsp;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bachelor's degree or above, with the ability touse English as a working language;&nbsp;&lt;/li&gt; &lt;li&gt;Experience in overseas content creator operations and building overseas content ecosystems is preferred.&lt;/li&gt; &lt;li&gt;Deep understanding and insights into content formats and creation ecosystems such as short/long videos and live streaming,strong content comprehension, and user empathy, with the ability to drive business growth from a user-centric perspective.&lt;/li&gt; &lt;li&gt;Platform-oriented mindset, with experience inuser, creator, and content operations, skilled in retrospectives, and result-and data-driven approach.&lt;/li&gt; &lt;li&gt;Strong sense of ownership, excellent project leadership skills, capable of handling multitasking, and independently solve problems with self-driven motivation.&lt;/li&gt; &lt;li&gt;Proficiency in Chinese is required for this position, as daily communication and collaboration with game development team based in China are essential to the responsibilities of the position.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong data-start=\"190\" data-end=\"199\"&gt;Note:&lt;/strong&gt; All UK-based positions are &lt;strong data-start=\"227\" data-end=\"260\"&gt;eligible for visa sponsorship&lt;/strong&gt;.&lt;/p&gt; &lt;/article&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "preferredQualifications": [
+        "&lt;article&gt; &lt;p&gt;&lt;strong&gt;About NetEase Games:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As&nbsp;a&nbsp;leading&nbsp;internet&nbsp;technology&nbsp;company&nbsp;based&nbsp;inChina,&nbsp;NetEase,&nbsp;Inc.&nbsp;(NASDAQ:&nbsp;NTES&nbsp;and&nbsp;HKEX:9999,&nbsp;“NetEase”)&nbsp;provides&nbsp;premium&nbsp;online&nbsp;services&nbsp;centered&nbsp;around&nbsp;content&nbsp;creation.&nbsp;With&nbsp;extensive&nbsp;offerings&nbsp;across&nbsp;its&nbsp;expanding&nbsp;gaming&nbsp;ecosystem,&nbsp;the&nbsp;Company&nbsp;develops&nbsp;and&nbsp;operates&nbsp;someof&nbsp;China’s&nbsp;most&nbsp;popular&nbsp;and&nbsp;longest-running&nbsp;mobile&nbsp;and&nbsp;PC&nbsp;games.&nbsp;Powered&nbsp;by&nbsp;industry-leading&nbsp;in-house&nbsp;R&amp;D&nbsp;capabilities&nbsp;in&nbsp;China&nbsp;and&nbsp;globally,&nbsp;NetEase&nbsp;creates&nbsp;superior&nbsp;gaming&nbsp;experiences,&nbsp;inspires&nbsp;players,&nbsp;and&nbsp;passionately&nbsp;delivers&nbsp;value&nbsp;for&nbsp;its&nbsp;thriving&nbsp;community&nbsp;worldwide.&nbsp;By&nbsp;infusing&nbsp;play&nbsp;with&nbsp;culture&nbsp;and&nbsp;education&nbsp;with&nbsp;technology,&nbsp;NetEase&nbsp;transforms&nbsp;gaming&nbsp;into&nbsp;a&nbsp;meaningful&nbsp;vehicle&nbsp;to&nbsp;build&nbsp;a&nbsp;more&nbsp;entertaining&nbsp;and&nbsp;enlightened&nbsp;world.&lt;/p&gt; &lt;p&gt;NetEase’s&nbsp;ESG&nbsp;initiatives&nbsp;are&nbsp;among&nbsp;the&nbsp;best&nbsp;in&nbsp;the&nbsp;global&nbsp;media&nbsp;and&nbsp;entertainment&nbsp;industry,&nbsp;earning&nbsp;it&nbsp;a&nbsp;distinction&nbsp;as&nbsp;one&nbsp;of&nbsp;the&nbsp;S&amp;P&nbsp;Global&nbsp;Industry&nbsp;Movers&nbsp;and&nbsp;an&nbsp;“A”&nbsp;rating&nbsp;from&nbsp;MSCI.&nbsp;For&nbsp;more&nbsp;information,&nbsp;please&nbsp;visit:&nbsp;&lt;a href=\"http://ir.netease.com/\" target=\"_blank\"&gt;http://ir.netease.com/&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Responsible for building the product content ecosystem, deeply understanding and analyzing the player-driven creative ecosystem.",
+        "Plan marketing campaigns based on product features, user insights, and trending topics, participate in execution, and take accountability for communication results.&lt;/li&gt; &lt;li&gt;Oversee and manage the development of the player UGC ecosystem, optimize ecosystem operation strategies, design omni-channelplayer ecosystem operation plans, and drive implementation.&lt;/li&gt; &lt;li&gt;Monitor and analyze content operation data,employ various operational methods to enhance business objectives, and take responsibility for multiple metrics such as content creation, consumption, and traffic acquisition.&lt;/li&gt; &lt;li&gt;Establish and maintain relationships with high-quality content creators, conduct periodic user research, and optimize the content ecosystem.&nbsp;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bachelor's degree or above, with the ability touse English as a working language;&nbsp;&lt;/li&gt; &lt;li&gt;Experience in overseas content creator operations and building overseas content ecosystems is preferred.&lt;/li&gt; &lt;li&gt;Deep understanding and insights into content formats and creation ecosystems such as short/long videos and live streaming,strong content comprehension, and user empathy, with the ability to drive business growth from a user-centric perspective.&lt;/li&gt; &lt;li&gt;Platform-oriented mindset, with experience inuser, creator, and content operations, skilled in retrospectives, and result-and data-driven approach.&lt;/li&gt; &lt;li&gt;Strong sense of ownership, excellent project leadership skills, capable of handling multitasking, and independently solve problems with self-driven motivation.&lt;/li&gt; &lt;li&gt;Proficiency in Chinese is required for this position, as daily communication and collaboration with game development team based in China are essential to the responsibilities of the position.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong data-start=\"190\" data-end=\"199\"&gt;Note:&lt;/strong&gt; All UK-based positions are &lt;strong data-start=\"227\" data-end=\"260\"&gt;eligible for visa sponsorship&lt;/strong&gt;.&lt;/p&gt; &lt;/article&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "official-game-netease-games-esport-specialist-united-kingdom-remote-4927758007",
+      "company": "NetEase Games",
+      "roleTitle": "Esport Specialist",
+      "location": "United Kingdom-Remote",
+      "locationMode": "remote",
+      "roleTrack": "product operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/4927758007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/4927758007",
+      "requiredQualifications": [
+        "Powered by industry-leading in-house R&amp;D capabilities in China and globally, NetEase creates superior gaming experiences, inspires players, and passionately delivers value for its thriving community worldwide.",
+        "Continuously track and analyze tournament data, user feedback, and market dynamics to iterate and optimize strategies for maximum project impact.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bachelor’s degree or above, with 2+ years of experience in esports tournament operations.",
+        "Prior experience in esports operation or successful execution of esports events is preferred; experience with shooting game tournaments is a plus.&lt;/li&gt; &lt;li&gt;Familiar with one or multiple mainstream esports event systems in the market, and well-acquainted with the ecosystem and operational strategies of community tournaments and self-organized competitions.&lt;/li&gt; &lt;li&gt;In-depth understanding of competitive gaming communities, ecosystems, tournament structures, and player dynamic.&lt;/li&gt; &lt;li&gt;Proficient in English, able to use it as a working language.&lt;/li&gt; &lt;li&gt;Proficiency in Chinese is required for this position, as daily communication and collaboration with game development team based in China are essential to the responsibilities of the position.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong data-start=\"190\" data-end=\"199\"&gt;Note:&lt;/strong&gt; All UK-based positions are &lt;strong data-start=\"227\" data-end=\"260\"&gt;eligible for visa sponsorship&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "preferredQualifications": [
+        "Powered by industry-leading in-house R&amp;D capabilities in China and globally, NetEase creates superior gaming experiences, inspires players, and passionately delivers value for its thriving community worldwide.",
+        "Continuously track and analyze tournament data, user feedback, and market dynamics to iterate and optimize strategies for maximum project impact.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bachelor’s degree or above, with 2+ years of experience in esports tournament operations.",
+        "Prior experience in esports operation or successful execution of esports events is preferred; experience with shooting game tournaments is a plus.&lt;/li&gt; &lt;li&gt;Familiar with one or multiple mainstream esports event systems in the market, and well-acquainted with the ecosystem and operational strategies of community tournaments and self-organized competitions.&lt;/li&gt; &lt;li&gt;In-depth understanding of competitive gaming communities, ecosystems, tournament structures, and player dynamic.&lt;/li&gt; &lt;li&gt;Proficient in English, able to use it as a working language.&lt;/li&gt; &lt;li&gt;Proficiency in Chinese is required for this position, as daily communication and collaboration with game development team based in China are essential to the responsibilities of the position.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong data-start=\"190\" data-end=\"199\"&gt;Note:&lt;/strong&gt; All UK-based positions are &lt;strong data-start=\"227\" data-end=\"260\"&gt;eligible for visa sponsorship&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong product operations match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "official-game-netease-games-influencerkol-marketing-specialist-indonesia-indonesia-5100788007",
+      "company": "NetEase Games",
+      "roleTitle": "Influencer/KOL Marketing Specialist (Indonesia)",
+      "location": "Indonesia",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5100788007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5100788007",
+      "requiredQualifications": [
+        "Identify and explore opportunities for deeper collaborations, such as brand ambassadorships, long-term partnerships, or exclusive events, to create flagship case studies.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Cross-Functional Collaboration:&lt;/strong&gt;&nbsp;Collaborate closely with Marketing, Sales, and other internal teams to support the brand's broader overseas marketing initiatives, ensuring influencer activities are well-integrated.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr&gt; &lt;h4&gt;&lt;strong&gt;Job Requirements&lt;/strong&gt;&lt;/h4&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Language Proficiency:&lt;/strong&gt;&nbsp;Professional working proficiency in Mandarin Chinese (reading and writing) is required for internal communication.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Core Experience:&lt;/strong&gt;&nbsp;1-3+ years of proven experience in influencer marketing or KOL operations.",
+        "Must have a successful track record of independently managing end-to-end campaigns in English-speaking markets, from sourcing and negotiation to final performance review.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Project Management Skills:&lt;/strong&gt;&nbsp;Strong project planning and execution abilities.",
+        "Must be a logical thinker with a high sense of responsibility, capable of efficiently managing multiple projects simultaneously and resolving unexpected challenges.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Tool Proficiency:&lt;/strong&gt;&nbsp;Proficient in using influencer marketing and analytics platforms (e.g., AspireIQ, Upfluence, HypeAuditor, etc.).&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr&gt; &lt;h4&gt;&lt;strong&gt;Preferred Qualifications (Bonus Points)&lt;/strong&gt;&lt;/h4&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;Candidates with an existing network of influencers in the e-commerce sector are highly preferred.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Experience studying or working abroad is a significant plus.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Direct experience with influencer campaigns focused on driving sales conversions is highly desirable.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "preferredQualifications": [
+        "Identify and explore opportunities for deeper collaborations, such as brand ambassadorships, long-term partnerships, or exclusive events, to create flagship case studies.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Cross-Functional Collaboration:&lt;/strong&gt;&nbsp;Collaborate closely with Marketing, Sales, and other internal teams to support the brand's broader overseas marketing initiatives, ensuring influencer activities are well-integrated.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr&gt; &lt;h4&gt;&lt;strong&gt;Job Requirements&lt;/strong&gt;&lt;/h4&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Language Proficiency:&lt;/strong&gt;&nbsp;Professional working proficiency in Mandarin Chinese (reading and writing) is required for internal communication.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Core Experience:&lt;/strong&gt;&nbsp;1-3+ years of proven experience in influencer marketing or KOL operations.",
+        "Must have a successful track record of independently managing end-to-end campaigns in English-speaking markets, from sourcing and negotiation to final performance review.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Project Management Skills:&lt;/strong&gt;&nbsp;Strong project planning and execution abilities.",
+        "Must be a logical thinker with a high sense of responsibility, capable of efficiently managing multiple projects simultaneously and resolving unexpected challenges.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Tool Proficiency:&lt;/strong&gt;&nbsp;Proficient in using influencer marketing and analytics platforms (e.g., AspireIQ, Upfluence, HypeAuditor, etc.).&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr&gt; &lt;h4&gt;&lt;strong&gt;Preferred Qualifications (Bonus Points)&lt;/strong&gt;&lt;/h4&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;Candidates with an existing network of influencers in the e-commerce sector are highly preferred.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Experience studying or working abroad is a significant plus.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Direct experience with influencer campaigns focused on driving sales conversions is highly desirable.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard",
+        "KOL tracker"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "official-game-netease-games-influencer-marketing-manager-global-growth-singapore-guoco-midtown-5029745007",
+      "company": "NetEase Games",
+      "roleTitle": "Influencer Marketing Manager（ Global Growth）",
+      "location": "Singapore-Guoco Midtown",
+      "locationMode": "in_person",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5029745007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5029745007",
+      "requiredQualifications": [
+        "Establish and refine team processes, including SOPs for influencer outreach, data dashboards, creator databases, and lead management systems to enhance overall team efficiency and partnership success.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Cross-functional Collaboration:&lt;/strong&gt;&nbsp;Work closely with internal teams in China, including Growth, Merchandising, Design, Product, and Business Development, to ensure seamless integration of influencer collaborations with platform events, product features, and promotional campaigns.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;h3&gt;&lt;strong&gt;Job Requirements&lt;/strong&gt;&lt;/h3&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;Bachelor's degree or above, with a minimum of 3 years of experience in overseas influencer marketing, creator marketing, affiliate marketing, or a related growth marketing role.",
+        "Experience in team management or as a project owner is a plus.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Deep understanding of the creator ecosystems on mainstream social media platforms such as TikTok, YouTube, Instagram, X, Discord, and Twitch.",
+        "Experience or a strong network in the US and/or European markets is highly preferred.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Professional working proficiency in English is required, with excellent cross-cultural communication skills."
+      ],
+      "preferredQualifications": [
+        "Establish and refine team processes, including SOPs for influencer outreach, data dashboards, creator databases, and lead management systems to enhance overall team efficiency and partnership success.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Cross-functional Collaboration:&lt;/strong&gt;&nbsp;Work closely with internal teams in China, including Growth, Merchandising, Design, Product, and Business Development, to ensure seamless integration of influencer collaborations with platform events, product features, and promotional campaigns.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;h3&gt;&lt;strong&gt;Job Requirements&lt;/strong&gt;&lt;/h3&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;Bachelor's degree or above, with a minimum of 3 years of experience in overseas influencer marketing, creator marketing, affiliate marketing, or a related growth marketing role.",
+        "Experience in team management or as a project owner is a plus.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Deep understanding of the creator ecosystems on mainstream social media platforms such as TikTok, YouTube, Instagram, X, Discord, and Twitch.",
+        "Experience or a strong network in the US and/or European markets is highly preferred.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Professional working proficiency in English is required, with excellent cross-cultural communication skills."
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard",
+        "KOL tracker"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "official-game-netease-games-marketing-campaign-ipbranding-united-kingdom-remote-4927744007",
+      "company": "NetEase Games",
+      "roleTitle": "Marketing Campaign (IP/Branding)",
+      "location": "United Kingdom-Remote",
+      "locationMode": "remote",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/4927744007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/4927744007",
+      "requiredQualifications": [
+        "Powered by industry-leading in-house R&amp;D capabilities in China and globally, NetEase creates superior gaming experiences, inspires players, and passionately delivers value for its thriving community worldwide.",
+        "For more information, please visit:&nbsp;&lt;a href=\"http://ir.netease.com/\"&gt;http://ir.netease.com/&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Develop and implement IP collaboration strategies and plans according to product milestones and needs.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Responsible for cross-industry brand partnerships, driving brand integrations both inside and outside the game.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Conduct market research for project expansion to identify suitable partners for online and offline promotions.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Plan communication strategies for brand and IP collaborations and take accountability for the effectiveness of partnership campaigns.&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Bachelor’s degree or above, with a strong passion for games.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Familiarity with the content andviral mechanisms of major overseas social media platforms, possessing a keen sense of popular trends and trending memes in international markets, and the ability to transform trending topics into creative ideas.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Possess certain brand and media resources.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Ability to review campaign performance by integrating marketing activities, product conversion, and user research data,and optimize future promotional efforts accordingly.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Strong learning and execution skills; open-minded and inclusive in cross-cultural communication, with excellent teamwork spirit and resilience under pressure.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Fluent in English, capable of using it as&nbsp; aworking language.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Proficiency in Chinese is required for this position, as daily communication and collaboration with game development team based in China are essential to the responsibilities of the position.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong data-start=\"190\" data-end=\"199\"&gt;Note:&lt;/strong&gt; All UK-based positions are &lt;strong data-start=\"227\" data-end=\"260\"&gt;eligible for visa sponsorship&lt;/strong&gt;.&lt;/p&gt; &lt;/div&gt; &lt;/article&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "preferredQualifications": [
+        "Powered by industry-leading in-house R&amp;D capabilities in China and globally, NetEase creates superior gaming experiences, inspires players, and passionately delivers value for its thriving community worldwide.",
+        "For more information, please visit:&nbsp;&lt;a href=\"http://ir.netease.com/\"&gt;http://ir.netease.com/&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Develop and implement IP collaboration strategies and plans according to product milestones and needs.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Responsible for cross-industry brand partnerships, driving brand integrations both inside and outside the game.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Conduct market research for project expansion to identify suitable partners for online and offline promotions.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Plan communication strategies for brand and IP collaborations and take accountability for the effectiveness of partnership campaigns.&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Bachelor’s degree or above, with a strong passion for games.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Familiarity with the content andviral mechanisms of major overseas social media platforms, possessing a keen sense of popular trends and trending memes in international markets, and the ability to transform trending topics into creative ideas.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Possess certain brand and media resources.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Ability to review campaign performance by integrating marketing activities, product conversion, and user research data,and optimize future promotional efforts accordingly.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Strong learning and execution skills; open-minded and inclusive in cross-cultural communication, with excellent teamwork spirit and resilience under pressure.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Fluent in English, capable of using it as&nbsp; aworking language.&lt;/li&gt; &lt;li class=\"list-item \"&gt;Proficiency in Chinese is required for this position, as daily communication and collaboration with game development team based in China are essential to the responsibilities of the position.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong data-start=\"190\" data-end=\"199\"&gt;Note:&lt;/strong&gt; All UK-based positions are &lt;strong data-start=\"227\" data-end=\"260\"&gt;eligible for visa sponsorship&lt;/strong&gt;.&lt;/p&gt; &lt;/div&gt; &lt;/article&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "official-game-netease-games-overseas-kolinfluencer-operations-specialist-singapore-singapore-guoco-midtown-5180061007",
+      "company": "NetEase Games",
+      "roleTitle": "Overseas KOL/Influencer Operations Specialist (Singapore)",
+      "location": "Singapore-Guoco Midtown",
+      "locationMode": "in_person",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5180061007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5180061007",
+      "requiredQualifications": [
+        "A minimum of 1 year of experience in user operations, community management, or overseas creator/influencer management is highly preferred.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Possess strong logical thinking, a results-driven mindset, and excellent execution skills.",
+        "Proficient in data analysis, with strong communication and interpersonal skills.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;A genuine passion for gaming and/or the broader entertainment industry.",
+        "Being a seasoned gamer, particularly with experience in global gaming communities, is a significant plus.",
+        "Familiarity with ACG (Anime, Comics, Games) culture is highly desirable.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Professional working proficiency in both English and Mandarin Chinese&lt;/strong&gt;&nbsp;is required to liaise effectively with internal and external stakeholders across different regions.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Deeply familiar with major global social media and community platforms such as&nbsp;&lt;strong&gt;Discord, YouTube, Twitter/X, TikTok,&lt;/strong&gt;&nbsp;etc.&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;h3&gt;&lt;/h3&gt;"
+      ],
+      "preferredQualifications": [
+        "A minimum of 1 year of experience in user operations, community management, or overseas creator/influencer management is highly preferred.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Possess strong logical thinking, a results-driven mindset, and excellent execution skills.",
+        "Proficient in data analysis, with strong communication and interpersonal skills.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;A genuine passion for gaming and/or the broader entertainment industry.",
+        "Being a seasoned gamer, particularly with experience in global gaming communities, is a significant plus."
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard",
+        "KOL tracker"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "library-game-2026-07-01-netease-user-experience-center-junior-ux-designer",
+      "company": "NetEase Games",
+      "roleTitle": "User Experience Center - Junior UX Designer",
+      "location": "Hangzhou Office; Shanghai Office",
+      "locationMode": "in_person",
+      "roleTrack": "game UX/product planning",
+      "monitorStatus": "active",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5010694007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5010694007",
+      "requiredQualifications": [
+        "Powered by industry-leading in- house R&amp;D capabilities in China and globally, NetEase creates superior gaming experiences, inspires players and passionately delivers value for its thriving community worldwide.",
+        "For more information, please visit: http://ir.netease.com/.&nbsp;&lt;/p&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;&lt;strong&gt;Job Description&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Define the interaction principles between players and game, transforming interfaces into intuitive tools that give players full control and mastery over the game experience.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Design interaction methods for various gameplay mechanics, helping players engage more effectively with the game and immerse themselves in its emotional journey.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Passion for gaming and a desire to pursue a career in the game industry, with extensive gaming experience and thoughtful insights into game experience design.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Familiarity with interaction design theories and proficiency in key design methodologies (e.g., information architecture, task flow analysis, interactive prototyping).&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;A user‑centric mindset combined with a rigorous, detail‑oriented approach to design.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Broad knowledge base and keen observation skills, with a curiosity for new trends and innovations.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Strong analytical and creative communication skills, with the ability to collaborate effectively.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;International perspective and cross‑cultural work capability; proficiency in a foreign language as a working language is preferred.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;&lt;strong&gt;Application Instructions&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Please include a link to your portfolio or work samples.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;In your resume, highlight your gaming preferences and experience.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "preferredQualifications": [
+        "Powered by industry-leading in- house R&amp;D capabilities in China and globally, NetEase creates superior gaming experiences, inspires players and passionately delivers value for its thriving community worldwide.",
+        "For more information, please visit: http://ir.netease.com/.&nbsp;&lt;/p&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;&lt;strong&gt;Job Description&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Define the interaction principles between players and game, transforming interfaces into intuitive tools that give players full control and mastery over the game experience.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Design interaction methods for various gameplay mechanics, helping players engage more effectively with the game and immerse themselves in its emotional journey.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Passion for gaming and a desire to pursue a career in the game industry, with extensive gaming experience and thoughtful insights into game experience design.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Familiarity with interaction design theories and proficiency in key design methodologies (e.g., information architecture, task flow analysis, interactive prototyping).&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;A user‑centric mindset combined with a rigorous, detail‑oriented approach to design.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Broad knowledge base and keen observation skills, with a curiosity for new trends and innovations.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Strong analytical and creative communication skills, with the ability to collaborate effectively.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;International perspective and cross‑cultural work capability; proficiency in a foreign language as a working language is preferred.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;&lt;strong&gt;Application Instructions&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;Please include a link to your portfolio or work samples.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p class=\"ds-markdown-paragraph\"&gt;In your resume, highlight your gaming preferences and experience.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "fitScore": 9,
+      "fitReason": "Strong game UX/product planning match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "UX/game system teardown"
+      ],
+      "dateFirstFound": "2026-07-01",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "official-game-netease-games-community-manager-united-kingdom-remote-4927747007",
+      "company": "NetEase Games",
+      "roleTitle": "Community Manager",
+      "location": "United Kingdom-Remote",
+      "locationMode": "remote",
+      "roleTrack": "community operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/4927747007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/4927747007",
+      "requiredQualifications": [
+        "Powered by industry-leading in-house R&amp;D capabilities in China andglobally, NetEase creates superior gaming experiences, inspires players, and passionately delivers value for its thriving community worldwide.",
+        "For more information, please visit:&nbsp;&lt;a href=\"http://ir.netease.com/\"&gt;http://ir.netease.com/&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Responsible for planning and operating overseas gaming communities, developing and executing community strategies and objectives based on the product's market strategy and game version schedule.&lt;/li&gt; &lt;li&gt;Oversee the promotional scheduling, publishing, and performance evaluation of game version content within the community.&lt;/li&gt; &lt;li&gt;Continuously optimize Discord community functions based on player needs and preferences, ensuring the community meets player needs.&lt;/li&gt; &lt;li&gt;Collect and report on player feedback and sentiment; Monitor competing products and new releases in the genre.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bachelor’s degree or above, with proficiencyin English as a working language.&lt;/li&gt; &lt;li&gt;3+ years of experience in operating large overseas gaming communities (Discord), with proven operational expertise in community and platform management, capable of developing and implementing community strategies.&lt;/li&gt; &lt;li&gt;Deep gaming experience with overseas titles; familiar with shooter/competitive game genres, with clear insights into player demographics and the gaming industry.&lt;/li&gt; &lt;li&gt;Strong communication and execution skills, collaborative team spirit, and a sense of responsibility.&lt;/li&gt; &lt;li&gt;Proficiency in Chinese is required for this position, as daily communication and collaboration with game development team based in China are essential to the responsibilities of the position.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong data-start=\"190\" data-end=\"199\"&gt;Note:&lt;/strong&gt; All UK-based positions are &lt;strong data-start=\"227\" data-end=\"260\"&gt;eligible for visa sponsorship&lt;/strong&gt;.&lt;/p&gt; &lt;/article&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "preferredQualifications": [
+        "Powered by industry-leading in-house R&amp;D capabilities in China andglobally, NetEase creates superior gaming experiences, inspires players, and passionately delivers value for its thriving community worldwide.",
+        "For more information, please visit:&nbsp;&lt;a href=\"http://ir.netease.com/\"&gt;http://ir.netease.com/&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Responsible for planning and operating overseas gaming communities, developing and executing community strategies and objectives based on the product's market strategy and game version schedule.&lt;/li&gt; &lt;li&gt;Oversee the promotional scheduling, publishing, and performance evaluation of game version content within the community.&lt;/li&gt; &lt;li&gt;Continuously optimize Discord community functions based on player needs and preferences, ensuring the community meets player needs.&lt;/li&gt; &lt;li&gt;Collect and report on player feedback and sentiment; Monitor competing products and new releases in the genre.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bachelor’s degree or above, with proficiencyin English as a working language.&lt;/li&gt; &lt;li&gt;3+ years of experience in operating large overseas gaming communities (Discord), with proven operational expertise in community and platform management, capable of developing and implementing community strategies.&lt;/li&gt; &lt;li&gt;Deep gaming experience with overseas titles; familiar with shooter/competitive game genres, with clear insights into player demographics and the gaming industry.&lt;/li&gt; &lt;li&gt;Strong communication and execution skills, collaborative team spirit, and a sense of responsibility.&lt;/li&gt; &lt;li&gt;Proficiency in Chinese is required for this position, as daily communication and collaboration with game development team based in China are essential to the responsibilities of the position.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong data-start=\"190\" data-end=\"199\"&gt;Note:&lt;/strong&gt; All UK-based positions are &lt;strong data-start=\"227\" data-end=\"260\"&gt;eligible for visa sponsorship&lt;/strong&gt;.&lt;/p&gt; &lt;/article&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "fitScore": 9,
+      "fitReason": "Strong community operations match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08"
     },
     {
@@ -361,76 +687,6 @@
       "lastCheckedDate": "2026-07-08"
     },
     {
-      "opportunityId": "library-game-2026-07-01-papergames-infold-video-design-intern-shining-nikki",
-      "company": "Papergames / Infold",
-      "roleTitle": "Video Design Intern - Shining Nikki",
-      "location": "Shanghai",
-      "locationMode": "in_person",
-      "roleTrack": "content marketing",
-      "monitorStatus": "active",
-      "verified": true,
-      "applicationLink": "https://career.papegames.com/EN",
-      "sourceLink": "https://career.papegames.com/EN",
-      "requiredQualifications": [
-        "Video/design production interest",
-        "Game content sense",
-        "Shanghai availability likely required"
-      ],
-      "preferredQualifications": [
-        "Shining Nikki / Paper Games fandom fluency",
-        "Short-form campaign examples",
-        "Bilingual creative notes"
-      ],
-      "fitScore": 7,
-      "fitReason": "Strong company and content fit, but requires credible video/design portfolio and location realism.",
-      "blockersRisks": [
-        "Portfolio fit is a real blocker.",
-        "Shanghai location may be hard."
-      ],
-      "portfolioMaterials": [
-        "Content calendar",
-        "Short-form game campaign sample",
-        "Community sentiment memo"
-      ],
-      "dateFirstFound": "2026-07-01",
-      "lastCheckedDate": "2026-07-08"
-    },
-    {
-      "opportunityId": "library-game-2026-07-01-netease-overseas-influencer-kol-operations-intern-indonesia",
-      "company": "NetEase Games",
-      "roleTitle": "Overseas Influencer/KOL Operations Intern (Indonesia)",
-      "location": "Indonesia",
-      "locationMode": "in_person",
-      "roleTrack": "KOL/influencer operations",
-      "monitorStatus": "active",
-      "verified": true,
-      "applicationLink": "https://job-boards.greenhouse.io/neteasegames",
-      "sourceLink": "https://job-boards.greenhouse.io/neteasegames",
-      "requiredQualifications": [
-        "KOL/influencer operations interest",
-        "Overseas publishing support",
-        "Regional market awareness"
-      ],
-      "preferredQualifications": [
-        "Creator tracking workflow",
-        "Campaign reporting",
-        "Bilingual or cross-cultural communication"
-      ],
-      "fitScore": 7,
-      "fitReason": "Strong KOL and overseas operations match, but Indonesia location/work eligibility is the constraint.",
-      "blockersRisks": [
-        "Location/work authorization likely blocks immediate action.",
-        "Exact role page needs source check."
-      ],
-      "portfolioMaterials": [
-        "KOL tracker",
-        "Content calendar",
-        "Campaign metrics dashboard"
-      ],
-      "dateFirstFound": "2026-07-01",
-      "lastCheckedDate": "2026-07-08"
-    },
-    {
       "opportunityId": "library-game-2026-07-01-tencent-game-research-intern-r107142",
       "company": "Tencent",
       "roleTitle": "Game Research Intern R107142",
@@ -466,36 +722,36 @@
       "lastCheckedDate": "2026-07-08"
     },
     {
-      "opportunityId": "library-game-2026-07-01-netease-user-experience-center-junior-ux-designer",
-      "company": "NetEase Games",
-      "roleTitle": "User Experience Center - Junior UX Designer",
-      "location": "Hangzhou Office; Shanghai Office",
+      "opportunityId": "library-game-2026-07-01-papergames-infold-video-design-intern-shining-nikki",
+      "company": "Papergames / Infold",
+      "roleTitle": "Video Design Intern - Shining Nikki",
+      "location": "Shanghai",
       "locationMode": "in_person",
-      "roleTrack": "game UX/product planning",
+      "roleTrack": "content marketing",
       "monitorStatus": "active",
       "verified": true,
-      "applicationLink": "https://job-boards.greenhouse.io/neteasegames",
-      "sourceLink": "https://job-boards.greenhouse.io/neteasegames",
+      "applicationLink": "https://career.papegames.com/EN",
+      "sourceLink": "https://career.papegames.com/EN",
       "requiredQualifications": [
-        "UX/product design interest",
-        "Game UX research or design examples",
-        "China office availability likely required"
+        "Video/design production interest",
+        "Game content sense",
+        "Shanghai availability likely required"
       ],
       "preferredQualifications": [
-        "Game-specific UX portfolio",
-        "Research-to-design case study",
-        "Mandarin communication"
+        "Shining Nikki / Paper Games fandom fluency",
+        "Short-form campaign examples",
+        "Bilingual creative notes"
       ],
       "fitScore": 7,
-      "fitReason": "Good UX/product pathway if a credible game-specific portfolio is prepared.",
+      "fitReason": "Strong company and content fit, but requires credible video/design portfolio and location realism.",
       "blockersRisks": [
-        "Portfolio and location are key blockers.",
-        "Exact application details need manual confirmation."
+        "Portfolio fit is a real blocker.",
+        "Shanghai location may be hard."
       ],
       "portfolioMaterials": [
-        "UX/game system teardown",
-        "Figma prototype",
-        "Research notes"
+        "Content calendar",
+        "Short-form game campaign sample",
+        "Community sentiment memo"
       ],
       "dateFirstFound": "2026-07-01",
       "lastCheckedDate": "2026-07-08"
@@ -527,6 +783,72 @@
         "UX/game system teardown"
       ],
       "dateFirstFound": "2026-07-01",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "official-game-netease-games-ieg-senior-gameplay-engineer-canada-remote-5070068007",
+      "company": "NetEase Games",
+      "roleTitle": "IEG - Senior Gameplay Engineer",
+      "location": "Canada-Remote",
+      "locationMode": "remote",
+      "roleTrack": "community operations",
+      "monitorStatus": "closed",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5070068007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5070068007",
+      "requiredQualifications": [
+        "Powered by industry-leading in-house R&amp;D capabilities in China and globally, NetEase creates superior gaming experiences, inspires players, and passionately delivers value for its thriving community worldwide.",
+        "For more information, please visit:&nbsp;&lt;a href=\"http://ir.netease.com/\"&gt;http://ir.netease.com/&lt;/a&gt;&lt;/p&gt; &lt;/article&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;article&gt; &lt;h4&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/h4&gt; &lt;ol&gt; &lt;li&gt;Develop core gameplay mechanics for football/soccer games, including but not limited to: &lt;ul&gt; &lt;li&gt;Football rule systems (offside / foul / referee logic).&lt;/li&gt; &lt;li&gt;AI player design (tactical positioning / team coordination / dynamic decision-making).&lt;/li&gt; &lt;li&gt;Physics-driven animation systems (collision response / motion fusion / inertial control).&lt;/li&gt; &lt;li&gt;Player animation state machine design (dribbling / shooting / tackling animation blending).&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;Lead end-to-end implementation of technical solutions, from prototyping to performance optimization.&lt;/li&gt; &lt;li&gt;Solve cross-module technical challenges (animation-physics synchronization, network consistency, etc.).&lt;/li&gt; &lt;li&gt;Write high-quality C++ code and establish technical standards for gameplay modules.&lt;/li&gt; &lt;/ol&gt; &lt;h4&gt;&lt;strong&gt;Required Qualifications:&lt;/strong&gt;&lt;/h4&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Experience&lt;/strong&gt;:&lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;5+ years in game development, &lt;strong&gt;with at least 1 shipped sports game title &lt;/strong&gt;(football games prioritized).&lt;/li&gt; &lt;li class=\"list-item \"&gt;End-to-end ownership of at least 2&nbsp;projects, covering the full lifecycle from &lt;strong&gt;technical design → development → launch → post-launch iteration.&lt;/strong&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Technical Expertise&lt;/strong&gt;: &lt;ul&gt; &lt;li class=\"list-item \"&gt;Football rule systems (FIFA / PES-style rule engines).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Athlete AI systems (state machines / behavior trees / utility AI).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Physics-driven animation (Motion Matching / Procedural Animation).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Animation blend tree optimization (Locomotion / Contact Animation).&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Mastery in at least one domain least above.&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Expert C++ proficiency &lt;/strong&gt;(C++17 features, template metaprogramming, multithreading).&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Engineering Competence&lt;/strong&gt;:&lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Experience with game architectures (ECS / Data-Oriented Design).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Proven work in high-performance systems (CPU / memory optimization, SIMD acceleration).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Proficiency in industry tools (Unreal Engine / Unity, Perforce / Git).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Ability to analyze and deconstruct gameplay implementation solutions.&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;h4&gt;&lt;strong&gt;Preferred Qualifications：&lt;/strong&gt;&lt;/h4&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Football Enthusiast&lt;/strong&gt;:&lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Knowledge of football tactics (e.g., Tiki-Taka / Gegenpressing).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Understanding of player techniques (e.g., Messi-style dribbling / Ronaldo-style shooting).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Amateur football experience or football data analysis background.&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Technical Breadth&lt;/strong&gt;:&lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Familiarity with network synchronization (state synchronization in sports games)&lt;/li&gt; &lt;li class=\"list-item \"&gt;Experience applying ML in game AI (e.g., reinforcement learning for player AI)&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Soft Skills&lt;/strong&gt;:&lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Proactive knowledge sharing (technical blogs / Github projects preferred).&lt;/li&gt; &lt;li class=\"list-item \"&gt; &lt;div class=\"lRu31\"&gt;Ability to read and write technical documentation in English.&lt;/div&gt; &lt;div class=\"XL3Kf XExWNc\"&gt;&nbsp;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;h4&gt;&lt;strong&gt;Team Expectations：&lt;/strong&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;We seek teammates who: &lt;ul&gt; &lt;li&gt;Strive for excellence in football games (willing to invest&lt;strong&gt; 200% effort for a 1% improvement in realism).&lt;/strong&gt;&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Think as both engineers and players&lt;/strong&gt;, prioritizing user experience in technical design.&lt;/li&gt; &lt;li&gt;Maintain high &lt;strong&gt;code quality and system scalability &lt;/strong&gt;in fast-paced development cycles.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;/article&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "preferredQualifications": [
+        "Powered by industry-leading in-house R&amp;D capabilities in China and globally, NetEase creates superior gaming experiences, inspires players, and passionately delivers value for its thriving community worldwide.",
+        "For more information, please visit:&nbsp;&lt;a href=\"http://ir.netease.com/\"&gt;http://ir.netease.com/&lt;/a&gt;&lt;/p&gt; &lt;/article&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;article&gt; &lt;h4&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/h4&gt; &lt;ol&gt; &lt;li&gt;Develop core gameplay mechanics for football/soccer games, including but not limited to: &lt;ul&gt; &lt;li&gt;Football rule systems (offside / foul / referee logic).&lt;/li&gt; &lt;li&gt;AI player design (tactical positioning / team coordination / dynamic decision-making).&lt;/li&gt; &lt;li&gt;Physics-driven animation systems (collision response / motion fusion / inertial control).&lt;/li&gt; &lt;li&gt;Player animation state machine design (dribbling / shooting / tackling animation blending).&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;Lead end-to-end implementation of technical solutions, from prototyping to performance optimization.&lt;/li&gt; &lt;li&gt;Solve cross-module technical challenges (animation-physics synchronization, network consistency, etc.).&lt;/li&gt; &lt;li&gt;Write high-quality C++ code and establish technical standards for gameplay modules.&lt;/li&gt; &lt;/ol&gt; &lt;h4&gt;&lt;strong&gt;Required Qualifications:&lt;/strong&gt;&lt;/h4&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Experience&lt;/strong&gt;:&lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;5+ years in game development, &lt;strong&gt;with at least 1 shipped sports game title &lt;/strong&gt;(football games prioritized).&lt;/li&gt; &lt;li class=\"list-item \"&gt;End-to-end ownership of at least 2&nbsp;projects, covering the full lifecycle from &lt;strong&gt;technical design → development → launch → post-launch iteration.&lt;/strong&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Technical Expertise&lt;/strong&gt;: &lt;ul&gt; &lt;li class=\"list-item \"&gt;Football rule systems (FIFA / PES-style rule engines).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Athlete AI systems (state machines / behavior trees / utility AI).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Physics-driven animation (Motion Matching / Procedural Animation).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Animation blend tree optimization (Locomotion / Contact Animation).&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Mastery in at least one domain least above.&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Expert C++ proficiency &lt;/strong&gt;(C++17 features, template metaprogramming, multithreading).&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Engineering Competence&lt;/strong&gt;:&lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Experience with game architectures (ECS / Data-Oriented Design).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Proven work in high-performance systems (CPU / memory optimization, SIMD acceleration).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Proficiency in industry tools (Unreal Engine / Unity, Perforce / Git).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Ability to analyze and deconstruct gameplay implementation solutions.&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;h4&gt;&lt;strong&gt;Preferred Qualifications：&lt;/strong&gt;&lt;/h4&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Football Enthusiast&lt;/strong&gt;:&lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Knowledge of football tactics (e.g., Tiki-Taka / Gegenpressing).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Understanding of player techniques (e.g., Messi-style dribbling / Ronaldo-style shooting).&lt;/li&gt; &lt;li class=\"list-item \"&gt;Amateur football experience or football data analysis background.&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Technical Breadth&lt;/strong&gt;:&lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Familiarity with network synchronization (state synchronization in sports games)&lt;/li&gt; &lt;li class=\"list-item \"&gt;Experience applying ML in game AI (e.g., reinforcement learning for player AI)&lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;&lt;strong&gt;Soft Skills&lt;/strong&gt;:&lt;/li&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Proactive knowledge sharing (technical blogs / Github projects preferred).&lt;/li&gt; &lt;li class=\"list-item \"&gt; &lt;div class=\"lRu31\"&gt;Ability to read and write technical documentation in English.&lt;/div&gt; &lt;div class=\"XL3Kf XExWNc\"&gt;&nbsp;&lt;/div&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/ul&gt; &lt;/div&gt; &lt;h4&gt;&lt;strong&gt;Team Expectations：&lt;/strong&gt;&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;We seek teammates who: &lt;ul&gt; &lt;li&gt;Strive for excellence in football games (willing to invest&lt;strong&gt; 200% effort for a 1% improvement in realism).&lt;/strong&gt;&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Think as both engineers and players&lt;/strong&gt;, prioritizing user experience in technical design.&lt;/li&gt; &lt;li&gt;Maintain high &lt;strong&gt;code quality and system scalability &lt;/strong&gt;in fast-paced development cycles.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;p&gt;&nbsp;&lt;/p&gt; &lt;/article&gt; &lt;p&gt;&nbsp;&lt;/p&gt;"
+      ],
+      "fitScore": 5,
+      "fitReason": "Adjacent game-industry role; keep as research unless requirements and location are realistic.",
+      "blockersRisks": [
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears.",
+        "Official Greenhouse route was not present in the latest adapter run."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "official-game-netease-games-ip-japan-japan-5012410007",
+      "company": "NetEase Games",
+      "roleTitle": "IPコラボ監修 - Japan",
+      "location": "Japan",
+      "locationMode": "in_person",
+      "roleTrack": "game operations",
+      "monitorStatus": "closed",
+      "verified": true,
+      "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5012410007",
+      "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5012410007",
+      "requiredQualifications": [
+        "Official Greenhouse posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 5,
+      "fitReason": "Adjacent game-industry role; keep as research unless requirements and location are realistic.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears.",
+        "Official Greenhouse route was not present in the latest adapter run."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08"
     }
   ]

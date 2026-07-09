@@ -24,6 +24,9 @@ instead of being guessed into real opportunity records.
 - `src/lib/career-deck/game-monitor.json` stores the dedicated game-industry
   opportunity monitor: verified role metadata, fit scores, source status,
   daily brief, and portfolio prep.
+- `src/lib/career-deck/game-monitor-engine.js` runs replaceable game-source
+  adapters. The first production adapter reads the official NetEase Games
+  Greenhouse API and updates both monitor metadata and public opportunity cards.
 - `scripts/update-game-opportunities.mjs` refreshes the game monitor locally
   and can commit the changed JSON when run with `--commit`.
 
@@ -131,8 +134,15 @@ Automatic persistence requires:
 
 If those credentials are missing, the cron route still reports source reachability
 but cannot write the updated monitor data back to GitHub. The monitor deliberately
-does not add new roles from blocked, mirrored, or unparsed pages; new cards should
-only be published when an official application route is verified.
+does not add new roles from blocked, mirrored, or unparsed pages; new cards are
+published only when an official adapter verifies an application route. Current
+adapter coverage:
+
+- NetEase Games Greenhouse: official API parsing, dedupe, status refresh, public
+  card generation, fit scoring, source links, risks, and prep checklist.
+- Paper Games / Infold, Tencent Workday, Garena, HoYoverse, LinkedIn reposts:
+  retained as source records or watchlists until safe source-specific adapters
+  are added.
 
 ## Build
 
