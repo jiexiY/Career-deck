@@ -139,7 +139,10 @@ const HARD_EXCLUDE_TITLE_KEYWORDS = [
 const NON_TARGET_TITLE_KEYWORDS = [
   "talent acquisition",
   "human resources",
+  "hr operations",
   "hr intern",
+  "it operations",
+  "business strategy analyst",
   "financial accounting",
   "accounting",
   "finance",

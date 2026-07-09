@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T02:14:49.123Z",
+  "updatedAt": "2026-07-09T02:52:04.616Z",
   "timezone": "America/Los_Angeles",
   "nextScheduledRun": "Daily at 7:00 PM Pacific via /api/cron/update-game-opportunities",
   "monitoringPolicy": {
@@ -15,12 +15,22 @@
   "dailyBrief": {
     "date": "2026-07-08",
     "summary": "Daily game monitor parsed official adapter feeds, updated verified roles, and preserved blocked/manual-review sources without fabricating missing data.",
-    "newRolesFound": 76,
-    "stillOpen": 85,
+    "newRolesFound": 78,
+    "stillOpen": 87,
     "urgent": 2,
     "closed": 106,
     "bestFitOpportunityId": "library-game-2026-07-01-netease-social-media-content-marketing-intern",
     "changes": [
+      {
+        "kind": "new",
+        "label": "Tencent / Level Infinite / TiMi / Lightspeed: Video Generation Content Understanding and Feedback Research Intern",
+        "detail": "Verified official application route added with fit score 6/10."
+      },
+      {
+        "kind": "new",
+        "label": "Riot Games: Publishing Operations Manager - Teamfight Tactics (Contract)",
+        "detail": "Verified official application route added with fit score 10/10."
+      },
       {
         "kind": "new",
         "label": "NetEase Games: Content Marketing",
@@ -49,16 +59,6 @@
       {
         "kind": "new",
         "label": "NetEase Games: Overseas KOL/Influencer Operations Specialist (Singapore)",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
-      },
-      {
-        "kind": "new",
-        "label": "Riot Games: Influencer Manager, Thailand - VALORANT (Contract)",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
-      },
-      {
-        "kind": "new",
-        "label": "Tencent / Level Infinite / TiMi / Lightspeed: Social Media Operation Intern / 社交媒体运营实习生",
         "detail": "Verified official adapter role first found today with fit score 10/10."
       }
     ]
@@ -151,7 +151,7 @@
       "company": "Papergames / Paper Games / 叠纸游戏",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "manual_review_required",
       "failureReason": "Official page is retained as the source of truth, but Mandarin role descriptions and JavaScript-rendered lists need reviewed extraction before automated publishing."
     },
@@ -160,7 +160,7 @@
       "company": "Infold Games",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "manual_review_required",
       "failureReason": "Infold roles are monitored through Paper Games career pages and require source-language preservation."
     },
@@ -171,17 +171,21 @@
       "adapterKey": "greenhouse",
       "boardToken": "roblox",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "active"
     },
     {
       "id": "game-source-unity",
       "company": "Unity",
-      "url": "https://unity.com/careers/positions",
-      "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
-      "status": "manual_review_required",
-      "failureReason": "Official Unity roles are monitored as a source record until a reviewed adapter is added."
+      "url": "https://unitytech.wd1.myworkdayjobs.com/Unity",
+      "adapterKey": "workday",
+      "tenant": "unitytech",
+      "siteId": "Unity",
+      "pageSize": 20,
+      "maxRecords": 180,
+      "priority": "official_application_route",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "status": "active"
     },
     {
       "id": "game-source-epic-greenhouse",
@@ -190,7 +194,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "epicgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "active"
     },
     {
@@ -200,7 +204,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "neteasegames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "active"
     },
     {
@@ -213,7 +217,7 @@
       "pageSize": 20,
       "maxRecords": 400,
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "active"
     },
     {
@@ -221,7 +225,7 @@
       "company": "Garena",
       "url": "https://careers.garena.com/global/careers",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "manual_review_required",
       "failureReason": "Source is reachable, but no reviewed parser adapter is configured. Manual review required before publishing roles."
     },
@@ -230,7 +234,7 @@
       "company": "HoYoverse / miHoYo",
       "url": "https://www.hoyoverse.com/en-us/careers",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "manual_review_required",
       "failureReason": "No open internship was verified in the current curated data; keep as watchlist."
     },
@@ -241,7 +245,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "riotgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "active"
     },
     {
@@ -249,7 +253,7 @@
       "company": "Niantic",
       "url": "https://nianticlabs.com/careers/openings",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "manual_review_required",
       "failureReason": "Official Niantic roles are monitored as a source record until a reviewed adapter is added."
     },
@@ -258,7 +262,7 @@
       "company": "thatgamecompany",
       "url": "https://thatgamecompany.com/careers/",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "manual_review_required",
       "failureReason": "Official thatgamecompany roles are monitored as a source record until a reviewed adapter is added."
     },
@@ -267,7 +271,7 @@
       "company": "LinkedIn game reposts",
       "url": "https://www.linkedin.com/jobs/",
       "priority": "reposting_watchlist",
-      "lastAttemptAt": "2026-07-09T02:14:49.123Z",
+      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
       "status": "blocked",
       "failureReason": "Login and platform restrictions prevent compliant scraping."
     }
@@ -579,6 +583,44 @@
         "Content calendar",
         "Campaign metrics dashboard",
         "KOL tracker"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-riot-greenhouse"
+    },
+    {
+      "opportunityId": "official-game-riot-games-publishing-operations-manager-teamfight-tactics-contract-singapore-8051454",
+      "company": "Riot Games",
+      "roleTitle": "Publishing Operations Manager - Teamfight Tactics (Contract)",
+      "location": "Singapore",
+      "locationMode": "in_person",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://www.riotgames.com/en/work-with-us/job/8051454?gh_jid=8051454",
+      "sourceLink": "https://www.riotgames.com/en/work-with-us/job/8051454?gh_jid=8051454",
+      "requiredQualifications": [
+        "Players form the foundation of our community and it’s for them that we continue to evolve and improve the League of Legends experience, and beyond!",
+        "You will design and run the processes that enable teams to scale, while also stepping in to directly manage critical projects and operational needs.&lt;/p&gt; &lt;p&gt;This role requires a strong operator who can bring structure to complexity, connect teams, and ensure that great ideas translate into high-quality player experiences.&lt;/p&gt; &lt;h3&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;Campaign &amp; Project Management&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Manage the end-to-end delivery of key marketing initiatives, including Set launches and regional campaigns, from kick-off through to go-live&lt;/li&gt; &lt;li&gt;Coordinate cross-functional teams (marketing, community, content, product, and markets) to ensure alignment on timelines, deliverables, and priorities&lt;/li&gt; &lt;li&gt;Partner with Brand, Community and Esports leads to operationalise marketing activities, including influencer and content integration&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Operations, Process &amp; Systems&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Maintain and evolve project tracking tools, including campaign trackers, influencer management tools, and content management systems.&lt;/li&gt; &lt;li&gt;Identify and introduce tools (including AI workflows) to improve team productivity&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Vendor, Partner &amp; Financial Management&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Manage relationships with regional agencies and external partners, ensuring smooth collaboration and delivery&lt;/li&gt; &lt;li&gt;Oversee contract processes in partnership with legal teams, including negotiation, onboarding, and compliance&lt;/li&gt; &lt;li&gt;Own operational finance processes, including invoice management, budget tracking, and internal systems.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Influencer &amp; Content Operations Support&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Support the execution of influencer and co-streamer activations, including logistics such as travel, access, payments, and event coordination&lt;/li&gt; &lt;li&gt;Coordinate content operations across regional and central teams, ensuring timelines, assets, and deliverables are aligned&lt;/li&gt; &lt;li&gt;Facilitate vendor and agency communication for content production and platform operations&lt;/li&gt; &lt;li&gt;Manage access and onboarding processes for partners and contributors across Riot systems&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Cross-Team Coordination &amp; Market Support&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Support market-level initiatives and transitions, helping teams adopt new processes and responsibilities&lt;/li&gt; &lt;li&gt;Contribute to broader product and publishing discussions by bringing an operational perspective on feasibility and execution&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;&lt;strong&gt;Required Qualifications:&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;5+ years of experience in marketing operations, project/programme management, or related roles in gaming, entertainment, or creative industries&lt;/li&gt; &lt;li&gt;Proven experience managing complex, cross-functional projects&lt;/li&gt; &lt;li&gt;Strong organisational skills, with the ability to manage multiple workstreams and stakeholders simultaneously&lt;/li&gt; &lt;li&gt;Experience working with external partners, agencies, or vendors&lt;/li&gt; &lt;li&gt;Familiarity with budgeting, invoicing, and operational finance processes&lt;/li&gt; &lt;li&gt;Strong communication and stakeholder management skills across diverse teams&lt;/li&gt; &lt;li&gt;Ability to bring structure to ambiguity and improve ways of working&lt;/li&gt; &lt;li&gt;Passion for games and player experiences&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;&lt;strong&gt;Desired Qualifications:&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;Experience working across multiple markets in APAC&lt;/li&gt; &lt;li&gt;Familiarity with influencer marketing, content production, or community initiatives&lt;/li&gt; &lt;li&gt;Experience designing or scaling operational processes in growing teams&lt;/li&gt; &lt;li&gt;Comfort working with tools and systems (e.g.",
+        "We will be looking at your past studies, experience, and your personal relationship with games."
+      ],
+      "preferredQualifications": [
+        "Players form the foundation of our community and it’s for them that we continue to evolve and improve the League of Legends experience, and beyond!",
+        "You will design and run the processes that enable teams to scale, while also stepping in to directly manage critical projects and operational needs.&lt;/p&gt; &lt;p&gt;This role requires a strong operator who can bring structure to complexity, connect teams, and ensure that great ideas translate into high-quality player experiences.&lt;/p&gt; &lt;h3&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;Campaign &amp; Project Management&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Manage the end-to-end delivery of key marketing initiatives, including Set launches and regional campaigns, from kick-off through to go-live&lt;/li&gt; &lt;li&gt;Coordinate cross-functional teams (marketing, community, content, product, and markets) to ensure alignment on timelines, deliverables, and priorities&lt;/li&gt; &lt;li&gt;Partner with Brand, Community and Esports leads to operationalise marketing activities, including influencer and content integration&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Operations, Process &amp; Systems&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Maintain and evolve project tracking tools, including campaign trackers, influencer management tools, and content management systems.&lt;/li&gt; &lt;li&gt;Identify and introduce tools (including AI workflows) to improve team productivity&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Vendor, Partner &amp; Financial Management&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Manage relationships with regional agencies and external partners, ensuring smooth collaboration and delivery&lt;/li&gt; &lt;li&gt;Oversee contract processes in partnership with legal teams, including negotiation, onboarding, and compliance&lt;/li&gt; &lt;li&gt;Own operational finance processes, including invoice management, budget tracking, and internal systems.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Influencer &amp; Content Operations Support&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Support the execution of influencer and co-streamer activations, including logistics such as travel, access, payments, and event coordination&lt;/li&gt; &lt;li&gt;Coordinate content operations across regional and central teams, ensuring timelines, assets, and deliverables are aligned&lt;/li&gt; &lt;li&gt;Facilitate vendor and agency communication for content production and platform operations&lt;/li&gt; &lt;li&gt;Manage access and onboarding processes for partners and contributors across Riot systems&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Cross-Team Coordination &amp; Market Support&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Support market-level initiatives and transitions, helping teams adopt new processes and responsibilities&lt;/li&gt; &lt;li&gt;Contribute to broader product and publishing discussions by bringing an operational perspective on feasibility and execution&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;&lt;strong&gt;Required Qualifications:&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;5+ years of experience in marketing operations, project/programme management, or related roles in gaming, entertainment, or creative industries&lt;/li&gt; &lt;li&gt;Proven experience managing complex, cross-functional projects&lt;/li&gt; &lt;li&gt;Strong organisational skills, with the ability to manage multiple workstreams and stakeholders simultaneously&lt;/li&gt; &lt;li&gt;Experience working with external partners, agencies, or vendors&lt;/li&gt; &lt;li&gt;Familiarity with budgeting, invoicing, and operational finance processes&lt;/li&gt; &lt;li&gt;Strong communication and stakeholder management skills across diverse teams&lt;/li&gt; &lt;li&gt;Ability to bring structure to ambiguity and improve ways of working&lt;/li&gt; &lt;li&gt;Passion for games and player experiences&lt;/li&gt; &lt;/ul&gt; &lt;h3&gt;&lt;strong&gt;Desired Qualifications:&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;Experience working across multiple markets in APAC&lt;/li&gt; &lt;li&gt;Familiarity with influencer marketing, content production, or community initiatives&lt;/li&gt; &lt;li&gt;Experience designing or scaling operational processes in growing teams&lt;/li&gt; &lt;li&gt;Comfort working with tools and systems (e.g.",
+        "We will be looking at your past studies, experience, and your personal relationship with games."
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard",
+        "Infinity Nikki version-ops case"
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
@@ -3255,6 +3297,40 @@
         "Community sentiment memo",
         "Content calendar",
         "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-tencent-workday"
+    },
+    {
+      "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-video-generation-content-understanding-and-feedback-research-intern-uk-london-job",
+      "company": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "roleTitle": "Video Generation Content Understanding and Feedback Research Intern",
+      "location": "UK-London",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Video-Generation-Content-Understanding-and-Feedback-Research-Intern_R107680-1",
+      "sourceLink": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Video-Generation-Content-Understanding-and-Feedback-Research-Intern_R107680-1",
+      "requiredQualifications": [
+        "Official Workday posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 6,
+      "fitReason": "Relevant content marketing path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard",
+        "UX/game system teardown"
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
