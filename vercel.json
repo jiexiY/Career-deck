@@ -1,6 +1,10 @@
 {
   "crons": [
     {
+      "path": "/api/cron/update-game-opportunities",
+      "schedule": "0 2 * * *"
+    },
+    {
       "path": "/api/cron/detect-conversation-updates",
       "schedule": "0 16 * * *"
     }

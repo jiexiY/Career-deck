@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "update:game-opportunities": "node scripts/update-game-opportunities.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.21.0",

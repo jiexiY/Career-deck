@@ -4,6 +4,16 @@ import { ArrowLeft, ChevronDown, ExternalLink, Search, X } from "lucide-react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
+import {
+  defaultGameMonitorFilters,
+  gameMonitorData,
+  gameMonitorFilterOptions,
+  gamePortfolioPrep,
+  getGameMonitorRecord,
+  matchesGameMonitorFilters,
+  type GameMonitorFilters,
+  type GameMonitorOpportunity,
+} from "@/lib/career-deck/game-monitor";
 import type {
   ConversationSnapshot,
   ConversationSource,
@@ -351,6 +361,7 @@ export function RemadeCareerDeck({
     tech: "all",
     game: "all",
   });
+  const [gameFilters, setGameFilters] = useState<GameMonitorFilters>(defaultGameMonitorFilters);
 
   useEffect(() => {
     let cancelled = false;
@@ -414,6 +425,10 @@ export function RemadeCareerDeck({
       const section = opportunity.section ?? "tech";
       const matchesSection = activeSection === "all" || activeSection === section;
       const matchesCategory = categories[section] === "all" || opportunity.type === categories[section];
+      const matchesGameFilters =
+        activeSection === "game" && section === "game"
+          ? matchesGameMonitorFilters(getGameMonitorRecord(opportunity.id), gameFilters)
+          : true;
       const searchable = [
         opportunity.title,
         opportunity.organization,
@@ -425,9 +440,14 @@ export function RemadeCareerDeck({
         .join(" ")
         .toLowerCase();
 
-      return matchesSection && matchesCategory && (!normalizedQuery || searchable.includes(normalizedQuery));
+      return (
+        matchesSection &&
+        matchesCategory &&
+        matchesGameFilters &&
+        (!normalizedQuery || searchable.includes(normalizedQuery))
+      );
     });
-  }, [activeSection, categories, deckOpportunities, query]);
+  }, [activeSection, categories, deckOpportunities, gameFilters, query]);
 
   function updateSecurityAnswer(value: string) {
     setSecurityAnswer(value);
@@ -510,9 +530,13 @@ export function RemadeCareerDeck({
       liveSourceStatuses={liveSourceStatuses}
       opportunities={visibleOpportunities}
       query={query}
+      gameFilters={gameFilters}
       onBack={() => setView("home")}
       onCategoryChange={(section, value) =>
         setCategories((current) => ({ ...current, [section]: value }))
+      }
+      onGameFilterChange={(key, value) =>
+        setGameFilters((current) => ({ ...current, [key]: value }))
       }
       onQueryChange={setQuery}
       onSelectOpportunity={setSelectedOpportunity}
@@ -542,31 +566,31 @@ function LiquidEtherBackground({ variant }: { variant: "landing" | "home" | "opp
       <LiquidEther
         colors={
           isLanding
-            ? ["#F8EFFB", "#FF9FFC", "#5227FF", "#B497CF"]
+            ? ["#5227FF", "#FF9FFC", "#B497CF"]
             : isHome
               ? ["#5227FF", "#FF9FFC", "#B497CF"]
               : ["#D10AA5", "#7C3AED", "#F3E5F5"]
         }
-        mouseForce={isLanding ? 14 : isHome ? 16 : 12}
-        cursorSize={isLanding ? 130 : isHome ? 110 : 92}
+        mouseForce={isLanding ? 20 : isHome ? 16 : 12}
+        cursorSize={isLanding ? 100 : isHome ? 110 : 92}
         isViscous={false}
-        viscous={26}
-        iterationsViscous={24}
-        iterationsPoisson={24}
-        resolution={isLanding ? 0.38 : 0.42}
+        viscous={isLanding ? 30 : 26}
+        iterationsViscous={isLanding ? 32 : 24}
+        iterationsPoisson={isLanding ? 32 : 24}
+        resolution={isLanding ? 0.5 : 0.42}
         isBounce={false}
         autoDemo
-        autoSpeed={isLanding ? 0.28 : isHome ? 0.34 : 0.24}
-        autoIntensity={isLanding ? 1.55 : isHome ? 1.8 : 1.35}
+        autoSpeed={isLanding ? 0.5 : isHome ? 0.34 : 0.24}
+        autoIntensity={isLanding ? 2.2 : isHome ? 1.8 : 1.35}
         takeoverDuration={0.25}
-        autoResumeDelay={2200}
-        autoRampDuration={0.7}
-        className={`h-full w-full ${isLanding ? "opacity-70" : "opacity-80"}`}
+        autoResumeDelay={isLanding ? 3000 : 2200}
+        autoRampDuration={isLanding ? 0.6 : 0.7}
+        className={`h-full w-full ${isLanding ? "opacity-95" : "opacity-80"}`}
       />
       <div
         className={
           isLanding
-            ? "absolute inset-0 bg-[radial-gradient(circle_at_12%_8%,rgba(255,255,255,0.72),transparent_34%),radial-gradient(circle_at_86%_22%,rgba(255,255,255,0.38),transparent_32%),linear-gradient(115deg,rgba(255,255,255,0.58),rgba(255,255,255,0.1)_48%,rgba(137,39,158,0.12))]"
+            ? "absolute inset-0 bg-[radial-gradient(circle_at_12%_8%,rgba(255,255,255,0.58),transparent_34%),radial-gradient(circle_at_86%_22%,rgba(255,255,255,0.28),transparent_32%),linear-gradient(115deg,rgba(255,255,255,0.34),rgba(255,255,255,0.04)_48%,rgba(137,39,158,0.06))]"
             : "absolute inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(255,255,255,0.36),transparent_34%),linear-gradient(115deg,rgba(255,255,255,0.34),rgba(255,255,255,0.08)_46%,rgba(137,39,158,0.16))]"
         }
       />
@@ -587,7 +611,7 @@ function LandingPage({
 }) {
   return (
     <main className="min-h-screen bg-white text-black">
-      <section className="relative mx-auto min-h-screen max-w-[1440px] overflow-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(255,255,255,1)_0%,rgba(245,224,249,0.86)_45%,rgba(186,126,198,0.7)_100%)] px-6 py-10">
+      <section className="relative mx-auto min-h-screen max-w-[1440px] overflow-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(255,255,255,1)_0%,rgba(248,231,255,0.74)_38%,rgba(180,151,207,0.72)_100%)] px-6 py-10">
         <LiquidEtherBackground variant="landing" />
         <DeckHeadline className="absolute left-0 top-5 z-20" />
 
@@ -890,8 +914,10 @@ function OpportunitiesPage({
   liveSourceStatuses,
   opportunities,
   query,
+  gameFilters,
   onBack,
   onCategoryChange,
+  onGameFilterChange,
   onQueryChange,
   onSelectOpportunity,
   onSectionChange,
@@ -903,8 +929,13 @@ function OpportunitiesPage({
   liveSourceStatuses: LiveSourceStatus[];
   opportunities: Opportunity[];
   query: string;
+  gameFilters: GameMonitorFilters;
   onBack: () => void;
   onCategoryChange: (section: OpportunitySection, value: CategoryFilter) => void;
+  onGameFilterChange: <Key extends keyof GameMonitorFilters>(
+    key: Key,
+    value: GameMonitorFilters[Key],
+  ) => void;
   onQueryChange: (value: string) => void;
   onSelectOpportunity: (opportunity: Opportunity) => void;
   onSectionChange: (section: OpportunitySection | "all") => void;
@@ -947,6 +978,15 @@ function OpportunitiesPage({
           </div>
         </header>
 
+        {activeSection === "game" && (
+          <GameMonitorPanel
+            filters={gameFilters}
+            opportunities={opportunities}
+            onFilterChange={onGameFilterChange}
+            onSelectOpportunity={onSelectOpportunity}
+          />
+        )}
+
         <div className="relative z-10">
           <ReportCharts opportunities={opportunities} />
         </div>
@@ -979,6 +1019,230 @@ function OpportunitiesPage({
   );
 }
 
+function GameMonitorPanel({
+  filters,
+  opportunities,
+  onFilterChange,
+  onSelectOpportunity,
+}: {
+  filters: GameMonitorFilters;
+  opportunities: Opportunity[];
+  onFilterChange: <Key extends keyof GameMonitorFilters>(
+    key: Key,
+    value: GameMonitorFilters[Key],
+  ) => void;
+  onSelectOpportunity: (opportunity: Opportunity) => void;
+}) {
+  const linkedOpportunities = opportunities
+    .map((opportunity) => ({
+      opportunity,
+      monitor: getGameMonitorRecord(opportunity.id),
+    }))
+    .filter((item): item is { opportunity: Opportunity; monitor: GameMonitorOpportunity } => Boolean(item.monitor));
+  const bestFit =
+    linkedOpportunities.find(
+      (item) => item.monitor.opportunityId === gameMonitorData.dailyBrief.bestFitOpportunityId,
+    ) ?? linkedOpportunities.toSorted((a, b) => b.monitor.fitScore - a.monitor.fitScore)[0];
+  const urgent = linkedOpportunities
+    .filter((item) => item.monitor.monitorStatus === "urgent")
+    .toSorted((a, b) => b.monitor.fitScore - a.monitor.fitScore)
+    .slice(0, 3);
+  const newestHighFit = linkedOpportunities
+    .filter((item) => item.monitor.verified && item.monitor.monitorStatus !== "closed")
+    .toSorted((a, b) => b.monitor.fitScore - a.monitor.fitScore)
+    .slice(0, 4);
+
+  return (
+    <section className="relative z-10 mx-auto mt-8 grid max-w-[1368px] gap-5">
+      <div className="grid gap-5 rounded-[29px] border border-white/55 bg-white/20 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.64),0_28px_90px_rgba(101,36,112,0.14)] backdrop-blur-2xl xl:grid-cols-[1.1fr_0.9fr]">
+        <div>
+          <div className="flex flex-wrap items-start justify-between gap-4">
+            <div>
+              <h2 className="text-2xl font-semibold">Game opportunities monitor</h2>
+              <p className="mt-1 text-sm font-medium text-black/58">
+                Daily 7 PM Pacific watchlist for verified game roles, urgent deadlines, and portfolio prep.
+              </p>
+            </div>
+            <div className="grid grid-cols-3 gap-2 text-center text-xs font-semibold">
+              <MetricChip label="New" value={gameMonitorData.dailyBrief.newRolesFound} />
+              <MetricChip label="Urgent" value={gameMonitorData.dailyBrief.urgent} />
+              <MetricChip label="Open" value={gameMonitorData.dailyBrief.stillOpen} />
+            </div>
+          </div>
+
+          <div className="mt-5 grid gap-3 md:grid-cols-5">
+            <GameFilterSelect
+              label="Company"
+              value={filters.company}
+              options={gameMonitorFilterOptions.companies}
+              onChange={(value) => onFilterChange("company", value)}
+            />
+            <GameFilterSelect
+              label="Location"
+              value={filters.locationMode}
+              options={gameMonitorFilterOptions.locationModes}
+              onChange={(value) => onFilterChange("locationMode", value as GameMonitorFilters["locationMode"])}
+            />
+            <GameFilterSelect
+              label="Track"
+              value={filters.roleTrack}
+              options={gameMonitorFilterOptions.roleTracks}
+              onChange={(value) => onFilterChange("roleTrack", value as GameMonitorFilters["roleTrack"])}
+            />
+            <GameFilterSelect
+              label="Status"
+              value={filters.status}
+              options={gameMonitorFilterOptions.statuses}
+              onChange={(value) => onFilterChange("status", value as GameMonitorFilters["status"])}
+            />
+            <label className="grid gap-1 text-xs font-semibold text-black/60">
+              Fit score
+              <select
+                value={filters.minFit}
+                onChange={(event) => onFilterChange("minFit", Number(event.target.value))}
+                className="h-10 rounded-full border border-white/45 bg-white/24 px-3 text-sm font-semibold text-black outline-none backdrop-blur-2xl"
+              >
+                {[0, 6, 7, 8, 9, 10].map((score) => (
+                  <option key={score} value={score}>
+                    {score === 0 ? "All" : `${score}+`}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+
+          <div className="mt-5 grid gap-3 lg:grid-cols-[0.9fr_1.1fr]">
+            <div className="rounded-[24px] border border-white/45 bg-white/18 p-4">
+              <p className="text-sm font-semibold text-black/52">Best-fit role today</p>
+              {bestFit ? (
+                <button
+                  type="button"
+                  onClick={() => onSelectOpportunity(bestFit.opportunity)}
+                  className="mt-2 text-left outline-none focus-visible:ring-2 focus-visible:ring-[#8f00b8]"
+                >
+                  <span className="block text-xl font-semibold">{bestFit.monitor.roleTitle}</span>
+                  <span className="mt-1 block text-sm font-medium text-black/64">
+                    {bestFit.monitor.company} - fit {bestFit.monitor.fitScore}/10
+                  </span>
+                  <span className="mt-2 block text-sm text-black/64">{bestFit.monitor.fitReason}</span>
+                </button>
+              ) : (
+                <p className="mt-2 text-sm font-medium text-black/60">No fit-ranked role matches the current filters.</p>
+              )}
+            </div>
+
+            <div className="rounded-[24px] border border-white/45 bg-white/18 p-4">
+              <p className="text-sm font-semibold text-black/52">Urgent deadlines</p>
+              <div className="mt-3 grid gap-2">
+                {urgent.length ? (
+                  urgent.map((item) => (
+                    <button
+                      key={item.opportunity.id}
+                      type="button"
+                      onClick={() => onSelectOpportunity(item.opportunity)}
+                      className="rounded-[18px] bg-white/18 px-3 py-2 text-left text-sm font-semibold outline-none transition hover:bg-white/30 focus-visible:ring-2 focus-visible:ring-[#8f00b8]"
+                    >
+                      {item.monitor.company}: {item.monitor.roleTitle}
+                      <span className="block text-xs font-medium text-black/58">{item.monitor.blockersRisks[0]}</span>
+                    </button>
+                  ))
+                ) : (
+                  <p className="text-sm font-medium text-black/60">No urgent roles match the current filters.</p>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid gap-4">
+          <div className="rounded-[24px] border border-white/45 bg-white/18 p-4">
+            <h3 className="text-lg font-semibold">Newest high-fit opportunities</h3>
+            <div className="mt-3 grid gap-2">
+              {newestHighFit.map((item) => (
+                <button
+                  key={item.opportunity.id}
+                  type="button"
+                  onClick={() => onSelectOpportunity(item.opportunity)}
+                  className="grid grid-cols-[44px_1fr] gap-3 rounded-[18px] bg-white/18 px-3 py-2 text-left text-sm outline-none transition hover:bg-white/30 focus-visible:ring-2 focus-visible:ring-[#8f00b8]"
+                >
+                  <span className="flex h-11 w-11 items-center justify-center rounded-full bg-white/45 text-sm font-semibold">
+                    {item.monitor.fitScore}
+                  </span>
+                  <span>
+                    <strong className="block">{item.monitor.roleTitle}</strong>
+                    <span className="text-black/62">{item.monitor.company} - {formatMonitorStatus(item.monitor.monitorStatus)}</span>
+                  </span>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-[24px] border border-white/45 bg-white/18 p-4">
+            <h3 className="text-lg font-semibold">Daily Brief</h3>
+            <p className="mt-1 text-sm font-medium text-black/62">{gameMonitorData.dailyBrief.summary}</p>
+            <div className="mt-3 grid gap-2">
+              {gameMonitorData.dailyBrief.changes.map((change) => (
+                <p key={`${change.kind}-${change.label}`} className="rounded-[16px] bg-white/16 px-3 py-2 text-xs font-semibold text-black/66">
+                  {change.label}: {change.detail}
+                </p>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="rounded-[29px] border border-white/55 bg-white/18 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.58),0_24px_70px_rgba(101,36,112,0.12)] backdrop-blur-2xl">
+        <h2 className="text-xl font-semibold">Portfolio Prep</h2>
+        <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-5">
+          {gamePortfolioPrep.map((item) => (
+            <article key={item.id} className="rounded-[20px] border border-white/40 bg-white/16 p-3">
+              <h3 className="text-sm font-semibold">{item.title}</h3>
+              <p className="mt-1 text-xs font-medium text-black/60">{item.why}</p>
+              <div className="mt-3 flex flex-wrap gap-1.5">
+                {item.artifacts.slice(0, 3).map((artifact) => (
+                  <span key={artifact} className="rounded-full bg-white/28 px-2 py-1 text-[11px] font-semibold text-black/62">
+                    {artifact}
+                  </span>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function GameFilterSelect({
+  label,
+  value,
+  options,
+  onChange,
+}: {
+  label: string;
+  value: string | number;
+  options: string[];
+  onChange: (value: string) => void;
+}) {
+  return (
+    <label className="grid gap-1 text-xs font-semibold text-black/60">
+      {label}
+      <select
+        value={value}
+        onChange={(event) => onChange(event.target.value)}
+        className="h-10 rounded-full border border-white/45 bg-white/24 px-3 text-sm font-semibold text-black outline-none backdrop-blur-2xl"
+      >
+        <option value="all">All</option>
+        {options.map((option) => (
+          <option key={option} value={option}>
+            {formatMonitorStatus(option)}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+}
+
 function OpportunityCard({
   opportunity,
   onSelect,
@@ -988,6 +1252,7 @@ function OpportunityCard({
 }) {
   const priority = isPriority(opportunity);
   const reportInsight = opportunityReportInsights[opportunity.id];
+  const gameMonitor = getGameMonitorRecord(opportunity.id);
 
   return (
     <article className="relative min-h-[430px] rounded-[29px] border border-white/45 bg-white/20 px-5 pb-4 pt-14 shadow-[inset_0_1px_0_rgba(255,255,255,0.62),0_28px_70px_rgba(92,38,105,0.12)] backdrop-blur-2xl transition duration-200 hover:-translate-y-1 hover:bg-white/28">
@@ -1021,6 +1286,15 @@ function OpportunityCard({
             <span className="rounded-full bg-white/38 px-2 py-1 text-center">{reportInsight.fit}</span>
             <span>
               {reportInsight.bucket}: {reportInsight.action}
+            </span>
+          </span>
+        )}
+
+        {gameMonitor && (
+          <span className="mt-3 grid grid-cols-[86px_1fr] gap-2 rounded-[20px] border border-white/45 bg-white/16 px-3 py-2 text-left text-xs font-semibold leading-snug">
+            <span className="rounded-full bg-white/38 px-2 py-1 text-center">{gameMonitor.fitScore}/10</span>
+            <span>
+              {formatMonitorStatus(gameMonitor.roleTrack)} - {formatMonitorStatus(gameMonitor.monitorStatus)}
             </span>
           </span>
         )}
@@ -1177,6 +1451,7 @@ function DetailPage({
   const snapshot = conversationSnapshots.find((item) => item.sourceId === opportunity.sourceId);
   const liveSource = liveSourceStatuses.find((item) => item.sourceId === opportunity.sourceId);
   const reportInsight = opportunityReportInsights[opportunity.id];
+  const gameMonitor = getGameMonitorRecord(opportunity.id);
 
   return (
     <main className="min-h-screen bg-[#f3e5f5] text-black">
@@ -1236,6 +1511,7 @@ function DetailPage({
                       <p className="mt-2 text-black/62">{reportInsight.action}</p>
                     </div>
                   )}
+                  {gameMonitor && <GameMonitorDetail monitor={gameMonitor} />}
                 </div>
 
                 <div className="grid w-full gap-3 text-sm font-medium text-black/70">
@@ -1262,6 +1538,56 @@ function DetailPage({
         </div>
       </section>
     </main>
+  );
+}
+
+function GameMonitorDetail({ monitor }: { monitor: GameMonitorOpportunity }) {
+  return (
+    <div className="mt-4 rounded-[24px] border border-white/45 bg-white/18 p-4 text-left text-sm font-semibold leading-snug shadow-[inset_0_1px_0_rgba(255,255,255,0.42)]">
+      <p className="text-xs uppercase text-black/48">Game monitor fit</p>
+      <div className="mt-2 flex flex-wrap gap-2">
+        <span className="rounded-full bg-white/38 px-3 py-1">{monitor.fitScore}/10 fit</span>
+        <span className="rounded-full bg-white/38 px-3 py-1">{formatMonitorStatus(monitor.roleTrack)}</span>
+        <span className="rounded-full bg-white/38 px-3 py-1">{formatMonitorStatus(monitor.locationMode)}</span>
+        <span className="rounded-full bg-white/38 px-3 py-1">{formatMonitorStatus(monitor.monitorStatus)}</span>
+      </div>
+      <p className="mt-3 text-black/68">{monitor.fitReason}</p>
+      <div className="mt-3 grid gap-3">
+        <DetailMiniList label="Risks" items={monitor.blockersRisks} />
+        <DetailMiniList label="Prep checklist" items={monitor.portfolioMaterials} />
+      </div>
+      <div className="mt-3 grid gap-2 sm:grid-cols-2">
+        <a
+          href={monitor.applicationLink}
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-full bg-[#7b00a7] px-4 py-2 text-center text-xs font-semibold text-white"
+        >
+          Application source
+        </a>
+        <a
+          href={monitor.sourceLink}
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-full border border-white/45 bg-white/22 px-4 py-2 text-center text-xs font-semibold text-black"
+        >
+          Monitor source
+        </a>
+      </div>
+    </div>
+  );
+}
+
+function DetailMiniList({ label, items }: { label: string; items: string[] }) {
+  return (
+    <div>
+      <p className="text-xs uppercase text-black/48">{label}</p>
+      <ul className="mt-1 grid gap-1 text-xs font-medium text-black/66">
+        {items.map((item) => (
+          <li key={item}>- {item}</li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
@@ -1451,6 +1777,14 @@ function clampText(value: string, limit: number) {
 
 function deadlineLabel(value: string) {
   return value && value !== "TBD" ? value : "deadline TBD";
+}
+
+function formatMonitorStatus(value: string) {
+  return value
+    .replaceAll("_", " ")
+    .replaceAll("/", " / ")
+    .replace(/\s+/g, " ")
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
 function formatDateLabel(value: string) {

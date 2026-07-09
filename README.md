@@ -21,6 +21,11 @@ instead of being guessed into real opportunity records.
   used as Tech and Game source inputs.
 - `src/lib/career-deck/conversation-snapshots.json` stores source-page hashes
   written by the scheduled detector.
+- `src/lib/career-deck/game-monitor.json` stores the dedicated game-industry
+  opportunity monitor: verified role metadata, fit scores, source status,
+  daily brief, and portfolio prep.
+- `scripts/update-game-opportunities.mjs` refreshes the game monitor locally
+  and can commit the changed JSON when run with `--commit`.
 
 ## Run
 
@@ -45,6 +50,8 @@ Open https://career-deck-amber.vercel.app/
 - `GET /api/exports/opportunities` downloads database opportunity records as CSV.
 - `GET /api/cron/detect-conversation-updates` checks the ChatGPT source links,
   compares normalized page hashes, and saves changed or blocked status.
+- `GET /api/cron/update-game-opportunities` runs the game-opportunity monitor
+  source checks and can persist `game-monitor.json` back to GitHub.
 
 ## Conversation Source Sync
 
@@ -80,6 +87,52 @@ Optional variables:
 
 - `CAREER_DECK_GITHUB_REPO`: defaults to `jiexiY/Career-deck`.
 - `CAREER_DECK_GITHUB_BRANCH`: defaults to `main`.
+
+## Game Opportunities Monitor
+
+The Game section has a dedicated monitor layer for internships, training camps,
+fellowships, early-career programs, remote roles, and SF/in-person game roles.
+It prioritizes game operations, version/live ops, product/community operations,
+content marketing, KOL/influencer operations, user research, game UX/product
+planning, publishing/overseas operations, and early-career production.
+
+The public website uses `game-monitor.json` to show:
+
+- newest high-fit opportunities
+- urgent deadlines
+- best-fit role today
+- number of new roles found since the last update
+- filters for company, location mode, role track, monitor status, and fit score
+- detail-view fit analysis, source links, risks, and prep checklist
+- a Daily Brief and Portfolio Prep section
+
+Run the local monitor:
+
+```bash
+npm run update:game-opportunities
+```
+
+Commit the refreshed monitor JSON from a local run:
+
+```bash
+npm run update:game-opportunities -- --commit
+```
+
+Vercel Cron runs `/api/cron/update-game-opportunities` at `0 2 * * *`, which is
+7:00 PM Pacific during daylight saving time. If strict year-round 7:00 PM
+Pacific is required across daylight saving changes, update the UTC cron seasonally
+or move scheduling to a timezone-aware GitHub Action.
+
+Automatic persistence requires:
+
+- `CRON_SECRET`, so Vercel can authorize the cron endpoint.
+- `CAREER_DECK_GITHUB_TOKEN`, with permission to update repository contents.
+- Optional `CAREER_DECK_GITHUB_REPO` and `CAREER_DECK_GITHUB_BRANCH` overrides.
+
+If those credentials are missing, the cron route still reports source reachability
+but cannot write the updated monitor data back to GitHub. The monitor deliberately
+does not add new roles from blocked, mirrored, or unparsed pages; new cards should
+only be published when an official application route is verified.
 
 ## Build
 
