@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T01:32:16.438Z",
+  "updatedAt": "2026-07-09T02:24:02.957Z",
   "timezone": "America/Los_Angeles",
   "nextScheduledRun": "Daily at 7:00 PM Pacific via /api/cron/update-game-opportunities",
   "monitoringPolicy": {
@@ -151,7 +151,7 @@
       "company": "Papergames / Paper Games / 叠纸游戏",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "manual_review_required",
       "failureReason": "Official page is retained as the source of truth, but Mandarin role descriptions and JavaScript-rendered lists need reviewed extraction before automated publishing."
     },
@@ -160,7 +160,7 @@
       "company": "Infold Games",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "manual_review_required",
       "failureReason": "Infold roles are monitored through Paper Games career pages and require source-language preservation."
     },
@@ -171,7 +171,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "roblox",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "active"
     },
     {
@@ -179,7 +179,7 @@
       "company": "Unity",
       "url": "https://unity.com/careers/positions",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "manual_review_required",
       "failureReason": "Official Unity roles are monitored as a source record until a reviewed adapter is added."
     },
@@ -190,7 +190,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "epicgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "active"
     },
     {
@@ -200,7 +200,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "neteasegames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "active"
     },
     {
@@ -208,7 +208,7 @@
       "company": "Tencent / Level Infinite / TiMi / Lightspeed",
       "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "manual_review_required",
       "failureReason": "Workday search pages can be JavaScript-heavy; exact role links are tracked when surfaced."
     },
@@ -217,7 +217,7 @@
       "company": "Garena",
       "url": "https://careers.garena.com/global/careers",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "manual_review_required",
       "failureReason": "Source is reachable, but no reviewed parser adapter is configured. Manual review required before publishing roles."
     },
@@ -226,7 +226,7 @@
       "company": "HoYoverse / miHoYo",
       "url": "https://www.hoyoverse.com/en-us/careers",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "manual_review_required",
       "failureReason": "No open internship was verified in the current curated data; keep as watchlist."
     },
@@ -237,7 +237,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "riotgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "active"
     },
     {
@@ -245,7 +245,7 @@
       "company": "Niantic",
       "url": "https://nianticlabs.com/careers/openings",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "manual_review_required",
       "failureReason": "Official Niantic roles are monitored as a source record until a reviewed adapter is added."
     },
@@ -254,7 +254,7 @@
       "company": "thatgamecompany",
       "url": "https://thatgamecompany.com/careers/",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "manual_review_required",
       "failureReason": "Official thatgamecompany roles are monitored as a source record until a reviewed adapter is added."
     },
@@ -263,7 +263,7 @@
       "company": "LinkedIn game reposts",
       "url": "https://www.linkedin.com/jobs/",
       "priority": "reposting_watchlist",
-      "lastAttemptAt": "2026-07-09T01:32:16.438Z",
+      "lastAttemptAt": "2026-07-09T02:24:02.957Z",
       "status": "blocked",
       "failureReason": "Login and platform restrictions prevent compliant scraping."
     }
