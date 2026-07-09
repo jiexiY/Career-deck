@@ -425,6 +425,8 @@ export function RemadeCareerDeck({
       const section = opportunity.section ?? "tech";
       const matchesSection = activeSection === "all" || activeSection === section;
       const matchesCategory = categories[section] === "all" || opportunity.type === categories[section];
+      const matchesVerifiedGameDisplay =
+        section !== "game" || isVerifiedGameDisplayOpportunity(opportunity);
       const matchesGameFilters =
         activeSection === "game" && section === "game"
           ? matchesGameMonitorFilters(getGameMonitorRecord(opportunity.id), gameFilters)
@@ -443,6 +445,7 @@ export function RemadeCareerDeck({
       return (
         matchesSection &&
         matchesCategory &&
+        matchesVerifiedGameDisplay &&
         matchesGameFilters &&
         (!normalizedQuery || searchable.includes(normalizedQuery))
       );
@@ -1771,6 +1774,20 @@ function isVerifiedActionableOpportunity(
       monitor.monitorStatus !== "closed" &&
       opportunity.status !== "closed",
   );
+}
+
+function isVerifiedGameDisplayOpportunity(opportunity: Opportunity) {
+  if (opportunity.needsReview || opportunity.status === "closed") {
+    return false;
+  }
+
+  const monitor = getGameMonitorRecord(opportunity.id);
+
+  if (monitor) {
+    return monitor.verified && monitor.monitorStatus !== "closed" && monitor.monitorStatus !== "stale";
+  }
+
+  return opportunity.confidence.source >= 0.9 && opportunity.confidence.extraction >= 0.8;
 }
 
 function fitnessRating(opportunity: Opportunity) {

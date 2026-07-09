@@ -64,6 +64,12 @@ export const gameMonitorData = gameMonitor;
 
 export const gameMonitorOpportunities = gameMonitor.opportunities as GameMonitorOpportunity[];
 export const gamePortfolioPrep = gameMonitor.portfolioPrep as GamePortfolioPrep[];
+export const displayableGameMonitorOpportunities = gameMonitorOpportunities.filter(
+  (opportunity) =>
+    opportunity.verified &&
+    opportunity.monitorStatus !== "closed" &&
+    opportunity.monitorStatus !== "stale",
+);
 
 export const gameMonitorByOpportunityId = new Map(
   gameMonitorOpportunities.map((opportunity) => [opportunity.opportunityId, opportunity]),
@@ -78,10 +84,10 @@ function uniqueSorted<T extends string>(values: T[]) {
 }
 
 export const gameMonitorFilterOptions = {
-  companies: uniqueSorted(gameMonitorOpportunities.map((item) => item.company)),
-  locationModes: uniqueSorted(gameMonitorOpportunities.map((item) => item.locationMode)),
-  roleTracks: uniqueSorted(gameMonitorOpportunities.map((item) => item.roleTrack)),
-  statuses: uniqueSorted(gameMonitorOpportunities.map((item) => item.monitorStatus)),
+  companies: uniqueSorted(displayableGameMonitorOpportunities.map((item) => item.company)),
+  locationModes: uniqueSorted(displayableGameMonitorOpportunities.map((item) => item.locationMode)),
+  roleTracks: uniqueSorted(displayableGameMonitorOpportunities.map((item) => item.roleTrack)),
+  statuses: uniqueSorted(displayableGameMonitorOpportunities.map((item) => item.monitorStatus)),
 };
 
 export function matchesGameMonitorFilters(
