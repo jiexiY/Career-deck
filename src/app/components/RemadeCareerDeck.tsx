@@ -1083,10 +1083,11 @@ function GameMonitorPanel({
                 Daily 7 PM Pacific watchlist for verified game roles, urgent deadlines, and portfolio prep.
               </p>
             </div>
-            <div className="grid grid-cols-3 gap-2 text-center text-xs font-semibold">
+            <div className="grid grid-cols-4 gap-2 text-center text-xs font-semibold">
               <MetricChip label="New" value={gameMonitorData.dailyBrief.newRolesFound} />
               <MetricChip label="Urgent" value={gameMonitorData.dailyBrief.urgent} />
               <MetricChip label="Open" value={gameMonitorData.dailyBrief.stillOpen} />
+              <MetricChip label="Dupes" value={gameMonitorData.dailyBrief.duplicates ?? gameMonitorData.duplicateRecords?.length ?? 0} />
             </div>
           </div>
 

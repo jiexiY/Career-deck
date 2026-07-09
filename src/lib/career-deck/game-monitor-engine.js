@@ -1838,6 +1838,10 @@ export async function runGameMonitor({
     successfulSourceIds,
   );
 
+  const duplicateAwareMonitor = splitDuplicateMonitor(closedAwareMonitor.map(ensureMonitorDeadline));
+  const nextOpportunities = duplicateAwareMonitor.opportunities;
+  const duplicateRecords = duplicateAwareMonitor.duplicates;
+
   for (const opportunity of closedAwareMonitor) {
     const publicOpportunity = nextPublicById.get(opportunity.opportunityId);
     if (publicOpportunity) {
@@ -1855,7 +1859,7 @@ export async function runGameMonitor({
   }
 
   const activeMonitorIds = new Set(
-    closedAwareMonitor
+    nextOpportunities
       .filter((opportunity) => opportunity.monitorStatus !== "closed")
       .map((opportunity) => opportunity.opportunityId),
   );
@@ -1866,7 +1870,6 @@ export async function runGameMonitor({
     }
   }
 
-  const nextOpportunities = dedupeMonitor(closedAwareMonitor.map(ensureMonitorDeadline));
   const newRolesFound = changes.filter((change) => change.kind === "new").length;
   const verifiedOpenOpportunities = nextOpportunities.filter(
     (item) =>
@@ -1893,6 +1896,7 @@ export async function runGameMonitor({
       stillOpen,
       urgent,
       closed,
+      duplicates: duplicateRecords.length,
       bestFitOpportunityId: bestFit?.opportunityId ?? monitor.dailyBrief.bestFitOpportunityId,
       changes:
         changes.length > 0
@@ -1907,6 +1911,7 @@ export async function runGameMonitor({
     },
     sources: monitor.sources.map((source) => nextSourcesById.get(source.id) ?? source),
     opportunities: nextOpportunities,
+    duplicateRecords,
   };
 
   const nextLiveData = liveData
@@ -1940,19 +1945,68 @@ function ensureMonitorDeadline(opportunity) {
   };
 }
 
-function dedupeMonitor(opportunities) {
+function splitDuplicateMonitor(records) {
   const byKey = new Map();
 
-  for (const opportunity of opportunities) {
+  for (const opportunity of records) {
     const key = normalizedKey(opportunity.company, opportunity.roleTitle, opportunity.location);
-    const previous = byKey.get(key);
+    const group = byKey.get(key) ?? [];
+    group.push(opportunity);
+    byKey.set(key, group);
+  }
 
-    if (!previous || opportunity.lastCheckedDate >= previous.lastCheckedDate) {
-      byKey.set(key, opportunity);
+  const canonicalOpportunities = [];
+  const duplicates = [];
+
+  for (const [duplicateKey, group] of byKey.entries()) {
+    const canonical = group.reduce((best, candidate) =>
+      compareCanonicalMonitorRecord(candidate, best) > 0 ? candidate : best,
+    );
+    canonicalOpportunities.push(canonical);
+
+    for (const duplicate of group) {
+      if (duplicate.opportunityId === canonical.opportunityId) continue;
+
+      duplicates.push({
+        ...duplicate,
+        duplicateStatus: "duplicate",
+        duplicateOf: canonical.opportunityId,
+        duplicateKey,
+        duplicateReason: "Same company + normalized title + location as the canonical opportunity.",
+      });
     }
   }
 
-  return Array.from(byKey.values()).sort((a, b) => {
+  return {
+    opportunities: sortMonitorOpportunities(canonicalOpportunities),
+    duplicates: sortMonitorOpportunities(duplicates),
+  };
+}
+
+function compareCanonicalMonitorRecord(candidate, current) {
+  const candidateStatus = monitorStatusWeight(candidate.monitorStatus);
+  const currentStatus = monitorStatusWeight(current.monitorStatus);
+
+  if (candidateStatus !== currentStatus) return candidateStatus - currentStatus;
+  if (candidate.verified !== current.verified) return candidate.verified ? 1 : -1;
+  if (candidate.lastCheckedDate !== current.lastCheckedDate) {
+    return String(candidate.lastCheckedDate).localeCompare(String(current.lastCheckedDate));
+  }
+  if (candidate.fitScore !== current.fitScore) return candidate.fitScore - current.fitScore;
+  return String(current.dateFirstFound).localeCompare(String(candidate.dateFirstFound));
+}
+
+function monitorStatusWeight(status) {
+  if (status === "urgent") return 5;
+  if (status === "new") return 4;
+  if (status === "active") return 3;
+  if (status === "stale") return 2;
+  if (status === "closed") return 1;
+  return 0;
+}
+
+function sortMonitorOpportunities(opportunities) {
+  return Array.from(opportunities).sort((a, b) => {
     if (a.monitorStatus === "closed" && b.monitorStatus !== "closed") return 1;
     if (b.monitorStatus === "closed" && a.monitorStatus !== "closed") return -1;
     return b.fitScore - a.fitScore || a.company.localeCompare(b.company);

@@ -23,7 +23,7 @@ instead of being guessed into real opportunity records.
   written by the scheduled detector.
 - `src/lib/career-deck/game-monitor.json` stores the dedicated game-industry
   opportunity monitor: verified role metadata, fit scores, source status,
-  daily brief, and portfolio prep.
+  daily brief, duplicate ledger, and portfolio prep.
 - `src/lib/career-deck/game-monitor-engine.js` runs replaceable game-source
   adapters. The current production adapters read official Greenhouse APIs for
   NetEase Games, Roblox, Epic Games, and Riot Games, official Workday CXS feeds
@@ -47,6 +47,9 @@ Open https://career-deck-amber.vercel.app/
 - Blocked or failed sources stay visible with their latest reason.
 - Confidence scores are shown for source, extraction, freshness, and duplicate
   probability.
+- Duplicate game roles are deduped by company + normalized title + location;
+  only the canonical role is published, while duplicate candidates are preserved
+  in `game-monitor.json` under `duplicateRecords`.
 - Daily reports compare today's report with the previous dated report.
 - Missing source data is never fabricated.
 

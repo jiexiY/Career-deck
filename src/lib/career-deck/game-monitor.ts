@@ -23,6 +23,7 @@ export type GameMonitorOpportunity = {
   roleTrack: GameRoleTrack;
   monitorStatus: GameMonitorStatus;
   verified: boolean;
+  deadline: string;
   applicationLink: string;
   sourceLink: string;
   requiredQualifications: string[];
@@ -34,6 +35,13 @@ export type GameMonitorOpportunity = {
   dateFirstFound: string;
   lastCheckedDate: string;
   adapterSourceId?: string;
+};
+
+export type GameMonitorDuplicateRecord = GameMonitorOpportunity & {
+  duplicateStatus: "duplicate";
+  duplicateOf: string;
+  duplicateKey: string;
+  duplicateReason: string;
 };
 
 export type GamePortfolioPrep = {
@@ -63,6 +71,7 @@ export const defaultGameMonitorFilters: GameMonitorFilters = {
 export const gameMonitorData = gameMonitor;
 
 export const gameMonitorOpportunities = gameMonitor.opportunities as GameMonitorOpportunity[];
+export const gameMonitorDuplicateRecords = (gameMonitor.duplicateRecords ?? []) as GameMonitorDuplicateRecord[];
 export const gamePortfolioPrep = gameMonitor.portfolioPrep as GamePortfolioPrep[];
 export const displayableGameMonitorOpportunities = gameMonitorOpportunities.filter(
   (opportunity) =>
