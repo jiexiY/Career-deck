@@ -567,12 +567,12 @@ function LiquidEtherBackground({ variant }: { variant: "landing" | "home" | "opp
   return (
     <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
       {isLanding && (
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_12%_28%,rgba(82,39,255,0.24),transparent_34%),radial-gradient(ellipse_at_48%_74%,rgba(255,159,252,0.28),transparent_36%),radial-gradient(ellipse_at_88%_18%,rgba(180,151,207,0.32),transparent_36%),linear-gradient(135deg,rgba(255,255,255,0.88),rgba(245,232,255,0.76)_42%,rgba(231,196,236,0.62))]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_14%_18%,rgba(82,39,255,0.42),transparent_35%),radial-gradient(ellipse_at_46%_78%,rgba(255,159,252,0.46),transparent_38%),radial-gradient(ellipse_at_88%_22%,rgba(180,151,207,0.54),transparent_37%),linear-gradient(135deg,rgba(255,255,255,0.72),rgba(246,229,255,0.62)_38%,rgba(214,169,224,0.74))]" />
       )}
       <div
         className={`absolute ${
           isLanding
-            ? "inset-[-8%] opacity-95 saturate-[1.18] contrast-[1.08]"
+            ? "inset-[-16%] opacity-100 saturate-[1.34] contrast-[1.12]"
             : "inset-0 opacity-80"
         }`}
       >
@@ -605,12 +605,12 @@ function LiquidEtherBackground({ variant }: { variant: "landing" | "home" | "opp
       <div
         className={
           isLanding
-            ? "absolute inset-0 bg-[radial-gradient(circle_at_11%_9%,rgba(255,255,255,0.42),transparent_30%),radial-gradient(circle_at_82%_16%,rgba(255,255,255,0.16),transparent_28%),linear-gradient(115deg,rgba(255,255,255,0.18),rgba(255,255,255,0.04)_44%,rgba(137,39,158,0.04))]"
+            ? "absolute inset-0 bg-[radial-gradient(circle_at_11%_9%,rgba(255,255,255,0.34),transparent_30%),radial-gradient(circle_at_82%_16%,rgba(255,255,255,0.12),transparent_28%),linear-gradient(115deg,rgba(255,255,255,0.10),rgba(255,255,255,0.03)_44%,rgba(137,39,158,0.03))]"
             : "absolute inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(255,255,255,0.36),transparent_34%),linear-gradient(115deg,rgba(255,255,255,0.34),rgba(255,255,255,0.08)_46%,rgba(137,39,158,0.16))]"
         }
       />
       {isLanding && (
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.11)_56%,rgba(255,255,255,0.24))]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.07)_56%,rgba(255,255,255,0.16))]" />
       )}
     </div>
   );
