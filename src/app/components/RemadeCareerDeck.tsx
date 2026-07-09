@@ -11,6 +11,7 @@ import {
   gamePortfolioPrep,
   getGameMonitorRecord,
   matchesGameMonitorFilters,
+  newestHighFitGameMonitors,
   type GameMonitorFilters,
   type GameMonitorOpportunity,
 } from "@/lib/career-deck/game-monitor";
@@ -1068,9 +1069,7 @@ function GameMonitorPanel({
     .filter((item) => item.monitor.monitorStatus === "urgent")
     .toSorted((a, b) => b.monitor.fitScore - a.monitor.fitScore)
     .slice(0, 3);
-  const newestHighFit = actionableLinkedOpportunities
-    .toSorted((a, b) => b.monitor.fitScore - a.monitor.fitScore)
-    .slice(0, 4);
+  const newestHighFit = newestHighFitGameMonitors(actionableLinkedOpportunities, 4);
 
   return (
     <section className="relative z-10 mx-auto mt-8 grid max-w-[1368px] gap-5">

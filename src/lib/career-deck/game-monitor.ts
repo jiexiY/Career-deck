@@ -99,6 +99,26 @@ export const gameMonitorFilterOptions = {
   statuses: uniqueSorted(displayableGameMonitorOpportunities.map((item) => item.monitorStatus)),
 };
 
+export function sortNewestHighFitGameMonitors<T extends { monitor: GameMonitorOpportunity }>(items: T[]) {
+  return Array.from(items).sort((a, b) => {
+    const foundDelta = dateSortValue(b.monitor.dateFirstFound) - dateSortValue(a.monitor.dateFirstFound);
+    if (foundDelta !== 0) return foundDelta;
+
+    const checkedDelta = dateSortValue(b.monitor.lastCheckedDate) - dateSortValue(a.monitor.lastCheckedDate);
+    if (checkedDelta !== 0) return checkedDelta;
+
+    if (b.monitor.fitScore !== a.monitor.fitScore) return b.monitor.fitScore - a.monitor.fitScore;
+    return a.monitor.company.localeCompare(b.monitor.company) || a.monitor.roleTitle.localeCompare(b.monitor.roleTitle);
+  });
+}
+
+export function newestHighFitGameMonitors<T extends { monitor: GameMonitorOpportunity }>(items: T[], limit = 4) {
+  const highFit = items.filter((item) => item.monitor.fitScore >= 8);
+  const pool = highFit.length ? highFit : items;
+
+  return sortNewestHighFitGameMonitors(pool).slice(0, limit);
+}
+
 export function matchesGameMonitorFilters(
   monitor: GameMonitorOpportunity | undefined,
   filters: GameMonitorFilters,
@@ -120,4 +140,9 @@ export function matchesGameMonitorFilters(
     (filters.status === "all" || monitor.monitorStatus === filters.status) &&
     monitor.fitScore >= filters.minFit
   );
+}
+
+function dateSortValue(value: string) {
+  const parsed = Date.parse(value);
+  return Number.isNaN(parsed) ? 0 : parsed;
 }
