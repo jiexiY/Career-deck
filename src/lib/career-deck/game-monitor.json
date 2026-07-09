@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T04:33:21.444Z",
+  "updatedAt": "2026-07-09T06:21:19.261Z",
   "timezone": "America/Los_Angeles",
   "nextScheduledRun": "Daily at 7:00 PM Pacific via /api/cron/update-game-opportunities",
   "monitoringPolicy": {
@@ -16,9 +16,9 @@
     "date": "2026-07-08",
     "summary": "Daily game monitor parsed official adapter feeds, updated verified roles, and preserved blocked/manual-review sources without fabricating missing data.",
     "newRolesFound": 0,
-    "stillOpen": 121,
-    "urgent": 2,
-    "closed": 109,
+    "stillOpen": 120,
+    "urgent": 1,
+    "closed": 110,
     "bestFitOpportunityId": "official-game-garena-marketing-associate-jakarta-j02071077",
     "changes": [
       {
@@ -116,7 +116,7 @@
       "company": "Papergames / Paper Games / 叠纸游戏",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "manual_review_required",
       "failureReason": "Official page is retained as the source of truth, but Mandarin role descriptions and JavaScript-rendered lists need reviewed extraction before automated publishing."
     },
@@ -125,7 +125,7 @@
       "company": "Infold Games",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "manual_review_required",
       "failureReason": "Infold roles are monitored through Paper Games career pages and require source-language preservation."
     },
@@ -136,7 +136,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "roblox",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "active"
     },
     {
@@ -149,7 +149,7 @@
       "pageSize": 20,
       "maxRecords": 180,
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "active"
     },
     {
@@ -159,7 +159,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "epicgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "active"
     },
     {
@@ -169,7 +169,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "neteasegames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "active"
     },
     {
@@ -182,7 +182,7 @@
       "pageSize": 20,
       "maxRecords": 400,
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "active"
     },
     {
@@ -192,7 +192,7 @@
       "adapterKey": "garena-nuxt",
       "atsOrigin": "https://ats.workatsea.com",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "active"
     },
     {
@@ -202,7 +202,7 @@
       "priority": "official_application_route",
       "adapterKey": "greenhouse",
       "boardToken": "hoyoverse",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "active"
     },
     {
@@ -212,7 +212,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "riotgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "active"
     },
     {
@@ -221,7 +221,7 @@
       "url": "https://careers.scopely.com/us/en/search-results?keywords=Niantic",
       "priority": "official_application_route",
       "adapterKey": "phenom-search",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "active"
     },
     {
@@ -231,7 +231,7 @@
       "priority": "official_application_route",
       "adapterKey": "ashby",
       "boardToken": "thatgamecompany",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "active"
     },
     {
@@ -239,7 +239,7 @@
       "company": "LinkedIn game reposts",
       "url": "https://www.linkedin.com/jobs/",
       "priority": "reposting_watchlist",
-      "lastAttemptAt": "2026-07-09T04:33:21.444Z",
+      "lastAttemptAt": "2026-07-09T06:21:19.261Z",
       "status": "blocked",
       "failureReason": "Login and platform restrictions prevent compliant scraping."
     }
@@ -278,7 +278,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Entry Level"
+      "sourceJobType": "Entry Level",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-marketing-associate-casablanca-j02118460",
@@ -314,7 +315,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Game Operations",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-hn-lien-quan-mobile-assistant-manager-marketing-brand-manager-hanoi-j02113848",
@@ -355,7 +357,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-hcm-fc-mobile-cong-tac-vien-campaign-marketing-ho-chi-minh-city-j02142912",
@@ -390,7 +393,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "library-game-2026-07-01-netease-social-media-content-marketing-intern",
@@ -399,7 +403,7 @@
       "location": "Canada-Remote; United States-Remote",
       "locationMode": "remote",
       "roleTrack": "content marketing",
-      "monitorStatus": "urgent",
+      "monitorStatus": "active",
       "verified": true,
       "applicationLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5165597007",
       "sourceLink": "https://job-boards.greenhouse.io/neteasegames/jobs/5165597007",
@@ -422,7 +426,8 @@
       ],
       "dateFirstFound": "2026-07-01",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-netease-greenhouse"
+      "adapterSourceId": "game-source-netease-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "library-game-2026-07-01-netease-overseas-influencer-kol-operations-intern-indonesia",
@@ -456,7 +461,8 @@
       ],
       "dateFirstFound": "2026-07-01",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-netease-greenhouse"
+      "adapterSourceId": "game-source-netease-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-netease-games-content-marketing-united-kingdom-remote-4927750007",
@@ -488,7 +494,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-netease-greenhouse"
+      "adapterSourceId": "game-source-netease-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-netease-games-esport-specialist-united-kingdom-remote-4927758007",
@@ -521,7 +528,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-netease-greenhouse"
+      "adapterSourceId": "game-source-netease-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-netease-games-influencerkol-marketing-specialist-indonesia-indonesia-5100788007",
@@ -557,7 +565,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-netease-greenhouse"
+      "adapterSourceId": "game-source-netease-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-netease-games-influencer-marketing-manager-global-growth-singapore-guoco-midtown-5029745007",
@@ -595,7 +604,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-netease-greenhouse"
+      "adapterSourceId": "game-source-netease-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-netease-games-marketing-campaign-ipbranding-united-kingdom-remote-4927744007",
@@ -627,7 +637,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-netease-greenhouse"
+      "adapterSourceId": "game-source-netease-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-netease-games-overseas-kolinfluencer-operations-specialist-singapore-singapore-guoco-midtown-5180061007",
@@ -665,7 +676,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-netease-greenhouse"
+      "adapterSourceId": "game-source-netease-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-influencer-manager-thailand-valorant-contract-bangkok-thailand-7905081",
@@ -701,7 +713,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-publishing-operations-manager-teamfight-tactics-contract-singapore-8051454",
@@ -739,7 +752,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-social-media-operation-intern-singapore-capitasky-jobsingapore-capitaskysocial-me",
@@ -776,7 +790,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-pubg-mobile-marketing-and-communication-assistant-intern-france-paris-jobfrance-p",
@@ -813,7 +828,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-community-intern-uk-london-jobuk-londongame-community-intern_r107657-1",
@@ -850,7 +866,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-marketing-specialist-gaming-egypt-cairo-jobegypt-cairomarketing-specialist-gaming",
@@ -887,7 +904,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-marketing-intern-skorea-seoul-jobskorea-seoulmarketing-intern_r107145",
@@ -925,7 +943,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-business-development-intern-thailand-bangkok-jobthailand-bangkokbusiness-developm",
@@ -959,7 +978,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-business-development-intern-hong-kong-jobhong-kongbusiness-development-intern_r10",
@@ -993,7 +1013,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-business-development-intern-malaysia-kuala-lumpur-jobmalaysia-kuala-lumpurbusines",
@@ -1027,7 +1048,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-influencer-specialist-thailand-jobthailandinfluencer-specialist_r106960-1",
@@ -1066,7 +1088,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-community-manager-thailand-jobthailandcommunity-manager_r106926",
@@ -1103,7 +1126,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-thatgamecompany-brand-intern-vietnam-remote-vietnam-167df23d-5a11-4527-bd32-230174522741",
@@ -1140,7 +1164,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-thatgamecompany"
+      "adapterSourceId": "game-source-thatgamecompany",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-thatgamecompany-content-creator-program-manager-japan-japan-2ab99c73-084c-4ce2-888b-6b7a9be3f47b",
@@ -1179,7 +1204,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-thatgamecompany"
+      "adapterSourceId": "game-source-thatgamecompany",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-thatgamecompany-brand-marketing-manager-indonesia-remote-south-east-asia-481cd61f-e855-4e18-9925-1ee4104bc480",
@@ -1212,7 +1238,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-thatgamecompany"
+      "adapterSourceId": "game-source-thatgamecompany",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-thatgamecompany-japan-community-manager-other-7401ca29-6cc7-4248-adee-a2b1ce57ba40",
@@ -1250,7 +1277,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-thatgamecompany"
+      "adapterSourceId": "game-source-thatgamecompany",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-thatgamecompany-brand-intern-japan-japan-9ec1e441-b05a-4a00-a5ff-168eed66483f",
@@ -1288,7 +1316,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-thatgamecompany"
+      "adapterSourceId": "game-source-thatgamecompany",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-thatgamecompany-brand-marketing-partner-remote-us-cbe0c9ca-56fa-420e-8781-a8f90f415b9c",
@@ -1324,7 +1353,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-thatgamecompany"
+      "adapterSourceId": "game-source-thatgamecompany",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-garena-internship-program-jakarta-j02067184",
@@ -1359,7 +1389,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Strategy",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-esports-manager-ph-based-manila-j02120537",
@@ -1397,7 +1428,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Esports",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-product-operations-rov-bangkok-j02148658",
@@ -1436,7 +1468,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-hn-lien-quan-mobile-cong-tac-vien-campaign-marketing-hanoi-j00385803",
@@ -1471,7 +1504,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-esports-operations-associate-delta-force-contract-bangkok-j02159975",
@@ -1508,7 +1542,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Esports",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-social-media-community-specialist-jakarta-j00239726",
@@ -1544,7 +1579,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Game Operations",
-      "sourceJobType": "Entry Level"
+      "sourceJobType": "Entry Level",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "library-game-2026-07-01-netease-user-experience-center-junior-ux-designer",
@@ -1576,7 +1612,8 @@
       ],
       "dateFirstFound": "2026-07-01",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-netease-greenhouse"
+      "adapterSourceId": "game-source-netease-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-netease-games-community-manager-united-kingdom-remote-4927747007",
@@ -1607,7 +1644,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-netease-greenhouse"
+      "adapterSourceId": "game-source-netease-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-content-producer-league-of-legends-wild-rift-shanghai-china-8029742",
@@ -1644,7 +1682,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-marketing-manager-latam-sao-paulo-brazil-7909802",
@@ -1682,7 +1721,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "library-game-2026-07-01-tencent-level-infinite-game-operations-intern-r107226",
@@ -1717,7 +1757,8 @@
         "Community sentiment memo"
       ],
       "dateFirstFound": "2026-07-01",
-      "lastCheckedDate": "2026-07-08"
+      "lastCheckedDate": "2026-07-08",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "library-game-2026-07-01-tencent-level-infinite-game-operations-intern-r106760",
@@ -1751,7 +1792,8 @@
         "Version/live-ops launch checklist"
       ],
       "dateFirstFound": "2026-07-01",
-      "lastCheckedDate": "2026-07-08"
+      "lastCheckedDate": "2026-07-08",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-operations-intern-2-locations-jobus-california-irvine-co-workinggame-operati",
@@ -1789,7 +1831,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-product-manager-ai-creator-platform-worksolo-us-california-los-angeles-jobus-cali",
@@ -1825,7 +1868,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-data-product-intern-uk-london-jobuk-londondata-product-intern_r107644-1",
@@ -1862,7 +1906,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-project-management-intern-gaming-uk-london-jobuk-londonproject-management-intern-",
@@ -1899,7 +1944,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-ai-game-production-intern-netherlands-amsterdam-jobnetherlands-amsterdamai-game-p",
@@ -1931,7 +1977,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-operations-intern-japan-tokyo-business-tower-jobjapan-tokyo-business-towerga",
@@ -1965,7 +2012,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-product-operations-intern-singapore-capitasky-jobsingapore-capitaskyproduct-opera",
@@ -1997,7 +2045,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-marketing-manager-thailand-jobthailandmarketing-manager_r106929-1",
@@ -2035,7 +2084,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-thatgamecompany-brand-publishing-manager-sky-china-china-shanghai-ff5cd7cb-ed3e-4741-b863-d34b194333cd",
@@ -2073,7 +2123,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-thatgamecompany"
+      "adapterSourceId": "game-source-thatgamecompany",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "library-game-2026-07-01-garena-general-openings-internships-game-operations",
@@ -2108,7 +2159,8 @@
         "Community sentiment memo"
       ],
       "dateFirstFound": "2026-07-01",
-      "lastCheckedDate": "2026-07-08"
+      "lastCheckedDate": "2026-07-08",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-hn-delta-force-cong-tac-vien-community-marketing-hanoi-j02100038",
@@ -2143,7 +2195,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-general-marketing-dhaka-j02022384",
@@ -2179,7 +2232,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-associate-project-coordinator-contract-singapore-j02112091",
@@ -2219,7 +2273,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Game Operations",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-hn-delta-force-cong-tac-vien-campaign-marketing-hanoi-j02144762",
@@ -2254,7 +2309,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-strategy-operations-jakarta-j02159399",
@@ -2291,7 +2347,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Strategy",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "library-game-2026-07-01-papergames-infold-recruitment-intern-game-rd-planning",
@@ -2327,7 +2384,8 @@
         "Mandarin + English role fit memo"
       ],
       "dateFirstFound": "2026-07-01",
-      "lastCheckedDate": "2026-07-08"
+      "lastCheckedDate": "2026-07-08",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-developer-engagement-representative-anz-australia-new-zealand-part-time-contract-remote-8020695",
@@ -2360,7 +2418,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-developer-engagement-representative-creator-events-program-uk-part-time-contract-united-kingdom-7979262",
@@ -2392,7 +2451,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-developer-engagement-representative-latam-part-time-contract-remote-7705949",
@@ -2423,7 +2483,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-developer-engagement-representative-malaysia-part-time-contract-remote-7978940",
@@ -2456,7 +2517,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-developer-engagement-representative-thailand-part-time-contract-remote-7992558",
@@ -2489,7 +2551,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-developer-engagement-representative-vietnam-part-time-contract-remote-8020621",
@@ -2522,7 +2585,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-human-evaluator-studio-contract-united-states-7697520",
@@ -2559,7 +2623,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-junior-incident-and-investigations-specialist-gurugram-haryana-india-7894733",
@@ -2593,7 +2658,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-marketing-manager-india-gurugram-haryana-india-7921673",
@@ -2629,7 +2695,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-quality-analyst-gurugram-haryana-india-7785784",
@@ -2664,7 +2731,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-workforce-management-analyst-gurugram-haryana-india-7792862",
@@ -2699,7 +2767,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "library-game-2026-07-01-tencent-game-research-intern-r107142",
@@ -2734,7 +2803,8 @@
         "Market-release tracking sheet"
       ],
       "dateFirstFound": "2026-07-01",
-      "lastCheckedDate": "2026-07-08"
+      "lastCheckedDate": "2026-07-08",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-ai-product-manager-intern-uk-london-jobuk-londonproduct-manager-intern_r107654-1",
@@ -2766,7 +2836,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-business-development-intern-japan-tokyo-business-tower-jobjapan-tokyo-business-to",
@@ -2798,7 +2869,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-research-intern-skorea-seoul-jobskorea-seoulgame-research-intern_r107171",
@@ -2834,7 +2906,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-revenue-associate-jakarta-j02071071",
@@ -2872,7 +2945,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Strategy",
-      "sourceJobType": "Entry Level"
+      "sourceJobType": "Entry Level",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-garena-development-program-jakarta-j02067139",
@@ -2913,7 +2987,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Strategy",
-      "sourceJobType": "Entry Level"
+      "sourceJobType": "Entry Level",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-hn-lien-quan-mobile-freelance-content-production-hanoi-j02100908",
@@ -2948,7 +3023,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-hn-lien-quan-mobile-freelance-eventproduction-hanoi-j02141131",
@@ -2981,7 +3057,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-hcm-game-team-cong-tac-vien-marketing-ho-chi-minh-city-j02092901",
@@ -3016,7 +3093,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-intern-game-designer-singapore-j02105882",
@@ -3052,7 +3130,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-hcmhn-ao-dien-chuong-trinh-esports-ho-chi-minh-city-j02159382",
@@ -3091,7 +3170,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Esports",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "library-game-2026-07-01-papergames-infold-video-design-intern-shining-nikki",
@@ -3127,7 +3207,8 @@
         "Community sentiment memo"
       ],
       "dateFirstFound": "2026-07-01",
-      "lastCheckedDate": "2026-07-08"
+      "lastCheckedDate": "2026-07-08",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-influencer-manager-wild-rift-contract-manila-philippines-7982892",
@@ -3166,7 +3247,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-localization-operations-manager-shanghai-china-7862369",
@@ -3202,7 +3284,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-game-producer-live-experience-wild-rift-contractor-shanghai-china-7977762",
@@ -3237,7 +3320,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-global-developer-engagement-representative-part-time-contractor-remote-7736682",
@@ -3273,7 +3357,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-product-manager-consumer-payments-and-subscriptions-san-mateo-ca-united-states-8009151",
@@ -3309,7 +3394,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-product-marketing-manager-discovery-san-mateo-ca-united-states-7950883",
@@ -3347,7 +3433,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-social-media-analyst-gurugram-haryana-india-7831044",
@@ -3383,7 +3470,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-data-scientist-intern-singapore-capitasky-jobsingapore-capitaskydata-scientist-in",
@@ -3420,43 +3508,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
-    },
-    {
-      "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-data-science-intern-us-california-palo-alto-jobus-california-palo-altodata-scienc",
-      "company": "Tencent / Level Infinite / TiMi / Lightspeed",
-      "roleTitle": "Data Science Intern",
-      "location": "US-California-Palo Alto",
-      "locationMode": "hybrid_unknown",
-      "roleTrack": "game operations",
-      "monitorStatus": "new",
-      "verified": true,
-      "applicationLink": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Data-Science-Intern_R107184",
-      "sourceLink": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Data-Science-Intern_R107184",
-      "requiredQualifications": [
-        "We provide cross-platform interactive entertainment experience for more than 800 million users in over 200 countries and regions around the world.",
-        "Who We Look For A master's degree or PHD in computer science, machine learning, or math/statistics, relevant internship experience is a plus A passion for applying mathematical models and computer science technology to data-driven decision-making, along with profound insights into the gaming industry.",
-        "Actual pay may vary depending on job-related knowledge, skills, and experience.&#xa;This position will be eligible for 1 hour of paid sick leave for every 30 hours worked and up to 13 paid holidays throughout the calendar year."
-      ],
-      "preferredQualifications": [
-        "We provide cross-platform interactive entertainment experience for more than 800 million users in over 200 countries and regions around the world.",
-        "Who We Look For A master's degree or PHD in computer science, machine learning, or math/statistics, relevant internship experience is a plus A passion for applying mathematical models and computer science technology to data-driven decision-making, along with profound insights into the gaming industry.",
-        "Actual pay may vary depending on job-related knowledge, skills, and experience.&#xa;This position will be eligible for 1 hour of paid sick leave for every 30 hours worked and up to 13 paid holidays throughout the calendar year."
-      ],
-      "fitScore": 7,
-      "fitReason": "Relevant game operations path, but application materials should prove game-domain work and practical execution.",
-      "blockersRisks": [
-        "Location or work authorization may be the main constraint.",
-        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
-      ],
-      "portfolioMaterials": [
-        "Game KPI dashboard",
-        "Community sentiment memo",
-        "Infinity Nikki version-ops case"
-      ],
-      "dateFirstFound": "2026-07-08",
-      "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-project-management-intern-new-zealand-auckland-jobnew-zealand-aucklandproject-man",
@@ -3488,7 +3541,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-product-strategy-intern-singapore-capitasky-jobsingapore-capitaskyproduct-strateg",
@@ -3522,7 +3576,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-pr-intern-communications-japan-tokyo-business-tower-jobjapan-tokyo-business-tower",
@@ -3554,7 +3609,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-community-manager-sea-china-shenzhen-jobchina-shenzhencommunity-manager-sea_r1067",
@@ -3587,7 +3643,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-operation-intern-japan-tokyo-business-tower-jobjapan-tokyo-business-towergam",
@@ -3619,7 +3676,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-thatgamecompany-social-media-operation-intern-china-shanghai-ab5224b7-e0b7-4f29-bef4-3ca48292071e",
@@ -3652,7 +3710,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-thatgamecompany"
+      "adapterSourceId": "game-source-thatgamecompany",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-garena-strategy-and-operations-vn-ho-chi-minh-city-j02074989",
@@ -3689,7 +3748,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Strategy",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-garena-strategy-and-operations-vn-hanoi-j02078733",
@@ -3726,7 +3786,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Strategy",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-video-editor-casablanca-j02129976",
@@ -3759,7 +3820,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Design",
-      "sourceJobType": "Entry Level"
+      "sourceJobType": "Entry Level",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-associate-configuration-qa-singapore-j02133478",
@@ -3798,7 +3860,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Game Operations",
-      "sourceJobType": "Entry Level"
+      "sourceJobType": "Entry Level",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-marketing-and-community-specialist-contract-singapore-j02157633",
@@ -3839,7 +3902,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Marketing",
-      "sourceJobType": "Experienced (Individual Contributor)"
+      "sourceJobType": "Experienced (Individual Contributor)",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-garena-management-trainee-gmt-2027-bangkok-j02159956",
@@ -3878,7 +3942,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Game Operations",
-      "sourceJobType": "Entry Level"
+      "sourceJobType": "Entry Level",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-business-development-jakarta-j02131575",
@@ -3912,7 +3977,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "Business Development and Partnerships",
-      "sourceJobType": "Entry Level"
+      "sourceJobType": "Entry Level",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-consumer-products-and-experience-operations-manager-korea-seoul-korea-7693729",
@@ -3949,7 +4015,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-esports-events-coordinator-apac-emerging-markets-content-services-contract-singapore-7712055",
@@ -3988,7 +4055,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-publishing-product-manager-event-valorant-contract-shanghai-china-7695533",
@@ -4026,7 +4094,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-publishing-product-manager-korea-japan-unpublished-rd-product-seoul-korea-7674335",
@@ -4064,7 +4133,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-producer-valorant-mobile-monetization-support-contract-shanghai-china-8027173",
@@ -4099,7 +4169,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-product-manager-china-publishing-tft-shanghai-china-7987825",
@@ -4137,7 +4208,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-developer-engagement-team-contract-united-kingdom-7155687",
@@ -4172,7 +4244,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-developer-relations-manager-gurugram-haryana-india-remote-7911754",
@@ -4208,7 +4281,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-developer-relations-manager-middle-east-remote-7926169",
@@ -4244,7 +4318,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-marketing-manager-europe-amsterdam-north-holland-netherlands-7965517",
@@ -4282,7 +4357,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-product-marketing-manager-creator-monetization-san-mateo-ca-united-states-7951971",
@@ -4320,7 +4396,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-product-support-specialist-gurugram-haryana-india-7780883",
@@ -4357,7 +4434,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-skillbridge-information-security-fellowship-san-mateo-ca-united-states-7535858",
@@ -4392,7 +4470,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-design-intern-rapid-prototyping-singapore-capitasky-jobsingapore-capitaskyga",
@@ -4424,7 +4503,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-project-managementbusiness-development-intern-australia-new-south-wales-sydney-jo",
@@ -4456,7 +4536,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-data-science-intern-singapore-capitasky-jobsingapore-capitaskydata-science-intern",
@@ -4493,7 +4574,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-hok-hok-hq-marketing-manager-china-shenzhen-jobchina-shenzhenhok-hok-hq-marketing",
@@ -4527,7 +4609,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-developer-marketing-ecosystem-manager-uk-london-jobuk-londondeveloper-marketing-e",
@@ -4561,7 +4644,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-mena-marketing-manager-china-shenzhen-jobchina-shenzhen-mena-marketing-manager_r1",
@@ -4595,7 +4679,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-marketing-manager-china-shenzhen-jobchina-shenzhenmarketing-manager_r106972-2",
@@ -4629,7 +4714,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-social-media-and-content-ops-director-blankblankmultiple-locations-5700004004",
@@ -4669,7 +4755,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-social-media-and-content-ops-director-carynorth-carolinaunited-states-5700002004",
@@ -4709,7 +4796,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-consumer-product-business-operations-lead-consumer-products-experiences-cpx-shanghai-china-7811969",
@@ -4749,7 +4837,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-talent-acquisition-intern-us-california-palo-alto-jobus-california-palo-altotalen",
@@ -4788,7 +4877,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-hr-intern-international-students-china-shenzhen-jobchina-shenzhenhr-intern-intern",
@@ -4820,7 +4910,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-apac-esports-partnership-manager-seoul-korea-7977844",
@@ -4858,7 +4949,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-sr-manager-esports-product-management-tft-los-angeles-usa-7962435",
@@ -4897,7 +4989,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-counsel-americas-regulatory-international-legal-san-mateo-ca-united-states-7868390",
@@ -4937,7 +5030,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-financial-accounting-and-analysis-intern-4-6-months-singapore-capitasky-jobsingap",
@@ -4971,7 +5065,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-talent-acquisition-intern-international-students-china-shenzhen-jobchina-shenzhen",
@@ -5006,7 +5101,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-modeling-outsource-artist-carynorth-carolinaunited-states-6020680004",
@@ -5045,7 +5141,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-modeling-outsource-artist-porto-alegrerio-grande-do-sulbrazil-6031088004",
@@ -5083,7 +5180,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-modeling-outsource-artist-montrealquebeccanada-6020682004",
@@ -5121,7 +5219,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-ui-programmer-porto-alegrerio-grande-do-sulbrazil-6016396004",
@@ -5160,7 +5259,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-ui-programmer-montrealquebeccanada-6016394004",
@@ -5199,7 +5299,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-manager-vfx-art-unpublished-rd-product-singapore-7615781",
@@ -5236,7 +5337,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-marketing-creative-director-valorant-contract-shanghai-china-7695550",
@@ -5271,7 +5373,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-aigame-ai-research-intern-japan-tokyo-business-tower-jobjapan-tokyo-business-towe",
@@ -5307,7 +5410,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-data-engineer-intern-netherlands-amsterdam-jobnetherlands-amsterdamdata-engineer-",
@@ -5345,7 +5449,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-tencent-cloud-b2b-marketing-manager-thailand-2-locations-jobthailand-bangkoktence",
@@ -5383,7 +5488,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-ml-researcher-intern-singapore-capitasky-jobsingapore-capitaskygame-ml-resea",
@@ -5418,7 +5524,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-compliance-project-management-intern-singapore-capitasky-jobsingapore-capitaskyco",
@@ -5456,7 +5563,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-nlp-research-intern-uk-london-jobuk-londonnlp-research-intern_r106758-1",
@@ -5492,7 +5600,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-character-outsource-lead-blankblankmultiple-locations-6001545004",
@@ -5531,7 +5640,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-character-outsource-lead-carynorth-carolinaunited-states-6001543004",
@@ -5570,7 +5680,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-communications-director-carynorth-carolinaunited-states-6100865004",
@@ -5610,7 +5721,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-communications-director-blankblankmultiple-locations-6100867004",
@@ -5650,7 +5762,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-director-education-training-blankblankmultiple-locations-6100018004",
@@ -5690,7 +5803,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-director-education-training-carynorth-carolinaunited-states-6100016004",
@@ -5730,7 +5844,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-gameplay-programmer-montrealquebeccanada-6026779004",
@@ -5770,7 +5885,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-gameplay-programming-lead-vancouverbritish-columbiacanada-6020489004",
@@ -5809,7 +5925,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-gameplay-programming-lead-blankblankmultiple-locations-6008341004",
@@ -5848,7 +5965,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-lead-ui-programmer-blankblankmultiple-locations-6001704004",
@@ -5887,7 +6005,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-lead-ui-programmer-vancouverbritish-columbiacanada-6020510004",
@@ -5926,7 +6045,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-partnerships-director-talent-blankblankmultiple-locations-5705135004",
@@ -5966,7 +6086,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-partnerships-director-talent-carynorth-carolinaunited-states-5700006004",
@@ -6006,7 +6127,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-senior-game-security-programmer-montrealquebeccanada-6019150004",
@@ -6045,7 +6167,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-solutions-architect-animation-shanghaiblankchina-5829633004",
@@ -6083,7 +6206,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-technical-designer-in-animation-montrealquebeccanada-6008376004",
@@ -6120,7 +6244,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-technical-designer-in-animation-blankblankmultiple-locations-6008098004",
@@ -6158,7 +6283,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-intern-game-programmer-singapore-j02067178",
@@ -6193,7 +6319,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-garena-intern-game-programmer-roblox-singapore-j02095938",
@@ -6232,7 +6359,8 @@
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-garena",
       "sourceCategory": "",
-      "sourceJobType": "Internship"
+      "sourceJobType": "Internship",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-esports-competitive-operations-rules-compliance-analyst-ii-emea-berlin-germany-7915309",
@@ -6267,7 +6395,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-manager-quality-assurance-league-of-legends-singapore-7930984",
@@ -6305,7 +6434,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-principal-researcher-league-of-legends-pubsports-los-angeles-usa-7334619",
@@ -6347,7 +6477,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-brand-designer-apac-tokyo-prefecture-japan-7844105",
@@ -6387,7 +6518,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-director-of-public-policy-uaemiddle-east-remote-7832171",
@@ -6424,7 +6556,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-finance-analytics-engineer-san-mateo-ca-united-states-7546358",
@@ -6463,7 +6596,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-senior-corporate-fpa-manager-workforce-planning-total-rewards-san-mateo-ca-united-states-7758622",
@@ -6501,7 +6635,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-software-engineer-user-co-experience-san-mateo-ca-united-states-7711780",
@@ -6540,7 +6675,46 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
+    },
+    {
+      "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-data-science-intern-us-california-palo-alto-jobus-california-palo-altodata-scienc",
+      "company": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "roleTitle": "Data Science Intern",
+      "location": "US-California-Palo Alto",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "game operations",
+      "monitorStatus": "closed",
+      "verified": true,
+      "applicationLink": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Data-Science-Intern_R107184",
+      "sourceLink": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Data-Science-Intern_R107184",
+      "requiredQualifications": [
+        "We provide cross-platform interactive entertainment experience for more than 800 million users in over 200 countries and regions around the world.",
+        "Who We Look For A master's degree or PHD in computer science, machine learning, or math/statistics, relevant internship experience is a plus A passion for applying mathematical models and computer science technology to data-driven decision-making, along with profound insights into the gaming industry.",
+        "Actual pay may vary depending on job-related knowledge, skills, and experience.&#xa;This position will be eligible for 1 hour of paid sick leave for every 30 hours worked and up to 13 paid holidays throughout the calendar year."
+      ],
+      "preferredQualifications": [
+        "We provide cross-platform interactive entertainment experience for more than 800 million users in over 200 countries and regions around the world.",
+        "Who We Look For A master's degree or PHD in computer science, machine learning, or math/statistics, relevant internship experience is a plus A passion for applying mathematical models and computer science technology to data-driven decision-making, along with profound insights into the gaming industry.",
+        "Actual pay may vary depending on job-related knowledge, skills, and experience.&#xa;This position will be eligible for 1 hour of paid sick leave for every 30 hours worked and up to 13 paid holidays throughout the calendar year."
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant game operations path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears.",
+        "Official application route was not present in the latest adapter run."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-research-development-intern-engine-research-us-california-los-angeles-jobus-",
@@ -6576,7 +6750,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-research-development-intern-engine-research-us-washington-bellevue-jobus-was",
@@ -6612,7 +6787,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-world-model-research-intern-singapore-capitasky-jobsingapore-capitaskyworld-model",
@@ -6646,7 +6822,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-research-development-intern-engine-research-australia-new-south-wales-sydney",
@@ -6680,7 +6857,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-wechat-data-scientist-intern-safety-strategies-singapore-capitasky-jobsingapore-c",
@@ -6713,7 +6891,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-environment-artist-intern-japan-osaka-jobjapan-osaka-environment-artist-intern_r1",
@@ -6746,7 +6925,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-technical-artist-intern-uk-london-jobuk-londontechnical-artist-intern-gaming_r107",
@@ -6782,7 +6962,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-game-research-development-intern-engine-research-japan-tokyo-business-tower-jobja",
@@ -6816,7 +6997,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-tencent-cloud-business-development-intern-indonesia-market-indonesia-jakarta-jobi",
@@ -6852,7 +7034,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-cinematics-director-blankblankmultiple-locations-5993483004",
@@ -6893,7 +7076,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-cinematics-director-carynorth-carolinaunited-states-5993481004",
@@ -6934,7 +7118,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-director-product-management-discovery-carynorth-carolinaunited-states-6013333004",
@@ -6974,7 +7159,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-director-product-management-discovery-blankblankmultiple-locations-6013335004",
@@ -7014,7 +7200,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-director-product-management-discovery-vancouverbritish-columbiacanada-6013462004",
@@ -7054,7 +7241,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-environment-outsource-lead-carynorth-carolinaunited-states-6001773004",
@@ -7094,7 +7282,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-influencer-marketing-director-carynorth-carolinaunited-states-5995635004",
@@ -7136,7 +7325,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-influencer-marketing-director-blankblankmultiple-locations-5998666004",
@@ -7178,7 +7368,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-lead-environment-concept-artist-blankblankmultiple-locations-6010874004",
@@ -7217,7 +7408,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-lead-environment-concept-artist-carynorth-carolinaunited-states-6001559004",
@@ -7256,7 +7448,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-lead-gameplay-programmer-montrealquebeccanada-6021022004",
@@ -7296,7 +7489,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-senior-business-development-manager-shanghaiblankchina-6026877004",
@@ -7333,7 +7527,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-senior-ui-programmer-montrealquebeccanada-6004774004",
@@ -7372,7 +7567,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-senior-ui-programmer-vancouverbritish-columbiacanada-6004769004",
@@ -7411,7 +7607,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-epic-games-shanghaiblankchina-6085856004",
@@ -7448,7 +7645,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-epic-greenhouse"
+      "adapterSourceId": "game-source-epic-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-brand-manager-eastern-europe-valorant-berlin-germany-8030223",
@@ -7489,7 +7687,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-manager-technical-art-unpublished-rd-product-singapore-7681146",
@@ -7524,7 +7723,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-senior-manager-publishing-dach-ee-berlin-germany-8007628",
@@ -7565,7 +7765,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-senior-researcher-wild-rift-shanghai-china-6710152",
@@ -7605,7 +7806,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-staff-software-engineer-riot-client-publishing-platform-los-angeles-usa-7844349",
@@ -7644,7 +7846,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-systems-engineer-esports-los-angeles-usa-8011835",
@@ -7683,7 +7886,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-riot-games-visual-design-artist-unpublished-rd-product-contract-guangzhou-china-8047592",
@@ -7718,7 +7922,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-riot-greenhouse"
+      "adapterSourceId": "game-source-riot-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "library-game-2026-07-01-riot-games-internship-roles-no-specific-open-role",
@@ -7747,7 +7952,8 @@
         "UX/game system teardown"
       ],
       "dateFirstFound": "2026-07-01",
-      "lastCheckedDate": "2026-07-08"
+      "lastCheckedDate": "2026-07-08",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-critical-harms-investigations-incident-management-specialist-gurugram-haryana-india-7897876",
@@ -7786,7 +7992,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-data-center-asset-management-analyst-san-mateo-ca-united-states-7736671",
@@ -7826,7 +8033,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-developer-program-manager-compliance-san-mateo-ca-united-states-7895212",
@@ -7865,7 +8073,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-director-of-product-consumer-uxui-san-mateo-ca-united-states-7913665",
@@ -7904,7 +8113,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-engineering-manager-home-infrastructure-san-mateo-ca-united-states-7905464",
@@ -7944,7 +8154,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-executive-business-partner-office-of-the-ceo-san-mateo-ca-united-states-7778939",
@@ -7982,7 +8193,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-finance-business-partner-trust-safety-6319-san-mateo-ca-united-states-7977161",
@@ -8022,7 +8234,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-general-manager-south-east-asia-singapore-7838662",
@@ -8060,7 +8273,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-global-mobility-lead-san-mateo-ca-united-states-7944233",
@@ -8098,7 +8312,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-law-enforcement-and-digital-safety-specialist-nevada-remote-7947913",
@@ -8136,7 +8351,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-law-enforcement-and-digital-safety-specialist-west-virginia-remote-7963220",
@@ -8173,7 +8389,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-senior-analyst-ai-workflows-automation-gurugram-haryana-india-7903021",
@@ -8211,7 +8428,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-senior-analyst-tools-and-systems-administrator-gurugram-haryana-india-7957849",
@@ -8249,7 +8467,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-senior-frontend-software-engineer-ads-experience-san-mateo-ca-united-states-7396342",
@@ -8290,7 +8509,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-senior-product-manager-ui-ecosystems-san-mateo-ca-united-states-7816527",
@@ -8329,7 +8549,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-support-escalations-specialist-gurugram-haryana-india-7886349",
@@ -8367,7 +8588,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-roblox-technical-director-ai-roblox-studio-san-mateo-ca-united-states-8046794",
@@ -8407,7 +8629,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-roblox-greenhouse"
+      "adapterSourceId": "game-source-roblox-greenhouse",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-video-generation-content-understanding-and-feedback-research-intern-uk-london-job",
@@ -8442,7 +8665,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-ai-product-engineer-intern-game-development-netherlands-amsterdam-jobnetherlands-",
@@ -8477,7 +8701,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-agent-development-intern-uk-london-jobuk-londonagent-development-intern_r107276-2",
@@ -8510,7 +8735,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-ai-application-intern-game-platform-team-singapore-capitasky-jobsingapore-capitas",
@@ -8543,7 +8769,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-big-data-development-engineer-intern-singapore-capitasky-jobsingapore-capitaskybi",
@@ -8581,7 +8808,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-mechanical-engineering-intern-us-washington-bellevue-jobus-washington-bellevuemec",
@@ -8619,7 +8847,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-wxg-data-scientist-intern-safety-strategies-singapore-capitasky-jobsingapore-capi",
@@ -8654,7 +8883,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-wechat-backend-developer-intern-singapore-capitasky-jobsingapore-capitaskywechat-",
@@ -8689,7 +8919,8 @@
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
+      "adapterSourceId": "game-source-tencent-workday",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-netease-games-ieg-senior-gameplay-engineer-canada-remote-5070068007",
@@ -8722,7 +8953,8 @@
         "Infinity Nikki version-ops case"
       ],
       "dateFirstFound": "2026-07-08",
-      "lastCheckedDate": "2026-07-08"
+      "lastCheckedDate": "2026-07-08",
+      "deadline": "Not listed on official source"
     },
     {
       "opportunityId": "official-game-netease-games-ip-japan-japan-5012410007",
@@ -8755,7 +8987,8 @@
         "Infinity Nikki version-ops case"
       ],
       "dateFirstFound": "2026-07-08",
-      "lastCheckedDate": "2026-07-08"
+      "lastCheckedDate": "2026-07-08",
+      "deadline": "Not listed on official source"
     }
   ]
 }

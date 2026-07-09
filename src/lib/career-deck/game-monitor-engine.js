@@ -311,6 +311,105 @@ function inferFitScore(title, content, location) {
   return Math.max(1, Math.min(10, score));
 }
 
+function deadlineInfoFor(content, checkedAt) {
+  const text = stripHtml(content);
+
+  if (!text) {
+    return { label: "Not listed on official source", isUrgent: false };
+  }
+
+  if (/\b(rolling basis|rolling applications?|rolling review|reviewed on a rolling basis|closes? when filled|until filled|open until filled)\b/i.test(text)) {
+    return { label: "Rolling / close when filled (source stated)", isUrgent: true };
+  }
+
+  const deadlinePatterns = [
+    /\b(?:application\s+deadline|deadline|apply\s+by|applications?\s+(?:close|due)|closing\s+date|closes?)[:\s-]*(?:on\s+)?([A-Z][a-z]+\.?\s+\d{1,2}(?:st|nd|rd|th)?(?:,\s*\d{4})?|\d{1,2}\/\d{1,2}\/\d{2,4}|\d{4}-\d{1,2}-\d{1,2})/i,
+    /\b(?:by|before)\s+([A-Z][a-z]+\.?\s+\d{1,2}(?:st|nd|rd|th)?(?:,\s*\d{4})?|\d{1,2}\/\d{1,2}\/\d{2,4}|\d{4}-\d{1,2}-\d{1,2})\s+(?:to apply|for consideration)/i,
+  ];
+
+  for (const pattern of deadlinePatterns) {
+    const match = text.match(pattern);
+    const date = match?.[1] ? parseDeadlineDate(match[1], checkedAt) : null;
+
+    if (date) {
+      return {
+        label: `Deadline ${formatDeadlineDate(date)}`,
+        isUrgent: isDeadlineWithinDays(date, checkedAt, 7),
+      };
+    }
+  }
+
+  return { label: "Not listed on official source", isUrgent: false };
+}
+
+function parseDeadlineDate(value, checkedAt) {
+  const cleaned = String(value)
+    .replace(/\b(\d{1,2})(st|nd|rd|th)\b/gi, "$1")
+    .replace(/\./g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  const checkedDate = new Date(checkedAt);
+  const checkedYear = checkedDate.getUTCFullYear();
+
+  let parsed;
+
+  const isoMatch = cleaned.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+  if (isoMatch) {
+    parsed = new Date(Date.UTC(Number(isoMatch[1]), Number(isoMatch[2]) - 1, Number(isoMatch[3]), 12));
+  }
+
+  const numericMatch = cleaned.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2,4})$/);
+  if (!parsed && numericMatch) {
+    const rawYear = Number(numericMatch[3]);
+    const year = rawYear < 100 ? 2000 + rawYear : rawYear;
+    parsed = new Date(Date.UTC(year, Number(numericMatch[1]) - 1, Number(numericMatch[2]), 12));
+  }
+
+  const monthMatch = cleaned.match(
+    /^(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\s+(\d{1,2})(?:,\s*(\d{4}))?$/i,
+  );
+  if (!parsed && monthMatch) {
+    const monthNames = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
+    const month = monthNames.findIndex((name) => monthMatch[1].toLowerCase().startsWith(name));
+    const day = Number(monthMatch[2]);
+    let year = monthMatch[3] ? Number(monthMatch[3]) : checkedYear;
+    parsed = new Date(Date.UTC(year, month, day, 12));
+
+    if (!monthMatch[3] && parsed < startOfUtcDay(checkedDate)) {
+      year += 1;
+      parsed = new Date(Date.UTC(year, month, day, 12));
+    }
+  }
+
+  if (!parsed || Number.isNaN(parsed.getTime())) return null;
+  return parsed;
+}
+
+function formatDeadlineDate(date) {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Los_Angeles",
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }).format(date);
+}
+
+function isDeadlineWithinDays(deadline, checkedAt, days) {
+  const start = startOfUtcDay(new Date(checkedAt));
+  const end = startOfUtcDay(deadline);
+  const diffDays = Math.ceil((end.getTime() - start.getTime()) / 86_400_000);
+  return diffDays >= 0 && diffDays <= days;
+}
+
+function startOfUtcDay(date) {
+  return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+}
+
+function monitorStatusFor(existing, deadlineInfo) {
+  if (deadlineInfo.isUrgent) return "urgent";
+  return existing ? "active" : "new";
+}
+
 function summarizeQualifications(content, fallback) {
   const sentences = content
     .split(/(?<=[.!?])\s+/)
@@ -359,7 +458,7 @@ function fitReasonFor(track, fitScore) {
   return `Adjacent game-industry role; keep as research unless requirements and location are realistic.`;
 }
 
-function risksFor(job, location, type) {
+function risksFor(job, location, type, deadlineInfo = { label: "Not listed on official source", isUrgent: false }) {
   const risks = [];
 
   if (!String(job.content ?? "").toLowerCase().includes("intern") && type !== "internship") {
@@ -370,7 +469,11 @@ function risksFor(job, location, type) {
     risks.push("Location or work authorization may be the main constraint.");
   }
 
-  risks.push("Deadline not listed on the official source feed; monitor as open until the official route disappears.");
+  if (deadlineInfo.label === "Not listed on official source") {
+    risks.push("Deadline not listed on the official source feed; monitor as open until the official route disappears.");
+  } else if (deadlineInfo.isUrgent) {
+    risks.push("Source deadline is urgent or rolling; prioritize before the official route disappears.");
+  }
 
   return risks;
 }
@@ -476,6 +579,7 @@ function createGreenhouseAdapter(source) {
         const roleTrack = inferRoleTrack(title, content);
         const fitScore = inferFitScore(title, content, location);
         const type = inferOpportunityType(title);
+        const deadlineInfo = deadlineInfoFor(content, context.checkedAt);
         const existing = findExistingMonitor(context.monitor, {
           applicationLink: job.absolute_url,
           company: source.company,
@@ -493,8 +597,9 @@ function createGreenhouseAdapter(source) {
           location,
           locationMode: inferLocationMode(location),
           roleTrack,
-          monitorStatus: existing ? "active" : "new",
+          monitorStatus: monitorStatusFor(existing, deadlineInfo),
           verified: true,
+          deadline: deadlineInfo.label,
           applicationLink: job.absolute_url,
           sourceLink: job.absolute_url,
           requiredQualifications: summarizeQualifications(content, [
@@ -505,7 +610,7 @@ function createGreenhouseAdapter(source) {
           ]).slice(0, 3),
           fitScore,
           fitReason: fitReasonFor(roleTrack, fitScore),
-          blockersRisks: risksFor(job, location, type),
+          blockersRisks: risksFor(job, location, type, deadlineInfo),
           portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
           dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
           lastCheckedDate: context.checkedDate,
@@ -620,6 +725,7 @@ function createAshbyAdapter(source) {
           const roleTrack = inferRoleTrack(title, content);
           const fitScore = inferFitScore(title, content, location);
           const type = inferOpportunityType(title);
+          const deadlineInfo = deadlineInfoFor(content, context.checkedAt);
           const existing = findExistingMonitor(context.monitor, {
             applicationLink,
             company: source.company,
@@ -637,8 +743,9 @@ function createAshbyAdapter(source) {
             location,
             locationMode: inferLocationMode(location),
             roleTrack,
-            monitorStatus: existing ? "active" : "new",
+            monitorStatus: monitorStatusFor(existing, deadlineInfo),
             verified: true,
+            deadline: deadlineInfo.label,
             applicationLink,
             sourceLink,
             requiredQualifications: summarizeQualifications(content, [
@@ -649,7 +756,7 @@ function createAshbyAdapter(source) {
             ]).slice(0, 3),
             fitScore,
             fitReason: fitReasonFor(roleTrack, fitScore),
-            blockersRisks: risksFor({ ...job, content }, location, type),
+            blockersRisks: risksFor({ ...job, content }, location, type, deadlineInfo),
             portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
             dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
             lastCheckedDate: context.checkedDate,
@@ -756,6 +863,7 @@ function createLeverAdapter(source) {
         const roleTrack = inferRoleTrack(title, content);
         const fitScore = inferFitScore(title, content, location);
         const type = inferOpportunityType(title);
+        const deadlineInfo = deadlineInfoFor(content, context.checkedAt);
         const existing = findExistingMonitor(context.monitor, {
           applicationLink,
           company: source.company,
@@ -773,8 +881,9 @@ function createLeverAdapter(source) {
           location,
           locationMode: inferLocationMode(location),
           roleTrack,
-          monitorStatus: existing ? "active" : "new",
+          monitorStatus: monitorStatusFor(existing, deadlineInfo),
           verified: true,
+          deadline: deadlineInfo.label,
           applicationLink,
           sourceLink,
           requiredQualifications: summarizeQualifications(content, [
@@ -785,7 +894,7 @@ function createLeverAdapter(source) {
           ]).slice(0, 3),
           fitScore,
           fitReason: fitReasonFor(roleTrack, fitScore),
-          blockersRisks: risksFor({ ...job, content }, location, type),
+          blockersRisks: risksFor({ ...job, content }, location, type, deadlineInfo),
           portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
           dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
           lastCheckedDate: context.checkedDate,
@@ -942,6 +1051,7 @@ function createPhenomSearchAdapter(source) {
         const roleTrack = inferRoleTrack(`${title} ${job.category ?? ""}`, content);
         const fitScore = inferFitScore(`${title} ${job.category ?? ""}`, content, location);
         const type = inferOpportunityType(title);
+        const deadlineInfo = deadlineInfoFor(content, context.checkedAt);
         const existing = findExistingMonitor(context.monitor, {
           applicationLink,
           company: source.company,
@@ -959,8 +1069,9 @@ function createPhenomSearchAdapter(source) {
           location,
           locationMode: inferLocationMode(`${location} ${job.workArrangement ?? ""}`),
           roleTrack,
-          monitorStatus: existing ? "active" : "new",
+          monitorStatus: monitorStatusFor(existing, deadlineInfo),
           verified: true,
+          deadline: deadlineInfo.label,
           applicationLink,
           sourceLink,
           requiredQualifications: summarizeQualifications(content, [
@@ -971,7 +1082,7 @@ function createPhenomSearchAdapter(source) {
           ]).slice(0, 3),
           fitScore,
           fitReason: fitReasonFor(roleTrack, fitScore),
-          blockersRisks: risksFor({ ...job, content }, location, type),
+          blockersRisks: risksFor({ ...job, content }, location, type, deadlineInfo),
           portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
           dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
           lastCheckedDate: context.checkedDate,
@@ -1120,6 +1231,7 @@ function createWorkdayAdapter(source) {
         const roleTrack = inferRoleTrack(title, content);
         const fitScore = inferFitScore(title, content, location);
         const type = inferOpportunityType(title);
+        const deadlineInfo = deadlineInfoFor(content, context.checkedAt);
         const existing = findExistingMonitor(context.monitor, {
           applicationLink,
           company: source.company,
@@ -1137,8 +1249,9 @@ function createWorkdayAdapter(source) {
           location,
           locationMode: inferLocationMode(location),
           roleTrack,
-          monitorStatus: existing ? "active" : "new",
+          monitorStatus: monitorStatusFor(existing, deadlineInfo),
           verified: true,
+          deadline: deadlineInfo.label,
           applicationLink,
           sourceLink: applicationLink,
           requiredQualifications: summarizeQualifications(content, [
@@ -1149,7 +1262,7 @@ function createWorkdayAdapter(source) {
           ]).slice(0, 3),
           fitScore,
           fitReason: fitReasonFor(roleTrack, fitScore),
-          blockersRisks: risksFor({ ...job, content }, location, type),
+          blockersRisks: risksFor({ ...job, content }, location, type, deadlineInfo),
           portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
           dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
           lastCheckedDate: context.checkedDate,
@@ -1264,6 +1377,7 @@ function createGarenaNuxtAdapter(source) {
         const roleTrack = inferRoleTrack(`${title} ${category}`, content);
         const fitScore = inferFitScore(`${title} ${category} ${jobType}`, content, location);
         const type = garenaOpportunityType(title, jobType);
+        const deadlineInfo = deadlineInfoFor(content, context.checkedAt);
         const sourceLink = `${baseUrl}/${encodeURIComponent(String(job.id ?? ""))}`;
         const applicationLink = `${atsOrigin.replace(/\/$/, "")}/apply/${encodeURIComponent(String(job.id ?? ""))}`;
 
@@ -1286,8 +1400,9 @@ function createGarenaNuxtAdapter(source) {
           location,
           locationMode: inferLocationMode(location),
           roleTrack,
-          monitorStatus: existing ? "active" : "new",
+          monitorStatus: monitorStatusFor(existing, deadlineInfo),
           verified: true,
+          deadline: deadlineInfo.label,
           applicationLink,
           sourceLink,
           requiredQualifications: summarizeQualifications(content, [
@@ -1298,7 +1413,7 @@ function createGarenaNuxtAdapter(source) {
           ]).slice(0, 3),
           fitScore,
           fitReason: fitReasonFor(roleTrack, fitScore),
-          blockersRisks: risksFor({ ...job, content }, location, type),
+          blockersRisks: risksFor({ ...job, content }, location, type, deadlineInfo),
           portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
           dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
           lastCheckedDate: context.checkedDate,
@@ -1513,7 +1628,7 @@ function publicOpportunityFromMonitor(monitorRecord, checkedAt) {
     sourceName: "Game Monitor Official Adapter",
     url: monitorRecord.applicationLink,
     location: monitorRecord.location,
-    deadline: "Rolling / official posting open",
+    deadline: monitorRecord.deadline ?? "Not listed on official source",
     compensation: "TBD",
     eligibility: monitorRecord.publicEligibility ?? monitorRecord.requiredQualifications.join(" "),
     discoveredAt: `${monitorRecord.dateFirstFound}T19:00:00-07:00`,
@@ -1533,11 +1648,10 @@ function publicOpportunityFromMonitor(monitorRecord, checkedAt) {
 }
 
 function mergeMonitorOpportunity(existing, incoming) {
-  const persistedStatus = existing?.monitorStatus;
   const nextStatus =
-    persistedStatus === "urgent" && incoming.monitorStatus === "active"
-      ? "urgent"
-      : existing?.opportunityId?.startsWith("official-game-") && existing?.dateFirstFound === incoming.lastCheckedDate
+    incoming.monitorStatus === "active" &&
+    existing?.opportunityId?.startsWith("official-game-") &&
+    existing?.dateFirstFound === incoming.lastCheckedDate
         ? "new"
         : incoming.monitorStatus;
 
@@ -1752,7 +1866,7 @@ export async function runGameMonitor({
     }
   }
 
-  const nextOpportunities = dedupeMonitor(closedAwareMonitor);
+  const nextOpportunities = dedupeMonitor(closedAwareMonitor.map(ensureMonitorDeadline));
   const newRolesFound = changes.filter((change) => change.kind === "new").length;
   const verifiedOpenOpportunities = nextOpportunities.filter(
     (item) =>
@@ -1817,6 +1931,13 @@ function stripInternalMonitorFields(opportunity) {
   delete publicRecord.publicEligibility;
   delete publicRecord.sourceFeedLabel;
   return publicRecord;
+}
+
+function ensureMonitorDeadline(opportunity) {
+  return {
+    ...opportunity,
+    deadline: opportunity.deadline ?? "Not listed on official source",
+  };
 }
 
 function dedupeMonitor(opportunities) {
