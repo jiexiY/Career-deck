@@ -1420,15 +1420,7 @@ export async function runGameMonitor({
   }
 
   const nextOpportunities = dedupeMonitor(closedAwareMonitor);
-  const sameDayNewRoles = nextOpportunities.filter(
-    (item) => item.monitorStatus === "new" && item.dateFirstFound === checkedDate,
-  );
-  const sameDayNewChanges = sameDayNewRoles.map((item) => ({
-    kind: "new",
-    label: `${item.company}: ${item.roleTitle}`,
-    detail: `Verified official adapter role first found today with fit score ${item.fitScore}/10.`,
-  }));
-  const newRolesFound = Math.max(changes.filter((change) => change.kind === "new").length, sameDayNewRoles.length);
+  const newRolesFound = changes.filter((change) => change.kind === "new").length;
   const stillOpen = nextOpportunities.filter((item) => item.monitorStatus === "active" || item.monitorStatus === "urgent" || item.monitorStatus === "new").length;
   const urgent = nextOpportunities.filter((item) => item.monitorStatus === "urgent").length;
   const closed = nextOpportunities.filter((item) => item.monitorStatus === "closed").length;
@@ -1452,8 +1444,8 @@ export async function runGameMonitor({
       closed,
       bestFitOpportunityId: bestFit?.opportunityId ?? monitor.dailyBrief.bestFitOpportunityId,
       changes:
-        changes.length > 0 || sameDayNewChanges.length > 0
-          ? [...changes, ...sameDayNewChanges].slice(0, 8)
+        changes.length > 0
+          ? changes.slice(0, 8)
           : [
               {
                 kind: "source-check",

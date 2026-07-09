@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T03:48:55.831Z",
+  "updatedAt": "2026-07-09T04:04:57.369Z",
   "timezone": "America/Los_Angeles",
   "nextScheduledRun": "Daily at 7:00 PM Pacific via /api/cron/update-game-opportunities",
   "monitoringPolicy": {
@@ -15,51 +15,16 @@
   "dailyBrief": {
     "date": "2026-07-08",
     "summary": "Daily game monitor parsed official adapter feeds, updated verified roles, and preserved blocked/manual-review sources without fabricating missing data.",
-    "newRolesFound": 114,
+    "newRolesFound": 0,
     "stillOpen": 123,
     "urgent": 2,
     "closed": 109,
     "bestFitOpportunityId": "official-game-garena-marketing-associate-jakarta-j02071077",
     "changes": [
       {
-        "kind": "new",
-        "label": "thatgamecompany: Brand Intern-Vietnam",
-        "detail": "Verified official application route added with fit score 10/10."
-      },
-      {
-        "kind": "new",
-        "label": "thatgamecompany: Content & Creator Program Manager - Japan / ★ソーシャル・コンテンツストラテジスト",
-        "detail": "Verified official application route added with fit score 10/10."
-      },
-      {
-        "kind": "new",
-        "label": "thatgamecompany: Brand Marketing Manager - Indonesia",
-        "detail": "Verified official application route added with fit score 10/10."
-      },
-      {
-        "kind": "new",
-        "label": "thatgamecompany: Japan Community Manager",
-        "detail": "Verified official application route added with fit score 10/10."
-      },
-      {
-        "kind": "new",
-        "label": "thatgamecompany: Brand Intern-Japan",
-        "detail": "Verified official application route added with fit score 10/10."
-      },
-      {
-        "kind": "new",
-        "label": "thatgamecompany: Social Media Operation Intern - 新媒体运营实习生",
-        "detail": "Verified official application route added with fit score 7/10."
-      },
-      {
-        "kind": "new",
-        "label": "thatgamecompany: Brand Marketing Partner",
-        "detail": "Verified official application route added with fit score 10/10."
-      },
-      {
-        "kind": "new",
-        "label": "thatgamecompany: Brand Publishing Manager – Sky China",
-        "detail": "Verified official application route added with fit score 9/10."
+        "kind": "source-check",
+        "label": "Official adapter run",
+        "detail": "No new verified roles were found. Existing verified roles were refreshed from official source state."
       }
     ]
   },
@@ -151,7 +116,7 @@
       "company": "Papergames / Paper Games / 叠纸游戏",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "manual_review_required",
       "failureReason": "Official page is retained as the source of truth, but Mandarin role descriptions and JavaScript-rendered lists need reviewed extraction before automated publishing."
     },
@@ -160,7 +125,7 @@
       "company": "Infold Games",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "manual_review_required",
       "failureReason": "Infold roles are monitored through Paper Games career pages and require source-language preservation."
     },
@@ -171,7 +136,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "roblox",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "active"
     },
     {
@@ -184,7 +149,7 @@
       "pageSize": 20,
       "maxRecords": 180,
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "active"
     },
     {
@@ -194,7 +159,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "epicgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "active"
     },
     {
@@ -204,7 +169,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "neteasegames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "active"
     },
     {
@@ -217,7 +182,7 @@
       "pageSize": 20,
       "maxRecords": 400,
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "active"
     },
     {
@@ -227,17 +192,18 @@
       "adapterKey": "garena-nuxt",
       "atsOrigin": "https://ats.workatsea.com",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "active"
     },
     {
       "id": "game-source-hoyoverse",
       "company": "HoYoverse / miHoYo",
-      "url": "https://www.hoyoverse.com/en-us/careers",
-      "priority": "official",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
-      "status": "manual_review_required",
-      "failureReason": "No open internship was verified in the current curated data; keep as watchlist."
+      "url": "https://job-boards.greenhouse.io/hoyoverse",
+      "priority": "official_application_route",
+      "adapterKey": "greenhouse",
+      "boardToken": "hoyoverse",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
+      "status": "active"
     },
     {
       "id": "game-source-riot-greenhouse",
@@ -246,7 +212,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "riotgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "active"
     },
     {
@@ -254,7 +220,7 @@
       "company": "Niantic",
       "url": "https://nianticlabs.com/careers/openings",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "manual_review_required",
       "failureReason": "Official Niantic roles are monitored as a source record until a reviewed adapter is added."
     },
@@ -265,7 +231,7 @@
       "priority": "official_application_route",
       "adapterKey": "ashby",
       "boardToken": "thatgamecompany",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "active"
     },
     {
@@ -273,7 +239,7 @@
       "company": "LinkedIn game reposts",
       "url": "https://www.linkedin.com/jobs/",
       "priority": "reposting_watchlist",
-      "lastAttemptAt": "2026-07-09T03:48:55.831Z",
+      "lastAttemptAt": "2026-07-09T04:04:57.369Z",
       "status": "blocked",
       "failureReason": "Login and platform restrictions prevent compliant scraping."
     }

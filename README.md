@@ -141,10 +141,11 @@ does not add new roles from blocked, mirrored, or unparsed pages; new cards are
 published only when an official adapter verifies an application route. Current
 adapter coverage:
 
-- NetEase Games, Roblox, Epic Games, and Riot Games Greenhouse: official API
-  parsing, dedupe, status refresh, public card generation, fit scoring, source
-  links, risks, and prep checklist. The adapter publishes only roles that match
-  the target game ops/community/content/UX/early-career lane.
+- NetEase Games, Roblox, Epic Games, Riot Games, and HoYoverse Greenhouse:
+  official API parsing, dedupe, status refresh, public card generation, fit
+  scoring, source links, risks, and prep checklist. The adapter publishes only
+  roles that match the target game ops/community/content/UX/early-career lane;
+  HoYoverse is allowed to report zero open API jobs without fabricating cards.
 - Tencent Workday: official Workday CXS API pagination, detail enrichment,
   official application links, target-lane validation, dedupe, status refresh,
   public card generation, fit scoring, risks, and prep checklist.
@@ -158,7 +159,7 @@ adapter coverage:
 - thatgamecompany Ashby: official Ashby job-board API parsing, official
   `jobs.ashbyhq.com/thatgamecompany` application links, target-lane validation,
   source status refresh, fit scoring, risks, and prep checklist.
-- Paper Games / Infold, HoYoverse, and Niantic:
+- Paper Games / Infold and Niantic:
   checked as official source records and retained as manual-review sources until
   safe source-specific parsers are added.
 - LinkedIn reposts: kept blocked because login/platform restrictions prevent
