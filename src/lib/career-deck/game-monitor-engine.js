@@ -1,3 +1,5 @@
+import vm from "node:vm";
+
 const TARGET_TRACKS = [
   {
     track: "game operations",
@@ -141,8 +143,10 @@ const NON_TARGET_TITLE_KEYWORDS = [
   "human resources",
   "hr operations",
   "hr intern",
+  "human resources intern",
   "it operations",
   "business strategy analyst",
+  "programmer",
   "financial accounting",
   "accounting",
   "finance",
@@ -159,6 +163,9 @@ const NON_TARGET_TITLE_KEYWORDS = [
   "ai application",
   "game ai research",
   "solution architect",
+  "game mode developer",
+  "game developer",
+  "full stack developer",
   "technical artist",
   "environment artist",
   "lighting artist",
@@ -167,6 +174,9 @@ const NON_TARGET_TITLE_KEYWORDS = [
   "world model research",
   "nlp research",
   "anti-fraud",
+  "recruiter",
+  "hrbp",
+  "people team",
   "tencent cloud",
   "wechat",
   "wxg",
@@ -717,6 +727,209 @@ function createWorkdayAdapter(source) {
   };
 }
 
+function createGarenaNuxtAdapter(source) {
+  const baseUrl = source.url.replace(/\/$/, "");
+  const atsOrigin = source.atsOrigin ?? "https://ats.workatsea.com";
+
+  return {
+    key: "garena-nuxt",
+    source,
+    async fetch(context) {
+      const response = await context.fetch(source.url, {
+        cache: "no-store",
+        headers: monitorHeaders("text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"),
+        signal: AbortSignal.timeout(15_000),
+      });
+      const raw = await response.text();
+
+      if (!response.ok) {
+        return {
+          ok: false,
+          status: response.status === 404 ? "manual_review_required" : "blocked",
+          failureReason: blockedReason(response.status),
+          raw,
+          rawLength: raw.length,
+        };
+      }
+
+      return {
+        ok: true,
+        status: "active",
+        raw,
+        rawLength: raw.length,
+      };
+    },
+    async parse(result) {
+      if (!result.ok) return [];
+      const state = parseNuxtState(result.raw);
+      const jobs = state?.state?.Job?.jobList;
+
+      return Array.isArray(jobs) ? jobs : [];
+    },
+    async normalize(records, context) {
+      const normalized = [];
+
+      for (const job of records) {
+        const title = String(job.title ?? "Untitled role").trim();
+        const location = garenaTagText(job, "location") || "Location not listed";
+        const category = garenaTagText(job, "jobCategory");
+        const jobType = garenaTagText(job, "jobType");
+        const detail = await fetchGarenaDetail({ baseUrl, job, context });
+        const content = stripHtml([
+          title,
+          location,
+          category,
+          jobType,
+          job.description,
+          detail.description,
+          detail.jobDescription,
+          detail.jobRequirements,
+        ].join(" "));
+        const roleTrack = inferRoleTrack(`${title} ${category}`, content);
+        const fitScore = inferFitScore(`${title} ${category} ${jobType}`, content, location);
+        const type = garenaOpportunityType(title, jobType);
+        const sourceLink = `${baseUrl}/${encodeURIComponent(String(job.id ?? ""))}`;
+        const applicationLink = `${atsOrigin.replace(/\/$/, "")}/apply/${encodeURIComponent(String(job.id ?? ""))}`;
+
+        if (!job.id) continue;
+
+        const existing = findExistingMonitor(context.monitor, {
+          applicationLink,
+          company: source.company,
+          roleTitle: title,
+          location,
+        });
+        const opportunityId =
+          existing?.opportunityId ??
+          `official-game-${slugify(`${source.company}-${title}-${location}-${job.id}`)}`;
+
+        normalized.push({
+          opportunityId,
+          company: source.company,
+          roleTitle: title,
+          location,
+          locationMode: inferLocationMode(location),
+          roleTrack,
+          monitorStatus: existing ? "active" : "new",
+          verified: true,
+          applicationLink,
+          sourceLink,
+          requiredQualifications: summarizeQualifications(content, [
+            "Official Garena posting should be reviewed before final tailoring.",
+          ]),
+          preferredQualifications: summarizeQualifications(content, [
+            "Game/community/content/analytics proof improves fit for this lane.",
+          ]).slice(0, 3),
+          fitScore,
+          fitReason: fitReasonFor(roleTrack, fitScore),
+          blockersRisks: risksFor({ ...job, content }, location, type),
+          portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
+          dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
+          lastCheckedDate: context.checkedDate,
+          adapterSourceId: source.id,
+          publicType: type,
+          publicEligibility: content.slice(0, 240) || "Official Garena posting verified; details require source review.",
+          sourceCategory: category,
+          sourceJobType: jobType,
+          sourceFeedLabel: "Garena",
+        });
+      }
+
+      return normalized;
+    },
+    async validate(opportunity) {
+      const title = String(opportunity.roleTitle);
+      const category = String(opportunity.sourceCategory ?? "");
+      const jobType = String(opportunity.sourceJobType ?? "");
+      const relevanceText = `${title} ${category} ${jobType} ${opportunity.publicEligibility ?? ""}`;
+      const officialApplication = /^https:\/\/ats\.workatsea\.com\/apply\/J\d+/i.test(
+        String(opportunity.applicationLink),
+      );
+      const officialSource = /^https:\/\/careers\.garena\.com\/global\/careers\/J\d+/i.test(
+        String(opportunity.sourceLink),
+      );
+      const relevant =
+        textIncludesAny(relevanceText, TARGET_TITLE_KEYWORDS) ||
+        textIncludesAny(category, ["game operations", "marketing", "esports", "strategy", "business intelligence", "product management"]) ||
+        textIncludesAny(jobType, ["internship", "entry level"]);
+
+      if (!officialApplication || !officialSource) {
+        return {
+          valid: false,
+          reason: "Rejected because the official Garena source did not provide verifiable official application and source routes.",
+        };
+      }
+
+      if (hasHardExcludedTitle(title) || hasNonTargetTitle(title)) {
+        return {
+          valid: false,
+          reason: "Rejected because the title is technical/HR/legal or outside the requested game ops/community/content/UX/product/publishing lane.",
+        };
+      }
+
+      if (!relevant || opportunity.fitScore < 6) {
+        return {
+          valid: false,
+          reason: "Rejected as low-confidence for the requested game operations/community/content/UX lane.",
+        };
+      }
+
+      return { valid: true };
+    },
+    async save(opportunities) {
+      return { saved: opportunities.length };
+    },
+  };
+}
+
+function parseNuxtState(html) {
+  const match = String(html).match(/<script>window\.__NUXT__=([\s\S]*?)<\/script>/);
+  if (!match) return null;
+
+  const context = { window: {} };
+  vm.runInNewContext(`window.__NUXT__=${match[1]}`, context, {
+    timeout: 1_000,
+    contextCodeGeneration: { strings: false, wasm: false },
+  });
+
+  return context.window.__NUXT__ ?? null;
+}
+
+function garenaTagText(job, key) {
+  const value = job?.tags?.[key];
+  return Array.isArray(value) ? value.filter(Boolean).join(", ") : String(value ?? "").trim();
+}
+
+function garenaOpportunityType(title, jobType) {
+  const text = `${title} ${jobType}`.toLowerCase();
+  if (text.includes("intern")) return "internship";
+  if (text.includes("trainee") || text.includes("development program")) return "training-program";
+  if (text.includes("freelance") || text.includes("contract")) return "part-time";
+  if (text.includes("entry level")) return "full-time";
+  return inferOpportunityType(title);
+}
+
+async function fetchGarenaDetail({ baseUrl, job, context }) {
+  if (!job.id || hasHardExcludedTitle(String(job.title ?? "")) || hasNonTargetTitle(String(job.title ?? ""))) {
+    return {};
+  }
+
+  try {
+    const response = await context.fetch(`${baseUrl}/${encodeURIComponent(String(job.id))}`, {
+      cache: "no-store",
+      headers: monitorHeaders("text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"),
+      signal: AbortSignal.timeout(8_000),
+    });
+
+    if (!response.ok) return {};
+
+    const state = parseNuxtState(await response.text());
+    return state?.state?.Job?.jobDetail ?? {};
+  } catch {
+    return {};
+  }
+}
+
 function workdayConfigFromSource(source) {
   const url = new URL(source.url);
   const siteId = source.siteId ?? url.pathname.split("/").filter(Boolean)[0];
@@ -893,9 +1106,16 @@ function markClosedMissingOfficialRoles(current, openUrls, checkedDate, successf
 
 function createAdapters(sources) {
   return sources
-    .filter((source) => source.adapterKey === "greenhouse" || source.adapterKey === "workday" || source.boardToken)
+    .filter(
+      (source) =>
+        source.adapterKey === "greenhouse" ||
+        source.adapterKey === "workday" ||
+        source.adapterKey === "garena-nuxt" ||
+        source.boardToken,
+    )
     .map((source) => {
       if (source.adapterKey === "workday") return createWorkdayAdapter(source);
+      if (source.adapterKey === "garena-nuxt") return createGarenaNuxtAdapter(source);
       return createGreenhouseAdapter(source);
     });
 }

@@ -26,9 +26,10 @@ instead of being guessed into real opportunity records.
   daily brief, and portfolio prep.
 - `src/lib/career-deck/game-monitor-engine.js` runs replaceable game-source
   adapters. The current production adapters read official Greenhouse APIs for
-  NetEase Games, Roblox, Epic Games, and Riot Games, plus official Workday CXS
-  feeds for Tencent and Unity, then update both monitor metadata and public
-  opportunity cards.
+  NetEase Games, Roblox, Epic Games, and Riot Games, official Workday CXS feeds
+  for Tencent and Unity, and Garena's official server-rendered career data plus
+  WorkatSea ATS routes, then update both monitor metadata and public opportunity
+  cards.
 - `scripts/update-game-opportunities.mjs` refreshes the game monitor locally
   and can commit the changed JSON when run with `--commit`.
 
@@ -150,7 +151,11 @@ adapter coverage:
 - Unity Workday: official Workday CXS API route configured with the same target
   lane validation; generic HR/IT/business-strategy roles are rejected instead of
   being shown as game opportunities.
-- Paper Games / Infold, Garena, HoYoverse, Niantic, and thatgamecompany:
+- Garena official careers + WorkatSea ATS: official server-rendered career page
+  parsing, official detail/apply links, target-lane validation, fit scoring,
+  risks, and prep checklist. Technical programming/engineering and HR/legal
+  roles are rejected rather than published.
+- Paper Games / Infold, HoYoverse, Niantic, and thatgamecompany:
   checked as official source records and retained as manual-review sources until
   safe source-specific parsers are added.
 - LinkedIn reposts: kept blocked because login/platform restrictions prevent

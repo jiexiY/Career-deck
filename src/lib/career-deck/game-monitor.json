@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T02:52:04.616Z",
+  "updatedAt": "2026-07-09T03:14:31.799Z",
   "timezone": "America/Los_Angeles",
   "nextScheduledRun": "Daily at 7:00 PM Pacific via /api/cron/update-game-opportunities",
   "monitoringPolicy": {
@@ -15,21 +15,31 @@
   "dailyBrief": {
     "date": "2026-07-08",
     "summary": "Daily game monitor parsed official adapter feeds, updated verified roles, and preserved blocked/manual-review sources without fabricating missing data.",
-    "newRolesFound": 78,
-    "stillOpen": 87,
+    "newRolesFound": 106,
+    "stillOpen": 115,
     "urgent": 2,
-    "closed": 106,
-    "bestFitOpportunityId": "library-game-2026-07-01-netease-social-media-content-marketing-intern",
+    "closed": 109,
+    "bestFitOpportunityId": "official-game-garena-marketing-associate-jakarta-j02071077",
     "changes": [
       {
         "kind": "new",
-        "label": "Tencent / Level Infinite / TiMi / Lightspeed: Video Generation Content Understanding and Feedback Research Intern",
-        "detail": "Verified official application route added with fit score 6/10."
+        "label": "Garena: Marketing Associate",
+        "detail": "Verified official adapter role first found today with fit score 10/10."
       },
       {
         "kind": "new",
-        "label": "Riot Games: Publishing Operations Manager - Teamfight Tactics (Contract)",
-        "detail": "Verified official application route added with fit score 10/10."
+        "label": "Garena: Marketing Associate",
+        "detail": "Verified official adapter role first found today with fit score 10/10."
+      },
+      {
+        "kind": "new",
+        "label": "Garena: [HN, Lien Quan Mobile] Assistant Manager, Marketing (Brand Manager)",
+        "detail": "Verified official adapter role first found today with fit score 10/10."
+      },
+      {
+        "kind": "new",
+        "label": "Garena: [HCM, FC Mobile] Cộng tác viên Campaign Marketing",
+        "detail": "Verified official adapter role first found today with fit score 10/10."
       },
       {
         "kind": "new",
@@ -49,16 +59,6 @@
       {
         "kind": "new",
         "label": "NetEase Games: Influencer Marketing Manager（ Global Growth）",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
-      },
-      {
-        "kind": "new",
-        "label": "NetEase Games: Marketing Campaign (IP/Branding)",
-        "detail": "Verified official adapter role first found today with fit score 10/10."
-      },
-      {
-        "kind": "new",
-        "label": "NetEase Games: Overseas KOL/Influencer Operations Specialist (Singapore)",
         "detail": "Verified official adapter role first found today with fit score 10/10."
       }
     ]
@@ -151,7 +151,7 @@
       "company": "Papergames / Paper Games / 叠纸游戏",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "manual_review_required",
       "failureReason": "Official page is retained as the source of truth, but Mandarin role descriptions and JavaScript-rendered lists need reviewed extraction before automated publishing."
     },
@@ -160,7 +160,7 @@
       "company": "Infold Games",
       "url": "https://career.papegames.com/EN",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "manual_review_required",
       "failureReason": "Infold roles are monitored through Paper Games career pages and require source-language preservation."
     },
@@ -171,7 +171,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "roblox",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "active"
     },
     {
@@ -184,7 +184,7 @@
       "pageSize": 20,
       "maxRecords": 180,
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "active"
     },
     {
@@ -194,7 +194,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "epicgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "active"
     },
     {
@@ -204,7 +204,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "neteasegames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "active"
     },
     {
@@ -217,24 +217,25 @@
       "pageSize": 20,
       "maxRecords": 400,
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "active"
     },
     {
       "id": "game-source-garena",
       "company": "Garena",
       "url": "https://careers.garena.com/global/careers",
-      "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
-      "status": "manual_review_required",
-      "failureReason": "Source is reachable, but no reviewed parser adapter is configured. Manual review required before publishing roles."
+      "adapterKey": "garena-nuxt",
+      "atsOrigin": "https://ats.workatsea.com",
+      "priority": "official_application_route",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
+      "status": "active"
     },
     {
       "id": "game-source-hoyoverse",
       "company": "HoYoverse / miHoYo",
       "url": "https://www.hoyoverse.com/en-us/careers",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "manual_review_required",
       "failureReason": "No open internship was verified in the current curated data; keep as watchlist."
     },
@@ -245,7 +246,7 @@
       "adapterKey": "greenhouse",
       "boardToken": "riotgames",
       "priority": "official_application_route",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "active"
     },
     {
@@ -253,7 +254,7 @@
       "company": "Niantic",
       "url": "https://nianticlabs.com/careers/openings",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "manual_review_required",
       "failureReason": "Official Niantic roles are monitored as a source record until a reviewed adapter is added."
     },
@@ -262,7 +263,7 @@
       "company": "thatgamecompany",
       "url": "https://thatgamecompany.com/careers/",
       "priority": "official",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "manual_review_required",
       "failureReason": "Official thatgamecompany roles are monitored as a source record until a reviewed adapter is added."
     },
@@ -271,12 +272,159 @@
       "company": "LinkedIn game reposts",
       "url": "https://www.linkedin.com/jobs/",
       "priority": "reposting_watchlist",
-      "lastAttemptAt": "2026-07-09T02:52:04.616Z",
+      "lastAttemptAt": "2026-07-09T03:14:31.799Z",
       "status": "blocked",
       "failureReason": "Login and platform restrictions prevent compliant scraping."
     }
   ],
   "opportunities": [
+    {
+      "opportunityId": "official-game-garena-marketing-associate-jakarta-j02071077",
+      "company": "Garena",
+      "roleTitle": "Marketing Associate",
+      "location": "Jakarta",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02071077",
+      "sourceLink": "https://careers.garena.com/global/careers/J02071077",
+      "requiredQualifications": [
+        "Managing budgets and campaigns across all marketing channels to drive strong return on investment and efficient customer acquisition cost Ensuring successful planning, execution, optimization for key traffic KPIs via paid, organic, and media channels Evaluate and recommend marketing and partnership plans by identifying a potential opportunity, and execute on the approved plans Working closely with designers and video editors to produce creative contents for any marketing use Minimum a bachelor's degree from a reputable university Fresh graduate up to 3 years of working experience creating end to end marketing plans and executing marketing campaigns, previous internship or working experience within similar field will be a bonus point Strong critical thinking and problem solving skills to plan an excellent marketing campaign that has a great impact on the users Driven and passionate individuals to drive the marketing initiatives and achieve the goals with minimum supervision High creativity and ability to think outside the box Excellent written and oral communication skills in Bahasa and English along with the ability to effectively collaborate with cross-functional teams Passionate about games with a good knowledge of the gaming industry in Indonesia"
+      ],
+      "preferredQualifications": [
+        "Managing budgets and campaigns across all marketing channels to drive strong return on investment and efficient customer acquisition cost Ensuring successful planning, execution, optimization for key traffic KPIs via paid, organic, and media channels Evaluate and recommend marketing and partnership plans by identifying a potential opportunity, and execute on the approved plans Working closely with designers and video editors to produce creative contents for any marketing use Minimum a bachelor's degree from a reputable university Fresh graduate up to 3 years of working experience creating end to end marketing plans and executing marketing campaigns, previous internship or working experience within similar field will be a bonus point Strong critical thinking and problem solving skills to plan an excellent marketing campaign that has a great impact on the users Driven and passionate individuals to drive the marketing initiatives and achieve the goals with minimum supervision High creativity and ability to think outside the box Excellent written and oral communication skills in Bahasa and English along with the ability to effectively collaborate with cross-functional teams Passionate about games with a good knowledge of the gaming industry in Indonesia"
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Entry Level"
+    },
+    {
+      "opportunityId": "official-game-garena-marketing-associate-casablanca-j02118460",
+      "company": "Garena",
+      "roleTitle": "Marketing Associate",
+      "location": "Casablanca",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02118460",
+      "sourceLink": "https://careers.garena.com/global/careers/J02118460",
+      "requiredQualifications": [
+        "Creating and executing a strong marketing strategy & execution plan for our game publishing in various marketing channels, including social media, community, KOLs, performance marketing, and offline events Managing budgets and campaigns across all marketing channels to drive strong return on investment and efficient Customer Acquisition Cost Ensuring successful planning, execution, and optimization for key traffic KPIs via paid, organic, and media channels Evaluate and recommend marketing and partnership plans by identifying a potential opportunity and executing the approved plans Working closely with designers and video editors to produce creative content for any marketing use Minimum a Master's degree from a reputable university At least 2 - 3 years of working experience in developing end-to-end marketing plans and executing integrated marketing campaigns Strong critical thinking and problem-solving skills to design high-impact marketing campaigns that drive user engagement and measurable results Detail-oriented with strong project management skills, ensuring accuracy and quality across all marketing deliverables Driven and passionate individual, capable of leading marketing initiatives and achieving targets with minimal supervision Highly creative with the ability to think outside the box and translate ideas into effective execution Excellent written and oral communication skills in Arabic, French, and English along with the ability to effectively collaborate with cross-functional teams Passionate about games, with good knowledge of the gaming industry as a strong advantage"
+      ],
+      "preferredQualifications": [
+        "Creating and executing a strong marketing strategy & execution plan for our game publishing in various marketing channels, including social media, community, KOLs, performance marketing, and offline events Managing budgets and campaigns across all marketing channels to drive strong return on investment and efficient Customer Acquisition Cost Ensuring successful planning, execution, and optimization for key traffic KPIs via paid, organic, and media channels Evaluate and recommend marketing and partnership plans by identifying a potential opportunity and executing the approved plans Working closely with designers and video editors to produce creative content for any marketing use Minimum a Master's degree from a reputable university At least 2 - 3 years of working experience in developing end-to-end marketing plans and executing integrated marketing campaigns Strong critical thinking and problem-solving skills to design high-impact marketing campaigns that drive user engagement and measurable results Detail-oriented with strong project management skills, ensuring accuracy and quality across all marketing deliverables Driven and passionate individual, capable of leading marketing initiatives and achieving targets with minimal supervision Highly creative with the ability to think outside the box and translate ideas into effective execution Excellent written and oral communication skills in Arabic, French, and English along with the ability to effectively collaborate with cross-functional teams Passionate about games, with good knowledge of the gaming industry as a strong advantage"
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Game Operations",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
+      "opportunityId": "official-game-garena-hn-lien-quan-mobile-assistant-manager-marketing-brand-manager-hanoi-j02113848",
+      "company": "Garena",
+      "roleTitle": "[HN, Lien Quan Mobile] Assistant Manager, Marketing (Brand Manager)",
+      "location": "Hanoi",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02113848",
+      "sourceLink": "https://careers.garena.com/global/careers/J02113848",
+      "requiredQualifications": [
+        "Your work will play a vital role in shaping the AoV brand experience and inspiring millions of players across the gaming community.",
+        "Your work will play a vital role in shaping the AoV brand experience and inspiring millions of players across the gaming community.",
+        "Experience: Min 6 years of experience with proven records in end-to-end IMC Marketing Background: Bachelor's degree from reputable universities or equivalent practical experience Gaming Passion: Demonstrated ability to play and thoroughly understand the gameplay mechanics of a midcore/hardcore game Project Management & Stakeholder Management: Proven excellence in managing complex projects, including critical paths, risk logs, and asset QA; strong ability to align and collaborate with cross-functional stakeholders across Product, Creative, and Legal teams.",
+        "Creative Vision & Execution: Demonstrated ability to independently originate communication/action concepts with clear end-states, build work-back plans, and lead cross-functional teams to successful delivery."
+      ],
+      "preferredQualifications": [
+        "Your work will play a vital role in shaping the AoV brand experience and inspiring millions of players across the gaming community.",
+        "Your work will play a vital role in shaping the AoV brand experience and inspiring millions of players across the gaming community.",
+        "Experience: Min 6 years of experience with proven records in end-to-end IMC Marketing Background: Bachelor's degree from reputable universities or equivalent practical experience Gaming Passion: Demonstrated ability to play and thoroughly understand the gameplay mechanics of a midcore/hardcore game Project Management & Stakeholder Management: Proven excellence in managing complex projects, including critical paths, risk logs, and asset QA; strong ability to align and collaborate with cross-functional stakeholders across Product, Creative, and Legal teams."
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
+      "opportunityId": "official-game-garena-hcm-fc-mobile-cong-tac-vien-campaign-marketing-ho-chi-minh-city-j02142912",
+      "company": "Garena",
+      "roleTitle": "[HCM, FC Mobile] Cộng tác viên Campaign Marketing",
+      "location": "Ho Chi Minh City",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02142912",
+      "sourceLink": "https://careers.garena.com/global/careers/J02142912",
+      "requiredQualifications": [
+        "Official Garena posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 10,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Internship"
+    },
     {
       "opportunityId": "library-game-2026-07-01-netease-social-media-content-marketing-intern",
       "company": "NetEase Games",
@@ -991,6 +1139,226 @@
       "adapterSourceId": "game-source-tencent-workday"
     },
     {
+      "opportunityId": "official-game-garena-garena-internship-program-jakarta-j02067184",
+      "company": "Garena",
+      "roleTitle": "Garena Internship Program",
+      "location": "Jakarta",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02067184",
+      "sourceLink": "https://careers.garena.com/global/careers/J02067184",
+      "requiredQualifications": [
+        "Product: Develop innovative features, enhance user experience, and deliver products that players love."
+      ],
+      "preferredQualifications": [
+        "Product: Develop innovative features, enhance user experience, and deliver products that players love."
+      ],
+      "fitScore": 9,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Strategy",
+      "sourceJobType": "Internship"
+    },
+    {
+      "opportunityId": "official-game-garena-esports-manager-ph-based-manila-j02120537",
+      "company": "Garena",
+      "roleTitle": "Esports Manager (PH-Based)",
+      "location": "Manila",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "product operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02120537",
+      "sourceLink": "https://careers.garena.com/global/careers/J02120537",
+      "requiredQualifications": [
+        "Minimum 3+ years of experience in the esports industry, ideally in esports or league operations for battle royale or shooting games.",
+        "Experience and passion in the gaming industry is a plus.",
+        "Strong project management and budget control skills, with proven experience delivering large-scale events."
+      ],
+      "preferredQualifications": [
+        "Minimum 3+ years of experience in the esports industry, ideally in esports or league operations for battle royale or shooting games.",
+        "Experience and passion in the gaming industry is a plus.",
+        "Strong project management and budget control skills, with proven experience delivering large-scale events."
+      ],
+      "fitScore": 9,
+      "fitReason": "Strong product operations match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Esports",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
+      "opportunityId": "official-game-garena-product-operations-rov-bangkok-j02148658",
+      "company": "Garena",
+      "roleTitle": "Product Operations - RoV",
+      "location": "Bangkok",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "product operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02148658",
+      "sourceLink": "https://careers.garena.com/global/careers/J02148658",
+      "requiredQualifications": [
+        "Product Operations - RoV Bangkok Experienced (Individual Contributor) Support product operations and data analysis to improve player experience and product performance.",
+        "2–4 years of experience in product operations, digital products, data analytics, or related fields.",
+        "Strong understanding of player behavior, user experience, and gaming trends."
+      ],
+      "preferredQualifications": [
+        "Product Operations - RoV Bangkok Experienced (Individual Contributor) Support product operations and data analysis to improve player experience and product performance.",
+        "2–4 years of experience in product operations, digital products, data analytics, or related fields.",
+        "Strong understanding of player behavior, user experience, and gaming trends."
+      ],
+      "fitScore": 9,
+      "fitReason": "Strong product operations match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
+      "opportunityId": "official-game-garena-hn-lien-quan-mobile-cong-tac-vien-campaign-marketing-hanoi-j00385803",
+      "company": "Garena",
+      "roleTitle": "[HN, Liên Quân Mobile] Cộng tác viên Campaign Marketing",
+      "location": "Hanoi",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J00385803",
+      "sourceLink": "https://careers.garena.com/global/careers/J00385803",
+      "requiredQualifications": [
+        "Official Garena posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 9,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Internship"
+    },
+    {
+      "opportunityId": "official-game-garena-esports-operations-associate-delta-force-contract-bangkok-j02159975",
+      "company": "Garena",
+      "roleTitle": "Esports Operations Associate - Delta Force (Contract)",
+      "location": "Bangkok",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02159975",
+      "sourceLink": "https://careers.garena.com/global/careers/J02159975",
+      "requiredQualifications": [
+        "Good project management skills with the ability to handle multiple tasks and meet deadlines."
+      ],
+      "preferredQualifications": [
+        "Good project management skills with the ability to handle multiple tasks and meet deadlines."
+      ],
+      "fitScore": 9,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Esports",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
+      "opportunityId": "official-game-garena-social-media-community-specialist-jakarta-j00239726",
+      "company": "Garena",
+      "roleTitle": "Social Media & Community Specialist",
+      "location": "Jakarta",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J00239726",
+      "sourceLink": "https://careers.garena.com/global/careers/J00239726",
+      "requiredQualifications": [
+        "Minimum Bachelor's degree from a reputable university with at least 1 year of experience in social media, community management, or performance marketing Strong project management and prioritization skill Ability to initiate and monitor several simultaneous channels and projects Proactive collaborator; able to actively engage and initiate collaboration with community builders that contribute towards the growth of the community Critical problem-solver; able to identify core issues from multiple perspectives and drive the right approach to solve them efficiently within timelines Excellent written and oral communication skills in Bahasa and English, along with the ability to effectively collaborate with cross-functional teams Highly passionate about games with a good knowledge of the gaming industry in Indonesia; having a deeper curiosity for game products and the industry's best practice"
+      ],
+      "preferredQualifications": [
+        "Minimum Bachelor's degree from a reputable university with at least 1 year of experience in social media, community management, or performance marketing Strong project management and prioritization skill Ability to initiate and monitor several simultaneous channels and projects Proactive collaborator; able to actively engage and initiate collaboration with community builders that contribute towards the growth of the community Critical problem-solver; able to identify core issues from multiple perspectives and drive the right approach to solve them efficiently within timelines Excellent written and oral communication skills in Bahasa and English, along with the ability to effectively collaborate with cross-functional teams Highly passionate about games with a good knowledge of the gaming industry in Indonesia; having a deeper curiosity for game products and the industry's best practice"
+      ],
+      "fitScore": 9,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Game Operations",
+      "sourceJobType": "Entry Level"
+    },
+    {
       "opportunityId": "library-game-2026-07-01-netease-user-experience-center-junior-ux-designer",
       "company": "NetEase Games",
       "roleTitle": "User Experience Center - Junior UX Designer",
@@ -1515,6 +1883,189 @@
       ],
       "dateFirstFound": "2026-07-01",
       "lastCheckedDate": "2026-07-08"
+    },
+    {
+      "opportunityId": "official-game-garena-hn-delta-force-cong-tac-vien-community-marketing-hanoi-j02100038",
+      "company": "Garena",
+      "roleTitle": "[HN, Delta Force] Cộng tác viên Community Marketing",
+      "location": "Hanoi",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02100038",
+      "sourceLink": "https://careers.garena.com/global/careers/J02100038",
+      "requiredQualifications": [
+        "Official Garena posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 8,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Internship"
+    },
+    {
+      "opportunityId": "official-game-garena-general-marketing-dhaka-j02022384",
+      "company": "Garena",
+      "roleTitle": "General Marketing",
+      "location": "Dhaka",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02022384",
+      "sourceLink": "https://careers.garena.com/global/careers/J02022384",
+      "requiredQualifications": [
+        "General Marketing Dhaka Marketing Experienced (Individual Contributor) Plan and implement marketing campaigns tailored for the Bangladesh market Drive brand development initiatives to strengthen the core identity of our games through impactful campaigns and strategic projects Identify and leverage trending Free Fire content across social media platforms to boost brand exposure and community engagement 3+ years of marketing experience, preferably in the gaming industry Physically based in Dhaka, Bangladesh Excellent communication skills, fluent in both Bengali and English Proven experience in marketing, with a strong track record of planning and executing successful campaigns Strong problem-solving abilities and a proactive mindset Interested and willing to pick up and master Free Fire Passionate about gaming with a deep understanding of the industry Open to a 12-month contract This position is offered on an independent contractor basis."
+      ],
+      "preferredQualifications": [
+        "General Marketing Dhaka Marketing Experienced (Individual Contributor) Plan and implement marketing campaigns tailored for the Bangladesh market Drive brand development initiatives to strengthen the core identity of our games through impactful campaigns and strategic projects Identify and leverage trending Free Fire content across social media platforms to boost brand exposure and community engagement 3+ years of marketing experience, preferably in the gaming industry Physically based in Dhaka, Bangladesh Excellent communication skills, fluent in both Bengali and English Proven experience in marketing, with a strong track record of planning and executing successful campaigns Strong problem-solving abilities and a proactive mindset Interested and willing to pick up and master Free Fire Passionate about gaming with a deep understanding of the industry Open to a 12-month contract This position is offered on an independent contractor basis."
+      ],
+      "fitScore": 8,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
+      "opportunityId": "official-game-garena-associate-project-coordinator-contract-singapore-j02112091",
+      "company": "Garena",
+      "roleTitle": "Associate, Project Coordinator (Contract)",
+      "location": "Singapore",
+      "locationMode": "in_person",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02112091",
+      "sourceLink": "https://careers.garena.com/global/careers/J02112091",
+      "requiredQualifications": [
+        "Minimum 1 year of experience in a Project Management, Account Management, or Project Coordinator role, involving multi-stakeholder coordination and end-to-end project management.",
+        "Prior experience in IP Licensing or Game Operations is a plus.",
+        "Experience working directly with stakeholders to support day-to-day operations and ensure alignment with local market requirements is a plus.",
+        "A proactive self-starter with the ability to work independently and take ownership of tasks."
+      ],
+      "preferredQualifications": [
+        "Minimum 1 year of experience in a Project Management, Account Management, or Project Coordinator role, involving multi-stakeholder coordination and end-to-end project management.",
+        "Prior experience in IP Licensing or Game Operations is a plus.",
+        "Experience working directly with stakeholders to support day-to-day operations and ensure alignment with local market requirements is a plus."
+      ],
+      "fitScore": 8,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Game Operations",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
+      "opportunityId": "official-game-garena-hn-delta-force-cong-tac-vien-campaign-marketing-hanoi-j02144762",
+      "company": "Garena",
+      "roleTitle": "[HN, Delta Force] Cộng tác viên Campaign Marketing",
+      "location": "Hanoi",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02144762",
+      "sourceLink": "https://careers.garena.com/global/careers/J02144762",
+      "requiredQualifications": [
+        "Official Garena posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 8,
+      "fitReason": "Strong content marketing match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Internship"
+    },
+    {
+      "opportunityId": "official-game-garena-strategy-operations-jakarta-j02159399",
+      "company": "Garena",
+      "roleTitle": "Strategy & Operations",
+      "location": "Jakarta",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "version/live ops",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02159399",
+      "sourceLink": "https://careers.garena.com/global/careers/J02159399",
+      "requiredQualifications": [
+        "Conduct market research and competitive analysis to stay informed about industry trends, user needs, and competitor offerings Analyze campaign performance and user feedback to optimize strategies and tactics for maximum effectiveness Recruit, train, and manage a team of community moderators and volunteers to support community programs and events A bachelor's degree in a marketing or business-related field from top reputable universities will be advantageous 1-4 years working experience in a strategy consulting firm or strategic planning functions or marketing related functions Highly motivated and driven individuals who are creative, adaptable, and enjoy solving challenging problems in the game industry who have strong records of academic and professional achievement Possess strong logical, analytical, and critical thinking abilities in identifying problems and coming up with effective solutions.",
+        "Excellent written and oral communication skills in Bahasa and English along with the ability to effectively collaborate with cross-functional teams Highly passionate about games with a good knowledge of the gaming industry in Indonesia; having a deeper curiosity for game products and the industry's best practice"
+      ],
+      "preferredQualifications": [
+        "Conduct market research and competitive analysis to stay informed about industry trends, user needs, and competitor offerings Analyze campaign performance and user feedback to optimize strategies and tactics for maximum effectiveness Recruit, train, and manage a team of community moderators and volunteers to support community programs and events A bachelor's degree in a marketing or business-related field from top reputable universities will be advantageous 1-4 years working experience in a strategy consulting firm or strategic planning functions or marketing related functions Highly motivated and driven individuals who are creative, adaptable, and enjoy solving challenging problems in the game industry who have strong records of academic and professional achievement Possess strong logical, analytical, and critical thinking abilities in identifying problems and coming up with effective solutions.",
+        "Excellent written and oral communication skills in Bahasa and English along with the ability to effectively collaborate with cross-functional teams Highly passionate about games with a good knowledge of the gaming industry in Indonesia; having a deeper curiosity for game products and the industry's best practice"
+      ],
+      "fitScore": 8,
+      "fitReason": "Strong version/live ops match for Sociology + Statistics, community/content research, analytics, and AI Club project leadership.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Strategy",
+      "sourceJobType": "Experienced (Individual Contributor)"
     },
     {
       "opportunityId": "library-game-2026-07-01-papergames-infold-recruitment-intern-game-rd-planning",
@@ -2059,6 +2610,263 @@
       "adapterSourceId": "game-source-tencent-workday"
     },
     {
+      "opportunityId": "official-game-garena-revenue-associate-jakarta-j02071071",
+      "company": "Garena",
+      "roleTitle": "Revenue Associate",
+      "location": "Jakarta",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "early-career game production",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02071071",
+      "sourceLink": "https://careers.garena.com/global/careers/J02071071",
+      "requiredQualifications": [
+        "Cross-functional collaboration to ensure the In-game revenue event launched smoothly Minimum a bachelor's degree in a business-related or engineering field from top reputable university Fresh graduate up to 3 years of experience in the business strategy or relevant field, having similar internship experiences within strategy or data related field will be a bonus point Proven understanding of gaming monetization, including knowledge of micro-transactions and monetization strategies.",
+        "Able to evaluate features, systems, and mechanics conceptually to identify potential revenue drivers while maintaining a sustainable and positive user experience.",
+        "Strong logical and data-driven mindset with the ability to translate analysis into clear, actionable strategic insights.",
+        "Strong project management skills with a proven track record of successful project deliveries Excellent written and verbal communication in both Bahasa Indonesia and English, with the ability to collaborate effectively across teams."
+      ],
+      "preferredQualifications": [
+        "Cross-functional collaboration to ensure the In-game revenue event launched smoothly Minimum a bachelor's degree in a business-related or engineering field from top reputable university Fresh graduate up to 3 years of experience in the business strategy or relevant field, having similar internship experiences within strategy or data related field will be a bonus point Proven understanding of gaming monetization, including knowledge of micro-transactions and monetization strategies.",
+        "Able to evaluate features, systems, and mechanics conceptually to identify potential revenue drivers while maintaining a sustainable and positive user experience.",
+        "Strong logical and data-driven mindset with the ability to translate analysis into clear, actionable strategic insights."
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant early-career game production path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Strategy",
+      "sourceJobType": "Entry Level"
+    },
+    {
+      "opportunityId": "official-game-garena-garena-development-program-jakarta-j02067139",
+      "company": "Garena",
+      "roleTitle": "Garena Development Program",
+      "location": "Jakarta",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02067139",
+      "sourceLink": "https://careers.garena.com/global/careers/J02067139",
+      "requiredQualifications": [
+        "Through GDP, you will join dynamic working environment and contribute to impactful projects in areas such as Marketing, Product, Growth & Monetization, and more—while gaining valuable hands-on and strategic experience.",
+        "Through GDP, you will join dynamic working environment and contribute to impactful projects in areas such as Marketing, Product, Growth & Monetization, and more—while gaining valuable hands-on and strategic experience.",
+        "Product: Develop innovative features, enhance user experience, and deliver products that players love.",
+        "Fresh graduates and young professionals with up to 2 years of experience."
+      ],
+      "preferredQualifications": [
+        "Through GDP, you will join dynamic working environment and contribute to impactful projects in areas such as Marketing, Product, Growth & Monetization, and more—while gaining valuable hands-on and strategic experience.",
+        "Through GDP, you will join dynamic working environment and contribute to impactful projects in areas such as Marketing, Product, Growth & Monetization, and more—while gaining valuable hands-on and strategic experience.",
+        "Product: Develop innovative features, enhance user experience, and deliver products that players love."
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant content marketing path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Strategy",
+      "sourceJobType": "Entry Level"
+    },
+    {
+      "opportunityId": "official-game-garena-hn-lien-quan-mobile-freelance-content-production-hanoi-j02100908",
+      "company": "Garena",
+      "roleTitle": "[HN, Liên Quân Mobile] Freelance Content Production",
+      "location": "Hanoi",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02100908",
+      "sourceLink": "https://careers.garena.com/global/careers/J02100908",
+      "requiredQualifications": [
+        "Official Garena posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant content marketing path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Internship"
+    },
+    {
+      "opportunityId": "official-game-garena-hn-lien-quan-mobile-freelance-eventproduction-hanoi-j02141131",
+      "company": "Garena",
+      "roleTitle": "[HN, Liên Quân Mobile] Freelance Event/Production",
+      "location": "Hanoi",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "early-career game production",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02141131",
+      "sourceLink": "https://careers.garena.com/global/careers/J02141131",
+      "requiredQualifications": [
+        "Official Garena posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant early-career game production path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Internship"
+    },
+    {
+      "opportunityId": "official-game-garena-hcm-game-team-cong-tac-vien-marketing-ho-chi-minh-city-j02092901",
+      "company": "Garena",
+      "roleTitle": "[HCM, Game Team] Cộng tác viên Marketing",
+      "location": "Ho Chi Minh City",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02092901",
+      "sourceLink": "https://careers.garena.com/global/careers/J02092901",
+      "requiredQualifications": [
+        "Official Garena posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant content marketing path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Internship"
+    },
+    {
+      "opportunityId": "official-game-garena-intern-game-designer-singapore-j02105882",
+      "company": "Garena",
+      "roleTitle": "Intern, Game Designer",
+      "location": "Singapore",
+      "locationMode": "in_person",
+      "roleTrack": "game UX/product planning",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02105882",
+      "sourceLink": "https://careers.garena.com/global/careers/J02105882",
+      "requiredQualifications": [
+        "Basic understanding of game design principles, mechanics, and user experience.",
+        "Basic knowledge of design tools and documentation practices."
+      ],
+      "preferredQualifications": [
+        "Basic understanding of game design principles, mechanics, and user experience.",
+        "Basic knowledge of design tools and documentation practices."
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant game UX/product planning path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "UX/game system teardown"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "",
+      "sourceJobType": "Internship"
+    },
+    {
+      "opportunityId": "official-game-garena-hcmhn-ao-dien-chuong-trinh-esports-ho-chi-minh-city-j02159382",
+      "company": "Garena",
+      "roleTitle": "[HCM/HN] Đạo diễn chương trình Esports",
+      "location": "Ho Chi Minh City",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "product operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02159382",
+      "sourceLink": "https://careers.garena.com/global/careers/J02159382",
+      "requiredQualifications": [
+        "• Document post-show learnings and successful case studies to build team knowledge and support scaling to larger events.",
+        "YOUR STATS What you need: • 3+ years of hands-on experience in broadcast, live event, TV, or live show production — with a proven track record of independently owning live show execution from planning through delivery.",
+        "• Ability to set clear quality standards, review show recordings, and give constructive, specific feedback to the team.",
+        "What sets you apart: • Prior experience in sports or gaming broadcast production."
+      ],
+      "preferredQualifications": [
+        "• Document post-show learnings and successful case studies to build team knowledge and support scaling to larger events.",
+        "YOUR STATS What you need: • 3+ years of hands-on experience in broadcast, live event, TV, or live show production — with a proven track record of independently owning live show execution from planning through delivery.",
+        "• Ability to set clear quality standards, review show recordings, and give constructive, specific feedback to the team."
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant product operations path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Esports",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
       "opportunityId": "library-game-2026-07-01-papergames-infold-video-design-intern-shining-nikki",
       "company": "Papergames / Infold",
       "roleTitle": "Video Design Intern - Shining Nikki",
@@ -2584,6 +3392,266 @@
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-tencent-workday"
+    },
+    {
+      "opportunityId": "official-game-garena-garena-strategy-and-operations-vn-ho-chi-minh-city-j02074989",
+      "company": "Garena",
+      "roleTitle": "Garena Strategy and Operations VN",
+      "location": "Ho Chi Minh City",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "game operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02074989",
+      "sourceLink": "https://careers.garena.com/global/careers/J02074989",
+      "requiredQualifications": [
+        "Garena Strategy and Operations VN Ho Chi Minh City Strategy Experienced (Individual Contributor) About the Role The Strategy & Operations (SO) role is designed for high-potential individuals who want to push their growth through real, hands-on experience in the gaming industry.",
+        "What You’ll Do Execute critical projects across areas such as game operations, player experience, marketing and so on Work under the mentorship of senior leaders , with project goals and scopes directly crafted by the Country Head & Product Management Leaders Handle end-to-end execution : from planning and coordination to problem solving and performance tracking Rotate across functions – with each project being designed to be long enough for you to create real impact Take ownership of measurable outcomes, often tied to real business results, from revenue-driving campaigns to product feature rollouts Learn the inner workings of the gaming business by taking part in the actual running of it Receive dedicated coaching and frequent performance feedbacks to accelerate your development Who We’re Looking For Fresh graduates or candidates with less than 2 years of full-time experience Strong academic background from top-tier universities in Vietnam or abroad Exceptional logical and structured thinking; comfortable working with data and breaking down complex problems Clear and confident communicator, with the ability to work well in teams Proactive and gritty – you’re not afraid of hard work or starting from the ground up Deep passion for games – you understand game mechanics and enjoy discussing strategy with fellow players A builder’s mindset – you don’t just enjoy games, you want to shape how others experience them Why Join Us A tailored path to growth – not a fixed program, but a carefully curated experience with mentorship from senior leaders Learn through real execution , not theoretical exercises – with deadlines, goals, and outcomes that matter Contribute to projects reaching tens of millions of players Top-of-market compensation for young talent A rare opportunity to transition from gamer to experience builder– and leave your mark on the Vietnamese gaming community Application guideline Please include the following documents Your CV Your Garena Application Form (please download the template here: https://shorturl.at/TTSvq , fill in and upload to the application link with your CV)"
+      ],
+      "preferredQualifications": [
+        "Garena Strategy and Operations VN Ho Chi Minh City Strategy Experienced (Individual Contributor) About the Role The Strategy & Operations (SO) role is designed for high-potential individuals who want to push their growth through real, hands-on experience in the gaming industry.",
+        "What You’ll Do Execute critical projects across areas such as game operations, player experience, marketing and so on Work under the mentorship of senior leaders , with project goals and scopes directly crafted by the Country Head & Product Management Leaders Handle end-to-end execution : from planning and coordination to problem solving and performance tracking Rotate across functions – with each project being designed to be long enough for you to create real impact Take ownership of measurable outcomes, often tied to real business results, from revenue-driving campaigns to product feature rollouts Learn the inner workings of the gaming business by taking part in the actual running of it Receive dedicated coaching and frequent performance feedbacks to accelerate your development Who We’re Looking For Fresh graduates or candidates with less than 2 years of full-time experience Strong academic background from top-tier universities in Vietnam or abroad Exceptional logical and structured thinking; comfortable working with data and breaking down complex problems Clear and confident communicator, with the ability to work well in teams Proactive and gritty – you’re not afraid of hard work or starting from the ground up Deep passion for games – you understand game mechanics and enjoy discussing strategy with fellow players A builder’s mindset – you don’t just enjoy games, you want to shape how others experience them Why Join Us A tailored path to growth – not a fixed program, but a carefully curated experience with mentorship from senior leaders Learn through real execution , not theoretical exercises – with deadlines, goals, and outcomes that matter Contribute to projects reaching tens of millions of players Top-of-market compensation for young talent A rare opportunity to transition from gamer to experience builder– and leave your mark on the Vietnamese gaming community Application guideline Please include the following documents Your CV Your Garena Application Form (please download the template here: https://shorturl.at/TTSvq , fill in and upload to the application link with your CV)"
+      ],
+      "fitScore": 6,
+      "fitReason": "Relevant game operations path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Strategy",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
+      "opportunityId": "official-game-garena-garena-strategy-and-operations-vn-hanoi-j02078733",
+      "company": "Garena",
+      "roleTitle": "Garena Strategy and Operations VN",
+      "location": "Hanoi",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "game operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02078733",
+      "sourceLink": "https://careers.garena.com/global/careers/J02078733",
+      "requiredQualifications": [
+        "Garena Strategy and Operations VN Hanoi Strategy Experienced (Individual Contributor) About the Role The Strategy & Operations (SO) role is designed for high-potential individuals who want to push their growth through real, hands-on experience in the gaming industry.",
+        "What You’ll Do Execute critical projects across areas such as game operations, player experience, marketing and so on Work under the mentorship of senior leaders , with project goals and scopes directly crafted by the Country Head & Product Management Leaders Handle end-to-end execution : from planning and coordination to problem solving and performance tracking Rotate across functions – with each project being designed to be long enough for you to create real impact Take ownership of measurable outcomes, often tied to real business results, from revenue-driving campaigns to product feature rollouts Learn the inner workings of the gaming business by taking part in the actual running of it Receive dedicated coaching and frequent performance feedbacks to accelerate your development Who We’re Looking For Fresh graduates or candidates with less than 2 years of full-time experience Strong academic background from top-tier universities in Vietnam or abroad Exceptional logical and structured thinking; comfortable working with data and breaking down complex problems Clear and confident communicator, with the ability to work well in teams Proactive and gritty – you’re not afraid of hard work or starting from the ground up Deep passion for games – you understand game mechanics and enjoy discussing strategy with fellow players A builder’s mindset – you don’t just enjoy games, you want to shape how others experience them Why Join Us A tailored path to growth – not a fixed program, but a carefully curated experience with mentorship from senior leaders Learn through real execution , not theoretical exercises – with deadlines, goals, and outcomes that matter Contribute to projects reaching tens of millions of players Top-of-market compensation for young talent A rare opportunity to transition from gamer to experience builder– and leave your mark on the Vietnamese gaming community Application guideline Please include the following documents Your CV Your Garena Application Form (please download the template here: https://shorturl.at/TTSvq , fill in and upload to the application link with your CV)"
+      ],
+      "preferredQualifications": [
+        "Garena Strategy and Operations VN Hanoi Strategy Experienced (Individual Contributor) About the Role The Strategy & Operations (SO) role is designed for high-potential individuals who want to push their growth through real, hands-on experience in the gaming industry.",
+        "What You’ll Do Execute critical projects across areas such as game operations, player experience, marketing and so on Work under the mentorship of senior leaders , with project goals and scopes directly crafted by the Country Head & Product Management Leaders Handle end-to-end execution : from planning and coordination to problem solving and performance tracking Rotate across functions – with each project being designed to be long enough for you to create real impact Take ownership of measurable outcomes, often tied to real business results, from revenue-driving campaigns to product feature rollouts Learn the inner workings of the gaming business by taking part in the actual running of it Receive dedicated coaching and frequent performance feedbacks to accelerate your development Who We’re Looking For Fresh graduates or candidates with less than 2 years of full-time experience Strong academic background from top-tier universities in Vietnam or abroad Exceptional logical and structured thinking; comfortable working with data and breaking down complex problems Clear and confident communicator, with the ability to work well in teams Proactive and gritty – you’re not afraid of hard work or starting from the ground up Deep passion for games – you understand game mechanics and enjoy discussing strategy with fellow players A builder’s mindset – you don’t just enjoy games, you want to shape how others experience them Why Join Us A tailored path to growth – not a fixed program, but a carefully curated experience with mentorship from senior leaders Learn through real execution , not theoretical exercises – with deadlines, goals, and outcomes that matter Contribute to projects reaching tens of millions of players Top-of-market compensation for young talent A rare opportunity to transition from gamer to experience builder– and leave your mark on the Vietnamese gaming community Application guideline Please include the following documents Your CV Your Garena Application Form (please download the template here: https://shorturl.at/TTSvq , fill in and upload to the application link with your CV)"
+      ],
+      "fitScore": 6,
+      "fitReason": "Relevant game operations path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Strategy",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
+      "opportunityId": "official-game-garena-video-editor-casablanca-j02129976",
+      "company": "Garena",
+      "roleTitle": "Video Editor",
+      "location": "Casablanca",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "early-career game production",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02129976",
+      "sourceLink": "https://careers.garena.com/global/careers/J02129976",
+      "requiredQualifications": [
+        "Understand the marketing and creative team needs for video requests Draft and develop the concept of videos created Trim and put together clips or footage while ensuring the logical sequence of the videos Input relevant and engaging music, dialogue, graphics and effects Continuously discover and implement new editing technologies Keep up with a fast-paced and varied production schedule Minimum a Diploma or Bachelor’s degree in any field Minimum 1 year working experience as video editor, or relevant roles (fresh graduates with internship experiences are welcome to apply Experienced in motion graphics editing and text editing Proficient in Adobe Creative Suite, After Effects, and Premiere Pro (or other relevant software) Familiar with game video environment and editing styles Experienced in managing every phase of production from conceptualization, scripting, and filming to post-production Highly passionate about games with a good knowledge of the gaming industry in Morocco Knowledge and experience in using Photoshop, taking video footage, or using camera would be a plus Willing to work in a full work from office arrangement in Casablanca under 3 months Full Time Contract Employment"
+      ],
+      "preferredQualifications": [
+        "Understand the marketing and creative team needs for video requests Draft and develop the concept of videos created Trim and put together clips or footage while ensuring the logical sequence of the videos Input relevant and engaging music, dialogue, graphics and effects Continuously discover and implement new editing technologies Keep up with a fast-paced and varied production schedule Minimum a Diploma or Bachelor’s degree in any field Minimum 1 year working experience as video editor, or relevant roles (fresh graduates with internship experiences are welcome to apply Experienced in motion graphics editing and text editing Proficient in Adobe Creative Suite, After Effects, and Premiere Pro (or other relevant software) Familiar with game video environment and editing styles Experienced in managing every phase of production from conceptualization, scripting, and filming to post-production Highly passionate about games with a good knowledge of the gaming industry in Morocco Knowledge and experience in using Photoshop, taking video footage, or using camera would be a plus Willing to work in a full work from office arrangement in Casablanca under 3 months Full Time Contract Employment"
+      ],
+      "fitScore": 6,
+      "fitReason": "Relevant early-career game production path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Design",
+      "sourceJobType": "Entry Level"
+    },
+    {
+      "opportunityId": "official-game-garena-associate-configuration-qa-singapore-j02133478",
+      "company": "Garena",
+      "roleTitle": "Associate, Configuration & QA",
+      "location": "Singapore",
+      "locationMode": "in_person",
+      "roleTrack": "game operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02133478",
+      "sourceLink": "https://careers.garena.com/global/careers/J02133478",
+      "requiredQualifications": [
+        "Minimum 1 year of experience in quality assurance, live operations, or related fields, preferably within tech or gaming companies.",
+        "Passionate about games with basic knowledge of the gaming industry, preferably being familiar with recent shooting games.",
+        "Good written and verbal communication skills along with the ability to effectively collaborate with cross-functional teams."
+      ],
+      "preferredQualifications": [
+        "Minimum 1 year of experience in quality assurance, live operations, or related fields, preferably within tech or gaming companies.",
+        "Passionate about games with basic knowledge of the gaming industry, preferably being familiar with recent shooting games.",
+        "Good written and verbal communication skills along with the ability to effectively collaborate with cross-functional teams."
+      ],
+      "fitScore": 6,
+      "fitReason": "Relevant game operations path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Game Operations",
+      "sourceJobType": "Entry Level"
+    },
+    {
+      "opportunityId": "official-game-garena-marketing-and-community-specialist-contract-singapore-j02157633",
+      "company": "Garena",
+      "roleTitle": "Marketing and Community Specialist (Contract)",
+      "location": "Singapore",
+      "locationMode": "in_person",
+      "roleTrack": "community operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02157633",
+      "sourceLink": "https://careers.garena.com/global/careers/J02157633",
+      "requiredQualifications": [
+        "2+ years of experience managing online communities or social platforms for games or digital products.",
+        "Strong written communication skills and ability to engage players authentically.",
+        "Experience creating and publishing marketing content, with a portfolio of gameplay clips, social posts, or community-driven content."
+      ],
+      "preferredQualifications": [
+        "2+ years of experience managing online communities or social platforms for games or digital products.",
+        "Strong written communication skills and ability to engage players authentically.",
+        "Experience creating and publishing marketing content, with a portfolio of gameplay clips, social posts, or community-driven content."
+      ],
+      "fitScore": 6,
+      "fitReason": "Relevant community operations path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Marketing",
+      "sourceJobType": "Experienced (Individual Contributor)"
+    },
+    {
+      "opportunityId": "official-game-garena-garena-management-trainee-gmt-2027-bangkok-j02159956",
+      "company": "Garena",
+      "roleTitle": "Garena Management Trainee (GMT) 2027",
+      "location": "Bangkok",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "game operations",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02159956",
+      "sourceLink": "https://careers.garena.com/global/careers/J02159956",
+      "requiredQualifications": [
+        "You’ll tackle high-impact projects and gain experience in functions critical to Garena’s success.",
+        "0 to 2 years of full-time work experience (as of 30th September 2026).",
+        "Aptitude: Ability to thrive in uncertainty, adapt quickly, and think on your feet."
+      ],
+      "preferredQualifications": [
+        "You’ll tackle high-impact projects and gain experience in functions critical to Garena’s success.",
+        "0 to 2 years of full-time work experience (as of 30th September 2026).",
+        "Aptitude: Ability to thrive in uncertainty, adapt quickly, and think on your feet."
+      ],
+      "fitScore": 6,
+      "fitReason": "Relevant game operations path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Not explicitly an internship; confirm early-career eligibility before prioritizing.",
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Game Operations",
+      "sourceJobType": "Entry Level"
+    },
+    {
+      "opportunityId": "official-game-garena-business-development-jakarta-j02131575",
+      "company": "Garena",
+      "roleTitle": "Business Development",
+      "location": "Jakarta",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "version/live ops",
+      "monitorStatus": "new",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02131575",
+      "sourceLink": "https://careers.garena.com/global/careers/J02131575",
+      "requiredQualifications": [
+        "Minimum of a bachelor’s degree in Business Administration, Marketing, or a related field 2 - 4 years of experience in business development, preferably having previous work experience within FMCG, Entertainment, or Agency Proven ability to build and maintain strong relationships with partners, colleagues, and stakeholders Detail-oriented with a meticulous approach to ensuring accuracy and quality in all tasks Excellent written and oral communication skills in Bahasa and English Highly passionate about games with a good knowledge of the gaming industry in Indonesia; having a deeper curiosity for game products and the industry's best practices Willing to work under a 12 months contract based employment within a full WFO arrangement in our office at South Jakarta"
+      ],
+      "preferredQualifications": [
+        "Minimum of a bachelor’s degree in Business Administration, Marketing, or a related field 2 - 4 years of experience in business development, preferably having previous work experience within FMCG, Entertainment, or Agency Proven ability to build and maintain strong relationships with partners, colleagues, and stakeholders Detail-oriented with a meticulous approach to ensuring accuracy and quality in all tasks Excellent written and oral communication skills in Bahasa and English Highly passionate about games with a good knowledge of the gaming industry in Indonesia; having a deeper curiosity for game products and the industry's best practices Willing to work under a 12 months contract based employment within a full WFO arrangement in our office at South Jakarta"
+      ],
+      "fitScore": 6,
+      "fitReason": "Relevant version/live ops path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Infinity Nikki version-ops case"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "Business Development and Partnerships",
+      "sourceJobType": "Entry Level"
     },
     {
       "opportunityId": "official-game-riot-games-consumer-products-and-experience-operations-manager-korea-seoul-korea-7693729",
@@ -3297,40 +4365,6 @@
         "Community sentiment memo",
         "Content calendar",
         "Campaign metrics dashboard"
-      ],
-      "dateFirstFound": "2026-07-08",
-      "lastCheckedDate": "2026-07-08",
-      "adapterSourceId": "game-source-tencent-workday"
-    },
-    {
-      "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-video-generation-content-understanding-and-feedback-research-intern-uk-london-job",
-      "company": "Tencent / Level Infinite / TiMi / Lightspeed",
-      "roleTitle": "Video Generation Content Understanding and Feedback Research Intern",
-      "location": "UK-London",
-      "locationMode": "hybrid_unknown",
-      "roleTrack": "content marketing",
-      "monitorStatus": "new",
-      "verified": true,
-      "applicationLink": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Video-Generation-Content-Understanding-and-Feedback-Research-Intern_R107680-1",
-      "sourceLink": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Video-Generation-Content-Understanding-and-Feedback-Research-Intern_R107680-1",
-      "requiredQualifications": [
-        "Official Workday posting should be reviewed before final tailoring."
-      ],
-      "preferredQualifications": [
-        "Game/community/content/analytics proof improves fit for this lane."
-      ],
-      "fitScore": 6,
-      "fitReason": "Relevant content marketing path, but application materials should prove game-domain work and practical execution.",
-      "blockersRisks": [
-        "Location or work authorization may be the main constraint.",
-        "Deadline not listed on the official source feed; monitor as open until the official route disappears."
-      ],
-      "portfolioMaterials": [
-        "Game KPI dashboard",
-        "Community sentiment memo",
-        "Content calendar",
-        "Campaign metrics dashboard",
-        "UX/game system teardown"
       ],
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
@@ -4864,6 +5898,80 @@
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-epic-greenhouse"
+    },
+    {
+      "opportunityId": "official-game-garena-intern-game-programmer-singapore-j02067178",
+      "company": "Garena",
+      "roleTitle": "Intern, Game Programmer",
+      "location": "Singapore",
+      "locationMode": "in_person",
+      "roleTrack": "game UX/product planning",
+      "monitorStatus": "closed",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02067178",
+      "sourceLink": "https://careers.garena.com/global/careers/J02067178",
+      "requiredQualifications": [
+        "Intern, Game Programmer Singapore Internship Develop playable game builds following the assigned or approved idea Work on the design, coding, and implementation of game features Conduct debugging and troubleshooting to ensure smooth gameplay Record gameplay sessions and gather feedback on user experience and mechanics Document key learnings and propose actionable changes or improvements Proficiency in game development tools and platforms such as Unity, Unreal Engine, or other relevant engines Programming skills in relevant languages such as C#, C++, Python, etc Basic understanding of game design principles, mechanics, and user experience Strong communication skills to collaborate effectively with team members and staff Time management and organizational skills to meet weekly deliverables and deadlines Experience in game development (academic projects, personal projects, or professional experience) is a plus"
+      ],
+      "preferredQualifications": [
+        "Intern, Game Programmer Singapore Internship Develop playable game builds following the assigned or approved idea Work on the design, coding, and implementation of game features Conduct debugging and troubleshooting to ensure smooth gameplay Record gameplay sessions and gather feedback on user experience and mechanics Document key learnings and propose actionable changes or improvements Proficiency in game development tools and platforms such as Unity, Unreal Engine, or other relevant engines Programming skills in relevant languages such as C#, C++, Python, etc Basic understanding of game design principles, mechanics, and user experience Strong communication skills to collaborate effectively with team members and staff Time management and organizational skills to meet weekly deliverables and deadlines Experience in game development (academic projects, personal projects, or professional experience) is a plus"
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant game UX/product planning path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears.",
+        "Official application route was not present in the latest adapter run."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "UX/game system teardown"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "",
+      "sourceJobType": "Internship"
+    },
+    {
+      "opportunityId": "official-game-garena-intern-game-programmer-roblox-singapore-j02095938",
+      "company": "Garena",
+      "roleTitle": "Intern, Game Programmer (Roblox)",
+      "location": "Singapore",
+      "locationMode": "in_person",
+      "roleTrack": "game UX/product planning",
+      "monitorStatus": "closed",
+      "verified": true,
+      "applicationLink": "https://ats.workatsea.com/apply/J02095938",
+      "sourceLink": "https://careers.garena.com/global/careers/J02095938",
+      "requiredQualifications": [
+        "This role will be focused on Roblox experience development.",
+        "Basic understanding of game design principles, mechanics, and user experience.",
+        "Experience in game development (academic projects, personal projects, or professional experience) is a plus."
+      ],
+      "preferredQualifications": [
+        "This role will be focused on Roblox experience development.",
+        "Basic understanding of game design principles, mechanics, and user experience.",
+        "Experience in game development (academic projects, personal projects, or professional experience) is a plus."
+      ],
+      "fitScore": 7,
+      "fitReason": "Relevant game UX/product planning path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears.",
+        "Official application route was not present in the latest adapter run."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "UX/game system teardown"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-garena",
+      "sourceCategory": "",
+      "sourceJobType": "Internship"
     },
     {
       "opportunityId": "official-game-riot-games-esports-competitive-operations-rules-compliance-analyst-ii-emea-berlin-germany-7915309",
@@ -7039,6 +8147,41 @@
       "dateFirstFound": "2026-07-08",
       "lastCheckedDate": "2026-07-08",
       "adapterSourceId": "game-source-roblox-greenhouse"
+    },
+    {
+      "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-video-generation-content-understanding-and-feedback-research-intern-uk-london-job",
+      "company": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "roleTitle": "Video Generation Content Understanding and Feedback Research Intern",
+      "location": "UK-London",
+      "locationMode": "hybrid_unknown",
+      "roleTrack": "content marketing",
+      "monitorStatus": "closed",
+      "verified": true,
+      "applicationLink": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Video-Generation-Content-Understanding-and-Feedback-Research-Intern_R107680-1",
+      "sourceLink": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Video-Generation-Content-Understanding-and-Feedback-Research-Intern_R107680-1",
+      "requiredQualifications": [
+        "Official Workday posting should be reviewed before final tailoring."
+      ],
+      "preferredQualifications": [
+        "Game/community/content/analytics proof improves fit for this lane."
+      ],
+      "fitScore": 6,
+      "fitReason": "Relevant content marketing path, but application materials should prove game-domain work and practical execution.",
+      "blockersRisks": [
+        "Location or work authorization may be the main constraint.",
+        "Deadline not listed on the official source feed; monitor as open until the official route disappears.",
+        "Official application route was not present in the latest adapter run."
+      ],
+      "portfolioMaterials": [
+        "Game KPI dashboard",
+        "Community sentiment memo",
+        "Content calendar",
+        "Campaign metrics dashboard",
+        "UX/game system teardown"
+      ],
+      "dateFirstFound": "2026-07-08",
+      "lastCheckedDate": "2026-07-08",
+      "adapterSourceId": "game-source-tencent-workday"
     },
     {
       "opportunityId": "official-game-tencent-level-infinite-timi-lightspeed-ai-product-engineer-intern-game-development-netherlands-amsterdam-jobnetherlands-",
