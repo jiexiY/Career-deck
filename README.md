@@ -143,9 +143,12 @@ adapter coverage:
   parsing, dedupe, status refresh, public card generation, fit scoring, source
   links, risks, and prep checklist. The adapter publishes only roles that match
   the target game ops/community/content/UX/early-career lane.
-- Paper Games / Infold, Unity, Tencent Workday, Garena, HoYoverse, Niantic, and
-  thatgamecompany: checked as official source records and retained as
-  manual-review sources until safe source-specific parsers are added.
+- Tencent Workday: official Workday CXS API pagination, detail enrichment,
+  official application links, target-lane validation, dedupe, status refresh,
+  public card generation, fit scoring, risks, and prep checklist.
+- Paper Games / Infold, Unity, Garena, HoYoverse, Niantic, and thatgamecompany:
+  checked as official source records and retained as manual-review sources until
+  safe source-specific parsers are added.
 - LinkedIn reposts: kept blocked because login/platform restrictions prevent
   compliant scraping and mirrored posts are not verified application routes.
 

@@ -48,6 +48,15 @@ const LOW_FIT_NEGATIVE_KEYWORDS = [
   "litigation",
   "privacy",
   "engineer",
+  "architecture",
+  "architect",
+  "devops",
+  "sre",
+  "cloud",
+  "backend",
+  "frontend",
+  "software engineering",
+  "data development",
   "animator",
 ];
 
@@ -127,7 +136,41 @@ const HARD_EXCLUDE_TITLE_KEYWORDS = [
   "法务",
 ];
 
+const NON_TARGET_TITLE_KEYWORDS = [
+  "talent acquisition",
+  "human resources",
+  "hr intern",
+  "financial accounting",
+  "accounting",
+  "finance",
+  "compliance",
+  "business system",
+  "sales executive",
+  "mechanical engineering",
+  "big data development",
+  "data engineer",
+  "backend developer",
+  "software engineering",
+  "product engineer",
+  "agent development",
+  "ai application",
+  "game ai research",
+  "solution architect",
+  "technical artist",
+  "environment artist",
+  "lighting artist",
+  "engine research",
+  "ml researcher",
+  "world model research",
+  "nlp research",
+  "anti-fraud",
+  "tencent cloud",
+  "wechat",
+  "wxg",
+];
+
 const OFFICIAL_GREENHOUSE_API = "https://boards-api.greenhouse.io/v1/boards";
+const DEFAULT_MONITOR_USER_AGENT = "CareerDeckGameMonitor/1.0 (+https://career-deck-amber.vercel.app)";
 
 export function blockedReason(status) {
   if (status === 401 || status === 403) return `Blocked by source access policy: HTTP ${status}`;
@@ -200,6 +243,10 @@ function hasHardExcludedTitle(title) {
   return !isExplicitEarlyCareer && textIncludesAny(text, HARD_EXCLUDE_TITLE_KEYWORDS);
 }
 
+function hasNonTargetTitle(title) {
+  return textIncludesAny(title, NON_TARGET_TITLE_KEYWORDS);
+}
+
 function inferRoleTrack(title, content) {
   const text = `${title} ${content}`.toLowerCase();
   const ranked = TARGET_TRACKS.map((item) => ({
@@ -224,6 +271,7 @@ function inferOpportunityType(title) {
   const text = title.toLowerCase();
   if (text.includes("intern")) return "internship";
   if (text.includes("fellow")) return "fellowship";
+  if (text.includes("part-time") || text.includes("part time")) return "part-time";
   if (text.includes("training") || text.includes("camp")) return "training-program";
   if (text.includes("community")) return "student-community";
   return "full-time";
@@ -307,9 +355,16 @@ function risksFor(job, location, type) {
     risks.push("Location or work authorization may be the main constraint.");
   }
 
-  risks.push("Deadline not listed on the official Greenhouse feed; monitor as open until the official route disappears.");
+  risks.push("Deadline not listed on the official source feed; monitor as open until the official route disappears.");
 
   return risks;
+}
+
+function monitorHeaders(accept = "application/json") {
+  return {
+    "user-agent": DEFAULT_MONITOR_USER_AGENT,
+    accept,
+  };
 }
 
 async function checkManualSource(source, fetchImpl, checkedAt) {
@@ -328,7 +383,7 @@ async function checkManualSource(source, fetchImpl, checkedAt) {
     const response = await fetchImpl(source.url, {
       cache: "no-store",
       headers: {
-        "user-agent": "CareerDeckGameMonitor/1.0 (+https://career-deck-amber.vercel.app)",
+        "user-agent": DEFAULT_MONITOR_USER_AGENT,
         accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
       },
       signal: AbortSignal.timeout(12_000),
@@ -371,10 +426,7 @@ function createGreenhouseAdapter(source) {
     async fetch(context) {
       const response = await context.fetch(apiUrl, {
         cache: "no-store",
-        headers: {
-          "user-agent": "CareerDeckGameMonitor/1.0 (+https://career-deck-amber.vercel.app)",
-          accept: "application/json",
-        },
+        headers: monitorHeaders(),
         signal: AbortSignal.timeout(12_000),
       });
       const raw = await response.text();
@@ -431,7 +483,7 @@ function createGreenhouseAdapter(source) {
           applicationLink: job.absolute_url,
           sourceLink: job.absolute_url,
           requiredQualifications: summarizeQualifications(content, [
-            "Official Greenhouse posting should be reviewed before final tailoring.",
+            "Official posting should be reviewed before final tailoring.",
           ]),
           preferredQualifications: summarizeQualifications(content, [
             "Game/community/content/analytics proof improves fit for this lane.",
@@ -445,6 +497,7 @@ function createGreenhouseAdapter(source) {
           adapterSourceId: source.id,
           publicType: type,
           publicEligibility: content.slice(0, 240) || "Official Greenhouse posting verified; details require source review.",
+          sourceFeedLabel: "Greenhouse",
         };
       });
     },
@@ -467,6 +520,13 @@ function createGreenhouseAdapter(source) {
         };
       }
 
+      if (hasNonTargetTitle(title)) {
+        return {
+          valid: false,
+          reason: "Rejected because the title is outside the requested game ops/community/content/UX/product/publishing lane.",
+        };
+      }
+
       if (!relevant || opportunity.fitScore < 6) {
         return {
           valid: false,
@@ -485,6 +545,259 @@ function createGreenhouseAdapter(source) {
 function inferGreenhouseBoardToken(url) {
   const match = String(url).match(/greenhouse\.io\/([^/?#]+)/i);
   return match?.[1] ?? "neteasegames";
+}
+
+function createWorkdayAdapter(source) {
+  const config = workdayConfigFromSource(source);
+  const apiUrl = `${config.origin}/wday/cxs/${config.tenant}/${config.siteId}/jobs`;
+  const pageSize = Math.min(source.pageSize ?? 20, 20);
+  const maxRecords = source.maxRecords ?? 400;
+
+  return {
+    key: "workday",
+    source,
+    async fetch(context) {
+      const jobPostings = [];
+      let total = null;
+      let rawLength = 0;
+
+      for (let offset = 0; offset < maxRecords; offset += pageSize) {
+        const response = await context.fetch(apiUrl, {
+          method: "POST",
+          cache: "no-store",
+          headers: {
+            ...monitorHeaders(),
+            "content-type": "application/json",
+          },
+          body: JSON.stringify({
+            appliedFacets: source.appliedFacets ?? {},
+            limit: pageSize,
+            offset,
+            searchText: source.searchText ?? "",
+          }),
+          signal: AbortSignal.timeout(15_000),
+        });
+        const raw = await response.text();
+        rawLength += raw.length;
+
+        if (!response.ok) {
+          return {
+            ok: false,
+            status: response.status === 404 ? "manual_review_required" : "blocked",
+            failureReason: blockedReason(response.status),
+            raw,
+            rawLength,
+          };
+        }
+
+        const payload = JSON.parse(raw);
+        const pageJobs = Array.isArray(payload.jobPostings) ? payload.jobPostings : [];
+        total = Number.isFinite(payload.total) ? payload.total : total;
+        jobPostings.push(...pageJobs);
+
+        if (pageJobs.length < pageSize || (total !== null && jobPostings.length >= total)) {
+          break;
+        }
+      }
+
+      return {
+        ok: true,
+        status: "active",
+        raw: JSON.stringify({ total: total ?? jobPostings.length, jobPostings }),
+        rawLength,
+      };
+    },
+    async parse(result) {
+      if (!result.ok) return [];
+      const payload = JSON.parse(result.raw);
+      return Array.isArray(payload.jobPostings) ? payload.jobPostings : [];
+    },
+    async normalize(records, context) {
+      const normalized = [];
+
+      for (const job of records) {
+        const title = String(job.title ?? "Untitled role").trim();
+        const location = workdayLocation(job);
+        const applicationLink = workdayApplicationLink(config, job);
+
+        if (!applicationLink) continue;
+
+        const listContent = workdayListContent(job);
+        const shouldFetchDetail = textIncludesAny(title, TARGET_TITLE_KEYWORDS) && !hasHardExcludedTitle(title);
+        const detailContent = shouldFetchDetail
+          ? await fetchWorkdayDetail({ config, job, context })
+          : "";
+        const content = stripHtml(`${listContent} ${detailContent}`);
+        const roleTrack = inferRoleTrack(title, content);
+        const fitScore = inferFitScore(title, content, location);
+        const type = inferOpportunityType(title);
+        const existing = findExistingMonitor(context.monitor, {
+          applicationLink,
+          company: source.company,
+          roleTitle: title,
+          location,
+        });
+        const opportunityId =
+          existing?.opportunityId ??
+          `official-game-${slugify(`${source.company}-${title}-${location}-${job.externalPath ?? applicationLink}`)}`;
+
+        normalized.push({
+          opportunityId,
+          company: source.company,
+          roleTitle: title,
+          location,
+          locationMode: inferLocationMode(location),
+          roleTrack,
+          monitorStatus: existing ? "active" : "new",
+          verified: true,
+          applicationLink,
+          sourceLink: applicationLink,
+          requiredQualifications: summarizeQualifications(content, [
+            "Official Workday posting should be reviewed before final tailoring.",
+          ]),
+          preferredQualifications: summarizeQualifications(content, [
+            "Game/community/content/analytics proof improves fit for this lane.",
+          ]).slice(0, 3),
+          fitScore,
+          fitReason: fitReasonFor(roleTrack, fitScore),
+          blockersRisks: risksFor({ ...job, content }, location, type),
+          portfolioMaterials: portfolioMaterialsFor(roleTrack, title),
+          dateFirstFound: existing?.dateFirstFound ?? context.checkedDate,
+          lastCheckedDate: context.checkedDate,
+          adapterSourceId: source.id,
+          publicType: type,
+          publicEligibility: content.slice(0, 240) || "Official Workday posting verified; details require source review.",
+          sourceFeedLabel: "Workday",
+        });
+      }
+
+      return normalized;
+    },
+    async validate(opportunity) {
+      const title = String(opportunity.roleTitle);
+      const relevant = textIncludesAny(title, TARGET_TITLE_KEYWORDS);
+      const official = /^https?:\/\/[^/]+\.myworkdayjobs\.com\//i.test(String(opportunity.applicationLink));
+
+      if (!official) {
+        return {
+          valid: false,
+          reason: "Rejected because the official Workday feed did not provide a valid application link.",
+        };
+      }
+
+      if (hasHardExcludedTitle(title)) {
+        return {
+          valid: false,
+          reason: "Rejected because the title is senior/technical/legal/art-focused rather than the requested early-career ops/community/content/UX lane.",
+        };
+      }
+
+      if (hasNonTargetTitle(title)) {
+        return {
+          valid: false,
+          reason: "Rejected because the title is outside the requested game ops/community/content/UX/product/publishing lane.",
+        };
+      }
+
+      if (!relevant || opportunity.fitScore < 6) {
+        return {
+          valid: false,
+          reason: "Rejected as low-confidence for the requested game operations/community/content/UX lane.",
+        };
+      }
+
+      return { valid: true };
+    },
+    async save(opportunities) {
+      return { saved: opportunities.length };
+    },
+  };
+}
+
+function workdayConfigFromSource(source) {
+  const url = new URL(source.url);
+  const siteId = source.siteId ?? url.pathname.split("/").filter(Boolean)[0];
+
+  if (!siteId) {
+    throw new Error(`Workday source ${source.id} needs a siteId.`);
+  }
+
+  return {
+    origin: url.origin,
+    tenant: source.tenant ?? url.hostname.split(".")[0],
+    siteId,
+  };
+}
+
+function workdayLocation(job) {
+  if (job.locationsText) return String(job.locationsText).trim();
+
+  const locationField = Array.isArray(job.bulletFields)
+    ? job.bulletFields.find((field) => /location/i.test(String(field.name ?? "")))
+    : undefined;
+
+  return String(locationField?.text ?? "Location not listed").trim();
+}
+
+function workdayApplicationLink(config, job) {
+  const externalPath = String(job.externalPath ?? "").trim();
+  if (!externalPath) return "";
+  if (/^https?:\/\//i.test(externalPath)) return externalPath;
+  const normalizedPath = externalPath.startsWith("/") ? externalPath : `/${externalPath}`;
+  return `${config.origin}/${config.siteId}${normalizedPath}`;
+}
+
+function workdayDetailApiUrl(config, job) {
+  const externalPath = String(job.externalPath ?? "").trim();
+  if (!externalPath || /^https?:\/\//i.test(externalPath)) return "";
+  const normalizedPath = externalPath.startsWith("/") ? externalPath : `/${externalPath}`;
+  return `${config.origin}/wday/cxs/${config.tenant}/${config.siteId}${normalizedPath}`;
+}
+
+function workdayListContent(job) {
+  const fields = Array.isArray(job.bulletFields)
+    ? job.bulletFields.map((field) => `${field.name ?? ""}: ${field.text ?? ""}`)
+    : [];
+
+  return stripHtml([
+    job.title,
+    job.locationsText,
+    job.postedOn,
+    job.timeType,
+    job.jobType,
+    ...fields,
+  ].join(" "));
+}
+
+async function fetchWorkdayDetail({ config, job, context }) {
+  const detailUrl = workdayDetailApiUrl(config, job);
+  if (!detailUrl) return "";
+
+  try {
+    const response = await context.fetch(detailUrl, {
+      cache: "no-store",
+      headers: monitorHeaders(),
+      signal: AbortSignal.timeout(10_000),
+    });
+
+    if (!response.ok) return "";
+
+    const payload = await response.json();
+    const info = payload.jobPostingInfo ?? payload;
+
+    return stripHtml([
+      info.title,
+      info.jobDescription,
+      info.jobDescriptionSummary,
+      info.qualifications,
+      info.location,
+      info.additionalLocations,
+      info.timeType,
+      info.jobReqId,
+    ].join(" "));
+  } catch {
+    return "";
+  }
 }
 
 function findExistingMonitor(monitor, incoming) {
@@ -568,7 +881,7 @@ function markClosedMissingOfficialRoles(current, openUrls, checkedDate, successf
       blockersRisks: Array.from(
         new Set([
           ...(opportunity.blockersRisks ?? []),
-          "Official Greenhouse route was not present in the latest adapter run.",
+          "Official application route was not present in the latest adapter run.",
         ]),
       ),
     };
@@ -577,8 +890,11 @@ function markClosedMissingOfficialRoles(current, openUrls, checkedDate, successf
 
 function createAdapters(sources) {
   return sources
-    .filter((source) => source.adapterKey === "greenhouse" || source.boardToken)
-    .map((source) => createGreenhouseAdapter(source));
+    .filter((source) => source.adapterKey === "greenhouse" || source.adapterKey === "workday" || source.boardToken)
+    .map((source) => {
+      if (source.adapterKey === "workday") return createWorkdayAdapter(source);
+      return createGreenhouseAdapter(source);
+    });
 }
 
 /**
@@ -652,7 +968,7 @@ export async function runGameMonitor({
 
     const parsed = await adapter.parse(result);
     successfulSourceIds.add(source.id);
-    const normalized = await adapter.normalize(parsed, { checkedAt, checkedDate, monitor });
+    const normalized = await adapter.normalize(parsed, { checkedAt, checkedDate, monitor, fetch: fetchImpl });
     const valid = [];
 
     for (const opportunity of normalized) {
@@ -676,7 +992,7 @@ export async function runGameMonitor({
         changes.push({
           kind: "new",
           label: `${merged.company}: ${merged.roleTitle}`,
-          detail: `Verified official Greenhouse route added with fit score ${merged.fitScore}/10.`,
+          detail: `Verified official application route added with fit score ${merged.fitScore}/10.`,
         });
       } else if (existing.monitorStatus === "closed") {
         changes.push({
@@ -798,6 +1114,7 @@ function stripInternalMonitorFields(opportunity) {
   const publicRecord = { ...opportunity };
   delete publicRecord.publicType;
   delete publicRecord.publicEligibility;
+  delete publicRecord.sourceFeedLabel;
   return publicRecord;
 }
 
