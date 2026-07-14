@@ -186,24 +186,40 @@ function sourceNameFor(sourceId: string, liveRecords: LiveOpportunity[]) {
   );
 }
 
+function sourceHomepageFor(sourceId: string, liveRecords: LiveOpportunity[]) {
+  const record = liveRecords.find((item) => item.sourceId === sourceId);
+  return record?.sourceUrl ?? record?.url ?? record?.applicationUrl ?? "#";
+}
+
 function buildLiveSources(liveOpportunities: Opportunity[], liveRecords: LiveOpportunity[]) {
   const liveSourceIds = new Set(liveOpportunities.map((item) => item.sourceId));
 
   return [...liveSourceIds]
     .filter((sourceId) => !sources.some((source) => source.id === sourceId))
-    .map<Source>((sourceId) => ({
-      id: sourceId,
-      name: sourceNameFor(sourceId, liveRecords),
-      homepage: "https://career-deck-amber.vercel.app/api/ingest/opportunities",
-      adapterKey: "liveIngestAdapter",
-      category: "mixed",
-      status: "manual_review_required",
-      robotsPolicy: "unknown",
-      lastAttemptAt: new Date().toISOString(),
-      lastFailureReason:
-        "Live-ingested records are accepted only as manual-review candidates until a source adapter verifies them.",
-      owner: "platform",
-    }));
+    .map<Source>((sourceId) => {
+      const sourceOpportunities = liveOpportunities.filter((item) => item.sourceId === sourceId);
+      const sourceIsVerified = sourceOpportunities.every(
+        (item) => !item.needsReview && item.url !== "#",
+      );
+      const lastAttemptAt = sourceOpportunities
+        .map((item) => item.updatedAt)
+        .sort((a, b) => b.localeCompare(a))[0] ?? new Date().toISOString();
+
+      return {
+        id: sourceId,
+        name: sourceNameFor(sourceId, liveRecords),
+        homepage: sourceHomepageFor(sourceId, liveRecords),
+        adapterKey: sourceIsVerified ? "curatedOfficialCareerAdapter" : "liveIngestAdapter",
+        category: "mixed",
+        status: sourceIsVerified ? "active" : "manual_review_required",
+        robotsPolicy: sourceIsVerified ? "allowed" : "unknown",
+        lastAttemptAt,
+        lastFailureReason: sourceIsVerified
+          ? undefined
+          : "Live-ingested records are accepted only as manual-review candidates until a source adapter verifies them.",
+        owner: "platform",
+      };
+    });
 }
 
 async function getDashboardSnapshot(): Promise<DashboardData> {
