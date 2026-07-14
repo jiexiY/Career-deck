@@ -636,13 +636,12 @@ function LandingPage({
         <Image
           src="/career-deck-landing.jpg"
           alt="Career Deck cover artwork"
-          fill
+          width={4564}
+          height={3006}
           priority
-          sizes="100vw"
-          className="absolute inset-0 z-10 h-full w-full object-cover object-center"
+          className="absolute right-0 top-0 z-10 h-auto w-[min(82vw,1150px)] max-w-none object-contain"
         />
 
-        <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(245,232,255,0.42),rgba(245,232,255,0.14)_38%,rgba(245,232,255,0.02)_100%)]" />
         <DeckHeadline className="absolute left-0 top-5 z-20" />
 
         <div className="absolute bottom-7 right-10 z-20 w-[min(810px,calc(100%-5rem))] rounded-[70px] border border-black/5 bg-white/55 px-8 py-6 shadow-[0_24px_70px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.9)] backdrop-blur-2xl">
