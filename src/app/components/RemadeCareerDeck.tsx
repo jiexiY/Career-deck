@@ -549,12 +549,26 @@ export function RemadeCareerDeck({
   );
 }
 
-function DeckHeadline({ className = "" }: { className?: string }) {
+function DeckHeadline({
+  className = "",
+  compact = false,
+}: {
+  className?: string;
+  compact?: boolean;
+}) {
   return (
     <div
-      className={`pointer-events-none flex min-h-[104px] w-[min(760px,calc(100vw-1.5rem))] items-center rounded-r-[999px] border-y border-r border-white/54 bg-white/18 px-8 pl-16 shadow-[inset_0_1px_0_rgba(255,255,255,0.72),0_24px_80px_rgba(84,14,105,0.13)] backdrop-blur-2xl sm:min-h-[132px] sm:px-12 sm:pl-20 ${className}`}
+      className={`pointer-events-none flex items-center rounded-r-[999px] border-y border-r border-white/54 bg-white/18 shadow-[inset_0_1px_0_rgba(255,255,255,0.72),0_24px_80px_rgba(84,14,105,0.13)] backdrop-blur-2xl ${
+        compact
+          ? "min-h-[96px] w-[min(470px,calc(100vw-1.25rem))] px-8 pl-12 sm:min-h-[112px] sm:px-10 sm:pl-14"
+          : "min-h-[104px] w-[min(760px,calc(100vw-1.5rem))] px-8 pl-16 sm:min-h-[132px] sm:px-12 sm:pl-20"
+      } ${className}`}
     >
-      <h1 className="text-5xl font-thin leading-none tracking-normal sm:text-7xl lg:text-8xl">
+      <h1
+        className={`font-thin leading-none tracking-normal ${
+          compact ? "text-5xl sm:text-6xl" : "text-5xl sm:text-7xl lg:text-8xl"
+        }`}
+      >
         Career Deck
       </h1>
     </div>
@@ -639,14 +653,14 @@ function LandingPage({
           width={4564}
           height={3006}
           priority
-          className="absolute right-0 top-0 z-10 h-auto w-[min(82vw,1150px)] max-w-none object-contain"
+          className="absolute right-0 top-[104px] z-10 h-auto w-[min(66vw,960px)] max-w-none object-contain"
         />
 
-        <DeckHeadline className="absolute left-0 top-5 z-20" />
+        <DeckHeadline compact className="absolute left-0 top-4 z-20" />
 
-        <div className="absolute bottom-7 right-10 z-20 w-[min(810px,calc(100%-5rem))] rounded-[70px] border border-black/5 bg-white/55 px-8 py-6 shadow-[0_24px_70px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.9)] backdrop-blur-2xl">
-          <div className="grid items-center gap-4 md:grid-cols-[1fr_240px_120px]">
-            <p className="font-serif text-5xl italic leading-none">To my beloved</p>
+        <div className="absolute bottom-6 right-6 z-20 w-[min(560px,calc(100%-3rem))] rounded-[70px] border border-black/5 bg-white/55 px-6 py-5 shadow-[0_24px_70px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.9)] backdrop-blur-2xl">
+          <div className="grid items-center gap-3 md:grid-cols-[1fr_160px_90px]">
+            <p className="font-serif text-4xl italic leading-none">To my beloved</p>
             <label>
               <span className="sr-only">Security answer</span>
               <input
@@ -658,13 +672,13 @@ function LandingPage({
                   }
                 }}
                 placeholder="name"
-                className="h-16 w-full rounded-[8px] border border-transparent bg-[#b060bd] px-5 text-center text-2xl font-semibold text-white outline-none placeholder:text-white/70 focus:border-white"
+                className="h-12 w-full rounded-[8px] border border-transparent bg-[#b060bd] px-4 text-center text-xl font-semibold text-white outline-none placeholder:text-white/70 focus:border-white"
               />
             </label>
             <button
               type="button"
               onClick={onOpen}
-              className="h-14 rounded-full bg-black px-7 text-sm font-semibold text-white"
+              className="h-12 rounded-full bg-black px-5 text-sm font-semibold text-white"
             >
               Open
             </button>
