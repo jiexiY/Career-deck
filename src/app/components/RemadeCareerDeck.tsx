@@ -629,19 +629,21 @@ function LandingPage({
   onOpen: () => void;
 }) {
   return (
-    <main className="min-h-screen bg-white text-black">
-      <section className="relative mx-auto min-h-screen max-w-[1440px] overflow-hidden bg-[#f5e8ff] px-6 py-10">
+    <main className="min-h-screen overflow-hidden bg-[#f5e8ff] text-black">
+      <section className="relative min-h-screen w-full overflow-hidden bg-[#f5e8ff]">
         <LiquidEtherBackground variant="landing" />
-        <DeckHeadline className="absolute left-0 top-5 z-20" />
 
         <Image
           src="/career-deck-landing.jpg"
           alt="Career Deck cover artwork"
-          width={4564}
-          height={3006}
+          fill
           priority
-          className="absolute bottom-[120px] right-0 z-10 h-auto w-[min(82vw,1150px)] object-contain"
+          sizes="100vw"
+          className="absolute inset-0 z-10 h-full w-full object-cover object-center"
         />
+
+        <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(245,232,255,0.42),rgba(245,232,255,0.14)_38%,rgba(245,232,255,0.02)_100%)]" />
+        <DeckHeadline className="absolute left-0 top-5 z-20" />
 
         <div className="absolute bottom-7 right-10 z-20 w-[min(810px,calc(100%-5rem))] rounded-[70px] border border-black/5 bg-white/55 px-8 py-6 shadow-[0_24px_70px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.9)] backdrop-blur-2xl">
           <div className="grid items-center gap-4 md:grid-cols-[1fr_240px_120px]">
