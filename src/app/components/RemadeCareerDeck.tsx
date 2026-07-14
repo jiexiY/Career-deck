@@ -578,15 +578,16 @@ function DeckHeadline({
 function LiquidEtherBackground({ variant }: { variant: "landing" | "home" | "opportunities" }) {
   const isHome = variant === "home";
   const isLanding = variant === "landing";
+  const isPrimarySurface = isLanding || isHome;
 
   return (
     <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-      {isLanding && (
+      {isPrimarySurface && (
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_14%_18%,rgba(82,39,255,0.42),transparent_35%),radial-gradient(ellipse_at_46%_78%,rgba(255,159,252,0.46),transparent_38%),radial-gradient(ellipse_at_88%_22%,rgba(180,151,207,0.54),transparent_37%),linear-gradient(135deg,rgba(255,255,255,0.72),rgba(246,229,255,0.62)_38%,rgba(214,169,224,0.74))]" />
       )}
       <div
         className={`absolute ${
-          isLanding
+          isPrimarySurface
             ? "inset-[-16%] opacity-100 saturate-[1.34] contrast-[1.12]"
             : "inset-0 opacity-80"
         }`}
@@ -619,12 +620,12 @@ function LiquidEtherBackground({ variant }: { variant: "landing" | "home" | "opp
       </div>
       <div
         className={
-          isLanding
+          isPrimarySurface
             ? "absolute inset-0 bg-[radial-gradient(circle_at_11%_9%,rgba(255,255,255,0.34),transparent_30%),radial-gradient(circle_at_82%_16%,rgba(255,255,255,0.12),transparent_28%),linear-gradient(115deg,rgba(255,255,255,0.10),rgba(255,255,255,0.03)_44%,rgba(137,39,158,0.03))]"
             : "absolute inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(255,255,255,0.36),transparent_34%),linear-gradient(115deg,rgba(255,255,255,0.34),rgba(255,255,255,0.08)_46%,rgba(137,39,158,0.16))]"
         }
       />
-      {isLanding && (
+      {isPrimarySurface && (
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.07)_56%,rgba(255,255,255,0.16))]" />
       )}
     </div>
@@ -710,14 +711,13 @@ function HomePage({
   onOpenSection: (section: OpportunitySection) => void;
 }) {
   return (
-    <main className="min-h-screen bg-[#f3e5f5] text-black">
-      <section className="relative min-h-screen overflow-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(243,229,245,1)_0%,rgba(211,173,217,0.9)_48%,rgba(179,117,189,1)_100%)] px-6 py-12">
+    <main className="min-h-screen bg-[#f5e8ff] text-black">
+      <section className="relative min-h-screen w-full overflow-hidden bg-[#f5e8ff] px-6 py-12">
         <LiquidEtherBackground variant="home" />
         <GlassBackButton onClick={onBack} label="Back to cover" />
+        <DeckHeadline className="absolute left-0 top-12 z-20" />
         <div className="relative z-10 mx-auto grid min-h-[calc(100vh-6rem)] max-w-[1440px] gap-8 lg:grid-cols-[1fr_430px]">
           <div className="relative min-h-[620px] overflow-hidden">
-            <DeckHeadline />
-
             <FloatingSectionBubbles onOpenSection={onOpenSection} />
           </div>
 
