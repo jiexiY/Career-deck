@@ -13,6 +13,7 @@ export default async function Home() {
     <RemadeCareerDeck
       opportunities={data.opportunities.map(scrubOpportunity)}
       liveUpdates={liveUpdates.map(scrubLiveUpdate)}
+      initialLastSyncedAt={data.lastSyncedAt}
       conversationSources={data.conversationSources ?? []}
       conversationSnapshots={data.conversationSnapshots ?? []}
     />

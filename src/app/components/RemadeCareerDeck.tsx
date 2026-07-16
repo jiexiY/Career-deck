@@ -15,6 +15,7 @@ import {
   type GameMonitorFilters,
   type GameMonitorOpportunity,
 } from "@/lib/career-deck/game-monitor";
+import { matchesPreferredOpportunityRegion } from "@/lib/career-deck/opportunity-region";
 import type {
   ConversationSnapshot,
   ConversationSource,
@@ -342,11 +343,13 @@ const reportConfigs: ReportConfig[] = [
 export function RemadeCareerDeck({
   opportunities,
   liveUpdates,
+  initialLastSyncedAt,
   conversationSources,
   conversationSnapshots,
 }: {
   opportunities: Opportunity[];
   liveUpdates: LiveUpdate[];
+  initialLastSyncedAt?: string;
   conversationSources: ConversationSource[];
   conversationSnapshots: ConversationSnapshot[];
 }) {
@@ -356,6 +359,9 @@ export function RemadeCareerDeck({
   const [activeSection, setActiveSection] = useState<OpportunitySection | "all">("all");
   const [query, setQuery] = useState("");
   const [deckOpportunities, setDeckOpportunities] = useState(opportunities);
+  const [lastSyncedAt, setLastSyncedAt] = useState(
+    initialLastSyncedAt ?? latestUpdateTimestamp(liveUpdates),
+  );
   const [selectedOpportunity, setSelectedOpportunity] = useState<Opportunity | null>(null);
   const [liveSourceStatuses, setLiveSourceStatuses] = useState<LiveSourceStatus[]>([]);
   const [categories, setCategories] = useState<Record<OpportunitySection, CategoryFilter>>({
@@ -378,6 +384,10 @@ export function RemadeCareerDeck({
         }
 
         const payload = (await response.json()) as LiveConversationResponse;
+
+        if (!cancelled && payload.ok && payload.checkedAt) {
+          setLastSyncedAt(payload.checkedAt);
+        }
 
         if (!cancelled && Array.isArray(payload.sources)) {
           setLiveSourceStatuses(payload.sources);
@@ -410,19 +420,24 @@ export function RemadeCareerDeck({
     };
   }, []);
 
+  const focusDeckOpportunities = useMemo(
+    () => deckOpportunities.filter(matchesPreferredOpportunityRegion),
+    [deckOpportunities],
+  );
+
   const counts = useMemo(
     () => ({
-      all: deckOpportunities.length,
-      tech: deckOpportunities.filter((item) => (item.section ?? "tech") === "tech").length,
-      game: deckOpportunities.filter((item) => item.section === "game").length,
+      all: focusDeckOpportunities.length,
+      tech: focusDeckOpportunities.filter((item) => (item.section ?? "tech") === "tech").length,
+      game: focusDeckOpportunities.filter((item) => item.section === "game").length,
     }),
-    [deckOpportunities],
+    [focusDeckOpportunities],
   );
 
   const visibleOpportunities = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
 
-    return deckOpportunities.filter((opportunity) => {
+    return focusDeckOpportunities.filter((opportunity) => {
       const section = opportunity.section ?? "tech";
       const matchesSection = activeSection === "all" || activeSection === section;
       const matchesCategory = categories[section] === "all" || opportunity.type === categories[section];
@@ -451,7 +466,7 @@ export function RemadeCareerDeck({
         (!normalizedQuery || searchable.includes(normalizedQuery))
       );
     });
-  }, [activeSection, categories, deckOpportunities, gameFilters, query]);
+  }, [activeSection, categories, focusDeckOpportunities, gameFilters, query]);
 
   function updateSecurityAnswer(value: string) {
     setSecurityAnswer(value);
@@ -510,7 +525,7 @@ export function RemadeCareerDeck({
       <HomePage
         counts={counts}
         categories={categories}
-        liveUpdates={liveUpdates}
+        lastSyncedAt={lastSyncedAt}
         liveSourceStatuses={liveSourceStatuses}
         onBack={returnToLanding}
         onOpenSection={openSection}
@@ -530,7 +545,7 @@ export function RemadeCareerDeck({
       activeSection={activeSection}
       categories={categories}
       counts={counts}
-      liveUpdates={liveUpdates}
+      lastSyncedAt={lastSyncedAt}
       liveSourceStatuses={liveSourceStatuses}
       opportunities={visibleOpportunities}
       query={query}
@@ -560,8 +575,8 @@ function DeckHeadline({
     <div
       className={`pointer-events-none flex items-center rounded-r-[999px] border-y border-r border-white/54 bg-white/18 shadow-[inset_0_1px_0_rgba(255,255,255,0.72),0_24px_80px_rgba(84,14,105,0.13)] backdrop-blur-2xl ${
         compact
-          ? "min-h-[96px] w-[min(470px,calc(100vw-1.25rem))] px-8 pl-12 sm:min-h-[112px] sm:px-10 sm:pl-14"
-          : "min-h-[104px] w-[min(760px,calc(100vw-1.5rem))] px-8 pl-16 sm:min-h-[132px] sm:px-12 sm:pl-20"
+          ? "min-h-[96px] w-[min(470px,calc(100vw-1.25rem))] justify-start pr-8 pl-4 sm:min-h-[112px] sm:pr-10 sm:pl-6"
+          : "min-h-[104px] w-[min(760px,calc(100vw-1.5rem))] justify-start pr-8 pl-4 sm:min-h-[132px] sm:pr-12 sm:pl-6"
       } ${className}`}
     >
       <h1
@@ -694,7 +709,7 @@ function LandingPage({
 function HomePage({
   counts,
   categories,
-  liveUpdates,
+  lastSyncedAt,
   liveSourceStatuses,
   onBack,
   onCategoryChange,
@@ -703,7 +718,7 @@ function HomePage({
 }: {
   counts: { all: number; tech: number; game: number };
   categories: Record<OpportunitySection, CategoryFilter>;
-  liveUpdates: LiveUpdate[];
+  lastSyncedAt?: string;
   liveSourceStatuses: LiveSourceStatus[];
   onBack: () => void;
   onCategoryChange: (section: OpportunitySection, value: CategoryFilter) => void;
@@ -736,7 +751,7 @@ function HomePage({
               onChange={(value) => onCategoryChange("tech", value)}
             />
             <p className="mt-10 text-2xl font-semibold" title={liveExtractionLabel(liveSourceStatuses)}>
-              Last sync {latestSync(liveUpdates)}
+              Last sync {formatSyncTimestamp(lastSyncedAt)}
             </p>
           </aside>
         </div>
@@ -944,7 +959,7 @@ function OpportunitiesPage({
   activeSection,
   categories,
   counts,
-  liveUpdates,
+  lastSyncedAt,
   liveSourceStatuses,
   opportunities,
   query,
@@ -959,7 +974,7 @@ function OpportunitiesPage({
   activeSection: OpportunitySection | "all";
   categories: Record<OpportunitySection, CategoryFilter>;
   counts: { all: number; tech: number; game: number };
-  liveUpdates: LiveUpdate[];
+  lastSyncedAt?: string;
   liveSourceStatuses: LiveSourceStatus[];
   opportunities: Opportunity[];
   query: string;
@@ -976,11 +991,11 @@ function OpportunitiesPage({
 }) {
   return (
     <main className="min-h-screen bg-[#f3e5f5] text-black">
-      <section className="relative min-h-screen overflow-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(193,139,202,0.95)_0%,rgba(218,184,224,0.86)_48%,rgba(243,229,245,0.98)_100%)] px-5 pb-28 pt-10 sm:px-8 lg:px-12">
+      <section className="relative min-h-screen overflow-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(193,139,202,0.95)_0%,rgba(218,184,224,0.86)_48%,rgba(243,229,245,0.98)_100%)] pb-28 pl-0 pr-5 pt-10 sm:pr-8 lg:pr-12">
         <LiquidEtherBackground variant="opportunities" />
         <GlassBackButton onClick={onBack} label="Back to home" />
-        <header className="relative z-10 mx-auto flex max-w-[1440px] flex-col gap-5 md:flex-row md:items-start md:justify-between">
-          <DeckHeadline className="shrink-0" />
+        <header className="relative z-10 flex max-w-[1440px] flex-col gap-5 md:flex-row md:items-start md:justify-between">
+          <DeckHeadline className="-ml-px shrink-0" />
 
           <div className="grid w-full max-w-[520px] gap-3">
             <label className="relative">
@@ -1025,7 +1040,7 @@ function OpportunitiesPage({
           <ReportCharts opportunities={opportunities} />
         </div>
 
-        <section className="relative z-10 mx-auto mt-8 grid max-w-[1368px] gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <section className="relative z-10 mt-8 grid max-w-[1368px] gap-5 md:grid-cols-2 xl:grid-cols-3">
           {opportunities.length ? (
             opportunities.map((opportunity) => (
               <OpportunityCard
@@ -1044,7 +1059,7 @@ function OpportunitiesPage({
         <DeckStatusBar
           categories={categories}
           counts={counts}
-          liveUpdates={liveUpdates}
+          lastSyncedAt={lastSyncedAt}
           liveSourceStatuses={liveSourceStatuses}
           onCategoryChange={onCategoryChange}
         />
@@ -1087,7 +1102,7 @@ function GameMonitorPanel({
   const newestHighFit = newestHighFitGameMonitors(actionableLinkedOpportunities, 4);
 
   return (
-    <section className="relative z-10 mx-auto mt-8 grid max-w-[1368px] gap-5">
+    <section className="relative z-10 mt-8 grid max-w-[1368px] gap-5">
       <div className="grid gap-5 rounded-[29px] border border-white/55 bg-white/20 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.64),0_28px_90px_rgba(101,36,112,0.14)] backdrop-blur-2xl xl:grid-cols-[1.1fr_0.9fr]">
         <div>
           <div className="flex flex-wrap items-start justify-between gap-4">
@@ -1356,7 +1371,7 @@ function ReportCharts({ opportunities }: { opportunities: Opportunity[] }) {
   }
 
   return (
-    <div className="mx-auto mt-8 grid max-w-[1368px] gap-6">
+    <div className="mt-8 grid max-w-[1368px] gap-6">
       {activeReports.map(({ report, records }) => (
         <ReportPanel key={report.section} report={report} records={records} />
       ))}
@@ -1630,13 +1645,13 @@ function DetailMiniList({ label, items }: { label: string; items: string[] }) {
 function DeckStatusBar({
   categories,
   counts,
-  liveUpdates,
+  lastSyncedAt,
   liveSourceStatuses,
   onCategoryChange,
 }: {
   categories: Record<OpportunitySection, CategoryFilter>;
   counts: { all: number; tech: number; game: number };
-  liveUpdates: LiveUpdate[];
+  lastSyncedAt?: string;
   liveSourceStatuses: LiveSourceStatus[];
   onCategoryChange: (section: OpportunitySection, value: CategoryFilter) => void;
 }) {
@@ -1654,7 +1669,7 @@ function DeckStatusBar({
           value={categories.tech}
           onChange={(value) => onCategoryChange("tech", value)}
         />
-        <span title={liveExtractionLabel(liveSourceStatuses)}>Last sync {latestSync(liveUpdates)}</span>
+        <span title={liveExtractionLabel(liveSourceStatuses)}>Last sync {formatSyncTimestamp(lastSyncedAt)}</span>
       </div>
     </div>
   );
@@ -1879,12 +1894,14 @@ function mergeOpportunities(current: Opportunity[], incoming: Opportunity[]) {
   return Array.from(byId.values()).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 
-function latestSync(updates: LiveUpdate[]) {
-  const latest = updates
+function latestUpdateTimestamp(updates: LiveUpdate[]) {
+  return updates
     .map((update) => update.updatedAt)
     .sort((a, b) => b.localeCompare(a))[0];
+}
 
-  return latest ? formatTimestamp(latest) : "TBD";
+function formatSyncTimestamp(value?: string) {
+  return value ? formatTimestamp(value) : "TBD";
 }
 
 function formatTimestamp(value: string) {
