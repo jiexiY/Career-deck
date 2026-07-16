@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T16:04:38.236Z",
+  "updatedAt": "2026-07-16T12:31:11.7860091-07:00",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -7136,6 +7136,35 @@
       "evidence": [
         "Official SharkNinja Greenhouse application page was open and accepting applications on July 14, 2026.",
         "The page confirms user-centered product design engineering, CAD and prototype work, onsite schedule, eligibility, and hourly pay range."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-16-sharkninja-product-design-engineering-coop-advanced-development",
+      "title": "Fall 2026: Product Design Engineering Co-op, Advanced Development (July/August to December)",
+      "organization": "SharkNinja",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-sharkninja-careers",
+      "sourceName": "SharkNinja Careers",
+      "sourceUrl": "https://careers.sharkninja.com/job/needham/fall-2026-product-design-engineering-co-op-advanced-development-july-to-december/47204/90824549568",
+      "url": "https://careers.sharkninja.com/job/needham/fall-2026-product-design-engineering-co-op-advanced-development-july-to-december/47204/90824549568",
+      "location": "Needham, MA - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "$30-$36 USD per hour",
+      "eligibility": "Current bachelor's student in year three or beyond, current master's student, or within one year of graduation; full-time onsite July/August-December 2026; product design engineering, industrial design, or related background with CAD and prototyping experience required.",
+      "discoveredAt": "2026-07-16T12:31:11.7860091-07:00",
+      "updatedAt": "2026-07-16T12:31:11.7860091-07:00",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.97,
+        "freshness": 0.98,
+        "duplicateProbability": 0.02
+      },
+      "evidence": [
+        "Official SharkNinja early-talent search results listed this role as open in Needham, MA and posted on July 2, 2026.",
+        "The official role page confirms the July/August-December 2026 term, five-day onsite schedule, third-year-or-beyond student or recent-graduate eligibility, CAD and rapid prototyping expectations, and the $30-$36 hourly pay range."
       ],
       "needsReview": false
     },
