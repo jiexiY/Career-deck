@@ -1102,7 +1102,7 @@ function GameMonitorPanel({
   const newestHighFit = newestHighFitGameMonitors(actionableLinkedOpportunities, 4);
 
   return (
-    <section className="relative z-10 mt-8 grid max-w-[1368px] gap-5">
+    <section className="relative z-10 mx-auto mt-8 grid w-[calc(100%-2.5rem)] max-w-[1368px] gap-5 sm:w-[calc(100%-4rem)] lg:w-[calc(100%-6rem)]">
       <div className="grid gap-5 rounded-[29px] border border-white/55 bg-white/20 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.64),0_28px_90px_rgba(101,36,112,0.14)] backdrop-blur-2xl xl:grid-cols-[1.1fr_0.9fr]">
         <div>
           <div className="flex flex-wrap items-start justify-between gap-4">
@@ -1371,7 +1371,7 @@ function ReportCharts({ opportunities }: { opportunities: Opportunity[] }) {
   }
 
   return (
-    <div className="mt-8 grid max-w-[1368px] gap-6">
+    <div className="mx-auto mt-8 grid w-[calc(100%-2.5rem)] max-w-[1368px] gap-6 sm:w-[calc(100%-4rem)] lg:w-[calc(100%-6rem)]">
       {activeReports.map(({ report, records }) => (
         <ReportPanel key={report.section} report={report} records={records} />
       ))}
