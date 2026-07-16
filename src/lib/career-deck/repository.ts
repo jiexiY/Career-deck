@@ -248,7 +248,6 @@ async function getDashboardSnapshot(): Promise<DashboardData> {
     sources: [...sources, ...liveSources],
     attempts,
     opportunities: mergeOpportunities(liveOpportunities),
-    lastSyncedAt: liveData.updatedAt ?? undefined,
     reviewQueue,
     report,
     liveUpdate,

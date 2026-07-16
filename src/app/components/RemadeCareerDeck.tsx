@@ -19,7 +19,6 @@ import { matchesPreferredOpportunityRegion } from "@/lib/career-deck/opportunity
 import type {
   ConversationSnapshot,
   ConversationSource,
-  LiveUpdate,
   Opportunity,
   OpportunitySection,
   OpportunityType,
@@ -38,7 +37,6 @@ type FloatingBubbleBody = {
 
 type LiveConversationResponse = {
   ok?: boolean;
-  checkedAt?: string;
   sources?: LiveSourceStatus[];
   opportunities?: Opportunity[];
 };
@@ -342,14 +340,10 @@ const reportConfigs: ReportConfig[] = [
 
 export function RemadeCareerDeck({
   opportunities,
-  liveUpdates,
-  initialLastSyncedAt,
   conversationSources,
   conversationSnapshots,
 }: {
   opportunities: Opportunity[];
-  liveUpdates: LiveUpdate[];
-  initialLastSyncedAt?: string;
   conversationSources: ConversationSource[];
   conversationSnapshots: ConversationSnapshot[];
 }) {
@@ -359,9 +353,6 @@ export function RemadeCareerDeck({
   const [activeSection, setActiveSection] = useState<OpportunitySection | "all">("all");
   const [query, setQuery] = useState("");
   const [deckOpportunities, setDeckOpportunities] = useState(opportunities);
-  const [lastSyncedAt, setLastSyncedAt] = useState(
-    initialLastSyncedAt ?? latestUpdateTimestamp(liveUpdates),
-  );
   const [selectedOpportunity, setSelectedOpportunity] = useState<Opportunity | null>(null);
   const [liveSourceStatuses, setLiveSourceStatuses] = useState<LiveSourceStatus[]>([]);
   const [categories, setCategories] = useState<Record<OpportunitySection, CategoryFilter>>({
@@ -384,10 +375,6 @@ export function RemadeCareerDeck({
         }
 
         const payload = (await response.json()) as LiveConversationResponse;
-
-        if (!cancelled && payload.ok && payload.checkedAt) {
-          setLastSyncedAt(payload.checkedAt);
-        }
 
         if (!cancelled && Array.isArray(payload.sources)) {
           setLiveSourceStatuses(payload.sources);
@@ -424,6 +411,7 @@ export function RemadeCareerDeck({
     () => deckOpportunities.filter(matchesPreferredOpportunityRegion),
     [deckOpportunities],
   );
+  const lastSyncedAt = latestDiscoveredTimestamp(focusDeckOpportunities);
 
   const counts = useMemo(
     () => ({
@@ -1040,7 +1028,7 @@ function OpportunitiesPage({
           <ReportCharts opportunities={opportunities} />
         </div>
 
-        <section className="relative z-10 mt-8 grid max-w-[1368px] gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <section className="relative z-10 mx-auto mt-8 grid w-[calc(100%-2.5rem)] max-w-[1368px] gap-5 sm:w-[calc(100%-4rem)] md:grid-cols-2 lg:w-[calc(100%-6rem)] xl:grid-cols-3">
           {opportunities.length ? (
             opportunities.map((opportunity) => (
               <OpportunityCard
@@ -1885,19 +1873,32 @@ function mergeOpportunities(current: Opportunity[], incoming: Opportunity[]) {
   const byId = new Map(current.map((opportunity) => [opportunity.id, opportunity]));
 
   for (const opportunity of incoming) {
+    const existing = byId.get(opportunity.id);
+
     byId.set(opportunity.id, {
-      ...(byId.get(opportunity.id) ?? {}),
+      ...(existing ?? {}),
       ...opportunity,
+      discoveredAt: existing?.discoveredAt ?? opportunity.discoveredAt,
     });
   }
 
   return Array.from(byId.values()).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 
-function latestUpdateTimestamp(updates: LiveUpdate[]) {
-  return updates
-    .map((update) => update.updatedAt)
-    .sort((a, b) => b.localeCompare(a))[0];
+function latestDiscoveredTimestamp(opportunities: Opportunity[]) {
+  let latestValue: string | undefined;
+  let latestTime = Number.NEGATIVE_INFINITY;
+
+  for (const opportunity of opportunities) {
+    const discoveredTime = Date.parse(opportunity.discoveredAt);
+
+    if (!Number.isNaN(discoveredTime) && discoveredTime > latestTime) {
+      latestTime = discoveredTime;
+      latestValue = opportunity.discoveredAt;
+    }
+  }
+
+  return latestValue;
 }
 
 function formatSyncTimestamp(value?: string) {

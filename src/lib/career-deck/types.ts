@@ -166,7 +166,6 @@ export interface DashboardData {
   sources: Source[];
   attempts: FetchAttempt[];
   opportunities: Opportunity[];
-  lastSyncedAt?: string;
   reviewQueue: ReviewItem[];
   report: DailyReport;
   liveUpdate?: LiveUpdate;
