@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T19:10:20.830Z",
+  "updatedAt": "2026-07-17T19:50:21.470Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6962,6 +6962,36 @@
       "evidence": [
         "Verified official application route: https://ats.workatsea.com/apply/J02138931",
         "Game monitor fit score 7/10; last checked 2026-07-16."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-pyka-mechanical-design-engineering-intern",
+      "title": "Mechanical Engineering Intern - Dropship Fall 2026",
+      "organization": "Pyka",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-pyka-lever",
+      "sourceName": "Pyka Lever",
+      "sourceUrl": "https://jobs.lever.co/pyka/92d3f17a-8fc7-4105-862c-2429db8d4859",
+      "url": "https://jobs.lever.co/pyka/92d3f17a-8fc7-4105-862c-2429db8d4859",
+      "location": "Alameda, CA - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "$28 USD per hour",
+      "eligibility": "Currently pursuing Mechanical Engineering, Aerospace Engineering, or a related degree; familiarity with 3D CAD and hands-on prototyping is expected, with a preferred graduation window from Winter 2026 through Spring 2028. Employment is conditioned on continued authorization to access export-controlled technology.",
+      "discoveredAt": "2026-07-17T19:50:21.470Z",
+      "attemptedAt": "2026-07-17T19:50:21.470Z",
+      "updatedAt": "2026-07-17T19:50:21.470Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Pyka's official Lever board displayed this Fall 2026 internship in its Mechanical Design Engineering team with an active apply action on July 17, 2026.",
+        "The official posting confirms onsite work at Alameda HQ, full-cycle mechanical design and prototyping responsibilities, 3D CAD expectations, a preferred Winter 2026 through Spring 2028 graduation window, export-control conditions, and $28 hourly compensation; no application deadline is listed."
       ],
       "needsReview": false
     },
