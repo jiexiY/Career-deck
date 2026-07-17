@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T16:28:12.241Z",
+  "updatedAt": "2026-07-17T16:55:25.809Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6962,6 +6962,35 @@
       "evidence": [
         "Verified official application route: https://ats.workatsea.com/apply/J02138931",
         "Game monitor fit score 7/10; last checked 2026-07-16."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-jaktool-design-engineer-intern",
+      "title": "Design Engineer Intern - Fall 2026",
+      "organization": "JAKTOOL",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-jaktool-hireonthego",
+      "sourceName": "JAKTOOL Hire on the GO",
+      "sourceUrl": "https://jaktool.hireonthego.com/job/1035786/design-engineer-intern-fall-2026",
+      "url": "https://jaktool.hireonthego.com/job/1035786/design-engineer-intern-fall-2026",
+      "location": "Cranbury, NJ - work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "$18-$20 USD per hour",
+      "eligibility": "Currently pursuing Mechanical Engineering, Industrial Design, or a related degree; problem-solving ability, attention to detail, teamwork, and initiative are required. CAD and manufacturing-process experience are listed as bonuses, not requirements.",
+      "discoveredAt": "2026-07-17T09:55:25.809-07:00",
+      "updatedAt": "2026-07-17T09:55:25.809-07:00",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "JAKTOOL's employer careers page links to its Hire on the GO board, which displayed this role and an active Apply for this position button on July 17, 2026.",
+        "The official role page confirms Cranbury, NJ, Fall 2026 timing, $18-$20 hourly compensation, CAD and concept-development work, prototype testing, product documentation, material and process research, and current degree enrollment; no application deadline or work arrangement is listed."
       ],
       "needsReview": false
     },
