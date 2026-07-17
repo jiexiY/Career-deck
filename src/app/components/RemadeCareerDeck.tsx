@@ -980,11 +980,11 @@ function OpportunitiesPage({
 }) {
   return (
     <main className="min-h-screen bg-[#f3e5f5] text-black">
-      <section className="relative min-h-screen overflow-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(193,139,202,0.95)_0%,rgba(218,184,224,0.86)_48%,rgba(243,229,245,0.98)_100%)] pb-28 pl-0 pr-5 pt-10 sm:pr-8 lg:pr-12">
+      <section className="relative min-h-screen overflow-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(193,139,202,0.95)_0%,rgba(218,184,224,0.86)_48%,rgba(243,229,245,0.98)_100%)] pb-10 pl-0 pr-5 pt-10 sm:pr-8 lg:pr-12">
         <LiquidEtherBackground variant="opportunities" />
         <GlassBackButton onClick={onBack} label="Back to home" />
         <header className="relative z-10 flex max-w-[1440px] flex-col gap-5 md:flex-row md:items-start md:justify-between">
-          <DeckHeadline className="-ml-px shrink-0" />
+          <DeckHeadline className="shrink-0" />
 
           <div className="grid w-full max-w-[520px] gap-3">
             <label className="relative">
@@ -1295,7 +1295,7 @@ function OpportunityCard({
   const gameMonitor = getGameMonitorRecord(opportunity.id);
 
   return (
-    <article className="relative min-h-[430px] rounded-[29px] border border-white/45 bg-white/20 px-5 pb-4 pt-14 shadow-[inset_0_1px_0_rgba(255,255,255,0.62),0_28px_70px_rgba(92,38,105,0.12)] backdrop-blur-2xl transition duration-200 hover:-translate-y-1 hover:bg-white/28">
+    <article className="relative min-h-[430px] min-w-0 rounded-[29px] border border-white/45 bg-white/20 px-5 pb-4 pt-14 shadow-[inset_0_1px_0_rgba(255,255,255,0.62),0_28px_70px_rgba(92,38,105,0.12)] backdrop-blur-2xl transition duration-200 hover:-translate-y-1 hover:bg-white/28">
       <span
         className={`absolute left-4 top-4 rounded-full px-3 py-0.5 text-xs font-medium text-white shadow-[0_8px_22px_rgba(103,0,130,0.18)] ${
           opportunity.needsReview ? "bg-[#6d6470]" : priority ? "bg-[#a100c6]" : "bg-[#d774dc]"
@@ -1307,24 +1307,24 @@ function OpportunityCard({
       <button
         type="button"
         onClick={onSelect}
-        className="grid h-full w-full grid-rows-[auto_auto_1fr_auto] text-center outline-none focus-visible:ring-2 focus-visible:ring-[#8f00b8]"
+        className="grid h-full min-w-0 w-full grid-rows-[auto_auto_1fr_auto] text-center outline-none focus-visible:ring-2 focus-visible:ring-[#8f00b8]"
       >
-        <span className="text-base font-semibold">
+        <span className="min-w-0 text-base font-semibold leading-snug [overflow-wrap:anywhere]">
           {formatOpportunityType(opportunity.type)} {plainText(opportunity.title)}
         </span>
-        <span className="mt-1 block text-2xl font-thin leading-tight">
+        <span className="mt-1 block min-w-0 text-2xl font-thin leading-tight [overflow-wrap:anywhere]">
           {plainText(opportunity.organization)}
         </span>
 
         <span className="mt-4 grid gap-3">
-          <span className="flex min-h-[104px] items-center justify-center rounded-[27px] border border-white/45 bg-white/18 px-4 text-sm font-semibold leading-tight shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
+          <span className="flex min-h-[104px] min-w-0 items-center justify-center rounded-[27px] border border-white/45 bg-white/18 px-4 text-sm font-semibold leading-snug [overflow-wrap:anywhere] shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
             {conciseSummary(opportunity)}
           </span>
           <FitnessBreakdown opportunity={opportunity} compact />
         </span>
 
         {reportInsight && (
-          <span className="mt-3 grid grid-cols-[96px_1fr] gap-2 rounded-[20px] border border-white/45 bg-white/16 px-3 py-2 text-left text-xs font-semibold leading-snug">
+          <span className="mt-3 grid min-w-0 grid-cols-[96px_minmax(0,1fr)] gap-2 rounded-[20px] border border-white/45 bg-white/16 px-3 py-2 text-left text-xs font-semibold leading-snug [overflow-wrap:anywhere]">
             <span className="rounded-full bg-white/38 px-2 py-1 text-center">{reportInsight.fit}</span>
             <span>
               {reportInsight.bucket}: {reportInsight.action}
@@ -1333,7 +1333,7 @@ function OpportunityCard({
         )}
 
         {gameMonitor && (
-          <span className="mt-3 grid grid-cols-[86px_1fr] gap-2 rounded-[20px] border border-white/45 bg-white/16 px-3 py-2 text-left text-xs font-semibold leading-snug">
+          <span className="mt-3 grid min-w-0 grid-cols-[86px_minmax(0,1fr)] gap-2 rounded-[20px] border border-white/45 bg-white/16 px-3 py-2 text-left text-xs font-semibold leading-snug [overflow-wrap:anywhere]">
             <span className="rounded-full bg-white/38 px-2 py-1 text-center">{gameMonitor.fitScore}/10</span>
             <span>
               {formatMonitorStatus(gameMonitor.roleTrack)} - {formatMonitorStatus(gameMonitor.monitorStatus)}
@@ -1497,33 +1497,46 @@ function DetailPage({
 
   return (
     <main className="min-h-screen bg-[#f3e5f5] text-black">
-      <section className="min-h-screen bg-[radial-gradient(circle_at_0%_0%,rgba(243,229,245,1)_0%,rgba(226,176,234,0.92)_100%)] px-4 py-8">
-        <div className="mx-auto max-w-[1440px]">
-          <DeckHeadline />
+      <section className="min-h-screen overflow-x-hidden bg-[radial-gradient(circle_at_0%_0%,rgba(243,229,245,1)_0%,rgba(226,176,234,0.92)_100%)] py-6 sm:py-8">
+        <DeckHeadline />
 
-          <div className="mt-5 min-h-[calc(100vh-210px)] rounded-[120px] border border-white/45 bg-white/18 p-7 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_30px_120px_rgba(96,0,118,0.18)] backdrop-blur-2xl md:p-12 lg:p-16">
-            <div className="grid gap-8 lg:grid-cols-[1fr_360px] xl:grid-cols-[1fr_430px]">
-              <div>
-                <div className="flex flex-wrap items-center justify-center gap-4 text-center">
+        <div className="px-3 sm:px-4">
+          <div className="relative mx-auto mt-5 min-h-[calc(100vh-210px)] max-w-[1440px] rounded-[44px] border border-white/45 bg-white/18 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_30px_120px_rgba(96,0,118,0.18)] backdrop-blur-2xl sm:rounded-[64px] sm:p-8 lg:p-10 xl:rounded-[96px] xl:p-14">
+            <button
+              type="button"
+              onClick={onClose}
+              className="absolute right-5 top-5 z-10 flex h-11 w-11 items-center justify-center rounded-full border border-white/55 bg-white/22 shadow-[inset_0_1px_0_rgba(255,255,255,0.7),0_12px_35px_rgba(96,0,118,0.12)] backdrop-blur-2xl transition hover:bg-white/34 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7b00a7] sm:right-8 sm:top-8"
+              aria-label="Close details"
+            >
+              <X size={22} aria-hidden="true" />
+            </button>
+
+            <div className="grid min-w-0 gap-8 xl:grid-cols-[minmax(0,1fr)_minmax(340px,400px)]">
+              <div className="min-w-0">
+                <div className="flex min-w-0 flex-col items-start gap-3 pr-14 text-left sm:flex-row sm:gap-4 xl:pr-0">
                   <span
-                    className={`rounded-full px-8 py-2 text-xl font-medium text-white ${
+                    className={`shrink-0 rounded-full px-4 py-1.5 text-sm font-medium text-white shadow-[0_8px_22px_rgba(103,0,130,0.14)] ${
                       isPriority(opportunity) ? "bg-[#7b00a7]" : "bg-[#d774dc]"
                     }`}
                   >
                     {isPriority(opportunity) ? "Priority" : "Standard"}
                   </span>
-                  <div>
-                    <h2 className="text-2xl font-semibold md:text-3xl">
+                  <div className="min-w-0">
+                    <h2 className="text-xl font-semibold leading-tight [overflow-wrap:anywhere] sm:text-2xl lg:text-3xl">
                       {formatOpportunityType(opportunity.type)} {plainText(opportunity.title)}
                     </h2>
-                    <p className="mt-1 text-4xl font-thin">{plainText(opportunity.organization)}</p>
+                    <p className="mt-1 text-2xl font-thin leading-tight [overflow-wrap:anywhere] sm:text-3xl">
+                      {plainText(opportunity.organization)}
+                    </p>
                   </div>
                 </div>
 
-                <div className="mt-8 flex min-h-[410px] items-center justify-center rounded-[37px] border border-white/45 bg-white/18 px-7 py-8 text-center text-2xl font-semibold shadow-[inset_0_1px_0_rgba(255,255,255,0.55)]">
-                  <div className="grid max-w-2xl gap-5">
-                    <p>{detailSummary(opportunity)}</p>
-                    <div className="grid gap-3 text-base font-medium text-black/70 sm:grid-cols-2">
+                <div className="mt-6 min-w-0 rounded-[32px] border border-white/45 bg-white/18 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] sm:p-6 lg:p-8">
+                  <div className="grid min-w-0 gap-5">
+                    <p className="mx-auto max-w-[70ch] text-left text-base font-semibold leading-7 text-black/82 [overflow-wrap:anywhere] sm:text-lg">
+                      {detailSummary(opportunity)}
+                    </p>
+                    <div className="grid min-w-0 gap-3 text-sm font-medium text-black/70 md:grid-cols-2 sm:text-base">
                       <DetailPill label="Compensation" value={opportunity.compensation} />
                       <DetailPill label="Eligibility" value={opportunity.eligibility} />
                       <DetailPill label="Location" value={opportunity.location} />
@@ -1533,17 +1546,8 @@ function DetailPage({
                 </div>
               </div>
 
-              <aside className="flex flex-col items-center justify-center gap-7 text-center">
-                <button
-                  type="button"
-                  onClick={onClose}
-                  className="self-end rounded-full border border-white/55 bg-white/22 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.7),0_12px_35px_rgba(96,0,118,0.12)] backdrop-blur-2xl"
-                  aria-label="Close details"
-                >
-                  <X size={28} aria-hidden="true" />
-                </button>
-
-                <div>
+              <aside className="flex min-w-0 flex-col items-stretch justify-start gap-5 text-center xl:pt-4">
+                <div className="min-w-0">
                   <p className="text-3xl font-semibold">My fitness rate</p>
                   <FitnessBreakdown opportunity={opportunity} />
                   {reportInsight && (
@@ -1585,7 +1589,7 @@ function DetailPage({
 
 function GameMonitorDetail({ monitor }: { monitor: GameMonitorOpportunity }) {
   return (
-    <div className="mt-4 rounded-[24px] border border-white/45 bg-white/18 p-4 text-left text-sm font-semibold leading-snug shadow-[inset_0_1px_0_rgba(255,255,255,0.42)]">
+    <div className="mt-4 min-w-0 rounded-[24px] border border-white/45 bg-white/18 p-4 text-left text-sm font-semibold leading-snug [overflow-wrap:anywhere] shadow-[inset_0_1px_0_rgba(255,255,255,0.42)]">
       <p className="text-xs uppercase text-black/48">Game monitor fit</p>
       <div className="mt-2 flex flex-wrap gap-2">
         <span className="rounded-full bg-white/38 px-3 py-1">{monitor.fitScore}/10 fit</span>
@@ -1624,7 +1628,7 @@ function DetailMiniList({ label, items }: { label: string; items: string[] }) {
   return (
     <div>
       <p className="text-xs uppercase text-black/48">{label}</p>
-      <ul className="mt-1 grid gap-1 text-xs font-medium text-black/66">
+      <ul className="mt-1 grid min-w-0 gap-1 text-xs font-medium text-black/66 [overflow-wrap:anywhere]">
         {items.map((item) => (
           <li key={item}>- {item}</li>
         ))}
@@ -1647,7 +1651,7 @@ function DeckStatusBar({
   onCategoryChange: (section: OpportunitySection, value: CategoryFilter) => void;
 }) {
   return (
-    <div className="fixed bottom-5 left-1/2 z-30 w-[calc(100%-2rem)] max-w-[1260px] -translate-x-1/2 rounded-full border border-white/60 bg-white/24 px-5 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.7),0_18px_55px_rgba(96,0,118,0.14)] backdrop-blur-2xl">
+    <div className="relative z-20 mx-auto mt-8 w-[calc(100%-2.5rem)] max-w-[1260px] rounded-[36px] border border-white/60 bg-white/24 px-5 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.7),0_18px_55px_rgba(96,0,118,0.14)] backdrop-blur-2xl sm:w-[calc(100%-4rem)] lg:w-[calc(100%-6rem)] lg:rounded-full">
       <div className="grid items-center gap-3 text-center text-sm font-semibold sm:grid-cols-2 lg:grid-cols-4">
         <span>Total records {counts.all}</span>
         <CategorySelect
@@ -1676,7 +1680,7 @@ function CategorySelect({
   onChange: (value: CategoryFilter) => void;
 }) {
   return (
-    <label className="relative mt-7 block first:mt-0">
+    <label className="relative block">
       <span className="sr-only">{label}</span>
       <select
         value={value}
@@ -1761,18 +1765,18 @@ function FitnessBreakdown({
 
 function DetailPill({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-[22px] border border-white/45 bg-white/18 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.4)]">
+    <div className="min-w-0 rounded-[22px] border border-white/45 bg-white/18 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.4)]">
       <p className="text-xs uppercase text-black/48">{label}</p>
-      <p className="mt-1 leading-6">{plainText(value)}</p>
+      <p className="mt-1 leading-6 [overflow-wrap:anywhere]">{plainText(value)}</p>
     </div>
   );
 }
 
 function SourceLine({ label, value }: { label: string; value: string }) {
   return (
-    <div className="flex items-center justify-between gap-4 rounded-full border border-white/45 bg-white/16 px-5 py-3">
+    <div className="grid min-w-0 grid-cols-[auto_minmax(0,1fr)] items-center gap-4 rounded-[20px] border border-white/45 bg-white/16 px-5 py-3">
       <span className="text-black/50">{label}</span>
-      <span>{value}</span>
+      <span className="min-w-0 text-right [overflow-wrap:anywhere]">{value}</span>
     </div>
   );
 }
@@ -1828,21 +1832,38 @@ function conciseSummary(opportunity: Opportunity) {
     return clampText(eligibility, 70);
   }
 
-  if (opportunity.evidence[0]) {
-    return clampText(plainText(opportunity.evidence[0]), 70);
+  const evidence = displayEvidence(opportunity);
+
+  if (evidence) {
+    return clampText(evidence, 70);
   }
 
   return `${formatOpportunityType(opportunity.type)} opportunity`;
 }
 
 function detailSummary(opportunity: Opportunity) {
-  const evidence = plainText(opportunity.evidence.filter(Boolean).join(" "));
+  const evidence = displayEvidence(opportunity);
 
   if (evidence) {
     return clampText(evidence, 260);
   }
 
   return `${opportunity.organization} ${formatOpportunityType(opportunity.type)} record synced from ${opportunity.sourceId}.`;
+}
+
+function displayEvidence(opportunity: Opportunity) {
+  return opportunity.evidence
+    .map((item) =>
+      plainText(item)
+        .replace(/verified official application route:\s*(?:https?:\/\/\S+)?/gi, "")
+        .replace(/https?:\/\/\S+/gi, "")
+        .replace(/^[\s,;:.-]+/, "")
+        .replace(/\s+/g, " ")
+        .trim(),
+    )
+    .filter(Boolean)
+    .join(" ")
+    .trim();
 }
 
 function clampText(value: string, limit: number) {
