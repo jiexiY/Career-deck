@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T02:25:28.051Z",
+  "updatedAt": "2026-07-16T21:47:37.159-07:00",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6878,6 +6878,35 @@
       "evidence": [
         "Verified official application route: https://ats.workatsea.com/apply/J02165465",
         "Game monitor fit score 9/10; last checked 2026-07-16."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-16-niural-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Niural",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-niural-ashby",
+      "sourceName": "Niural Ashby",
+      "sourceUrl": "https://jobs.ashbyhq.com/niural/d20af572-03b9-4f2a-8476-53c34203b2bc",
+      "url": "https://jobs.ashbyhq.com/niural/d20af572-03b9-4f2a-8476-53c34203b2bc",
+      "location": "New York City, NY - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "$20-$25 USD per hour",
+      "eligibility": "One to two years of hands-on design experience through internships, freelance work, or academic projects; proficiency with Figma or similar tools, interactive prototyping, visual design, UX principles, and user flows expected.",
+      "discoveredAt": "2026-07-16T21:47:37.159-07:00",
+      "updatedAt": "2026-07-16T21:47:37.159-07:00",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.02
+      },
+      "evidence": [
+        "Official Niural Ashby page displayed an active Apply for this Job button on July 16, 2026.",
+        "The employer page confirms a full-time onsite New York City Product Design internship, a $20-$25 hourly range, hands-on design experience, Figma or equivalent tools, prototyping, and UX skills; no application deadline is listed."
       ],
       "needsReview": false
     },
