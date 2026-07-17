@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T16:55:25.809Z",
+  "updatedAt": "2026-07-17T17:38:57.201Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6966,6 +6966,96 @@
       "needsReview": false
     },
     {
+      "id": "tech-design-2026-07-17-dagne-dover-product-design-intern",
+      "title": "Product Design Internship Fall 2026 - Bags & Accessories",
+      "organization": "Dagne Dover",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-dagne-dover-teamtailor",
+      "sourceName": "Dagne Dover Teamtailor",
+      "sourceUrl": "https://careers.dagnedover.com/jobs/644757-product-design-internship-fall-2026-bags-accessories",
+      "url": "https://careers.dagnedover.com/jobs/644757-product-design-internship-fall-2026-bags-accessories",
+      "location": "New York, NY - work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "$20 USD per hour",
+      "eligibility": "Currently studying product design, fashion design, or a related field; available three to four days per week; coursework, school-project, or internship design experience plus working knowledge of Illustrator and Procreate expected.",
+      "discoveredAt": "2026-07-17T17:38:57.201Z",
+      "attemptedAt": "2026-07-17T17:38:57.201Z",
+      "updatedAt": "2026-07-17T17:38:57.201Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Dagne Dover's employer-hosted Teamtailor careers site listed this role and displayed an active application form on July 17, 2026.",
+        "The official page confirms physical product design for bags and accessories, New York location, three-to-four-day weekly availability, relevant student status and design experience, Illustrator and Procreate knowledge, and $20 hourly compensation; no deadline or work arrangement is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-rocket-product-design-intern",
+      "title": "Product Design Intern - Fall 2026",
+      "organization": "Rocket Innovation Studio",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-rocket-workday",
+      "sourceName": "Rocket Careers Workday",
+      "sourceUrl": "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Product-Design-Intern---Fall-2026_R-083086",
+      "url": "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Product-Design-Intern---Fall-2026_R-083086",
+      "location": "Remote - Ontario, Canada",
+      "deadline": "Not listed on official source",
+      "compensation": "$14.00-$43.50; currency and pay period not listed on official source",
+      "eligibility": "Remote role in Ontario; proficiency with Figma, Sketch, or Adobe Creative Suite plus strong visual, UI, and UX skills and the ability to communicate design decisions are required.",
+      "discoveredAt": "2026-07-17T17:38:57.201Z",
+      "attemptedAt": "2026-07-17T17:38:57.201Z",
+      "updatedAt": "2026-07-17T17:38:57.201Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Rocket's employer-hosted Workday careers page displayed the Product Design Intern - Fall 2026 role with an active Apply action on July 17, 2026.",
+        "The official posting confirms remote Ontario location, product-design work spanning research, wireframes, prototypes, user testing, and high-fidelity design, and a stated compensation range; no deadline, currency, or pay period is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-sharkninja-cmf-industrial-design-coop",
+      "title": "Fall 2026: CMF Industrial Design Co-op (July through December)",
+      "organization": "SharkNinja",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-sharkninja-greenhouse",
+      "sourceName": "SharkNinja Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4655085006",
+      "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4655085006",
+      "location": "Needham, MA - onsite five days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "$27-$35 USD per hour",
+      "eligibility": "Third-year-or-later bachelor's student, master's student, or graduate within the past year; available full time onsite July-December 2026; Keyshot, Adobe Suite, CMF/color-standard knowledge, and work samples required.",
+      "discoveredAt": "2026-07-17T17:38:57.201Z",
+      "attemptedAt": "2026-07-17T17:38:57.201Z",
+      "updatedAt": "2026-07-17T17:38:57.201Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SharkNinja's official Greenhouse board displayed this role with an active Apply action on July 17, 2026.",
+        "The official posting confirms July-December 2026 timing, five-day onsite schedule in Needham, CMF and UI-support responsibilities, student or recent-graduate eligibility, required work samples, and $27-$35 hourly compensation; no deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
       "id": "tech-design-2026-07-17-jaktool-design-engineer-intern",
       "title": "Design Engineer Intern - Fall 2026",
       "organization": "JAKTOOL",
@@ -7087,17 +7177,18 @@
       "organization": "Tesla",
       "section": "tech",
       "type": "internship",
-      "status": "closed",
+      "status": "open",
       "sourceId": "src-tesla-careers",
       "sourceName": "Tesla Careers",
       "sourceUrl": "https://www.tesla.com/careers/search/job/266819",
       "url": "https://www.tesla.com/careers/search/job/266819",
+      "attemptedAt": "2026-07-17T17:38:57.201Z",
       "location": "Fremont, CA - onsite",
       "deadline": "Not listed on official source",
       "compensation": "$20-$50 USD per hour plus benefits",
       "eligibility": "Currently pursuing Graphic Design, UI/UX, Human-Computer Interaction, or a related degree; full-time onsite for at least 12 weeks starting August or September 2026; portfolio required.",
       "discoveredAt": "2026-07-14T15:16:41.735-07:00",
-      "updatedAt": "2026-07-16T17:20:38.136-07:00",
+      "updatedAt": "2026-07-17T17:38:57.201Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.96,
@@ -7107,7 +7198,8 @@
       "evidence": [
         "Official Tesla Careers page for requisition 266819 was open on July 14, 2026.",
         "The posting describes end-to-end web and mobile UX work, Figma and Adobe skills, Fall 2026 timing, onsite expectations, and compensation.",
-        "Official Tesla Careers page for requisition 266819 displayed \"Job not available\" and \"This job is unavailable at the moment\" on July 16, 2026."
+        "Official Tesla Careers page for requisition 266819 displayed \"Job not available\" and \"This job is unavailable at the moment\" on July 16, 2026.",
+        "Official Tesla Careers page for requisition 266819 again displayed the full role details and an active Apply action on July 17, 2026, so the record was restored to open."
       ],
       "needsReview": false
     },
