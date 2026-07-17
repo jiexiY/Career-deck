@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-07-17T22:15:39.176Z",
+  "updatedAt": "2026-07-17T22:45:39.595Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-17-diligent-digital-product-designer-intern",
+      "title": "Digital Product Designer Intern",
+      "organization": "Diligent Corporation",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-diligent-greenhouse",
+      "sourceName": "Diligent Corporation Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/diligentcorporation/jobs/5389226004",
+      "url": "https://job-boards.greenhouse.io/diligentcorporation/jobs/5389226004",
+      "location": "Budapest, Hungary - hybrid, at least 50% on-site for local commuters",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "University-level Product Design coursework or a comparable coding bootcamp qualification, general knowledge of AI tools, willingness to learn new AI tools, a self-driven mindset, and fluent English are required; visa sponsorship is evaluated case by case and should not be assumed.",
+      "discoveredAt": "2026-07-17T22:45:39.595Z",
+      "attemptedAt": "2026-07-17T22:45:39.595Z",
+      "updatedAt": "2026-07-17T22:45:39.595Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Diligent Corporation's official Greenhouse board listed this Budapest internship and displayed an active application form on July 17, 2026.",
+        "The official posting confirms design-system documentation, AI-assisted interface design, product-design education, fluent English, and a hybrid model with at least 50% on-site work for local commuters; compensation and deadline are not listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-blockchain-ux-product-design-intern",
+      "title": "UX/Product Design Intern",
+      "organization": "Blockchain.com",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-blockchain-greenhouse",
+      "sourceName": "Blockchain.com Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/blockchain/jobs/7961085",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7961085",
+      "location": "Paris, France - four days per week in office",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Open to current students, recent graduates, or self-taught designers with a portfolio showing original work; working knowledge of Figma, daily fluency with AI design tools, and availability for a six-month Paris internship with four in-office days per week are required. The application form also asks about UK work authorization, so candidates should verify that requirement with the employer.",
+      "discoveredAt": "2026-07-17T22:45:39.595Z",
+      "attemptedAt": "2026-07-17T22:45:39.595Z",
+      "updatedAt": "2026-07-17T22:45:39.595Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Blockchain.com's official Greenhouse board listed this Paris internship and displayed an active application form on July 17, 2026.",
+        "The official posting confirms a six-month growth-design internship covering onboarding, referrals, prototypes, experimentation, Figma, and AI tools plus four weekly office days in Paris; compensation and deadline are not listed, and the form's UK work-authorization question conflicts with the stated Paris location."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-glance-ux-design-intern",
+      "title": "UX Design - Intern",
+      "organization": "Glance",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-glance-greenhouse",
+      "sourceName": "Glance Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/glance/jobs/7916115",
+      "url": "https://job-boards.greenhouse.io/glance/jobs/7916115",
+      "location": "Bengaluru, India - work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Design students or recent graduates with a strong portfolio showing both design thinking and craft are eligible; the role emphasizes interaction design, systems thinking, reusable design patterns, iteration, and an interest in AI, ambient computing, or TV and large-screen experiences.",
+      "discoveredAt": "2026-07-17T22:45:39.595Z",
+      "attemptedAt": "2026-07-17T22:45:39.595Z",
+      "updatedAt": "2026-07-17T22:45:39.595Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Glance's official Greenhouse board listed this Bengaluru UX internship and displayed an active application form on July 17, 2026.",
+        "The official posting confirms UX and visual design across TV shopping surfaces, interaction flows, design-system components, critique, and engineering handoff plus student or recent-graduate eligibility; compensation, deadline, and work arrangement are not listed."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-17-mill-product-design-engineering-intern",
       "title": "Product Design Engineering Intern, Summer 2026",
