@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-17T22:45:39.595Z",
+  "updatedAt": "2026-07-17T22:55:39.782Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-17-betsson-product-designer-intern",
+      "title": "Intern - Product Designer",
+      "organization": "Betsson Group",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-betsson-greenhouse",
+      "sourceName": "Betsson Group Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/betsson/jobs/7929560",
+      "url": "https://job-boards.greenhouse.io/betsson/jobs/7929560",
+      "location": "Malta - work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "No student-enrollment or degree requirement is listed; candidates should show an interest in UX/UI and product design, familiarity with Figma or a similar tool, portfolio work, coursework, or personal projects demonstrating design thinking, strong English communication, and willingness to learn from feedback.",
+      "discoveredAt": "2026-07-17T22:55:39.782Z",
+      "attemptedAt": "2026-07-17T22:55:39.782Z",
+      "updatedAt": "2026-07-17T22:55:39.782Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Betsson Group's official Greenhouse board listed this Malta Product Designer internship and displayed an active application form on July 17, 2026.",
+        "The official posting confirms UI design, wireframes, prototypes, user-journey improvements, research, design-system work, Figma familiarity, portfolio evidence, and English communication; compensation, deadline, term dates, and work arrangement are not listed."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-17-diligent-digital-product-designer-intern",
       "title": "Digital Product Designer Intern",
