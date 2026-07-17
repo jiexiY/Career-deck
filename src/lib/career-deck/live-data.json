@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-17T21:28:45.092Z",
+  "updatedAt": "2026-07-17T22:05:38.133Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-17-gumloop-design-engineer-intern",
+      "title": "Design Engineer Intern",
+      "organization": "Gumloop",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-gumloop-ashby",
+      "sourceName": "Gumloop Ashby",
+      "sourceUrl": "https://jobs.ashbyhq.com/Gumloop/dcdc0658-b3fd-44cd-b0cf-4016c9513d40",
+      "url": "https://jobs.ashbyhq.com/Gumloop/dcdc0658-b3fd-44cd-b0cf-4016c9513d40",
+      "location": "San Francisco, CA - on-site",
+      "deadline": "Not listed on official source",
+      "compensation": "$8,000-$10,000 USD per month for a four-month, full-time internship",
+      "eligibility": "Currently in the final year of a design, computer science, or related program; hands-on TypeScript and React experience, exposure to design systems or component libraries, strong UX judgment, and a portfolio showing both design and frontend execution are required.",
+      "discoveredAt": "2026-07-17T22:05:38.133Z",
+      "attemptedAt": "2026-07-17T22:05:38.133Z",
+      "updatedAt": "2026-07-17T22:05:38.133Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Gumloop's official Ashby job-board API returned this role as listed, on-site, and published July 16, 2026, with a live employer application URL during the July 17 monitor run.",
+        "The official posting confirms end-to-end product design engineering work, a four-month San Francisco internship, final-year student status, TypeScript and React experience, design-system exposure, a design-and-frontend portfolio, and $8,000-$10,000 monthly USD compensation; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-17-univeris-product-design-intern",
       "title": "Product Design Intern",
