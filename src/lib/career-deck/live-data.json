@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T18:50:20.429Z",
+  "updatedAt": "2026-07-17T19:10:20.830Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6962,6 +6962,66 @@
       "evidence": [
         "Verified official application route: https://ats.workatsea.com/apply/J02138931",
         "Game monitor fit score 7/10; last checked 2026-07-16."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-crown-industrial-design-coop",
+      "title": "Industrial Design Co-op - Fall 2026",
+      "organization": "Crown Equipment Corporation",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-crown-careers",
+      "sourceName": "Crown Equipment Careers",
+      "sourceUrl": "https://us-careers.crown.com/job/Kinston-Industrial-Design-Co-op-Fall-2026-NC-28504/1396717100/",
+      "url": "https://us-careers.crown.com/job/Kinston-Industrial-Design-Co-op-Fall-2026-NC-28504/1396717100/",
+      "location": "Kinston, NC - work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled in a bachelor's degree program in Industrial Design; communication, analytical problem-solving, judgment, and reliable transportation required; must have permanent U.S. work authorization without current or future sponsorship.",
+      "discoveredAt": "2026-07-17T19:10:20.830Z",
+      "attemptedAt": "2026-07-17T19:10:20.830Z",
+      "updatedAt": "2026-07-17T19:10:20.830Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Crown Equipment's employer careers page returned HTTP 200 and displayed this Kinston requisition with an active Apply now action on July 17, 2026.",
+        "The official posting confirms Fall 2026 industrial-design research, concept, CAD, prototyping, and field-testing work plus degree, transportation, and work-authorization requirements; it does not state compensation, a deadline, specific term dates, or a work arrangement."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-crown-design-research-coop",
+      "title": "Design Research Co-op - Fall 2026",
+      "organization": "Crown Equipment Corporation",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-crown-careers",
+      "sourceName": "Crown Equipment Careers",
+      "sourceUrl": "https://us-careers.crown.com/job/New-Bremen-Design-Research-Co-op-Fall-2026-OH-45869/1385634800/",
+      "url": "https://us-careers.crown.com/job/New-Bremen-Design-Research-Co-op-Fall-2026-OH-45869/1385634800/",
+      "location": "New Bremen, OH - work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Pursuing graphic design, information design, UX/UI, visual communication, industrial design, or a related degree; information-design, visual-storytelling, Figma or Adobe-tool, communication, iteration, and reliable-transportation skills expected; must have permanent U.S. work authorization without sponsorship.",
+      "discoveredAt": "2026-07-17T19:10:20.830Z",
+      "attemptedAt": "2026-07-17T19:10:20.830Z",
+      "updatedAt": "2026-07-17T19:10:20.830Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Crown Equipment's employer careers page displayed this New Bremen role with active Apply now actions on July 17, 2026.",
+        "The official posting confirms UX and design-research communication work, relevant design-degree pathways, Figma and Adobe tools, portfolio-adjacent visual-storytelling skills, reliable transportation, and work-authorization requirements; it does not state compensation, a deadline, specific term dates, or a work arrangement."
       ],
       "needsReview": false
     },
