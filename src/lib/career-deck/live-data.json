@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T18:12:26.387Z",
+  "updatedAt": "2026-07-17T18:50:20.429Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6964,6 +6964,66 @@
         "Game monitor fit score 7/10; last checked 2026-07-16."
       ],
       "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-eaton-industrial-design-coop",
+      "title": "Industrial Design Co-Op",
+      "organization": "Eaton",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-eaton-eightfold",
+      "sourceName": "Eaton Eightfold",
+      "sourceUrl": "https://eaton.eightfold.ai/careers/job/687236722467?page=1",
+      "url": "https://eaton.eightfold.ai/careers/job/687236722467?page=1",
+      "location": "Moon Township, PA - hybrid, three days per week in office",
+      "deadline": "Not listed on official source",
+      "compensation": "$19.38-$34.00 USD per hour",
+      "eligibility": "Completed at least two years of an Industrial Design undergraduate program or currently enrolled in a related graduate program; minimum 3.0 GPA, industrial-design portfolio, reliable transportation, and permanent U.S. work authorization without sponsorship required; available from late August through mid-December 2026.",
+      "discoveredAt": "2026-07-17T18:50:20.429Z",
+      "attemptedAt": "2026-07-17T18:50:20.429Z",
+      "updatedAt": "2026-07-17T18:50:20.429Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Eaton's employer-hosted Eightfold careers page displayed this role with an active Apply Now action on July 17, 2026.",
+        "The official posting confirms the Fall 2026 term, Moon Township location, hybrid three-day office schedule, hourly range, Industrial Design enrollment and portfolio requirements, minimum GPA, and permanent-work-authorization requirement; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-johnson-johnson-id-coop",
+      "title": "ID Co-op Fall 2026",
+      "organization": "Johnson & Johnson MedTech",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-johnson-johnson-careers",
+      "sourceName": "Johnson & Johnson Careers",
+      "sourceUrl": "https://www.careers.jnj.com/nl-nl/jobs/r-068441/id-co-op-fall-2026/",
+      "url": "https://www.careers.jnj.com/nl-nl/jobs/r-068441/id-co-op-fall-2026/",
+      "location": "Cincinnati (Blue Ash), OH - onsite",
+      "deadline": "Official page contains conflicting May 14 and December 18, 2026 closure dates; Apply Now was available July 17",
+      "compensation": "$23.00-$51.50 USD per hour",
+      "eligibility": "Industrial Design bachelor's or master's student in at least the second undergraduate year; minimum 3.0 GPA, portfolio, 2D and 3D design software, prototyping experience, at least a three-month rotation, and permanent U.S. work authorization without sponsorship required; PhD candidates are not eligible.",
+      "discoveredAt": "2026-07-17T18:50:20.429Z",
+      "attemptedAt": "2026-07-17T18:50:20.429Z",
+      "updatedAt": "2026-07-17T18:50:20.429Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.96,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Johnson & Johnson's employer careers page listed requisition R-068441 with an active Apply Now action on July 17, 2026.",
+        "The official posting confirms the September-December onsite Cincinnati co-op, Industrial Design student and portfolio requirements, work authorization limits, and hourly range. The same page displays conflicting May 14 and December 18 closure dates, so the deadline requires confirmation before applying."
+      ],
+      "needsReview": true
     },
     {
       "id": "tech-design-2026-07-17-milwaukee-tool-industrial-design-ux-coop",
