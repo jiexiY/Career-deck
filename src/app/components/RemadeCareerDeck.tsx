@@ -1109,7 +1109,7 @@ function GameMonitorPanel({
             </div>
           </div>
 
-          <div className="mt-5 grid gap-3 md:grid-cols-5">
+          <div className="mt-5 grid min-w-0 grid-cols-[repeat(auto-fit,minmax(min(100%,10.5rem),1fr))] gap-3">
             <GameFilterSelect
               label="Company"
               value={filters.company}
@@ -1134,12 +1134,12 @@ function GameMonitorPanel({
               options={gameMonitorFilterOptions.statuses}
               onChange={(value) => onFilterChange("status", value as GameMonitorFilters["status"])}
             />
-            <label className="grid gap-1 text-xs font-semibold text-black/60">
+            <label className="grid min-w-0 gap-1 text-xs font-semibold text-black/60">
               Fit score
               <select
                 value={filters.minFit}
                 onChange={(event) => onFilterChange("minFit", Number(event.target.value))}
-                className="h-10 rounded-full border border-white/45 bg-white/24 px-3 text-sm font-semibold text-black outline-none backdrop-blur-2xl"
+                className="h-10 w-full min-w-0 max-w-full rounded-full border border-white/45 bg-white/24 px-3 text-sm font-semibold text-black outline-none backdrop-blur-2xl"
               >
                 {[0, 6, 7, 8, 9, 10].map((score) => (
                   <option key={score} value={score}>
@@ -1264,12 +1264,12 @@ function GameFilterSelect({
   onChange: (value: string) => void;
 }) {
   return (
-    <label className="grid gap-1 text-xs font-semibold text-black/60">
+    <label className="grid min-w-0 gap-1 text-xs font-semibold text-black/60">
       {label}
       <select
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        className="h-10 rounded-full border border-white/45 bg-white/24 px-3 text-sm font-semibold text-black outline-none backdrop-blur-2xl"
+        className="h-10 w-full min-w-0 max-w-full rounded-full border border-white/45 bg-white/24 px-3 text-sm font-semibold text-black outline-none backdrop-blur-2xl"
       >
         <option value="all">All</option>
         {options.map((option) => (
