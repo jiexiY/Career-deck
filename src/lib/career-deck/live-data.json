@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T20:18:22.302Z",
+  "updatedAt": "2026-07-17T20:44:43.585Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6962,6 +6962,36 @@
       "evidence": [
         "Verified official application route: https://ats.workatsea.com/apply/J02138931",
         "Game monitor fit score 7/10; last checked 2026-07-16."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-tiktok-product-designer-project-intern",
+      "title": "Product Designer Project Intern (TikTok-Design-UX) - 2026 Start (BS/MS)",
+      "organization": "TikTok",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tiktok-careers",
+      "sourceName": "TikTok Careers",
+      "sourceUrl": "https://lifeattiktok.com/search/7533145462880127240",
+      "url": "https://lifeattiktok.com/search/7533145462880127240",
+      "location": "San Jose, CA - work arrangement not listed on official source",
+      "deadline": "Applications reviewed on a rolling basis; no fixed deadline listed on official source",
+      "compensation": "$30 USD per hour plus benefits; non-remote interns may be eligible for a housing allowance",
+      "eligibility": "Currently pursuing a bachelor's or master's degree in Design, Human-Computer Interaction, Visual Communication, Interaction Design, or a related field; available for at least five months; strong UX/UI, interaction-design, and Figma skills plus a portfolio demonstrating end-to-end design thinking are required.",
+      "discoveredAt": "2026-07-17T20:44:43.585Z",
+      "attemptedAt": "2026-07-17T20:44:43.585Z",
+      "updatedAt": "2026-07-17T20:44:43.585Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TikTok's official careers page displayed job code A122068A with an active Apply to this job action on July 17, 2026.",
+        "The official posting confirms San Jose, intern employment, product UX responsibilities, current bachelor's or master's enrollment, a minimum five-month commitment, portfolio and Figma requirements, rolling review, and $30 hourly compensation; it does not state a fixed deadline or work arrangement."
       ],
       "needsReview": false
     },
