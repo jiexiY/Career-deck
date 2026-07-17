@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T19:50:21.470Z",
+  "updatedAt": "2026-07-17T20:18:22.302Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6962,6 +6962,36 @@
       "evidence": [
         "Verified official application route: https://ats.workatsea.com/apply/J02138931",
         "Game monitor fit score 7/10; last checked 2026-07-16."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-stand-out-for-good-design-production-intern",
+      "title": "Fall 2026 Design and Production Intern",
+      "organization": "Stand Out For Good, Inc.",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-stand-out-for-good-workday",
+      "sourceName": "Stand Out For Good Workday",
+      "sourceUrl": "https://standoutforgood.wd12.myworkdayjobs.com/en-US/StandOutForGood/job/Fall-2026-Design-and-Production-Intern_SOSJ11699-1",
+      "url": "https://standoutforgood.wd12.myworkdayjobs.com/en-US/StandOutForGood/job/Fall-2026-Design-and-Production-Intern_SOSJ11699-1",
+      "location": "Knoxville, TN - work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Junior, senior, or recent graduate pursuing Industrial Design, Architecture, Set Design, Manufacturing Engineering Technology, or a related field; 3D-modeling, CAD/CAM, digital-fabrication, CNC, visualization, and design-principles experience expected.",
+      "discoveredAt": "2026-07-17T20:18:22.302Z",
+      "attemptedAt": "2026-07-17T20:18:22.302Z",
+      "updatedAt": "2026-07-17T20:18:22.302Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Stand Out For Good's official Workday page returned HTTP 200 with postingAvailable true for requisition SOSJ11699 on July 17, 2026.",
+        "The official Workday detail feed confirms a part-time Knoxville internship focused on concepting, technical drawings, fabrication, CNC work, prototyping, and installations plus industrial-design-adjacent degree eligibility; it does not state compensation, an application deadline, or a work arrangement."
       ],
       "needsReview": false
     },
