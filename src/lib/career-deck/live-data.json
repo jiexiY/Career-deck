@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-17T22:05:38.133Z",
+  "updatedAt": "2026-07-17T22:15:39.176Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-17-mill-product-design-engineering-intern",
+      "title": "Product Design Engineering Intern, Summer 2026",
+      "organization": "Mill",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-mill-greenhouse",
+      "sourceName": "Mill Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/mill/jobs/4674154005",
+      "url": "https://job-boards.greenhouse.io/mill/jobs/4674154005",
+      "location": "San Bruno, CA - work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "$35-$45 per hour; currency not listed on official source",
+      "eligibility": "A completed or in-progress BS, MS, or PhD in Mechanical Engineering plus manufacturing and material-selection knowledge, 3D CAD proficiency, and rapid-prototyping experience are required; applicants must have unrestricted U.S. work authorization because sponsorship is unavailable.",
+      "discoveredAt": "2026-07-17T22:15:39.176Z",
+      "attemptedAt": "2026-07-17T22:15:39.176Z",
+      "updatedAt": "2026-07-17T22:15:39.176Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Mill's official Greenhouse page displayed this San Bruno Product Design Engineering internship with an active application form on July 17, 2026.",
+        "The official posting confirms hands-on consumer-product design, CAD, prototyping, testing, and manufacturing work, Mechanical Engineering education, unrestricted U.S. work authorization, and a $35-$45 hourly range; it does not state currency, a deadline, exact term dates, or a work arrangement."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-17-gumloop-design-engineer-intern",
       "title": "Design Engineer Intern",
