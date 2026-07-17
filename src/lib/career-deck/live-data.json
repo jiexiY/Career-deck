@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T12:31:11.7860091-07:00",
+  "updatedAt": "2026-07-16T17:20:38.136-07:00",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6966,6 +6966,35 @@
       "needsReview": false
     },
     {
+      "id": "tech-design-2026-07-16-m3-design-intern",
+      "title": "Design Intern",
+      "organization": "M3 Design",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-m3-design-careers",
+      "sourceName": "M3 Design Careers",
+      "sourceUrl": "https://www.m3design.com/position/design-intern/",
+      "url": "https://www.m3design.com/position/design-intern/",
+      "location": "Round Rock, TX - work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Current bachelor's or master's Industrial or Product Design student, or recent graduate; portfolio, industrial-design process, prototyping, sketching, CAD/rendering, and human-factors experience expected.",
+      "discoveredAt": "2026-07-16T17:20:38.136-07:00",
+      "updatedAt": "2026-07-16T17:20:38.136-07:00",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.97,
+        "freshness": 0.98,
+        "duplicateProbability": 0.02
+      },
+      "evidence": [
+        "Official M3 Design role page displayed APPLY NOW and resume@m3design.com on July 16, 2026.",
+        "Official page describes a seasonal industrial/product design internship focused on sketching, CAD, prototyping, product development, and human factors; term, compensation, and deadline are not listed."
+      ],
+      "needsReview": false
+    },
+    {
       "id": "tech-design-2026-07-15-sharkninja-industrial-design-coop",
       "title": "Fall 2026: Industrial Design Co-op (August through December)",
       "organization": "SharkNinja",
@@ -7058,7 +7087,7 @@
       "organization": "Tesla",
       "section": "tech",
       "type": "internship",
-      "status": "open",
+      "status": "closed",
       "sourceId": "src-tesla-careers",
       "sourceName": "Tesla Careers",
       "sourceUrl": "https://www.tesla.com/careers/search/job/266819",
@@ -7068,16 +7097,17 @@
       "compensation": "$20-$50 USD per hour plus benefits",
       "eligibility": "Currently pursuing Graphic Design, UI/UX, Human-Computer Interaction, or a related degree; full-time onsite for at least 12 weeks starting August or September 2026; portfolio required.",
       "discoveredAt": "2026-07-14T15:16:41.735-07:00",
-      "updatedAt": "2026-07-14T15:16:41.735-07:00",
+      "updatedAt": "2026-07-16T17:20:38.136-07:00",
       "confidence": {
         "source": 0.99,
         "extraction": 0.96,
-        "freshness": 0.98,
+        "freshness": 0.99,
         "duplicateProbability": 0.02
       },
       "evidence": [
         "Official Tesla Careers page for requisition 266819 was open on July 14, 2026.",
-        "The posting describes end-to-end web and mobile UX work, Figma and Adobe skills, Fall 2026 timing, onsite expectations, and compensation."
+        "The posting describes end-to-end web and mobile UX work, Figma and Adobe skills, Fall 2026 timing, onsite expectations, and compensation.",
+        "Official Tesla Careers page for requisition 266819 displayed \"Job not available\" and \"This job is unavailable at the moment\" on July 16, 2026."
       ],
       "needsReview": false
     },
