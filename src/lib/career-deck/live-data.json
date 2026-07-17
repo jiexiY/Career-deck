@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-07-17T20:59:16.161Z",
+  "updatedAt": "2026-07-17T21:28:45.092Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-17-univeris-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Univeris",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-univeris-lever",
+      "sourceName": "Univeris Lever",
+      "sourceUrl": "https://jobs.lever.co/univeris.com/539d6461-e9c1-4119-b0d1-8e4d916135e6",
+      "url": "https://jobs.lever.co/univeris.com/539d6461-e9c1-4119-b0d1-8e4d916135e6",
+      "location": "Toronto, Ontario, Canada - hybrid, three days per week in office",
+      "deadline": "Not listed on official source",
+      "compensation": "$18-$20 per hour; currency not listed on official source",
+      "eligibility": "Currently enrolled in a post-secondary design, human-computer interaction, or related program; foundational UI/UX and component-based design-system experience plus familiarity with Figma are required, while Storybook or front-end exposure is an asset.",
+      "discoveredAt": "2026-07-17T21:28:45.092Z",
+      "attemptedAt": "2026-07-17T21:28:45.092Z",
+      "updatedAt": "2026-07-17T21:28:45.092Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Univeris's official Lever page displayed the Product Design Intern co-op and an active application action on July 17, 2026.",
+        "The official posting confirms Toronto hybrid work three days per week in office, design-system and design-engineering collaboration responsibilities, current post-secondary enrollment, Figma expectations, and $18-$20 hourly compensation; it does not state a deadline or currency."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-hevo-data-ux-design-intern",
+      "title": "UX Design Intern",
+      "organization": "Hevo Data",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hevo-data-lever",
+      "sourceName": "Hevo Data Lever",
+      "sourceUrl": "https://jobs.lever.co/hevodata/433ffdef-3125-48ed-a131-52c697c321ee",
+      "url": "https://jobs.lever.co/hevodata/433ffdef-3125-48ed-a131-52c697c321ee",
+      "location": "Bangalore, India - on-site",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "No student-enrollment or degree requirement is listed; candidates should be comfortable with Figma, component libraries, design systems, SaaS interfaces, AI-assisted prototyping, and developer handoff.",
+      "discoveredAt": "2026-07-17T21:28:45.092Z",
+      "attemptedAt": "2026-07-17T21:28:45.092Z",
+      "updatedAt": "2026-07-17T21:28:45.092Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hevo Data's official Lever page displayed the UX Design Intern role and an active application action on July 17, 2026.",
+        "The official posting confirms an on-site Bangalore internship spanning user flows, high-fidelity interfaces, prototypes, design systems, Figma, AI design tools, and design-to-development collaboration; compensation and deadline are not listed."
+      ],
+      "needsReview": false
+    },
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
       "title": "Career Opportunities",
