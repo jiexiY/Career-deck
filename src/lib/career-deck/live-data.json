@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T17:20:38.136-07:00",
+  "updatedAt": "2026-07-16T17:42:03.589-07:00",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6962,6 +6962,35 @@
       "evidence": [
         "Verified official application route: https://ats.workatsea.com/apply/J02165465",
         "Game monitor fit score 9/10; last checked 2026-07-15."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-16-genesys-ux-design-intern",
+      "title": "User Experience Design Intern",
+      "organization": "Genesys",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-genesys-workday",
+      "sourceName": "Genesys Workday",
+      "sourceUrl": "https://genesys.wd1.myworkdayjobs.com/en-US/Genesys/job/User-Experience-Design-Intern_JR111614",
+      "url": "https://genesys.wd1.myworkdayjobs.com/en-US/Genesys/job/User-Experience-Design-Intern_JR111614",
+      "location": "Galway, Ireland - hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Working toward HCI, Interaction Design, Industrial Design, Visual Design, or a related field; foundational UX and interaction-design skills, Figma comfort, and a portfolio showing UX/UI process and work are expected.",
+      "discoveredAt": "2026-07-16T17:42:03.589-07:00",
+      "updatedAt": "2026-07-16T17:42:03.589-07:00",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.02
+      },
+      "evidence": [
+        "Official Genesys Workday page displayed an active Apply button for requisition JR111614 on July 16, 2026.",
+        "The employer page confirms a full-time January 11 through August 2027 internship, hybrid work from the Galway office, UX and interaction-design responsibilities, Figma expectations, and a portfolio requirement; compensation and deadline are not listed."
       ],
       "needsReview": false
     },
