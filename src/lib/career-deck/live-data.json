@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T17:38:57.201Z",
+  "updatedAt": "2026-07-17T18:12:26.387Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6962,6 +6962,66 @@
       "evidence": [
         "Verified official application route: https://ats.workatsea.com/apply/J02138931",
         "Game monitor fit score 7/10; last checked 2026-07-16."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-milwaukee-tool-industrial-design-ux-coop",
+      "title": "Fall 2026: Industrial Design UX Co-Op",
+      "organization": "Milwaukee Tool",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-milwaukee-tool-yello",
+      "sourceName": "Milwaukee Tool Yello",
+      "sourceUrl": "https://tti.yello.co/external/requisitions/agOdZy63tuFvr3XEKCmAJg",
+      "url": "https://tti.yello.co/external/requisitions/agOdZy63tuFvr3XEKCmAJg",
+      "location": "Brookfield, WI or Milwaukee, WI - work arrangement not explicitly listed",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid; amount not listed on official source",
+      "eligibility": "Currently pursuing UX Design, Interaction Design, Industrial Design, Human-Computer Interaction, or a related degree; portfolio, Figma or Adobe proficiency, prototyping, visual communication, and design-thinking skills expected; available September 14-December 18, 2026.",
+      "discoveredAt": "2026-07-17T18:12:26.387Z",
+      "attemptedAt": "2026-07-17T18:12:26.387Z",
+      "updatedAt": "2026-07-17T18:12:26.387Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Milwaukee Tool's employer-hosted internships page linked directly to this Yello role, and the official ATS displayed an active application form on July 17, 2026.",
+        "The official sources confirm Brookfield or Milwaukee location, a September 14-December 18 term, physical and digital UX work, current relevant-degree enrollment, portfolio and design-tool expectations, paid status, and a housing stipend; no application deadline or pay amount is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-17-milwaukee-tool-industrial-designer-coop",
+      "title": "Fall 2026: Industrial Designer Co-Op",
+      "organization": "Milwaukee Tool",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-milwaukee-tool-yello",
+      "sourceName": "Milwaukee Tool Yello",
+      "sourceUrl": "https://tti.yello.co/external/requisitions/YF_Y_fJ4VYAb84xiiPfo0g",
+      "url": "https://tti.yello.co/external/requisitions/YF_Y_fJ4VYAb84xiiPfo0g",
+      "location": "Not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid; amount not listed on official source",
+      "eligibility": "Currently pursuing a BS, BA, or BFA in Industrial Design; portfolio showing visual thinking, ideation, rendering, storyboards, and CAD modeling required; available September 14-December 18, 2026.",
+      "discoveredAt": "2026-07-17T18:12:26.387Z",
+      "attemptedAt": "2026-07-17T18:12:26.387Z",
+      "updatedAt": "2026-07-17T18:12:26.387Z",
+      "confidence": {
+        "source": 0.98,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TTI's official Yello recruiting site identified Milwaukee Tool as the employer and displayed an active one-step application form on July 17, 2026.",
+        "The official posting confirms industrial-design project work, current Industrial Design degree enrollment, portfolio expectations, a September 14-December 18 term, paid status, and a housing stipend; it does not list a role-specific location, deadline, or pay amount."
       ],
       "needsReview": false
     },
