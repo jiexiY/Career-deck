@@ -43,6 +43,33 @@ export interface ConfidenceScores {
   duplicateProbability: number;
 }
 
+export interface CareerFitDimension {
+  label: string;
+  score: number;
+  maxScore: number;
+}
+
+export interface CareerPortfolioCase {
+  title: string;
+  detail: string;
+}
+
+export interface CareerBrief {
+  overallFit: {
+    score: number;
+    maxScore: number;
+    label: string;
+  };
+  fitDimensions: CareerFitDimension[];
+  strongAlignment: string[];
+  risks: string[];
+  recommendedAction: string;
+  applicationStrategy: CareerPortfolioCase[];
+  positioning: string;
+  reportSourceUrl?: string;
+  assessedAt: string;
+}
+
 export interface Source {
   id: string;
   name: string;
@@ -80,10 +107,12 @@ export interface Opportunity {
   eligibility: string;
   url: string;
   discoveredAt: string;
+  attemptedAt?: string;
   updatedAt: string;
   confidence: ConfidenceScores;
   evidence: string[];
   needsReview: boolean;
+  careerBrief?: CareerBrief;
 }
 
 export interface ReviewItem {

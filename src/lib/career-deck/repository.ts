@@ -138,6 +138,7 @@ function normalizeLiveOpportunity(
     eligibility: record.eligibility ?? "Manual review",
     url: record.url ?? record.applicationUrl ?? record.sourceUrl ?? "#",
     discoveredAt: record.discoveredAt ?? updatedAt,
+    attemptedAt: record.attemptedAt,
     updatedAt,
     confidence: record.confidence ?? {
       source: 0.62,
@@ -150,6 +151,7 @@ function normalizeLiveOpportunity(
         ? record.evidence
         : ["Live-ingested record; manual source review remains required."],
     needsReview: record.needsReview ?? true,
+    careerBrief: record.careerBrief,
   };
 }
 

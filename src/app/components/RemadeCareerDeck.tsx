@@ -18,6 +18,7 @@ import {
 import { matchesPreferredOpportunityRegion } from "@/lib/career-deck/opportunity-region";
 import { plainText } from "@/lib/career-deck/text";
 import type {
+  CareerBrief,
   ConversationSnapshot,
   ConversationSource,
   Opportunity,
@@ -1323,6 +1324,8 @@ function OpportunityCard({
           <FitnessBreakdown opportunity={opportunity} compact />
         </span>
 
+        {opportunity.careerBrief && <CareerBriefPreview brief={opportunity.careerBrief} />}
+
         {reportInsight && (
           <span className="mt-3 grid min-w-0 grid-cols-[96px_minmax(0,1fr)] gap-2 rounded-[20px] border border-white/45 bg-white/16 px-3 py-2 text-left text-xs font-semibold leading-snug [overflow-wrap:anywhere]">
             <span className="rounded-full bg-white/38 px-2 py-1 text-center">{reportInsight.fit}</span>
@@ -1346,6 +1349,31 @@ function OpportunityCard({
         </span>
       </button>
     </article>
+  );
+}
+
+function CareerBriefPreview({ brief }: { brief: CareerBrief }) {
+  const strongest = [...brief.fitDimensions].sort((a, b) => b.score / b.maxScore - a.score / a.maxScore)[0];
+  const weakest = [...brief.fitDimensions].sort((a, b) => a.score / a.maxScore - b.score / b.maxScore)[0];
+
+  return (
+    <span className="mt-3 grid min-w-0 gap-2 rounded-[20px] border border-white/45 bg-white/16 px-3 py-3 text-left text-xs font-semibold leading-snug [overflow-wrap:anywhere]">
+      <span className="grid min-w-0 grid-cols-[70px_minmax(0,1fr)] items-start gap-3">
+        <span className="rounded-full bg-[#7b00a7] px-2 py-1.5 text-center text-white">
+          {formatFitScore(brief.overallFit.score)}/{formatFitScore(brief.overallFit.maxScore)}
+        </span>
+        <span className="min-w-0">
+          <span className="block text-[11px] uppercase text-black/48">Personal fit - {brief.overallFit.label}</span>
+          <span className="mt-1 block text-black/72">{clampText(brief.recommendedAction, 112)}</span>
+        </span>
+      </span>
+      {(strongest || weakest) && (
+        <span className="grid min-w-0 gap-1 border-t border-white/40 pt-2 text-[11px] text-black/62 sm:grid-cols-2">
+          {strongest && <span>Strength: {strongest.label} {formatFitScore(strongest.score)}/{strongest.maxScore}</span>}
+          {weakest && <span>Main risk: {weakest.label} {formatFitScore(weakest.score)}/{weakest.maxScore}</span>}
+        </span>
+      )}
+    </span>
   );
 }
 
@@ -1548,7 +1576,9 @@ function DetailPage({
 
               <aside className="flex min-w-0 flex-col items-stretch justify-start gap-5 text-center xl:pt-4">
                 <div className="min-w-0">
-                  <p className="text-3xl font-semibold">My fitness rate</p>
+                  <p className="text-3xl font-semibold">
+                    {opportunity.careerBrief ? "Record confidence" : "My fitness rate"}
+                  </p>
                   <FitnessBreakdown opportunity={opportunity} />
                   {reportInsight && (
                     <div className="mt-4 rounded-[24px] border border-white/45 bg-white/18 p-4 text-left text-sm font-semibold leading-snug shadow-[inset_0_1px_0_rgba(255,255,255,0.42)]">
@@ -1580,6 +1610,8 @@ function DetailPage({
                 </a>
               </aside>
             </div>
+
+            {opportunity.careerBrief && <CareerBriefPanel brief={opportunity.careerBrief} />}
           </div>
         </div>
       </section>
@@ -1739,7 +1771,13 @@ function FitnessBreakdown({
       }`}
     >
       <span className="flex items-center justify-between gap-3 font-semibold">
-        <span>{compact ? "Fitness detail" : "Detailed fitness rating"}</span>
+        <span>
+          {opportunity.careerBrief
+            ? "Record confidence"
+            : compact
+              ? "Fitness detail"
+              : "Detailed fitness rating"}
+        </span>
         <span className="flex items-center gap-2">
           <FitnessDots rating={rating} compact />
           <span>{rating}/5</span>
@@ -1849,6 +1887,117 @@ function detailSummary(opportunity: Opportunity) {
   }
 
   return `${opportunity.organization} ${formatOpportunityType(opportunity.type)} record synced from ${opportunity.sourceId}.`;
+}
+
+function CareerBriefPanel({ brief }: { brief: CareerBrief }) {
+  return (
+    <section className="mt-10 border-t border-white/50 pt-8 text-left" aria-labelledby="career-brief-title">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p className="text-xs font-semibold uppercase text-black/48">Personalized report analysis</p>
+          <h3 id="career-brief-title" className="mt-1 text-2xl font-semibold sm:text-3xl">Career decision brief</h3>
+        </div>
+        <div className="flex flex-wrap items-center gap-3">
+          <span className="rounded-full bg-[#7b00a7] px-4 py-2 text-sm font-semibold text-white">
+            {formatFitScore(brief.overallFit.score)}/{formatFitScore(brief.overallFit.maxScore)} {brief.overallFit.label}
+          </span>
+          {brief.reportSourceUrl && (
+            <a
+              href={brief.reportSourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-white/55 bg-white/20 px-4 py-2 text-sm font-semibold"
+            >
+              View report
+              <ExternalLink size={15} aria-hidden="true" />
+            </a>
+          )}
+        </div>
+      </div>
+
+      <div className="mt-7 grid min-w-0 gap-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)]">
+        <div className="min-w-0">
+          <h4 className="text-lg font-semibold">Fit profile</h4>
+          <div className="mt-4 grid min-w-0 gap-3 sm:grid-cols-2">
+            {brief.fitDimensions.map((dimension) => {
+              const percentage = Math.max(0, Math.min(100, (dimension.score / dimension.maxScore) * 100));
+
+              return (
+                <div key={dimension.label} className="min-w-0 border-b border-white/45 pb-3">
+                  <div className="flex min-w-0 items-start justify-between gap-3 text-sm font-semibold">
+                    <span className="min-w-0 [overflow-wrap:anywhere]">{dimension.label}</span>
+                    <span className="shrink-0 text-black/58">{formatFitScore(dimension.score)}/{dimension.maxScore}</span>
+                  </div>
+                  <div className="mt-2 h-2 overflow-hidden rounded-full bg-white/35" aria-hidden="true">
+                    <div className="h-full rounded-full bg-[#9e00b8]" style={{ width: `${percentage}%` }} />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="grid min-w-0 gap-6 sm:grid-cols-2 lg:grid-cols-1">
+          <CareerBriefList title="Strong alignment" items={brief.strongAlignment} tone="strong" />
+          <CareerBriefList title="Risks to resolve" items={brief.risks} tone="risk" />
+        </div>
+      </div>
+
+      <div className="mt-8 grid min-w-0 gap-8 border-t border-white/45 pt-8 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
+        <div className="min-w-0">
+          <h4 className="text-lg font-semibold">Recommended action</h4>
+          <p className="mt-3 text-base font-medium leading-7 text-black/72 [overflow-wrap:anywhere]">{brief.recommendedAction}</p>
+          <p className="mt-5 border-l-2 border-[#9e00b8] pl-4 text-sm font-semibold leading-6 text-black/66 [overflow-wrap:anywhere]">
+            {brief.positioning}
+          </p>
+        </div>
+
+        <div className="min-w-0">
+          <h4 className="text-lg font-semibold">Portfolio plan</h4>
+          <ol className="mt-3 grid min-w-0 gap-4 sm:grid-cols-3">
+            {brief.applicationStrategy.map((item, index) => (
+              <li key={item.title} className="min-w-0 border-t border-white/55 pt-3">
+                <span className="text-xs font-semibold uppercase text-black/44">Case {index + 1}</span>
+                <p className="mt-1 font-semibold [overflow-wrap:anywhere]">{item.title}</p>
+                <p className="mt-2 text-sm leading-6 text-black/64 [overflow-wrap:anywhere]">{item.detail}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function CareerBriefList({
+  title,
+  items,
+  tone,
+}: {
+  title: string;
+  items: string[];
+  tone: "strong" | "risk";
+}) {
+  return (
+    <div className="min-w-0">
+      <h4 className="text-lg font-semibold">{title}</h4>
+      <ul className="mt-3 grid min-w-0 gap-3 text-sm font-medium leading-6 text-black/68">
+        {items.map((item) => (
+          <li key={item} className="grid min-w-0 grid-cols-[10px_minmax(0,1fr)] gap-3 [overflow-wrap:anywhere]">
+            <span
+              className={`mt-2 h-2.5 w-2.5 rounded-full ${tone === "strong" ? "bg-[#6f8f3d]" : "bg-[#b65065]"}`}
+              aria-hidden="true"
+            />
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function formatFitScore(value: number) {
+  return Number.isInteger(value) ? String(value) : value.toFixed(1);
 }
 
 function displayEvidence(opportunity: Opportunity) {

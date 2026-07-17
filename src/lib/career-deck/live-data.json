@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T20:44:43.585Z",
+  "updatedAt": "2026-07-17T20:59:16.161Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6964,6 +6964,108 @@
         "Game monitor fit score 7/10; last checked 2026-07-16."
       ],
       "needsReview": false
+    },
+    {
+      "id": "report-game-2026-07-17-roblox-associate-art-director-early-career-7688490",
+      "title": "[2026] Associate Art Director, Early Career",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "src-roblox-careers",
+      "sourceName": "Roblox Careers",
+      "sourceUrl": "https://careers.roblox.com/jobs/7688490",
+      "url": "https://careers.roblox.com/jobs/7688490",
+      "location": "San Mateo, CA; onsite Tuesday-Thursday with optional office attendance Monday and Friday",
+      "deadline": "Rolling; no deadline published on the official application",
+      "compensation": "$92,450 annual base salary, plus applicable equity and full-time benefits",
+      "eligibility": "Undergraduate or graduate degree in Fine Arts, Graphic Design, Advertising, or a related field; portfolio demonstrating composition, typography, color theory, and visual storytelling; Adobe Creative Cloud and Figma proficiency; strong interest in Roblox and its creator economy. Certain US visa categories and future H-1B sponsorship may not be supported.",
+      "discoveredAt": "2026-07-17T20:59:16.161Z",
+      "attemptedAt": "2026-07-17T20:59:16.161Z",
+      "updatedAt": "2026-07-17T20:59:16.161Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Roblox's official careers page displayed an active Apply Now action for job ID 5969 on July 17, 2026.",
+        "The official posting confirms the rotational early-career program, San Mateo office schedule, annual salary, portfolio and software requirements, degree language, and US visa caveat."
+      ],
+      "needsReview": false,
+      "careerBrief": {
+        "overallFit": {
+          "score": 6.5,
+          "maxScore": 10,
+          "label": "Conditional fit"
+        },
+        "fitDimensions": [
+          {
+            "label": "Visual storytelling and illustration",
+            "score": 8,
+            "maxScore": 10
+          },
+          {
+            "label": "Figma and interactive design",
+            "score": 7.5,
+            "maxScore": 10
+          },
+          {
+            "label": "Audience and behavioral understanding",
+            "score": 8,
+            "maxScore": 10
+          },
+          {
+            "label": "Brand-campaign portfolio readiness",
+            "score": 5.5,
+            "maxScore": 10
+          },
+          {
+            "label": "Adobe and motion-design evidence",
+            "score": 5,
+            "maxScore": 10
+          },
+          {
+            "label": "Formal degree alignment",
+            "score": 4,
+            "maxScore": 10
+          },
+          {
+            "label": "Roblox ecosystem knowledge",
+            "score": 4.5,
+            "maxScore": 10
+          }
+        ],
+        "strongAlignment": [
+          "Visual storytelling, illustration, and worldbuilding provide a strong base for concept-led art direction.",
+          "Sociology and audience research support Roblox's emphasis on solving audience problems visually.",
+          "Figma and interactive-design work create a credible bridge into multi-channel campaign systems."
+        ],
+        "risks": [
+          "The Sociology degree may not be accepted as a related art or design field.",
+          "The current portfolio may read as isolated illustrations and product experiments rather than a coherent brand campaign system.",
+          "Adobe Creative Cloud, motion design, and Roblox ecosystem evidence are weaker than the role expects."
+        ],
+        "recommendedAction": "Apply within 48 hours only if a focused campaign portfolio can be assembled without delaying stronger-fit applications.",
+        "applicationStrategy": [
+          {
+            "title": "Weave campaign system",
+            "detail": "Show the audience insight, creative concept, typography, key visual, landing page, social adaptations, and a short motion treatment."
+          },
+          {
+            "title": "Original entertainment-IP campaign",
+            "detail": "Use original characters or worldbuilding to show how one narrative idea adapts across poster, mobile, social, and experiential formats."
+          },
+          {
+            "title": "Roblox creator campaign",
+            "detail": "Propose a campaign for first-time creators with an audience problem, concept statement, visual direction, sample assets, and success metrics."
+          }
+        ],
+        "positioning": "Position as an emerging art director who combines audience research, visual storytelling, and interactive-design thinking to build coherent entertainment campaigns.",
+        "reportSourceUrl": "https://chatgpt.com/s/t_6a5a957c47c88191853dba7e3cd8ffde",
+        "assessedAt": "2026-07-17T20:59:16.161Z"
+      }
     },
     {
       "id": "tech-design-2026-07-17-tiktok-product-designer-project-intern",
