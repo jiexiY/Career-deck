@@ -16,6 +16,7 @@ import {
   type GameMonitorOpportunity,
 } from "@/lib/career-deck/game-monitor";
 import { matchesPreferredOpportunityRegion } from "@/lib/career-deck/opportunity-region";
+import { plainText } from "@/lib/career-deck/text";
 import type {
   ConversationSnapshot,
   ConversationSource,
@@ -1309,9 +1310,11 @@ function OpportunityCard({
         className="grid h-full w-full grid-rows-[auto_auto_1fr_auto] text-center outline-none focus-visible:ring-2 focus-visible:ring-[#8f00b8]"
       >
         <span className="text-base font-semibold">
-          {formatOpportunityType(opportunity.type)} {opportunity.title}
+          {formatOpportunityType(opportunity.type)} {plainText(opportunity.title)}
         </span>
-        <span className="mt-1 block text-2xl font-thin leading-tight">{opportunity.organization}</span>
+        <span className="mt-1 block text-2xl font-thin leading-tight">
+          {plainText(opportunity.organization)}
+        </span>
 
         <span className="mt-4 grid gap-3">
           <span className="flex min-h-[104px] items-center justify-center rounded-[27px] border border-white/45 bg-white/18 px-4 text-sm font-semibold leading-tight shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
@@ -1511,9 +1514,9 @@ function DetailPage({
                   </span>
                   <div>
                     <h2 className="text-2xl font-semibold md:text-3xl">
-                      {formatOpportunityType(opportunity.type)} {opportunity.title}
+                      {formatOpportunityType(opportunity.type)} {plainText(opportunity.title)}
                     </h2>
-                    <p className="mt-1 text-4xl font-thin">{opportunity.organization}</p>
+                    <p className="mt-1 text-4xl font-thin">{plainText(opportunity.organization)}</p>
                   </div>
                 </div>
 
@@ -1760,7 +1763,7 @@ function DetailPill({ label, value }: { label: string; value: string }) {
   return (
     <div className="rounded-[22px] border border-white/45 bg-white/18 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.4)]">
       <p className="text-xs uppercase text-black/48">{label}</p>
-      <p className="mt-1 leading-6">{value}</p>
+      <p className="mt-1 leading-6">{plainText(value)}</p>
     </div>
   );
 }
@@ -1819,19 +1822,21 @@ function fitnessRating(opportunity: Opportunity) {
 }
 
 function conciseSummary(opportunity: Opportunity) {
-  if (opportunity.eligibility && opportunity.eligibility !== "TBD") {
-    return clampText(opportunity.eligibility, 70);
+  const eligibility = plainText(opportunity.eligibility);
+
+  if (eligibility && eligibility !== "TBD") {
+    return clampText(eligibility, 70);
   }
 
   if (opportunity.evidence[0]) {
-    return clampText(opportunity.evidence[0], 70);
+    return clampText(plainText(opportunity.evidence[0]), 70);
   }
 
   return `${formatOpportunityType(opportunity.type)} opportunity`;
 }
 
 function detailSummary(opportunity: Opportunity) {
-  const evidence = opportunity.evidence.filter(Boolean).join(" ");
+  const evidence = plainText(opportunity.evidence.filter(Boolean).join(" "));
 
   if (evidence) {
     return clampText(evidence, 260);
@@ -1845,7 +1850,9 @@ function clampText(value: string, limit: number) {
 }
 
 function deadlineLabel(value: string) {
-  return value && value !== "TBD" ? value : "deadline TBD";
+  const deadline = plainText(value);
+
+  return deadline && deadline !== "TBD" ? deadline : "deadline TBD";
 }
 
 function formatMonitorStatus(value: string) {
