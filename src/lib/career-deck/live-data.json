@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-07-18T02:31:47.144Z",
+  "updatedAt": "2026-07-18T02:52:16.707Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-18-rocket-product-design-intern-fall-2026",
+      "title": "Product Design Intern - Fall 2026",
+      "organization": "Rocket Innovation Studio (Rocket Companies)",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-rocket-workday",
+      "sourceName": "Rocket Careers Workday",
+      "sourceUrl": "https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Remote---Ontario/Product-Design-Intern---Fall-2026_R-083086",
+      "url": "https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Remote---Ontario/Product-Design-Intern---Fall-2026_R-083086",
+      "location": "Remote - Ontario, Canada",
+      "deadline": "Not listed on official source; role is for Fall 2026",
+      "compensation": "$14.00-$43.50; official posting does not state the pay period or currency",
+      "eligibility": "The official posting requires proficiency with design tools such as Figma, Sketch, or Adobe Creative Suite, strong visual-design and UI/UX skills, the ability to explain design decisions, and a passion for user experience. End-to-end iterative design, user research and usability testing, design thinking, front-end constraints, and cross-functional product work are preferred; student status and work-authorization requirements are not listed.",
+      "discoveredAt": "2026-07-18T02:52:16.707Z",
+      "attemptedAt": "2026-07-18T02:52:16.707Z",
+      "updatedAt": "2026-07-18T02:52:16.707Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Rocket's official Workday record listed this full-time, remote Ontario Product Design internship as posted and accepting applications on July 17, 2026.",
+        "The official posting confirms Fall 2026 timing, wireframing and prototyping, user research, cross-functional product work, required design-tool and UI/UX proficiency, and a stated compensation range of $14.00-$43.50 without a specified pay period or currency; no deadline or student-status requirement is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-18-hendrick-design-engineering-intern-2027",
+      "title": "Design Engineering Intern (Spring/Summer 2027)",
+      "organization": "Hendrick Motorsports",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hendrick-workday",
+      "sourceName": "Hendrick Motorsports Workday",
+      "sourceUrl": "https://hendrick.wd5.myworkdayjobs.com/HMSCareers/job/Hendrick-Motorsports/Design-Engineering-Intern--Spring-Summer-2027-_R-80377",
+      "url": "https://hendrick.wd5.myworkdayjobs.com/HMSCareers/job/Hendrick-Motorsports/Design-Engineering-Intern--Spring-Summer-2027-_R-80377",
+      "location": "4400 Papa Joe Hendrick Blvd, Charlotte, NC 28262",
+      "deadline": "Not listed on official source; 6-9-month assignment begins in Spring 2027",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be full-time students taking 12 semester hours at a four-year university, have completed 30 semester hours before the internship starts, and meet a minimum cumulative GPA of either 2.8/4.0 or 3.0/4.0 depending on the functional area. Transfer students must have completed 12 semester hours at the four-year university before starting. The role centers on automotive structures, CAD modeling, design and test procedures, technical drawings, and mechanical-product development; work-authorization requirements are not listed.",
+      "discoveredAt": "2026-07-18T02:52:16.707Z",
+      "attemptedAt": "2026-07-18T02:52:16.707Z",
+      "updatedAt": "2026-07-18T02:52:16.707Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hendrick Motorsports' official Workday record listed this part-time Design Engineering internship as posted and accepting applications on July 17, 2026.",
+        "The official posting confirms a 6-9-month assignment beginning in Spring 2027, automotive structural design and testing, CAD and PLM work, the full-time-student and completed-credit requirements, and the Charlotte address; compensation, deadline, and work-authorization rules are not listed."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-18-heron-power-electronics-design-engineer-intern",
       "title": "Intern, Electronics Design Engineer, Fall 2026/Spring 2027",
