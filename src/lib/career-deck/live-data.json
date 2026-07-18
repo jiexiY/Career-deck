@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-18T02:00:16.372Z",
+  "updatedAt": "2026-07-18T02:11:46.918Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-18-orderly-network-product-design-intern-apac",
+      "title": "Product Design Intern",
+      "organization": "Orderly Network",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-orderly-greenhouse",
+      "sourceName": "Orderly Network Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/orderly/jobs/4762763008",
+      "url": "https://job-boards.greenhouse.io/orderly/jobs/4762763008",
+      "location": "APAC - official posting requires at least two remote working days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing a bachelor's degree in Design, Visual Communication, or a related field, communicate fluently in both Chinese and English, commit to an internship lasting at least six months, and be available for at least two remote working days per week. Interest in technology, blockchain, trading, or finance is expected; experience with trading systems or financial products is a plus rather than a requirement.",
+      "discoveredAt": "2026-07-18T02:11:46.918Z",
+      "attemptedAt": "2026-07-18T02:11:46.918Z",
+      "updatedAt": "2026-07-18T02:11:46.918Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Orderly Network's official Greenhouse board listed this APAC Product Design internship with an active application form on July 17, 2026.",
+        "The official posting confirms interactive product design, user research, trading-platform UX, current bachelor's enrollment, Chinese and English fluency, a minimum six-month term, and at least two remote working days per week; compensation, deadline, and a specific APAC country are not listed."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-18-cresta-product-design-intern-ai-human-agents",
       "title": "Product Design Intern for AI and Human Agents Platform",
