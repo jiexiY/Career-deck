@@ -1,36 +1,6 @@
 {
-  "updatedAt": "2026-07-18T02:52:16.707Z",
+  "updatedAt": "2026-07-18T03:02:16.721Z",
   "opportunities": [
-    {
-      "id": "tech-design-2026-07-18-rocket-product-design-intern-fall-2026",
-      "title": "Product Design Intern - Fall 2026",
-      "organization": "Rocket Innovation Studio (Rocket Companies)",
-      "section": "tech",
-      "type": "internship",
-      "status": "open",
-      "sourceId": "src-rocket-workday",
-      "sourceName": "Rocket Careers Workday",
-      "sourceUrl": "https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Remote---Ontario/Product-Design-Intern---Fall-2026_R-083086",
-      "url": "https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Remote---Ontario/Product-Design-Intern---Fall-2026_R-083086",
-      "location": "Remote - Ontario, Canada",
-      "deadline": "Not listed on official source; role is for Fall 2026",
-      "compensation": "$14.00-$43.50; official posting does not state the pay period or currency",
-      "eligibility": "The official posting requires proficiency with design tools such as Figma, Sketch, or Adobe Creative Suite, strong visual-design and UI/UX skills, the ability to explain design decisions, and a passion for user experience. End-to-end iterative design, user research and usability testing, design thinking, front-end constraints, and cross-functional product work are preferred; student status and work-authorization requirements are not listed.",
-      "discoveredAt": "2026-07-18T02:52:16.707Z",
-      "attemptedAt": "2026-07-18T02:52:16.707Z",
-      "updatedAt": "2026-07-18T02:52:16.707Z",
-      "confidence": {
-        "source": 0.99,
-        "extraction": 0.99,
-        "freshness": 0.99,
-        "duplicateProbability": 0.01
-      },
-      "evidence": [
-        "Rocket's official Workday record listed this full-time, remote Ontario Product Design internship as posted and accepting applications on July 17, 2026.",
-        "The official posting confirms Fall 2026 timing, wireframing and prototyping, user research, cross-functional product work, required design-tool and UI/UX proficiency, and a stated compensation range of $14.00-$43.50 without a specified pay period or currency; no deadline or student-status requirement is listed."
-      ],
-      "needsReview": false
-    },
     {
       "id": "tech-design-2026-07-18-hendrick-design-engineering-intern-2027",
       "title": "Design Engineering Intern (Spring/Summer 2027)",
@@ -7889,21 +7859,21 @@
       "sourceUrl": "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Product-Design-Intern---Fall-2026_R-083086",
       "url": "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Product-Design-Intern---Fall-2026_R-083086",
       "location": "Remote - Ontario, Canada",
-      "deadline": "Not listed on official source",
+      "deadline": "Not listed on official source; role is for Fall 2026",
       "compensation": "$14.00-$43.50; currency and pay period not listed on official source",
-      "eligibility": "Remote role in Ontario; proficiency with Figma, Sketch, or Adobe Creative Suite plus strong visual, UI, and UX skills and the ability to communicate design decisions are required.",
+      "eligibility": "The official posting requires proficiency with design tools such as Figma, Sketch, or Adobe Creative Suite, strong visual-design and UI/UX skills, the ability to explain design decisions, and a passion for user experience. End-to-end iterative design, user research and usability testing, design thinking, front-end constraints, and cross-functional product work are preferred; student status and work-authorization requirements are not listed.",
       "discoveredAt": "2026-07-17T17:38:57.201Z",
-      "attemptedAt": "2026-07-17T17:38:57.201Z",
-      "updatedAt": "2026-07-17T17:38:57.201Z",
+      "attemptedAt": "2026-07-18T03:02:16.721Z",
+      "updatedAt": "2026-07-18T03:02:16.721Z",
       "confidence": {
         "source": 0.99,
-        "extraction": 0.98,
+        "extraction": 0.99,
         "freshness": 0.99,
         "duplicateProbability": 0.01
       },
       "evidence": [
-        "Rocket's employer-hosted Workday careers page displayed the Product Design Intern - Fall 2026 role with an active Apply action on July 17, 2026.",
-        "The official posting confirms remote Ontario location, product-design work spanning research, wireframes, prototypes, user testing, and high-fidelity design, and a stated compensation range; no deadline, currency, or pay period is listed."
+        "Rocket's official Workday record listed this full-time, remote Ontario Product Design internship as posted and accepting applications on July 17, 2026.",
+        "The official posting confirms Fall 2026 timing, wireframing and prototyping, user research, cross-functional product work, required design-tool and UI/UX proficiency, and a stated compensation range of $14.00-$43.50 without a specified pay period or currency; no deadline or student-status requirement is listed."
       ],
       "needsReview": false
     },
