@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-17T22:55:39.782Z",
+  "updatedAt": "2026-07-18T00:47:28.107Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-18-palantir-product-designer-internship-us-government",
+      "title": "Product Designer, Internship - US Government",
+      "organization": "Palantir Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-palantir-lever",
+      "sourceName": "Palantir Technologies Lever",
+      "sourceUrl": "https://jobs.lever.co/palantir/fa060d94-f85d-4d02-be58-b81787fe57e5",
+      "url": "https://jobs.lever.co/palantir/fa060d94-f85d-4d02-be58-b81787fe57e5",
+      "location": "Washington, DC - on-site",
+      "deadline": "Not listed on official source",
+      "compensation": "$8,500 per month; currency not listed on official source",
+      "eligibility": "Applicants must be planning to graduate in 2027, treat this as their final internship before graduation, provide a portfolio with at least one software-interface design project, and hold an active U.S. security clearance or be eligible and willing to obtain one.",
+      "discoveredAt": "2026-07-18T00:47:28.107Z",
+      "attemptedAt": "2026-07-18T00:47:28.107Z",
+      "updatedAt": "2026-07-18T00:47:28.107Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Palantir Technologies' official Lever page listed this Washington, DC Product Designer internship with an active application action on July 17, 2026.",
+        "The official posting confirms end-to-end interaction and visual design, user research, Figma prototyping, frontend collaboration, 2027 graduation, security-clearance eligibility, an interface-design portfolio, and estimated compensation of $8,500 per month; it does not state a deadline or currency."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-17-betsson-product-designer-intern",
       "title": "Intern - Product Designer",
