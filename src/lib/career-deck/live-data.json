@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-18T02:21:47.024Z",
+  "updatedAt": "2026-07-18T02:31:47.144Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-18-heron-power-electronics-design-engineer-intern",
+      "title": "Intern, Electronics Design Engineer, Fall 2026/Spring 2027",
+      "organization": "Heron Power",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-heron-power-ashby",
+      "sourceName": "Heron Power Ashby",
+      "sourceUrl": "https://jobs.ashbyhq.com/heron-power/28af5d2d-bd93-4681-9422-05d17c3437eb/",
+      "url": "https://jobs.ashbyhq.com/heron-power/28af5d2d-bd93-4681-9422-05d17c3437eb/",
+      "location": "Scotts Valley - on-site; state not listed on official source",
+      "deadline": "Not listed on official source; role is for Fall 2026 or Spring 2027",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be currently pursuing a bachelor's or master's degree in Electrical Engineering and have at least one prior electrical-engineering internship term or demonstrable hardware projects. Required experience includes circuit simulation and ECAD tools such as LTspice or Altium, microcontrollers and common board-level protocols, analog circuits and power-conversion topologies, plus hands-on debugging with oscilloscopes, multimeters, or similar equipment.",
+      "discoveredAt": "2026-07-18T02:31:47.144Z",
+      "attemptedAt": "2026-07-18T02:31:47.144Z",
+      "updatedAt": "2026-07-18T02:31:47.144Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Heron Power's official Ashby page listed this full-time, on-site Electronics Design Engineer internship with an active application action on July 17, 2026.",
+        "The official posting confirms Fall 2026 or Spring 2027 timing, electrical subsystem architecture, ECAD and schematic work, prototype testing, current Electrical Engineering enrollment, and prior internship or hardware-project experience; compensation, deadline, and the state for Scotts Valley are not listed."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-18-bd-industrial-design-co-op-packaging",
       "title": "Industrial Design Co-op - Packaging",
