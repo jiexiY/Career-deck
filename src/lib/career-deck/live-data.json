@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-18T00:47:28.107Z",
+  "updatedAt": "2026-07-18T00:57:28.040Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-18-revolut-internship-programme-2027-product-designer",
+      "title": "Internship Programme 2027: Product Designer",
+      "organization": "Revolut",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-revolut-careers",
+      "sourceName": "Revolut Careers",
+      "sourceUrl": "https://www.revolut.com/careers/position/internship-programme-2027-product-designer-c2c28fdc-8cc9-4b3f-9e9b-126c723edb7a/",
+      "url": "https://www.revolut.com/careers/position/internship-programme-2027-product-designer-c2c28fdc-8cc9-4b3f-9e9b-126c723edb7a/",
+      "location": "Office: Barcelona, Dubai, Krakow, Lisbon, London, or Madrid; remote options listed for Poland, Porto, Portugal, Spain, UAE, and UK; hybrid attendance around 3 days per week",
+      "deadline": "Rolling; applications opened May 2026 and roles are filled on a rolling basis",
+      "compensation": "Krakow and Poland: PLN 9,500 gross monthly; other locations discussed during interview",
+      "eligibility": "Applicants must be in the penultimate year of a bachelor's or master's degree in design or a related field, expect to graduate in 2028, be predicted a first-class degree or equivalent, be fluent in English, be available full-time for summer 2027, and be able to attend a Revolut office at least three days per week. International applicants ready to relocate to Poland, Portugal, the UAE, or the UK may receive visa, travel, and accommodation support subject to conditions.",
+      "discoveredAt": "2026-07-18T00:57:28.040Z",
+      "attemptedAt": "2026-07-18T00:57:28.040Z",
+      "updatedAt": "2026-07-18T00:57:28.040Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Revolut's official careers page listed this paid 8-10 week Product Designer internship with a live application form on July 17, 2026.",
+        "The official posting confirms a June or July 2027 start, user flows, wireframes, prototyping, research, usability testing, 2028 graduation eligibility, hybrid attendance, relocation support subject to conditions, and PLN 9,500 gross monthly compensation for Krakow and Poland; it gives no fixed closing date."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-18-palantir-product-designer-internship-us-government",
       "title": "Product Designer, Internship - US Government",
