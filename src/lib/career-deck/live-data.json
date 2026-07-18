@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-18T01:07:28.223Z",
+  "updatedAt": "2026-07-18T02:00:16.372Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-18-cresta-product-design-intern-ai-human-agents",
+      "title": "Product Design Intern for AI and Human Agents Platform",
+      "organization": "Cresta",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-cresta-greenhouse",
+      "sourceName": "Cresta Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/cresta/jobs/4476000008",
+      "url": "https://job-boards.greenhouse.io/cresta/jobs/4476000008",
+      "location": "Toronto, Canada - work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "$30-$50 per hour subject to taxes; currency not listed on official source",
+      "eligibility": "Applicants should be currently pursuing a bachelor's degree in Design, Human-Computer Interaction, or a related field, present a strong portfolio showing user-centered design thinking, polished UI craft, and innovative interaction patterns, and demonstrate prototyping experience with tools such as Figma, Cursor, Claude Code, V0, or comparable AI tools. Practical interaction-design, visual-design, user-research, and collaboration skills are also expected.",
+      "discoveredAt": "2026-07-18T02:00:16.372Z",
+      "attemptedAt": "2026-07-18T02:00:16.372Z",
+      "updatedAt": "2026-07-18T02:00:16.372Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cresta's official Greenhouse board listed this Toronto Product Design internship with an active application form on July 17, 2026.",
+        "The official posting describes a newly created role covering end-to-end UX, user research, visual design, AI-assisted prototyping, and human-plus-AI agent workflows, with stated pay of $30-$50 per hour; it does not state the currency, deadline, term dates, or work arrangement."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-18-moneysmart-internship-product-design",
       "title": "Internship - Product Design",
