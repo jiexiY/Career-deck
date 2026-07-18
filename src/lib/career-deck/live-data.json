@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-18T02:11:46.918Z",
+  "updatedAt": "2026-07-18T02:21:47.024Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-18-bd-industrial-design-co-op-packaging",
+      "title": "Industrial Design Co-op - Packaging",
+      "organization": "BD (Becton, Dickinson and Company)",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-bd-careers",
+      "sourceName": "BD Careers",
+      "sourceUrl": "https://jobs.bd.com/en/job/covington/industrial-design-co-op-packaging/159/96808614432",
+      "url": "https://jobs.bd.com/en/job/covington/industrial-design-co-op-packaging/159/96808614432",
+      "location": "Covington, GA - in-office",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be currently enrolled in a BS or BFA program in Industrial Design, Packaging Engineering, or a related technical field and have consumer-packaged-goods or medical-device experience. The role also expects consumer-facing packaging and research experience, familiarity with material costs and sustainability, and proficiency with tools including Adobe Creative Suite, SolidWorks, KeyShot, Blender, Microsoft Office, and Microsoft Project; work-authorization requirements are not listed.",
+      "discoveredAt": "2026-07-18T02:21:47.024Z",
+      "attemptedAt": "2026-07-18T02:21:47.024Z",
+      "updatedAt": "2026-07-18T02:21:47.024Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "BD's official careers site listed this Covington Industrial Design packaging co-op with an active Workday application link on July 17, 2026.",
+        "The official posting confirms user-centered medical-device packaging, industrial design, prototyping, consumer research, current Industrial Design or Packaging Engineering enrollment, and required CPG or medical-device experience; compensation, deadline, term dates, and work-authorization rules are not listed."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-18-orderly-network-product-design-intern-apac",
       "title": "Product Design Intern",
