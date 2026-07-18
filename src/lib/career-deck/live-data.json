@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-18T00:57:28.040Z",
+  "updatedAt": "2026-07-18T01:07:28.223Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-18-moneysmart-internship-product-design",
+      "title": "Internship - Product Design",
+      "organization": "MoneySmart Group",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-moneysmart-greenhouse",
+      "sourceName": "MoneySmart Group Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/moneysmart/jobs/8018098",
+      "url": "https://job-boards.greenhouse.io/moneysmart/jobs/8018098",
+      "location": "Singapore - work arrangement not listed on official source",
+      "deadline": "Not listed on official source; applicants must provide exact internship availability",
+      "compensation": "SGD 1,200 internship allowance; pay period not listed on official source",
+      "eligibility": "Applicants must be currently pursuing or have recently completed a diploma or degree in design or a related field, have strong working knowledge of Figma components, variants, auto layout, and styles, communicate design decisions clearly, and state their exact internship availability. The application asks candidates to declare whether they are legally authorized to work in Singapore or require sponsorship, without stating that sponsorship is unavailable.",
+      "discoveredAt": "2026-07-18T01:07:28.223Z",
+      "attemptedAt": "2026-07-18T01:07:28.223Z",
+      "updatedAt": "2026-07-18T01:07:28.223Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "MoneySmart Group's official Greenhouse board listed this Singapore Product Design internship with an active application form on July 17, 2026.",
+        "The official posting confirms Figma component rebuilding, design-system auditing, design-token documentation, current-student or recent-graduate eligibility, and a stated SGD 1,200 internship allowance; it does not state the allowance period, work arrangement, fixed term, or deadline."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-18-revolut-internship-programme-2027-product-designer",
       "title": "Internship Programme 2027: Product Designer",
