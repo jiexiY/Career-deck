@@ -4034,6 +4034,36 @@
       "needsReview": false
     },
     {
+      "id": "tech-design-2026-07-18-eaton-design-thinking-coop",
+      "title": "Design Thinking Co-Op",
+      "organization": "Eaton",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-eaton-eightfold",
+      "sourceName": "Eaton Eightfold",
+      "sourceUrl": "https://eaton.eightfold.ai/careers/job/687236722322?lang=en-US",
+      "url": "https://eaton.eightfold.ai/careers/job/687236722322?lang=en-US",
+      "location": "Moon Township, PA - hybrid, three days per week in office",
+      "deadline": "Not listed on official source; Fall 2026 term runs from late August through mid-December",
+      "compensation": "$19.38-$34.00 per hour",
+      "eligibility": "Applicants must have completed at least two years of an undergraduate program in Industrial Design, Human-Computer Interaction, Communication Design, Graphic Design, Experience Design, Product Management, User Research, Innovation, or a related field and provide a portfolio or presentation demonstrating human-centered design, design thinking, and user research. A minimum 3.0 GPA, reliable transportation, availability in the Pittsburgh area, and permanent U.S. work authorization without sponsorship are required.",
+      "discoveredAt": "2026-07-18T03:14:17.234Z",
+      "attemptedAt": "2026-07-18T03:14:17.234Z",
+      "updatedAt": "2026-07-18T03:14:17.234Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Eaton's employer-hosted Eightfold page listed the Studio Blue Design Thinking Co-op with an active Apply Now action on July 17, 2026.",
+        "The official posting confirms the late-August-to-mid-December 2026 term, Moon Township location, hybrid three-day office schedule, hourly range, human-centered-design portfolio, minimum GPA, transportation, and permanent-work-authorization requirements; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
       "id": "tech-design-2026-07-17-johnson-johnson-id-coop",
       "title": "ID Co-op Fall 2026",
       "organization": "Johnson & Johnson MedTech",
