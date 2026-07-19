@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T18:04:39.037Z",
+  "updatedAt": "2026-07-19T18:20:39.116Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3418,6 +3418,36 @@
       "evidence": [
         "Ristich's official careers page displayed the Industrial Design Intern role, its remote-USA work arrangement, and an active application path on July 19, 2026.",
         "The official posting confirms a full-time paid internship supporting product and packaging work from concept through production, current-student or recent-graduate eligibility, CAD and visualization requirements, and compensation as hourly pay or a stipend; the exact amount and application deadline are not listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-fam-product-design-intern-bengaluru",
+      "title": "Product Design Intern",
+      "organization": "Fam",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-fam-lever",
+      "sourceName": "Fam Lever",
+      "sourceUrl": "https://jobs.lever.co/fampay/f1a64ab7-a22d-49e5-93a2-f7feb1668ccf",
+      "url": "https://jobs.lever.co/fampay/f1a64ab7-a22d-49e5-93a2-f7feb1668ccf",
+      "location": "Bengaluru, India - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need strong UX, interaction-design, and visual-design fundamentals, proficiency in Figma and basic prototyping tools, interest in consumer mobile products, clear communication, and a portfolio showing product-design work. Startup or B2C experience, fintech familiarity, motion or illustration skills, user research, design-system contributions, and AI-assisted design workflows are preferred.",
+      "discoveredAt": "2026-07-19T18:20:39.116Z",
+      "attemptedAt": "2026-07-19T18:20:39.116Z",
+      "updatedAt": "2026-07-19T18:20:39.116Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Fam's official Lever API returned posting f1a64ab7-a22d-49e5-93a2-f7feb1668ccf as active on July 19, 2026; Lever records the posting as created on May 26, 2026.",
+        "The official feed confirms an onsite Bengaluru Product Design internship focused on consumer fintech, user flows, prototypes, research, design systems, and cross-functional product work; compensation and an application deadline are not listed."
       ],
       "needsReview": false
     },
