@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T02:43:13.215Z",
+  "updatedAt": "2026-07-19T03:04:13.748Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -4150,6 +4150,36 @@
       "evidence": [
         "Apple's official careers search listed role 200663491 in both Shenzhen and Shanghai with Submit Resume actions on July 18, 2026; the role was posted May 15, 2026.",
         "The official posting confirms bilingual communication, engineering or science enrollment, 3D CAD, design validation, prototyping, vendor collaboration, and a preferred term longer than eight months; compensation and an application deadline are not listed. The two location-specific pages were normalized into one record to avoid duplicating the same requisition."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-18-ing-product-designer-ux-intern",
+      "title": "Product Designer (UX) Intern",
+      "organization": "ING Bank",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ing-careers",
+      "sourceName": "ING Careers",
+      "sourceUrl": "https://careers.ing.com/en/job/amsterdam/product-designer-ux-intern/3121/40000493120",
+      "url": "https://careers.ing.com/en/job/amsterdam/product-designer-ux-intern/3121/40000493120",
+      "location": "Amsterdam, Netherlands - hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "EUR 700 internship allowance based on a 36-hour work week; payment period not specified on official source",
+      "eligibility": "Must be enrolled at a Dutch university, or at an EU university if holding an EU passport. The role expects user-centered UX and interface design, wireframing, prototyping, high-fidelity UI design, cross-functional collaboration, initiative, and a basic understanding of APIs, data pipelines, and performance constraints. Applicants must submit a CV and motivation letter.",
+      "discoveredAt": "2026-07-19T03:04:13.748Z",
+      "attemptedAt": "2026-07-19T03:04:13.748Z",
+      "updatedAt": "2026-07-19T03:04:13.748Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "ING's employer-hosted careers page displayed requisition REQ-10116388 with active Apply now actions on July 18, 2026; the role was posted June 24, 2026.",
+        "The official posting confirms Amsterdam, hybrid work, a 36-hour work week, the EUR 700 allowance, Dutch-or-eligible-EU university enrollment, UX and UI responsibilities, and CV plus motivation-letter requirements; it does not list an application deadline or state the allowance payment period."
       ],
       "needsReview": false
     },
