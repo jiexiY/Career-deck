@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T18:30:39.257Z",
+  "updatedAt": "2026-07-19T19:20:39.943Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3448,6 +3448,36 @@
       "evidence": [
         "Fam's official Lever API returned posting f1a64ab7-a22d-49e5-93a2-f7feb1668ccf as active on July 19, 2026; Lever records the posting as created on May 26, 2026.",
         "The official feed confirms an onsite Bengaluru Product Design internship focused on consumer fintech, user flows, prototypes, research, design systems, and cross-functional product work; compensation and an application deadline are not listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-rivian-vw-electromechanical-design-engineering-intern",
+      "title": "Electromechanical Design Engineering Intern (Fall 2026)",
+      "organization": "Rivian and Volkswagen Group Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-rivian-vw-ashby",
+      "sourceName": "Rivian and Volkswagen Group Technologies Ashby",
+      "sourceUrl": "https://jobs.ashbyhq.com/rivianvw.tech/14734be2-9c81-4aab-bfa6-7dbbe95c94a6",
+      "url": "https://jobs.ashbyhq.com/rivianvw.tech/14734be2-9c81-4aab-bfa6-7dbbe95c94a6",
+      "location": "Palo Alto, CA; Irvine, CA; or Champaign, IL - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "$45-$51 USD per hour in Palo Alto; $38-$45 in Irvine; $33-$40 in Champaign",
+      "eligibility": "Currently enrolled in a bachelor's or master's program at an accredited U.S. university with electrical-engineering fundamentals. Preferred candidates are pursuing Electrical Engineering, Electrical Design Engineering, Hardware Engineering, Mechanical Engineering, Computer Science, or a related technical field and intend to return to school after the internship. Electronics, vehicle systems, PLM, component release, and hardware communication-protocol experience are preferred.",
+      "discoveredAt": "2026-07-19T19:20:39.943Z",
+      "attemptedAt": "2026-07-19T19:20:39.943Z",
+      "updatedAt": "2026-07-19T19:20:39.943Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Rivian and Volkswagen Group Technologies' official Ashby API returned posting 14734be2-9c81-4aab-bfa6-7dbbe95c94a6 as listed with an active application URL on July 19, 2026; the employer states that it represents an open, active vacancy.",
+        "The official feed confirms a full-time September 21-December 18 term, onsite work in Palo Alto, Irvine, or Champaign, three location-specific hourly ranges, U.S.-university enrollment, electrical-engineering fundamentals, and electromechanical hardware design responsibilities; no application deadline is listed."
       ],
       "needsReview": false
     },
