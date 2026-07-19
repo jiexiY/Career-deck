@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T03:04:13.748Z",
+  "updatedAt": "2026-07-19T03:31:15.570Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -4180,6 +4180,96 @@
       "evidence": [
         "ING's employer-hosted careers page displayed requisition REQ-10116388 with active Apply now actions on July 18, 2026; the role was posted June 24, 2026.",
         "The official posting confirms Amsterdam, hybrid work, a 36-hour work week, the EUR 700 allowance, Dutch-or-eligible-EU university enrollment, UX and UI responsibilities, and CV plus motivation-letter requirements; it does not list an application deadline or state the allowance payment period."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-18-astranis-harness-design-engineer-intern",
+      "title": "Harness Design Engineer Intern (Fall 2026)",
+      "organization": "Astranis",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-astranis-greenhouse",
+      "sourceName": "Astranis Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/astranis/jobs/4597559006",
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4597559006",
+      "location": "San Francisco, CA - onsite five days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "$29 USD per hour",
+      "eligibility": "Currently enrolled at a four-year university and pursuing a BS, MS, or PhD in mechatronics, electrical engineering, or an equivalent technical field; familiar with power and data transmission and interested in spacecraft systems. A 12-week minimum term and U.S. citizenship, lawful permanent residency, or refugee/asylee status are required. Zuken or comparable harness-design tools, connectors, wiring, and 3D CAD experience are preferred.",
+      "discoveredAt": "2026-07-19T03:31:15.570Z",
+      "attemptedAt": "2026-07-19T03:31:15.570Z",
+      "updatedAt": "2026-07-19T03:31:15.570Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Astranis's official Greenhouse page displayed an active Apply form for job 4597559006 on July 18, 2026.",
+        "The official posting confirms Fall 2026, San Francisco, a typical 12-week term, five-day onsite availability, $29 hourly pay, current-university enrollment, mechatronics or electrical-engineering study, and U.S. export-control eligibility; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-18-astranis-reliability-design-intern",
+      "title": "Reliability Design Intern (Fall 2026)",
+      "organization": "Astranis",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-astranis-greenhouse",
+      "sourceName": "Astranis Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/astranis/jobs/4681472006",
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4681472006",
+      "location": "San Francisco, CA - onsite five days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "$29 USD per hour",
+      "eligibility": "Currently enrolled at a four-year university and pursuing a BS in electrical engineering, computer engineering, or an equivalent technical field; interested in power electronics and able to demonstrate hands-on hardware design, building, and testing. A 12-week minimum term and U.S. citizenship, lawful permanent residency, or refugee/asylee status are required. Agentic AI, SPICE simulation, lab equipment, and Python experience are preferred.",
+      "discoveredAt": "2026-07-19T03:31:15.570Z",
+      "attemptedAt": "2026-07-19T03:31:15.570Z",
+      "updatedAt": "2026-07-19T03:31:15.570Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Astranis's official Greenhouse page displayed an active Apply form for job 4681472006 on July 18, 2026.",
+        "The official posting confirms Fall 2026, San Francisco, a typical 12-week term, five-day onsite availability, $29 hourly pay, current-university enrollment, EE or computer-engineering study, hands-on hardware experience, and U.S. export-control eligibility; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-18-sk-hynix-design-engineering-intern",
+      "title": "Design Engineering Intern",
+      "organization": "SK hynix memory solutions America",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sk-hynix-greenhouse",
+      "sourceName": "SK hynix Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4320891009",
+      "url": "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4320891009",
+      "location": "San Jose, CA - onsite, 40 hours per week",
+      "deadline": "Not listed on official source; immediate start requested for a six-month term",
+      "compensation": "$35-$45 USD per hour",
+      "eligibility": "Completed or currently pursuing a BS or MS in Electrical Engineering, Electronics, Computer Science, or a related field; proficient in Verilog and SystemVerilog; available Monday through Friday for 40 hours per week and committed to six months fully onsite. ASIC or FPGA workflow knowledge and Python, Perl, or Tcl scripting are preferred.",
+      "discoveredAt": "2026-07-19T03:31:15.570Z",
+      "attemptedAt": "2026-07-19T03:31:15.570Z",
+      "updatedAt": "2026-07-19T03:31:15.570Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SK hynix's official Greenhouse board listed job 4320891009 as open, and its official Greenhouse API returned the posting on July 18, 2026 with an updated timestamp of July 15, 2026.",
+        "The official feed confirms San Jose, an immediate start, a six-month fully onsite term, 40 weekly hours, $35-$45 hourly pay, degree pathways, Verilog and SystemVerilog requirements, and ASIC responsibilities; no application deadline is listed."
       ],
       "needsReview": false
     },
