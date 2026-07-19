@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T02:24:28.917Z",
+  "updatedAt": "2026-07-19T02:43:13.215Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -4060,6 +4060,96 @@
       "evidence": [
         "Eaton's employer-hosted Eightfold page listed the Studio Blue Design Thinking Co-op with an active Apply Now action on July 17, 2026.",
         "The official posting confirms the late-August-to-mid-December 2026 term, Moon Township location, hybrid three-day office schedule, hourly range, human-centered-design portfolio, minimum GPA, transportation, and permanent-work-authorization requirements; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-18-apple-mac-product-design-intern",
+      "title": "Mac Product Design Intern",
+      "organization": "Apple",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-apple-careers",
+      "sourceName": "Apple Careers",
+      "sourceUrl": "https://jobs.apple.com/en-us/details/200670275-3715/mac-product-design-intern?team=HRDWR",
+      "url": "https://jobs.apple.com/en-us/details/200670275-3715/mac-product-design-intern?team=HRDWR",
+      "location": "Shanghai, China - full-time, with up to 20% travel",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a BS, MS, or PhD in Mechanical Engineering, Materials Science, Product Design, or a related field; available full-time for 6-12 months; must return to school after the internship or use it as the final graduation requirement; professional English and Chinese communication required. Siemens NX, prototyping, manufacturing, tolerancing, materials, and electro-mechanical integration experience are preferred.",
+      "discoveredAt": "2026-07-19T02:43:13.215Z",
+      "attemptedAt": "2026-07-19T02:43:13.215Z",
+      "updatedAt": "2026-07-19T02:43:13.215Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Apple's official careers search listed role 200670275-3715 with a Submit Resume action on July 18, 2026; the role was posted July 2, 2026.",
+        "The official posting confirms Shanghai, 40 weekly hours, a 6-12 month term, bilingual English and Chinese communication, current-student eligibility, mechanical product-design work, and possible travel; it does not list compensation or an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-18-apple-audio-product-design-intern",
+      "title": "Audio Product Design Intern",
+      "organization": "Apple",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-apple-careers",
+      "sourceName": "Apple Careers",
+      "sourceUrl": "https://jobs.apple.com/en-us/details/200669923-3715/audio-product-design-intern?team=HRDWR",
+      "url": "https://jobs.apple.com/en-us/details/200669923-3715/audio-product-design-intern?team=HRDWR",
+      "location": "Shanghai, China - vendor travel required during weekdays",
+      "deadline": "Not listed on official source; internship can start after October 1, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a BS or MS in engineering; available for at least six months starting after October 1, 2026; fluent Mandarin and English communication and an interest in electronics product design required. Hands-on engineering problem solving, DFM/DFA, tolerance analysis, component-module design, audio subsystems, and AI-tool experience are preferred.",
+      "discoveredAt": "2026-07-19T02:43:13.215Z",
+      "attemptedAt": "2026-07-19T02:43:13.215Z",
+      "updatedAt": "2026-07-19T02:43:13.215Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Apple's official careers search listed role 200669923-3715 with a Submit Resume action on July 18, 2026; the role was posted June 25, 2026.",
+        "The official posting confirms Shanghai, a six-month-or-longer term beginning after October 1, bilingual Mandarin and English communication, engineering enrollment, audio product-design responsibilities, and vendor travel; it does not list compensation or an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-18-apple-input-device-product-design-intern",
+      "title": "Input Device Product Design Intern",
+      "organization": "Apple",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-apple-careers",
+      "sourceName": "Apple Careers",
+      "sourceUrl": "https://jobs.apple.com/en-us/details/200663491-3435/input-device-product-design-intern?team=HRDWR",
+      "url": "https://jobs.apple.com/en-us/details/200663491-3435/input-device-product-design-intern?team=HRDWR",
+      "location": "Shenzhen or Shanghai, China",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Pursuing a BS, MS, or PhD in engineering, science, or a related field; effective Mandarin and English communication, design and 3D CAD experience, data orientation, attention to detail, and self-directed learning required. Availability for more than eight months, GD&T, design validation, root-cause analysis, statistics, and metrology experience are preferred.",
+      "discoveredAt": "2026-07-19T02:43:13.215Z",
+      "attemptedAt": "2026-07-19T02:43:13.215Z",
+      "updatedAt": "2026-07-19T02:43:13.215Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.08
+      },
+      "evidence": [
+        "Apple's official careers search listed role 200663491 in both Shenzhen and Shanghai with Submit Resume actions on July 18, 2026; the role was posted May 15, 2026.",
+        "The official posting confirms bilingual communication, engineering or science enrollment, 3D CAD, design validation, prototyping, vendor collaboration, and a preferred term longer than eight months; compensation and an application deadline are not listed. The two location-specific pages were normalized into one record to avoid duplicating the same requisition."
       ],
       "needsReview": false
     },
