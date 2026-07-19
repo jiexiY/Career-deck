@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-07-19T22:50:43.339Z",
+  "updatedAt": "2026-07-19T23:41:14.103Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-19-cirrus-analog-design-engineer-coop-greensboro",
+      "title": "Fall 2026 Co-Op - Analog Design Engineer (NC)",
+      "organization": "Cirrus Logic",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-cirrus-logic-lever",
+      "sourceName": "Cirrus Logic Lever",
+      "sourceUrl": "https://jobs.eu.lever.co/cirrus/8ad92ca2-1f67-4a86-a5cf-12b7b2981960",
+      "url": "https://jobs.eu.lever.co/cirrus/8ad92ca2-1f67-4a86-a5cf-12b7b2981960",
+      "location": "Greensboro, NC - hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing an MS or PhD in Electrical Engineering or a related field. Applicants need analog and digital circuit fundamentals, experience with circuit-simulation tools such as Cadence or SPICE, familiarity with lab equipment, problem-solving ability, and strong communication and teamwork. Interns must be within commuting distance or relocate before the internship, and candidates must be able to access controlled technical data without Cirrus Logic obtaining an export license.",
+      "discoveredAt": "2026-07-19T23:41:14.103Z",
+      "attemptedAt": "2026-07-19T23:41:14.103Z",
+      "updatedAt": "2026-07-19T23:41:14.103Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cirrus Logic's official EU Lever feed returned posting 8ad92ca2-1f67-4a86-a5cf-12b7b2981960 as active on July 19, 2026 and records its creation on July 14, 2026.",
+        "The official posting confirms a full-time, 12-16 week Fall 2026 hybrid co-op in Greensboro covering mixed-signal IC design, simulation, verification, characterization, and testing. Compensation and an application deadline are not listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-cirrus-digital-design-engineer-coop-greensboro",
+      "title": "Fall 2026 Co-Op - Digital Design Engineer",
+      "organization": "Cirrus Logic",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-cirrus-logic-lever",
+      "sourceName": "Cirrus Logic Lever",
+      "sourceUrl": "https://jobs.eu.lever.co/cirrus/285c6096-5bc0-438e-abc6-b9768891167d",
+      "url": "https://jobs.eu.lever.co/cirrus/285c6096-5bc0-438e-abc6-b9768891167d",
+      "location": "Greensboro, NC - hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing an MS or PhD in Electrical Engineering or a related field. Applicants need digital-signal-processing knowledge, proficiency with Verilog and Synopsys-based design flows, Matlab experience, and familiarity with PWM, transistor-level simulators, and place-and-route tools. Interns must be within commuting distance or relocate before the internship, and candidates must be able to access controlled technical data without Cirrus Logic obtaining an export license.",
+      "discoveredAt": "2026-07-19T23:41:14.103Z",
+      "attemptedAt": "2026-07-19T23:41:14.103Z",
+      "updatedAt": "2026-07-19T23:41:14.103Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cirrus Logic's official EU Lever feed returned posting 285c6096-5bc0-438e-abc6-b9768891167d as active on July 19, 2026 and records its creation on July 14, 2026.",
+        "The official posting confirms a full-time, 12-16 week Fall 2026 hybrid co-op in Greensboro covering RTL design, logic simulation, functional verification, synthesis, behavioral modeling, and lab-test support. Compensation and an application deadline are not listed."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-19-capgemini-invent-experience-design-intern",
       "title": "Experience Design Intern",
