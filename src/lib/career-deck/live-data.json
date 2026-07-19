@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T18:20:39.116Z",
+  "updatedAt": "2026-07-19T18:30:39.257Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -8658,7 +8658,7 @@
       "organization": "1Password",
       "section": "tech",
       "type": "internship",
-      "status": "open",
+      "status": "closed",
       "sourceId": "src-1password-careers",
       "sourceName": "1Password Careers",
       "sourceUrl": "https://jobs.ashbyhq.com/1password/5755e2c6-2835-4f83-b301-e43be742e995",
@@ -8668,7 +8668,8 @@
       "compensation": "Paid; amount not listed on official source",
       "eligibility": "Four-month internship from September through December 2026; remote applicants must work from the United States or Canada. Product-design portfolio and user-research experience are relevant.",
       "discoveredAt": "2026-07-14T15:16:41.735-07:00",
-      "updatedAt": "2026-07-14T15:16:41.735-07:00",
+      "attemptedAt": "2026-07-19T18:30:39.257Z",
+      "updatedAt": "2026-07-19T18:30:39.257Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.96,
@@ -8677,7 +8678,8 @@
       },
       "evidence": [
         "Official 1Password Ashby application page was open and accepting applications on July 14, 2026.",
-        "The official page confirms the remote US/Canada location, September-December term, product-design focus, Figma prototyping, and user-research collaboration."
+        "The official page confirms the remote US/Canada location, September-December term, product-design focus, Figma prototyping, and user-research collaboration.",
+        "1Password's active official Ashby board no longer returned posting 5755e2c6-2835-4f83-b301-e43be742e995 on consecutive checks at 18:20 and 18:30 UTC on July 19, 2026, confirming that the role was removed."
       ],
       "needsReview": false
     },
