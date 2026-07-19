@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T19:20:39.943Z",
+  "updatedAt": "2026-07-19T19:30:40.078Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3478,6 +3478,36 @@
       "evidence": [
         "Rivian and Volkswagen Group Technologies' official Ashby API returned posting 14734be2-9c81-4aab-bfa6-7dbbe95c94a6 as listed with an active application URL on July 19, 2026; the employer states that it represents an open, active vacancy.",
         "The official feed confirms a full-time September 21-December 18 term, onsite work in Palo Alto, Irvine, or Champaign, three location-specific hourly ranges, U.S.-university enrollment, electrical-engineering fundamentals, and electromechanical hardware design responsibilities; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-deliverect-product-design-intern-amersfoort",
+      "title": "Product Design Intern",
+      "organization": "Deliverect",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-deliverect-lever",
+      "sourceName": "Deliverect Lever",
+      "sourceUrl": "https://jobs.lever.co/deliverect/969f516c-cee2-4598-ab93-71e97d420ad3",
+      "url": "https://jobs.lever.co/deliverect/969f516c-cee2-4598-ab93-71e97d420ad3",
+      "location": "Amersfoort, Netherlands - hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently studying UX/UI Design, Human-Computer Interaction, Experience Design, or a related field at a Dutch university. Applicants need familiarity with Figma, Sketch, or similar prototyping tools, interest in user research and AI-assisted design workflows, working proficiency in English, and the legal right to work in the Netherlands. Deliverect cannot provide relocation or travel assistance.",
+      "discoveredAt": "2026-07-19T19:30:40.078Z",
+      "attemptedAt": "2026-07-19T19:30:40.078Z",
+      "updatedAt": "2026-07-19T19:30:40.078Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Deliverect's official Lever API returned posting 969f516c-cee2-4598-ab93-71e97d420ad3 on its current job board with a live application URL on July 19, 2026; Lever records the posting as created on June 18, 2026.",
+        "The official feed confirms a hybrid Amersfoort Product Design internship embedded with the Direct Suite team, end-to-end project ownership, UI/UX and research work, design-system contributions, Dutch-university enrollment, English proficiency, and Netherlands work authorization; compensation and an application deadline are not listed."
       ],
       "needsReview": false
     },
