@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T17:19:38.542Z",
+  "updatedAt": "2026-07-19T17:33:38.722Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3358,6 +3358,36 @@
       "evidence": [
         "SK hynix's official Greenhouse board listed job 4320891009 as open, and its official Greenhouse API returned the posting on July 18, 2026 with an updated timestamp of July 15, 2026.",
         "The official feed confirms San Jose, an immediate start, a six-month fully onsite term, 40 weekly hours, $35-$45 hourly pay, degree pathways, Verilog and SystemVerilog requirements, and ASIC responsibilities; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-zovu-ui-ux-design-internship-amsterdam",
+      "title": "UI/UX Design Internship",
+      "organization": "ZOVU",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-zovu-careers-page",
+      "sourceName": "ZOVU Careers Page",
+      "sourceUrl": "https://zovu.careers-page.com/jobs/3759ee15-08da-4f38-918d-15fee10181aa",
+      "url": "https://zovu.careers-page.com/jobs/3759ee15-08da-4f38-918d-15fee10181aa",
+      "location": "Amsterdam, Netherlands - remote worldwide",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants should be eager to learn product design for SaaS, able to work independently in a fully remote environment, adaptable to fast iteration and feedback, and able to explain design decisions while collaborating with developers and founders. Experience with Figma, UI/UX principles, or hospitality technology is welcomed but not required. Applicants should submit a CV, brief motivation letter, and portfolio link.",
+      "discoveredAt": "2026-07-19T17:33:38.722Z",
+      "attemptedAt": "2026-07-19T17:33:38.722Z",
+      "updatedAt": "2026-07-19T17:33:38.722Z",
+      "confidence": {
+        "source": 0.98,
+        "extraction": 0.99,
+        "freshness": 0.93,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "ZOVU's ATS page displayed this exact UI/UX Design Internship with an active Apply now action on July 19, 2026.",
+        "The official role page confirms Amsterdam, fully remote work from anywhere, restaurant SaaS product-design responsibilities, expected working traits, and required application materials; compensation and an application deadline are not listed."
       ],
       "needsReview": false
     },
