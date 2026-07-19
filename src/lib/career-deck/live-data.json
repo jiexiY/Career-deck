@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-19T22:00:42.596Z",
+  "updatedAt": "2026-07-19T22:50:43.339Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-19-capgemini-invent-experience-design-intern",
+      "title": "Experience Design Intern",
+      "organization": "Capgemini Invent",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-capgemini-invent-greenhouse",
+      "sourceName": "Capgemini Invent Greenhouse",
+      "sourceUrl": "https://job-boards.eu.greenhouse.io/capgeminideutschlandgmbh/jobs/4103379101",
+      "url": "https://job-boards.eu.greenhouse.io/capgeminideutschlandgmbh/jobs/4103379101",
+      "location": "Munich, Germany - hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need business-level English and German, normally at least C1 in each, plus a recently completed degree in Interaction Design, HCI, or a related design discipline; candidates in the middle of a master's degree are also accepted. A portfolio, advanced Figma skills, experience with GenAI design or prototyping tools, availability for six months ideally from early October, and legal authorization to live and work in Germany are required. Capgemini does not support visa applications for internship roles.",
+      "discoveredAt": "2026-07-19T22:50:43.339Z",
+      "attemptedAt": "2026-07-19T22:50:43.339Z",
+      "updatedAt": "2026-07-19T22:50:43.339Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.94,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Capgemini Invent's public Greenhouse API returned job 4103379101 as an active Experience Design Intern posting in Munich with an official application URL on July 19, 2026; Greenhouse records the posting as updated July 2, 2026.",
+        "The official posting confirms hybrid experience-design work, a six-month commitment ideally starting in early October, portfolio and Figma requirements, business-level English and German, and existing German work authorization. It does not list compensation or an application deadline."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-19-metablock-product-design-intern",
       "title": "Product Design Intern",
