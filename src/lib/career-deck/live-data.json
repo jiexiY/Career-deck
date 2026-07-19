@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T16:44:09.048Z",
+  "updatedAt": "2026-07-19T17:19:38.542Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3358,6 +3358,36 @@
       "evidence": [
         "SK hynix's official Greenhouse board listed job 4320891009 as open, and its official Greenhouse API returned the posting on July 18, 2026 with an updated timestamp of July 15, 2026.",
         "The official feed confirms San Jose, an immediate start, a six-month fully onsite term, 40 weekly hours, $35-$45 hourly pay, degree pathways, Verilog and SystemVerilog requirements, and ASIC responsibilities; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-hegen-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Hegen",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hegen-careers",
+      "sourceName": "Hegen Careers",
+      "sourceUrl": "https://www.hegen.com/blogs/internships/product-design-intern-1",
+      "url": "https://www.hegen.com/blogs/internships/product-design-intern-1",
+      "location": "Not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently majoring in Product Design, Industrial Design, Art, or a related discipline. Applicants need strong stakeholder communication and collaboration, resourceful hands-on prototyping, user-research and data-informed design skills, flexibility, and the ability to support UX and product development. Applicants are asked to include a short explanation of their interest with their CV.",
+      "discoveredAt": "2026-07-19T17:19:38.542Z",
+      "attemptedAt": "2026-07-19T17:19:38.542Z",
+      "updatedAt": "2026-07-19T17:19:38.542Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.92,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hegen's employer-hosted internships index listed Product Design Intern as a current opening on July 19, 2026.",
+        "The direct Hegen role page describes product and UX research, prototyping, design communication, degree-path requirements, and an application route through hr@hegen.com; location, compensation, and a deadline are not listed."
       ],
       "needsReview": false
     },
