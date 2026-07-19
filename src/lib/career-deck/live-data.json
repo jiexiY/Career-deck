@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T20:30:41.279Z",
+  "updatedAt": "2026-07-19T21:40:42.325Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3358,6 +3358,36 @@
       "evidence": [
         "SK hynix's official Greenhouse board listed job 4320891009 as open, and its official Greenhouse API returned the posting on July 18, 2026 with an updated timestamp of July 15, 2026.",
         "The official feed confirms San Jose, an immediate start, a six-month fully onsite term, 40 weekly hours, $35-$45 hourly pay, degree pathways, Verilog and SystemVerilog requirements, and ASIC responsibilities; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-beex-industrial-design-intern-fall-2026",
+      "title": "Industrial Design Intern (August - December 2026)",
+      "organization": "BeeX",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-beex-breezy",
+      "sourceName": "BeeX Breezy",
+      "sourceUrl": "https://beex.breezy.hr/p/d22a2bb693a2-industrial-design-intern-august-december-2026",
+      "url": "https://beex.breezy.hr/p/d22a2bb693a2-industrial-design-intern-august-december-2026",
+      "location": "Singapore; work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "BeeX seeks candidates passionate about product design who can work independently and across multidisciplinary teams. Familiarity with materials, manufacturing processes, ergonomics or human-centered design, CAD and 3D modeling tools such as SolidWorks, and design research, usability testing, Adobe Creative Suite, or Figma is preferred. The official posting does not state degree, student-status, or work-authorization requirements.",
+      "discoveredAt": "2026-07-19T21:40:42.325Z",
+      "attemptedAt": "2026-07-19T21:40:42.325Z",
+      "updatedAt": "2026-07-19T21:40:42.325Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "BeeX's official Breezy board listed the August-December 2026 Industrial Design Internship in Singapore on July 19, 2026, and the exact employer application page returned HTTP 200 with an active application form.",
+        "The official posting confirms full-time internship status and concept-to-prototype product design work spanning market research, user journeys, benchmarking, mock-ups, 3D models, prototyping, testing, and cross-functional collaboration. Compensation, deadline, work arrangement, student status, and work authorization are not listed."
       ],
       "needsReview": false
     },
