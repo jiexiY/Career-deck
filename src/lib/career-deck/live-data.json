@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-19T21:40:42.325Z",
+  "updatedAt": "2026-07-19T22:00:42.596Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-19-metablock-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "MetaBlock Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-metablock-careers",
+      "sourceName": "MetaBlock Technologies Careers",
+      "sourceUrl": "https://www.metablocktech.com/careers/product-design-intern",
+      "url": "https://www.metablocktech.com/careers/product-design-intern",
+      "location": "Remote (US)",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a degree in Design, HCI, or a related field, or equivalent bootcamp experience; a portfolio, Figma or similar design-tool proficiency, communication skills, and eagerness to learn are required. The official posting does not state work-authorization requirements.",
+      "discoveredAt": "2026-07-19T22:00:42.596Z",
+      "attemptedAt": "2026-07-19T22:00:42.596Z",
+      "updatedAt": "2026-07-19T22:00:42.596Z",
+      "confidence": {
+        "source": 0.98,
+        "extraction": 0.98,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "MetaBlock Technologies' employer-hosted careers site listed Product Design Intern as a Remote (US) internship and presented an active application form on July 19, 2026.",
+        "The official posting confirms user research, user flows, wireframes, Figma prototypes, design-system work, current Design/HCI study or equivalent bootcamp experience, and a portfolio requirement. It does not list compensation, a deadline, internship dates, hours, or work authorization."
+      ],
+      "needsReview": false
+    },
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
       "title": "Career Opportunities",
