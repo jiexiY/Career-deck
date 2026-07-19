@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T17:54:39.024Z",
+  "updatedAt": "2026-07-19T18:04:39.037Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3388,6 +3388,36 @@
       "evidence": [
         "EPOS's official Workable page returned successfully with active application content on July 19, 2026 and identified the role as posted about one month earlier.",
         "The official posting confirms an onsite Singapore role supporting an Applied AI product team, UX and UI responsibilities, design-tool and presentation requirements, and required application materials; compensation and an application deadline are not listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-ristich-industrial-design-intern",
+      "title": "Industrial Design Intern",
+      "organization": "Ristich",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ristich-careers",
+      "sourceName": "Ristich Careers",
+      "sourceUrl": "https://www.ristich.us/careers/industrial-design-intern",
+      "url": "https://www.ristich.us/careers/industrial-design-intern",
+      "location": "Remote, USA",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid internship; hourly or stipend depending on program requirements. Exact amount is shared during the interview process.",
+      "eligibility": "Currently pursuing or recently completed a degree in Industrial Design or a related field. Applicants need strong sketching and visualization skills, familiarity with CAD tools such as SolidWorks or Rhino, a basic understanding of materials and manufacturing, and reliable organization. Rendering, hands-on prototyping, and consumer-product, packaging, or CPG experience are preferred.",
+      "discoveredAt": "2026-07-19T18:04:39.037Z",
+      "attemptedAt": "2026-07-19T18:04:39.037Z",
+      "updatedAt": "2026-07-19T18:04:39.037Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Ristich's official careers page displayed the Industrial Design Intern role, its remote-USA work arrangement, and an active application path on July 19, 2026.",
+        "The official posting confirms a full-time paid internship supporting product and packaging work from concept through production, current-student or recent-graduate eligibility, CAD and visualization requirements, and compensation as hourly pay or a stipend; the exact amount and application deadline are not listed."
       ],
       "needsReview": false
     },
