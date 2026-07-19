@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T16:30:16.961Z",
+  "updatedAt": "2026-07-19T16:44:09.048Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3358,6 +3358,36 @@
       "evidence": [
         "SK hynix's official Greenhouse board listed job 4320891009 as open, and its official Greenhouse API returned the posting on July 18, 2026 with an updated timestamp of July 15, 2026.",
         "The official feed confirms San Jose, an immediate start, a six-month fully onsite term, 40 weekly hours, $35-$45 hourly pay, degree pathways, Verilog and SystemVerilog requirements, and ASIC responsibilities; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-level-ai-product-design-intern-delhi",
+      "title": "Product Design Intern (Delhi)",
+      "organization": "Level AI",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-level-ai-ashby",
+      "sourceName": "Level AI Ashby",
+      "sourceUrl": "https://jobs.ashbyhq.com/level-ai/2e980b8c-b1fb-4f82-80fd-3934936d8a4a",
+      "url": "https://jobs.ashbyhq.com/level-ai/2e980b8c-b1fb-4f82-80fd-3934936d8a4a",
+      "location": "Noida - hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing or recently completed a degree in Design, HCI, Product Design, Interaction Design, or a related field, with a graduation date of March 2025 or later. Applicants need strong product-design fundamentals, Figma proficiency, a portfolio demonstrating product thinking and design process, clear communication, and interest in AI-native enterprise products and design systems. The preferred internship duration is six months.",
+      "discoveredAt": "2026-07-19T16:44:09.048Z",
+      "attemptedAt": "2026-07-19T16:44:09.048Z",
+      "updatedAt": "2026-07-19T16:44:09.048Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Level AI's official Ashby feed returned this posting as listed with an active application URL on July 19, 2026; the feed records a publication timestamp of July 19, 2026 at 05:00:18 UTC.",
+        "The official posting confirms Noida hybrid work, internship status, a preferred six-month duration, degree and graduation-date eligibility, Figma and portfolio requirements, and AI-native product and design-system responsibilities; compensation and an application deadline are not listed."
       ],
       "needsReview": false
     },
