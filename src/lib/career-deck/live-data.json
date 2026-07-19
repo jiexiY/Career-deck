@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T17:33:38.722Z",
+  "updatedAt": "2026-07-19T17:44:39.154Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3358,6 +3358,66 @@
       "evidence": [
         "SK hynix's official Greenhouse board listed job 4320891009 as open, and its official Greenhouse API returned the posting on July 18, 2026 with an updated timestamp of July 15, 2026.",
         "The official feed confirms San Jose, an immediate start, a six-month fully onsite term, 40 weekly hours, $35-$45 hourly pay, degree pathways, Verilog and SystemVerilog requirements, and ASIC responsibilities; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-blabs-product-design-intern-new-cairo",
+      "title": "Product Design Intern",
+      "organization": "b_labs",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-blabs-workable",
+      "sourceName": "b_labs Workable",
+      "sourceUrl": "https://jobs.workable.com/view/2CuuV8aiMgE9i8ow2wHrhA/hybrid-product-design-intern-in-new-cairo-city-at-b_labs",
+      "url": "https://jobs.workable.com/view/2CuuV8aiMgE9i8ow2wHrhA/hybrid-product-design-intern-in-new-cairo-city-at-b_labs",
+      "location": "New Cairo City, Cairo Governorate, Egypt - hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a bachelor's degree in Design, Human-Computer Interaction, Fine Arts, or a related field. Applicants need a basic understanding of UX and UI fundamentals, familiarity with Figma, Sketch, or Adobe XD, a portfolio of personal, academic, freelance, or conceptual projects, strong visual judgment, attention to detail, communication skills, and openness to feedback.",
+      "discoveredAt": "2026-07-19T17:44:39.154Z",
+      "attemptedAt": "2026-07-19T17:44:39.154Z",
+      "updatedAt": "2026-07-19T17:44:39.154Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "b_labs' official Workable page returned successfully with active application content on July 19, 2026 and identified the role as posted eight days earlier.",
+        "The official posting confirms hybrid work in New Cairo City, product and UX design responsibilities, current-degree eligibility, design-tool and portfolio requirements; compensation and an application deadline are not listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-costello-medical-digital-design-intern",
+      "title": "Digital Design Intern",
+      "organization": "Costello Medical",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-costello-medical-workable",
+      "sourceName": "Costello Medical Workable",
+      "sourceUrl": "https://jobs.workable.com/view/gZGZLd6CP8aCJyvePJJdNH/hybrid-digital-design-intern-in-london-at-costello-medical",
+      "url": "https://jobs.workable.com/view/gZGZLd6CP8aCJyvePJJdNH/hybrid-digital-design-intern-in-london-at-costello-medical",
+      "location": "United Kingdom - Cambridge, London, Manchester, or Bristol; hybrid with one home-working day per week",
+      "deadline": "No fixed deadline; official posting says the role closes when a suitable candidate is found",
+      "compensation": "GBP 26,250 pro-rated annual salary outside London; GBP 28,860 pro-rated annual salary in London",
+      "eligibility": "Current students in their second year or later and recent graduates may apply. Applicants need a degree-level or higher design-related qualification with a minimum or expected 2:1, an innovative portfolio, experience applying UI/UX principles, basic email, web, or application-development knowledge, working knowledge of Figma and Adobe design tools, and strong communication and organization. Independent UK work authorization is required because the role is not eligible for visa sponsorship.",
+      "discoveredAt": "2026-07-19T17:44:39.154Z",
+      "attemptedAt": "2026-07-19T17:44:39.154Z",
+      "updatedAt": "2026-07-19T17:44:39.154Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Costello Medical's official Workable page returned successfully with active application content on July 19, 2026 and identified the role as posted about one month earlier.",
+        "The official posting confirms a three- or six-month internship starting in August or September 2026, four UK office options, hybrid attendance, published regional salary rates, UI/UX and portfolio requirements, and no visa sponsorship; it has no fixed application deadline."
       ],
       "needsReview": false
     },
