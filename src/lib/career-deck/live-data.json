@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T20:00:40.502Z",
+  "updatedAt": "2026-07-19T20:30:41.279Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3358,6 +3358,36 @@
       "evidence": [
         "SK hynix's official Greenhouse board listed job 4320891009 as open, and its official Greenhouse API returned the posting on July 18, 2026 with an updated timestamp of July 15, 2026.",
         "The official feed confirms San Jose, an immediate start, a six-month fully onsite term, 40 weekly hours, $35-$45 hourly pay, degree pathways, Verilog and SystemVerilog requirements, and ASIC responsibilities; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-19-cadence-ssg-design-engineering-intern-fall-2026",
+      "title": "SSG Design Engineering Intern (Fall 2026)",
+      "organization": "Cadence",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-cadence-workday",
+      "sourceName": "Cadence Workday",
+      "sourceUrl": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/SSG-Design-Engineering-Intern--Fall-2026-_R52641",
+      "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/SSG-Design-Engineering-Intern--Fall-2026-_R52641",
+      "location": "San Jose, CA; work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "$35-$62 USD per hour; bonus, equity, and benefits may also be available",
+      "eligibility": "Currently enrolled in a BS or MS program in Electrical Engineering, Computer Engineering, or a similar major. Applicants need strong digital-design and/or design-verification fundamentals, automation skills using Tcl, Perl, and shell scripting, and strong written and verbal communication. Exposure to design-automation tools is preferred, and Cadence states that ideal candidates attend a school near the San Jose office. Work-authorization requirements are not listed.",
+      "discoveredAt": "2026-07-19T20:30:41.279Z",
+      "attemptedAt": "2026-07-19T20:30:41.279Z",
+      "updatedAt": "2026-07-19T20:30:41.279Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cadence's official Workday API returned requisition R52641 as posted and accepting applications on July 19, 2026; the employer feed says it was posted three days earlier.",
+        "The official posting confirms a full-time Fall 2026 San Jose internship on the Janus NoC IP product, with digital-design or design-verification work, BS/MS enrollment requirements, scripting skills, and a $35-$62 hourly range. No application deadline or work arrangement is listed."
       ],
       "needsReview": false
     },
