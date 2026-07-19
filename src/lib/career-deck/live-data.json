@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T17:44:39.154Z",
+  "updatedAt": "2026-07-19T17:54:39.024Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3362,6 +3362,36 @@
       "needsReview": false
     },
     {
+      "id": "tech-design-2026-07-19-epos-product-design-intern-singapore",
+      "title": "Product Design Intern",
+      "organization": "EPOS",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-epos-workable",
+      "sourceName": "EPOS Workable",
+      "sourceUrl": "https://jobs.workable.com/view/vWZYZNrMRXHFFHV1iAhhiw/product-design-intern-in-singapore-at-epos",
+      "url": "https://jobs.workable.com/view/vWZYZNrMRXHFFHV1iAhhiw/product-design-intern-in-singapore-at-epos",
+      "location": "Singapore, Central Singapore, Singapore - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need a basic understanding of UX and UI design, including layout, hierarchy, and user flows, proficiency with Figma or a similar design tool, and strong visual storytelling and presentation-design skills. Webflow, responsive-design, product, growth, and conversion-optimization experience are preferred. Applications must include a CV, design portfolio, and slide-design samples.",
+      "discoveredAt": "2026-07-19T17:54:39.024Z",
+      "attemptedAt": "2026-07-19T17:54:39.024Z",
+      "updatedAt": "2026-07-19T17:54:39.024Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "EPOS's official Workable page returned successfully with active application content on July 19, 2026 and identified the role as posted about one month earlier.",
+        "The official posting confirms an onsite Singapore role supporting an Applied AI product team, UX and UI responsibilities, design-tool and presentation requirements, and required application materials; compensation and an application deadline are not listed."
+      ],
+      "needsReview": false
+    },
+    {
       "id": "tech-design-2026-07-19-blabs-product-design-intern-new-cairo",
       "title": "Product Design Intern",
       "organization": "b_labs",
@@ -3377,17 +3407,18 @@
       "compensation": "Not listed on official source",
       "eligibility": "Currently pursuing a bachelor's degree in Design, Human-Computer Interaction, Fine Arts, or a related field. Applicants need a basic understanding of UX and UI fundamentals, familiarity with Figma, Sketch, or Adobe XD, a portfolio of personal, academic, freelance, or conceptual projects, strong visual judgment, attention to detail, communication skills, and openness to feedback.",
       "discoveredAt": "2026-07-19T17:44:39.154Z",
-      "attemptedAt": "2026-07-19T17:44:39.154Z",
-      "updatedAt": "2026-07-19T17:44:39.154Z",
+      "attemptedAt": "2026-07-19T17:54:39.024Z",
+      "updatedAt": "2026-07-19T17:54:39.024Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.99,
         "freshness": 0.98,
-        "duplicateProbability": 0.01
+        "duplicateProbability": 0.78
       },
       "evidence": [
         "b_labs' official Workable page returned successfully with active application content on July 19, 2026 and identified the role as posted eight days earlier.",
-        "The official posting confirms hybrid work in New Cairo City, product and UX design responsibilities, current-degree eligibility, design-tool and portfolio requirements; compensation and an application deadline are not listed."
+        "The official posting confirms hybrid work in New Cairo City, product and UX design responsibilities, current-degree eligibility, design-tool and portfolio requirements; compensation and an application deadline are not listed.",
+        "A separate mylo Workable listing repeats the title, New Cairo location, responsibilities, requirements, and benefits text. It was not published separately, and this record now carries a high duplicate probability."
       ],
       "needsReview": false
     },
