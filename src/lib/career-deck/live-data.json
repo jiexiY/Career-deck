@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-20T06:10:03.686Z",
+  "updatedAt": "2026-07-20T06:58:35.132Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-20-peak-energy-mechanical-design-intern-winter-2027",
+      "title": "Mechanical Design Intern (Winter 2027)",
+      "organization": "Peak Energy",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-peak-energy-greenhouse-5184664007",
+      "sourceName": "Peak Energy Careers / Greenhouse",
+      "sourceUrl": "https://peakenergy.com/get-in-touch/careers/jobs?job_id=5184664007&gh_jid=5184664007",
+      "url": "https://peakenergy.com/get-in-touch/careers/jobs?job_id=5184664007&gh_jid=5184664007",
+      "location": "Burlingame, California",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Pursuing a Mechanical Engineering, Engineering Physics, or equivalent degree. Strong mechanical and thermal engineering fundamentals, basic power-electronics and electrical knowledge, 3D CAD familiarity, and prototype-building experience are required. CATIA V6 or Siemens NX and MATLAB, FEA, or CFD familiarity are preferred. Work spans energy-storage-system module enclosures, adhesives, plastic component design, high-current conductors, communications harnessing, prototyping, validation, and transition to mass production. Applicants must be eligible to work in the U.S. The official source does not state term dates, schedule, duration, degree year, portfolio requirements, or sponsorship terms.",
+      "discoveredAt": "2026-07-20T06:58:35.132Z",
+      "attemptedAt": "2026-07-20T06:58:35.132Z",
+      "updatedAt": "2026-07-20T06:58:35.132Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Peak Energy's official Greenhouse board returned job 5184664007 as active, first published July 10, 2026, and linked to a reachable employer careers application page on July 19, 2026.",
+        "The employer source confirms the Winter 2027 title, Burlingame location, energy-storage mechanical-design scope, degree and CAD/prototyping profile, and U.S. work eligibility. It does not list compensation, exact term dates, schedule, duration, or an application deadline."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-20-liquidpiston-design-engineer-intern",
       "title": "Design Engineer Internship - Fall 2026",
