@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T16:09:55.731Z",
+  "updatedAt": "2026-07-20T17:06:28.537Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
@@ -12807,6 +12807,36 @@
       "evidence": [
         "Bosch Group's official SmartRecruiters API returned active public posting 744000126066306, requisition REF285446Z, on July 20, 2026; the employer released it May 12, 2026.",
         "The employer source confirms the Fort Lauderdale onsite location, intern position type, limited contract, full-time employment label, separate full-time and/or part-time working-hours field, degree requirement, and electrical product-design scope. It does not list term dates, duration, compensation, a deadline, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-neuralink-digital-ic-design-engineer-intern",
+      "title": "Digital IC Design Engineer Intern",
+      "organization": "Neuralink",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-neuralink-greenhouse-7090489003",
+      "sourceName": "Neuralink Careers / Greenhouse",
+      "sourceUrl": "https://boards.greenhouse.io/neuralink/jobs/7090489003?gh_jid=7090489003",
+      "url": "https://boards.greenhouse.io/neuralink/jobs/7090489003?gh_jid=7090489003",
+      "location": "South San Francisco, California, United States - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "$35 per hour USD",
+      "eligibility": "Applicants need evidence of exceptional ability in electrical engineering, computer science, or computer engineering; at least two years of digital-design experience; proficiency in SystemVerilog, C or C++, and Python; experience taking complex digital systems from architecture and microarchitecture through RTL; and experience designing digital-signal-processing pipelines from algorithm to RTL. Work includes low-power processor and accelerator microarchitecture, hardware-software interfaces, architecture optimization, system-on-chip verification, FPGA emulation, analog mixed-signal co-simulation, design for testability, and silicon bring-up. The official source does not state current-enrollment or degree requirements, an internship term, duration, application deadline, or work-authorization terms.",
+      "discoveredAt": "2026-07-20T17:06:28.537Z",
+      "attemptedAt": "2026-07-20T17:06:28.537Z",
+      "updatedAt": "2026-07-20T17:06:28.537Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Neuralink's official Greenhouse API returned active internship 7090489003, requisition HC-INT-13, on July 20, 2026; the ATS record was updated July 20, 2026 and first published October 27, 2025.",
+        "The employer source confirms the South San Francisco location, non-exempt internship classification, digital IC architecture-through-silicon scope, required experience and languages, and a California flat rate of $35 per hour USD. It does not list a term, duration, application deadline, enrollment requirement, or work-authorization terms."
       ],
       "needsReview": false
     }
