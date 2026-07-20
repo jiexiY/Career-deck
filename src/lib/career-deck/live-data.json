@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T11:27:21.428Z",
+  "updatedAt": "2026-07-20T13:21:23.160Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
@@ -12746,6 +12746,37 @@
         "Vast's official Greenhouse API returned active internship 4694905006 on July 20, 2026; the ATS record was last updated July 15, 2026.",
         "The employer source confirms hands-on space-hardware design and build work, a 12-week full-time onsite Fall 2026 term in Long Beach, mechanical and aerospace student eligibility, the named engineering disciplines, export-control requirements, and a displayed California range of $35-$40 USD without a stated pay period.",
         "The official posting does not list an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-verkada-hardware-engineer-fall-coop",
+      "title": "Hardware Engineer (Fall Co-op)",
+      "organization": "Verkada",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-verkada-greenhouse-4321159007",
+      "sourceName": "Verkada Careers / Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/verkada/jobs/4321159007",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/4321159007",
+      "location": "San Mateo, California, United States - full-time in-person Fall 2026 co-op, preferably 4-8 months",
+      "deadline": "Not listed on official source",
+      "compensation": "$45 per hour",
+      "eligibility": "Pursuing a degree in Electrical Engineering or a related field and available for a Fall 2026 co-op, preferably for an extended 4-8 month term. Relevant experience includes electronic test equipment, schematic design, board-level validation, circuit experiments, schematic capture and layout, hands-on debugging, hardware product validation, and manufacturing collaboration. Verkada states that it sponsors and takes over employment-visa sponsorship for this role and will make reasonable efforts to obtain a visa after an offer.",
+      "discoveredAt": "2026-07-20T13:21:23.160Z",
+      "attemptedAt": "2026-07-20T13:21:23.160Z",
+      "updatedAt": "2026-07-20T13:21:23.160Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Verkada's official Greenhouse API returned active job 4321159007 on July 20, 2026; the ATS record was last updated July 16, 2026.",
+        "The official posting confirms product electrical-design work from prototype through mass production for cameras, access-control systems, sensors, and other enterprise IoT hardware, plus an in-person San Mateo Fall 2026 co-op term and a $45 hourly range.",
+        "The employer source explicitly states employment-visa sponsorship is available; it does not list an application deadline."
       ],
       "needsReview": false
     }
