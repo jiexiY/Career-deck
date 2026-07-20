@@ -1,6 +1,276 @@
 {
-  "updatedAt": "2026-07-20T03:05:59.094Z",
+  "updatedAt": "2026-07-20T03:19:59.251Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-20-bosch-ux-design-research-intern",
+      "title": "User Experience Internship - UX Design or User Research",
+      "organization": "Robert Bosch GmbH",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-bosch-careers",
+      "sourceName": "Bosch Job Portal",
+      "sourceUrl": "https://jobs.bosch.de/en/job/Praktikum-im-Bereich-User-Experience-UX-Design-oder-User-Research-Stuttgart-Feuerbach?id=0ede80e2-1df8-404f-bac0-77a245858c2e",
+      "url": "https://jobs.bosch.de/en/job/Praktikum-im-Bereich-User-Experience-UX-Design-oder-User-Research-Stuttgart-Feuerbach?id=0ede80e2-1df8-404f-bac0-77a245858c2e",
+      "location": "Stuttgart-Feuerbach, Germany - hybrid, up to two remote days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled at a university in UX Design, Human-Computer Interaction, media informatics, information design, psychology, or a comparable field. UX-design applicants need strong Figma skills; Adobe Illustrator is beneficial. User-research applicants need qualitative or quantitative research experience, with experience-management tools such as Qualtrics beneficial. Business-fluent German and very good English are required. The six-month internship starts in September 2026 and runs 35 hours per week; applicants should include enrollment and academic documents, a portfolio for the design track, and a valid work and residence permit where applicable.",
+      "discoveredAt": "2026-07-20T03:19:59.251Z",
+      "attemptedAt": "2026-07-20T03:19:59.251Z",
+      "updatedAt": "2026-07-20T03:19:59.251Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.04
+      },
+      "evidence": [
+        "Bosch's official job portal displayed requisition REF289500U as active with an Apply now route on July 19, 2026; Bosch records a June 22, 2026 posting date and a September 2026 start.",
+        "The official posting offers separate UX Design and User Research tracks in Stuttgart-Feuerbach for six months, 35 hours per week, with up to two remote days weekly. It lists no application deadline or specific compensation amount."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-bosch-ux-research-intern",
+      "title": "User Experience Research Internship",
+      "organization": "Robert Bosch GmbH",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-bosch-careers",
+      "sourceName": "Bosch Job Portal",
+      "sourceUrl": "https://jobs.bosch.de/en/job/Praktikum-in-User-Experience-Research-Stuttgart-Feuerbach?id=21febb58-200c-4ad4-9d21-30d0c650c936",
+      "url": "https://jobs.bosch.de/en/job/Praktikum-in-User-Experience-Research-Stuttgart-Feuerbach?id=21febb58-200c-4ad4-9d21-30d0c650c936",
+      "location": "Stuttgart-Feuerbach, Germany - hybrid, up to two remote days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled at a university in psychology, social sciences, Human-Computer Interaction, UX, media informatics, information design, or a comparable field. Applicants need initial experience with qualitative or quantitative research methods; AI prompting familiarity is beneficial. Business-fluent German and very good English are required. The six-month internship starts in September 2026 and runs 35 hours per week; enrollment and academic documents plus a valid work and residence permit where applicable are requested.",
+      "discoveredAt": "2026-07-20T03:19:59.251Z",
+      "attemptedAt": "2026-07-20T03:19:59.251Z",
+      "updatedAt": "2026-07-20T03:19:59.251Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.04
+      },
+      "evidence": [
+        "Bosch's official job portal displayed requisition REF289488K as active with an Apply now route on July 19, 2026; Bosch records a June 22, 2026 posting date and a September 2026 start.",
+        "The official posting confirms a six-month, 35-hour-per-week UX Research internship covering interviews, usability tests, surveys, workshops, research synthesis, and AI-assisted UX processes. It lists no application deadline or specific compensation amount."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-bosch-product-industrial-design-intern",
+      "title": "Product and Industrial Design Internship",
+      "organization": "Bosch Thermotechnik GmbH",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-bosch-careers",
+      "sourceName": "Bosch Job Portal",
+      "sourceUrl": "https://jobs.bosch.de/en/job/Praktikum-im-Produkt-und-Industrial-Design-Wernau?id=f4c5b44d-0706-4b83-afc1-29375158b4a8",
+      "url": "https://jobs.bosch.de/en/job/Praktikum-im-Produkt-und-Industrial-Design-Wernau?id=f4c5b44d-0706-4b83-afc1-29375158b4a8",
+      "location": "Wernau, Germany",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled at a university in industrial design, product design, or a comparable field after completing foundational studies. Applicants need product-design experience, confident sketching and concept visualization, and proficiency with Adobe Illustrator and Photoshop, Rhino, SolidWorks, KeyShot, and Microsoft Office. Very good German and English are required. The six-month internship starts in September 2026; applicants should include enrollment and academic documents plus a valid work and residence permit where applicable.",
+      "discoveredAt": "2026-07-20T03:19:59.251Z",
+      "attemptedAt": "2026-07-20T03:19:59.251Z",
+      "updatedAt": "2026-07-20T03:19:59.251Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Bosch's official job portal displayed requisition REF286698R as active with an Apply now route on July 19, 2026; Bosch records a May 20, 2026 posting date and a September 2026 start.",
+        "The official posting confirms a six-month Wernau internship designing heating and climate-control products, brand design elements, and industrial-design style guides. It lists no application deadline or specific compensation amount."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-teams-stuttgart-industrial-design-intern",
+      "title": "Industrial Design Internship",
+      "organization": "TEAMS Design",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-teams-design-careers",
+      "sourceName": "TEAMS Design Careers",
+      "sourceUrl": "https://www.teamsdesign.com/en/careers/stuttgart-internship-industrial-design",
+      "url": "https://www.teamsdesign.com/en/careers/stuttgart-internship-industrial-design",
+      "location": "Stuttgart-Esslingen, Germany",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently studying industrial design, product design, or a similar discipline and preparing to begin a mandatory internship. Product sketching and visualization skills are required. The six-month internship starts in September 2026, and the application requires a motivation letter, CV, and portfolio showing process as well as finished work.",
+      "discoveredAt": "2026-07-20T03:19:59.251Z",
+      "attemptedAt": "2026-07-20T03:19:59.251Z",
+      "updatedAt": "2026-07-20T03:19:59.251Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.95,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TEAMS Design's official careers page displayed this active six-month mandatory internship and application form on July 19, 2026; the role starts in September 2026.",
+        "The official posting confirms Stuttgart-Esslingen studio work spanning user research, product concepts, 2D and 3D design, and model making. It lists no compensation, application deadline, or work-authorization details."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-teams-hamburg-product-design-six-month-intern",
+      "title": "6-Month Product Design Internship",
+      "organization": "TEAMS Design",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-teams-design-careers",
+      "sourceName": "TEAMS Design Careers",
+      "sourceUrl": "https://www.teamsdesign.com/en/careers/hamburg-6-month-product-design-internship",
+      "url": "https://www.teamsdesign.com/en/careers/hamburg-6-month-product-design-internship",
+      "location": "Hamburg, Germany",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled in a full-time accredited study program that requires a compulsory internship. Applicants need product-design, sketching, visualization, and communication skills; German is preferred but not mandatory. TEAMS requires a German work visa or EU citizenship. The internship lasts six months and is offered in semesters starting in March and September; the official page does not specify the next start year. A cover letter, resume, and process-focused portfolio are required.",
+      "discoveredAt": "2026-07-20T03:19:59.251Z",
+      "attemptedAt": "2026-07-20T03:19:59.251Z",
+      "updatedAt": "2026-07-20T03:19:59.251Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.91,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "TEAMS Design's current careers index linked this Hamburg role, and the official posting displayed active email application instructions on July 19, 2026.",
+        "The official posting describes two six-month product and industrial-design internships per semester, starting in March and September. It lists no specific start year, compensation, or application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-teams-hamburg-product-transport-three-month-intern",
+      "title": "3-Month Product and Transportation Design Internship",
+      "organization": "TEAMS Design",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-teams-design-careers",
+      "sourceName": "TEAMS Design Careers",
+      "sourceUrl": "https://www.teamsdesign.com/en/careers/hamburg-3-month-product-transportation-design-internship",
+      "url": "https://www.teamsdesign.com/en/careers/hamburg-3-month-product-transportation-design-internship",
+      "location": "Hamburg, Germany",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled in a full-time accredited study program. This voluntary internship is intended for students whose program does not require an internship. Applicants need product or transportation design, sketching, visualization, and communication skills; German is preferred but not mandatory. TEAMS requires a German work visa or EU citizenship. The role lasts three months and starts in December, but the official page does not specify the year. A cover letter, resume, and process-focused portfolio are required.",
+      "discoveredAt": "2026-07-20T03:19:59.251Z",
+      "attemptedAt": "2026-07-20T03:19:59.251Z",
+      "updatedAt": "2026-07-20T03:19:59.251Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.91,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "TEAMS Design's current careers index linked this Hamburg role, and the official posting displayed active email application instructions on July 19, 2026.",
+        "The official posting describes two voluntary three-month product and transportation-design internships per semester with a December start. It does not specify the start year, compensation, or application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-teams-hamburg-transportation-design-six-month-intern",
+      "title": "6-Month Transportation Design Internship",
+      "organization": "TEAMS Design",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-teams-design-careers",
+      "sourceName": "TEAMS Design Careers",
+      "sourceUrl": "https://www.teamsdesign.com/en/careers/hamburg-6-month-transportation-design-internship",
+      "url": "https://www.teamsdesign.com/en/careers/hamburg-6-month-transportation-design-internship",
+      "location": "Hamburg, Germany",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled in a full-time accredited study program that requires a compulsory internship. Applicants need strong transportation-design sketching and communication skills; German is preferred but not mandatory. TEAMS requires a German work visa or EU citizenship. The role starts in September 2026; the official page calls it a six-month internship but also states a three- or six-month duration, so the exact term should be confirmed with the employer. A cover letter, resume, and process-focused portfolio are required.",
+      "discoveredAt": "2026-07-20T03:19:59.251Z",
+      "attemptedAt": "2026-07-20T03:19:59.251Z",
+      "updatedAt": "2026-07-20T03:19:59.251Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.95,
+        "freshness": 0.94,
+        "duplicateProbability": 0.04
+      },
+      "evidence": [
+        "TEAMS Design's official careers page displayed this active Hamburg transportation-design internship and email application instructions on July 19, 2026, with a September 2026 start.",
+        "The official page's title and introduction describe a six-month internship, while its closing details state a three- or six-month duration. Compensation and an application deadline are not listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-teams-hamburg-interaction-design-intern",
+      "title": "Interaction Design Internship",
+      "organization": "TEAMS Design",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-teams-design-careers",
+      "sourceName": "TEAMS Design Careers",
+      "sourceUrl": "https://www.teamsdesign.com/en/careers/hamburg-internship-interaction-design",
+      "url": "https://www.teamsdesign.com/en/careers/hamburg-internship-interaction-design",
+      "location": "Hamburg, Germany",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled in a full-time accredited interaction, interface, or communication design program. Empathy, conceptual thinking, and visual and communication design skills are required; fluent German is preferred but not mandatory. The internship lasts three to six months. The application requires a portfolio, resume, and cover letter. The official posting does not state work-authorization requirements or a start date.",
+      "discoveredAt": "2026-07-20T03:19:59.251Z",
+      "attemptedAt": "2026-07-20T03:19:59.251Z",
+      "updatedAt": "2026-07-20T03:19:59.251Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.9,
+        "duplicateProbability": 0.02
+      },
+      "evidence": [
+        "TEAMS Design's current careers index linked this Hamburg interaction-design role, and the official posting displayed active email and form application routes on July 19, 2026.",
+        "The official posting confirms a three- to six-month internship for enrolled interaction, interface, or communication design students. It lists no start date, compensation, deadline, or work-authorization details."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-teams-amsterdam-interaction-design-intern",
+      "title": "Interaction Design Internship",
+      "organization": "TEAMS Design",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-teams-design-careers",
+      "sourceName": "TEAMS Design Careers",
+      "sourceUrl": "https://www.teamsdesign.com/en/careers/amsterdam-internship-interaction-design",
+      "url": "https://www.teamsdesign.com/en/careers/amsterdam-internship-interaction-design",
+      "location": "Amsterdam, Netherlands",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled in a full-time accredited industrial or product design program. Fluent English is required and Dutch is beneficial. Applicants should understand user-centered design, design and UX methods, workshops, consistent digital design patterns, Adobe and Figma tools, and technical interface implementation. The application requires a portfolio, resume, and cover letter. The official posting does not state a start date, duration, compensation, deadline, or work-authorization requirements.",
+      "discoveredAt": "2026-07-20T03:19:59.251Z",
+      "attemptedAt": "2026-07-20T03:19:59.251Z",
+      "updatedAt": "2026-07-20T03:19:59.251Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.9,
+        "duplicateProbability": 0.02
+      },
+      "evidence": [
+        "TEAMS Design's current careers index linked this Amsterdam interaction-design role, and the official posting displayed active email application instructions on July 19, 2026.",
+        "The official posting confirms interface and user-experience work for an enrolled industrial or product design student. It lists no start date, term, compensation, deadline, or work-authorization details."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-20-delsys-software-engineer-uiux-fall-intern",
       "title": "Software Engineer - UI/UX (Fall 26' Intern)",
