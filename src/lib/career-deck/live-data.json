@@ -1,6 +1,126 @@
 {
-  "updatedAt": "2026-07-19T23:41:14.103Z",
+  "updatedAt": "2026-07-20T00:58:51.379Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-20-deeplocal-fall-design-intern",
+      "title": "Fall Design Intern",
+      "organization": "Deeplocal",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-deeplocal-greenhouse",
+      "sourceName": "Deeplocal Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/deeplocal/jobs/7781481",
+      "url": "https://job-boards.greenhouse.io/deeplocal/jobs/7781481",
+      "location": "Pittsburgh, PA - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "$19-$29 USD per hour",
+      "eligibility": "Applicants need 3D modeling and rendering proficiency, experience designing spatial interactions, environments, or physical objects, and strong visual communication and collaboration skills. SketchUp, Rhino, or Fusion experience is preferred, and a portfolio demonstrating the requested skills is strongly encouraged. The official posting does not state enrollment, graduation, or work-authorization requirements.",
+      "discoveredAt": "2026-07-20T00:58:51.379Z",
+      "attemptedAt": "2026-07-20T00:58:51.379Z",
+      "updatedAt": "2026-07-20T00:58:51.379Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Deeplocal's official Greenhouse API returned job 7781481 as active with an employer application URL on July 19, 2026; Greenhouse records the posting as updated June 25, 2026.",
+        "The official posting confirms an onsite Fall 2026 internship in Pittsburgh focused on spatial, industrial, physical-interaction, and 3D experience design, with pay of $19-$29 per hour. It does not list an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-astranis-sdr-hardware-design-intern",
+      "title": "Hardware Design Intern, Software Defined Radio Team (Fall 2026)",
+      "organization": "Astranis",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-astranis-greenhouse",
+      "sourceName": "Astranis Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/astranis/jobs/4691163006",
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4691163006",
+      "location": "San Francisco, CA - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "$29 USD per hour",
+      "eligibility": "Currently enrolled at a four-year university and pursuing Electrical Engineering or an equivalent degree, with hands-on experience designing, building, and testing PCBA hardware and a foundation in analog, digital, mixed-signal, or RF design. Internships typically last 12 weeks. U.S. citizenship, lawful permanent residency, or refugee/asylee status is required for export-control compliance.",
+      "discoveredAt": "2026-07-20T00:58:51.379Z",
+      "attemptedAt": "2026-07-20T00:58:51.379Z",
+      "updatedAt": "2026-07-20T00:58:51.379Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Astranis's official Greenhouse API returned job 4691163006 as active with an employer application URL on July 19, 2026; Greenhouse records the posting as updated June 30, 2026.",
+        "The official posting confirms a Fall 2026 hardware-design internship in San Francisco, a typical 12-week term, $29 hourly pay, current-university enrollment, EE study, hands-on PCBA experience, and U.S. export-control eligibility. It does not list an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-hitachi-rail-network-design-intern",
+      "title": "Network Design Intern (Fall 2026, 4 months)",
+      "organization": "Hitachi Rail Canada",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-hitachi-rail-workday",
+      "sourceName": "Hitachi Rail Workday",
+      "sourceUrl": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Toronto-Ontario-Canada/Network-Design-Intern--Fall-2026--4-months-_R1012963-1",
+      "url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Toronto-Ontario-Canada/Network-Design-Intern--Fall-2026--4-months-_R1012963-1",
+      "location": "Scarborough, Ontario, Canada - hybrid, minimum two office days per week",
+      "deadline": "Open until filled",
+      "compensation": "$23-$30 CAD per hour",
+      "eligibility": "Working toward a bachelor's or master's degree in Systems Engineering, Electrical or Computer Engineering, Computer Science, or a similar field; available full time for 40 hours per week from September through December 2026 and able to work at least two days per week in the Toronto office. Network principles, Ethernet/IP, routing, high availability, VPN, RF networking, and programming or scripting knowledge are requested.",
+      "discoveredAt": "2026-07-20T00:58:51.379Z",
+      "attemptedAt": "2026-07-20T00:58:51.379Z",
+      "updatedAt": "2026-07-20T00:58:51.379Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hitachi Rail's official Workday API returned requisition R1012963 as an existing open vacancy with an employer application URL on July 19, 2026; the employer records a July 7, 2026 posting date.",
+        "The official posting confirms a four-month Fall 2026 hybrid internship/co-op in Scarborough, 40 hours per week, at least two office days weekly, and pay of $23-$30 CAD per hour. It states that applications remain open until filled."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-hitachi-rail-systems-design-intern",
+      "title": "Systems Design Intern (Fall 2026, 12 months)",
+      "organization": "Hitachi Rail Canada",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-hitachi-rail-workday",
+      "sourceName": "Hitachi Rail Workday",
+      "sourceUrl": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Toronto-Ontario-Canada/Systems-Design-Intern--Fall-2026--12months-_R1012441-1",
+      "url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Toronto-Ontario-Canada/Systems-Design-Intern--Fall-2026--12months-_R1012441-1",
+      "location": "Scarborough, Ontario, Canada - hybrid, minimum two office days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "$23-$30 CAD per hour",
+      "eligibility": "Working toward a bachelor's degree in Electrical, Computer, or Systems Engineering or an equivalent field; available full time for 40 hours per week from September 2026 through August 2027 and able to work onsite at least two days per week. C++, Python, specification-driven hardware and software systems, DOORS or Polarion, and mechanical or dynamic-motion analysis are preferred.",
+      "discoveredAt": "2026-07-20T00:58:51.379Z",
+      "attemptedAt": "2026-07-20T00:58:51.379Z",
+      "updatedAt": "2026-07-20T00:58:51.379Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hitachi Rail's official Workday API returned requisition R1012441 as an existing vacancy with an employer application URL on July 19, 2026; the employer records a July 7, 2026 posting date.",
+        "The official posting confirms a 12-month Fall 2026 hybrid internship/co-op in Scarborough, 40 hours per week, at least two office days weekly, and pay of $23-$30 CAD per hour. It does not list an application deadline."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-19-cirrus-analog-design-engineer-coop-greensboro",
       "title": "Fall 2026 Co-Op - Analog Design Engineer (NC)",
