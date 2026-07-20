@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T08:01:53.533Z",
+  "updatedAt": "2026-07-20T09:54:22.793Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
@@ -12686,6 +12686,37 @@
         "The official posting confirms the Minneapolis 7101 location, $20-$24 hourly range, degree and portfolio criteria, and hands-on retail, spatial, experiential, and 3D design scope. It does not list an application deadline."
       ],
       "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-anduril-2027-mechanical-engineer-intern",
+      "title": "2027 Mechanical Engineer Intern",
+      "organization": "Anduril Industries",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-anduril-greenhouse-5153187007",
+      "sourceName": "Anduril Careers / Greenhouse",
+      "sourceUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007",
+      "location": "Atlanta, Georgia; Boston, Massachusetts; Costa Mesa, California; Irvine, California; Reston, Virginia; or Seattle, Washington - paid, in-person, 12-week Summer 2027 internship",
+      "deadline": "Not listed; recruiter review is expected to begin in August 2026",
+      "compensation": "$30-$45 USD (pay period not stated on official source)",
+      "eligibility": "Pursuing a bachelor's degree in Mechanical Engineering, Mathematics, Physics, or a related field; enrolled in an undergraduate or graduate engineering program; rising senior during the internship; and returning to school for at least one quarter or semester afterward. CAD, engineering drawings, hands-on fabrication, first-principles engineering, and collegiate project-team or laboratory experience are required. U.S. Person status is required for access to export-controlled data. Preferred experience includes NX or Teamcenter, SolidWorks, FEA or CFD, electromechanical integration, machining, sheet metal, injection molding, and 3D printing.",
+      "discoveredAt": "2026-07-20T09:54:22.793Z",
+      "attemptedAt": "2026-07-20T09:54:22.793Z",
+      "updatedAt": "2026-07-20T09:54:22.793Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Anduril's official Greenhouse API returned active job 5153187007 on July 20, 2026; the ATS record was last updated July 17, 2026 and accepts early applications for Summer 2027 mechanical engineering internships.",
+        "The official posting confirms prototype design and build work, design reviews, analysis, vendor visits, hardware test plans, production transition, six possible U.S. locations, the 12-week in-person format, eligibility requirements, and the displayed $30-$45 USD range without a stated pay period.",
+        "Source check required: Anduril states that this exact role may not be open today, that the application places candidates on its radar for future matching opportunities, and that review is expected to begin in August 2026."
+      ],
+      "needsReview": true
     }
   ]
 }
