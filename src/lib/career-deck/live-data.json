@@ -1,6 +1,276 @@
 {
-  "updatedAt": "2026-07-20T03:19:59.251Z",
+  "updatedAt": "2026-07-20T03:30:59.401Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-20-modyn-product-design-intern",
+      "title": "Product Design Internship",
+      "organization": "MODYN",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-modyn-join",
+      "sourceName": "MODYN JOIN",
+      "sourceUrl": "https://join.com/companies/modyn/16361006-internships-3rd-year-product-design-and-design-engineer-at-modyn-per-september-2026",
+      "url": "https://join.com/companies/modyn/16361006-internships-3rd-year-product-design-and-design-engineer-at-modyn-per-september-2026",
+      "location": "Geldermalsen, Netherlands - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Monthly internship allowance and travel reimbursement; amounts not listed on official source",
+      "eligibility": "The official title describes a third-year Product Design and Design Engineer placement beginning in September 2026, while the posting body identifies the current opening as Product Designer. Internships last at least five to six months and graduate placements are not available. Applicants must already reside in the Netherlands within 150 kilometers of Geldermalsen and should be interested in mobility or health-tech product design, user research, concept development, prototyping, and hands-on problem solving.",
+      "discoveredAt": "2026-07-20T03:30:59.401Z",
+      "attemptedAt": "2026-07-20T03:30:59.401Z",
+      "updatedAt": "2026-07-20T03:30:59.401Z",
+      "confidence": {
+        "source": 0.98,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "MODYN's employer careers page links applicants to its JOIN recruiting account, where this posting displayed an active Apply now action and was refreshed on July 19, 2026.",
+        "The employer-linked ATS confirms a September 2026 product-design placement lasting at least five to six months, the Netherlands residency radius, and an allowance plus travel reimbursement. It lists no application deadline, exact compensation amount, or separate work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-fluid-industrial-design-intern",
+      "title": "Internship Industrial Design September 2026",
+      "organization": "FLUID Design GmbH",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-fluid-design-join",
+      "sourceName": "FLUID Design Careers / JOIN",
+      "sourceUrl": "https://join.com/companies/fluid/15436122-internship-industrial-design-september-2026-m-f-d",
+      "url": "https://join.com/companies/fluid/15436122-internship-industrial-design-september-2026-m-f-d",
+      "location": "Munich, Germany",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid internship; amount not listed on official source",
+      "eligibility": "Currently enrolled in a creative industrial-design program and completing a curriculum-mandatory internship. Applicants need English communication skills, 3D CAD proficiency with Rhino preferred, rendering experience with KeyShot preferred, Adobe software skills, and a portfolio submitted as a PDF or website. The full-time internship lasts six months and starts in September 2026.",
+      "discoveredAt": "2026-07-20T03:30:59.401Z",
+      "attemptedAt": "2026-07-20T03:30:59.401Z",
+      "updatedAt": "2026-07-20T03:30:59.401Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.08
+      },
+      "evidence": [
+        "FLUID Design's official careers page linked directly to this JOIN posting, which displayed an active Apply now action and was refreshed on July 19, 2026.",
+        "The official posting confirms a paid six-month industrial-design internship in Munich starting September 2026. JOIN exposes other duplicate URLs for the same role, so Career Deck preserves the route linked by FLUID's employer site; no deadline or exact pay amount is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-unilever-packaging-rd-intern",
+      "title": "Research & Development Internship 26' - Packaging (Hive)",
+      "organization": "Unilever",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-unilever-careers",
+      "sourceName": "Unilever Careers",
+      "sourceUrl": "https://careers.unilever.com/en/job/-/-/34155/95292977872",
+      "url": "https://careers.unilever.com/en/job/-/-/34155/95292977872",
+      "location": "Wageningen, Gelderland, Netherlands",
+      "deadline": "Not listed on official source",
+      "compensation": "EUR 625 gross per month plus travel reimbursement when no student travel card is available",
+      "eligibility": "Enrolled in the third or fourth year of a bachelor's or master's program in Material Science, Industrial Design, Mechanical Engineering, Packaging Technology, or a related field. Applicants need basic packaging-technology, design-element, and materials knowledge plus fluent written and spoken English. The internship lasts five to six months, starts in August or September 2026, and requires at least 32 hours per week.",
+      "discoveredAt": "2026-07-20T03:30:59.401Z",
+      "attemptedAt": "2026-07-20T03:30:59.401Z",
+      "updatedAt": "2026-07-20T03:30:59.401Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Unilever's official careers page displayed job R-1181862 with an active employer Workday application route on July 19, 2026; Unilever records a July 2, 2026 posting date.",
+        "The official posting confirms packaging design, prototypes, materials, and digital simulation work, a five- to six-month August/September term, the study requirements, and EUR 625 monthly allowance. It lists no deadline or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-studio-bas-sala-product-spatial-design-intern",
+      "title": "Product or Spatial Design Internship",
+      "organization": "Studio Bas Sala",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-studio-bas-sala-careers",
+      "sourceName": "Studio Bas Sala Careers",
+      "sourceUrl": "https://www.bassala.com/en/internship",
+      "url": "https://www.bassala.com/en/internship",
+      "location": "Rotterdam, Netherlands",
+      "deadline": "Not listed on official source",
+      "compensation": "EUR 275 per month",
+      "eligibility": "Current students in product design, industrial design, spatial design, interior design or architecture, or a related field at an art academy, design academy, or university. Applicants should work comfortably both digitally and hands-on, have experience building products, furniture, or models, work independently, use artistic research, and know at least one 3D design program. The studio does not accept Industrial Product Design HBO students; applicants from outside the EU must currently study at an EU-based institution. A CV, portfolio, motivation, and preferred dates are required.",
+      "discoveredAt": "2026-07-20T03:30:59.401Z",
+      "attemptedAt": "2026-07-20T03:30:59.401Z",
+      "updatedAt": "2026-07-20T03:30:59.401Z",
+      "confidence": {
+        "source": 0.98,
+        "extraction": 0.98,
+        "freshness": 0.91,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Studio Bas Sala's employer-hosted internship page returned HTTP 200 and stated that the Rotterdam studio is currently seeking a product or spatial design intern on July 19, 2026.",
+        "The official page confirms the student, portfolio, 3D-design, EU-study, and program-exclusion rules plus a EUR 275 monthly allowance. It does not list a fixed start date, term, schedule, deadline, or other work-authorization details."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-snijlab-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Snijlab",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-snijlab-careers",
+      "sourceName": "Snijlab Careers",
+      "sourceUrl": "https://snijlab.nl/en/pages/product-design-internship",
+      "url": "https://snijlab.nl/en/pages/product-design-internship",
+      "location": "Rotterdam, Netherlands - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Market-rate internship compensation; amount not listed on official source",
+      "eligibility": "Applicants should be curious about production techniques, enjoy research, design, and hands-on making, and be able to translate laser-cutting experiments into sample designs and customer-facing examples. Prior laser-cutting experience is not required. The role is full time, and the application requires a CV and brief motivation letter. The official source does not state enrollment, degree, work-authorization, or portfolio requirements.",
+      "discoveredAt": "2026-07-20T03:30:59.401Z",
+      "attemptedAt": "2026-07-20T03:30:59.401Z",
+      "updatedAt": "2026-07-20T03:30:59.401Z",
+      "confidence": {
+        "source": 0.98,
+        "extraction": 0.97,
+        "freshness": 0.91,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Snijlab's employer-hosted vacancy page returned HTTP 200 and displayed this full-time Rotterdam Product Design internship with direct email application instructions on July 19, 2026.",
+        "The official page confirms laser-cutting research, sample-design and experiment work, workshop access, and market-rate internship compensation. It lists no pay amount, start date, term, deadline, enrollment rule, or work-authorization requirement."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-sanitronics-industrial-product-designer-intern",
+      "title": "Internship Industrial Product Designer (IPO)",
+      "organization": "Sanitronics International B.V.",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sanitronics-careers",
+      "sourceName": "Sanitronics Careers",
+      "sourceUrl": "https://sanitronics.com/career/internship-industrial-product-designer/",
+      "url": "https://sanitronics.com/career/internship-industrial-product-designer/",
+      "location": "Rotterdam, Netherlands",
+      "deadline": "Not listed on official source",
+      "compensation": "Internship compensation offered; amount not listed on official source",
+      "eligibility": "Current HBO-level Industrial Product Design student with SolidWorks experience, initiative, creativity, and an interest in developing products that can move directly into production. Dutch or English is accepted. The internship may be part time or full time and last three to twelve months; both graduation and work-placement projects are available. A CV and motivation letter are required.",
+      "discoveredAt": "2026-07-20T03:30:59.401Z",
+      "attemptedAt": "2026-07-20T03:30:59.401Z",
+      "updatedAt": "2026-07-20T03:30:59.401Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.91,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Sanitronics' official careers page displayed this active Rotterdam industrial product-design internship and direct employer email route on July 19, 2026.",
+        "The official posting confirms part- or full-time availability, a three- to twelve-month term, HBO/IPO study, SolidWorks, Dutch or English, and compensation without an amount. It lists no start date, deadline, or work-authorization details."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-quooker-product-development-intern",
+      "title": "Internship Product Development",
+      "organization": "Quooker",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-quooker-careers",
+      "sourceName": "Quooker Careers",
+      "sourceUrl": "https://werkenbijquooker.nl/o/stage-productontwikkeling-1?lang=en",
+      "url": "https://werkenbijquooker.nl/o/stage-productontwikkeling-1?lang=en",
+      "location": "Ridderkerk, Netherlands - onsite with up to one remote day per week",
+      "deadline": "Not listed on official source",
+      "compensation": "EUR 600 gross per month for a full-time internship",
+      "eligibility": "Current HBO or WO student in a technical field such as Industrial Design, Industrial Engineering, or Mechanical Engineering. Applicants should be independent, eager to learn, proactive, and hands-on; SolidWorks experience is beneficial. The next available start is September 2026, and candidates must be available for four to six months at 32 to 40 hours per week. A portfolio is requested in the application form.",
+      "discoveredAt": "2026-07-20T03:30:59.401Z",
+      "attemptedAt": "2026-07-20T03:30:59.401Z",
+      "updatedAt": "2026-07-20T03:30:59.401Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Quooker's official careers page displayed this opening with a live employer application form on July 19, 2026 and identifies September 2026 as the next available start date.",
+        "The official posting confirms a four- to six-month, 32- to 40-hour product-development placement, the technical-study and portfolio requirements, one possible remote day, and EUR 600 monthly pay. It lists no deadline or work-authorization details."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-ascent-product-development-intern",
+      "title": "Product Development Internship",
+      "organization": "Ascent",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ascent-careers",
+      "sourceName": "Ascent Careers",
+      "sourceUrl": "https://www.ascent-store.com/en-nl/pages/careers/product-development-internship",
+      "url": "https://www.ascent-store.com/en-nl/pages/careers/product-development-internship",
+      "location": "Rotterdam, Netherlands - hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "EUR 500-EUR 600 per month based on 24-32 hours per week",
+      "eligibility": "Currently pursuing or recently completed a master's degree in Industrial Design, Engineering, or a related field at a technical university. Applicants should have a builder's mindset, technical problem-solving ability, and interest in sustainable consumer products and circular design. Work includes packaging-material research, refill-system development, prototype testing, formulation support, production-process improvement, and supplier coordination. The official source does not state work-authorization requirements.",
+      "discoveredAt": "2026-07-20T03:30:59.401Z",
+      "attemptedAt": "2026-07-20T03:30:59.401Z",
+      "updatedAt": "2026-07-20T03:30:59.401Z",
+      "confidence": {
+        "source": 0.97,
+        "extraction": 0.97,
+        "freshness": 0.91,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Ascent's employer-hosted careers route returned HTTP 200 and displayed this Rotterdam Product Development internship with an Apply Now action on July 19, 2026.",
+        "The official posting confirms hybrid packaging and refill-system development, the master's-level study profile, and EUR 500-EUR 600 monthly pay for 24-32 hours. It lists no start date, term, deadline, or work-authorization details."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-okapion-ux-design-intern",
+      "title": "Design Internship (September 2026)",
+      "organization": "Okapion",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-okapion-careers",
+      "sourceName": "Okapion Careers",
+      "sourceUrl": "https://www.okapion.com/careers/design-internship",
+      "url": "https://www.okapion.com/careers/design-internship",
+      "location": "Rotterdam, Netherlands - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Current student in Communication and Multimedia Design, Design for Interaction, or a comparable program, with a strong portfolio and enthusiasm for UX and complex application design. Both work-placement and graduation internships are available. Work covers research, concept development, wireframes, interface design, testing, and client projects. Applicants should email a portfolio; the official page does not state the schedule, term, work-authorization rules, or other application documents.",
+      "discoveredAt": "2026-07-20T03:30:59.401Z",
+      "attemptedAt": "2026-07-20T03:30:59.401Z",
+      "updatedAt": "2026-07-20T03:30:59.401Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Okapion's official careers page displayed this September 2026 Rotterdam internship and direct employer email application instructions on July 19, 2026.",
+        "The official posting confirms UX work on complex applications, eligible study programs, portfolio expectations, and both work-placement and graduation tracks. It lists no compensation, deadline, schedule, term, or work-authorization details."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-20-bosch-ux-design-research-intern",
       "title": "User Experience Internship - UX Design or User Research",
