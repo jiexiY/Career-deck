@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T02:50:25.098Z",
+  "updatedAt": "2026-07-20T02:52:29.005Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-deeplocal-fall-design-intern",
@@ -8672,7 +8672,7 @@
       "organization": "SharkNinja",
       "section": "tech",
       "type": "co-op",
-      "status": "open",
+      "status": "closed",
       "sourceId": "src-sharkninja-greenhouse",
       "sourceName": "SharkNinja Greenhouse",
       "sourceUrl": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4655085006",
@@ -8682,8 +8682,8 @@
       "compensation": "$27-$35 USD per hour",
       "eligibility": "Third-year-or-later bachelor's student, master's student, or graduate within the past year; available full time onsite July-December 2026; Keyshot, Adobe Suite, CMF/color-standard knowledge, and work samples required.",
       "discoveredAt": "2026-07-17T17:38:57.201Z",
-      "attemptedAt": "2026-07-17T17:38:57.201Z",
-      "updatedAt": "2026-07-17T17:38:57.201Z",
+      "attemptedAt": "2026-07-20T02:52:29.005Z",
+      "updatedAt": "2026-07-20T02:52:29.005Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.99,
@@ -8692,7 +8692,8 @@
       },
       "evidence": [
         "SharkNinja's official Greenhouse board displayed this role with an active Apply action on July 17, 2026.",
-        "The official posting confirms July-December 2026 timing, five-day onsite schedule in Needham, CMF and UI-support responsibilities, student or recent-graduate eligibility, required work samples, and $27-$35 hourly compensation; no deadline is listed."
+        "The official posting confirms July-December 2026 timing, five-day onsite schedule in Needham, CMF and UI-support responsibilities, student or recent-graduate eligibility, required work samples, and $27-$35 hourly compensation; no deadline is listed.",
+        "SharkNinja's active official Greenhouse board and direct job endpoint no longer returned posting 4655085006 on consecutive checks at 02:41 and 02:52 UTC on July 20, 2026, confirming that the role was removed."
       ],
       "needsReview": false
     },
@@ -8997,7 +8998,7 @@
       "organization": "SharkNinja",
       "section": "tech",
       "type": "co-op",
-      "status": "open",
+      "status": "closed",
       "sourceId": "src-sharkninja-greenhouse",
       "sourceName": "SharkNinja Greenhouse",
       "sourceUrl": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4646411006",
@@ -9007,7 +9008,8 @@
       "compensation": "$27-$36 USD per hour",
       "eligibility": "Current bachelor's or master's student, or graduate within the past year; full-time onsite July/August-December 2026; CAD and hands-on prototyping experience required.",
       "discoveredAt": "2026-07-14T15:16:41.735-07:00",
-      "updatedAt": "2026-07-14T15:16:41.735-07:00",
+      "attemptedAt": "2026-07-20T02:52:29.005Z",
+      "updatedAt": "2026-07-20T02:52:29.005Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.97,
@@ -9016,7 +9018,8 @@
       },
       "evidence": [
         "Official SharkNinja Greenhouse application page was open and accepting applications on July 14, 2026.",
-        "The page confirms user-centered product design engineering, CAD and prototype work, onsite schedule, eligibility, and hourly pay range."
+        "The page confirms user-centered product design engineering, CAD and prototype work, onsite schedule, eligibility, and hourly pay range.",
+        "SharkNinja's active official Greenhouse board and direct job endpoint no longer returned posting 4646411006 on consecutive checks at 02:41 and 02:52 UTC on July 20, 2026, confirming that the role was removed."
       ],
       "needsReview": false
     },
