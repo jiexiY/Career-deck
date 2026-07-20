@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T13:21:23.160Z",
+  "updatedAt": "2026-07-20T16:09:55.731Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
@@ -12777,6 +12777,36 @@
         "Verkada's official Greenhouse API returned active job 4321159007 on July 20, 2026; the ATS record was last updated July 16, 2026.",
         "The official posting confirms product electrical-design work from prototype through mass production for cameras, access-control systems, sensors, and other enterprise IoT hardware, plus an in-person San Mateo Fall 2026 co-op term and a $45 hourly range.",
         "The employer source explicitly states employment-visa sponsorship is available; it does not list an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-bosch-electronics-engineering-intern",
+      "title": "Electronics Engineering Intern",
+      "organization": "FHP Manufacturing (Bosch Group / Carrier)",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-bosch-smartrecruiters-744000126066306",
+      "sourceName": "Bosch Group Careers / SmartRecruiters",
+      "sourceUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000126066306",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000126066306",
+      "location": "Fort Lauderdale, Florida, United States - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need a B.A. in Electronics, Electrical Engineering, or Mechatronics with an electrical, software, or controls focus. Relevant skills include electrical and electronic circuit and system analysis, communicating engineering requirements, cross-disciplinary collaboration, and task ownership. Work covers electrical-box design and testing, layouts, cable harnesses and routing, component specifications, motor-control and inverter optimization, simulation and laboratory testing, engineering modifications, drawings, and support for new and existing HVAC products. SmartRecruiters labels the employment type full-time, while Bosch's working-hours field says full-time and/or part-time. The official source does not state current-enrollment requirements, term dates, duration, compensation, an application deadline, or work-authorization terms.",
+      "discoveredAt": "2026-07-20T16:09:55.731Z",
+      "attemptedAt": "2026-07-20T16:09:55.731Z",
+      "updatedAt": "2026-07-20T16:09:55.731Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.94,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Bosch Group's official SmartRecruiters API returned active public posting 744000126066306, requisition REF285446Z, on July 20, 2026; the employer released it May 12, 2026.",
+        "The employer source confirms the Fort Lauderdale onsite location, intern position type, limited contract, full-time employment label, separate full-time and/or part-time working-hours field, degree requirement, and electrical product-design scope. It does not list term dates, duration, compensation, a deadline, or work-authorization terms."
       ],
       "needsReview": false
     }
