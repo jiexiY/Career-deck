@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-20T03:30:59.401Z",
+  "updatedAt": "2026-07-20T03:45:29.646Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-20-henkel-industrial-packaging-design-intern",
+      "title": "Internship Industrial Design/Packaging Design",
+      "organization": "Henkel",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-henkel-careers",
+      "sourceName": "Henkel Careers",
+      "sourceUrl": "https://www.henkel.de/karriere/jobs-und-bewerbung/2154114-2154114",
+      "url": "https://www.henkel.de/karriere/jobs-und-bewerbung/2154114-2154114",
+      "location": "Dusseldorf, North Rhine-Westphalia, Germany - hybrid",
+      "deadline": "Open while listed on the official Henkel career site",
+      "compensation": "EUR 1,050-EUR 2,270 gross per month depending on internship duration, voluntary or mandatory status, and existing degrees",
+      "eligibility": "Current industrial-design student with a creative and organized approach. Adobe tools and CAD experience with SolidWorks or Onshape are preferred; visualization skills are required, while plastics-manufacturing and packaging-sustainability knowledge are beneficial. Work includes packaging and product-shape design, usability and user experience, 3D-printed prototypes, and industrial-design guidance. The official source does not state the internship duration, start date, degree year, language requirement, portfolio requirement, or work-authorization terms.",
+      "discoveredAt": "2026-07-20T03:45:29.646Z",
+      "attemptedAt": "2026-07-20T03:45:29.646Z",
+      "updatedAt": "2026-07-20T03:45:29.646Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Henkel's official German careers page displayed job ID 26093921 with an active Apply for this role action on July 19, 2026.",
+        "The employer source confirms a full-time, limited industrial and packaging design internship in Dusseldorf, hybrid flexibility, the study and software profile, and EUR 1,050-EUR 2,270 gross monthly pay. It lists no fixed closing date and accepts applications while the vacancy remains on the career site."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-20-modyn-product-design-intern",
       "title": "Product Design Internship",
