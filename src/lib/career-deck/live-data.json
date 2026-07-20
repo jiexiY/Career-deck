@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-07-20T03:45:29.646Z",
+  "updatedAt": "2026-07-20T04:25:30.218Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-20-liquidpiston-design-engineer-intern",
+      "title": "Design Engineer Internship - Fall 2026",
+      "organization": "LiquidPiston",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-liquidpiston-jazzhr",
+      "sourceName": "LiquidPiston Careers / JazzHR",
+      "sourceUrl": "https://apply.liquidpiston.com/apply/kcKIg7tDJD/Design-Engineer-Internship-Fall-2026",
+      "url": "https://apply.liquidpiston.com/apply/kcKIg7tDJD/Design-Engineer-Internship-Fall-2026",
+      "location": "Bloomfield, Connecticut, United States - onsite; relocating to Suffield later in 2026",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid internship; amount not listed on official source",
+      "eligibility": "Pursuing a bachelor's or master's degree in Mechanical Engineering or a related field, with rising juniors, seniors, and graduate students preferred. Applicants need strong CAD skills, preferably SolidWorks, mechanical-design fundamentals, and hands-on prototyping experience. Work includes rotary-engine component and subsystem design, models and drawings, FEA support, prototyping, design for manufacturing, and tooling. The full-time Fall 2026 internship is onsite five days per week, offers multiple openings, provides no relocation assistance, and prefers U.S. person status due to defense and aerospace projects.",
+      "discoveredAt": "2026-07-20T04:25:30.218Z",
+      "attemptedAt": "2026-07-20T04:25:30.218Z",
+      "updatedAt": "2026-07-20T04:25:30.218Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "LiquidPiston's official recruiting page displayed the Fall 2026 Design Engineer Internship and an active application form on July 19, 2026.",
+        "The employer source confirms a full-time, paid, five-day onsite internship with multiple openings, the engineering and CAD requirements, no relocation assistance, and a U.S. person preference. It does not list a closing date or pay amount."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-pca-packaging-design-intern",
+      "title": "Design Intern - Marshfield, WI",
+      "organization": "Packaging Corporation of America",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-pca-careers",
+      "sourceName": "Packaging Corporation of America Careers",
+      "sourceUrl": "https://careers.packagingcorp.com/career-search/posting/design-intern--marshfield-wi/23464",
+      "url": "https://careers.packagingcorp.com/career-search/posting/design-intern--marshfield-wi/23464",
+      "location": "Marshfield, Wisconsin, United States",
+      "deadline": "Not listed on official source",
+      "compensation": "$20 per hour",
+      "eligibility": "Currently enrolled in Packaging Engineering with knowledge of corrugated structural design, CAD, Microsoft Office, materials, and manufacturing. Applicants should bring communication, creativity, and problem-solving skills. Work includes structural containerboard packaging design, prototypes and samples, CAD specifications, and packaging and materials testing. The official source does not state the schedule, start date, duration, degree year, or work-authorization terms.",
+      "discoveredAt": "2026-07-20T04:25:30.218Z",
+      "attemptedAt": "2026-07-20T04:25:30.218Z",
+      "updatedAt": "2026-07-20T04:25:30.218Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Packaging Corporation of America's official careers page displayed requisition 23464, a February 23, 2026 posting date, and an active Apply to Job action on July 19, 2026.",
+        "The employer source confirms Packaging Engineering enrollment, structural packaging and CAD work, and a $20 per hour starting rate. It does not list a deadline, term, schedule, or work-authorization requirement."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-fortune-brands-industrial-design-intern",
+      "title": "Industrial Design Intern",
+      "organization": "Fortune Brands Innovations",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-fortune-brands-smartrecruiters",
+      "sourceName": "Fortune Brands SmartRecruiters",
+      "sourceUrl": "https://jobs.smartrecruiters.com/FortuneBrands/744000116207685-industrial-design-intern",
+      "url": "https://jobs.smartrecruiters.com/FortuneBrands/744000116207685-industrial-design-intern",
+      "location": "Deerfield, Illinois, United States - hybrid, three office days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "$33,300-$45,760 base salary range; pay cadence not specified on official source",
+      "eligibility": "Actively pursuing a bachelor's degree in Industrial Design with 2D hand and digital sketching, Adobe Creative Suite, 3D modeling, rendering, and presentation skills. SolidWorks is preferred and used for project CAD; KeyShot, Vizcom, InDesign, PowerPoint, Miro, or equivalent tools are relevant. Work spans discovery research, concept development and testing, CAD, product collections, color-material-finish development, sketches, prototypes, and cross-functional collaboration. This Summer 2026 internship follows a hybrid schedule with office attendance Tuesday through Thursday. The official source does not state exact term dates, a deadline, or work-authorization terms.",
+      "discoveredAt": "2026-07-20T04:25:30.218Z",
+      "attemptedAt": "2026-07-20T04:25:30.218Z",
+      "updatedAt": "2026-07-20T04:25:30.218Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Fortune Brands' official SmartRecruiters posting and public employer API displayed posting 744000116207685 with an active application route on July 19, 2026.",
+        "The employer source confirms the Summer 2026 industrial-design scope, bachelor's enrollment and design-tool profile, three-day hybrid office schedule, and $33,300-$45,760 base salary range. It does not specify the pay cadence, exact term dates, deadline, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-20-henkel-industrial-packaging-design-intern",
       "title": "Internship Industrial Design/Packaging Design",
