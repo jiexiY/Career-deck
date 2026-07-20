@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T17:06:28.537Z",
+  "updatedAt": "2026-07-20T21:36:36.391Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
@@ -12839,6 +12839,37 @@
         "The employer source confirms the South San Francisco location, non-exempt internship classification, digital IC architecture-through-silicon scope, required experience and languages, and a California flat rate of $35 per hour USD. It does not list a term, duration, application deadline, enrollment requirement, or work-authorization terms."
       ],
       "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-anduril-2027-electrical-engineer-intern",
+      "title": "2027 Electrical Engineer Intern",
+      "organization": "Anduril Industries",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-anduril-greenhouse-5148101007",
+      "sourceName": "Anduril Careers / Greenhouse",
+      "sourceUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007",
+      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007",
+      "location": "Atlanta, Georgia; Boston, Massachusetts; Costa Mesa, California; Irvine, California; Reston, Virginia; or Seattle, Washington - paid, in-person, 12-week Summer 2027 internship",
+      "deadline": "Not listed; recruiter review is expected to begin in August 2026",
+      "compensation": "$30-$45 USD (pay period not stated on official source)",
+      "eligibility": "Pursuing a bachelor's degree in Electrical Engineering, Computer Engineering, or an equivalent field; returning to school for at least one quarter or semester after the internship; able to complete a 12-week in-person internship in one of the listed offices; and a U.S. Person because the role accesses export-controlled data. Preferred experience includes oscilloscopes and other laboratory equipment, Ethernet, CAN, I2C, SPI, PCIe, and USB interfaces, embedded Linux, Altium Designer or equivalent electronic-design tools, C or C++, and Python or another common programming language. Work covers electronics from concept through functional prototype, hardware selection, PCB design, system integration, hardware-software debugging, embedded firmware, and cross-functional product delivery.",
+      "discoveredAt": "2026-07-20T21:36:36.391Z",
+      "attemptedAt": "2026-07-20T21:36:36.391Z",
+      "updatedAt": "2026-07-20T21:36:36.391Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Anduril's official Greenhouse API returned active job 5148101007, requisition 10315, on July 20, 2026; the ATS record was updated July 17, 2026 and accepts early applications for Summer 2027 electrical engineering internships.",
+        "The official posting confirms concept-to-prototype electronics design, PCB design, system integration, embedded firmware, a 12-week paid in-person format, six listed U.S. locations, student and export-control eligibility, and the displayed $30-$45 USD range without a stated pay period.",
+        "Source check required: Anduril states that this exact role may not be open today, that the application places candidates on its radar for future matching opportunities, and that review is expected to begin in August 2026."
+      ],
+      "needsReview": true
     }
   ]
 }
