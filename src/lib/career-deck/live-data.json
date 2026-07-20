@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-07-20T02:52:29.005Z",
+  "updatedAt": "2026-07-20T03:05:59.094Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-20-delsys-software-engineer-uiux-fall-intern",
+      "title": "Software Engineer - UI/UX (Fall 26' Intern)",
+      "organization": "Delsys",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-delsys-zoho",
+      "sourceName": "Delsys Zoho Recruit",
+      "sourceUrl": "https://delsys.zohorecruit.com/jobs/Careers/701152000005727024/Software-Engineer---UI-UX-Fall-26-Intern?source=CareerSite",
+      "url": "https://delsys.zohorecruit.com/jobs/Careers/701152000005727024/Software-Engineer---UI-UX-Fall-26-Intern?source=CareerSite",
+      "location": "Natick, MA - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "$28-$32 USD per hour",
+      "eligibility": "Currently enrolled in or recently graduated from an undergraduate or graduate program in computer engineering, computer science, or a similar field; fluent in C#, Java, or JavaScript; experience with Figma or Adobe XD and a modern front-end framework such as WPF, React, or Angular; strong object-oriented design and MVVM skills; and valid U.S. work eligibility. Windows .NET WPF or Unity experience is useful but not required.",
+      "discoveredAt": "2026-07-20T03:05:59.094Z",
+      "attemptedAt": "2026-07-20T03:05:59.094Z",
+      "updatedAt": "2026-07-20T03:05:59.094Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Delsys's employer careers page linked to its official Zoho Recruit board, which listed record 701152000005727024 as published and active with an application page on July 19, 2026; Zoho records a June 22, 2026 opening date.",
+        "The official record confirms an onsite Natick internship at $28-$32 per hour focused on user-interface strategy and real-time physiological-data visualization. It lists the education, design-tool, front-end, and work-eligibility requirements above but no application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-genauto-uiux-autonomous-vehicles-intern",
+      "title": "UI/UX Internship - Autonomous Vehicles",
+      "organization": "Gen Auto AI",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-genauto-employer",
+      "sourceName": "Gen Auto AI Careers",
+      "sourceUrl": "https://genauto.ai/careers/ui-ux-internship-autonomous-vehicles/",
+      "url": "https://genauto.ai/careers/ui-ux-internship-autonomous-vehicles/",
+      "location": "Piscataway, NJ - hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants should have experience with Figma, Adobe XD, or similar UI/UX tools, an understanding of human factors in high-risk systems, and familiarity with design systems, visual hierarchy, and responsive frameworks. AI explainability, LLM interaction models, simulation-based UI testing, AR/VR, automotive or robotics UX, safety standards, data visualization, and accessibility are preferred. A portfolio and a short human-machine-interface concept paragraph are required. The official posting does not state enrollment, degree, work-authorization, schedule, term, or compensation requirements.",
+      "discoveredAt": "2026-07-20T03:05:59.094Z",
+      "attemptedAt": "2026-07-20T03:05:59.094Z",
+      "updatedAt": "2026-07-20T03:05:59.094Z",
+      "confidence": {
+        "source": 0.98,
+        "extraction": 0.99,
+        "freshness": 0.9,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Gen Autonomy Inc.'s employer-hosted careers page displayed this hybrid Piscataway UI/UX internship and a live application form on July 19, 2026.",
+        "The official posting focuses on interfaces, prototypes, user research, and data visualization for AI-driven autonomous-vehicle safety. It requires a portfolio and short concept paragraph but provides no posting date, deadline, internship term, compensation, enrollment, or work-authorization details."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-20-deeplocal-fall-design-intern",
       "title": "Fall Design Intern",
