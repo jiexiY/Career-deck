@@ -1,6 +1,216 @@
 {
-  "updatedAt": "2026-07-20T06:58:35.132Z",
+  "updatedAt": "2026-07-20T08:01:53.533Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
+      "title": "Industrial Design Co-op",
+      "organization": "Marmon Foodservice Technologies",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-marmon-workday-jr0000044501",
+      "sourceName": "Marmon Foodservice Technologies Careers / Workday",
+      "sourceUrl": "https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Carol-Stream-IL/Industrial-Design-Co-op_JR0000044501-1",
+      "url": "https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Carol-Stream-IL/Industrial-Design-Co-op_JR0000044501-1",
+      "location": "Carol Stream, Illinois - onsite, three to four studio days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "19.80-24.20; currency and pay cadence not specified on official source",
+      "eligibility": "Currently pursuing a bachelor's degree in Industrial Design or a related field. Strong sketching, ideation, communication, hands-on prototyping, and model-making skills are required, along with SolidWorks, Adobe Creative Suite, Figma, and KeyShot. The fall co-op covers independent user research, concept visualization, user testing, prototyping, and cross-functional product development for foodservice equipment. It is based in Carol Stream with three to four studio days per week; the official source does not identify the fall year, exact term dates, deadline, or work-authorization terms.",
+      "discoveredAt": "2026-07-20T08:01:53.533Z",
+      "attemptedAt": "2026-07-20T08:01:53.533Z",
+      "updatedAt": "2026-07-20T08:01:53.533Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Marmon's official internship Workday site displayed requisition JR0000044501 as active and posted four days before the July 20, 2026 check.",
+        "The employer source confirms the fall industrial-design scope, degree and software profile, onsite studio schedule, and a 19.80-24.20 pay range. It does not identify the range's currency or cadence, the fall year, exact term dates, an application deadline, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-generac-mechanical-design-engineering-intern",
+      "title": "Mechanical Design Engineering Intern",
+      "organization": "Generac Clean Energy",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-generac-workday-jr14679",
+      "sourceName": "Generac Careers / Workday",
+      "sourceUrl": "https://generac.wd5.myworkdayjobs.com/External/job/North-Billerica-MA---USA/Mechanical-Design-Engineering-Intern_JR14679",
+      "url": "https://generac.wd5.myworkdayjobs.com/External/job/North-Billerica-MA---USA/Mechanical-Design-Engineering-Intern_JR14679",
+      "location": "North Billerica, Massachusetts, United States - onsite five days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a bachelor's degree in Mechanical Engineering or a related engineering discipline. Applicants need mechanical-design fundamentals, 3D CAD coursework or projects, 2D drafting familiarity, communication skills, and comfort working in a hands-on lab and prototype environment. SolidWorks, GD&T, tolerance analysis, design for manufacturing and assembly, rapid prototyping, FEA, and clean-energy experience are preferred. Work covers battery-energy-storage components, CAD and drawings, prototypes, validation, and cross-functional product development. The internship is full-time and onsite five days per week; the official source does not state term dates, duration, compensation, degree year, or work-authorization terms.",
+      "discoveredAt": "2026-07-20T08:01:53.533Z",
+      "attemptedAt": "2026-07-20T08:01:53.533Z",
+      "updatedAt": "2026-07-20T08:01:53.533Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Generac's official Workday site displayed full-time requisition JR14679 as active in North Billerica and labeled it Posted 30+ Days Ago on July 20, 2026.",
+        "The employer source confirms the five-day onsite schedule, current mechanical-engineering enrollment, CAD and prototype requirements, and battery-energy-storage design scope. It does not list compensation, term dates, duration, an application deadline, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-bosch-mechanical-design-engineering-intern",
+      "title": "Mechanical Design Engineering Intern",
+      "organization": "FHP Manufacturing (Bosch Group / Carrier)",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-bosch-smartrecruiters-744000131662039",
+      "sourceName": "Bosch Group Careers / SmartRecruiters",
+      "sourceUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000131662039",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000131662039",
+      "location": "Fort Lauderdale, Florida, United States - onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need proficiency with Siemens NX or equivalent CAD software, mechanical-engineering and design fundamentals, engineering and tolerance calculations, technical-drawing skills, analytical problem solving, and clear communication. FEA or simulation, manufacturing-process and material knowledge, 3D visualization, project-management methods, and previous mechanical-design project or internship experience are preferred. Work includes CAD models and drawings, component analysis, design reviews, technical documentation, prototypes, testing, fixtures, and production-layout design. The role is full-time and onsite; the official source does not state an enrollment or degree requirement, term dates, duration, compensation, deadline, or work-authorization terms.",
+      "discoveredAt": "2026-07-20T08:01:53.533Z",
+      "attemptedAt": "2026-07-20T08:01:53.533Z",
+      "updatedAt": "2026-07-20T08:01:53.533Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Bosch Group's official SmartRecruiters API and application page displayed posting 744000131662039, requisition REF288425G, as active on July 20, 2026; the employer released it June 11, 2026.",
+        "The employer source confirms the Fort Lauderdale onsite location, full-time status, Siemens NX and mechanical-design requirements, and concept-through-prototype scope. It does not list student eligibility, term dates, duration, compensation, a deadline, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-crane-design-engineer-coop",
+      "title": "Design Engineer Co-op",
+      "organization": "Crane Company",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-crane-workday-jr101945",
+      "sourceName": "Crane Company Careers / Workday",
+      "sourceUrl": "https://cranecompany.wd5.myworkdayjobs.com/Careers/job/Spartanburg-South-Carolina/Design-Engineer-Co-op_JR101945",
+      "url": "https://cranecompany.wd5.myworkdayjobs.com/Careers/job/Spartanburg-South-Carolina/Design-Engineer-Co-op_JR101945",
+      "location": "Spartanburg, South Carolina - full-time",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "The co-op works directly with product engineering under a senior-engineer mentor on new-product design and sustaining engineering. Responsibilities include 3D CAD models, manufacturing drawings, laboratory test results, bills of material, technical specifications, and design-data records. The official source does not list enrollment, degree, software, term dates, duration, compensation, application deadline, or work-authorization requirements.",
+      "discoveredAt": "2026-07-20T08:01:53.533Z",
+      "attemptedAt": "2026-07-20T08:01:53.533Z",
+      "updatedAt": "2026-07-20T08:01:53.533Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.95,
+        "freshness": 0.95,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Crane Company's official Workday site displayed full-time requisition JR101945 as active in Spartanburg and labeled it Posted 30+ Days Ago on July 20, 2026.",
+        "The employer source confirms mentored product design and sustaining engineering work across 3D CAD, manufacturing drawings, laboratory results, bills of material, and specifications. It does not publish student criteria, term dates, compensation, a deadline, or work-authorization details."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-menasha-custom-packaging-design-engineer-coop-summer-fall-2026",
+      "title": "Custom Packaging Design Engineer Co-Op (Summer/Fall 2026)",
+      "organization": "ORBIS Corporation (Menasha Corporation)",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-menasha-workday-r13995",
+      "sourceName": "Menasha Corporation Careers / Workday",
+      "sourceUrl": "https://menasha.wd12.myworkdayjobs.com/MenashaCorp/job/Piedmont-South-Carolina/Custom-Packaging-Design-Engineer-Co-Op--Summer-Fall-2026-_R13995",
+      "url": "https://menasha.wd12.myworkdayjobs.com/MenashaCorp/job/Piedmont-South-Carolina/Custom-Packaging-Design-Engineer-Co-Op--Summer-Fall-2026-_R13995",
+      "location": "Piedmont, South Carolina - onsite at the Greenville-area ORBIS location",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Junior or senior currently enrolled in post-secondary education and pursuing a technical or bachelor's degree in Plastic Engineering Technology, Packaging Engineering, or a related field. Applicants need plastic-processing, mechanical- or packaging-engineering knowledge, blueprint interpretation, AutoCAD or SolidWorks, communication, and the ability to travel to manufacturing plants. The six-month continuous onsite co-op runs from Summer 2026 through December 2026, with possible extension into spring. ORBIS states that it cannot sponsor work authorization for intern or co-op positions.",
+      "discoveredAt": "2026-07-20T08:01:53.533Z",
+      "attemptedAt": "2026-07-20T08:01:53.533Z",
+      "updatedAt": "2026-07-20T08:01:53.533Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Menasha Corporation's official Workday site displayed requisition R13995 as active in Piedmont on July 20, 2026.",
+        "The employer source confirms the Summer-through-December 2026 term, continuous six-month onsite schedule, enrolled junior or senior requirement, packaging-design and prototype scope, AutoCAD or SolidWorks profile, and no sponsorship. It does not list compensation or an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-menasha-custom-packaging-design-engineer-coop-fall-2027",
+      "title": "Custom Packaging Design Engineer Co-Op (Fall 2027)",
+      "organization": "ORBIS Corporation (Menasha Corporation)",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-menasha-workday-r12881",
+      "sourceName": "Menasha Corporation Careers / Workday",
+      "sourceUrl": "https://menasha.wd12.myworkdayjobs.com/MenashaCorp/job/Piedmont-South-Carolina/Custom-Packaging-Design-Engineer-Co-Op--Fall-2027-_R12881",
+      "url": "https://menasha.wd12.myworkdayjobs.com/MenashaCorp/job/Piedmont-South-Carolina/Custom-Packaging-Design-Engineer-Co-Op--Fall-2027-_R12881",
+      "location": "Piedmont, South Carolina - onsite at the Greenville-area ORBIS location",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Junior or senior currently enrolled in post-secondary education and pursuing a technical or bachelor's degree in Plastic Engineering Technology, Packaging Engineering, or a related field. Applicants need plastic-processing, mechanical- or packaging-engineering knowledge, blueprint interpretation, AutoCAD or SolidWorks, communication, and the ability to travel to manufacturing plants. The six-month continuous onsite co-op runs from June through December 2027. ORBIS states that it cannot sponsor work authorization for intern or co-op positions.",
+      "discoveredAt": "2026-07-20T08:01:53.533Z",
+      "attemptedAt": "2026-07-20T08:01:53.533Z",
+      "updatedAt": "2026-07-20T08:01:53.533Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Menasha Corporation's official Workday site displayed requisition R12881 as active in Piedmont on July 20, 2026.",
+        "The employer source confirms the June-December 2027 term, continuous six-month onsite schedule, enrolled junior or senior requirement, packaging-design and prototype scope, AutoCAD or SolidWorks profile, and no sponsorship. It does not list compensation or an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-menasha-custom-packaging-design-engineer-coop-spring-2027",
+      "title": "Custom Packaging Design Engineer Co-Op (Spring 2027)",
+      "organization": "ORBIS Corporation (Menasha Corporation)",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-menasha-workday-r12880",
+      "sourceName": "Menasha Corporation Careers / Workday",
+      "sourceUrl": "https://menasha.wd12.myworkdayjobs.com/MenashaCorp/job/Piedmont-South-Carolina/Custom-Packaging-Design-Engineer-Co-Op--Spring-2027-_R12880",
+      "url": "https://menasha.wd12.myworkdayjobs.com/MenashaCorp/job/Piedmont-South-Carolina/Custom-Packaging-Design-Engineer-Co-Op--Spring-2027-_R12880",
+      "location": "Piedmont, South Carolina - onsite at the Greenville-area ORBIS location",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Junior or senior currently enrolled in post-secondary education and pursuing a technical or bachelor's degree in Plastic Engineering Technology, Packaging Engineering, or a related field. Applicants need plastic-processing, mechanical- or packaging-engineering knowledge, blueprint interpretation, AutoCAD or SolidWorks, communication, and the ability to travel to manufacturing plants. The six-month continuous onsite co-op runs from January through June 2027, with possible extension into summer. ORBIS states that it cannot sponsor work authorization for intern or co-op positions.",
+      "discoveredAt": "2026-07-20T08:01:53.533Z",
+      "attemptedAt": "2026-07-20T08:01:53.533Z",
+      "updatedAt": "2026-07-20T08:01:53.533Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Menasha Corporation's official Workday site displayed requisition R12880 as active in Piedmont on July 20, 2026.",
+        "The employer source confirms the January-June 2027 term with possible summer extension, continuous six-month onsite schedule, enrolled junior or senior requirement, packaging-design and prototype scope, AutoCAD or SolidWorks profile, and no sponsorship. It does not list compensation or an application deadline."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-20-peak-energy-mechanical-design-intern-winter-2027",
       "title": "Mechanical Design Intern (Winter 2027)",
