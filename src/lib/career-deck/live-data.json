@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T22:16:36.968Z",
+  "updatedAt": "2026-07-20T23:06:37.826Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
@@ -12899,6 +12899,99 @@
         "Rocket Lab's official Greenhouse API returned active job 7736088003, requisition JR104328, on July 20, 2026; the ATS record was first published May 19, 2026 and updated July 13, 2026.",
         "The official posting confirms an Albuquerque-based Fall 2026 internship supporting the Cell Product team, with product-development, hands-on prototyping, solar-cell, circuit, semiconductor, heat-transfer, and production-line scope.",
         "The employer source lists a minimum 12-week full-time on-site commitment beginning in August or September 2026, student and export-control eligibility, and a possible relocation stipend; it does not list salary or an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-wsp-electrical-engineering-intern-substations-summer-fall-2026",
+      "title": "Electrical Engineering Intern (Substations) - Summer/Fall 2026",
+      "organization": "WSP",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-wsp-oracle-90824",
+      "sourceName": "WSP Careers / Oracle Cloud",
+      "sourceUrl": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/90824",
+      "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/90824",
+      "location": "Maitland or Orlando, Florida - full-time Summer/Fall 2026 internship",
+      "deadline": "Not listed",
+      "compensation": "Not listed; no relocation or housing assistance",
+      "eligibility": "Actively enrolled in an accredited undergraduate Electrical Engineering or related program with an anticipated graduation date of December 2026 or later; age 18 or older; and authorized to work in the United States at the start of the internship. Preferred preparation includes junior-level power-system analysis or protection courses, prior engineering experience, the FE/EIT exam, and familiarity with Mathcad, SolidWorks, AutoCAD, or Excel. Work spans substation one-lines, schematics, wiring diagrams, SCADA and communications, physical layouts, grounding, structural and foundation plans, lightning protection, design calculations, QA/QC checks, and possible site visits.",
+      "discoveredAt": "2026-07-20T23:06:37.826Z",
+      "attemptedAt": "2026-07-20T23:06:37.826Z",
+      "updatedAt": "2026-07-20T23:06:37.826Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "WSP's official Oracle Candidate Experience page and public requisition API returned active job 90824 on July 20, 2026; the posting began July 9, 2026 and has no listed end date.",
+        "The employer posting confirms Maitland and Orlando locations, full-time Summer/Fall 2026 timing, undergraduate enrollment and U.S. work-authorization requirements, and extensive substation design responsibilities.",
+        "The official source does not list pay or an application deadline and explicitly states that relocation and housing assistance are unavailable."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-wsp-electrical-engineering-coop-fall-2026-winter-2027",
+      "title": "Electrical Engineering Co-op - Fall 2026/Winter 2027",
+      "organization": "WSP",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-wsp-oracle-87098",
+      "sourceName": "WSP Careers / Oracle Cloud",
+      "sourceUrl": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/87098",
+      "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/87098",
+      "location": "Philadelphia, Pennsylvania - full-time Drexel co-op anticipated September 22 through March 26; start dates may be flexible",
+      "deadline": "Not listed",
+      "compensation": "$23.90-$31.11 USD per hour; no relocation or housing assistance",
+      "eligibility": "Actively enrolled through Drexel University in an accredited undergraduate Electrical Engineering, Architectural Engineering, or related program with an anticipated graduation date of March 2027 or later; and authorized to work in the United States at the start of the co-op. A related master's or doctoral program, AutoCAD and Revit experience, prior internships, and campus leadership are preferred. Work covers power distribution, lighting and controls, low-voltage systems, building plans and diagrams, preliminary design calculations, Revit modeling, engineering drawings and specifications, documentation, and site visits across renovation and new-construction projects.",
+      "discoveredAt": "2026-07-20T23:06:37.826Z",
+      "attemptedAt": "2026-07-20T23:06:37.826Z",
+      "updatedAt": "2026-07-20T23:06:37.826Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "WSP's official Oracle Candidate Experience page and public requisition API returned active job 87098 on July 20, 2026; the posting began May 21, 2026 and has no listed end date.",
+        "The employer posting confirms a Philadelphia-based Drexel co-op, anticipated September 22 through March 26, with electrical building-design work in power distribution, lighting, low-voltage systems, Revit, drawings, calculations, and field review.",
+        "The official source lists $23.90-$31.11 USD per hour, Drexel enrollment and March 2027-or-later graduation eligibility, U.S. work authorization, and no relocation or housing assistance; it does not list an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-wsp-mechanical-engineering-coop-fall-2026-winter-2027",
+      "title": "Mechanical Engineering Co-op - Fall 2026/Winter 2027",
+      "organization": "WSP",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-wsp-oracle-87100",
+      "sourceName": "WSP Careers / Oracle Cloud",
+      "sourceUrl": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/87100",
+      "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/87100",
+      "location": "Philadelphia, Pennsylvania - full-time Drexel co-op anticipated September 22 through March 26; start dates may be flexible",
+      "deadline": "Not listed",
+      "compensation": "$23.90-$31.11 USD per hour; no relocation or housing assistance",
+      "eligibility": "Actively enrolled through Drexel University in an accredited undergraduate Mechanical Engineering, Architectural Engineering, or related program with an anticipated graduation date of March 2027 or later; age 18 or older; and authorized to work in the United States at the start of the co-op. A related master's or doctoral program, AutoCAD and Revit experience, prior internships, and campus leadership are preferred. Work covers HVAC engineering, building plans and mechanical diagrams, preliminary design calculations, Revit modeling of airside and hydronic systems, engineering drawings and specifications, documentation, and site visits across renovation and new-construction projects.",
+      "discoveredAt": "2026-07-20T23:06:37.826Z",
+      "attemptedAt": "2026-07-20T23:06:37.826Z",
+      "updatedAt": "2026-07-20T23:06:37.826Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "WSP's official Oracle Candidate Experience page and public requisition API returned active job 87100 on July 20, 2026; the posting began May 21, 2026 and has no listed end date.",
+        "The employer posting confirms a Philadelphia-based Drexel co-op, anticipated September 22 through March 26, with mechanical building-design work in HVAC, Revit airside and hydronic systems, drawings, calculations, and field review.",
+        "The official source lists $23.90-$31.11 USD per hour, Drexel enrollment and March 2027-or-later graduation eligibility, age and U.S. work-authorization requirements, and no relocation or housing assistance; it does not list an application deadline."
       ],
       "needsReview": false
     }
