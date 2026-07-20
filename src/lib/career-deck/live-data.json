@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T21:36:36.391Z",
+  "updatedAt": "2026-07-20T22:16:36.968Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
@@ -12870,6 +12870,37 @@
         "Source check required: Anduril states that this exact role may not be open today, that the application places candidates on its radar for future matching opportunities, and that review is expected to begin in August 2026."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-20-rocket-lab-rd-engineering-intern-fall-2026",
+      "title": "R&D Engineering Intern Fall 2026",
+      "organization": "Rocket Lab",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-rocket-lab-greenhouse-7736088003",
+      "sourceName": "Rocket Lab Careers / Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/rocketlab/jobs/7736088003",
+      "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7736088003",
+      "location": "Albuquerque, New Mexico - full-time, on-site, minimum 12 consecutive weeks beginning August or September 2026",
+      "deadline": "Not listed",
+      "compensation": "Not listed; a stipend to subsidize relocation costs may be available",
+      "eligibility": "Enrolled in a bachelor's, master's, or doctorate program in engineering, physics, or mathematics with at least one semester remaining after the internship; GPA of 3.0 or above; at least three months of applied engineering experience through an internship, laboratory, or personal or team project; and able to work full-time on-site for at least 12 consecutive weeks beginning in August or September 2026. U.S. export-control eligibility requires U.S. citizenship, lawful permanent residence, refugee or asylum status, or eligibility to obtain required U.S. government authorization. Preferred experience includes Python, Excel, hands-on prototyping, solar-cell processing or panel assembly, robotic arms, AI tools, circuits, semiconductor physics, heat transfer, and thermodynamics. Work supports the Cell Product team in developing technologies into production product lines.",
+      "discoveredAt": "2026-07-20T22:16:36.968Z",
+      "attemptedAt": "2026-07-20T22:16:36.968Z",
+      "updatedAt": "2026-07-20T22:16:36.968Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Rocket Lab's official Greenhouse API returned active job 7736088003, requisition JR104328, on July 20, 2026; the ATS record was first published May 19, 2026 and updated July 13, 2026.",
+        "The official posting confirms an Albuquerque-based Fall 2026 internship supporting the Cell Product team, with product-development, hands-on prototyping, solar-cell, circuit, semiconductor, heat-transfer, and production-line scope.",
+        "The employer source lists a minimum 12-week full-time on-site commitment beginning in August or September 2026, student and export-control eligibility, and a possible relocation stipend; it does not list salary or an application deadline."
+      ],
+      "needsReview": false
     }
   ]
 }
