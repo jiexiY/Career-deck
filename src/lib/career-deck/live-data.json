@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T09:54:22.793Z",
+  "updatedAt": "2026-07-20T11:27:21.428Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
@@ -12717,6 +12717,37 @@
         "Source check required: Anduril states that this exact role may not be open today, that the application places candidates on its radar for future matching opportunities, and that review is expected to begin in August 2026."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-20-vast-fall-mechanical-aerospace-internship",
+      "title": "2026 Fall Internship - Mechanical / Aerospace",
+      "organization": "Vast",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-vast-greenhouse-4694905006",
+      "sourceName": "Vast Careers / Greenhouse",
+      "sourceUrl": "https://boards.greenhouse.io/vast/jobs/4694905006?gh_jid=4694905006",
+      "url": "https://boards.greenhouse.io/vast/jobs/4694905006?gh_jid=4694905006",
+      "location": "Long Beach, California, United States - full-time onsite, 12-week Fall 2026 internship",
+      "deadline": "Not listed on official source",
+      "compensation": "$35-$40 USD (pay period not stated on official source)",
+      "eligibility": "Enrolled in an accredited bachelor's or master's degree program in Mechanical Engineering, Aerospace Engineering, or a related engineering discipline, with the ability to work full-time onsite in Long Beach. Work areas include thermal control systems, thermal test, environmental control and life-support systems, life-support testing, and avionics mechanical engineering. CAD experience such as SolidWorks or CATIA, analysis tools, applied project or laboratory work, engineering problem solving, and cross-team collaboration are preferred. Candidates must be U.S. persons or otherwise eligible for deemed export licensing because the role accesses export-controlled information and items.",
+      "discoveredAt": "2026-07-20T11:27:21.428Z",
+      "attemptedAt": "2026-07-20T11:27:21.428Z",
+      "updatedAt": "2026-07-20T11:27:21.428Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Vast's official Greenhouse API returned active internship 4694905006 on July 20, 2026; the ATS record was last updated July 15, 2026.",
+        "The employer source confirms hands-on space-hardware design and build work, a 12-week full-time onsite Fall 2026 term in Long Beach, mechanical and aerospace student eligibility, the named engineering disciplines, export-control requirements, and a displayed California range of $35-$40 USD without a stated pay period.",
+        "The official posting does not list an application deadline."
+      ],
+      "needsReview": false
     }
   ]
 }
