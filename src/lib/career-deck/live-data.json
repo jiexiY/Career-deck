@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T05:35:33.237Z",
+  "updatedAt": "2026-07-20T06:10:03.686Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-liquidpiston-design-engineer-intern",
@@ -12414,6 +12414,36 @@
       "evidence": [
         "ASSA ABLOY's official careers page displayed the Lake Forest Industrial Design Intern (Security) posting with an active Apply action on July 19, 2026.",
         "The employer source confirms the 40-hour schedule, current-student threshold, portfolio package, and full industrial-design process scope. It does not list compensation, a program term, or a closing date."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-pd-instore-3d-design-intern",
+      "title": "3D Design Intern",
+      "organization": "PD Instore",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-pd-instore-paycom-384089",
+      "sourceName": "PD Instore Careers / Paycom",
+      "sourceUrl": "https://www.paycomonline.net/v4/ats/web.php/portal/02C0FB826FC70B1BD0192DC856FA6470/jobs/384089",
+      "url": "https://www.paycomonline.net/v4/ats/web.php/portal/02C0FB826FC70B1BD0192DC856FA6470/jobs/384089",
+      "location": "Minneapolis, Minnesota, United States - 7101 site",
+      "deadline": "Not listed on official source",
+      "compensation": "$20-$24 per hour",
+      "eligibility": "Current student, recent graduate, or early-career designer pursuing or recently completing a degree in Industrial Design, Environmental Design, Interactive Design, Architecture, or a related creative field. Portfolio, coursework, freelance work, or personal projects demonstrating visual thinking are preferred. Relevant skills include 3D tools such as Blender, SketchUp, Rhino, 3ds Max, or KeyShot; Adobe Creative Suite; digital sketching; retail, spatial, experiential, and branded-environment design; presentation development; prototyping; and cross-functional collaboration.",
+      "discoveredAt": "2026-07-20T06:10:03.686Z",
+      "attemptedAt": "2026-07-20T06:10:03.686Z",
+      "updatedAt": "2026-07-20T06:10:03.686Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "PD Instore's employer-hosted careers link resolved to its official Paycom board, where job 384089 appeared among 12 current results with an active Apply action on July 19, 2026.",
+        "The official posting confirms the Minneapolis 7101 location, $20-$24 hourly range, degree and portfolio criteria, and hands-on retail, spatial, experiential, and 3D design scope. It does not list an application deadline."
       ],
       "needsReview": false
     }
