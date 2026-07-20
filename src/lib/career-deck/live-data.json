@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T04:25:30.218Z",
+  "updatedAt": "2026-07-20T05:35:33.237Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-liquidpiston-design-engineer-intern",
@@ -12294,6 +12294,126 @@
       "evidence": [
         "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Game-Community-Intern_R107657-1",
         "Game monitor fit score 10/10; last checked 2026-07-19."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-graham-packaging-industrial-designer-intern",
+      "title": "Industrial Designer Intern",
+      "organization": "Graham Packaging",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-graham-packaging-icims",
+      "sourceName": "Graham Packaging Careers / iCIMS",
+      "sourceUrl": "https://careers-grahampackaging.icims.com/jobs/14479/industrial-designer-intern/job",
+      "url": "https://careers-grahampackaging.icims.com/jobs/14479/industrial-designer-intern/job",
+      "location": "York, Pennsylvania, United States - primarily office based, part-time",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Working toward a degree in Industrial Design, Fine Arts (BFA), or a relevant field; fluent in English and eligible to work in the United States. Applicants must include an online or PDF portfolio. The role emphasizes sketching, concept development, Fusion 360, SolidWorks, KeyShot, Adobe Creative Suite, 3D CAD, renderings, mockups, 3D printing, consumer-led design, and collaboration with designers and engineers.",
+      "discoveredAt": "2026-07-20T05:35:33.237Z",
+      "attemptedAt": "2026-07-20T05:35:33.237Z",
+      "updatedAt": "2026-07-20T05:35:33.237Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Graham Packaging's official iCIMS page displayed requisition 2026-14479 and an active Apply action on July 19, 2026.",
+        "The employer source confirms the York location, part-time classification, student and U.S. work-eligibility requirements, portfolio requirement, and industrial-design scope. It does not state a closing date or compensation amount."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-lf-studios-animatronic-surface-integration-intern",
+      "title": "Animatronic Intern (Fall) - Surface/Integration Designer",
+      "organization": "LF Studios",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-lf-studios-betterteam",
+      "sourceName": "LF Studios Careers / Betterteam",
+      "sourceUrl": "https://lifeformations.betterteam.com/animatronic-intern-%28fall%29-surface-integration-designer-1",
+      "url": "https://lifeformations.betterteam.com/animatronic-intern-%28fall%29-surface-integration-designer-1",
+      "location": "Cincinnati, Ohio, United States",
+      "deadline": "Not listed on official source",
+      "compensation": "$16-$22 per hour",
+      "eligibility": "Applicants need experience with product development and design, 3D modeling, and design thinking; experience with SolidWorks, Rhino, ZBrush, and Photoshop; and knowledge of mesh versus solid modeling. Work includes integrating composite surfaces with structures, mechanisms, and soft goods, preparing mechanically informed models, designing animatronic exterior surfaces, and supplying production-ready 3D assets.",
+      "discoveredAt": "2026-07-20T05:35:33.237Z",
+      "attemptedAt": "2026-07-20T05:35:33.237Z",
+      "updatedAt": "2026-07-20T05:35:33.237Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "LF Studios' branded Betterteam careers board listed the Fall Surface/Integration Designer internship as a current opening with an active Apply action on July 19, 2026.",
+        "The official posting confirms Cincinnati, the $16-$22 hourly range, product-development and 3D-modeling requirements, and the surface-integration scope. It does not list exact fall term dates or an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-allegion-industrial-design-co-op",
+      "title": "Industrial Design Co-op",
+      "organization": "Allegion",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-allegion-workday",
+      "sourceName": "Allegion Early Talent Careers / Workday",
+      "sourceUrl": "https://allegion.wd5.myworkdayjobs.com/en-US/EarlyTalent_Careers/job/Industrial-Design-Co-op_JR36106",
+      "url": "https://allegion.wd5.myworkdayjobs.com/en-US/EarlyTalent_Careers/job/Industrial-Design-Co-op_JR36106",
+      "location": "Carmel, Indiana, United States - full-time",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Actively pursuing an accredited industrial design degree and legally authorized to work in the United States; Allegion does not intend to provide employment visa sponsorship for this position. Relevant skills include research, concept sketching, physical mockups, Adobe software, CAD, rendering and animation, mechanical construction, materials and manufacturing, UI/UX, ergonomics, prototyping, presentations, and cross-functional collaboration.",
+      "discoveredAt": "2026-07-20T05:35:33.237Z",
+      "attemptedAt": "2026-07-20T05:35:33.237Z",
+      "updatedAt": "2026-07-20T05:35:33.237Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Allegion's official Early Talent Workday posting displayed requisition JR36106 as open in Carmel and posted 11 days before the July 19, 2026 check.",
+        "The employer source confirms full-time status, current industrial-design enrollment, U.S. work authorization without intended sponsorship, and the research-through-prototyping scope. It does not list compensation, a term, or a closing date."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-20-assa-abloy-industrial-design-intern-security",
+      "title": "Industrial Design Intern (Security)",
+      "organization": "ASSA ABLOY",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-assa-abloy-jobs2web",
+      "sourceName": "ASSA ABLOY Careers / Jobs2Web",
+      "sourceUrl": "https://assaabloy.jobs2web.com/job/Lake-Forest-Industrial-Design-Intern-%28Security%29-CA-92610/1293008301/",
+      "url": "https://assaabloy.jobs2web.com/job/Lake-Forest-Industrial-Design-Intern-%28Security%29-CA-92610/1293008301/",
+      "location": "Lake Forest, California, United States - 40 hours per week in a design studio and shop environment",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Current industrial design student who has completed at least four terms or semesters, or is at the junior or senior level. Applicants must provide a resume, cover letter, and PDF portfolio or work sample up to 5 MB. The role calls for sketching, concept development, Photoshop, 3D CAD, KeyShot or similar rendering, human factors, ergonomics, UI/UX methods, materials and manufacturing knowledge, physical prototyping, and collaboration with engineering and marketing.",
+      "discoveredAt": "2026-07-20T05:35:33.237Z",
+      "attemptedAt": "2026-07-20T05:35:33.237Z",
+      "updatedAt": "2026-07-20T05:35:33.237Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "ASSA ABLOY's official careers page displayed the Lake Forest Industrial Design Intern (Security) posting with an active Apply action on July 19, 2026.",
+        "The employer source confirms the 40-hour schedule, current-student threshold, portfolio package, and full industrial-design process scope. It does not list compensation, a program term, or a closing date."
       ],
       "needsReview": false
     }
