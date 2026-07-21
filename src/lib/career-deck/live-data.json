@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T02:08:49.088Z",
+  "updatedAt": "2026-07-21T02:33:07.454Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
@@ -13020,6 +13020,37 @@
       "evidence": [
         "Verified official application route: https://ats.workatsea.com/apply/J02113892",
         "Game monitor fit score 10/10; last checked 2026-07-20."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-21-harbinger-motors-power-electronics-engineering-intern",
+      "title": "Intern, Power Electronics Engineering",
+      "organization": "Harbinger Motors",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-harbinger-motors-greenhouse-5181642007",
+      "sourceName": "Harbinger Motors Careers / Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/harbingermotors/jobs/5181642007",
+      "url": "https://job-boards.greenhouse.io/harbingermotors/jobs/5181642007",
+      "location": "Garden Grove, California - full-time, 40 hours per week with four in-office days; 11-14 weeks from September 8 to December 11 or September 21 to December 4",
+      "deadline": "Not listed",
+      "compensation": "$25-$35 USD per hour; $1,000 relocation stipend available when currently residing more than 50 miles from Garden Grove",
+      "eligibility": "Currently registered in a bachelor's, master's, or doctoral program focused on power electronics; authorized to work in the United States or able to obtain a J-1 or F-1 visa; and able to commit to the listed full-time schedule. Applicants need analog, digital, power-supply, magnetics, and control-theory knowledge; power-electronics and high-voltage coursework or experience; automotive high-voltage familiarity; hands-on electrical fabrication or troubleshooting; basic PCB layout; and data-acquisition experience. Work covers inverter, onboard-charger, and DC-DC converter sizing and design, power-converter and motor-controller testing, mixed-signal PCB design, worst-case circuit analysis, LTspice and PLECS simulation, mechanical integration, technical reports, and design reviews.",
+      "discoveredAt": "2026-07-21T02:33:07.454Z",
+      "attemptedAt": "2026-07-21T02:33:07.454Z",
+      "updatedAt": "2026-07-21T02:33:07.454Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Harbinger Motors' official Greenhouse API returned active job 5181642007, requisition 759, on July 21, 2026; the ATS record was first published and last updated July 7, 2026.",
+        "The employer posting confirms power-electronics and mixed-signal PCB design, circuit analysis and simulation, converter and motor-controller validation, mechanical integration, technical reporting, and design-review responsibilities.",
+        "The official source lists Garden Grove attendance of four in-office days within a 40-hour week, two 11-14-week term options, $25-$35 USD per hour, a conditional $1,000 relocation stipend, current power-electronics degree enrollment, and U.S. work authorization or J-1/F-1 visa eligibility; it does not list an application deadline or explicitly state the year of the term dates."
       ],
       "needsReview": false
     }
