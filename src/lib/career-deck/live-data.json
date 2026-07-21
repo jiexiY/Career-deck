@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T16:40:21.877Z",
+  "updatedAt": "2026-07-21T22:15:59.679Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13084,6 +13084,130 @@
         "Official Zynga university URL was present in the shared conversation."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-21-lucid-motors-retail-design-development-intern",
+      "title": "Retail Design & Development Intern",
+      "organization": "Lucid Motors",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-lucid-motors-greenhouse-5187382007",
+      "sourceName": "Lucid Motors Careers / Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/lucidmotors/jobs/5187382007",
+      "url": "https://job-boards.greenhouse.io/lucidmotors/jobs/5187382007",
+      "location": "Amsterdam, NH - 5-6 months",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a bachelor's or master's degree in Architecture, Interior Design, Project Management, Construction Management, Business, or a related field. Applicants should be interested in retail development, project execution, design coordination, space planning, retail layouts, and concept-to-delivery work; Microsoft Office proficiency is expected, while AutoCAD, Revit, Adobe Creative Suite, Rhino, or Bluebeam familiarity is preferred. Fluent English is required, and German or another European language is a plus. Work covers retail and service-facility project planning, budgets and cost trackers, space planning and test fits, layout coordination, drawings and design packages, due diligence, consultant coordination, and stakeholder presentations. The official source does not state an application deadline, compensation amount, or work-authorization terms.",
+      "discoveredAt": "2026-07-21T22:15:59.679Z",
+      "attemptedAt": "2026-07-21T22:15:59.679Z",
+      "updatedAt": "2026-07-21T22:15:59.679Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Lucid Motors' official Greenhouse API returned active intern job 5187382007 on July 21, 2026; the ATS record was first published July 15 and last updated July 21, 2026.",
+        "The employer source confirms the Retail Design & Development Intern title, Amsterdam location, five-to-six-month duration, degree profile, and hands-on retail and service-facility design-development scope.",
+        "The official source does not list an application deadline, a compensation amount, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-21-abbvie-2027-packaging-engineering-coop-jan-june",
+      "title": "2027 Packaging Co-Op (Jan - June)",
+      "organization": "AbbVie",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-abbvie-smartrecruiters-3743990014191096",
+      "sourceName": "AbbVie Careers / SmartRecruiters",
+      "sourceUrl": "https://jobs.smartrecruiters.com/AbbVie/3743990014191096-2027-packaging-co-op-jan-june-",
+      "url": "https://jobs.smartrecruiters.com/AbbVie/3743990014191096-2027-packaging-co-op-jan-june-",
+      "location": "North Chicago, Illinois - hybrid, at least three campus days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "$21-$37.80 USD per hour",
+      "eligibility": "Currently enrolled in a university bachelor's program in Packaging or a related field, returning to university for the semester after the co-op, and expecting to graduate between December 2027 and June 2029. The paid six-month program runs January through June 2027. Work includes packaging development and testing for new projects, test protocols and execution, material identification and selection, specifications, standardization analysis, sustainability and packaging improvements, and laboratory and manufacturing-plant experiments. Housing and shuttle services are available to eligible students. The official source does not state an application deadline or work-authorization terms.",
+      "discoveredAt": "2026-07-21T22:15:59.679Z",
+      "attemptedAt": "2026-07-21T22:15:59.679Z",
+      "updatedAt": "2026-07-21T22:15:59.679Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "AbbVie's official SmartRecruiters API returned posting 3743990014191096 as active on July 21, 2026; the employer released it earlier that day.",
+        "The employer source identifies the role as a paid six-month Packaging Engineering Co-Op and confirms packaging development, testing, material selection and specifications, sustainability work, and laboratory and plant experiments.",
+        "The official posting lists a $21-$37.80 USD hourly range, hybrid attendance of at least three campus days per week, degree and graduation eligibility, and conditional housing and shuttle services; it does not list an application deadline or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-21-abbvie-2027-packaging-engineering-coop-july-december",
+      "title": "2027 Packaging Co-Op (July - Dec)",
+      "organization": "AbbVie",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-abbvie-smartrecruiters-3743990014191506",
+      "sourceName": "AbbVie Careers / SmartRecruiters",
+      "sourceUrl": "https://jobs.smartrecruiters.com/AbbVie/3743990014191506-2027-packaging-co-op-july-dec-",
+      "url": "https://jobs.smartrecruiters.com/AbbVie/3743990014191506-2027-packaging-co-op-july-dec-",
+      "location": "North Chicago, Illinois - hybrid, at least three campus days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "$21-$37.80 USD per hour",
+      "eligibility": "Currently enrolled in a university bachelor's program in Packaging or a related field, returning to university for the semester after the co-op, and expecting to graduate between December 2027 and June 2029. The paid six-month program runs July through December 2027. Work includes packaging development and testing for new projects, test protocols and execution, material identification and selection, specifications, standardization analysis, sustainability and packaging improvements, and laboratory and manufacturing-plant experiments. Housing and shuttle services are available to eligible students. The official source does not state an application deadline or work-authorization terms.",
+      "discoveredAt": "2026-07-21T22:15:59.679Z",
+      "attemptedAt": "2026-07-21T22:15:59.679Z",
+      "updatedAt": "2026-07-21T22:15:59.679Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "AbbVie's official SmartRecruiters API returned posting 3743990014191506 as active on July 21, 2026; the employer released it earlier that day.",
+        "The employer source identifies the role as a paid six-month Packaging Engineering Co-Op and confirms packaging development, testing, material selection and specifications, sustainability work, and laboratory and plant experiments.",
+        "The official posting lists a $21-$37.80 USD hourly range, hybrid attendance of at least three campus days per week, degree and graduation eligibility, and conditional housing and shuttle services; it does not list an application deadline or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-21-philips-avent-product-innovation-video-creation-internship",
+      "title": "Product Innovation & AI-Powered Video Creation Internship \u2013 Philips Avent Experience Innovation",
+      "organization": "Philips",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-philips-workday-586187",
+      "sourceName": "Philips Careers / Workday",
+      "sourceUrl": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Eindhoven/Product-Innovation---AI-Powered-Video-Creation-Internship---Philips-Avent-Experience-Innovation_586187",
+      "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Eindhoven/Product-Innovation---AI-Powered-Video-Creation-Internship---Philips-Avent-Experience-Innovation_586187",
+      "location": "Eindhoven, Netherlands - office-based, at least three in-person days per week; 32-40 hours weekly for at least six months starting September 2026",
+      "deadline": "Not listed on official source",
+      "compensation": "\u20ac500-\u20ac700 gross per month full-time, based on education level and relocation; part-time pro rata; conditional \u20ac255 net monthly Eindhoven housing allowance and up to \u20ac192 net monthly travel allowance",
+      "eligibility": "Studying Product Design, Industrial Design, Design Engineering, Media Design, Communication and Multimedia Design, or a related field. Applicants should be interested in physical products and product innovation and have visual-storytelling, video, editing, animation, motion-graphics, rendering, or generative-AI skills; relevant tools include Adobe Premiere, After Effects, Blender, KeyShot, and Final Cut Pro. A resume and portfolio, videos, animations, or other self-made work are requested. The non-thesis internship is intended as a regular six-month placement, though a connected graduation assignment may be possible. Work includes front-end product innovation, product and user-experience concepts, 3D and motion visualization, technical demo videos, competitive analysis, and collaboration with product developers, scientists, designers, and marketers. The official source does not state an application deadline or work-authorization terms.",
+      "discoveredAt": "2026-07-21T22:15:59.679Z",
+      "attemptedAt": "2026-07-21T22:15:59.679Z",
+      "updatedAt": "2026-07-21T22:15:59.679Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Philips' official Workday API returned requisition 586187 as posted and application-enabled on July 21, 2026; Workday listed it as posted July 2, 2026.",
+        "The employer source confirms the September 2026 start, at-least-six-month duration, 32-to-40-hour schedule, Eindhoven office attendance, product-innovation scope, and Product Design, Industrial Design, or Design Engineering study profile.",
+        "The official posting lists a \u20ac500-\u20ac700 gross monthly full-time allowance, conditional housing and travel allowances, and paid holidays; it does not list an application deadline or work-authorization terms."
+      ],
+      "needsReview": false
     }
   ]
 }
