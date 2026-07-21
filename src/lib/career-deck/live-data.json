@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T22:15:59.679Z",
+  "updatedAt": "2026-07-21T22:31:42.184Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -10673,7 +10673,7 @@
     },
     {
       "id": "tech-design-2026-07-14-sharkninja-industrial-design-intern",
-      "title": "Fall 2026: Industrial Design Intern",
+      "title": "Fall 2026: Industrial Design Intern (September through December)",
       "organization": "SharkNinja",
       "section": "tech",
       "type": "internship",
@@ -10687,7 +10687,8 @@
       "compensation": "$17-$44 USD per hour",
       "eligibility": "Currently enrolled in an industrial design bachelor's or master's program; full-time onsite September-December 2026; original portfolio and CAD/rendering skills required.",
       "discoveredAt": "2026-07-14T15:16:41.735-07:00",
-      "updatedAt": "2026-07-14T15:16:41.735-07:00",
+      "attemptedAt": "2026-07-21T22:31:42.184Z",
+      "updatedAt": "2026-07-21T22:31:42.184Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.97,
@@ -10696,7 +10697,8 @@
       },
       "evidence": [
         "Official SharkNinja Greenhouse application page was open and accepting applications on July 14, 2026.",
-        "The page confirms the September-December term, industrial-design enrollment, portfolio requirement, onsite schedule, and hourly pay range."
+        "The page confirms the September-December term, industrial-design enrollment, portfolio requirement, onsite schedule, and hourly pay range.",
+        "SharkNinja's official Greenhouse API returned posting 4601610006 as active on July 21, 2026 with the expanded title 'Fall 2026: Industrial Design Intern (September through December)' and an ATS update timestamp of July 21, 2026."
       ],
       "needsReview": false
     },
@@ -13206,6 +13208,38 @@
         "Philips' official Workday API returned requisition 586187 as posted and application-enabled on July 21, 2026; Workday listed it as posted July 2, 2026.",
         "The employer source confirms the September 2026 start, at-least-six-month duration, 32-to-40-hour schedule, Eindhoven office attendance, product-innovation scope, and Product Design, Industrial Design, or Design Engineering study profile.",
         "The official posting lists a \u20ac500-\u20ac700 gross monthly full-time allowance, conditional housing and travel allowances, and paid holidays; it does not list an application deadline or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-21-philips-avent-product-design-internship",
+      "title": "Product Design Internship \u2013 Philips Avent Experience Innovation",
+      "organization": "Philips",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-philips-workday-586188",
+      "sourceName": "Philips Careers / Workday",
+      "sourceUrl": "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Product-Design-Internship---Philips-Avent-Experience-Innovation_586188",
+      "url": "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Product-Design-Internship---Philips-Avent-Experience-Innovation_586188",
+      "location": "Amsterdam, Netherlands - office-based, at least three in-person days per week; collaboration with the Eindhoven team; 32-40 hours weekly for at least six months starting September 2026",
+      "deadline": "Not listed on official source",
+      "compensation": "\u20ac500-\u20ac700 gross per month full-time, based on education level and relocation; part-time pro rata; conditional \u20ac300 net monthly Amsterdam-area housing allowance and up to \u20ac192 net monthly travel allowance",
+      "eligibility": "Studying Industrial Design, Product Design, or a closely related physical-product-design discipline at bachelor's or master's level. Applicants should provide a portfolio demonstrating physical product design, sketching, form development, prototyping, and visual communication; experience with or curiosity about SolidWorks, Rhino, Fusion 360, KeyShot, Blender, or similar tools is relevant. The non-thesis internship is intended as a regular six-month placement, though a connected graduation assignment may be possible. Work includes front-end innovation, physical product concepts, sketches and storyboards, CAD models, renders, mockups and prototypes, future scenarios, consumer-insight translation, and iterative testing. The official source does not state an application deadline or work-authorization terms.",
+      "discoveredAt": "2026-07-21T22:31:42.184Z",
+      "attemptedAt": "2026-07-21T22:31:42.184Z",
+      "updatedAt": "2026-07-21T22:31:42.184Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.95,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Philips' official Workday posting displayed requisition 586188 with an Apply action on July 21, 2026 and identified it as posted six days earlier.",
+        "The employer source confirms the September 2026 start, at-least-six-month duration, 32-to-40-hour schedule, Amsterdam office attendance, physical-product-design scope, and Industrial Design or Product Design study profile.",
+        "The official posting lists a \u20ac500-\u20ac700 gross monthly full-time allowance, conditional housing and travel allowances, and paid holidays; it does not list an application deadline or work-authorization terms.",
+        "A direct request to the Workday JSON endpoint returned HTTP 403 on July 21, 2026, so no API-only fields were inferred; the employer-hosted Workday posting supplied the published role details."
       ],
       "needsReview": false
     }
