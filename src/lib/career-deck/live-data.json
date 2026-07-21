@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T02:33:07.454Z",
+  "updatedAt": "2026-07-21T05:00:39.510Z",
   "opportunities": [
     {
       "id": "tech-design-2026-07-20-marmon-industrial-design-coop",
@@ -13051,6 +13051,37 @@
         "Harbinger Motors' official Greenhouse API returned active job 5181642007, requisition 759, on July 21, 2026; the ATS record was first published and last updated July 7, 2026.",
         "The employer posting confirms power-electronics and mixed-signal PCB design, circuit analysis and simulation, converter and motor-controller validation, mechanical integration, technical reporting, and design-review responsibilities.",
         "The official source lists Garden Grove attendance of four in-office days within a 40-hour week, two 11-14-week term options, $25-$35 USD per hour, a conditional $1,000 relocation stipend, current power-electronics degree enrollment, and U.S. work authorization or J-1/F-1 visa eligibility; it does not list an application deadline or explicitly state the year of the term dates."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-21-neuralink-analog-mixed-signal-ic-design-engineer-intern",
+      "title": "Analog and Mixed-Signal IC Design Engineer Intern",
+      "organization": "Neuralink",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-neuralink-greenhouse-7565469003",
+      "sourceName": "Neuralink Careers / Greenhouse",
+      "sourceUrl": "https://boards.greenhouse.io/neuralink/jobs/7565469003?gh_jid=7565469003",
+      "url": "https://boards.greenhouse.io/neuralink/jobs/7565469003?gh_jid=7565469003",
+      "location": "South San Francisco, California, United States",
+      "deadline": "Not listed on official source",
+      "compensation": "$35 per hour USD",
+      "eligibility": "Applicants need at least one year of analog or mixed-signal integrated CMOS circuit-design experience in an area such as ADCs, DACs, VCOs, PLLs, DLLs, audio CODECs, Class D amplifiers, PHYs, or SERDES, with a successful silicon-validation record. They also need at least three months applying technical skills outside the classroom through laboratory work, research, project teams, open-source contributions, volunteering, personal projects, or prior internship or work experience. Preferred experience includes simulation scripting and automation, laboratory testing of high-precision analog and mixed-signal ICs, Verilog AMS and SystemVerilog functional modeling and verification, advanced CMOS FinFET design and layout, and design for high-volume production. Work covers analog and mixed-signal circuit architecture, transistor-level implementation, verification planning, simulation, analysis, testing, and design review. The official source does not state current-enrollment or degree requirements, an internship term, duration, application deadline, or work-authorization terms.",
+      "discoveredAt": "2026-07-21T05:00:39.510Z",
+      "attemptedAt": "2026-07-21T05:00:39.510Z",
+      "updatedAt": "2026-07-21T05:00:39.510Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Neuralink's official Greenhouse API returned active internship 7565469003, requisition HC-INT-37, on July 21, 2026; the ATS record was first published February 18, 2026 and last updated June 22, 2026.",
+        "The employer source confirms the South San Francisco location, non-exempt internship classification, analog and mixed-signal architecture-through-verification scope, required circuit-design and silicon-validation experience, and a California rate of $35 per hour USD.",
+        "The official source does not list a term, duration, application deadline, enrollment or degree requirement, or work-authorization terms."
       ],
       "needsReview": false
     }
