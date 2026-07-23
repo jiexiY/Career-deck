@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T16:57:53.980Z",
+  "updatedAt": "2026-07-23T22:20:12.685Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13270,6 +13270,68 @@
         "Official Zynga university URL was present in the shared conversation."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-23-rantec-pcb-design-engineering-intern",
+      "title": "PCB Design Engineering Intern",
+      "organization": "Rantec Power Systems Inc.",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-rantec-jazzhr-c88xk8wzio",
+      "sourceName": "Rantec Power Systems Careers / JazzHR",
+      "sourceUrl": "https://rantecpowersystemsinc.applytojob.com/apply/C88xK8WZio/PCB-Design-Engineering-Intern",
+      "url": "https://rantecpowersystemsinc.applytojob.com/apply/C88xK8WZio/PCB-Design-Engineering-Intern",
+      "location": "Los Osos, CA - in person; part time during the school year and full time during the summer; 10-15 hours per week during the school year",
+      "deadline": "Not listed on official source",
+      "compensation": "$21.00 USD per hour",
+      "eligibility": "Pursuing a degree in Electrical Engineering with a 3.0 or higher GPA and able to read electrical schematics. Interest in power electronics is required; familiarity with PCB layout software and one year of experience with electrical-engineering lab and test equipment are preferred. Work includes schematic design, PCB layout, library components, engineering change notices, procurement and assembly documentation, and power-supply development. The role requires daily commuting to the Los Osos facility and access to export-controlled commodities and technical data; employment is contingent on ITAR compliance as a U.S. citizen, U.S. lawful permanent resident, or properly licensed foreign person. The official source does not list an application deadline.",
+      "discoveredAt": "2026-07-23T22:20:12.685Z",
+      "attemptedAt": "2026-07-23T22:20:12.685Z",
+      "updatedAt": "2026-07-23T22:20:12.685Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Rantec Power Systems' official JazzHR page displayed an active application form for the PCB Design Engineering Intern role on July 23, 2026.",
+        "The employer source confirms the in-person Los Osos location, school-year and summer schedules, electrical-engineering degree and GPA requirements, PCB and schematic scope, and ITAR access condition.",
+        "The official posting lists a $21.00 USD hourly wage and does not list an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-23-kepler-fpga-digital-design-engineering-intern-january-2027",
+      "title": "FPGA Digital Design Engineering Intern (January 2027) (4-16 months)",
+      "organization": "Kepler Communications",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-kepler-lever-f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03",
+      "sourceName": "Kepler Communications Careers / Lever",
+      "sourceUrl": "https://jobs.lever.co/kepler/f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03",
+      "url": "https://jobs.lever.co/kepler/f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03/apply",
+      "location": "Toronto, Ontario - hybrid, with a strong preference for 2-3 office days per week; full time for 4-16 months beginning January 2027",
+      "deadline": "Not listed on official source",
+      "compensation": "$29.75-$39.00 CAD per hour",
+      "eligibility": "Currently enrolled in an undergraduate program at a Canadian post-secondary institution, returning to studies after the internship, and at least two years into an Electrical Engineering, Computer Engineering, or equivalent degree program. Applicants need experience with Verilog, SystemVerilog, or VHDL and availability for a full-time four-to-sixteen-month internship beginning January 2027. Work includes maintaining and extending FPGA RTL, controlling and testing software-defined radio and network systems, designing custom satellite and ground-station IP, adding SPI, I2C, and UART interfaces, and working with high-speed FPGA interfaces. DSP, C++, embedded programming, scripting, and university design-team experience are bonuses. The official source does not list an application deadline or separate work-authorization terms.",
+      "discoveredAt": "2026-07-23T22:20:12.685Z",
+      "attemptedAt": "2026-07-23T22:20:12.685Z",
+      "updatedAt": "2026-07-23T22:20:12.685Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Kepler Communications' official Lever API returned posting f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03 as a current vacancy on July 23, 2026; the ATS record was created July 21, 2026.",
+        "The employer source confirms the Toronto hybrid arrangement, January 2027 start, four-to-sixteen-month duration, Canadian undergraduate enrollment and return-to-study requirements, and FPGA digital-design scope.",
+        "The official posting lists a $29.75-$39.00 CAD hourly range and does not list an application deadline or separate work-authorization terms."
+      ],
+      "needsReview": false
     }
   ]
 }
