@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T22:20:12.685Z",
+  "updatedAt": "2026-07-23T23:25:47.902Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13330,6 +13330,68 @@
         "Kepler Communications' official Lever API returned posting f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03 as a current vacancy on July 23, 2026; the ATS record was created July 21, 2026.",
         "The employer source confirms the Toronto hybrid arrangement, January 2027 start, four-to-sixteen-month duration, Canadian undergraduate enrollment and return-to-study requirements, and FPGA digital-design scope.",
         "The official posting lists a $29.75-$39.00 CAD hourly range and does not list an application deadline or separate work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-23-hp-college-intern-industrial-designer",
+      "title": "College Intern \u2013 Industrial Designer",
+      "organization": "HP",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hp-workday-3165567",
+      "sourceName": "HP Careers / Workday",
+      "sourceUrl": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Industrial-Designer_3165567",
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Industrial-Designer_3165567",
+      "location": "Singapore, South West, Singapore - full time; work arrangement not listed; 5-6 months or longer starting July 2026",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a bachelor's degree in Industrial Design and able to commit for five to six months or longer starting in July 2026. Applicants should be able to design physical hardware products and systems using design research, strategy, and established principles; translate research into sketches, storyboards, models, prototypes, and design proposals; evaluate and improve product designs; and use 2D and 3D CAD tools. The role develops concepts and experiences with HP's Global Experience and Design division and works alongside a User Experience designer or intern. The official source does not list an application deadline, compensation, work arrangement, or work-authorization terms.",
+      "discoveredAt": "2026-07-23T23:25:47.902Z",
+      "attemptedAt": "2026-07-23T23:25:47.902Z",
+      "updatedAt": "2026-07-23T23:25:47.902Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.94,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "HP's official Workday API returned requisition 3165567 with an active employer career URL on July 23, 2026; the employer feed displayed it as posted 16 days earlier.",
+        "The employer source confirms the Singapore location, full-time schedule, Industrial Design bachelor's enrollment, five-to-six-month-or-longer commitment beginning July 2026, physical-product scope, prototyping, and 2D and 3D CAD requirements.",
+        "The official posting does not list an application deadline, compensation, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-23-tiktok-singapore-product-designer-intern-2026",
+      "title": "Product Designer Intern (TikTok-Design-UX) - 2026 Start (BS/MS)",
+      "organization": "TikTok",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tiktok-careers-a220100a",
+      "sourceName": "TikTok Careers",
+      "sourceUrl": "https://lifeattiktok.com/search/7533086912362596626",
+      "url": "https://lifeattiktok.com/search/7533086912362596626",
+      "location": "Singapore - work arrangement not listed; the official page lists January-June 2026 or May-August 2026 internship windows",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Able to commit to one of the official 2026 internship windows, either January through June or May through August. Applicants need strong interaction-design and prototyping skills using tools such as Figma, clear design communication and decision-making, experience working with multiple stakeholders, rapid iteration, resilience, and the ability to work under demanding timelines. A/B testing, data-driven design, Principle, Adobe Creative Suite, OSX, iOS, and Android knowledge are preferred. Work spans TikTok product design, cross-functional collaboration, end-to-end product development, user research and data-informed flows, rapid prototyping, iteration, and product-experience updates. The official source does not state a degree or student-status requirement, application deadline, compensation, work arrangement, or work-authorization terms.",
+      "discoveredAt": "2026-07-23T23:25:47.902Z",
+      "attemptedAt": "2026-07-23T23:25:47.902Z",
+      "updatedAt": "2026-07-23T23:25:47.902Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.86,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A LinkedIn discovery surfaced the Singapore listing, and TikTok's official careers page returned HTTP 200 with the matching title, job code A220100A, and an Apply to this job action on July 23, 2026.",
+        "The employer source confirms Singapore intern employment, TikTok product-design responsibilities, interaction-design and prototyping qualifications, cross-functional work, and the January-June or May-August 2026 commitment windows.",
+        "The official page does not expose a posting date and its listed 2026 internship windows are already underway or complete as of the check, so freshness confidence is reduced; it does not list a deadline, compensation, work arrangement, degree or student-status requirement, or work-authorization terms."
       ],
       "needsReview": false
     }
