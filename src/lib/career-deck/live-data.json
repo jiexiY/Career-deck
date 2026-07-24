@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T21:16:22.299Z",
+  "updatedAt": "2026-07-24T21:26:24.196Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14262,6 +14262,37 @@
         "Intuit's employer-hosted careers page displayed the Fall 2026 Product Design Co-op with an Apply Now action during the July 24, 2026 check, and the linked official Avature application endpoint returned HTTP 200 with the role title and application form.",
         "The employer page confirms Toronto job ID 22712, a four-month September-through-December 2026 term, 40 hours per week, at least three office days per week, and design-system, UX, prototyping, accessibility, research, Figma, and design-and-code responsibilities.",
         "Intuit lists a $36-$46 CAD hourly base-pay range and requires post-secondary enrollment, graduation after the co-op, and Canadian work eligibility without sponsorship; the official source does not list a deadline or posting date."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-atrisi-ui-ux-design-intern",
+      "title": "UI/UX Design Intern",
+      "organization": "ATRISI",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-atrisi-collaborate-ui-ux-design-intern",
+      "sourceName": "ATRISI Collaborate",
+      "sourceUrl": "https://atrisi.org/collaborate/ui-ux-design-intern",
+      "url": "https://atrisi.org/collaborate/ui-ux-design-intern",
+      "location": "Remote or hybrid; Bengaluru, India preferred - the employer application offers availability options from up to 10 hours per week through full-time, but does not list a fixed schedule or internship duration",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "ATRISI asks applicants to provide a resume, portfolio link, two short design notes, contact details, city, and availability. The role supports digital experiences across ATRISI's learning, talent, research, and community initiatives, including user journeys, dashboards, platforms, and AI-era education experiences. The official source does not list degree or student-status requirements, prior-experience requirements, compensation, an application deadline, internship duration, a fixed weekly schedule, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-24T21:26:24.196Z",
+      "attemptedAt": "2026-07-24T21:26:24.196Z",
+      "updatedAt": "2026-07-24T21:26:24.196Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A recent LinkedIn listing surfaced the opening, and ATRISI's employer-hosted role page and main Collaborate page both displayed UI/UX Design Intern as open with an active employer application form during the July 24, 2026 check.",
+        "The official role page confirms an internship that is remote or hybrid with Bengaluru preferred, covers user journeys, dashboards, platforms, and AI-era education experiences, and asks for a resume, portfolio link, two design notes, contact details, city, and availability.",
+        "The employer application offers availability choices from up to 10 hours per week through full-time; the official source does not list compensation, a deadline, duration, a fixed schedule, degree or experience requirements, or work-authorization and sponsorship terms."
       ],
       "needsReview": false
     }
