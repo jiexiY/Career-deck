@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T04:08:50.744Z",
+  "updatedAt": "2026-07-24T04:38:51.014Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13859,6 +13859,37 @@
         "GE Aerospace's official Workday API returned HTTP 200 for requisition R5037439 and marked the posting as active, posted, and accepting applications during the July 23, 2026 check; the employer source lists a July 16, 2026 posting date.",
         "The employer source confirms the Kartal, Istanbul location, initial six-month term with an optional five-month extension, current engineering-student requirement, academic-term and summer schedules, and additive and test-hardware mechanical design responsibilities.",
         "The official posting lists a July 31, 2026 application deadline and no relocation assistance; it does not list compensation or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-jacques-marie-mage-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Jacques Marie Mage",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-jacques-marie-mage-trinet-122685",
+      "sourceName": "Jacques Marie Mage Careers / TriNet Hire",
+      "sourceUrl": "https://app.trinethire.com/companies/132106-jacques-marie-mage-inc/jobs/122685-product-design-intern",
+      "url": "https://app.trinethire.com/companies/132106-jacques-marie-mage-inc/jobs/122685-product-design-intern",
+      "location": "West Hollywood, Los Angeles, California - onsite at Jacques Marie Mage headquarters; temporary internship; schedule and duration not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "$18-$21 USD per hour",
+      "eligibility": "Currently pursuing or recently completed a degree in Industrial Design, Fashion Design, Product Design, or a related field. Applicants need strong organization and attention to detail, proficiency in Adobe Illustrator, Photoshop, and InDesign plus Microsoft Office, communication and collaboration skills, the ability to manage and prioritize multiple tasks, visual sensibility, and an interest in design, fashion, and eyewear. Work includes organizing and cataloguing product samples, maintaining color, material, and finish archives, preparing CMF technical files for vendors, creating presentations, updating the collection launch wall, and supporting research, trend analysis, and material sourcing. The application asks about U.S. work authorization and current or future employment-visa sponsorship needs but does not state whether sponsorship is available. The official source does not list an application deadline, schedule, or internship duration.",
+      "discoveredAt": "2026-07-24T04:38:51.014Z",
+      "attemptedAt": "2026-07-24T04:38:51.014Z",
+      "updatedAt": "2026-07-24T04:38:51.014Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A recent job-board discovery surfaced the listing, and Jacques Marie Mage's employer-hosted TriNet careers page displayed the Product Design Intern role with an active application form during the July 23, 2026 check.",
+        "The official source confirms the onsite West Hollywood headquarters location, temporary intern classification, current or recent design-degree eligibility, Adobe design-tool requirements, and product-sample, CMF, presentation, trend-research, and material-sourcing responsibilities.",
+        "The employer page lists an $18-$21 USD hourly range. It does not list a deadline, schedule, or duration, and its application asks about U.S. work authorization and sponsorship needs without stating a sponsorship policy."
       ],
       "needsReview": false
     }
