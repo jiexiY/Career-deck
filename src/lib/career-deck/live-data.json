@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T23:44:04.264Z",
+  "updatedAt": "2026-07-24T23:54:04.502Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14511,6 +14511,37 @@
         "A current search surfaced the opening, and Binance's official Lever page displayed Binance Accelerator Program - UI/UX Design with an active application action during the July 24, 2026 check.",
         "The employer-hosted ATS confirms a three-to-six-month remote program based in Hong Kong or Taipei covering user research, interaction and visual design, internal innovation projects, cross-functional implementation, feedback-driven iteration, and AI-assisted workflows using tools such as Figma Make, CodeX, and Google Stitch.",
         "Binance opens the program to current university students and recent graduates and describes competitive salary and benefits without an amount; the official source does not list a deadline, fixed start date, weekly schedule, exact compensation, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-trimble-ux-ui-design-intern",
+      "title": "UX/UI Design Intern",
+      "organization": "Trimble",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-trimble-workday-r56041",
+      "sourceName": "Trimble Careers / Workday",
+      "sourceUrl": "https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/New-Zealand---Christchurch/UX-UI-Design-Intern_R56041",
+      "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/New-Zealand---Christchurch/UX-UI-Design-Intern_R56041",
+      "location": "Christchurch, New Zealand - full-time and based at Trimble's New Zealand headquarters; work arrangement not explicitly listed on official source; 0% travel",
+      "deadline": "2026-08-22",
+      "compensation": "Paid internship; amount not listed on official source",
+      "eligibility": "Currently pursuing a degree in User Experience Design, Human-Computer Interaction, Interaction Design, or a related field. Applicants need a portfolio demonstrating end-to-end thinking, research, decisions, trade-offs, and outcomes; fluency with industry-standard UI design and prototyping tools; an interest in AI-assisted prototyping; and strong visual, interaction-design, and design-system fundamentals. Experience using AI-assisted prototyping tools and confidence working independently within small cross-functional design teams are preferred. The internship is full-time and lasts 12 weeks. The official source does not list an exact compensation amount, internship start or end dates, a weekly schedule, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-24T23:54:04.502Z",
+      "attemptedAt": "2026-07-24T23:54:04.502Z",
+      "updatedAt": "2026-07-24T23:54:04.502Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Trimble's official Workday API returned requisition R56041 as active and application-enabled during the July 24, 2026 check; Workday identifies a July 22, 2026 posting date and an August 22, 2026 application end date.",
+        "The official source confirms a full-time, 12-week paid internship based at Trimble's Christchurch headquarters, with high-fidelity interface design across desktop, web, mobile, and embedded platforms, AI-assisted prototyping, design-system work, user testing, field visits, and research synthesis.",
+        "Trimble requires current UX Design, HCI, Interaction Design, or related study plus a portfolio and UI-design and prototyping fluency; the official source does not list a pay amount, internship dates, weekly schedule, or work-authorization terms."
       ],
       "needsReview": false
     }
