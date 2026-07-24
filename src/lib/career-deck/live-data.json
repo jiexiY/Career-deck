@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T02:34:49.675Z",
+  "updatedAt": "2026-07-24T03:38:50.442Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13797,6 +13797,37 @@
         "A LinkedIn discovery surfaced the recently reposted role, and Maesa's official Greenhouse page displayed an active Apply action during the July 23, 2026 check.",
         "The official Greenhouse API returned HTTP 200 for job 8533022002 and confirmed the Design Engineer Co-Op title, Los Angeles location, Design Studio - LA department, and employer application URL.",
         "The employer source confirms a six-month, 40-hour-per-week placement approximately July through December 2026, at least four onsite days per week, current bachelor's-degree eligibility, packaging design-engineering responsibilities, and $20-$21 hourly compensation; it does not list a deadline or sponsorship policy."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-kensho-product-design-intern",
+      "title": "Product Design Intern - Summer 2026",
+      "organization": "Kensho Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-spglobal-workday-319669",
+      "sourceName": "S&P Global Careers / Workday",
+      "sourceUrl": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Product-Design-Intern---Summer-2026_319669",
+      "url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Product-Design-Intern---Summer-2026_319669",
+      "location": "New York, New York or Cambridge, Massachusetts - full time; Summer 2026; work arrangement and exact internship dates not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need a portfolio showing thoughtful UX and UI design from sketches through polished interfaces, the ability to explain their design process, experience defining user flows and application architecture, strong typography and information-hierarchy skills, and effective communication and collaboration. Experience with data-dense or AI-driven products and finance is valued; Figma and user-research platforms are listed tools. Work includes user research, sketches, interaction diagrams, wireframes, UI designs and interactive prototypes, generative-AI product interactions, design standards, and collaboration with product, software-engineering, and machine-learning teams. Applicants must be authorized to work in the United States without current or future visa sponsorship. The official source does not state a degree or student-status requirement, compensation, an application deadline, exact internship dates, or work arrangement.",
+      "discoveredAt": "2026-07-24T03:38:50.442Z",
+      "attemptedAt": "2026-07-24T03:38:50.442Z",
+      "updatedAt": "2026-07-24T03:38:50.442Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A LinkedIn discovery surfaced the recently reposted role, and S&P Global's official Workday page displayed an Apply action for requisition 319669 during the July 23, 2026 check; the employer page marked it as posted four days earlier.",
+        "The official posting confirms the Product Design Intern - Summer 2026 title, New York and Cambridge locations, full-time schedule, product-design and user-research scope, portfolio qualifications, and U.S. work authorization without current or future visa sponsorship.",
+        "The employer-hosted URL returned HTTP 200, while the Workday JSON endpoint returned HTTP 403. The posting does not list compensation, a deadline, exact internship dates, work arrangement, or a degree or student-status requirement."
       ],
       "needsReview": false
     }
