@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T18:32:12.932Z",
+  "updatedAt": "2026-07-24T18:43:13.608Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14076,6 +14076,37 @@
         "Hypersolid's official careers board listed Internship Design as an active internship and linked to the employer's application page during the July 24, 2026 check.",
         "The official vacancy page offered an active application and described September 2026 graduation and working internships spanning UX design, UI and visual design, and product design.",
         "The employer page names Alkmaar and Amsterdam, requires current design-related study, English fluency, and a portfolio, and does not list compensation, a deadline, duration, weekly schedule, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-noise-industrial-design-intern",
+      "title": "Industrial Design Intern",
+      "organization": "Noise",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-noise-freshteam-nyydqvsztwbs",
+      "sourceName": "Noise Freshteam",
+      "sourceUrl": "https://gonoise.freshteam.com/jobs/nYyDQvsZTWbs/Industrial%20Design%20Intern",
+      "url": "https://gonoise.freshteam.com/jobs/nYyDQvsZTWbs/Industrial%20Design%20Intern",
+      "location": "Gurgaon, India - onsite, Monday-Friday, 9:30 am-6:30 pm",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source; the application asks candidates for monthly stipend expectations",
+      "eligibility": "Applicants must be pursuing or have recently completed a degree in Industrial Design, Product Design, or a related field and be available for a six-month, full-time onsite internship. A product-design portfolio, strong sketching fundamentals, and proficiency in Rhino or Fusion 360 plus KeyShot or Blender are expected. The application requires availability to work from the Gurgaon office Monday through Friday from 9:30 am to 6:30 pm. The official source does not list an application deadline, stipend amount, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T18:43:13.608Z",
+      "attemptedAt": "2026-07-24T18:43:13.608Z",
+      "updatedAt": "2026-07-24T18:43:13.608Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Noise's official Freshteam board and direct application page displayed the Industrial Design Intern role as open during the July 24, 2026 check.",
+        "The official page's structured job data reported a July 24, 2026 posting date and identified the role as an onsite internship in Gurgaon, India.",
+        "The employer page confirms a six-month full-time commitment, the degree, portfolio, sketching, CAD, and rendering requirements, and an onsite Monday-Friday schedule; it does not list a deadline, stipend amount, or work-authorization terms."
       ],
       "needsReview": false
     }
