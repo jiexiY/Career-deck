@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T16:57:23.927Z",
+  "updatedAt": "2026-07-24T18:12:12.904Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14016,6 +14016,37 @@
         "Official Zynga university URL was present in the shared conversation."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-24-interwood-mobel-ui-ux-design-intern-web",
+      "title": "UI/UX Design Intern (Web)",
+      "organization": "Interwood Mobel",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-interwood-mobel-workable-marketing-creative-intern",
+      "sourceName": "Interwood Mobel Workable",
+      "sourceUrl": "https://jobs.workable.com/view/2HZCMVbgamuq6gryBFeTkW/marketing-and-creative-intern-in-karachi-at-interwood-mobel",
+      "url": "https://jobs.workable.com/view/2HZCMVbgamuq6gryBFeTkW/marketing-and-creative-intern-in-karachi-at-interwood-mobel",
+      "location": "Karachi, Sindh, Pakistan - onsite; paid six-week internship; work schedule not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid internship; amount not listed on official source",
+      "eligibility": "Applicants should be pursuing a BS in Computer Science or Software Engineering, a Bachelor of Design, or a Bachelor of Fine Arts in Interactive Design. The posting also accepts candidates from any degree program who provide a strong UI/UX portfolio and demonstrate Figma or Adobe XD skills. The official source does not list an application deadline, compensation amount, work schedule, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T18:12:12.904Z",
+      "attemptedAt": "2026-07-24T18:12:12.904Z",
+      "updatedAt": "2026-07-24T18:12:12.904Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.97,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Interwood Mobel's official Workable posting displayed an active application for its Karachi internship program and was labeled posted six days earlier during the July 24, 2026 check.",
+        "The employer posting explicitly includes a paid, six-week UI/UX Design Intern (Web) role and states the relevant degree, portfolio, Figma, and Adobe XD qualifications.",
+        "The Workable page groups this opening with other internship tracks and does not list a compensation amount, application deadline, work schedule, or work-authorization terms."
+      ],
+      "needsReview": false
     }
   ]
 }
