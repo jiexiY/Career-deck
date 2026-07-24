@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T18:43:13.608Z",
+  "updatedAt": "2026-07-24T19:33:20.609Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-24-flexisaf-ai-native-ui-ux-design-intern",
+      "title": "AI Native UI/UX Design Intern",
+      "organization": "FlexiSAF Edusoft Limited",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-flexisaf-zoho-440366000014982075",
+      "sourceName": "FlexiSAF Edusoft Careers / Zoho Recruit",
+      "sourceUrl": "https://flexisaf.com/internship/",
+      "url": "https://flexisaf.zohorecruit.com/jobs/Careers/440366000014982075/AI-Native-UI-UX-Design-Intern?source=CareerSite",
+      "location": "Nigeria - primarily remote; SIWES and NYSC participants may have onsite obligations, and the employer states that those outside Abuja, Kano, and Adamawa cannot join under those categories",
+      "deadline": "2026-08-17",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must commit 40 hours per week, have at least a Senior Secondary certificate, have a computer and internet access, and show interest in design or information technology; tertiary students seeking SIWES or NYSC placement and graduates are eligible. Role-specific expectations include design foundations, familiarity with Figma and Adobe design tools, UI/UX and human-centered design principles, user research, usability testing, accessibility, visual-design fundamentals, teamwork, resourcefulness, and interest in AI-assisted research, ideation, writing, prototyping, and design evaluation. The program is primarily remote for Nigeria residents, while SIWES and NYSC participants may have onsite obligations; the employer says applicants outside Abuja, Kano, and Adamawa cannot participate under those categories. Compensation and work-authorization or sponsorship terms are not listed.",
+      "discoveredAt": "2026-07-24T19:33:20.609Z",
+      "attemptedAt": "2026-07-24T19:33:20.609Z",
+      "updatedAt": "2026-07-24T19:33:20.609Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "FlexiSAF's employer-hosted internship page states that applications for the September-to-December 2026 cohort are open through August 17, 2026 and lists AI-Native UI/UX Design as an available pathway.",
+        "The employer's official Zoho Recruit page returned HTTP 200, identifies record 440366000014982075 as a published remote AI Native UI/UX Design Intern training role, and records Date Opened as July 16, 2026.",
+        "The official sources confirm the 40-hour weekly commitment, minimum education and equipment requirements, UI/UX and research expectations, primarily remote Nigeria eligibility, and SIWES/NYSC location limits; they do not list compensation or work-authorization terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-24-figr-product-design-intern",
