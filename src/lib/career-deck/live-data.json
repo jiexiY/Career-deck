@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T01:53:19.141Z",
+  "updatedAt": "2026-07-24T02:04:19.281Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13516,6 +13516,99 @@
         "Freshket's official careers page displayed the Product Designer Intern role and a Start to Apply action during the July 23, 2026 check; both the employer job page and its application form returned HTTP 200.",
         "The employer source confirms the intern classification, freshket Office (Suthi Building) workplace, flexible 10.00-19.00 schedule, current-student or recent-graduate eligibility, Figma and portfolio qualifications, and web-and-mobile product-design scope.",
         "The official page does not expose a posting date, so freshness confidence is reduced; it does not list a city or country, deadline, compensation, internship dates or duration, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-trane-technologies-user-experience-design-intern",
+      "title": "User Experience Design Intern",
+      "organization": "Trane Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-trane-workday-92602150",
+      "sourceName": "Trane Technologies Careers / Workday",
+      "sourceUrl": "https://tranetechnologies.wd12.myworkdayjobs.com/en-US/Trane_Technologies_Careers/job/User-Experience-Design-Intern_92602150-1",
+      "url": "https://tranetechnologies.wd12.myworkdayjobs.com/en-US/Trane_Technologies_Careers/job/User-Experience-Design-Intern_92602150-1",
+      "location": "Davidson, North Carolina - full time; Workday labels the role On-Site (5 days), while the posting states Monday-Thursday onsite and a flexible Friday location",
+      "deadline": "Not listed on official source",
+      "compensation": "$22-$30 per hour based on schooling; the official page separately lists an $18.00-$26.50 hourly base-pay range",
+      "eligibility": "Currently pursuing a bachelor's or master's degree in UX Design, Human-Computer Interaction, Interaction Design, Product Design, Digital Media, or a related field. Applicants need a basic understanding of user-centered design and design thinking, familiarity with Figma, Sketch, or Adobe XD, communication and collaboration skills, and a portfolio showing design thinking and problem solving. Interest in AI, emerging technology, mobile design, data visualization, IoT interfaces, design systems, or HTML, CSS, and JavaScript is preferred. The ten-week internship covers web, mobile, AI-powered, digital-twin, IoT, and enterprise-SaaS experiences, user research, personas and journey maps, wireframes and prototypes, design systems, usability testing, and cross-functional agile work. The official source does not list exact internship dates, an application deadline, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T02:04:19.281Z",
+      "attemptedAt": "2026-07-24T02:04:19.281Z",
+      "updatedAt": "2026-07-24T02:04:19.281Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Trane Technologies' official Workday page displayed an active Apply action for full-time requisition 92602150 in Davidson during the July 23, 2026 check; the employer-hosted URL returned HTTP 200 and showed the role as posted 22 days earlier.",
+        "The employer source confirms the ten-week program, current design-related bachelor's or master's enrollment, portfolio and design-tool expectations, UX research and prototyping scope, and the posting's Monday-Thursday onsite and flexible-Friday schedule statement.",
+        "The official page states $22-$30 per hour based on schooling and separately lists an $18.00-$26.50 hourly base-pay range without reconciling the figures. Its Workday JSON endpoint returned HTTP 403, and the posting does not list exact internship dates, a deadline, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-primerica-ux-ui-design-intern",
+      "title": "UX/UI Design Intern",
+      "organization": "Primerica",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-primerica-workday-r-133032026",
+      "sourceName": "Primerica Careers / Workday",
+      "sourceUrl": "https://primerica.wd1.myworkdayjobs.com/en-US/PRI/job/UX-UI-Design-Intern_R-133032026",
+      "url": "https://primerica.wd1.myworkdayjobs.com/en-US/PRI/job/UX-UI-Design-Intern_R-133032026",
+      "location": "Duluth, Georgia - full time; work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "$18-$22 per hour depending on undergraduate level; graduate-student ranges may vary",
+      "eligibility": "Currently pursuing a degree in Interaction Design, User Experience Design, Product Design, Human-Computer Interaction, Graphic Design, or a related field. Applicants need familiarity with UX/UI fundamentals such as journeys, wireframes, mockups, and basic research, experience with Figma or similar software, strong written communication, information organization, and collaborative work. UX research, design systems, service design, Confluence, Miro, Figma components and prototyping, AI tools, presentation design, and visual storytelling are preferred. Work includes journey and persona documentation, research synthesis, OneX Design System documentation, wireframes and UI iteration, competitive research, presentation templates, and AI-tool workflow guidance. The official source does not list internship dates or duration, an application deadline, work arrangement, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T02:04:19.281Z",
+      "attemptedAt": "2026-07-24T02:04:19.281Z",
+      "updatedAt": "2026-07-24T02:04:19.281Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Primerica's official Workday page displayed an active Apply action for the full-time UX/UI Design Intern role in Duluth during the July 23, 2026 check; the employer-hosted URL returned HTTP 200 and showed the role as posted 18 days earlier.",
+        "The employer source confirms current design-related degree enrollment, UX/UI and research fundamentals, Figma or similar tools, design-system and journey-documentation responsibilities, and an $18-$22 hourly range for undergraduate students with potentially different graduate-student ranges.",
+        "The Workday JSON endpoint returned HTTP 404, so details were extracted from the employer-hosted page; the posting does not list internship dates or duration, a deadline, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-copart-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Copart",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-copart-workday-jr106161",
+      "sourceName": "Copart Careers / Workday",
+      "sourceUrl": "https://copart.wd12.myworkdayjobs.com/en-US/Copart/job/Product-Design-Intern_JR106161",
+      "url": "https://copart.wd12.myworkdayjobs.com/en-US/Copart/job/Product-Design-Intern_JR106161",
+      "location": "Dallas, Texas - full time and onsite at Copart headquarters",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need an online portfolio or work samples, at least one year of user-experience design experience, proficiency in Figma design, prototyping, and user flows, experience across products, websites, mobile apps, or other platforms, and the ability to turn ambiguous needs into clear experiences. HTML, CSS, and native-mobile app patterns are relevant. Work includes product design, multidisciplinary collaboration, design-system modernization, requirements gathering, end-to-end flows and prototypes, and implementation support. The official source does not state a student-status or degree requirement, internship dates or duration, an application deadline, compensation, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T02:04:19.281Z",
+      "attemptedAt": "2026-07-24T02:04:19.281Z",
+      "updatedAt": "2026-07-24T02:04:19.281Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.93,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Copart's official Workday page displayed an active Apply action for full-time requisition JR106161 at its Dallas headquarters during the July 23, 2026 check; the employer-hosted URL returned HTTP 200 and showed the role as posted more than 30 days earlier.",
+        "The employer source confirms the Product Design Intern title, Dallas onsite location, portfolio and Figma requirements, multi-platform product-design scope, design-system work, and cross-functional implementation responsibilities.",
+        "Copart's Workday JSON endpoint returned HTTP 403, so details were extracted from the employer-hosted page. The posting does not state student status, degree requirements, internship dates or duration, a deadline, compensation, or work-authorization terms."
       ],
       "needsReview": false
     }
