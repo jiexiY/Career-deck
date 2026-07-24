@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T01:39:19.026Z",
+  "updatedAt": "2026-07-24T01:53:19.141Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13454,6 +13454,68 @@
         "A LinkedIn discovery surfaced the role, and Magna's official Workday API returned requisition R00238235 as posted and open for applications during the July 23, 2026 check; the employer-hosted career URL returned HTTP 200.",
         "The official posting confirms the Lowell location, full-time schedule, five-day in-office policy, Student / Co-Op worker type, current design-related degree requirement, Figma and user-centered-design qualifications, and UX product-design scope.",
         "The employer source lists an hourly rate of $25-$35 and does not list an application deadline, internship dates, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-razer-industrial-design-intern",
+      "title": "Industrial Design Intern",
+      "organization": "Razer",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-razer-workday-jr2026007363",
+      "sourceName": "Razer Careers / Workday",
+      "sourceUrl": "https://razer.wd3.myworkdayjobs.com/en-US/Careers/job/Industrial-Design-Intern_JR2026007363",
+      "url": "https://razer.wd3.myworkdayjobs.com/en-US/Careers/job/Industrial-Design-Intern_JR2026007363",
+      "location": "Singapore - full time; work arrangement and internship dates not listed",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Pursuing a degree or diploma in Industrial Design or Product Design and based in Singapore. Applicants need 3D-modeling proficiency, preferably Rhino, familiarity with KeyShot rendering and Adobe Photoshop and Illustrator, strong problem-solving skills, attention to detail, and an interest in gaming and technology. Work includes product concepts and sketches, detailed 3D models, prototypes and mock-ups, design reviews, and research into industry trends, materials, and manufacturing processes for gaming peripherals and hardware. The official source does not list an application deadline, compensation, internship dates or duration, work arrangement, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T01:53:19.141Z",
+      "attemptedAt": "2026-07-24T01:53:19.141Z",
+      "updatedAt": "2026-07-24T01:53:19.141Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A LinkedIn discovery surfaced the role, and Razer's official Workday page displayed an active Apply action for full-time requisition JR2026007363 in Singapore during the July 23, 2026 check; the employer-hosted URL returned HTTP 200.",
+        "The official posting confirms the Industrial Design Intern title, Singapore location, degree or diploma requirement, 3D-modeling and visualization qualifications, and gaming-hardware product-design scope.",
+        "Razer's Workday JSON endpoint returned HTTP 403, so details were extracted from the employer-hosted page; the posting does not list a deadline, compensation, internship dates or duration, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-freshket-product-designer-intern",
+      "title": "Product Designer Intern",
+      "organization": "Freshket",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-freshket-careers-product-designer-intern",
+      "sourceName": "Freshket Careers",
+      "sourceUrl": "https://www.careers.freshket.co/jobs/product-designer-intern",
+      "url": "https://www.careers.freshket.co/jobs/product-designer-intern",
+      "location": "freshket Office (Suthi Building) - flexible 10.00-19.00 schedule; work arrangement not listed",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled in or recently graduated from a bachelor's or master's degree program in a related field. Applicants should be familiar with modern design tools, especially Figma, provide a student or personal-project portfolio demonstrating design thinking and visual skills, understand user-centered design principles, communicate and collaborate well, and be proactive, curious, and open to feedback. Work covers web and mobile product features, user flows, wireframes, mockups and interactive prototypes, user research and usability testing, design-system and UI-component maintenance, design critiques, agile development, and collaboration with product, engineering, and business teams. The official source does not list a city or country, application deadline, compensation, internship dates or duration, work arrangement, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T01:53:19.141Z",
+      "attemptedAt": "2026-07-24T01:53:19.141Z",
+      "updatedAt": "2026-07-24T01:53:19.141Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.82,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Freshket's official careers page displayed the Product Designer Intern role and a Start to Apply action during the July 23, 2026 check; both the employer job page and its application form returned HTTP 200.",
+        "The employer source confirms the intern classification, freshket Office (Suthi Building) workplace, flexible 10.00-19.00 schedule, current-student or recent-graduate eligibility, Figma and portfolio qualifications, and web-and-mobile product-design scope.",
+        "The official page does not expose a posting date, so freshness confidence is reduced; it does not list a city or country, deadline, compensation, internship dates or duration, work arrangement, or work-authorization terms."
       ],
       "needsReview": false
     }
