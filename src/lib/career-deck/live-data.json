@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T05:09:14.201Z",
+  "updatedAt": "2026-07-24T05:19:14.308Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13921,6 +13921,37 @@
         "Singtel Group's official careers page loaded successfully and displayed the Experience Designer, Intern role with an Apply now action during the July 23, 2026 check; the employer page is dated July 21, 2026.",
         "The employer source confirms the Singapore location, current diploma-or-degree eligibility, UX/UI and Figma expectations, design-quality review, user-flow documentation, development handoff, Agile collaboration, and design-system responsibilities.",
         "The official posting does not list compensation, an application deadline, work arrangement, schedule, internship duration, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-barilla-design-thinking-ux-ui-intern",
+      "title": "Design Thinking Internship - UX/UI Designer",
+      "organization": "Barilla Group",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-barilla-careers-1414662633",
+      "sourceName": "Barilla Group Careers",
+      "sourceUrl": "https://jobs.barillagroup.com/job/Parma-Design-Thinking-Internship-UXUI-Designer-Parm-Parma/1414662633/",
+      "url": "https://jobs.barillagroup.com/job/Parma-Design-Thinking-Internship-UXUI-Designer-Parm-Parma/1414662633/",
+      "location": "Parma, Italy - based at Barilla's Parma headquarters; six-month internship starting September 2026; work schedule not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Master's degree or final-year student in Interaction Design, Service Design, Digital Design, UX/UI, or a related field. Applicants must be fluent in English and Italian and should know user research methods, design thinking, prototyping, UX/UI principles and tools such as Figma or Adobe XD, digital-platform and web-architecture basics, content structuring, and AI-based creative tools. Work includes user research, benchmark analysis, journey mapping, wireframes, prototypes, UI design, content structure and storytelling, user testing, cross-functional collaboration, and supporting the Open Innovation platform from concept through implementation with an external agency. The official source does not list compensation, an application deadline, work schedule, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T05:19:14.308Z",
+      "attemptedAt": "2026-07-24T05:19:14.308Z",
+      "updatedAt": "2026-07-24T05:19:14.308Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Barilla Group's employer-hosted careers page loaded successfully and displayed the Design Thinking Internship - UX/UI Designer role with active Apply actions during the July 23, 2026 check; the page is dated July 14, 2026.",
+        "The official source confirms the Parma headquarters location, six-month duration, September 2026 start, final-year or master's-level design eligibility, English and Italian fluency, and end-to-end UX/UI responsibilities for an Open Innovation platform.",
+        "The employer page does not list compensation, an application deadline, work schedule, or work-authorization terms."
       ],
       "needsReview": false
     }
