@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T02:14:19.407Z",
+  "updatedAt": "2026-07-24T02:24:49.570Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13704,6 +13704,68 @@
         "Delve's official JazzHR career page displayed the Industrial Design Intern role and an active Submit Application form during the July 23, 2026 check.",
         "The employer source confirms the in-person Madison, Wisconsin location, summer timing, current Industrial Design degree and coursework eligibility, portfolio preference, 2D and 3D design expectations, and user-centered product-design responsibilities.",
         "The posting does not expose a posting date, exact internship dates, a deadline, or compensation; the form asks about work authorization and sponsorship without stating a sponsorship policy."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-3m-undergraduate-sibg-industrial-design-intern",
+      "title": "Internship - 2026 Undergraduate SIBG Industrial Design Intern",
+      "organization": "3M",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-3m-workday-r01156092",
+      "sourceName": "3M Careers / Workday",
+      "sourceUrl": "https://3m.wd1.myworkdayjobs.com/en-US/Search/job/Internship---2026-Undergraduate-3M-Design-Intern---Safety---Industrial-Business-Group--SIBG-_R01156092",
+      "url": "https://3m.wd1.myworkdayjobs.com/en-US/Search/job/Internship---2026-Undergraduate-3M-Design-Intern---Safety---Industrial-Business-Group--SIBG-_R01156092",
+      "location": "Maplewood, Minnesota or Austin, Texas - full time; onsite at least four days per week; typically 10-12 weeks in Summer 2026; up to 10% domestic travel",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source; eligible interns receive a housing and transportation stipend under current policy",
+      "eligibility": "Currently pursuing a bachelor's degree or higher at an accredited institution. Preferred qualifications include a degree in Graphic Design, Design Communication, Industrial Design, UX/UI, or a related field; completion of at least junior year or six semesters before the internship; a 3.0 or higher GPA; experience with Adobe tools, Figma, SolidWorks, Sketchbook Pro, or similar software; organization, storytelling, communication, collaboration, and proactive problem solving. Work includes design and design-research deliverables, brand-guideline implementation, market and technology research, product design, software UX/UI, and cross-functional collaboration. Applicants must be legally authorized to work in the country of employment without employment-visa sponsorship. The official source does not list an application deadline or hourly compensation.",
+      "discoveredAt": "2026-07-24T02:24:49.570Z",
+      "attemptedAt": "2026-07-24T02:24:49.570Z",
+      "updatedAt": "2026-07-24T02:24:49.570Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A LinkedIn discovery surfaced the role, and 3M's official Workday page displayed an Apply action for requisition R01156092 during the July 23, 2026 check; the employer page showed it as posted three days earlier.",
+        "The employer source confirms the Maplewood or Austin locations, four-day onsite model, full-time 10-to-12-week Summer 2026 assignment, current-degree requirement, preferred design disciplines and tools, UX/UI and industrial-design scope, and work authorization without visa sponsorship.",
+        "3M lists a housing and transportation stipend for eligible interns but no amount or hourly compensation. The Workday JSON endpoint returned HTTP 403, so details were extracted from the employer-hosted page; no application deadline is listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-above-industrial-design-internship",
+      "title": "Industrial Design Internship",
+      "organization": "Above Agency",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-above-teamtailor-5040076",
+      "sourceName": "Above Agency Careers / Teamtailor",
+      "sourceUrl": "https://above.teamtailor.com/jobs/5040076-industrial-design-internship",
+      "url": "https://above.teamtailor.com/jobs/5040076-industrial-design-internship",
+      "location": "Malm\u00f6 or Stockholm, Sweden - onsite; five-to-six-month placement; next 2026 intake around August or September, with individual arrangements possible",
+      "deadline": "Rolling; the official source says interviews are held on a rolling basis",
+      "compensation": "Paid; amount not listed on official source",
+      "eligibility": "Applicants need an industrial-design portfolio, strong conceptual thinking and creativity, a user-centered approach, adaptable design methods, fluency in CAD such as SolidWorks or Rhino including surfacing, high-quality visualization and animation skills, physical prototyping experience, curiosity about sustainability, materials, and manufacturing, communication skills, and a collaborative, self-driven attitude. The official source does not state a degree or student-status requirement. Work spans research, concept definition, prototyping, visualization, consumer products, smart-home devices, furniture, robotics, mobility, healthcare, packaging, and cross-functional design teams. Above states that internships are paid and that visa and work-permit support is available to successful international candidates.",
+      "discoveredAt": "2026-07-24T02:24:49.570Z",
+      "attemptedAt": "2026-07-24T02:24:49.570Z",
+      "updatedAt": "2026-07-24T02:24:49.570Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A LinkedIn discovery surfaced the listing, and Above Agency's official Teamtailor page displayed an Apply now action and loaded application form during the July 23, 2026 check.",
+        "The employer source confirms onsite placements in Malm\u00f6 or Stockholm, a five-to-six-month duration, 2026 intakes around February or March and August or September, industrial-design portfolio and CAD requirements, prototyping, visualization, and cross-functional physical-product work.",
+        "Above states that interviews are rolling, all internships are paid, and successful international candidates can receive visa and work-permit support; the source does not list a pay amount or a fixed deadline."
       ],
       "needsReview": false
     }
