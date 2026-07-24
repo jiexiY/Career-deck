@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T18:12:12.904Z",
+  "updatedAt": "2026-07-24T18:32:12.932Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14045,6 +14045,37 @@
         "Interwood Mobel's official Workable posting displayed an active application for its Karachi internship program and was labeled posted six days earlier during the July 24, 2026 check.",
         "The employer posting explicitly includes a paid, six-week UI/UX Design Intern (Web) role and states the relevant degree, portfolio, Figma, and Adobe XD qualifications.",
         "The Workable page groups this opening with other internship tracks and does not list a compensation amount, application deadline, work schedule, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-hypersolid-internship-design",
+      "title": "Internship Design",
+      "organization": "Hypersolid",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hypersolid-recruitee-internship-design",
+      "sourceName": "Hypersolid Careers / Recruitee",
+      "sourceUrl": "https://vacancies.hypersolid.com/o/internship-design",
+      "url": "https://vacancies.hypersolid.com/o/internship-design",
+      "location": "Alkmaar or Amsterdam, Netherlands - listed as hybrid; the role description says office-based work",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing a Bachelor's or HBO degree in Design, UX Design, Interaction Design, or a related field and be seeking a graduation or working internship beginning in September 2026. A design portfolio and fluency in English are required. Experience with UX research, design systems, product or developer collaboration, or AI tools is beneficial. The official source does not list compensation, an application deadline, internship duration, weekly schedule, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T18:32:12.932Z",
+      "attemptedAt": "2026-07-24T18:32:12.932Z",
+      "updatedAt": "2026-07-24T18:32:12.932Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hypersolid's official careers board listed Internship Design as an active internship and linked to the employer's application page during the July 24, 2026 check.",
+        "The official vacancy page offered an active application and described September 2026 graduation and working internships spanning UX design, UI and visual design, and product design.",
+        "The employer page names Alkmaar and Amsterdam, requires current design-related study, English fluency, and a portfolio, and does not list compensation, a deadline, duration, weekly schedule, or work-authorization terms."
       ],
       "needsReview": false
     }
