@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T22:31:05.051Z",
+  "updatedAt": "2026-07-24T22:48:35.431Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14386,6 +14386,37 @@
         "A current third-party listing surfaced the opening, and Shopee's employer-hosted careers site and official WorkAtSea ATS both returned UI/UX Designer Intern as active during the July 24, 2026 check.",
         "The official ATS identifies requisition J00115596 as a Singapore Design-team internship and confirms web-platform UI/UX prototyping, design-guideline, interaction-design, and cross-functional responsibilities.",
         "Shopee's official source confirms current university or polytechnic study, multi-tool design proficiency, preferred three-to-six-month full-time availability, and part-time eligibility at three or more working days per week; it does not list compensation, a deadline, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-aichat-ui-ux-design-intern",
+      "title": "UI / UX Design Intern",
+      "organization": "AiChat",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-aichat-careers-ui-ux-design-intern",
+      "sourceName": "AiChat Careers",
+      "sourceUrl": "https://www.aichat.com/careers",
+      "url": "https://www.aichat.com/careers",
+      "location": "Singapore - work arrangement, weekly schedule, and internship duration not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants should have demonstrable UI/UX project experience with a portfolio, experience using Figma for web UI design, strong English communication skills, and an interest in learning in a startup environment. Prior startup internship experience is listed as a plus. Work includes designing web and mobile applications in Figma, researching competitors and user interface trends, collaborating with engineers, marketers, and international colleagues, and creating visual assets with Illustrator and Photoshop. The official source does not list student-status or degree requirements, compensation, an application deadline, a fixed schedule, internship duration, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-24T22:48:35.431Z",
+      "attemptedAt": "2026-07-24T22:48:35.431Z",
+      "updatedAt": "2026-07-24T22:48:35.431Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A fresh discovery listing surfaced the opening, and AiChat's employer-hosted careers page displayed UI / UX Design Intern in Singapore with an active application action during the July 24, 2026 check.",
+        "The official role listing confirms Figma-based web and mobile application design, competitor and UI-trend research, cross-functional collaboration, and Illustrator and Photoshop asset creation.",
+        "AiChat asks for demonstrable UI/UX project experience, a portfolio, Figma web-UI experience, strong English, and a startup learning mindset; the official source does not list compensation, a deadline, schedule, duration, student-status requirements, or work-authorization terms."
       ],
       "needsReview": false
     }
