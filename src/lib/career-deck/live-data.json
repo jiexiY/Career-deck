@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T05:19:14.308Z",
+  "updatedAt": "2026-07-24T05:29:14.398Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13952,6 +13952,37 @@
         "Barilla Group's employer-hosted careers page loaded successfully and displayed the Design Thinking Internship - UX/UI Designer role with active Apply actions during the July 23, 2026 check; the page is dated July 14, 2026.",
         "The official source confirms the Parma headquarters location, six-month duration, September 2026 start, final-year or master's-level design eligibility, English and Italian fluency, and end-to-end UX/UI responsibilities for an Open Innovation platform.",
         "The employer page does not list compensation, an application deadline, work schedule, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-knowledge-catalyst-ui-ux-designer-intern",
+      "title": "UI/UX Designer Intern",
+      "organization": "Knowledge Catalyst",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-knowledge-catalyst-careers-ui-ux-designer-intern",
+      "sourceName": "Knowledge Catalyst Careers",
+      "sourceUrl": "https://www.knowledgecatalyst.io/careers/ui-ux-designer-intern/",
+      "url": "https://www.knowledgecatalyst.io/careers/ui-ux-designer-intern/",
+      "location": "Jakarta or Bandung, Indonesia - hybrid; paid internship lasting three to six months; two positions; work schedule not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid internship; amount not listed on official source",
+      "eligibility": "Final-year student or recent graduate in Design, Computer Science, or a related field. Applicants need a portfolio that demonstrates their design process, familiarity with Figma or another industry-standard design tool, an understanding of design tokens and design systems, communication and collaboration skills, initiative, and comfort working in an Agile environment. Work includes wireframes, user flows, low-fidelity prototypes, UI mockups and visual design, cross-functional collaboration with product and development teams, responsive design, web accessibility, and user-research support. The official source does not list an application deadline, work schedule, compensation amount, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T05:29:14.398Z",
+      "attemptedAt": "2026-07-24T05:29:14.398Z",
+      "updatedAt": "2026-07-24T05:29:14.398Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Knowledge Catalyst's employer-hosted careers page loaded successfully and displayed the UI/UX Designer Intern role with active Apply Now actions and an application form during the July 23, 2026 check.",
+        "The official source confirms two paid hybrid positions based in Jakarta or Bandung, a three-to-six-month duration, final-year-or-recent-graduate eligibility, portfolio and Figma expectations, and UI/UX, design-system, accessibility, and user-research responsibilities.",
+        "The employer page does not list a posting date, application deadline, work schedule, compensation amount, or work-authorization terms."
       ],
       "needsReview": false
     }
