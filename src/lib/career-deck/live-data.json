@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T03:38:50.442Z",
+  "updatedAt": "2026-07-24T04:08:50.744Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13828,6 +13828,37 @@
         "A LinkedIn discovery surfaced the recently reposted role, and S&P Global's official Workday page displayed an Apply action for requisition 319669 during the July 23, 2026 check; the employer page marked it as posted four days earlier.",
         "The official posting confirms the Product Design Intern - Summer 2026 title, New York and Cambridge locations, full-time schedule, product-design and user-research scope, portfolio qualifications, and U.S. work authorization without current or future visa sponsorship.",
         "The employer-hosted URL returned HTTP 200, while the Workday JSON endpoint returned HTTP 403. The posting does not list compensation, a deadline, exact internship dates, work arrangement, or a degree or student-status requirement."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-ge-aerospace-additive-test-enabling-hardware-mechanical-design-intern",
+      "title": "Additive and Test Enabling Hardware Mechanical Design Intern (6 Months)",
+      "organization": "GE Aerospace",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5037439",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Additive-and-Test-Enabling-Hardware-Mechanical-Design-Intern--6-Months-_R5037439-1",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Additive-and-Test-Enabling-Hardware-Mechanical-Design-Intern--6-Months-_R5037439-1",
+      "location": "Kartal, Istanbul, Turkiye - part time for at least three days per week during the academic term and full time during summer; initial six-month internship with an optional five-month extension; no relocation assistance",
+      "deadline": "July 31, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently studying mechanical, mechatronics, metallurgy, manufacturing, or a similar engineering discipline and able to remain enrolled throughout the internship; third-year undergraduate and master's students are preferred. Applicants need English proficiency, analytical and research skills, basic root-cause analysis, finite-element analysis, and CAD geometry-modeling knowledge, strong documentation, responsibility, communication, teamwork, and availability for at least three workdays per week during the academic term plus full-time summer work. Additive-manufacturing, test-system, additive-design-method, and stronger CAD experience are preferred. Work includes production and test-part geometry preparation, analysis and modification, evaluation of analyses, additive-design literature research, procedure tracking, reporting, and documentation. The official source does not state compensation or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-24T04:08:50.744Z",
+      "attemptedAt": "2026-07-24T04:08:50.744Z",
+      "updatedAt": "2026-07-24T04:08:50.744Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday API returned HTTP 200 for requisition R5037439 and marked the posting as active, posted, and accepting applications during the July 23, 2026 check; the employer source lists a July 16, 2026 posting date.",
+        "The employer source confirms the Kartal, Istanbul location, initial six-month term with an optional five-month extension, current engineering-student requirement, academic-term and summer schedules, and additive and test-hardware mechanical design responsibilities.",
+        "The official posting lists a July 31, 2026 application deadline and no relocation assistance; it does not list compensation or work-authorization and sponsorship terms."
       ],
       "needsReview": false
     }
