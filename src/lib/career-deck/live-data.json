@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T20:44:21.763Z",
+  "updatedAt": "2026-07-24T21:16:22.299Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14231,6 +14231,37 @@
         "A recent company hiring announcement surfaced the opening, and FORMAS.AI's employer-hosted careers page listed UI/UX Design Intern as an open internship with application instructions during the July 24, 2026 check.",
         "The official page confirms remote-global or Singapore availability, full-time or part-time internship options, current-student or recent-graduate eligibility, Figma and portfolio expectations, and user-flow, interface, prototyping, design-system, and usability-testing responsibilities.",
         "The employer page asks applicants to submit a portfolio, resume or CV, and short note; it does not list compensation, an application deadline, internship duration, weekly schedule, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-intuit-product-design-coop-fall-2026",
+      "title": "Fall 2026: Product Design Co-op (4 months)",
+      "organization": "Intuit",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-intuit-careers-22712",
+      "sourceName": "Intuit Careers / Avature",
+      "sourceUrl": "https://jobs.intuit.com/en/job/toronto/fall-2026-product-design-co-op-4-months/27595/97798689504",
+      "url": "https://intuit.avature.net/en_US/externalCareers/JobApplication?pipelineId=22712",
+      "location": "Toronto, Ontario, Canada - hybrid with at least three days per week in the Toronto office; 40 hours per week from September through December 2026",
+      "deadline": "Not listed on official source",
+      "compensation": "$36-$46 CAD per hour",
+      "eligibility": "Currently enrolled in a post-secondary education program with a graduation date after the co-op ends. Applicants must be available for a four-month, 40-hour-per-week term from September through December 2026, be legally eligible to work in Canada for the full term without current or future sponsorship, and work from Intuit's Toronto office at least three days per week. The role expects knowledge of UX practices and tools such as design thinking, decision mapping, wireframing, prototyping, Figma, Adobe XD, and user research, plus familiarity with design systems, the intersection of design and code, inclusive design, accessibility, and communicating concepts through storyboards and prototypes. Work includes defining design tokens, UI components, interaction patterns, documentation, accessible prototypes, and customer research for Intuit's design system. The official source does not list an application deadline or posting date.",
+      "discoveredAt": "2026-07-24T21:16:22.299Z",
+      "attemptedAt": "2026-07-24T21:16:22.299Z",
+      "updatedAt": "2026-07-24T21:16:22.299Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Intuit's employer-hosted careers page displayed the Fall 2026 Product Design Co-op with an Apply Now action during the July 24, 2026 check, and the linked official Avature application endpoint returned HTTP 200 with the role title and application form.",
+        "The employer page confirms Toronto job ID 22712, a four-month September-through-December 2026 term, 40 hours per week, at least three office days per week, and design-system, UX, prototyping, accessibility, research, Figma, and design-and-code responsibilities.",
+        "Intuit lists a $36-$46 CAD hourly base-pay range and requires post-secondary enrollment, graduation after the co-op, and Canadian work eligibility without sponsorship; the official source does not list a deadline or posting date."
       ],
       "needsReview": false
     }
