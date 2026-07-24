@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T22:48:35.431Z",
+  "updatedAt": "2026-07-24T23:22:05.667Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14417,6 +14417,68 @@
         "A fresh discovery listing surfaced the opening, and AiChat's employer-hosted careers page displayed UI / UX Design Intern in Singapore with an active application action during the July 24, 2026 check.",
         "The official role listing confirms Figma-based web and mobile application design, competitor and UI-trend research, cross-functional collaboration, and Illustrator and Photoshop asset creation.",
         "AiChat asks for demonstrable UI/UX project experience, a portfolio, Figma web-UI experience, strong English, and a startup learning mindset; the official source does not list compensation, a deadline, schedule, duration, student-status requirements, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-philips-ux-design-intern-shanghai",
+      "title": "UX Design Intern",
+      "organization": "Philips",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-philips-workday-588364",
+      "sourceName": "Philips Careers / Workday",
+      "sourceUrl": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shanghai/UX-Design-Intern_588364",
+      "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shanghai/UX-Design-Intern_588364",
+      "location": "Shanghai, China (Shanghai - Daning A2 PIC) - full-time; work arrangement and internship duration not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently studying for a master's degree in industrial design, interaction design, human factors engineering, or a related direction. Applicants should have strong written and spoken English and an interest in pursuing work in the medical industry. The role supports Philips' CT business, including CT hardware systems, console software, and image post-processing solutions, by helping define next-generation console software workflows and UX/UI design and assisting with design research, usability testing, research reports, and medical-usability documentation. The official source does not list compensation, an application deadline, internship duration, a work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-24T23:22:05.667Z",
+      "attemptedAt": "2026-07-24T23:22:05.667Z",
+      "updatedAt": "2026-07-24T23:22:05.667Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A fresh LinkedIn listing surfaced the opening, and Philips' official Workday API returned requisition 588364 as posted and application-enabled during the July 24, 2026 check; Workday lists it as posted July 23, 2026.",
+        "The official source identifies a full-time Shanghai internship supporting Philips' CT business through next-generation console software workflow and UX/UI design, design research, usability testing, reports, and medical-usability documentation.",
+        "Philips requires current master's study in industrial design, interaction design, human factors engineering, or a related direction, plus strong written and spoken English and an interest in the medical industry; compensation, deadline, duration, work arrangement, and work-authorization terms are not listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-philips-usability-design-intern-shanghai",
+      "title": "Usability Design Intern",
+      "organization": "Philips",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-philips-workday-569815",
+      "sourceName": "Philips Careers / Workday",
+      "sourceUrl": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shanghai/Usability-Design-Intern_569815",
+      "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shanghai/Usability-Design-Intern_569815",
+      "location": "Shanghai, China (Shanghai - Daning A2 PIC) - full-time; work arrangement and internship duration not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently studying for a master's degree in human factors engineering, HCI, cognitive science, product or interaction design, or another relevant field. Applicants should understand task analysis, usability evaluation, medical-device usability requirements such as NMPA and FDA guidance and IEC 62366-1, quality systems, risk management, cognitive ergonomics, and healthcare workflows; physical-ergonomics knowledge is preferred. Philips also asks for independence, curiosity, communication and presentation skills, global multidisciplinary collaboration, formal-documentation ability, and good written and spoken English. The official source does not list compensation, an application deadline, internship duration, a work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-24T23:22:05.667Z",
+      "attemptedAt": "2026-07-24T23:22:05.667Z",
+      "updatedAt": "2026-07-24T23:22:05.667Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Philips' official Workday API returned requisition 569815 as posted and application-enabled during the July 24, 2026 check; Workday identifies a June 24, 2026 posting date.",
+        "The official source identifies a full-time Shanghai internship conducting user research, task analysis, use scenarios, post-market usability analysis, usability FMEA, UI and UX support, usability evaluations, and regulated usability-engineering documentation.",
+        "Philips requires current master's study in human factors engineering, HCI, cognitive science, product or interaction design, or a related field, alongside medical-device usability knowledge and strong English; compensation, deadline, duration, work arrangement, and work-authorization terms are not listed."
       ],
       "needsReview": false
     }
