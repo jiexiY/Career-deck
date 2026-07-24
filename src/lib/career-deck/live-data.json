@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T23:25:47.902Z",
+  "updatedAt": "2026-07-24T00:00:18.047Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13392,6 +13392,37 @@
         "A LinkedIn discovery surfaced the Singapore listing, and TikTok's official careers page returned HTTP 200 with the matching title, job code A220100A, and an Apply to this job action on July 23, 2026.",
         "The employer source confirms Singapore intern employment, TikTok product-design responsibilities, interaction-design and prototyping qualifications, cross-functional work, and the January-June or May-August 2026 commitment windows.",
         "The official page does not expose a posting date and its listed 2026 internship windows are already underway or complete as of the check, so freshness confidence is reduced; it does not list a deadline, compensation, work arrangement, degree or student-status requirement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-airbus-pwp-installation-design-engineer-internship",
+      "title": "Discover II 2026-2027 / PWP Installation Design Engineer Internship",
+      "organization": "Airbus Defence and Space",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-airbus-workday-jr10414975",
+      "sourceName": "Airbus Careers / Workday",
+      "sourceUrl": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Getafe-Area/Discover-II-2026-2027---PWP-Installation-Design-Engineer-Internship_JR10414975",
+      "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Getafe-Area/Discover-II-2026-2027---PWP-Installation-Design-Engineer-Internship_JR10414975",
+      "location": "Getafe Area, Spain - full time, 40 hours per week; 11 months beginning in early October 2026, with August excluded",
+      "deadline": "Selection process stated as April-July 2026; no exact application deadline listed",
+      "compensation": "Study grant; amount not listed on official source",
+      "eligibility": "Recent graduate with a degree in Aeronautical Engineering or Industrial Engineering (Mechanics) and B2 English. General knowledge of aeronautical component design is required; structural and mechanical design, CAD tools, analytical problem solving, collaboration, and the ability to work in complex international environments are valued. The program combines a master's course organized with Camilo Jose Cela University and an 11-month Airbus internship. Work includes Digital Mock-up design for EuroDrone or other aircraft platforms, technical solutions supporting aircraft build, test, and delivery, mechanical-component specifications and documentation, external-partner coordination, and CATIA V5/3DX. The official source does not list work-authorization terms.",
+      "discoveredAt": "2026-07-24T00:00:18.047Z",
+      "attemptedAt": "2026-07-24T00:00:18.047Z",
+      "updatedAt": "2026-07-24T00:00:18.047Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Airbus's official Workday URL returned HTTP 200 and the employer-hosted posting displayed an Apply action for requisition JR10414975 during the July 23, 2026 check.",
+        "The official posting confirms the Getafe Area location, full-time 40-hour schedule, early October 2026 start, 11-month duration, recent-graduate engineering eligibility, integrated master's study, and aircraft installation-design scope using Digital Mock-up and CATIA V5/3DX.",
+        "Airbus describes compensation only as an attractive study grant, states that selection runs from April through July 2026 without an exact deadline, and does not list work-authorization terms."
       ],
       "needsReview": false
     }
