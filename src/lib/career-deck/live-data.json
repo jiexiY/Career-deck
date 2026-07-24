@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T00:00:18.047Z",
+  "updatedAt": "2026-07-24T01:39:19.026Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13423,6 +13423,37 @@
         "Airbus's official Workday URL returned HTTP 200 and the employer-hosted posting displayed an Apply action for requisition JR10414975 during the July 23, 2026 check.",
         "The official posting confirms the Getafe Area location, full-time 40-hour schedule, early October 2026 start, 11-month duration, recent-graduate engineering eligibility, integrated master's study, and aircraft installation-design scope using Digital Mock-up and CATIA V5/3DX.",
         "Airbus describes compensation only as an attractive study grant, states that selection runs from April through July 2026 without an exact deadline, and does not list work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-magna-user-experience-summer-intern",
+      "title": "User Experience Summer Intern",
+      "organization": "Magna International",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-magna-workday-r00238235",
+      "sourceName": "Magna Careers / Workday",
+      "sourceUrl": "https://magna.wd3.myworkdayjobs.com/en-US/Magna/job/Lowell-Massachusetts-US/User-Experience-Summer-Intern_R00238235",
+      "url": "https://magna.wd3.myworkdayjobs.com/en-US/Magna/job/Lowell-Massachusetts-US/User-Experience-Summer-Intern_R00238235",
+      "location": "Lowell, Massachusetts, United States - full time; in office five days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "$25-$35 per hour",
+      "eligibility": "Currently pursuing a degree in UX Design, Interaction Design, Human-Computer Interaction, Graphic Design, or a related field. Applicants need a foundational understanding of user-centered design and design-thinking methods, familiarity with Figma for wireframing, prototyping, and visual design, problem-solving and analytical skills, and effective written and verbal communication. Relevant experience includes user research, usability testing, design systems, responsive design, accessibility, team projects, and presenting design rationale. Work spans research and discovery, wireframes and interactive prototypes, design critiques, design-system documentation, usability testing, and collaboration with product and engineering. The role is full time and in office five days per week; the official source does not list an application deadline, internship dates, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T01:39:19.026Z",
+      "attemptedAt": "2026-07-24T01:39:19.026Z",
+      "updatedAt": "2026-07-24T01:39:19.026Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A LinkedIn discovery surfaced the role, and Magna's official Workday API returned requisition R00238235 as posted and open for applications during the July 23, 2026 check; the employer-hosted career URL returned HTTP 200.",
+        "The official posting confirms the Lowell location, full-time schedule, five-day in-office policy, Student / Co-Op worker type, current design-related degree requirement, Figma and user-centered-design qualifications, and UX product-design scope.",
+        "The employer source lists an hourly rate of $25-$35 and does not list an application deadline, internship dates, or work-authorization terms."
       ],
       "needsReview": false
     }
