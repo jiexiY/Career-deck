@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T21:26:24.196Z",
+  "updatedAt": "2026-07-24T22:31:05.051Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14293,6 +14293,99 @@
         "A recent LinkedIn listing surfaced the opening, and ATRISI's employer-hosted role page and main Collaborate page both displayed UI/UX Design Intern as open with an active employer application form during the July 24, 2026 check.",
         "The official role page confirms an internship that is remote or hybrid with Bengaluru preferred, covers user journeys, dashboards, platforms, and AI-era education experiences, and asks for a resume, portfolio link, two design notes, contact details, city, and availability.",
         "The employer application offers availability choices from up to 10 hours per week through full-time; the official source does not list compensation, a deadline, duration, a fixed schedule, degree or experience requirements, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-shopee-ui-ux-intern-buyer-marketing-design-fall-2026",
+      "title": "UI/UX Intern, Buyer & Marketing - Design (Fall 2026)",
+      "organization": "Shopee",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-shopee-workatsea-j02005278",
+      "sourceName": "Shopee Careers / WorkAtSea ATS",
+      "sourceUrl": "https://careers.shopee.sg/job-detail/J02005278/1/",
+      "url": "https://careers.shopee.sg/job-detail/J02005278/1/",
+      "location": "Singapore, Singapore - full-time interns are preferred; part-time interns able to commit at least three working days per week may also apply; work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a Bachelor's degree in design, such as interaction, graphic, visual communications, product, or industrial design, or in HCI, information systems, computer science, or a related field. Applicants should understand e-commerce and business design, be proficient in at least two mainstream design and collaboration tools, and demonstrate critical thinking, adaptability, and care for user experience and business impact. Shopee prefers full-time interns, accepts part-time applicants who can commit at least three working days per week, requires a minimum three-month commitment, and prefers six months. The employer states that it prioritizes applicants who currently have the right to work in Singapore and do not require visa sponsorship. The official source does not list compensation or an application deadline.",
+      "discoveredAt": "2026-07-24T22:31:05.051Z",
+      "attemptedAt": "2026-07-24T22:31:05.051Z",
+      "updatedAt": "2026-07-24T22:31:05.051Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A fresh third-party listing surfaced the opening, and Shopee's employer-hosted careers site and official WorkAtSea ATS both returned the UI/UX Intern, Buyer & Marketing - Design (Fall 2026) role as active during the July 24, 2026 check.",
+        "The official ATS identifies requisition J02005278 as a Singapore internship and confirms web-platform UI/UX prototyping, design-guideline, interaction-design, and cross-functional responsibilities.",
+        "Shopee's official source confirms current degree study, design-tool expectations, a minimum three-month commitment, full-time or at least three working days per week, and Singapore work-rights prioritization; it does not list compensation or a deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-shopee-ui-ux-design-intern",
+      "title": "UI/UX Design Intern",
+      "organization": "Shopee",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-shopee-workatsea-j00298406",
+      "sourceName": "Shopee Careers / WorkAtSea ATS",
+      "sourceUrl": "https://careers.shopee.sg/job-detail/J00298406/1/",
+      "url": "https://careers.shopee.sg/job-detail/J00298406/1/",
+      "location": "Singapore, Singapore - full-time interns for three to six months are preferred; part-time interns able to commit at least three working days per week may also apply; work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently studying at a university or polytechnic, preferably in interaction, graphic, visual communications, product, or industrial design, HCI, information systems, computer science, or a related diploma or degree. Applicants should understand e-commerce and business design and be proficient in Figma; animation and prototyping skills are advantageous. Candidates must state their start date, end date, and full-time or part-time availability. Shopee prefers full-time interns for three to six months and also accepts part-time applicants who can commit at least three working days per week. The official source does not list compensation, an application deadline, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-24T22:31:05.051Z",
+      "attemptedAt": "2026-07-24T22:31:05.051Z",
+      "updatedAt": "2026-07-24T22:31:05.051Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A recent third-party listing surfaced the opening, and Shopee's employer-hosted careers site and official WorkAtSea ATS both returned UI/UX Design Intern as active during the July 24, 2026 check.",
+        "The official ATS identifies requisition J00298406 as a Singapore internship and confirms web-and-app UI/UX prototyping, design-guideline, interaction-design, and cross-functional responsibilities.",
+        "Shopee's official source confirms current university or polytechnic study, Figma expectations, preferred three-to-six-month full-time availability, and part-time eligibility at three or more working days per week; it does not list compensation, a deadline, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-shopee-ui-ux-designer-intern",
+      "title": "UI/UX Designer Intern",
+      "organization": "Shopee",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-shopee-workatsea-j00115596",
+      "sourceName": "Shopee Careers / WorkAtSea ATS",
+      "sourceUrl": "https://careers.shopee.sg/job-detail/J00115596/1/",
+      "url": "https://careers.shopee.sg/job-detail/J00115596/1/",
+      "location": "Singapore, Singapore - full-time interns for three to six months are preferred; part-time interns able to commit at least three working days per week may also apply; work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently studying at a university or polytechnic, preferably in interaction, graphic, visual communications, product, or industrial design, HCI, information systems, computer science, or a related diploma or degree. Applicants should understand e-commerce and business design, be proficient in at least two mainstream design and collaboration tools, and be able to learn new concepts and skills quickly. Candidates must state their start date, end date, and full-time or part-time availability. Shopee prefers full-time interns for three to six months and also accepts part-time applicants who can commit at least three working days per week. The official source does not list compensation, an application deadline, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-24T22:31:05.051Z",
+      "attemptedAt": "2026-07-24T22:31:05.051Z",
+      "updatedAt": "2026-07-24T22:31:05.051Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A current third-party listing surfaced the opening, and Shopee's employer-hosted careers site and official WorkAtSea ATS both returned UI/UX Designer Intern as active during the July 24, 2026 check.",
+        "The official ATS identifies requisition J00115596 as a Singapore Design-team internship and confirms web-platform UI/UX prototyping, design-guideline, interaction-design, and cross-functional responsibilities.",
+        "Shopee's official source confirms current university or polytechnic study, multi-tool design proficiency, preferred three-to-six-month full-time availability, and part-time eligibility at three or more working days per week; it does not list compensation, a deadline, or work-authorization terms."
       ],
       "needsReview": false
     }
