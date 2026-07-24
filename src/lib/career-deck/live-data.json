@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T23:32:34.149Z",
+  "updatedAt": "2026-07-24T23:44:04.264Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14480,6 +14480,37 @@
         "Philips' official Workday API returned requisition 569815 as posted and application-enabled during the July 24, 2026 check; Workday identifies a June 24, 2026 posting date.",
         "The official source identifies a full-time Shanghai internship conducting user research, task analysis, use scenarios, post-market usability analysis, usability FMEA, UI and UX support, usability evaluations, and regulated usability-engineering documentation.",
         "Philips requires current master's study in human factors engineering, HCI, cognitive science, product or interaction design, or a related field, alongside medical-device usability knowledge and strong English; compensation, deadline, duration, work arrangement, and work-authorization terms are not listed."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-binance-accelerator-program-ui-ux-design",
+      "title": "Binance Accelerator Program - UI/UX Design",
+      "organization": "Binance",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-binance-lever-84c25f25",
+      "sourceName": "Binance Careers / Lever",
+      "sourceUrl": "https://jobs.lever.co/binance/84c25f25-a5e3-48e3-b32c-283cdeed0303",
+      "url": "https://jobs.lever.co/binance/84c25f25-a5e3-48e3-b32c-283cdeed0303",
+      "location": "Hong Kong or Taipei, Taiwan - remote; the work-from-home arrangement may vary depending on the work of the business team",
+      "deadline": "Not listed on official source",
+      "compensation": "Competitive salary and company benefits; amount not listed on official source",
+      "eligibility": "Open to current university students and recent graduates. A bachelor's degree or above in Design, HCI, Digital Media, or a related field is preferred. Applicants should understand basic UI and UX design principles and workflows, be proficient in Figma and other common design tools, communicate and collaborate well, and be interested in automotive, technology, and AI-related products; familiarity with AI-assisted design tools is a plus. The program lasts three to six months. The official source does not list an application deadline, fixed start date, weekly schedule, exact compensation, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-24T23:44:04.264Z",
+      "attemptedAt": "2026-07-24T23:44:04.264Z",
+      "updatedAt": "2026-07-24T23:44:04.264Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A current search surfaced the opening, and Binance's official Lever page displayed Binance Accelerator Program - UI/UX Design with an active application action during the July 24, 2026 check.",
+        "The employer-hosted ATS confirms a three-to-six-month remote program based in Hong Kong or Taipei covering user research, interaction and visual design, internal innovation projects, cross-functional implementation, feedback-driven iteration, and AI-assisted workflows using tools such as Figma Make, CodeX, and Google Stitch.",
+        "Binance opens the program to current university students and recent graduates and describes competitive salary and benefits without an amount; the official source does not list a deadline, fixed start date, weekly schedule, exact compensation, or work-authorization terms."
       ],
       "needsReview": false
     }
