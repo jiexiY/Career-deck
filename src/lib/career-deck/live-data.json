@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T04:38:51.014Z",
+  "updatedAt": "2026-07-24T05:09:14.201Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13890,6 +13890,37 @@
         "A recent job-board discovery surfaced the listing, and Jacques Marie Mage's employer-hosted TriNet careers page displayed the Product Design Intern role with an active application form during the July 23, 2026 check.",
         "The official source confirms the onsite West Hollywood headquarters location, temporary intern classification, current or recent design-degree eligibility, Adobe design-tool requirements, and product-sample, CMF, presentation, trend-research, and material-sourcing responsibilities.",
         "The employer page lists an $18-$21 USD hourly range. It does not list a deadline, schedule, or duration, and its application asks about U.S. work authorization and sponsorship needs without stating a sponsorship policy."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-singtel-experience-designer-intern",
+      "title": "Experience Designer, Intern",
+      "organization": "Singtel Group",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-singtel-careers-1364591566",
+      "sourceName": "Singtel Group Careers",
+      "sourceUrl": "https://groupcareers.singtel.com/job/Experience-Designer%2C-Intern-Sing/1364591566/",
+      "url": "https://groupcareers.singtel.com/job/Experience-Designer%2C-Intern-Sing/1364591566/",
+      "location": "Singapore, Singapore - work arrangement, schedule, and internship duration not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a diploma or degree in Design, Human-Computer Interaction, Information Systems, Computer Science, or a related field. Applicants need a basic understanding of UX/UI and user-centered design, familiarity with Figma or a similar design tool, organization and attention to detail, communication and teamwork skills, and a willingness to learn; exposure to Agile development is preferred but not required. Work includes reviewing design deliverables for quality and consistency, documenting user flows, interaction states, design decisions, and feedback, organizing design files and prototypes for engineering handoff, participating in design reviews and sprint activities, coordinating deliverables, and maintaining templates, guidelines, and design-system documentation. The official source does not list compensation, a deadline, work arrangement, schedule, duration, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T05:09:14.201Z",
+      "attemptedAt": "2026-07-24T05:09:14.201Z",
+      "updatedAt": "2026-07-24T05:09:14.201Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Singtel Group's official careers page loaded successfully and displayed the Experience Designer, Intern role with an Apply now action during the July 23, 2026 check; the employer page is dated July 21, 2026.",
+        "The employer source confirms the Singapore location, current diploma-or-degree eligibility, UX/UI and Figma expectations, design-quality review, user-flow documentation, development handoff, Agile collaboration, and design-system responsibilities.",
+        "The official posting does not list compensation, an application deadline, work arrangement, schedule, internship duration, or work-authorization terms."
       ],
       "needsReview": false
     }
