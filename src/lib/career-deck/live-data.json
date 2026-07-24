@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T02:04:19.281Z",
+  "updatedAt": "2026-07-24T02:14:19.407Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -9986,7 +9986,7 @@
       "organization": "Betsson Group",
       "section": "tech",
       "type": "internship",
-      "status": "open",
+      "status": "closed",
       "sourceId": "src-betsson-greenhouse",
       "sourceName": "Betsson Group Greenhouse",
       "sourceUrl": "https://job-boards.greenhouse.io/betsson/jobs/7929560",
@@ -9996,8 +9996,8 @@
       "compensation": "Not listed on official source",
       "eligibility": "No student-enrollment or degree requirement is listed; candidates should show an interest in UX/UI and product design, familiarity with Figma or a similar tool, portfolio work, coursework, or personal projects demonstrating design thinking, strong English communication, and willingness to learn from feedback.",
       "discoveredAt": "2026-07-17T22:55:39.782Z",
-      "attemptedAt": "2026-07-17T22:55:39.782Z",
-      "updatedAt": "2026-07-17T22:55:39.782Z",
+      "attemptedAt": "2026-07-24T02:14:19.407Z",
+      "updatedAt": "2026-07-24T02:14:19.407Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.99,
@@ -10006,7 +10006,8 @@
       },
       "evidence": [
         "Betsson Group's official Greenhouse board listed this Malta Product Designer internship and displayed an active application form on July 17, 2026.",
-        "The official posting confirms UI design, wireframes, prototypes, user-journey improvements, research, design-system work, Figma familiarity, portfolio evidence, and English communication; compensation, deadline, term dates, and work arrangement are not listed."
+        "The official posting confirms UI design, wireframes, prototypes, user-journey improvements, research, design-system work, Figma familiarity, portfolio evidence, and English communication; compensation, deadline, term dates, and work arrangement are not listed.",
+        "The direct Betsson Group Greenhouse page redirected to its error board, the active employer board no longer listed the internship, and the official Greenhouse job endpoint returned HTTP 404 on a repeat check on July 23, 2026, confirming that the role was removed."
       ],
       "needsReview": false
     },
@@ -10016,7 +10017,7 @@
       "organization": "Diligent Corporation",
       "section": "tech",
       "type": "internship",
-      "status": "open",
+      "status": "closed",
       "sourceId": "src-diligent-greenhouse",
       "sourceName": "Diligent Corporation Greenhouse",
       "sourceUrl": "https://job-boards.greenhouse.io/diligentcorporation/jobs/5389226004",
@@ -10026,8 +10027,8 @@
       "compensation": "Not listed on official source",
       "eligibility": "University-level Product Design coursework or a comparable coding bootcamp qualification, general knowledge of AI tools, willingness to learn new AI tools, a self-driven mindset, and fluent English are required; visa sponsorship is evaluated case by case and should not be assumed.",
       "discoveredAt": "2026-07-17T22:45:39.595Z",
-      "attemptedAt": "2026-07-17T22:45:39.595Z",
-      "updatedAt": "2026-07-17T22:45:39.595Z",
+      "attemptedAt": "2026-07-24T02:14:19.407Z",
+      "updatedAt": "2026-07-24T02:14:19.407Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.99,
@@ -10036,7 +10037,8 @@
       },
       "evidence": [
         "Diligent Corporation's official Greenhouse board listed this Budapest internship and displayed an active application form on July 17, 2026.",
-        "The official posting confirms design-system documentation, AI-assisted interface design, product-design education, fluent English, and a hybrid model with at least 50% on-site work for local commuters; compensation and deadline are not listed."
+        "The official posting confirms design-system documentation, AI-assisted interface design, product-design education, fluent English, and a hybrid model with at least 50% on-site work for local commuters; compensation and deadline are not listed.",
+        "The direct Diligent Corporation Greenhouse page redirected to its error board, the active employer board no longer listed the internship, and the official Greenhouse job endpoint returned HTTP 404 on a repeat check on July 23, 2026, confirming that the role was removed."
       ],
       "needsReview": false
     },
@@ -13609,6 +13611,99 @@
         "Copart's official Workday page displayed an active Apply action for full-time requisition JR106161 at its Dallas headquarters during the July 23, 2026 check; the employer-hosted URL returned HTTP 200 and showed the role as posted more than 30 days earlier.",
         "The employer source confirms the Product Design Intern title, Dallas onsite location, portfolio and Figma requirements, multi-platform product-design scope, design-system work, and cross-functional implementation responsibilities.",
         "Copart's Workday JSON endpoint returned HTTP 403, so details were extracted from the employer-hosted page. The posting does not state student status, degree requirements, internship dates or duration, a deadline, compensation, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-opportune-ux-design-internship",
+      "title": "UX Design Internship",
+      "organization": "Opportune Design",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-opportune-interactive-ux-design-internship",
+      "sourceName": "Opportune Interactive Careers",
+      "sourceUrl": "https://www.opportuneinteractive.com/initiatives/ux-design-internship",
+      "url": "https://www.opportuneinteractive.com/initiatives/ux-design-internship",
+      "location": "Remote - flexible schedule up to 12 hours per week",
+      "deadline": "Not listed on official source",
+      "compensation": "Unpaid; one cohort intern may receive a $1,000 professional-development award",
+      "eligibility": "Currently studying UX/UI Design, Graphic Design, or a related field. Applicants should have experience with Figma, a basic understanding of color theory, typography, and common design patterns, attention to detail, a collaborative mindset, openness to feedback, and curiosity about prototyping and user testing. A portfolio is preferred but not required. Work includes wireframes, mockups, prototypes, interfaces and visual systems, component libraries, user flows, information architecture, and collaboration with UX researchers. The official source does not list internship dates or duration beyond the weekly schedule, an application deadline, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T02:14:19.407Z",
+      "attemptedAt": "2026-07-24T02:14:19.407Z",
+      "updatedAt": "2026-07-24T02:14:19.407Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.86,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Opportune Interactive's official employer page displayed the UX Design Internship and an application section during the July 23, 2026 check.",
+        "The employer source confirms remote work, a flexible schedule of up to 12 hours per week, current design-study eligibility, Figma and design-fundamentals expectations, and UX, prototyping, design-system, and research responsibilities.",
+        "The posting explicitly states that the internship is unpaid and describes a possible $1,000 professional-development award for one intern; it does not expose a posting date, term dates or duration, a deadline, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-manitou-design-engineering-intern",
+      "title": "Design Engineering Intern",
+      "organization": "Manitou Group",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-manitou-careers-45575",
+      "sourceName": "Manitou Group Careers",
+      "sourceUrl": "https://careers.manitou-group.com/offers/design-engineering-intern/",
+      "url": "https://careers.manitou-group.com/offers/design-engineering-intern/",
+      "location": "Madison, South Dakota - onsite; occasional local travel for field testing; contract listed as up to six months",
+      "deadline": "Not listed on official source",
+      "compensation": "$21 USD per hour",
+      "eligibility": "Currently enrolled in Aerospace, Mechanical, or Agricultural Engineering; students who have completed their sophomore year or beyond are preferred. Applicants need 3D solid-modeling ability, attention to detail, follow-through, and written and verbal communication skills. Hydraulic systems, electrical systems, engine environments, and structural design for mobile machinery are preferred areas of experience or interest. Work includes Siemens NX CAD, solid models and drawings, design calculations, prototypes and testing, design and cost reviews, assembly drawings, bills of material, production support, and field follow-up. Applicants must be authorized to work in the United States, and the application asks whether they can work without corporate visa sponsorship. The official source does not list an application deadline or exact internship dates.",
+      "discoveredAt": "2026-07-24T02:14:19.407Z",
+      "attemptedAt": "2026-07-24T02:14:19.407Z",
+      "updatedAt": "2026-07-24T02:14:19.407Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.94,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Manitou Group's official careers page displayed job 45575 with an active employer application form during the July 23, 2026 check; the posting is dated April 2, 2026.",
+        "The employer source confirms the Madison, South Dakota onsite location, up-to-six-month intern contract, current engineering-student requirement, Siemens NX and mechanical design scope, and occasional local field-test travel.",
+        "The posting lists a $21 USD hourly wage and U.S. work authorization requirement; it does not list an exact internship term or application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-delve-industrial-design-intern",
+      "title": "Industrial Design Intern",
+      "organization": "Delve",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-delve-jazzhr-ot3wds4jpd",
+      "sourceName": "Delve Careers / JazzHR",
+      "sourceUrl": "https://delve.applytojob.com/apply/oT3WdS4JpD/Industrial-Design-Intern",
+      "url": "https://delve.applytojob.com/apply/oT3WdS4JpD/Industrial-Design-Intern",
+      "location": "Madison, Wisconsin - in person; official application describes a summer internship",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Pursuing a BS or MS in Industrial Design and having completed at least two years of undergraduate coursework by the internship start. Applicants need 2D and 3D design-development skills plus strong verbal, written, and visual communication; a portfolio demonstrating industrial and human-centered product design is preferred. Work includes multidisciplinary concept generation, sketches and renderings, prototype iteration, design-principle alignment, and client meetings. The application asks about U.S. work authorization and current or future sponsorship needs but does not state a sponsorship policy. The official source does not list exact internship dates, an application deadline, or compensation.",
+      "discoveredAt": "2026-07-24T02:14:19.407Z",
+      "attemptedAt": "2026-07-24T02:14:19.407Z",
+      "updatedAt": "2026-07-24T02:14:19.407Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.84,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Delve's official JazzHR career page displayed the Industrial Design Intern role and an active Submit Application form during the July 23, 2026 check.",
+        "The employer source confirms the in-person Madison, Wisconsin location, summer timing, current Industrial Design degree and coursework eligibility, portfolio preference, 2D and 3D design expectations, and user-centered product-design responsibilities.",
+        "The posting does not expose a posting date, exact internship dates, a deadline, or compensation; the form asks about work authorization and sponsorship without stating a sponsorship policy."
       ],
       "needsReview": false
     }
