@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T05:29:14.398Z",
+  "updatedAt": "2026-07-24T05:39:14.529Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13983,6 +13983,37 @@
         "Knowledge Catalyst's employer-hosted careers page loaded successfully and displayed the UI/UX Designer Intern role with active Apply Now actions and an application form during the July 23, 2026 check.",
         "The official source confirms two paid hybrid positions based in Jakarta or Bandung, a three-to-six-month duration, final-year-or-recent-graduate eligibility, portfolio and Figma expectations, and UI/UX, design-system, accessibility, and user-research responsibilities.",
         "The employer page does not list a posting date, application deadline, work schedule, compensation amount, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-figr-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Figr",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-figr-join-design-intern",
+      "sourceName": "Figr Product Design Intern Application",
+      "sourceUrl": "https://join.figr.design/design-intern",
+      "url": "https://join.figr.design/design-intern",
+      "location": "Bengaluru, India - the employer application asks whether applicants are willing to relocate; exact work arrangement, schedule, and internship duration are not listed",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "The employer application asks candidates to provide contact details, a LinkedIn URL, Dribbble or Behance and portfolio links, a design work sample, an explanation of why they want to work at Figr, their current location, and whether they are willing to relocate to Bengaluru. The official form does not list academic-status requirements, work-authorization terms, compensation, an application deadline, work arrangement, schedule, or internship duration. Its linked role-detail page returned 404 during verification, so no unavailable requirements or responsibilities are inferred.",
+      "discoveredAt": "2026-07-24T05:39:14.529Z",
+      "attemptedAt": "2026-07-24T05:39:14.529Z",
+      "updatedAt": "2026-07-24T05:39:14.529Z",
+      "confidence": {
+        "source": 0.98,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Figr's employer-hosted Product Design Intern application loaded successfully and remained interactive during the July 23, 2026 check; the form was newly indexed by search one day earlier.",
+        "The official application confirms the Product Design Intern title and asks for design-portfolio links, a work sample, an interest statement, current location, and willingness to relocate to Bengaluru.",
+        "The form's linked role-detail page at doc.figr.design/design-intern returned 404, and the employer application does not list compensation, a deadline, work arrangement, schedule, duration, academic-status requirements, or work-authorization terms."
       ],
       "needsReview": false
     }
