@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T23:22:05.667Z",
+  "updatedAt": "2026-07-24T23:32:34.149Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -10166,16 +10166,16 @@
       "type": "internship",
       "status": "open",
       "sourceId": "src-epos-workable",
-      "sourceName": "EPOS Workable",
+      "sourceName": "EPOS Careers / Workable",
       "sourceUrl": "https://jobs.workable.com/view/vWZYZNrMRXHFFHV1iAhhiw/product-design-intern-in-singapore-at-epos",
-      "url": "https://jobs.workable.com/view/vWZYZNrMRXHFFHV1iAhhiw/product-design-intern-in-singapore-at-epos",
-      "location": "Singapore, Central Singapore, Singapore - onsite",
+      "url": "https://apply.workable.com/epos/j/C4B0942A6A",
+      "location": "Singapore, Singapore - on-site; weekly schedule and internship duration not listed on official source",
       "deadline": "Not listed on official source",
-      "compensation": "Not listed on official source",
-      "eligibility": "Applicants need a basic understanding of UX and UI design, including layout, hierarchy, and user flows, proficiency with Figma or a similar design tool, and strong visual storytelling and presentation-design skills. Webflow, responsive-design, product, growth, and conversion-optimization experience are preferred. Applications must include a CV, design portfolio, and slide-design samples.",
+      "compensation": "SGD 800-1,000; pay period not specified on official source",
+      "eligibility": "Applicants should have basic UX and UI design knowledge, hands-on Figma experience, strong visual and interaction-design instincts, and the ability to explain design decisions clearly. Webflow, CMS, responsive web-design, and product-growth familiarity are preferred. Work supports EPOS's Applied AI Product Team across website and product touchpoints through user flows, wireframes, high-fidelity UI, responsive pages, landing-page and conversion improvements, and presentation storytelling. Applications require a CV or resume, a design portfolio, and slide samples. The official source does not list student-status or degree requirements, an application deadline, internship duration, a weekly schedule, or work-authorization and sponsorship terms.",
       "discoveredAt": "2026-07-19T17:54:39.024Z",
-      "attemptedAt": "2026-07-19T17:54:39.024Z",
-      "updatedAt": "2026-07-19T17:54:39.024Z",
+      "attemptedAt": "2026-07-24T23:32:34.149Z",
+      "updatedAt": "2026-07-24T23:32:34.149Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.99,
@@ -10183,8 +10183,9 @@
         "duplicateProbability": 0.01
       },
       "evidence": [
-        "EPOS's official Workable page returned successfully with active application content on July 19, 2026 and identified the role as posted about one month earlier.",
-        "The official posting confirms an onsite Singapore role supporting an Applied AI product team, UX and UI responsibilities, design-tool and presentation requirements, and required application materials; compensation and an application deadline are not listed."
+        "EPOS's employer-hosted careers page and official Workable application both displayed Product Design Intern in Singapore with active application content during the July 24, 2026 check; Workable identifies an April 23, 2026 posting date.",
+        "The official sources confirm an on-site role supporting the Applied AI Product Team with UX and UI design, Figma, wireframes, user flows, high-fidelity interfaces, responsive website work, landing pages, conversion improvements, and presentation storytelling.",
+        "Workable lists SGD 800-1,000 without specifying the pay period and asks for a CV or resume, design portfolio, and slide samples; the official sources do not list a deadline, duration, weekly schedule, student-status or degree requirements, or work-authorization terms."
       ],
       "needsReview": false
     },
