@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T19:43:20.786Z",
+  "updatedAt": "2026-07-24T20:14:21.230Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-24-pragnyx-product-designer-intern",
+      "title": "Product Designer Intern",
+      "organization": "PragnyX",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-pragnyx-careers-job-5",
+      "sourceName": "PragnyX Careers",
+      "sourceUrl": "https://www.pragnyx.in/careers",
+      "url": "https://www.pragnyx.in/careers",
+      "location": "Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "The official careers page does not list degree, student-status, experience, portfolio, work-authorization, sponsorship, eligible-country, schedule, or duration requirements for this role. It states only that the Product Designer Intern will shape interfaces across Business Intelligence, Software Solutions, Data Intelligence, and AI & Automation.",
+      "discoveredAt": "2026-07-24T20:14:21.230Z",
+      "attemptedAt": "2026-07-24T20:14:21.230Z",
+      "updatedAt": "2026-07-24T20:14:21.230Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.9,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "PragnyX's employer-hosted careers page returned HTTP 200 and listed Product Designer Intern among five positions described as open right now during the July 24, 2026 check.",
+        "The official page identifies the role as a remote internship and says it will shape interfaces across Business Intelligence, Software Solutions, Data Intelligence, and AI & Automation.",
+        "The role's Apply control opens an employer-hosted application form. The official source does not list a posting date, deadline, compensation, qualifications, schedule, duration, work-authorization or sponsorship terms, or remote-country eligibility."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-24-euronext-product-design-intern",
