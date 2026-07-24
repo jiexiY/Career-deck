@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T02:24:49.570Z",
+  "updatedAt": "2026-07-24T02:34:49.675Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13766,6 +13766,37 @@
         "A LinkedIn discovery surfaced the listing, and Above Agency's official Teamtailor page displayed an Apply now action and loaded application form during the July 23, 2026 check.",
         "The employer source confirms onsite placements in Malm\u00f6 or Stockholm, a five-to-six-month duration, 2026 intakes around February or March and August or September, industrial-design portfolio and CAD requirements, prototyping, visualization, and cross-functional physical-product work.",
         "Above states that interviews are rolling, all internships are paid, and successful international candidates can receive visa and work-permit support; the source does not list a pay amount or a fixed deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-maesa-design-engineer-co-op",
+      "title": "Design Engineer Co-Op",
+      "organization": "Maesa",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-maesa-greenhouse-8533022002",
+      "sourceName": "Maesa Careers / Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/maesa/jobs/8533022002",
+      "url": "https://job-boards.greenhouse.io/maesa/jobs/8533022002",
+      "location": "Los Angeles, California - full time, 40 hours per week; onsite at least four days per week; approximately July through December 2026",
+      "deadline": "Not listed on official source",
+      "compensation": "$20-$21 USD per hour; exact compensation may vary based on skills, experience, and location",
+      "eligibility": "Currently pursuing a bachelor's degree in Mechanical Engineering, Product Development Engineering, Product Design, or a related discipline. Applicants should have familiarity with SolidWorks or another 3D CAD tool, an interest in consumer products or beauty packaging, attention to detail, communication and time-management skills, and the ability to work in a fast-paced team. Work includes converting packaging concepts into manufacturable 3D CAD models and drawings, evaluating injection molding, blow molding, and decoration processes, supporting prototypes and 3D printing, reviewing product-test data, and collaborating with international engineering teams and vendors. The official source does not state a work-authorization or sponsorship policy or list an application deadline.",
+      "discoveredAt": "2026-07-24T02:34:49.675Z",
+      "attemptedAt": "2026-07-24T02:34:49.675Z",
+      "updatedAt": "2026-07-24T02:34:49.675Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.94,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A LinkedIn discovery surfaced the recently reposted role, and Maesa's official Greenhouse page displayed an active Apply action during the July 23, 2026 check.",
+        "The official Greenhouse API returned HTTP 200 for job 8533022002 and confirmed the Design Engineer Co-Op title, Los Angeles location, Design Studio - LA department, and employer application URL.",
+        "The employer source confirms a six-month, 40-hour-per-week placement approximately July through December 2026, at least four onsite days per week, current bachelor's-degree eligibility, packaging design-engineering responsibilities, and $20-$21 hourly compensation; it does not list a deadline or sponsorship policy."
       ],
       "needsReview": false
     }
