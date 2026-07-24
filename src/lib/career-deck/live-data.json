@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T19:33:20.609Z",
+  "updatedAt": "2026-07-24T19:43:20.786Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-24-euronext-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Euronext",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-euronext-workday-r27781",
+      "sourceName": "Euronext Careers / Workday",
+      "sourceUrl": "https://www.euronext.com/en/about/careers/job-offers/r27781-france-product-design-intern",
+      "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Paris/Product-Design-Intern_R27781",
+      "location": "Paris, France",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must currently be pursuing a Bachelor's or Master's degree in Human-Computer Interaction, Human Factors Engineering, Industrial or Digital Design, Cognitive Science, Psychology, or a related field. Euronext also asks for a problem-solving mindset, the ability to translate complex user pain points into digital interfaces, good written and verbal English, curiosity about human behavior and product development, and comfort working independently and proactively. Work-authorization, sponsorship, internship-duration, and compensation terms are not listed on the official sources.",
+      "discoveredAt": "2026-07-24T19:43:20.786Z",
+      "attemptedAt": "2026-07-24T19:43:20.786Z",
+      "updatedAt": "2026-07-24T19:43:20.786Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Euronext's employer-hosted careers page identifies Product Design Intern as job R27781, dated June 25, 2026, in Paris, France, with subtype Intern (Fixed Term) (Trainee).",
+        "The employer page describes product-design, design-system, user-research, usability-testing, data-informed iteration, and cross-functional collaboration responsibilities, and it links directly to Euronext's official Workday application.",
+        "Both the Euronext careers page and official Workday application returned HTTP 200 during verification; neither source lists a deadline, compensation, work-authorization, sponsorship, or internship-duration term."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-24-flexisaf-ai-native-ui-ux-design-intern",
