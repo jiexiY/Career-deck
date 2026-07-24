@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T20:14:21.230Z",
+  "updatedAt": "2026-07-24T20:44:21.763Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14200,6 +14200,37 @@
         "Noise's official Freshteam board and direct application page displayed the Industrial Design Intern role as open during the July 24, 2026 check.",
         "The official page's structured job data reported a July 24, 2026 posting date and identified the role as an onsite internship in Gurgaon, India.",
         "The employer page confirms a six-month full-time commitment, the degree, portfolio, sketching, CAD, and rendering requirements, and an onsite Monday-Friday schedule; it does not list a deadline, stipend amount, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-24-formas-ai-ui-ux-design-intern",
+      "title": "UI/UX Design Intern",
+      "organization": "FORMAS.AI",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-formas-ai-careers-ui-ux-design-intern",
+      "sourceName": "FORMAS.AI Careers",
+      "sourceUrl": "https://www.formas.ai/careers",
+      "url": "https://www.formas.ai/careers",
+      "location": "Remote globally or Singapore - full-time or part-time internship; schedule and duration not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Current student or recent graduate in Design, Human-Computer Interaction, Interaction Design, or a related field. Applicants need familiarity with Figma, a strong design eye, a portfolio, a resume or CV, and a short note explaining their interest in design technology and AI. Work includes improving user flows, designing and refining interfaces for generation workflows, project views, and collaboration features, building interactive Figma prototypes, contributing to the component library and visual consistency, and helping run usability tests and synthesize findings. The official source does not list compensation, an application deadline, internship duration, weekly schedule, or work-authorization terms.",
+      "discoveredAt": "2026-07-24T20:44:21.763Z",
+      "attemptedAt": "2026-07-24T20:44:21.763Z",
+      "updatedAt": "2026-07-24T20:44:21.763Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A recent company hiring announcement surfaced the opening, and FORMAS.AI's employer-hosted careers page listed UI/UX Design Intern as an open internship with application instructions during the July 24, 2026 check.",
+        "The official page confirms remote-global or Singapore availability, full-time or part-time internship options, current-student or recent-graduate eligibility, Figma and portfolio expectations, and user-flow, interface, prototyping, design-system, and usability-testing responsibilities.",
+        "The employer page asks applicants to submit a portfolio, resume or CV, and short note; it does not list compensation, an application deadline, internship duration, weekly schedule, or work-authorization terms."
       ],
       "needsReview": false
     }
