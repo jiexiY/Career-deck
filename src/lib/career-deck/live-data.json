@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T21:49:19.673Z",
+  "updatedAt": "2026-07-25T23:45:51.307Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -15128,6 +15128,37 @@
         "SHOPLINE's employer-hosted JazzHR page listed UI/UX 設計師實習生 and displayed an active application form with a Submit Application action during the July 25, 2026 UTC check.",
         "The official source identifies the opening as a part-time, entry-level internship in Taipei and requires at least three onsite weekdays per week for at least three months, with longer availability preferred.",
         "The role covers UI and UX design for web, app, and tablet products; interaction flows; data visualization; component libraries; user research; analytics; and competitor analysis. The source requires design fundamentals, user-centered methods, Figma, Photoshop, Illustrator, initiative, and learning ability, but does not list compensation, a deadline, degree requirements, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-hypersolid-internship-design",
+      "title": "Internship Design",
+      "organization": "Hypersolid",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hypersolid-recruitee-internship-design",
+      "sourceName": "Hypersolid Careers / Recruitee",
+      "sourceUrl": "https://vacancies.hypersolid.com/o/internship-design",
+      "url": "https://vacancies.hypersolid.com/o/internship-design",
+      "location": "Alkmaar or Amsterdam, North Holland, Netherlands - the official ATS labels the role hybrid, while the description says onsite at either office; internships start in September 2026",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must currently be pursuing a Bachelor's or HBO degree in Design, UX Design, Interaction Design, or a related field and be seeking a graduation or working internship. Hypersolid also requires user-centered thinking, initiative, collaboration with designers, developers, and product teams, fluency in English, and a design portfolio. The application asks whether candidates currently reside in the Netherlands and attend a Dutch educational institution but does not state that either answer is disqualifying. The official source does not list compensation, an application deadline, internship duration, weekly hours, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T23:45:51.307Z",
+      "attemptedAt": "2026-07-25T23:45:51.307Z",
+      "updatedAt": "2026-07-25T23:45:51.307Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.97,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hypersolid's employer-hosted careers page and official Recruitee application page listed Internship Design with an active application form during the July 25, 2026 UTC check.",
+        "The official posting covers UX design, UI and visual design, and end-to-end product design for graduation or working internships starting in September 2026 at the Alkmaar or Amsterdam offices.",
+        "The source requires current relevant Bachelor's or HBO study, English fluency, and a portfolio. It labels the role hybrid but also states that the locations are onsite, and it does not list compensation, a deadline, duration, weekly hours, or work-authorization terms; those details remain unknown."
       ],
       "needsReview": false
     }
