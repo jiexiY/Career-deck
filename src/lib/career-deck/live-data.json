@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T02:19:50.058Z",
+  "updatedAt": "2026-07-25T03:16:36.802Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14570,6 +14570,37 @@
       "evidence": [
         "Verified official application route: https://ats.workatsea.com/apply/J02169117",
         "Game monitor fit score 6/10; last checked 2026-07-24."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-trimble-gamification-intern",
+      "title": "Gamification Intern",
+      "organization": "Trimble",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-trimble-workday-r56860",
+      "sourceName": "Trimble Careers / Workday",
+      "sourceUrl": "https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/New-Zealand---Christchurch/Intern-Undergraduate---Technical_R56860",
+      "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/New-Zealand---Christchurch/Intern-Undergraduate---Technical_R56860",
+      "location": "Christchurch, New Zealand - full-time and based at Trimble's New Zealand headquarters; work arrangement not explicitly listed on official source; 0% travel",
+      "deadline": "2026-08-06",
+      "compensation": "Paid internship; amount not listed on official source",
+      "eligibility": "Applicants should have ongoing studies or recent coursework in UX Design, Human-Computer Interaction, Game Design, or a related analytical field, along with foundational knowledge of game design or gamification, experience or coursework in data analysis and workflow testing, and the ability to translate technical requirements into user-centered design concepts or written recommendations. Exposure to civil construction, mining, waste, heavy equipment, telemetry, or 3D digital mapping is a plus. The internship is full-time and lasts 12 weeks. The official source does not list an exact compensation amount, internship start or end dates, a weekly schedule, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T03:16:36.802Z",
+      "attemptedAt": "2026-07-25T03:16:36.802Z",
+      "updatedAt": "2026-07-25T03:16:36.802Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Trimble's official Workday API returned requisition R56860 as posted and application-enabled during the July 25, 2026 UTC check; Workday identifies a July 2, 2026 posting date and an August 6, 2026 application deadline.",
+        "The official source confirms a full-time, paid 12-week internship at Trimble's Christchurch headquarters focused on in-cab touchscreen operator experience, gamification, UX and interface concepts, workflow analysis, and user testing.",
+        "Trimble asks for UX Design, HCI, Game Design, or related study or coursework plus gamification, analysis, and user-centered communication skills; the official source does not list a pay amount, internship dates, weekly schedule, work arrangement, or work-authorization terms."
       ],
       "needsReview": false
     }
