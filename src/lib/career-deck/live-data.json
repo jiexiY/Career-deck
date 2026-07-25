@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T18:56:47.547Z",
+  "updatedAt": "2026-07-25T19:39:47.977Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14942,6 +14942,37 @@
         "A LinkedIn discovery listed Van Lanschot Kempen's UX Design Engineer internship in Amsterdam as posted 19 hours earlier; the employer's official careers page displayed an Apply now action and complete application form during the July 25, 2026 UTC check.",
         "The employer-hosted page confirms a hybrid internship for 32-40 hours per week over at least five months, including two days per week in the Amsterdam office, focused on Figma components, design systems, accessibility, usability testing, and front-end collaboration.",
         "Van Lanschot Kempen lists €800 gross per month and requires current third- or fourth-year Bachelor's or Master's study in a relevant field, UX and Figma experience, HTML/CSS/basic JavaScript, AI-tool interest or experience, a portfolio or code samples, and English proficiency. It does not list a deadline, start date, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-mnml-industrial-design-intern",
+      "title": "Industrial Design Intern",
+      "organization": "MNML",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-mnml-careers-industrial-design-intern",
+      "sourceName": "MNML Careers",
+      "sourceUrl": "https://mnml.com/careers-2026-industrial-design-intern",
+      "url": "https://mnml.com/careers-2026-industrial-design-intern",
+      "location": "Greater Chicago area, Illinois, United States - candidates must reside in the area and be able to commute to MNML's Chicago office; work arrangement, internship duration, and weekly schedule are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "MNML requires a portfolio showing creative skills across the design process plus strong visualization and storytelling skills. The employer values discipline and time management; ergonomic and mechanical problem-solving; verbal and visual communication; broad concept exploration; comfort with front-end prototyping tools and 3D printers; openness to feedback; and willingness to learn. Candidates must reside in the greater Chicago area and be able to commute to the Chicago office. The official source does not list degree or enrollment requirements, compensation, an application deadline, internship dates or duration, a weekly schedule, a formal work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T19:39:47.977Z",
+      "attemptedAt": "2026-07-25T19:39:47.977Z",
+      "updatedAt": "2026-07-25T19:39:47.977Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "MNML's employer-hosted careers page listed Industrial Design Intern with a dedicated role page and application path during the July 25, 2026 UTC check.",
+        "The official posting requires a design-process portfolio, visualization and storytelling skills, ergonomic and mechanical problem-solving, communication, concept exploration, prototyping-tool and 3D-printer comfort, and residence in the greater Chicago area with the ability to commute to MNML's office.",
+        "The employer source does not list degree or enrollment requirements, compensation, a deadline, internship dates or duration, a weekly schedule, a formal work arrangement, or work-authorization terms."
       ],
       "needsReview": false
     }
