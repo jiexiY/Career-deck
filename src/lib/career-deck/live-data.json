@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T05:43:38.619Z",
+  "updatedAt": "2026-07-25T05:53:38.705Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14756,6 +14756,37 @@
         "SAP's official careers page lists requisition 456170, SAP Signavio Intern (f/m/d) - Product Designer, with an active Apply now control during the July 25, 2026 UTC check and a posted date of July 9, 2026.",
         "The employer page confirms a paid, limited full-time, six-month internship in Berlin, with hybrid or onsite attendance required at the Berlin office 1-2 days per week and no remote-only option.",
         "SAP confirms current university enrollment in a relevant design field, C1-C2 English, Figma and design-system skills, and Claude Code familiarity or willingness to learn. It does not list a pay amount, application deadline, start date, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-sap-ixp-user-experience-designer-vancouver",
+      "title": "SAP iXp Intern - User Experience Designer [Vancouver]",
+      "organization": "SAP",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sap-careers-453316",
+      "sourceName": "SAP Careers",
+      "sourceUrl": "https://jobs.sap.com/job/Vancouver-SAP-iXp-Intern-User-Experience-Designer-Vancouver-Brit-V6B-1A9/1413794633/",
+      "url": "https://jobs.sap.com/job/Vancouver-SAP-iXp-Intern-User-Experience-Designer-Vancouver-Brit-V6B-1A9/1413794633/",
+      "location": "Vancouver, British Columbia, Canada - hybrid, limited full-time, 40 hours per week for eight months; anticipated start September 2026",
+      "deadline": "Not listed on official source",
+      "compensation": "$24-$35 CAD per hour; SAP says limited benefits may apply subject to plan and policy terms",
+      "eligibility": "Applicants must be currently enrolled, or recently graduated with the September 2026 start date falling within six months of graduation, from a coding academy or bootcamp, apprenticeship, associate, bachelor's, master's, JD, or PhD program. SAP asks for understanding of user-centered design and design-thinking concepts; experience with mobile or web applications and user-interface technologies; proficiency with Figma or another visual-design and wireframing tool; visual-design and user-system interaction skills; strong communication and stakeholder-presentation skills; creative problem-solving; adaptability; and collaborative ownership. Work includes UX and visual specifications for SAP Business Data Cloud, end-user and product research, concepts and mockups, usability testing, and UX sign-off during development. The official source does not list an application deadline or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T05:53:38.705Z",
+      "attemptedAt": "2026-07-25T05:53:38.705Z",
+      "updatedAt": "2026-07-25T05:53:38.705Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SAP's official careers page lists requisition 453316, SAP iXp Intern - User Experience Designer [Vancouver], with an active Apply now control during the July 25, 2026 UTC check and a posted date of July 10, 2026.",
+        "The employer page confirms a paid, hybrid, limited full-time internship in Vancouver starting in September 2026 for eight months at 40 hours per week, with a targeted hourly range of $24-$35 CAD.",
+        "SAP confirms current enrollment or recent graduation within six months of the start date, user-centered design, Figma or equivalent tools, mobile or web UI experience, visual-design, communication, research, usability-testing, and UX-delivery work. It does not list a deadline or work-authorization terms."
       ],
       "needsReview": false
     }
