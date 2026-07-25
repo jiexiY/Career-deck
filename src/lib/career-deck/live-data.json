@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T04:50:07.800Z",
+  "updatedAt": "2026-07-25T05:43:38.619Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14725,6 +14725,37 @@
         "Brooks Running's official Lever feed returned Footwear Design Intern, Inline, ID c112ea4c-9c2c-4c83-8684-d584e57aaa1e, as a listed posting with active hosted and application URLs during the July 25, 2026 UTC check; Lever records a June 18, 2026 publication timestamp.",
         "The employer feed confirms a six-month, on-site internship at Brooks' Seattle headquarters for 40 hours per week, with a target start date of July 13, 2026. The target date has passed, but the role remains present in the live Lever feed and retains an active application URL.",
         "Brooks lists $31 per hour plus a sign-on bonus, housing subsidy, travel support, health coverage, paid holidays, and an employee discount, and requires junior-or-above study in Product Design, Industrial Design, Footwear Design, or a related field with portfolio, sketching, concept-development, color/material, human-factors, form, Illustrator, and Photoshop skills."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-sap-signavio-product-designer-intern",
+      "title": "SAP Signavio Intern (f/m/d) - Product Designer",
+      "organization": "SAP",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sap-careers-456170",
+      "sourceName": "SAP Careers",
+      "sourceUrl": "https://jobs.sap.com/job/Berlin-SAP-Signavio-Intern-%28fmd%29-Product-Designer-10557/1413183733/",
+      "url": "https://jobs.sap.com/job/Berlin-SAP-Signavio-Intern-%28fmd%29-Product-Designer-10557/1413183733/",
+      "location": "Berlin, Germany - limited full-time, six-month internship; hybrid/onsite attendance at the Berlin office is required 1-2 days per week, and remote-only work is not available",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid internship; amount not listed on official source",
+      "eligibility": "Applicants must be currently enrolled in a university program in Design, Human-Computer Interaction, Interaction Design, Visual Communication, or a related field and be fluent in English at the C1-C2 level. SAP requires Figma fluency, including components, variants, auto-layout, constraints, and design systems; understanding of reusable patterns, component libraries, and design tokens; exposure to systematic problem-solving or research; interest in enterprise software or B2B products; and either familiarity with Claude Code or willingness to learn it during the first week. Basic HTML, CSS, or JavaScript knowledge, accessibility knowledge, prior design-system experience, and a portfolio showing systematic design thinking are beneficial. Candidates must be able to work from the Berlin office 1-2 days per week for the six-month internship. The official source does not list an application deadline, pay amount, start date, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T05:43:38.619Z",
+      "attemptedAt": "2026-07-25T05:43:38.619Z",
+      "updatedAt": "2026-07-25T05:43:38.619Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SAP's official careers page lists requisition 456170, SAP Signavio Intern (f/m/d) - Product Designer, with an active Apply now control during the July 25, 2026 UTC check and a posted date of July 9, 2026.",
+        "The employer page confirms a paid, limited full-time, six-month internship in Berlin, with hybrid or onsite attendance required at the Berlin office 1-2 days per week and no remote-only option.",
+        "SAP confirms current university enrollment in a relevant design field, C1-C2 English, Figma and design-system skills, and Claude Code familiarity or willingness to learn. It does not list a pay amount, application deadline, start date, or work-authorization terms."
       ],
       "needsReview": false
     }
