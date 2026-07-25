@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T17:43:46.240Z",
+  "updatedAt": "2026-07-25T18:56:47.547Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14911,6 +14911,37 @@
         "GE Appliances' official Workday API returned requisition REQ-26327 as posted, active, and accepting applications during the July 25, 2026 UTC check; Workday records a July 24, 2026 posting date.",
         "The employer-hosted record confirms a full-time, year-long Interaction Design internship at the Louisville design studio, running from an immediate start through May 2027, with relocation and housing assistance available.",
         "GE Appliances requires full-time enrollment in a relevant design program, a 3.0 or higher GPA, interaction-design and prototyping skills, relocation to Louisville for the full year, and existing U.S. work authorization without present or future visa sponsorship. The role does not list a pay amount or application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-van-lanschot-kempen-ux-design-engineer-internship",
+      "title": "UX Design Engineer – Internship",
+      "organization": "Van Lanschot Kempen",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-van-lanschot-kempen-careers-ux-design-engineer-internship",
+      "sourceName": "Van Lanschot Kempen Careers",
+      "sourceUrl": "https://careers.vanlanschotkempen.com/en-nl/vacancies/ux-design-engineer-%E2%80%93-internship",
+      "url": "https://careers.vanlanschotkempen.com/en-nl/vacancies/ux-design-engineer-%E2%80%93-internship",
+      "location": "Amsterdam, Netherlands - hybrid; 32-40 hours per week for at least five months, with two days per week in the Amsterdam office",
+      "deadline": "Not listed on official source",
+      "compensation": "€800 gross per month; the employer also provides a company laptop",
+      "eligibility": "Applicants must be currently enrolled in the third or fourth year of a Bachelor's or Master's degree program in UX Design, Interaction Design, front-end development, Industrial Design, or a related field. Van Lanschot Kempen asks for UX-principles and Figma experience; HTML, CSS, and basic JavaScript; communication, problem-solving, and time-management skills; collaborative work with senior designers and developers; hands-on interest or experience with AI tools; a portfolio and/or GitHub or CodePen work; and good spoken and written English. Candidates must be available for 32-40 hours per week for at least five months and work from the Amsterdam office two days per week. The official source does not list an application deadline, start date, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T18:56:47.547Z",
+      "attemptedAt": "2026-07-25T18:56:47.547Z",
+      "updatedAt": "2026-07-25T18:56:47.547Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A LinkedIn discovery listed Van Lanschot Kempen's UX Design Engineer internship in Amsterdam as posted 19 hours earlier; the employer's official careers page displayed an Apply now action and complete application form during the July 25, 2026 UTC check.",
+        "The employer-hosted page confirms a hybrid internship for 32-40 hours per week over at least five months, including two days per week in the Amsterdam office, focused on Figma components, design systems, accessibility, usability testing, and front-end collaboration.",
+        "Van Lanschot Kempen lists €800 gross per month and requires current third- or fourth-year Bachelor's or Master's study in a relevant field, UX and Figma experience, HTML/CSS/basic JavaScript, AI-tool interest or experience, a portfolio or code samples, and English proficiency. It does not list a deadline, start date, or work-authorization terms."
       ],
       "needsReview": false
     }
