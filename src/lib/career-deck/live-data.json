@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T04:00:07.311Z",
+  "updatedAt": "2026-07-25T04:10:07.380Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14663,6 +14663,37 @@
         "Flo Energy's official Rippling page returned the Product Design Intern role with active Apply now controls and an active application object during the July 25, 2026 UTC check; the role was not unlisted from the employer's job board.",
         "The ATS identifies the Product Design department, Singapore location, and a source created-on timestamp of March 13, 2026, and classifies the role as a salaried, full-time, fixed-term contract. The application separately asks candidates to specify full-time or part-time availability, start date, and commitment length.",
         "The employer source confirms current or recently completed relevant degree study, Figma or similar tools, user-centered design, research, wireframing, prototyping, usability testing, design-system, and engineering-handoff work. It does not list a pay amount, deadline, fixed duration, weekly schedule, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-patsnap-ui-ux-design-intern",
+      "title": "UI/UX Design Intern",
+      "organization": "PatSnap",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-patsnap-lever-b7b6c7ab-b4ac-44b1-9c60-4b4eb73698fc",
+      "sourceName": "PatSnap Careers / Lever",
+      "sourceUrl": "https://jobs.lever.co/patsnap/b7b6c7ab-b4ac-44b1-9c60-4b4eb73698fc",
+      "url": "https://jobs.lever.co/patsnap/b7b6c7ab-b4ac-44b1-9c60-4b4eb73698fc/apply",
+      "location": "Singapore - on-site, part-time; weekly schedule not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants should be currently pursuing or have recently completed a Bachelor's degree in UI/UX Design, Product Design, Interaction Design, Visual Communication, or a related field. PatSnap asks for a basic understanding of user research, wireframing, prototyping, and usability testing; the ability to communicate through user flows, prototypes, diagrams, or mockups; familiarity with Figma; and an interest in AI products, SaaS platforms, or enterprise software. Adobe Illustrator, Photoshop, or other illustration tools and a portfolio, school project, internship project, or personal design case study are preferred. Candidates able to commit for at least three months are preferred. Work includes translating complex AI-formulation workflows into user journeys and interfaces, information architecture, navigation, dashboards, agent interactions, reusable UI components, user feedback, usability testing, and iteration. The official source does not list compensation, an application deadline, a fixed weekly schedule, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T04:10:07.380Z",
+      "attemptedAt": "2026-07-25T04:10:07.380Z",
+      "updatedAt": "2026-07-25T04:10:07.380Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "PatSnap's official Lever feed returned exactly one UI/UX Design Intern posting, ID b7b6c7ab-b4ac-44b1-9c60-4b4eb73698fc, with live hosted and application URLs during the July 25, 2026 UTC check; Lever records the posting as created on June 15, 2026.",
+        "The employer feed classifies the Singapore role as an on-site, part-time internship and confirms AI-product user journeys, wireframes, prototypes, information architecture, dashboards, interaction flows, reusable components, feedback collection, usability testing, and design iteration.",
+        "PatSnap confirms current or recently completed relevant degree study, Figma and foundational UI/UX skills, interest in AI or SaaS, preferred portfolio evidence, and a preferred commitment of at least three months. It does not list compensation, a deadline, a weekly schedule, or work-authorization terms."
       ],
       "needsReview": false
     }
