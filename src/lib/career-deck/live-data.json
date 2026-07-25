@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T06:03:38.923Z",
+  "updatedAt": "2026-07-25T07:26:25.785Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14818,6 +14818,68 @@
         "Alstom's official careers page lists requisition 525285, Internship - Railway design engineer H/F, with active Apply now controls during the July 25, 2026 UTC check and a posted date of July 13, 2026.",
         "The employer page confirms a six-month internship in Saint-Ouen starting in September 2026 or February 2027, focused on developing an optical measurement system for commercial trains through testing, 3D modeling, standards compliance, and supplier research.",
         "Alstom lists M2 education, mechanical design, manufacturing, electrical engineering, and teamwork requirements. It does not list compensation, a deadline, a weekly schedule, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-apple-product-design-engineer-intern-mechanical-shenzhen",
+      "title": "Product Design Engineer Intern (Mechanical) - Shenzhen",
+      "organization": "Apple",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-apple-careers-200494621-3435",
+      "sourceName": "Apple Careers",
+      "sourceUrl": "https://jobs.apple.com/en-us/details/200494621-3435/product-design-engineer-intern-mechanical-shenzhen?team=HRDWR",
+      "url": "https://jobs.apple.com/en-us/details/200494621-3435/product-design-engineer-intern-mechanical-shenzhen?team=HRDWR",
+      "location": "Shenzhen, Guangdong, China - 40 hours per week; the role requires 40%+ annual travel, while the overall work arrangement and internship duration are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Apple lists a BS in Mechanical Engineering or a related field, with an MS preferred. Required qualifications include experience with component modules and interconnects, analytical problem-solving and statistical tools, materials knowledge, effective written and spoken English, and availability for 40%+ annual travel. Preferred qualifications include plastic and metal part design, finite element analysis, overseas manufacturing, design for manufacturability and assembly, tolerance analysis and geometric tolerancing, electrical-subsystem integration, and Unigraphics NX or Pro/ENGINEER. Work includes mechanical product design, failure analysis, prototyping, analytical modeling, design experiments, and on-site implementation with contract manufacturers in China. The official source does not list compensation, an application deadline, internship duration, overall work arrangement, current-enrollment requirements, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T07:26:25.785Z",
+      "attemptedAt": "2026-07-25T07:26:25.785Z",
+      "updatedAt": "2026-07-25T07:26:25.785Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Apple's official careers payload identifies role 200494621-3435, Product Design Engineer Intern (Mechanical) - Shenzhen, with a posting date of July 21, 2026; Apple's official China careers search displayed a Submit Resume action during the July 25, 2026 UTC check.",
+        "The official source confirms Shenzhen, 40 weekly hours, a Mechanical Engineering or related bachelor's degree with a master's preferred, mechanical product-design responsibilities, English communication, and 40%+ annual travel.",
+        "Apple does not list compensation, an application deadline, internship duration, overall work arrangement, current-enrollment requirements, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-apple-product-design-engineer-intern-mechanical-shanghai",
+      "title": "Product Design Engineer Intern (Mechanical) - Shanghai",
+      "organization": "Apple",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-apple-careers-200494614-3715",
+      "sourceName": "Apple Careers",
+      "sourceUrl": "https://jobs.apple.com/en-us/details/200494614-3715/product-design-engineer-intern-mechanical-shanghai?team=HRDWR",
+      "url": "https://jobs.apple.com/en-us/details/200494614-3715/product-design-engineer-intern-mechanical-shanghai?team=HRDWR",
+      "location": "Shanghai, China - 40 hours per week; the role requires 40%+ annual travel, while the overall work arrangement and internship duration are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Apple lists a BS in Mechanical Engineering or a related field, with an MS preferred. Required qualifications include experience with component modules and interconnects, analytical problem-solving and statistical tools, materials knowledge, effective written and spoken English, and availability for 40%+ annual travel. Preferred qualifications include plastic and metal part design, finite element analysis, overseas manufacturing, design for manufacturability and assembly, tolerance analysis and geometric tolerancing, electrical-subsystem integration, and Unigraphics NX or Pro/ENGINEER. Work includes mechanical product design, failure analysis, prototyping, analytical modeling, design experiments, and on-site implementation with contract manufacturers in China. The official source does not list compensation, an application deadline, internship duration, overall work arrangement, current-enrollment requirements, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T07:26:25.785Z",
+      "attemptedAt": "2026-07-25T07:26:25.785Z",
+      "updatedAt": "2026-07-25T07:26:25.785Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Apple's official careers payload identifies role 200494614-3715, Product Design Engineer Intern (Mechanical) - Shanghai, with a posting date of July 21, 2026; Apple's official China careers search displayed a Submit Resume action during the July 25, 2026 UTC check.",
+        "The official source confirms Shanghai, 40 weekly hours, a Mechanical Engineering or related bachelor's degree with a master's preferred, mechanical product-design responsibilities, English communication, and 40%+ annual travel.",
+        "Apple does not list compensation, an application deadline, internship duration, overall work arrangement, current-enrollment requirements, or work-authorization and sponsorship terms."
       ],
       "needsReview": false
     }
