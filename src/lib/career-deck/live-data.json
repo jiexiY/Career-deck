@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T21:39:19.586Z",
+  "updatedAt": "2026-07-25T21:49:19.673Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -15097,6 +15097,37 @@
         "Mylo's employer-hosted Workable API returned shortcode BE8ECFFC80 with state published, approval status approved, and a live application page during the July 25, 2026 UTC check.",
         "The official ATS says the Product Design Intern opening was published July 10, 2026, is hybrid, and is based in New Cairo City, Cairo Governorate, Egypt.",
         "The role supports user research, user-centered interface design, wireframes, mockups, prototypes, design systems, design critiques, and usability testing. The source requires current relevant bachelor's study, design-tool familiarity, and a portfolio, but does not list compensation, a deadline, duration, weekly hours, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-shopline-ui-ux-designer-intern",
+      "title": "UI/UX Designer Intern",
+      "organization": "SHOPLINE",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-shopline-jazzhr-OByIybvgoa",
+      "sourceName": "SHOPLINE Careers / JazzHR",
+      "sourceUrl": "https://shopline.applytojob.com/apply/OByIybvgoa/UIUX-",
+      "url": "https://shopline.applytojob.com/apply/OByIybvgoa/UIUX-",
+      "location": "Taipei, Taiwan - part-time and onsite at least three weekdays per week for at least three months; longer availability is preferred",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants should be able to complete assigned design projects on time, have strong design and aesthetic fundamentals, understand user-centered design methods, and be familiar with Figma, Photoshop, and Illustrator. SHOPLINE also asks for initiative plus strong comprehension and learning ability. Candidates must be able to work onsite at least three weekdays per week for at least three months, with longer availability preferred. The official source does not list degree or enrollment requirements, compensation, an application deadline, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T21:49:19.673Z",
+      "attemptedAt": "2026-07-25T21:49:19.673Z",
+      "updatedAt": "2026-07-25T21:49:19.673Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.97,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SHOPLINE's employer-hosted JazzHR page listed UI/UX 設計師實習生 and displayed an active application form with a Submit Application action during the July 25, 2026 UTC check.",
+        "The official source identifies the opening as a part-time, entry-level internship in Taipei and requires at least three onsite weekdays per week for at least three months, with longer availability preferred.",
+        "The role covers UI and UX design for web, app, and tablet products; interaction flows; data visualization; component libraries; user research; analytics; and competitor analysis. The source requires design fundamentals, user-centered methods, Figma, Photoshop, Illustrator, initiative, and learning ability, but does not list compensation, a deadline, degree requirements, or work-authorization terms."
       ],
       "needsReview": false
     }
