@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T03:49:37.525Z",
+  "updatedAt": "2026-07-25T04:00:07.311Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14632,6 +14632,37 @@
         "dConstruct Robotics' employer-hosted role page displayed UI/UX Design Intern with an active inline application form during the July 25, 2026 UTC check; its structured job data identifies a July 24, 2026 posting date and a Singapore on-site internship.",
         "The official posting confirms user research, user flows, wireframes, mockups, prototypes, web and mobile UI, design-system, component-library, developer-collaboration, and design-review responsibilities.",
         "dConstruct requires current Diploma or Degree study in a relevant design discipline, Figma or equivalent familiarity, user-centered and visual-design skills, and a portfolio. The page does not list compensation, duration, schedule, or work-authorization terms; its embedded 2025 valid-through value predates the 2026 posting and was therefore not treated as a deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-flo-energy-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Flo Energy",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-flo-energy-rippling-e9b87c82-1438-4494-9357-40d53b5bebb9",
+      "sourceName": "Flo Energy Careers / Rippling",
+      "sourceUrl": "https://ats.rippling.com/en-GB/flo-energy/jobs/e9b87c82-1438-4494-9357-40d53b5bebb9",
+      "url": "https://ats.rippling.com/en-GB/flo-energy/jobs/e9b87c82-1438-4494-9357-40d53b5bebb9",
+      "location": "Singapore, Singapore - the ATS classifies the role as a salaried, full-time, fixed-term contract, while the application asks candidates to state full-time or part-time availability; work arrangement, exact duration, and weekly schedule are not listed",
+      "deadline": "Not listed on official source",
+      "compensation": "Official ATS classifies the role as salaried; amount not listed on official source",
+      "eligibility": "Applicants should be currently pursuing or have recently completed a degree in Product Design, UX/UI, Interaction Design, Human-Computer Interaction, or a related field. Flo asks for a basic understanding of user-centered design, comfort with Figma or a similar tool, attention to detail and visual sensibility, clear communication, openness to feedback, curiosity, and initiative. Exposure to user research, usability testing, design systems, front-end constraints, energy, technology, or sustainability is beneficial. Work includes research and discovery, wireframes, user flows, UI design, interactive prototypes, usability testing, design-system maintenance, engineering handoff, and cross-functional collaboration. The application asks whether the internship is credit-bearing or casual, the intended start date, commitment length, and full-time or part-time availability. The official source does not list a deadline, pay amount, fixed duration, weekly schedule, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T04:00:07.311Z",
+      "attemptedAt": "2026-07-25T04:00:07.311Z",
+      "updatedAt": "2026-07-25T04:00:07.311Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Flo Energy's official Rippling page returned the Product Design Intern role with active Apply now controls and an active application object during the July 25, 2026 UTC check; the role was not unlisted from the employer's job board.",
+        "The ATS identifies the Product Design department, Singapore location, and a source created-on timestamp of March 13, 2026, and classifies the role as a salaried, full-time, fixed-term contract. The application separately asks candidates to specify full-time or part-time availability, start date, and commitment length.",
+        "The employer source confirms current or recently completed relevant degree study, Figma or similar tools, user-centered design, research, wireframing, prototyping, usability testing, design-system, and engineering-handoff work. It does not list a pay amount, deadline, fixed duration, weekly schedule, work arrangement, or work-authorization terms."
       ],
       "needsReview": false
     }
