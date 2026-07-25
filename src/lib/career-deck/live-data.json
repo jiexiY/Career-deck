@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T16:40:07.874Z",
+  "updatedAt": "2026-07-25T17:43:46.240Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14882,6 +14882,37 @@
         "Official Zynga university URL was present in the shared conversation."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-25-ge-appliances-interaction-design-internship-year-long",
+      "title": "Interaction Design Internship (Immediate Start through May 2027)",
+      "organization": "GE Appliances",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ge-appliances-workday-req-26327",
+      "sourceName": "GE Appliances Careers / Workday",
+      "sourceUrl": "https://haier.wd3.myworkdayjobs.com/en-US/GE_Appliances/job/USA-Louisville-KY/Interaction-Design-Internship--Year-Long-_REQ-26327",
+      "url": "https://haier.wd3.myworkdayjobs.com/en-US/GE_Appliances/job/USA-Louisville-KY/Interaction-Design-Internship--Year-Long-_REQ-26327",
+      "location": "Louisville, Kentucky, United States - full-time, year-long internship at GE Appliances' design studio; immediate start through May 2027, and applicants must relocate to Louisville for the full year",
+      "deadline": "Not listed on official source",
+      "compensation": "Pay amount not listed on official source; relocation and housing assistance are available",
+      "eligibility": "Applicants must be enrolled full-time at an accredited school or university in an Industrial Design, Interaction Design, HCI, or related design program and be an undergraduate or graduate student with a 3.0 GPA or higher. GE Appliances requires clear verbal, written, and visual communication; storyboarding, mapping, and wireframing experience in Figma, Sketch, or Adobe Suite; time-based and interactive-media prototyping experience; working knowledge of HTML, CSS, JavaScript, and mobile application design and development; and willingness and ability to relocate to Louisville for the year-long internship. Visual design, multimedia design, and hardware-development experience are beneficial. Legal authorization to work in the United States is required, and the employer will not sponsor employment visas now or in the future for this role.",
+      "discoveredAt": "2026-07-25T17:43:46.240Z",
+      "attemptedAt": "2026-07-25T17:43:46.240Z",
+      "updatedAt": "2026-07-25T17:43:46.240Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Appliances' official Workday API returned requisition REQ-26327 as posted, active, and accepting applications during the July 25, 2026 UTC check; Workday records a July 24, 2026 posting date.",
+        "The employer-hosted record confirms a full-time, year-long Interaction Design internship at the Louisville design studio, running from an immediate start through May 2027, with relocation and housing assistance available.",
+        "GE Appliances requires full-time enrollment in a relevant design program, a 3.0 or higher GPA, interaction-design and prototyping skills, relocation to Louisville for the full year, and existing U.S. work authorization without present or future visa sponsorship. The role does not list a pay amount or application deadline."
+      ],
+      "needsReview": false
     }
   ]
 }
