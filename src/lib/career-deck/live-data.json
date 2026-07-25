@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T05:53:38.705Z",
+  "updatedAt": "2026-07-25T06:03:38.923Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14787,6 +14787,37 @@
         "SAP's official careers page lists requisition 453316, SAP iXp Intern - User Experience Designer [Vancouver], with an active Apply now control during the July 25, 2026 UTC check and a posted date of July 10, 2026.",
         "The employer page confirms a paid, hybrid, limited full-time internship in Vancouver starting in September 2026 for eight months at 40 hours per week, with a targeted hourly range of $24-$35 CAD.",
         "SAP confirms current enrollment or recent graduation within six months of the start date, user-centered design, Figma or equivalent tools, mobile or web UI experience, visual-design, communication, research, usability-testing, and UX-delivery work. It does not list a deadline or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-alstom-railway-design-engineer-intern",
+      "title": "Internship - Railway design engineer H/F",
+      "organization": "Alstom",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-alstom-careers-525285",
+      "sourceName": "Alstom Careers / SAP SuccessFactors",
+      "sourceUrl": "https://jobsearch.alstom.com/job/Saint-Ouen-Internship-Railway-design-engineer-HF/1414424533/",
+      "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Internship-Railway-design-engineer-HF/1414424533/",
+      "location": "Saint-Ouen, France - six-month internship starting in September 2026 or February 2027; work arrangement and weekly schedule are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "The official source lists an M2 educational level and asks for technical skills in mechanical design, manufacturing, and electrical engineering, plus teamwork. Work centers on developing an innovative high-frequency optical measurement system for commercial trains, including market comparison, sensor-system development, test-procedure implementation and laboratory testing, 3D modeling, compliance with welding and safety design standards, supplier research, and quote requests. Candidates must be available for a six-month internship starting in September 2026 or February 2027. The official source does not list compensation, an application deadline, a weekly schedule, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T06:03:38.923Z",
+      "attemptedAt": "2026-07-25T06:03:38.923Z",
+      "updatedAt": "2026-07-25T06:03:38.923Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Alstom's official careers page lists requisition 525285, Internship - Railway design engineer H/F, with active Apply now controls during the July 25, 2026 UTC check and a posted date of July 13, 2026.",
+        "The employer page confirms a six-month internship in Saint-Ouen starting in September 2026 or February 2027, focused on developing an optical measurement system for commercial trains through testing, 3D modeling, standards compliance, and supplier research.",
+        "Alstom lists M2 education, mechanical design, manufacturing, electrical engineering, and teamwork requirements. It does not list compensation, a deadline, a weekly schedule, work arrangement, or work-authorization terms."
       ],
       "needsReview": false
     }
