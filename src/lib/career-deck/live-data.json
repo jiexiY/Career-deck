@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T21:01:49.311Z",
+  "updatedAt": "2026-07-25T21:16:49.447Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -15004,6 +15004,37 @@
         "A current LinkedIn discovery surfaced the opening, and Monee's employer-hosted careers site and official WorkAtSea ATS returned requisition J02151711 as active during the July 25, 2026 UTC check.",
         "The official ATS identifies the role as a Singapore Design-team internship for August through December 2026, focused on end-to-end UI/UX design for digital finance products, user-friendly interfaces, and consistent product visual and UX patterns.",
         "Monee requires current Bachelor's study in design or a related field, Figma proficiency, and a portfolio with the resume; it accepts part-time availability for three to six months and does not list compensation, a deadline, work arrangement, weekly schedule, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-gurujal-civil-structural-design-engineer-intern",
+      "title": "Civil and Structural Design Engineer Intern",
+      "organization": "GuruJal",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-gurujal-careers-civil-structural-design-engineer-intern",
+      "sourceName": "GuruJal Careers",
+      "sourceUrl": "https://www.gurujal.org/career",
+      "url": "https://forms.gle/obmREQzpeTe3dirg9",
+      "location": "Gurugram, Haryana, India - work arrangement, weekly schedule, and internship duration are not listed on the accessible official careers page",
+      "deadline": "Not listed on accessible official source",
+      "compensation": "Not listed on accessible official source",
+      "eligibility": "GuruJal lists Diploma, B.Tech, or M.Tech as the education profile. The internship supports real-time projects in water conservation, ecosystem restoration, and infrastructure development with hands-on engineering exposure. The accessible employer careers page does not list a required discipline, experience, compensation, application deadline, duration, weekly schedule, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T21:16:49.447Z",
+      "attemptedAt": "2026-07-25T21:16:49.447Z",
+      "updatedAt": "2026-07-25T21:16:49.447Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.97,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GuruJal's employer-hosted careers page listed Civil and Structural Design Engineer Intern with an active application route during the July 25, 2026 UTC check.",
+        "The official page confirms Gurugram as the location, Diploma, B.Tech, or M.Tech as the education profile, and project work spanning water conservation, ecosystem restoration, and infrastructure development.",
+        "The linked official job-description PDF timed out during this check, and the accessible careers page does not list compensation, a deadline, duration, weekly schedule, work arrangement, or work-authorization terms. Those fields remain unknown."
       ],
       "needsReview": false
     }
