@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T04:10:07.380Z",
+  "updatedAt": "2026-07-25T04:50:07.800Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14694,6 +14694,37 @@
         "PatSnap's official Lever feed returned exactly one UI/UX Design Intern posting, ID b7b6c7ab-b4ac-44b1-9c60-4b4eb73698fc, with live hosted and application URLs during the July 25, 2026 UTC check; Lever records the posting as created on June 15, 2026.",
         "The employer feed classifies the Singapore role as an on-site, part-time internship and confirms AI-product user journeys, wireframes, prototypes, information architecture, dashboards, interaction flows, reusable components, feedback collection, usability testing, and design iteration.",
         "PatSnap confirms current or recently completed relevant degree study, Figma and foundational UI/UX skills, interest in AI or SaaS, preferred portfolio evidence, and a preferred commitment of at least three months. It does not list compensation, a deadline, a weekly schedule, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-brooks-running-footwear-design-intern-inline",
+      "title": "Footwear Design Intern, Inline",
+      "organization": "Brooks Running",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-brooks-running-lever-c112ea4c-9c2c-4c83-8684-d584e57aaa1e",
+      "sourceName": "Brooks Running Careers / Lever",
+      "sourceUrl": "https://jobs.lever.co/brooksrunning/c112ea4c-9c2c-4c83-8684-d584e57aaa1e",
+      "url": "https://jobs.lever.co/brooksrunning/c112ea4c-9c2c-4c83-8684-d584e57aaa1e/apply",
+      "location": "Seattle, Washington, United States - on-site at Brooks headquarters; full-time, 40 hours per week",
+      "deadline": "Not listed on official source",
+      "compensation": "$31 USD per hour; official source also lists a sign-on bonus, housing subsidy, travel fee coverage, medical/dental/vision coverage, paid holidays, and a 60% employee discount",
+      "eligibility": "Applicants must be currently enrolled as a university junior or above, or at an equivalent stage of a degree program, majoring in Product Design, Industrial Design, Footwear Design, or a related field. Brooks requires demonstrated sketching and concept-development talent, a portfolio showing innovative thinking and interest in performance footwear, understanding of color, materials, texture, human factors, and product form, and high proficiency in Adobe Illustrator and Photoshop. Experience with 3D design software, footwear design, manufacturing processes, plastics, engineering materials, or AI-assisted ideation is beneficial. Candidates must be able to commit to the six-month, 40-hour-per-week on-site internship at the listed compensation. The target start date was July 13, 2026, and the posting says a six-month extension may be possible. The official source does not list an application deadline or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T04:50:07.800Z",
+      "attemptedAt": "2026-07-25T04:50:07.800Z",
+      "updatedAt": "2026-07-25T04:50:07.800Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Brooks Running's official Lever feed returned Footwear Design Intern, Inline, ID c112ea4c-9c2c-4c83-8684-d584e57aaa1e, as a listed posting with active hosted and application URLs during the July 25, 2026 UTC check; Lever records a June 18, 2026 publication timestamp.",
+        "The employer feed confirms a six-month, on-site internship at Brooks' Seattle headquarters for 40 hours per week, with a target start date of July 13, 2026. The target date has passed, but the role remains present in the live Lever feed and retains an active application URL.",
+        "Brooks lists $31 per hour plus a sign-on bonus, housing subsidy, travel support, health coverage, paid holidays, and an employee discount, and requires junior-or-above study in Product Design, Industrial Design, Footwear Design, or a related field with portfolio, sketching, concept-development, color/material, human-factors, form, Illustrator, and Photoshop skills."
       ],
       "needsReview": false
     }
