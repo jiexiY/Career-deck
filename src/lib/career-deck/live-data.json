@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T03:16:36.802Z",
+  "updatedAt": "2026-07-25T03:49:37.525Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14601,6 +14601,37 @@
         "Trimble's official Workday API returned requisition R56860 as posted and application-enabled during the July 25, 2026 UTC check; Workday identifies a July 2, 2026 posting date and an August 6, 2026 application deadline.",
         "The official source confirms a full-time, paid 12-week internship at Trimble's Christchurch headquarters focused on in-cab touchscreen operator experience, gamification, UX and interface concepts, workflow analysis, and user testing.",
         "Trimble asks for UX Design, HCI, Game Design, or related study or coursework plus gamification, analysis, and user-centered communication skills; the official source does not list a pay amount, internship dates, weekly schedule, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-dconstruct-robotics-ui-ux-design-intern",
+      "title": "UI/UX Design Intern",
+      "organization": "dConstruct Robotics",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-dconstruct-robotics-careers-ui-ux-design-intern",
+      "sourceName": "dConstruct Robotics Careers",
+      "sourceUrl": "https://www.dconstruct.ai/job-post/ui-ux-design-intern",
+      "url": "https://www.dconstruct.ai/job-post/ui-ux-design-intern",
+      "location": "Singapore - on-site; internship duration and weekly schedule not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing a Diploma or Degree in UI/UX Design, Interaction Design, Product Design, Human-Computer Interaction, or a related discipline. The role asks for familiarity with Figma or an equivalent design tool, understanding of user-centered design, strong visual-design and problem-solving skills, clear communication of design rationale, and a portfolio of UI/UX or personal design work. Prototyping-tool experience, basic HTML/CSS knowledge, and interest in AI, robotics, smart systems, or interactive experiences are bonuses. Work includes user research and competitor analysis, user flows, wireframes, mockups, interactive prototypes, web and mobile interfaces, design systems and component libraries, developer collaboration, design reviews, and product discussions. The official source does not list compensation, an application deadline, internship duration, a weekly schedule, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T03:49:37.525Z",
+      "attemptedAt": "2026-07-25T03:49:37.525Z",
+      "updatedAt": "2026-07-25T03:49:37.525Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "dConstruct Robotics' employer-hosted role page displayed UI/UX Design Intern with an active inline application form during the July 25, 2026 UTC check; its structured job data identifies a July 24, 2026 posting date and a Singapore on-site internship.",
+        "The official posting confirms user research, user flows, wireframes, mockups, prototypes, web and mobile UI, design-system, component-library, developer-collaboration, and design-review responsibilities.",
+        "dConstruct requires current Diploma or Degree study in a relevant design discipline, Figma or equivalent familiarity, user-centered and visual-design skills, and a portfolio. The page does not list compensation, duration, schedule, or work-authorization terms; its embedded 2025 valid-through value predates the 2026 posting and was therefore not treated as a deadline."
       ],
       "needsReview": false
     }
