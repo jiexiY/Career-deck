@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T19:39:47.977Z",
+  "updatedAt": "2026-07-25T21:01:49.311Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14973,6 +14973,37 @@
         "MNML's employer-hosted careers page listed Industrial Design Intern with a dedicated role page and application path during the July 25, 2026 UTC check.",
         "The official posting requires a design-process portfolio, visualization and storytelling skills, ergonomic and mechanical problem-solving, communication, concept exploration, prototyping-tool and 3D-printer comfort, and residence in the greater Chicago area with the ability to commute to MNML's office.",
         "The employer source does not list degree or enrollment requirements, compensation, a deadline, internship dates or duration, a weekly schedule, a formal work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-25-monee-ui-ux-designer-intern-aug-dec-2026",
+      "title": "UI/UX Designer Intern (Aug to Dec 2026)",
+      "organization": "Monee",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-monee-workatsea-j02151711",
+      "sourceName": "Monee Careers / WorkAtSea ATS",
+      "sourceUrl": "https://careers.monee.com/job-detail?id=J02151711&source_from=1",
+      "url": "https://careers.monee.com/job-detail?id=J02151711&source_from=1",
+      "location": "Singapore, Singapore - August through December 2026 based on the official title; the official source accepts part-time availability for three to six months but does not list a work arrangement or weekly schedule",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently enrolled in a Bachelor's degree program in design or a related field. Applicants should be proficient in Figma and demonstrate balanced UI and UX design skills, learning agility, and teamwork. Mobile-product design and animation-effects experience are listed as advantages. Monee accepts part-time availability for three to six months and asks applicants to submit a portfolio in addition to a resume. The official source does not list compensation, an application deadline, a fixed weekly schedule, a work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-25T21:01:49.311Z",
+      "attemptedAt": "2026-07-25T21:01:49.311Z",
+      "updatedAt": "2026-07-25T21:01:49.311Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "A current LinkedIn discovery surfaced the opening, and Monee's employer-hosted careers site and official WorkAtSea ATS returned requisition J02151711 as active during the July 25, 2026 UTC check.",
+        "The official ATS identifies the role as a Singapore Design-team internship for August through December 2026, focused on end-to-end UI/UX design for digital finance products, user-friendly interfaces, and consistent product visual and UX patterns.",
+        "Monee requires current Bachelor's study in design or a related field, Figma proficiency, and a portfolio with the resume; it accepts part-time availability for three to six months and does not list compensation, a deadline, work arrangement, weekly schedule, or work-authorization terms."
       ],
       "needsReview": false
     }
