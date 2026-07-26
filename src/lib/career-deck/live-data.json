@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T19:58:00.032Z",
+  "updatedAt": "2026-07-26T20:18:00.337Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,36 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-eaton-studio-blue-user-experience-design-co-op",
+      "title": "Studio Blue User Experience Design Co-Op",
+      "organization": "Eaton",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-eaton-eightfold",
+      "sourceName": "Eaton Eightfold",
+      "sourceUrl": "https://eaton.eightfold.ai/careers/job/687238091523?domain=eaton.com",
+      "url": "https://eaton.eightfold.ai/careers/job/687238091523?domain=eaton.com",
+      "location": "Moon Township, PA - hybrid, three days per week in office; relocation assistance is available within the hiring country",
+      "deadline": "Not listed on official source; Fall 2026 term runs from late August through mid-December",
+      "compensation": "$19.38-$34.00 USD per hour",
+      "eligibility": "Applicants must have completed at least two years of an undergraduate program or be enrolled in a graduate program in UX Design, Human-Computer Interaction, Interaction Design, or a related field. A portfolio, website, or presentation must demonstrate basic Figma proficiency, user research, visual design, and design-system familiarity. A minimum 3.0 GPA, reliable transportation, and availability in the Pittsburgh area are required; work-authorization and sponsorship terms are not listed on the official source.",
+      "discoveredAt": "2026-07-26T20:18:00.337Z",
+      "attemptedAt": "2026-07-26T20:18:00.337Z",
+      "updatedAt": "2026-07-26T20:18:00.337Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Eaton's employer-hosted Eightfold page displayed this role with an active Apply Now action on July 26, 2026 and identified it as posted three days earlier.",
+        "The official posting confirms the Fall 2026 term, Moon Township location, hybrid three-day office schedule, hourly range, relevant UX or HCI study, portfolio and Figma expectations, user-research and design-system experience, minimum GPA, transportation, and in-country relocation assistance; it does not list an application deadline or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-propeller-product-industrial-design-internship",
