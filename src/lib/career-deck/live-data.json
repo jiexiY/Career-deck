@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T03:54:37.142Z",
+  "updatedAt": "2026-07-26T04:27:07.621Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,130 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-ge-aerospace-turbine-design-engineer-intern",
+      "title": "Internship - Turbine Design Engineer",
+      "organization": "GE Aerospace",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5035816",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pomigliano-DArco/Internship---Turbine-Design-Engineer_R5035816-1",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pomigliano-DArco/Internship---Turbine-Design-Engineer_R5035816-1",
+      "location": "Pomigliano D'Arco, Italy - full time; work arrangement and internship duration not listed on official source; no relocation assistance",
+      "deadline": "July 31, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need a Master's degree in Engineering, preferably Aeronautical, Aerospace, or Mechanical Engineering, fluency in English and Italian, technical motivation, teamwork, communication skills, and a work visa that meets local regulations. CAD or CAE experience, turbine-module knowledge, international experience, analytical thinking, creativity, and systems problem-solving are preferred. Work includes turbine-module design and development, CAD models and drawings, structural and fracture-mechanics analysis, manufacturing support, producibility and cost-out projects, and collaboration with program management, sourcing, quality, supply chain, customers, and suppliers. The official source does not list compensation, internship duration, weekly schedule, or sponsorship terms.",
+      "discoveredAt": "2026-07-26T04:27:07.621Z",
+      "attemptedAt": "2026-07-26T04:27:07.621Z",
+      "updatedAt": "2026-07-26T04:27:07.621Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday search and detail APIs returned requisition R5035816 as a current full-time internship during the July 26, 2026 UTC check; Workday records a July 23, 2026 posting date and July 31, 2026 application end date.",
+        "The employer source confirms turbine design, CAD, structural and fracture-mechanics analysis, manufacturing support, producibility, cost-out, and cross-functional work in Pomigliano D'Arco, with a Master's degree in Engineering and fluent English and Italian required.",
+        "GE Aerospace states that a locally compliant work visa is required and relocation assistance is not provided. It does not list compensation, internship duration, weekly schedule, work arrangement, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-26-cadence-agentic-ai-digital-design-intern",
+      "title": "Intern Agentic AI Workflow Development & Validation for Digital Design (f/m/d)",
+      "organization": "Cadence",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-cadence-workday-r55597",
+      "sourceName": "Cadence Careers / Workday",
+      "sourceUrl": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/FELDKIRCHEN-Munich/Intern-Agentic-AI-Workflow-Development---Validation-for-Digital-Design--f-m-d-_R55597",
+      "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/FELDKIRCHEN-Munich/Intern-Agentic-AI-Workflow-Development---Validation-for-Digital-Design--f-m-d-_R55597",
+      "location": "Feldkirchen (Munich), Germany - full time and hybrid; internship duration and weekly schedule not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid internship; amount not listed. Official source also lists a housing allowance for interns from abroad, public-transport ticket, meal vouchers, and 30 days of annual leave.",
+      "eligibility": "Applicants must be MSc or MEng students in Electrical Engineering, Computer Engineering, Computer Science, Artificial Intelligence, or Microelectronics. Cadence asks for knowledge of digital IC design methods and semiconductor design flows plus analytical, communication, problem-solving, and fluent-English skills. Experience with large language models, generative AI, AI agents, retrieval-augmented generation, orchestration frameworks, Python, or automation is beneficial. Work includes designing, implementing, testing, benchmarking, and validating agentic-AI workflows for semiconductor digital implementation and evaluating their performance on customer design challenges. The official source does not list an application deadline, internship duration, weekly schedule, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T04:27:07.621Z",
+      "attemptedAt": "2026-07-26T04:27:07.621Z",
+      "updatedAt": "2026-07-26T04:27:07.621Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cadence's official Workday search and detail APIs returned requisition R55597 as a current full-time internship during the July 26, 2026 UTC check; Workday records a July 21, 2026 posting date.",
+        "The employer source confirms a hybrid Feldkirchen internship developing, testing, benchmarking, and validating agentic-AI workflows for semiconductor digital implementation, with MSc or MEng student status and digital-IC design knowledge required.",
+        "Cadence describes the internship as paid and lists housing, public-transport, meal-voucher, and leave benefits without a pay amount. It does not list a deadline, duration, weekly schedule, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-26-hitachi-energy-mechanical-design-assistant-intern",
+      "title": "Mechanical Design Assistant Intern",
+      "organization": "Hitachi Energy",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hitachi-workday-r0135831",
+      "sourceName": "Hitachi Careers / Workday",
+      "sourceUrl": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Beijing-China/Mechanical-Design-Assistant-Intern_R0135831-1",
+      "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Beijing-China/Mechanical-Design-Assistant-Intern_R0135831-1",
+      "location": "Beijing, China - on-site and full time for at least 3-6 months",
+      "deadline": "Not listed on official source; selection is continuous and the posting may close early",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need a Bachelor's degree or above in Mechanical Design and Manufacturing and Automation, Mechanical Engineering, Vehicle Engineering, Mechatronics, or a related field, proficiency with at least one mainstream 3D CAD tool such as SolidWorks, Creo or Pro-E, NX, or CATIA, careful logical and documentation skills, and interest in Industry 4.0, digital twins, and 3D scanning. Candidates must be able to commit to at least a 3-6 month internship. Work includes simplifying product 3D models, creating NX installation animations, understanding product structure and installation procedures, collecting customer requirements for a digital platform, communicating improvements to suppliers, and tracking delivery. The official source does not list compensation, a fixed deadline, work authorization, or sponsorship terms.",
+      "discoveredAt": "2026-07-26T04:27:07.621Z",
+      "attemptedAt": "2026-07-26T04:27:07.621Z",
+      "updatedAt": "2026-07-26T04:27:07.621Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hitachi's official Workday search and detail APIs returned requisition R0135831 as a current full-time internship during the July 26, 2026 UTC check; Workday records a July 13, 2026 posting date.",
+        "The employer source confirms an on-site Beijing role lasting at least 3-6 months, with mechanical-design degree pathways, 3D CAD requirements, product-model simplification, NX installation animation, digital-platform requirements, and supplier coordination.",
+        "Hitachi Energy says selection is continuous and the role may close early. It does not list compensation, a fixed deadline, work-authorization terms, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-26-hitachi-rail-uxui-ai-transformation-intern",
+      "title": "UXUI / AI Transformation Intern",
+      "organization": "Hitachi Rail Singapore",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hitachi-workday-r1010137",
+      "sourceName": "Hitachi Careers / Workday",
+      "sourceUrl": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Singapore-Central-Singapore-Singapore/UXUI---AI-Transformation-Intern_R1010137-1",
+      "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Singapore-Central-Singapore-Singapore/UXUI---AI-Transformation-Intern_R1010137-1",
+      "location": "Singapore, Central Singapore - full time; Workday labels the role hybrid while the embedded employer description says Remote: No; a 6-8 month credit-bearing commitment is preferred",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Students who can commit to a minimum 6-8 month full-time, credit-bearing internship are preferred. Hitachi values visual and UX design, prototyping with Figma or Adobe tools, user research, AI or non-AI interface and product-design experience, general technical or coding knowledge, basic AI or machine-learning understanding, Scrum familiarity, Microsoft Office skills, communication, adaptability, collaboration, and a people-first approach. Work includes UX, customer-experience, and AI change management; user research; workshops; service blueprints, personas, journeys, experience maps, wireframes, and UI design; design-system contributions; and AI-tool training and adoption. The official source does not list a degree field, compensation, an application deadline, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T04:27:07.621Z",
+      "attemptedAt": "2026-07-26T04:27:07.621Z",
+      "updatedAt": "2026-07-26T04:27:07.621Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hitachi's official Workday search and detail APIs returned requisition R1010137 as a current full-time internship during the July 26, 2026 UTC check; Workday records a July 7, 2026 posting date.",
+        "The employer source confirms UX and AI-transformation work spanning research, workshops, journeys, wireframes, UI design, design systems, and AI-tool adoption, with a 6-8 month full-time credit-bearing commitment preferred.",
+        "Workday's structured field labels the Singapore role hybrid, while the embedded employer description says Remote: No. Hitachi does not list compensation, a deadline, degree-field requirements, or work-authorization terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-sk-hynix-physical-design-intern",
