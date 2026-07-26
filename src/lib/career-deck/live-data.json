@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T18:01:43.211Z",
+  "updatedAt": "2026-07-26T18:14:15.800Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-sap-china-cic-ux-designer-intern",
+      "title": "SAP China iXp Intern - S/4HANA Consumer Industry Cloud (CIC) - UX Designer Intern - Shanghai",
+      "organization": "SAP",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sap-careers-455712",
+      "sourceName": "SAP Careers",
+      "sourceUrl": "https://jobs.sap.com/job/Shanghai-SAP-China-iXp-Intern-S4HANA-Consumer-Industry-Cloud-%28CIC%29-UX-Designer-Intern-Shanghai-201203/1416186433/",
+      "url": "https://jobs.sap.com/job/Shanghai-SAP-China-iXp-Intern-S4HANA-Consumer-Industry-Cloud-%28CIC%29-UX-Designer-Intern-Shanghai-201203/1416186433/",
+      "location": "Shanghai, China - hybrid, limited part-time, at least four days per week for one year; expected travel is 0-10%",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be enrolled full-time at a university and able to work at least four days per week for one year. SAP seeks students majoring in Interaction Design, Human Interaction, Industrial Design, New Media, or a related field, with strong cross-functional communication and excellent written and spoken English. Interest in interaction or application design plus advanced Figma and Adobe Creative Suite skills are requested. Work includes collaborating with product owners and development, defining priorities with stakeholders, and contributing within an international team of interaction designers, user researchers, and visual designers on S/4HANA Consumer Industries Cloud. Successful candidates may be required to complete an external background verification. The official source does not list compensation, a deadline, a start date, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T18:14:15.800Z",
+      "attemptedAt": "2026-07-26T18:14:15.800Z",
+      "updatedAt": "2026-07-26T18:14:15.800Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SAP's official careers page displayed requisition 455712 with an active Apply now control during the July 26, 2026 UTC check and records a July 17, 2026 posting date.",
+        "The employer source confirms a hybrid, limited-part-time UX Designer internship in Shanghai for S/4HANA Consumer Industries Cloud, requiring at least four working days per week for one year and listing 0-10% expected travel.",
+        "SAP requires full-time university enrollment, a relevant design major, strong English and communication skills, and advanced Figma and Adobe Creative Suite ability. It does not publish compensation, a deadline, a start date, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-proenergy-design-engineering-intern",
