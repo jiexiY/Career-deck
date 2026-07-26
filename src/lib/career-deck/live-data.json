@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T19:47:59.829Z",
+  "updatedAt": "2026-07-26T19:58:00.032Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-propeller-product-industrial-design-internship",
+      "title": "Product & Industrial Design Internship",
+      "organization": "Propeller",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-propeller-design-internships",
+      "sourceName": "Propeller Design Careers",
+      "sourceUrl": "https://propellerdesign.com/internships",
+      "url": "https://propellerdesign.com/internships",
+      "location": "Stockholm, Sweden - work arrangement and weekly schedule are not listed on the official source",
+      "deadline": "Winter/Spring cohort: November 15; Fall cohort: May 15 (recurring dates; years are not listed on the official source)",
+      "compensation": "Paid; amount and currency are not listed on the official source",
+      "eligibility": "Propeller typically prefers candidates enrolled in a master's degree program but states that this is not always required. Applicants must submit a portfolio and resume. The six-month internship covers hands-on work across the design process alongside Propeller's team, global clients, and start-ups, with recurring cohorts beginning in January and August. The official source does not list a required degree field, the next cohort years, work arrangement, weekly hours, numeric compensation, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T19:58:00.032Z",
+      "attemptedAt": "2026-07-26T19:58:00.032Z",
+      "updatedAt": "2026-07-26T19:58:00.032Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Propeller's official employer page identified a Product & Industrial Design Internship in Stockholm and displayed active instructions to apply with a portfolio and resume during the July 26, 2026 UTC check.",
+        "The source confirms a paid six-month internship offered twice yearly, with January cohorts due November 15 and August cohorts due May 15; it does not attach years to those recurring dates.",
+        "Propeller typically prefers master's students but says this is not always required. It does not publish a required degree field, work arrangement, weekly hours, numeric pay, next cohort years, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-thine-visual-product-design-intern",
