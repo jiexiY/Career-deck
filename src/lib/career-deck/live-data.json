@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T16:43:49.957Z",
+  "updatedAt": "2026-07-26T17:44:01.435Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,68 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-seagate-electrical-design-engineering-intern",
+      "title": "Electrical Design Engineering Intern",
+      "organization": "Seagate Technology",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-seagate-careers-13582",
+      "sourceName": "Seagate Technology Careers",
+      "sourceUrl": "https://seagatecareers.com/job/Nakhon-Ratchasima-Electrical-Design-Engineering-Intern/1359518500/",
+      "url": "https://seagatecareers.com/job/Nakhon-Ratchasima-Electrical-Design-Engineering-Intern/1359518500/",
+      "location": "Nakhon Ratchasima (Korat), Thailand - travel is listed as none; work arrangement, internship duration, and weekly schedule are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be currently pursuing a Bachelor's degree in Electrical Engineering, Electronics Engineering, or a related field. Seagate asks for basic knowledge of electrical circuit design, symbols, and standards; SolidWorks, SolidWorks Electrical, AutoCAD Electrical, or equivalent CAD experience is advantageous. Familiarity with electrical schematics, sensors, actuators, wiring practices, components, hands-on electrical design or prototyping, analytical skills, organization, time management, and the ability to work effectively remotely are also listed. Work includes electrical design and development for automated manufacturing equipment, schematic maintenance, prototype troubleshooting, design reviews, and manufacturability improvements. The official source does not list compensation, a deadline, internship duration, weekly schedule, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T17:44:01.435Z",
+      "attemptedAt": "2026-07-26T17:44:01.435Z",
+      "updatedAt": "2026-07-26T17:44:01.435Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Seagate Technology's official careers page displayed job ID 13582 with an active Apply Now control during the July 26, 2026 UTC check and records a July 20, 2026 posting date.",
+        "The employer source confirms an electrical design engineering internship in Nakhon Ratchasima (Korat), Thailand, supporting automated manufacturing equipment, schematics, prototype troubleshooting, design reviews, and manufacturability improvements.",
+        "Seagate requires current Bachelor's study in Electrical Engineering, Electronics Engineering, or a related field and lists no travel. It does not publish compensation, a deadline, internship duration, weekly schedule, work arrangement, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-26-technipfmc-design-engineer-intern-tamheer-coop",
+      "title": "Design Engineer Intern - Tamheer or COOP",
+      "organization": "TechnipFMC",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-technipfmc-careers-18777",
+      "sourceName": "TechnipFMC Careers",
+      "sourceUrl": "https://careers.technipfmc.com/job/Dammam-Design-Engineer-Intern-Tamheer-or-COOP/1408504900/",
+      "url": "https://careers.technipfmc.com/job/Dammam-Design-Engineer-Intern-Tamheer-or-COOP/1408504900/",
+      "location": "Dammam, Saudi Arabia - office-based and onshore; internship duration and weekly schedule are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need a Bachelor's degree in Interior Design, Architecture, or a related field and must be eligible for the Tamheer program. No prior work experience is required; internship or university project experience and basic AutoCAD, SketchUp, Adobe, or similar design-software training are beneficial. TechnipFMC also requests communication, teamwork, organization, attention to detail, willingness to learn, basic design and problem-solving skills, space-planning knowledge, and awareness of workplace safety and standards. Work includes workplace and facility design, space planning, layouts, furniture, finishes, lighting, site measurements, supplier and contractor coordination, design records, and workplace branding. The official source does not list compensation, a deadline, internship duration, weekly schedule, or additional work-authorization and sponsorship terms beyond Tamheer eligibility.",
+      "discoveredAt": "2026-07-26T17:44:01.435Z",
+      "attemptedAt": "2026-07-26T17:44:01.435Z",
+      "updatedAt": "2026-07-26T17:44:01.435Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TechnipFMC's official careers page displayed requisition 18777 with an active Apply now control during the July 26, 2026 UTC check and records a July 14, 2026 posting date.",
+        "The employer source confirms an office-based, onshore design-engineer internship or co-op in Dammam supporting interior design, space planning, facility improvements, design presentations, supplier and contractor coordination, and workplace branding.",
+        "TechnipFMC requires a Bachelor's degree in Interior Design, Architecture, or a related field plus Tamheer eligibility and does not require prior experience. It does not publish compensation, a deadline, internship duration, weekly schedule, or other work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-niural-product-design-intern",
