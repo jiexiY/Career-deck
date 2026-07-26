@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T02:34:49.116Z",
+  "updatedAt": "2026-07-26T03:54:37.142Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-sk-hynix-physical-design-intern",
+      "title": "Physical Design Intern",
+      "organization": "SK hynix memory solutions America",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sk-hynix-greenhouse-4302631009",
+      "sourceName": "SK hynix Careers / Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4302631009",
+      "url": "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4302631009",
+      "location": "San Jose, California - work arrangement and weekly schedule not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "$35-$45 USD per hour",
+      "eligibility": "Applicants must be currently pursuing a Bachelor's or Master's degree in Electrical Engineering, Computer Engineering, or a related field. SK hynix asks for foundational knowledge of VLSI design, CMOS circuit design, digital logic, and the ASIC physical-design flow; academic or project experience with Python, Perl, or TCL; analytical problem-solving; and attention to detail. Preferred experience includes physical-design and static-timing-analysis tools, design constraints and exchange formats, low-power design techniques, and AI or LLM tools for EDA workflows. Work includes floorplanning, placement, clock-tree synthesis, routing, timing analysis, DRC and LVS checks, IR-drop analysis, PPA optimization, scripting, and collaboration with front-end design and verification teams. The official source does not list an application deadline, start date, internship duration, weekly schedule, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T03:54:37.142Z",
+      "attemptedAt": "2026-07-26T03:54:37.142Z",
+      "updatedAt": "2026-07-26T03:54:37.142Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.94,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SK hynix's official Greenhouse API returned Physical Design Intern, job 4302631009, in the employer's active jobs feed with an application URL during the July 26, 2026 UTC check; Greenhouse records the role as first published June 30, 2026.",
+        "The employer source confirms San Jose, ASIC physical-design work from synthesis through tape-out, current Bachelor's or Master's study in Electrical Engineering, Computer Engineering, or a related field, and foundational VLSI, CMOS, digital-logic, ASIC-flow, and scripting skills.",
+        "SK hynix lists $35-$45 per hour and does not list an application deadline, start date, duration, weekly schedule, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-25-apple-product-design-engineer-intern-mechanical-shenzhen",
