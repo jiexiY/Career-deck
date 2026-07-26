@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T04:27:07.621Z",
+  "updatedAt": "2026-07-26T04:37:07.765Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-niural-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Niural",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-niural-careers-product-design-intern",
+      "sourceName": "Niural Careers",
+      "sourceUrl": "https://www.niural.com/careers/product-design-intern",
+      "url": "https://www.niural.com/careers/product-design-intern",
+      "location": "United States - on-site; city, internship duration, and weekly schedule not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Competitive internship compensation package; amount not listed on official source. Niural also provides a MacBook Pro and high-performance monitor.",
+      "eligibility": "Niural seeks candidates with 1-2 years of hands-on design experience through internships, freelance work, or academic projects, preferably in SaaS or digital products. Applicants should be fluent in Figma or a similar tool, have experience building interactive web or mobile prototypes, understand visual design, UX principles, and user flows, and be able to collaborate, communicate, organize work, accept feedback, and iterate quickly. Work includes high-fidelity mockups and prototypes, cross-functional product design, design operations, design-system development, user research, usability testing, and design reviews. The official source does not list academic-status requirements, a deadline, internship duration, weekly schedule, a city, or internship work-authorization and sponsorship terms; it states that H1B sponsorship may be available only upon conversion to a full-time role.",
+      "discoveredAt": "2026-07-26T04:37:07.765Z",
+      "attemptedAt": "2026-07-26T04:37:07.765Z",
+      "updatedAt": "2026-07-26T04:37:07.765Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.95,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Niural's official employer careers page displayed the Product Design Intern role and an active application form during the July 26, 2026 UTC check.",
+        "The employer source confirms an on-site United States product-design internship covering prototypes, cross-functional collaboration, design operations, design systems, research, usability testing, and design reviews, with 1-2 years of hands-on design experience requested.",
+        "Niural describes a competitive compensation package without an amount and lists equipment support. It does not publish a posting date, deadline, city, duration, weekly schedule, academic-status requirements, or internship work-authorization terms; H1B sponsorship is mentioned only for eligible candidates who convert to full-time employment."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-ge-aerospace-turbine-design-engineer-intern",
