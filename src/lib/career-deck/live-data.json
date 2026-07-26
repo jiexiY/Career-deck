@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T20:54:01.020Z",
+  "updatedAt": "2026-07-26T21:24:01.478Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-accenture-industry-x-ux-digital-design-internship",
+      "title": "Internship - Industrial Design IX",
+      "organization": "Accenture",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-accenture-careers-r00343384",
+      "sourceName": "Accenture Careers",
+      "sourceUrl": "https://www.accenture.com/nl-en/careers/jobdetails?id=R00343384_en",
+      "url": "https://www.accenture.com/nl-en/careers/jobdetails?id=R00343384_en",
+      "location": "Eindhoven and/or The Hague, Netherlands - 100% onsite; based in one studio with occasional travel to the other",
+      "deadline": "Not listed on official source; starts on the first day of a month and runs about six months (minimum four months)",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need English proficiency, a portfolio showing their process and skills, Figma experience, strong interface-design and graphic aesthetics, and the ability to create wireframes and user flows. Affinity with product design, phygital experiences, and smart or connected products is required; web-development prototyping is a bonus. The official source does not list degree or enrollment requirements, compensation, an application deadline, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T21:24:01.478Z",
+      "attemptedAt": "2026-07-26T21:24:01.478Z",
+      "updatedAt": "2026-07-26T21:24:01.478Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Accenture's employer-hosted careers page displayed Job No. R00343384 with an active Apply for this job action during the July 26, 2026 UTC check.",
+        "The official posting identifies the remaining opening as a UX/Digital Design internship within Industry X Industrial Design; all other tracks in that requisition are filled.",
+        "The source confirms the roughly six-month term (minimum four months), 40-hour schedule, first-of-month start, 100% onsite Eindhoven/The Hague setting, UX and product-design scope, Figma and portfolio expectations, and English requirement; it does not list compensation, a deadline, degree or enrollment requirements, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-inner-circle-product-internships-product-design-track",
