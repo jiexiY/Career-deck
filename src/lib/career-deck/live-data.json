@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T20:18:00.337Z",
+  "updatedAt": "2026-07-26T20:54:01.020Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-inner-circle-product-internships-product-design-track",
+      "title": "Product Internships (2 Opportunities)",
+      "organization": "Inner Circle",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-inner-circle-recruitee-2591712",
+      "sourceName": "Inner Circle Recruitee",
+      "sourceUrl": "https://theinnercircle.recruitee.com/o/product-internships-2-opportunities",
+      "url": "https://theinnercircle.recruitee.com/o/product-internships-2-opportunities",
+      "location": "Amsterdam, Netherlands - at least three days per week in office; candidates must live in the Netherlands and commute at their own expense",
+      "deadline": "Not listed on official source; internship starts in August 2026 and lasts at least six months",
+      "compensation": "EUR 600 per month, based on full-time hours",
+      "eligibility": "Applicants must be students enrolled at a Dutch University or Hogeschool and complete the internship as a mandatory part of a 2026/27 study program with a signed university internship contract. The Product Design track seeks students in Product Design, UX/UI Design, Computer Science, Software Engineering, or a related degree; Figma experience is highly valued. Candidates must be available for six months at 32-40 hours per week, live in the Netherlands, commute to Amsterdam, and speak English. The application requests a portfolio; work-authorization and sponsorship terms are not listed on the official source.",
+      "discoveredAt": "2026-07-26T20:54:01.020Z",
+      "attemptedAt": "2026-07-26T20:54:01.020Z",
+      "updatedAt": "2026-07-26T20:54:01.020Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Inner Circle's employer-hosted Recruitee page and application form were live during the July 26, 2026 UTC check; its public ATS record reported status published, publication on May 5, 2026, and an update on June 18, 2026.",
+        "The combined posting offers a Product Design Internship track focused on UX/UI flows, user research, product analytics, and paid-product feature development, alongside a separate Product & Growth track.",
+        "The official source confirms the August 2026 start, minimum six-month and 32-40-hour schedule, Amsterdam office requirement, Dutch-university contract eligibility, Product Design-track degree pathways, Figma preference, portfolio request, and EUR 600 monthly compensation; it does not list an application deadline or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-eaton-studio-blue-user-experience-design-co-op",
