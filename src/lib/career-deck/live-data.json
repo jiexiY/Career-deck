@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T19:29:24.141Z",
+  "updatedAt": "2026-07-26T19:47:59.829Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-thine-visual-product-design-intern",
+      "title": "Visual Product Design Intern",
+      "organization": "Thine",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-thine-careers-visual-product-design-intern",
+      "sourceName": "Thine Careers",
+      "sourceUrl": "https://www.thine.com/careers/visual-product-design-intern",
+      "url": "https://www.thine.com/careers/visual-product-design-intern",
+      "location": "Bangalore, India - onsite five days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "Minimum INR 50,000 per month plus a bonus tied to product impact",
+      "eligibility": "Thine seeks strong visual product-design craft across color, typography, spacing, hierarchy, and motion; user empathy; independent taste; and the ability to defend design decisions. Work includes owning screens from brief through shipped build, collaborating directly with product and engineering, and iterating from real-user testing. The official source does not list degree or enrollment requirements, a portfolio requirement, internship duration, weekly hours, a start date, an application deadline, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T19:47:59.829Z",
+      "attemptedAt": "2026-07-26T19:47:59.829Z",
+      "updatedAt": "2026-07-26T19:47:59.829Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Thine's official employer careers page displayed the Visual Product Design Intern role with an active application action during the July 26, 2026 UTC check.",
+        "The employer source confirms Bangalore, onsite work five days per week, minimum compensation of INR 50,000 per month plus a product-impact bonus, and end-to-end screen ownership alongside product and engineering.",
+        "Thine emphasizes visual craft, user empathy, and defensible design taste but does not publish degree or enrollment requirements, a portfolio requirement, duration, weekly hours, start date, deadline, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-apple-product-design-phd-internships",
