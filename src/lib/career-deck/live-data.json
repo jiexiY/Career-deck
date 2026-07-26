@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T19:19:44.170Z",
+  "updatedAt": "2026-07-26T19:29:24.141Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,68 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-apple-product-design-phd-internships",
+      "title": "Product Design PhD Internships",
+      "organization": "Apple",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-apple-careers-200663969-3810",
+      "sourceName": "Apple Careers",
+      "sourceUrl": "https://jobs.apple.com/en-us/details/200663969-3810/product-design-phd-internships?team=STDNT",
+      "url": "https://jobs.apple.com/en-us/details/200663969-3810/product-design-phd-internships?team=STDNT",
+      "location": "Various locations within the United States - 40 hours per week; specific offices and work arrangement are not listed in the official search result",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "The official title identifies this as Apple's Product Design internship program for PhD candidates. Apple's search result does not expose detailed degree-program, graduation-timing, portfolio, skill, or experience requirements for this requisition. The source also does not list a deadline, internship dates or duration, specific office locations, work arrangement, compensation, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T19:29:24.141Z",
+      "attemptedAt": "2026-07-26T19:29:24.141Z",
+      "updatedAt": "2026-07-26T19:29:24.141Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Apple's official Students: Internships search listed Product Design PhD Internships, role 200663969-3810, with an active Submit Resume action during the July 26, 2026 UTC check.",
+        "The official search result records a May 21, 2026 posting date, various United States locations, and 40 weekly hours.",
+        "Apple does not expose detailed qualifications, a deadline, internship dates or duration, specific offices, work arrangement, compensation, or work-authorization and sponsorship terms in the official search result."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-26-apple-product-design-masters-engineering-internships",
+      "title": "Product Design Masters Engineering Internships",
+      "organization": "Apple",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-apple-careers-200663996-3810",
+      "sourceName": "Apple Careers",
+      "sourceUrl": "https://jobs.apple.com/en-us/details/200663996-3810/product-design-masters-engineering-internships?team=STDNT",
+      "url": "https://jobs.apple.com/en-us/details/200663996-3810/product-design-masters-engineering-internships?team=STDNT",
+      "location": "Various locations within the United States - 40 hours per week; specific offices and work arrangement are not listed in the official search result",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "The official title identifies this as Apple's Product Design engineering internship program for master's candidates. Apple's search result does not expose detailed degree-program, graduation-timing, portfolio, skill, or experience requirements for this requisition. The source also does not list a deadline, internship dates or duration, specific office locations, work arrangement, compensation, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T19:29:24.141Z",
+      "attemptedAt": "2026-07-26T19:29:24.141Z",
+      "updatedAt": "2026-07-26T19:29:24.141Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Apple's official Students: Internships search listed Product Design Masters Engineering Internships, role 200663996-3810, with an active Submit Resume action during the July 26, 2026 UTC check.",
+        "The official search result records a May 21, 2026 posting date, various United States locations, and 40 weekly hours.",
+        "Apple does not expose detailed qualifications, a deadline, internship dates or duration, specific offices, work arrangement, compensation, or work-authorization and sponsorship terms in the official search result."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-cleve-product-design-intern",
@@ -13395,28 +13457,29 @@
       "section": "tech",
       "type": "internship",
       "status": "open",
-      "sourceId": "openai-library-tech-deck-2026-07-02",
-      "sourceName": "OpenAI Library: Tech_opportunities_2026-07-01_revised_v2.pdf + Tech_opportunities_prior_monitor_catchup_2026-07-02_v5.pdf",
-      "url": "#",
-      "location": "Various U.S. locations",
-      "deadline": "No fixed deadline listed; treat as rolling",
-      "compensation": "Not listed in PDF",
-      "eligibility": "Product/design role suited to UX, systems thinking, and a polished case study.",
+      "sourceId": "src-apple-careers-200664000-3810",
+      "sourceName": "Apple Careers",
+      "sourceUrl": "https://jobs.apple.com/en-us/details/200664000-3810/product-design-undergrad-internships?team=STDNT",
+      "url": "https://jobs.apple.com/en-us/details/200664000-3810/product-design-undergrad-internships?team=STDNT",
+      "location": "Various locations within the United States - 40 hours per week; specific offices and work arrangement are not listed in the official search result",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "The official title identifies this as Apple's Product Design internship program for undergraduate candidates. Apple's search result does not expose detailed degree-program, graduation-timing, portfolio, skill, or experience requirements for this requisition. The source also does not list a deadline, internship dates or duration, specific office locations, work arrangement, compensation, or work-authorization and sponsorship terms.",
       "discoveredAt": "2026-07-02T19:05:40.617Z",
-      "updatedAt": "2026-07-02T19:05:40.617Z",
+      "attemptedAt": "2026-07-26T19:29:24.141Z",
+      "updatedAt": "2026-07-26T19:29:24.141Z",
       "confidence": {
-        "source": 0.86,
-        "extraction": 0.86,
-        "freshness": 0.78,
-        "duplicateProbability": 0.1
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
       },
       "evidence": [
-        "July 2 catchup PDF marked this Apply 5/5.",
-        "Next steps: apply only with a polished case study: research, flows, design system, accessibility, iteration.",
-        "PDF fit: 5/5; disposition: Apply.",
-        "Direct apply URL was not present in the rendered Library PDF text, so this record is not linked to an employer page yet."
+        "This opportunity was originally discovered in the July 2 catchup PDF without a direct application URL.",
+        "Apple's official Students: Internships search listed Product Design Undergrad Internships, role 200664000-3810, with an active Submit Resume action during the July 26, 2026 UTC check.",
+        "The official search result records a May 21, 2026 posting date, various United States locations, and 40 weekly hours, but does not expose detailed qualifications, a deadline, internship dates or duration, specific offices, work arrangement, compensation, or work-authorization and sponsorship terms."
       ],
-      "needsReview": true
+      "needsReview": false
     },
     {
       "id": "library-tech-2026-07-02-arm-create-ai-optimization-challenge",
