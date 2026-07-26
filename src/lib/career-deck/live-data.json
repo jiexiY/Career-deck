@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T18:53:14.554Z",
+  "updatedAt": "2026-07-26T19:19:44.170Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,130 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-cleve-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "Cleve",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-cleve-careers-product-design-intern",
+      "sourceName": "Cleve Careers",
+      "sourceUrl": "https://www.cleve.ai/careers/product-design-intern",
+      "url": "https://www.cleve.ai/careers/product-design-intern",
+      "location": "Kuala Lumpur, Malaysia - work arrangement, weekly schedule, and internship duration are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "RM 800 per month",
+      "eligibility": "Applicants need Figma proficiency and a portfolio showing shipped work, redesigns, or case studies. Cleve seeks strong product-design judgment and attention to detail for UI components, user flows, design-system support, user research, and direct collaboration with engineering. Familiarity with design systems or component libraries, HTML, CSS, React, motion design, or micro-interactions is helpful rather than required. The official source does not list a degree requirement, internship duration, weekly schedule, work arrangement, deadline, start date, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T19:19:44.170Z",
+      "attemptedAt": "2026-07-26T19:19:44.170Z",
+      "updatedAt": "2026-07-26T19:19:44.170Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cleve's official employer careers page returned HTTP 200 and displayed the Product Design Intern role with an active application call during the July 26, 2026 UTC check.",
+        "The employer source confirms Kuala Lumpur and RM 800 per month, with work spanning Figma UI and flows, design-system maintenance, user research, and direct collaboration with the CEO and engineering team.",
+        "Cleve requires Figma proficiency and a portfolio but does not publish a degree requirement, duration, schedule, work arrangement, deadline, start date, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-26-futuresight-ux-ui-designer-intern",
+      "title": "UX/UI Designer Intern",
+      "organization": "FutureSight",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-futuresight-careers-fsux446",
+      "sourceName": "FutureSight Careers",
+      "sourceUrl": "https://futuresight.co/jobs/ux-ui-designer-intern/",
+      "url": "https://futuresight.co/jobs/ux-ui-designer-intern/",
+      "location": "Remote - full-time with flexible hours and GMT availability; eligible countries and specific time-zone overlap are not otherwise listed",
+      "deadline": "Not listed on official source; start date is as soon as possible",
+      "compensation": "Competitive salary adjusted by region; amount and currency are not listed on the official source",
+      "eligibility": "Applicants should be pursuing or have recently completed a Bachelor's degree in Graphic Design, Interaction Design, or a related field and provide a strong design portfolio. FutureSight asks for proficiency with Figma, Sketch, Adobe XD, or similar tools; user-centered design fundamentals; communication, independent work, and attention to detail; and familiarity with ChatGPT and creative generative-AI tools. HTML or coding knowledge, Polish, and UX research interest are helpful rather than required. Work includes user research, wireframes, prototypes, high-fidelity mockups, design systems, accessibility, and stakeholder presentations. The official source does not list eligible countries, a deadline, a fixed duration, a numeric pay amount, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T19:19:44.170Z",
+      "attemptedAt": "2026-07-26T19:19:44.170Z",
+      "updatedAt": "2026-07-26T19:19:44.170Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "FutureSight's official employer page displayed reference FSUX446 and an active application form during the July 26, 2026 UTC check.",
+        "The source confirms a remote, full-time UX/UI design internship with flexible hours, GMT availability, an as-soon-as-possible start, and a region-adjusted competitive salary without a published amount.",
+        "FutureSight lists a current or recent relevant Bachelor's degree, portfolio, design-tool proficiency, user-centered design fundamentals, communication, and generative-AI familiarity. It does not publish a deadline, fixed duration, eligible countries, numeric pay, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-26-designity-ux-ui-design-intern",
+      "title": "UX/UI Design Intern",
+      "organization": "Designity",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-designity-careers-ux-ui-design-intern",
+      "sourceName": "Designity Careers",
+      "sourceUrl": "https://www.designity.com/careers/ux-ui-design-intern",
+      "url": "https://www.designity.com/careers/ux-ui-design-intern",
+      "location": "Remote - applicants must reside in the United States, Canada, or Europe; minimum 20 hours per week with a flexible schedule",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid or available for college credit; compensation amount is not listed on the official source",
+      "eligibility": "Applicants must be final-year students in UX/UI Design, Interaction Design, or a related field and provide a portfolio showing their design process. Designity asks for strong Figma skills, UX principles, user-flow and responsive-design knowledge, openness to feedback, and a commitment to growth. Work includes interfaces for websites and digital products, wireframes, user flows, high-fidelity mockups, design systems, Creative Director collaboration, and design presentations. Applicants must reside in the United States, Canada, or Europe and be available at least 20 hours per week. The official source does not list a deadline, start date, duration, hourly rate, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T19:19:44.170Z",
+      "attemptedAt": "2026-07-26T19:19:44.170Z",
+      "updatedAt": "2026-07-26T19:19:44.170Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Designity's official employer careers page returned HTTP 200 and displayed this role with an active Apply Now control during the July 26, 2026 UTC check.",
+        "The employer source confirms a fully remote UX/UI internship for final-year students residing in the United States, Canada, or Europe, with a flexible minimum commitment of 20 hours per week.",
+        "Designity describes the role as paid or eligible for college credit and requires a process-focused portfolio, Figma, and UX and responsive-design fundamentals. It does not publish a compensation amount, deadline, start date, duration, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-26-irusri-ux-ui-designer-intern",
+      "title": "UX/UI Designer - Intern",
+      "organization": "Irusri Group AB",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-irusri-careers-ux-ui-designer",
+      "sourceName": "Irusri Careers",
+      "sourceUrl": "https://irusri.se/careers/ux-ui-designer",
+      "url": "https://irusri.se/careers/ux-ui-designer",
+      "location": "Hybrid - exact work location and in-office schedule are not listed on the official role page",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid; amount and currency are not listed on the official source",
+      "eligibility": "Applicants should be pursuing or have recently completed a degree in Design, Visual Communication, Human-Computer Interaction, or a related field. Irusri requires a strong portfolio, proficiency with Figma or Adobe design tools, responsive and user-centered design fundamentals, cross-functional collaboration, English communication, and attention to clean, functional design; Swedish is helpful rather than required. Work includes wireframes, prototypes, visual design, user research, user flows, design guidelines, and usability testing. The official source labels the internship as paid, hybrid, and one year long but does not list a specific work location, schedule, deadline, start date, compensation amount, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-26T19:19:44.170Z",
+      "attemptedAt": "2026-07-26T19:19:44.170Z",
+      "updatedAt": "2026-07-26T19:19:44.170Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Irusri's official employer careers page returned HTTP 200 and displayed an embedded application form for UX/UI Designer - Intern during the July 26, 2026 UTC check.",
+        "The official page describes a paid, hybrid, one-year internship focused on live digital products, wireframes, prototypes, visual design, user research, design guidelines, and usability testing.",
+        "Irusri seeks current or recent relevant-degree candidates with a portfolio, design-tool proficiency, UX fundamentals, and English communication. It does not publish a specific work location, schedule, deadline, start date, pay amount, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-pariera-ui-ux-designer-intern",
