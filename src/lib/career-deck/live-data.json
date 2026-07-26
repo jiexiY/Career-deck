@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T18:14:15.800Z",
+  "updatedAt": "2026-07-26T18:53:14.554Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-26-pariera-ui-ux-designer-intern",
+      "title": "UI/UX Designer Intern",
+      "organization": "Pariera",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-pariera-careers-job-5",
+      "sourceName": "Pariera Careers",
+      "sourceUrl": "https://www.pariera.com/api/careers",
+      "url": "https://www.pariera.com/careers/ui-ux-designer-intern/apply",
+      "location": "Remote - six-month internship; weekly schedule, eligible countries or time zones, and work arrangement details are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "INR 15,000-22,000 per month; Pariera charges an INR 49 evaluation fee per application for structured resume and portfolio review with personalized feedback",
+      "eligibility": "Applicants may be pursuing or have recently completed a B.Des, B.Tech, BCA, or any degree, but must provide a strong design portfolio. Pariera asks for mastery of Figma auto-layout, components, variants, variables, and prototyping; strong visual-design fundamentals; and an understanding of information architecture, user flows, and accessibility. Work includes web and mobile UI, interactive prototypes, design systems and tokens, responsive design, and engineering handoff. Framer, HTML/CSS, research tools, and AI-assisted design workflows are listed as helpful rather than required. The official source labels the role as requiring 0-1 year of experience and does not list a deadline, weekly schedule, eligible countries or time zones, or work-authorization and sponsorship terms. Applying requires payment of an INR 49 evaluation fee for application review and feedback; the employer states that the fee does not guarantee employment or an interview.",
+      "discoveredAt": "2026-07-26T18:53:14.554Z",
+      "attemptedAt": "2026-07-26T18:53:14.554Z",
+      "updatedAt": "2026-07-26T18:53:14.554Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Pariera's official public careers endpoint returned job-5 with slug ui-ux-designer-intern, isActive set to true, and a July 19, 2026 posting date during the July 26, 2026 UTC check.",
+        "The employer source confirms a remote, six-month UI/UX design internship paying INR 15,000-22,000 per month, focused on Figma production work, prototypes, responsive web and mobile interfaces, design systems, and engineering handoff.",
+        "Pariera accepts current or recent graduates from multiple degree paths with a strong portfolio and charges an INR 49 evaluation fee for resume and portfolio review with feedback. It does not publish a deadline, weekly schedule, eligible countries or time zones, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-26-sap-china-cic-ux-designer-intern",
