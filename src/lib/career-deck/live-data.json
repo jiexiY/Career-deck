@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T16:25:01.049Z",
+  "updatedAt": "2026-07-27T16:58:34.236Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-27-cold-culture-ux-ui-intern",
+      "title": "Diseño UX/UI Intern",
+      "organization": "Cold Culture",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-cold-culture-teamtailor-8002932",
+      "sourceName": "Cold Culture Careers / Teamtailor",
+      "sourceUrl": "https://coldculture.teamtailor.com/jobs/8002932-diseno-ux-ui-intern",
+      "url": "https://coldculture.teamtailor.com/jobs/8002932-diseno-ux-ui-intern",
+      "location": "Madrid, Spain - paid internship in Cold Culture's Madrid office; the official source does not list weekly hours or an internship duration",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid internship; amount not listed on official source",
+      "eligibility": "Cold Culture seeks a student in Graphic Design, Digital Design, UX/UI, Multimedia, or a related field who can sign an internship agreement with their school or university. Applicants need Figma and Adobe Creative Suite skills, basic UX/UI and responsive-design knowledge, visual judgment, attention to detail, the ability to follow brand guidelines, and an interest in digital commerce. Shopify or other ecommerce-platform knowledge, basic HTML and CSS, landing-page experience, and interest in fashion, retail, and digital trends are preferred. Work includes ecommerce graphics, responsive assets, landing pages, navigation and checkout improvements, wireframes, mockups, and design-system components. The official source does not state a deadline, pay amount, weekly hours, internship duration, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T16:58:34.236Z",
+      "attemptedAt": "2026-07-27T16:58:34.236Z",
+      "updatedAt": "2026-07-27T16:58:34.236Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cold Culture's official Teamtailor jobs index listed Diseño UX/UI Intern, and the exact employer-hosted page for job 8002932 returned HTTP 200 with a live application form during the July 27, 2026 UTC check.",
+        "The official structured job data records a July 1, 2026 posting date and Madrid location, while the employer page records a July 21, 2026 modification and describes paid work from Cold Culture's Madrid office.",
+        "The employer source confirms student status and an internship-agreement requirement, Figma and Adobe skills, UX/UI and responsive-design knowledge, and work across ecommerce graphics, landing pages, wireframes, user-experience improvements, and design-system components; it does not list a pay amount, deadline, duration, weekly hours, or work-authorization terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-27-kiska-product-design-intern",
