@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T05:12:45.148Z",
+  "updatedAt": "2026-07-27T05:23:13.592Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-great-dane-industrial-design-intern",
+      "title": "Industrial Design Intern",
+      "organization": "Great Dane",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-great-dane-internships-industrial-design",
+      "sourceName": "Great Dane Internships",
+      "sourceUrl": "https://greatdane.com/internships/",
+      "url": "https://hourly-greatdane.icims.com/jobs/4004/engineering-intern/job",
+      "location": "Location and work arrangement are not listed on the official source; Great Dane states that internships require 20-40 hours per week depending on the role",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid with competitive hourly compensation and housing assistance for interns who require relocation; amount not listed on official source",
+      "eligibility": "Great Dane lists Mechanical Engineering, Engineering Technology, or a related field as eligible majors for the Industrial Design internship. The role develops products across functionality, aesthetics, ergonomics, user experience, manufacturability, and cost efficiency and collaborates with engineering, manufacturing, marketing, and customers from ideation through production implementation. Great Dane's internship program asks for motivated, conscientious, dedicated applicants with organization, attention to detail, and interest in learning. The employer states that internships generally require 20-40 hours per week for approximately 10 weeks and are offered throughout the year based on team needs. The official source does not list a specific degree or enrollment requirement, exact term dates, role location or work arrangement, an application deadline, numeric pay, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T05:23:13.592Z",
+      "attemptedAt": "2026-07-27T05:23:13.592Z",
+      "updatedAt": "2026-07-27T05:23:13.592Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.94,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Great Dane's employer-hosted internship page displayed Industrial Design Intern with an active Apply Now link to the company's official iCIMS site during the July 27, 2026 UTC check; the page does not state a posting date.",
+        "The official source confirms paid internships offered throughout the year, a typical duration of approximately 10 weeks, a 20-40-hour weekly commitment depending on the role, competitive hourly pay without an amount, and housing assistance when relocation is required.",
+        "The linked official iCIMS detail page closed the connection during the check, so no location, work arrangement, exact term dates, deadline, numeric pay, or work-authorization terms were stored beyond the employer internship page."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-hii-fall-designer-coop",
       "title": "Fall 2026 Designer Co-op",
