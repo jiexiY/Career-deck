@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T11:31:58.218Z",
+  "updatedAt": "2026-07-27T15:33:17.140Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-soda-studio-ux-design-internship",
+      "title": "UX Design Internship",
+      "organization": "Soda Studio",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-soda-studio-careers-internship",
+      "sourceName": "Soda Studio Careers",
+      "sourceUrl": "https://www.sodastudio.nl/careers/internship",
+      "url": "https://www.sodastudio.nl/careers/internship",
+      "location": "Amsterdam, Netherlands - the official source does not state whether the internship is onsite, hybrid, or remote or list weekly hours",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Soda Studio welcomes interns either for a hands-on internship or with the agency as the base for a graduation project and is open to discussing different internship formats. Applicants should email a CV, portfolio or examples of their work, and a short note describing the kind of internship they want, their preferred start timing, and why they would like to intern at Soda Studio. The official source does not state degree or enrollment requirements, required skills, compensation, a deadline, internship dates or duration, weekly hours, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T15:33:17.140Z",
+      "attemptedAt": "2026-07-27T15:33:17.140Z",
+      "updatedAt": "2026-07-27T15:33:17.140Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.94,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Soda Studio's employer-hosted careers page displayed an active internship vacancy with direct email application instructions during the July 27, 2026 UTC check; the official page is titled UX Design Internship.",
+        "The official source confirms an Amsterdam product design agency internship available either as a hands-on placement or as the base for a graduation project and says the agency is open to different internship formats.",
+        "Applicants should email a CV, portfolio or work examples, and a short note about the internship they want and preferred start timing; compensation, a deadline, placement dates or duration, weekly hours, work arrangement, degree requirements, and work-authorization terms are not listed."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-fisher-paykel-healthcare-product-industrial-design-internship",
       "title": "Internship Product / Industrial Design 2026/2027",
