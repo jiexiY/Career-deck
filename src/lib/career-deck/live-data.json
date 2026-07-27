@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T03:00:41.971Z",
+  "updatedAt": "2026-07-27T03:11:16.408Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-verdant-solar-design-engineer-intern",
+      "title": "Design Engineer Intern",
+      "organization": "Verdant Solar",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-verdant-solar-lead-design-engineer-intern",
+      "sourceName": "Verdant Solar LEAD Internship Programme",
+      "sourceUrl": "https://verdantsolar.my/lead-internship-programme/",
+      "url": "https://verdantsolar.my/lead-internship-programme/",
+      "location": "Petaling Jaya, Selangor, Malaysia - the employer lists its office address, while the work arrangement and weekly hours are not stated",
+      "deadline": "All-year intake; no fixed deadline listed on official source",
+      "compensation": "Monthly allowance and transport allowance; amounts not listed on official source",
+      "eligibility": "Verdant Solar seeks current engineering-degree students in fields such as electrical, electronic, or mechatronic engineering, as well as candidates who have completed a certificate, diploma, or degree; an engineering or related degree is preferred for completed-study applicants. Candidates must be available for at least three months, communicate in English, Mandarin, and Bahasa Malaysia, work independently when needed, and demonstrate interpersonal, multitasking, accuracy, and teamwork skills. The Design Engineer Intern supports solar-site visits and audits, grid-connected system proposals, PV layouts, electrical single-line diagrams, panel schedules, connection diagrams, CAD drawings, and tender documentation. The official source does not state exact placement dates, weekly hours, allowance amounts, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T03:11:16.408Z",
+      "attemptedAt": "2026-07-27T03:11:16.408Z",
+      "updatedAt": "2026-07-27T03:11:16.408Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Verdant Solar's employer-hosted LEAD Internship Programme page displayed Design Engineer Intern and an active application form with that role selectable during the July 27, 2026 UTC check.",
+        "The official source lists all-year intake, a minimum three-month duration, a monthly allowance and transport allowance without amounts, and an office in Petaling Jaya, Selangor.",
+        "The role covers solar-site design information, grid-connected system proposals, PV layouts, electrical diagrams, CAD drawings, and tender documents; the employer does not list exact placement dates, weekly hours, allowance amounts, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-product-ventures-internship-general-application",
       "title": "Internship General Application",
