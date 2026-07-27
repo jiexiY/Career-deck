@@ -1,6 +1,68 @@
 {
-  "updatedAt": "2026-07-27T05:23:13.592Z",
+  "updatedAt": "2026-07-27T05:46:13.912Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-airbus-derivatives-structural-design-engineering-internship",
+      "title": "#Discover II 2026 2027 / AIRBUS DERIVATIVES STRUCTURAL DESIGN ENGINEERING INTERNSHIP",
+      "organization": "Airbus Defence and Space",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-airbus-workday-jr10411087",
+      "sourceName": "Airbus Careers / Workday",
+      "sourceUrl": "https://ag.wd3.myworkdayjobs.com/Airbus/job/XMLNAME--Discover-II-2026-2027---AIRBUS-DERIVATIVES-STRUCTURAL-DESIGN-ENGINEERING-INTERNSHIP_JR10411087",
+      "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/XMLNAME--Discover-II-2026-2027---AIRBUS-DERIVATIVES-STRUCTURAL-DESIGN-ENGINEERING-INTERNSHIP_JR10411087",
+      "location": "Getafe Area, Spain - full-time, 40 hours per week; the internship starts in early October 2026, lasts 11 months, and excludes August",
+      "deadline": "The selection process runs from April through July 2026; an exact application deadline is not listed on the official source",
+      "compensation": "Study grant described by Airbus as attractive; amount not listed on official source",
+      "eligibility": "Airbus describes the Discover program as intended for recent graduates, while this role's required-skills section asks for a currently enrolled student in Aeronautical Engineering, Industrial Engineering, or a related engineering field. Applicants should be interested in aerospace structural design, have good spoken and written Spanish and English, demonstrate analytical and problem-solving ability, work proactively both independently and with a team, know common Microsoft or Google office tools, and be available for the 2026/2027 period. The program combines a master's program through Camilo Jose Cela University with the internship. Work covers detailed design of metallic and composite aircraft parts and assemblies, CAD/CAM and product-lifecycle tools, aerostructure planning and configuration management, process automation, and collaboration with stress, systems, manufacturing, materials, aerodynamics, and loads teams. The official source does not state the grant amount or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T05:46:13.912Z",
+      "attemptedAt": "2026-07-27T05:46:13.912Z",
+      "updatedAt": "2026-07-27T05:46:13.912Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Airbus's official Workday page displayed requisition JR10411087 with an active Apply action during the July 27, 2026 UTC check and labeled the role as posted more than 30 days earlier.",
+        "The official source confirms a full-time, 40-hour-per-week internship in the Getafe Area beginning in early October 2026 and lasting 11 months, with August excluded, alongside a master's program through Camilo Jose Cela University.",
+        "Airbus lists the selection period as April through July 2026 and an attractive study grant without an amount; it does not state an exact closing date or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-27-staticus-design-engineering-unit-internship",
+      "title": "Internship: Design Engineering Unit",
+      "organization": "Staticus",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-staticus-design-engineering-unit-internship",
+      "sourceName": "Staticus Careers",
+      "sourceUrl": "https://staticus.com/intership/internship-design-engineering-unit/",
+      "url": "https://staticus.com/intership/internship-design-engineering-unit/",
+      "location": "Vilnius, Lithuania - flexible hours and hybrid work are available; exact weekly hours are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Staticus seeks a student or recent graduate in Architecture, Civil Engineering, Construction Engineering, or a related field. Applicants should have basic knowledge of AutoCAD, Revit, Inventor, SolidWorks, or similar software, attention to detail, willingness to learn, and English proficiency of at least B2. The Design Intern prepares technical drawings and facade details, supports design development and coordination with engineering teams, revises drawings, joins internal project meetings, and maintains accurate documentation and technical specifications. The official source does not list compensation, a deadline, internship dates or duration, exact weekly hours, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T05:46:13.912Z",
+      "attemptedAt": "2026-07-27T05:46:13.912Z",
+      "updatedAt": "2026-07-27T05:46:13.912Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Staticus's employer-hosted career page displayed Internship: Design Engineering Unit in Vilnius with an active application form during the July 27, 2026 UTC check; the page does not state a posting date.",
+        "The official source confirms a Design Intern role supporting facade technical drawings, design development, engineering coordination, drawing revisions, project meetings, and technical documentation.",
+        "Staticus offers flexible hours and hybrid work and asks for a student or recent graduate in a relevant design or engineering field, but it does not list compensation, an application deadline, placement dates or duration, exact weekly hours, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-great-dane-industrial-design-intern",
       "title": "Industrial Design Intern",
