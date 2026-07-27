@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T02:09:27.073Z",
+  "updatedAt": "2026-07-27T02:11:36.995Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-tech-matpatra-ui-ux-designer-intern",
+      "title": "UI/UX Designer Internship",
+      "organization": "Tech Matpatra Private Limited",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tech-matpatra-careers-uiux",
+      "sourceName": "Tech Matpatra Careers",
+      "sourceUrl": "https://www.matpatra.com/careers",
+      "url": "https://www.matpatra.com/careers",
+      "location": "Gurugram, Haryana, India - full-time; work arrangement and weekly schedule are not stated on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "INR 12,000 per month stipend",
+      "eligibility": "Tech Matpatra identifies the internship as one of two UI/UX intern openings for recent graduates. Applicants should hold a graduate or postgraduate degree in computers with UI/UX design proficiency and provide a portfolio. The role asks for experience with Figma, Adobe Creative Suite, or Photoshop; wireframes, mockups, interactive prototypes, user journeys, workflows, storyboards, process flows, sitemaps, typography, color theory, layout, and user-centered design methods. The official source does not state an internship duration, application deadline, weekly hours, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T02:11:36.995Z",
+      "attemptedAt": "2026-07-27T02:11:36.995Z",
+      "updatedAt": "2026-07-27T02:11:36.995Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Tech Matpatra's employer-hosted careers page displayed the combined UI/UX Designer Internship, Fresher and Senior Designer listing during the July 27, 2026 UTC check, with two internship openings and direct email application instructions.",
+        "The official source confirms a full-time Gurugram role, an INR 12,000 monthly internship stipend, and work creating wireframes, mockups, interfaces, user journeys, workflows, UI components, storyboards, process flows, and sitemaps.",
+        "Tech Matpatra asks internship applicants to be recent graduates with a related graduate or postgraduate degree, UI/UX proficiency, a portfolio, and familiarity with Figma or Adobe tools; it does not list a deadline, duration, weekly hours, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-webook-product-design-intern",
       "title": "Product Design Intern",
