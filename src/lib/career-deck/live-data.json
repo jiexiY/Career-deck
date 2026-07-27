@@ -1,6 +1,68 @@
 {
-  "updatedAt": "2026-07-27T02:11:36.995Z",
+  "updatedAt": "2026-07-27T02:49:37.433Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-other-tomorrows-design-intern-fall-2026",
+      "title": "Design Intern for Fall 2026",
+      "organization": "Other Tomorrows",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-other-tomorrows-careers-design-intern-fall-2026",
+      "sourceName": "Other Tomorrows Careers",
+      "sourceUrl": "https://www.othertomorrows.com/job-openings/design-intern-for-fall-2026",
+      "url": "https://www.othertomorrows.com/job-openings/design-intern-for-fall-2026",
+      "location": "Boston, Massachusetts - full-time hybrid; candidates must reside in or relocate to the Boston area and work in person at least three days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "USD 30 per hour",
+      "eligibility": "Other Tomorrows welcomes candidates who are in school or recently graduated in brand design, experience design, UX or UI design, service design, or communications design. Applicants should have zero to three years of design experience or equivalent training through a degree, certificate, or bootcamp; understand tools such as Figma and Adobe Creative Suite; communicate clearly; and submit a cover letter plus portfolio or case studies. Candidates must be authorized to work in the United States, reside in or relocate to the Boston area, and be able to work in person at least three days per week. The full-time internship runs approximately three to four months from September through December 2026. The official source does not list an application deadline or a more specific weekly schedule.",
+      "discoveredAt": "2026-07-27T02:49:37.433Z",
+      "attemptedAt": "2026-07-27T02:49:37.433Z",
+      "updatedAt": "2026-07-27T02:49:37.433Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Other Tomorrows' employer-hosted role page and application form displayed Design Intern for Fall 2026 as an open selection during the July 27, 2026 UTC check; the page metadata identifies its last publication as July 17, 2026.",
+        "The official source confirms a full-time, three-to-four-month internship from September through December 2026 in the Boston area, a hybrid schedule with at least three in-person days per week, and USD 30 hourly pay.",
+        "Other Tomorrows requires U.S. work authorization, Boston-area residence or relocation, a cover letter, and portfolio or case studies; it does not list an application deadline or a more specific weekly schedule."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-27-pm-accelerator-ai-ui-ux-designer-intern",
+      "title": "AI UI/UX Designer Intern - AI ML/Gen AI Design & Development",
+      "organization": "PM Accelerator",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-pm-accelerator-ai-ui-ux-designer-intern",
+      "sourceName": "PM Accelerator Careers",
+      "sourceUrl": "https://www.pmaccelerator.io/AI-UI-UX-Designer-Intern",
+      "url": "https://www.pmaccelerator.io/AI-UI-UX-Designer-Intern",
+      "location": "Fully remote worldwide; candidates outside the United States and Canada must overlap at least four hours per day with U.S. teams",
+      "deadline": "Rolling applications",
+      "compensation": "Unpaid; the employer lists a free AI Designer certification and possible school credit",
+      "eligibility": "PM Accelerator welcomes existing digital-marketing professionals with design experience, UI/UX designers, and accredited bachelor's, master's, or PhD students in user experience, human-computer interaction, UI/UX design, or computer or software engineering with design experience. Applicants need English fluency; user-research, UX, and UI fundamentals; familiarity with Figma, Sketch, Adobe XD, or similar tools; and a resume, LinkedIn profile, cover letter, and portfolio if available. Graduates may also apply. The three-month cohort options run July 27 through October 9 or September 21 through December 4, 2026, with qualified candidates encouraged to continue for six months. The employer states that CPT and OPT sponsorship are available to eligible candidates and does not list a fixed deadline or weekly-hour total.",
+      "discoveredAt": "2026-07-27T02:49:37.433Z",
+      "attemptedAt": "2026-07-27T02:49:37.433Z",
+      "updatedAt": "2026-07-27T02:49:37.433Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "PM Accelerator's employer-hosted role page displayed the AI UI/UX Designer Intern opening and a complete application form during the July 27, 2026 UTC check, with applications reviewed on a rolling basis.",
+        "The official source confirms a fully remote, unpaid, three-month internship with July 27-October 9 and September 21-December 4, 2026 cohort options, plus possible extension to six months.",
+        "PM Accelerator accepts students, experienced designers, and graduates worldwide, requires at least four hours of U.S.-team overlap for candidates outside the United States and Canada, and states that CPT and OPT sponsorship are available to eligible candidates."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-tech-matpatra-ui-ux-designer-intern",
       "title": "UI/UX Designer Internship",
