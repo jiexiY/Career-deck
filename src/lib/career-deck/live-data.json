@@ -1,6 +1,68 @@
 {
-  "updatedAt": "2026-07-27T05:46:13.912Z",
+  "updatedAt": "2026-07-27T07:03:15.134Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-ifid-industrial-design-intern",
+      "title": "Industrial Design Intern",
+      "organization": "IFID GmbH",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ifid-careers-industrial-design-intern",
+      "sourceName": "IFID Careers",
+      "sourceUrl": "https://www.ifid.design/en/jobs/praktikum-industriedesign",
+      "url": "https://www.ifid.design/en/jobs/praktikum-industriedesign",
+      "location": "Darmstadt, Germany - flexible working hours; the official source does not state whether the role is onsite, hybrid, or remote or list exact weekly hours",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "IFID addresses the opening to Industrial Design students and lists a degree in Industrial Design, Product Design, or a comparable field in its candidate profile. Applicants should have a strong sense of form, aesthetics, function, and brand fit; experience with sketching and visual concept communication, CAD, rendering, and visualization; the ability to explain and iterate on design decisions; openness to interdisciplinary work; a reliable and proactive working style; and strong communication skills. German language skills are preferred. Work includes developing product and design concepts, sketches, concept visualizations, 3D designs, CMF concepts, prototypes, design reviews, and internal and external presentations. Applicants should email a CV and portfolio or work samples. The official source lists a six-month placement from April 2026 but does not state compensation, a deadline, exact weekly hours, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T07:03:15.134Z",
+      "attemptedAt": "2026-07-27T07:03:15.134Z",
+      "updatedAt": "2026-07-27T07:03:15.134Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "IFID's employer-hosted jobs page and dedicated role page displayed Industrial Design Intern with current application instructions during the July 27, 2026 UTC check.",
+        "The official source lists a six-month internship in Darmstadt from April 2026 with flexible working hours and work spanning product concepts, sketching, 3D design, CMF, prototyping, design reviews, and presentations.",
+        "IFID asks applicants to email a CV and portfolio or work samples and prefers German language skills; it does not list compensation, a deadline, exact weekly hours, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-27-proenergy-design-engineering-intern",
+      "title": "V - Design Engineering Intern",
+      "organization": "PROENERGY",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-proenergy-paycor-2390",
+      "sourceName": "PROENERGY Careers / Paycor",
+      "sourceUrl": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d06f38cb41016f7c0cf6bb1fd6&id=8a7883ac9efb8722019f352562dc1cfe&lang=en&source=",
+      "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d06f38cb41016f7c0cf6bb1fd6&id=8a7883ac9efb8722019f352562dc1cfe&lang=en&source=",
+      "location": "Houston, Texas or Sedalia, Missouri - the official source lists work addresses in both cities; work arrangement and weekly hours are not stated",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "PROENERGY requires current enrollment in an undergraduate Mechanical or Aerospace Engineering program with junior or senior status by summer, strong analytical and problem-solving skills, effective written and verbal communication, and fluent spoken and written English. U.S. work authorization is required, and the employer will not consider candidates who need visa sponsorship. The selected candidate must complete a pre-employment drug screen and background check. Work supports aeroderivative turbine-component design through OEM-hardware reverse engineering, SolidWorks or Creo concepts, hand calculations and ANSYS analysis, GD&T drawings, material and manufacturing-process analysis, redline validation, field-failure root-cause investigations, cross-functional collaboration, and project updates in Asana. The internship is expected to begin in August and may continue through December, subject to project requirements, business demands, and organizational needs. The official source does not list compensation, a deadline, weekly hours, or a work arrangement.",
+      "discoveredAt": "2026-07-27T07:03:15.134Z",
+      "attemptedAt": "2026-07-27T07:03:15.134Z",
+      "updatedAt": "2026-07-27T07:03:15.134Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "PROENERGY's employer-hosted Paycor board displayed V - Design Engineering Intern, job ID 2390, with two openings and an active application action during the July 27, 2026 UTC check.",
+        "The official posting lists Houston and Sedalia work locations and an internship expected to begin in August and potentially continue through December, subject to business and project needs.",
+        "PROENERGY requires junior or senior undergraduate Mechanical or Aerospace Engineering enrollment and existing U.S. work authorization without sponsorship; it does not list compensation, a deadline, weekly hours, or a work arrangement."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-airbus-derivatives-structural-design-engineering-internship",
       "title": "#Discover II 2026 2027 / AIRBUS DERIVATIVES STRUCTURAL DESIGN ENGINEERING INTERNSHIP",
