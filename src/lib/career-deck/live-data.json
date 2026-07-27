@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-26T21:24:01.478Z",
+  "updatedAt": "2026-07-27T00:18:34.629Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-rakuten-viki-ux-content-design-intern",
+      "title": "Intern, UX (Content Design)",
+      "organization": "Rakuten Viki",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-rakuten-viki-workday-1034896",
+      "sourceName": "Rakuten Viki Workday",
+      "sourceUrl": "https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenVikiSingapore/job/Intern--UX--Design---Copy-_1034896",
+      "url": "https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenVikiSingapore/job/Intern--UX--Design---Copy-_1034896",
+      "location": "Singapore - full-time; work arrangement and weekly schedule are not listed on the official source",
+      "deadline": "Not listed on official source; Rakuten prefers a six-month full-time commitment with an immediate start",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need a good understanding of the UX design process, the ability to reason about complex products and explain design decisions, Figma proficiency or the ability to learn quickly, attention to how words and visuals work together, and an understanding of web and app design. Rakuten requests a portfolio showing UX writing, content design, product copywriting, or related coursework and states that Behance or Dribbble portfolios will not be accepted. A six-month full-time commitment with an immediate start is preferred. The official source does not list degree or enrollment requirements, compensation, an application deadline, work-authorization and sponsorship terms, or a specific onsite or hybrid arrangement.",
+      "discoveredAt": "2026-07-27T00:18:34.629Z",
+      "attemptedAt": "2026-07-27T00:18:34.629Z",
+      "updatedAt": "2026-07-27T00:18:34.629Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Rakuten's employer-hosted Workday record returned requisition 1034896 as posted and available to apply during the July 27, 2026 UTC check.",
+        "The current official record identifies the role as Intern, UX (Content Design), lists Viki Private Limited as the hiring organization, and confirms a full-time internship based in Singapore.",
+        "The posting covers UX prototypes, product microcopy, localisation, design-system copy governance, Figma collaboration, discovery, and engineering handoff. It prefers a six-month immediate-start commitment and does not list compensation, a deadline, degree or enrollment requirements, work-authorization terms, or a specific work arrangement."
+      ],
+      "needsReview": false
+    },
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
       "title": "Career Opportunities",
