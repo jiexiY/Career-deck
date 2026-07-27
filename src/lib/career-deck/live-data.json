@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T04:41:13.204Z",
+  "updatedAt": "2026-07-27T05:12:45.148Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-hii-fall-designer-coop",
+      "title": "Fall 2026 Designer Co-op",
+      "organization": "HII - Newport News Shipbuilding",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-hii-careers-47840",
+      "sourceName": "HII Careers",
+      "sourceUrl": "https://careers.huntingtoningalls.com/job/Newport-News-FALL-2026-DESIGNER-CO-OP-Virg/1399783400/",
+      "url": "https://careers.huntingtoningalls.com/job/Newport-News-FALL-2026-DESIGNER-CO-OP-Virg/1399783400/",
+      "location": "Newport News, Virginia - part-time, onsite, first shift, and up to 20 hours per week; no telework, travel, or relocation assistance",
+      "deadline": "Not listed on official source",
+      "compensation": "USD 37,000-51,000 salary range; the official source does not state whether this range is annualized for the part-time role",
+      "eligibility": "Applicants must be U.S. citizens, be full-time students enrolled at a two-year college or university, be pursuing an associate degree in Drafting and Design or a related field, have a cumulative GPA of at least 2.5, submit unofficial transcripts with the application, and commit to working up to 20 hours per week. The co-op supports engineering drawings, schematics, 2D and 3D CAD models, technical specifications, design reviews, field verification, and production issue resolution across structural, electrical, mechanical, pipe, HVAC, hull-outfitting, and 3D-modeling teams. Familiarity with engineering drawings and tools such as AutoCAD, Inventor, CATIA, or Siemens NX is preferred. The official source does not list a closing date or exact co-op start and end dates.",
+      "discoveredAt": "2026-07-27T05:12:45.148Z",
+      "attemptedAt": "2026-07-27T05:12:45.148Z",
+      "updatedAt": "2026-07-27T05:12:45.148Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "HII's official careers page displayed Fall 2026 Designer Co-op, requisition 47840, with an Apply now action during the July 27, 2026 UTC check; the employer records July 14, 2026 as the posting date.",
+        "The official source confirms an onsite, part-time co-op in Newport News for up to 20 hours per week, with design-engineering work spanning technical drawings, CAD models, ship systems, design reviews, field verification, and production support.",
+        "HII requires U.S. citizenship, full-time enrollment at a two-year college or university, an associate degree in Drafting and Design or a related field in progress, a 2.5 GPA, and unofficial transcripts. It lists a USD 37,000-51,000 salary range without clarifying whether it is annualized and does not state a closing date or exact term dates."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-ibda-ux-ui-design-intern",
       "title": "UX/UI Design Intern",
