@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T07:03:15.134Z",
+  "updatedAt": "2026-07-27T11:31:58.218Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-fisher-paykel-healthcare-product-industrial-design-internship",
+      "title": "Internship Product / Industrial Design 2026/2027",
+      "organization": "Fisher & Paykel Healthcare",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-fphcare-successfactors-6654",
+      "sourceName": "Fisher & Paykel Healthcare Careers",
+      "sourceUrl": "https://careers.fphcare.com/job/East-Tamaki-Internship-Product-Industrial-Design-20262027-2013/1364430566/",
+      "url": "https://careers.fphcare.com/job/East-Tamaki-Internship-Product-Industrial-Design-20262027-2013/1364430566/",
+      "location": "East Tamaki, Auckland, New Zealand - fixed-term; the official source does not state whether the role is onsite, hybrid, or remote or list weekly hours",
+      "deadline": "Applications close at 23:55 on August 2, 2026; timezone not specified on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Fisher & Paykel Healthcare seeks a 2nd-, 3rd-, or 4th-year or postgraduate Engineering student specialising in Product or Industrial Design. Applicants should be eager to learn, enjoy solving problems, and demonstrate an interest in engineering or science through work experience, hobbies, or university projects. The internship runs from November 23, 2026 through February 26, 2027 and offers work across product development, process development, operations engineering, and Quality/Regulatory. Applicants must upload a CV and transcript as one combined document, plus a cover letter. The official source does not state compensation, weekly hours, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T11:31:58.218Z",
+      "attemptedAt": "2026-07-27T11:31:58.218Z",
+      "updatedAt": "2026-07-27T11:31:58.218Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Fisher & Paykel Healthcare's employer-hosted careers page displayed Internship Product / Industrial Design 2026/2027, requisition 6654, with an active Apply now action during the July 27, 2026 UTC check.",
+        "The official source confirms a fixed-term East Tamaki internship running from November 23, 2026 through February 26, 2027 for a 2nd-, 3rd-, or 4th-year or postgraduate Engineering student specialising in Product or Industrial Design.",
+        "Applications close at 23:55 on August 2, 2026, with no timezone stated; the official source does not list compensation, weekly hours, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-ifid-industrial-design-intern",
       "title": "Industrial Design Intern",
