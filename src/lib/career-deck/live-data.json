@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T00:52:39.092Z",
+  "updatedAt": "2026-07-27T01:13:15.459Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-transcelestial-industrial-design-engineering-intern",
+      "title": "Industrial Design Engineering Intern",
+      "organization": "Transcelestial Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-transcelestial-employment-hero-industrial-design-engineering-intern",
+      "sourceName": "Transcelestial Technologies Careers / Employment Hero",
+      "sourceUrl": "https://employmenthero.com/sg/jobs/position/transcelestial-technologies-industrial-design-engineering-intern/",
+      "url": "https://employmenthero.com/sg/jobs/position/transcelestial-technologies-industrial-design-engineering-intern/",
+      "location": "Singapore City, Singapore - on-site, temporary, full-time internship; duration and weekly schedule are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Transcelestial seeks a technically strong, curious industrial-design intern with 3D-design proficiency, including complex CAD surface modeling; skill turning ideas into prototypes or mock-ups; understanding of materials, manufacturing techniques, and product-development strategies; and knowledge of ergonomics, human factors, aesthetics, functionality, and user experience. Work includes generating concepts for a laser-communication product through prototyping, 2D digital sketching, 3D CAD modeling, testing, and design iteration. Applicants should provide a CV and portfolio or project links and may apply through the active ATS page or by email. The official source does not state degree, current-enrollment, compensation, deadline, duration, weekly hours, or work-authorization and sponsorship requirements.",
+      "discoveredAt": "2026-07-27T01:13:15.459Z",
+      "attemptedAt": "2026-07-27T01:13:15.459Z",
+      "updatedAt": "2026-07-27T01:13:15.459Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Transcelestial Technologies' official Employment Hero page displayed Industrial Design Engineering Intern with active Apply now controls during the July 27, 2026 UTC check.",
+        "The ATS confirms an on-site, temporary, full-time internship in Singapore City focused on concept generation, prototyping, 2D digital sketching, 3D CAD modeling, testing, and design iteration for a laser-communication product.",
+        "Transcelestial lists CAD, prototyping, materials, manufacturing, product-development, ergonomics, human-factors, aesthetics, functionality, and user-experience skills but does not state degree, enrollment, compensation, deadline, duration, weekly hours, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-tensorgo-product-design-intern",
       "title": "Product Design Intern",
