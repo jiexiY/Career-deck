@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T03:11:16.408Z",
+  "updatedAt": "2026-07-27T03:32:16.415Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-rakuten-viki-ux-design-copy-intern",
+      "title": "Intern, UX (Design & Copy)",
+      "organization": "Rakuten Viki",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-rakuten-viki-workday-1034896",
+      "sourceName": "Rakuten Viki Careers / Workday",
+      "sourceUrl": "https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenVikiSingapore/job/Intern--UX--Design---Copy-_1034896",
+      "url": "https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenVikiSingapore/job/Intern--UX--Design---Copy-_1034896",
+      "location": "Singapore - full-time; the official source does not state whether the role is onsite, hybrid, or remote or list weekly hours",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Rakuten Viki seeks candidates with a good understanding of the UX design process, the ability to reason about complex products and explain design decisions, proficiency in Figma or the ability to learn it quickly, attention to detail, and an understanding of web and app design. Applicants should submit a portfolio showing UX writing, content design, product copywriting, or related coursework; Behance and Dribbble portfolios are not accepted. The employer prefers candidates who can begin immediately and commit to a six-month, full-time internship. The official source does not state degree or enrollment requirements, compensation, a deadline, weekly hours, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T03:32:16.415Z",
+      "attemptedAt": "2026-07-27T03:32:16.415Z",
+      "updatedAt": "2026-07-27T03:32:16.415Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Rakuten Viki's official Workday page displayed requisition 1034896, Intern, UX (Design & Copy), with an active Apply action and a Posted 5 Days Ago label during the July 27, 2026 UTC check.",
+        "The official source confirms a full-time Singapore internship focused on UX design, visual prototypes in Figma, UX writing, localisation, DesignOps, design-system copy governance, discovery, critiques, and engineering collaboration.",
+        "Rakuten Viki prefers an immediate start and a six-month commitment and requires a relevant portfolio, but it does not list compensation, a deadline, weekly hours, work arrangement, degree or enrollment requirements, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-verdant-solar-design-engineer-intern",
       "title": "Design Engineer Intern",
