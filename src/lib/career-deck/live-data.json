@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-07-27T00:31:34.633Z",
+  "updatedAt": "2026-07-27T00:52:39.092Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-tensorgo-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "TensorGo",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tensorgo-product-design-intern-pdi282506",
+      "sourceName": "TensorGo Careers",
+      "sourceUrl": "https://tensorgo.com/jobs/job-product-design-intern/",
+      "url": "https://tensorgo.com/jobs/job-product-design-intern/",
+      "location": "Hyderabad, India - work from office; weekly hours are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "TensorGo lists this six-month internship for candidates with zero to one year of experience who are pursuing or have completed a B.Tech, BFA, B.Des, M.Des, M.Tech, or equivalent degree. Applicants should know Figma or similar design tools, UX principles, interaction design, wireframing, prototyping, user flows, design systems, and high-fidelity interface design; a UI/UX portfolio and familiarity with AI-assisted design or basic front-end technologies are preferred. The official source does not list compensation, a deadline, weekly hours, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T00:52:39.092Z",
+      "attemptedAt": "2026-07-27T00:52:39.092Z",
+      "updatedAt": "2026-07-27T00:52:39.092Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TensorGo's employer-hosted careers index and role page displayed job PDI282506, the Product Design Intern opening, and an active application form during the July 27, 2026 UTC check.",
+        "The official posting confirms Hyderabad, work from office, a six-month internship, zero-to-one-year experience level, and possible full-time conversion based on performance.",
+        "TensorGo asks for a pursuing or completed related degree and product-design fundamentals spanning user flows, wireframes, prototypes, polished UI, design systems, and engineering handoff; it does not list compensation, a deadline, weekly hours, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-27-bould-industrial-design-intern",
+      "title": "Industrial Design Intern",
+      "organization": "Bould Design",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-bould-careers-industrial-design-intern",
+      "sourceName": "Bould Design Careers",
+      "sourceUrl": "https://www.bould.com/careers",
+      "url": "https://www.bould.com/careers",
+      "location": "San Francisco Bay Area, California - hybrid; optional work from home on Mondays and Fridays",
+      "deadline": "Rolling applications",
+      "compensation": "Not listed on official source",
+      "eligibility": "Bould Design lists the industrial design internship for college juniors or seniors and asks applicants to email a cover letter, resume, and portfolio as a PDF under 10 MB or provide an online portfolio link. The employer emphasizes shipping real products, balancing creative and analytical thinking, clear communication, ownership, teamwork, and participation across the design process from conceptualization through production. The official source does not list compensation, internship dates or duration, weekly hours, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T00:52:39.092Z",
+      "attemptedAt": "2026-07-27T00:52:39.092Z",
+      "updatedAt": "2026-07-27T00:52:39.092Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Bould Design's employer-hosted careers page displayed Industrial Design Intern under rolling applications and provided a direct application email during the July 27, 2026 UTC check.",
+        "The official page confirms college junior or senior eligibility, portfolio materials, work across conceptualization through production, and a San Francisco Bay Area hybrid model with optional work from home on Mondays and Fridays.",
+        "Bould Design does not list compensation, internship dates or duration, weekly hours, or work-authorization and sponsorship terms on the official source."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-27-synaptrix-internship-program-design",
+      "title": "Internship Program - Industrial Design or UI/UX Design",
+      "organization": "Synaptrix Labs",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-synaptrix-greenhouse-4060252009",
+      "sourceName": "Synaptrix Labs Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/synaptrixlabs/jobs/4060252009",
+      "url": "https://job-boards.greenhouse.io/synaptrixlabs/jobs/4060252009",
+      "location": "New York City, New York - entirely onsite; internship duration and weekly schedule are not listed",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Synaptrix seeks current Bachelor's or Master's students in Computer Science, Electrical Engineering, Biomedical Engineering, Neuroscience, Mechanical or Industrial Design, or a related field. Candidates need demonstrated experience in at least one relevant software, machine-learning, hardware, or design area; the design track names Figma, Fusion 360, SolidWorks, or similar tools. Applicants must be available for an internship in New York City, and the application asks about current U.S. work authorization, future sponsorship needs, entirely onsite work, and relocation without stating an acceptance or sponsorship policy. The official source does not list compensation, a deadline, duration, or weekly hours.",
+      "discoveredAt": "2026-07-27T00:52:39.092Z",
+      "attemptedAt": "2026-07-27T00:52:39.092Z",
+      "updatedAt": "2026-07-27T00:52:39.092Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Synaptrix Labs' official Greenhouse page displayed internship posting 4060252009 with Industrial Design and UI/UX Design tracks, an Apply action, and a complete application form during the July 27, 2026 UTC check.",
+        "The employer describes interface and user-experience work for people with mobility or communication impairments plus wearable and ergonomic form-factor prototyping for neurotechnology devices.",
+        "The posting requires a relevant degree in progress, applicable technical or design experience, and availability in New York City. Its application asks about work authorization, sponsorship, onsite work, and relocation but does not state a sponsorship policy, compensation, a deadline, duration, or weekly hours."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-27-rakuten-kobo-ux-intern",
+      "title": "UX Intern (6-month contract)",
+      "organization": "Rakuten Kobo",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-rakuten-kobo-workday-1031545",
+      "sourceName": "Rakuten Kobo Workday",
+      "sourceUrl": "https://rakuten.wd1.myworkdayjobs.com/Kobo/job/Toronto-Canada/UX-Intern--6-month-contract-_1031545",
+      "url": "https://rakuten.wd1.myworkdayjobs.com/Kobo/job/Toronto-Canada/UX-Intern--6-month-contract-_1031545",
+      "location": "Toronto, Canada - full-time; onsite, hybrid, or remote arrangement is not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "CAD 45,000 salary; the official posting does not specify whether this figure is annualized",
+      "eligibility": "Rakuten Kobo asks for an understanding of core design principles, some experience solving real user-experience problems, familiarity with Figma for design assets, critical thinking, and receptiveness to constructive critique; curiosity and a passion for reading are preferred. The role is a full-time six-month contract supporting UX research and problem discovery, collaborative ideation, execution, and delivery. The official source does not list a degree or enrollment requirement, an application deadline, a specific work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T00:52:39.092Z",
+      "attemptedAt": "2026-07-27T00:52:39.092Z",
+      "updatedAt": "2026-07-27T00:52:39.092Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Rakuten's official Workday endpoint returned requisition 1031545 as the UX Intern (6-month contract) opening in Toronto during the July 27, 2026 UTC check, with Workday metadata showing a July 17, 2026 posting date.",
+        "The current employer record confirms a full-time six-month UX internship covering research, problem discovery, collaborative ideation, design execution, and asset delivery, with Figma familiarity and UX problem-solving experience required.",
+        "Rakuten Kobo lists a CAD 45,000 salary without specifying whether it is annualized. The source does not state a deadline, degree or enrollment requirement, specific work arrangement, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-cynaris-ui-ux-design-intern",
       "title": "UI/UX Design Intern",
