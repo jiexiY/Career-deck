@@ -1,6 +1,130 @@
 {
-  "updatedAt": "2026-07-27T00:18:34.629Z",
+  "updatedAt": "2026-07-27T00:31:34.633Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-cynaris-ui-ux-design-intern",
+      "title": "UI/UX Design Intern",
+      "organization": "Cynaris Solutions",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-cynaris-solutions-uiux-design-intern",
+      "sourceName": "Cynaris Solutions Careers",
+      "sourceUrl": "https://www.cynarissolutions.com/job/uiux-design-intern",
+      "url": "https://www.cynarissolutions.com/job/uiux-design-intern",
+      "location": "Bengaluru, India - hybrid; two days per week in the Bengaluru office and the remaining days from home",
+      "deadline": "December 31, 2026",
+      "compensation": "Unpaid",
+      "eligibility": "Cynaris lists this role for a fresher or student and asks candidates to be pursuing a degree in Design, Computer Science, HCI, or a related field. Applicants should have hands-on familiarity with Figma, Adobe XD, or similar tools, understand UX principles, design thinking, and information architecture, communicate design decisions clearly, and have a personal laptop; a portfolio or academic or personal design samples are a strong plus. Work covers user research, usability testing, wireframes, prototypes, design systems, user flows, accessibility standards, and engineering handoff. The official source does not list an internship duration, a separate weekly-hours requirement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T00:31:34.633Z",
+      "attemptedAt": "2026-07-27T00:31:34.633Z",
+      "updatedAt": "2026-07-27T00:31:34.633Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cynaris Solutions' employer-hosted careers index and role page displayed the UI/UX Design Intern opening, 15 positions, an active internship application link, and a December 31, 2026 deadline during the July 27, 2026 UTC check.",
+        "The official role page confirms Bengaluru, a hybrid schedule with two office days per week, unpaid compensation, and work across web and mobile research, wireframes, prototypes, design systems, usability testing, and developer handoff.",
+        "The employer asks for a related degree in progress, design-tool familiarity, UX fundamentals, clear design rationale, and a personal laptop; it does not state the internship duration, a separate weekly-hours requirement, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-27-get-e-product-design-intern",
+      "title": "Product Design Intern (UX/UI)",
+      "organization": "Get-e",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-get-e-personio-2643166",
+      "sourceName": "Get-e Personio",
+      "sourceUrl": "https://get-e.jobs.personio.com/job/2643166?language=en",
+      "url": "https://get-e.jobs.personio.com/job/2643166?language=en",
+      "location": "Hoofddorp, Netherlands - four to five days per week, full-time preferred; one work-from-home day is possible after onboarding",
+      "deadline": "Not listed on official source",
+      "compensation": "EUR 500 per month plus an NS business card; a laptop and professional tool licenses are provided if needed",
+      "eligibility": "Get-e seeks final-year students or recent graduates in Design, UX/UI, Human-Computer Interaction, or a closely related field. Applicants should understand UX principles, user flows, and interface design, have at least one project or internship applying those skills end to end, know Figma and AI-supported workflows, communicate and collaborate well, work independently, and iterate on feedback. The role starts in September for five to six months, but the official source does not state the year. The official source also does not list an application deadline or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T00:31:34.633Z",
+      "attemptedAt": "2026-07-27T00:31:34.633Z",
+      "updatedAt": "2026-07-27T00:31:34.633Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Get-e's employer-hosted Personio page displayed the Product Design Intern (UX/UI) role and an active application action during the July 27, 2026 UTC check.",
+        "The official posting confirms Hoofddorp, a five- to six-month term starting in September, four to five days per week with full-time preferred, and one possible work-from-home day after onboarding.",
+        "Get-e lists EUR 500 per month, an NS business card, equipment and tool support, final-year or recent-graduate eligibility, UX and Figma experience, research, design-system, design-QA, and analytics work; it does not state the start year, a deadline, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-27-versa-ui-ux-intern-august-2026",
+      "title": "UI/UX Intern (August 2026 Intake)",
+      "organization": "Versa",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-versa-careers-ui-ux-intern",
+      "sourceName": "Versa Careers",
+      "sourceUrl": "https://versa.com.my/job/ui-ux-intern/",
+      "url": "https://versa.com.my/job/ui-ux-intern/",
+      "location": "Malaysia - exact role location and work arrangement are not listed; the employer careers site identifies Versa Asia Sdn Bhd in Bandar Utama",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Versa describes the opening for students pursuing a Bachelor's degree or fresh graduates and separately asks for current enrollment in Graphic Design, User Experience Design, Industrial Design, or a related degree program. Applicants should have basic Adobe Creative Suite and Figma knowledge, a strong interest in product design and user experience, and good communication and teamwork skills. The internship requires a minimum three-month commitment and the careers index labels the opening as the August 2026 intake. The official source does not list compensation, a deadline, exact work location or arrangement, weekly hours, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T00:31:34.633Z",
+      "attemptedAt": "2026-07-27T00:31:34.633Z",
+      "updatedAt": "2026-07-27T00:31:34.633Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.95,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Versa's employer-hosted careers index displayed UI/UX Intern (August 2026 Intake), and the official role page offered the role in its active Quick Apply form during the July 27, 2026 UTC check.",
+        "The employer source confirms end-to-end UI/UX work, cross-functional product collaboration, user research, design trends, related-degree eligibility, Adobe and Figma fundamentals, and a minimum three-month commitment.",
+        "The careers index and detail page expose inconsistent relative posting-age labels, so no posted date was stored. The source does not list compensation, a deadline, exact location or work arrangement, weekly hours, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-27-efgh-product-design-intern-singapore",
+      "title": "Product Design Intern",
+      "organization": "Embed Financial Group Holdings (EFGH)",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-efgh-careers-product-design-intern-singapore",
+      "sourceName": "EFGH Careers",
+      "sourceUrl": "https://efgh.xyz/careers/product-design-intern-singapore",
+      "url": "https://efgh.xyz/careers/product-design-intern-singapore",
+      "location": "Singapore - work arrangement, weekly schedule, and internship duration are not listed on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "EFGH asks applicants to be pursuing a degree in Design, HCI, or a related field, provide a portfolio showing UX thinking and interface craft, and be proficient with Figma and basic prototyping. Work includes discovery through polished web UI, user flows, wireframes, prototypes, design systems, quick user tests, production specifications, and engineering handoff. The official source does not list compensation, a deadline, internship dates or duration, weekly hours, a specific work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T00:31:34.633Z",
+      "attemptedAt": "2026-07-27T00:31:34.633Z",
+      "updatedAt": "2026-07-27T00:31:34.633Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "EFGH's employer-hosted careers page displayed the Product Design Intern opening in Singapore and an active Apply Now action during the July 27, 2026 UTC check.",
+        "The official posting confirms end-to-end web product design, user flows, wireframes, prototypes, design-system work, user testing, production specifications, and engineering handoff.",
+        "EFGH requires a relevant degree in progress, a UX and interface portfolio, and Figma and prototyping proficiency; it does not list compensation, a deadline, dates or duration, weekly hours, a work arrangement, or work-authorization and sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-rakuten-viki-ux-content-design-intern",
       "title": "Intern, UX (Content Design)",
@@ -3764,37 +3888,6 @@
         "TechnipFMC's official careers page displayed requisition 18777 with an active Apply now control during the July 26, 2026 UTC check and records a July 14, 2026 posting date.",
         "The employer source confirms an office-based, onshore design-engineer internship or co-op in Dammam supporting interior design, space planning, facility improvements, design presentations, supplier and contractor coordination, and workplace branding.",
         "TechnipFMC requires a Bachelor's degree in Interior Design, Architecture, or a related field plus Tamheer eligibility and does not require prior experience. It does not publish compensation, a deadline, internship duration, weekly schedule, or other work-authorization and sponsorship terms."
-      ],
-      "needsReview": false
-    },
-    {
-      "id": "tech-design-2026-07-26-niural-product-design-intern",
-      "title": "Product Design Intern",
-      "organization": "Niural",
-      "section": "tech",
-      "type": "internship",
-      "status": "open",
-      "sourceId": "src-niural-careers-product-design-intern",
-      "sourceName": "Niural Careers",
-      "sourceUrl": "https://www.niural.com/careers/product-design-intern",
-      "url": "https://www.niural.com/careers/product-design-intern",
-      "location": "United States - on-site; city, internship duration, and weekly schedule not listed on official source",
-      "deadline": "Not listed on official source",
-      "compensation": "Competitive internship compensation package; amount not listed on official source. Niural also provides a MacBook Pro and high-performance monitor.",
-      "eligibility": "Niural seeks candidates with 1-2 years of hands-on design experience through internships, freelance work, or academic projects, preferably in SaaS or digital products. Applicants should be fluent in Figma or a similar tool, have experience building interactive web or mobile prototypes, understand visual design, UX principles, and user flows, and be able to collaborate, communicate, organize work, accept feedback, and iterate quickly. Work includes high-fidelity mockups and prototypes, cross-functional product design, design operations, design-system development, user research, usability testing, and design reviews. The official source does not list academic-status requirements, a deadline, internship duration, weekly schedule, a city, or internship work-authorization and sponsorship terms; it states that H1B sponsorship may be available only upon conversion to a full-time role.",
-      "discoveredAt": "2026-07-26T04:37:07.765Z",
-      "attemptedAt": "2026-07-26T04:37:07.765Z",
-      "updatedAt": "2026-07-26T04:37:07.765Z",
-      "confidence": {
-        "source": 0.99,
-        "extraction": 0.99,
-        "freshness": 0.95,
-        "duplicateProbability": 0.01
-      },
-      "evidence": [
-        "Niural's official employer careers page displayed the Product Design Intern role and an active application form during the July 26, 2026 UTC check.",
-        "The employer source confirms an on-site United States product-design internship covering prototypes, cross-functional collaboration, design operations, design systems, research, usability testing, and design reviews, with 1-2 years of hands-on design experience requested.",
-        "Niural describes a competitive compensation package without an amount and lists equipment support. It does not publish a posting date, deadline, city, duration, weekly schedule, academic-status requirements, or internship work-authorization terms; H1B sponsorship is mentioned only for eligible candidates who convert to full-time employment."
       ],
       "needsReview": false
     },
