@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T03:32:16.415Z",
+  "updatedAt": "2026-07-27T03:42:51.670Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-sprinklr-design-intern",
+      "title": "Design Intern",
+      "organization": "Sprinklr",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sprinklr-workday-113310-job",
+      "sourceName": "Sprinklr Careers / Workday",
+      "sourceUrl": "https://sprinklr.wd1.myworkdayjobs.com/careers/job/India---Haryana---Gurgaon/Design-Intern_113310-JOB",
+      "url": "https://sprinklr.wd1.myworkdayjobs.com/careers/job/India---Haryana---Gurgaon/Design-Intern_113310-JOB",
+      "location": "Gurgaon, Haryana, India - full-time; the official source does not state whether the role is onsite, hybrid, or remote or list weekly hours",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Sprinklr seeks candidates with a portfolio containing two or three projects that show process and outcomes; strong interaction-design, hierarchy, and usability fundamentals; Figma proficiency with components, auto-layout, and prototyping; exposure to AI design tools and workflows such as Figma, Lovable, or Cursor; an understanding of agentic design practices that keep users informed and in control; some user, competitive, or secondary research experience; problem-framing and solution skills; cross-functional collaboration; and clear, structured storytelling. The role supports the Product Design team on enterprise product features, design systems, user-centered research, and discovery. The official source does not state degree or enrollment requirements, internship dates or duration, compensation, a deadline, weekly hours, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T03:42:51.670Z",
+      "attemptedAt": "2026-07-27T03:42:51.670Z",
+      "updatedAt": "2026-07-27T03:42:51.670Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Sprinklr's official Workday feed returned Design Intern, requisition 113310-JOB, as an active Gurgaon posting with an employer application URL during the July 27, 2026 UTC check; Workday records July 24, 2026 as the posting start date.",
+        "The official source confirms a full-time Product Design internship focused on enterprise product features, design systems, user-centered research and discovery, AI design workflows, and agentic experiences that preserve user clarity, trust, and control.",
+        "Sprinklr asks for a two-to-three-project portfolio, Figma proficiency, interaction-design and usability fundamentals, AI-tool exposure, research experience, collaboration, and structured storytelling, but does not list compensation, a deadline, duration, weekly hours, work arrangement, degree or enrollment requirements, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-rakuten-viki-ux-design-copy-intern",
       "title": "Intern, UX (Design & Copy)",
