@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T02:49:37.433Z",
+  "updatedAt": "2026-07-27T03:00:41.971Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-product-ventures-internship-general-application",
+      "title": "Internship General Application",
+      "organization": "Product Ventures",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-product-ventures-lever-9ba965c9",
+      "sourceName": "Product Ventures Lever",
+      "sourceUrl": "https://jobs.lever.co/productventures/9ba965c9-034a-4054-921b-7f787e53a242",
+      "url": "https://jobs.lever.co/productventures/9ba965c9-034a-4054-921b-7f787e53a242",
+      "location": "Fairfield, Connecticut - part-time, in-person, and on-site; exact weekly hours are not listed on the official source",
+      "deadline": "Rolling applications",
+      "compensation": "Paid; amount not listed on official source",
+      "eligibility": "Product Ventures invites candidates obtaining a degree in one of its internship disciplines, including industrial design or engineering for mechanical engineers and design engineers. Other listed departments are graphic design, marketing and sales, prototyping, and consumer research. Applicants should be creative, collaborative, and hard-working and include a portfolio sample or relevant clips. Internships most commonly last 12 weeks and may take place in spring, summer, or fall. The official source does not state a specific degree level, exact dates for an individual placement, weekly hours, pay amount, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T03:00:41.971Z",
+      "attemptedAt": "2026-07-27T03:00:41.971Z",
+      "updatedAt": "2026-07-27T03:00:41.971Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Product Ventures' official Lever board displayed the Internship General Application with an active application form during the July 27, 2026 UTC check.",
+        "The employer explicitly lists industrial design and engineering for mechanical engineers and design engineers among the internship departments and accepts rolling applications for paid placements throughout the year.",
+        "Lever identifies the opportunity as part-time, in-person, and on-site in Fairfield, Connecticut; the posting says internships most commonly last 12 weeks but does not list an exact placement term, weekly hours, pay amount, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-other-tomorrows-design-intern-fall-2026",
       "title": "Design Intern for Fall 2026",
