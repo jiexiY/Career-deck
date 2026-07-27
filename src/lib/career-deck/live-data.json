@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T15:33:17.140Z",
+  "updatedAt": "2026-07-27T15:44:46.680Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-sig-sauer-industrial-design-intern",
+      "title": "Intern, Industrial Design",
+      "organization": "SIG SAUER",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sig-sauer-ukg-inter007102",
+      "sourceName": "SIG SAUER Careers / UKG",
+      "sourceUrl": "https://recruiting.ultipro.com/SIG1011SIGSA/JobBoard/9ec422f8-2ba7-4e60-983b-b473bf030bd6/OpportunityDetail?opportunityId=b7390fce-7c9d-47e2-a904-b486ad7f97bb",
+      "url": "https://recruiting.ultipro.com/SIG1011SIGSA/JobBoard/9ec422f8-2ba7-4e60-983b-b473bf030bd6/OpportunityDetail?opportunityId=b7390fce-7c9d-47e2-a904-b486ad7f97bb",
+      "location": "Exeter, New Hampshire, United States - full-time, onsite, 40 hours per week",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "SIG SAUER requires a high school diploma or equivalent and current pursuit of a degree in Industrial Design or a related field. Applicants should have experience with Microsoft Word, Excel, and Outlook; developing proficiency in 2D design software and SolidWorks surface modeling; attention to detail; research and problem-solving skills; and a portfolio showing developing design communication skills. Interest in firearms and outdoor activities and experience using and maintaining firearms are preferred. The fall 2026 internship runs from September through December, requires travel, and does not offer relocation assistance. The official source does not state compensation, an application deadline, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T15:44:46.680Z",
+      "attemptedAt": "2026-07-27T15:44:46.680Z",
+      "updatedAt": "2026-07-27T15:44:46.680Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SIG SAUER's official UKG careers page displayed Intern, Industrial Design, requisition INTER007102, as active during the July 27, 2026 UTC check.",
+        "The official source confirms a full-time, onsite, 40-hour-per-week internship in Exeter for the fall 2026 semester from September through December and states that relocation assistance is not available.",
+        "Applicants must currently pursue Industrial Design or a related field and provide a portfolio; the official source does not list compensation, an application deadline, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-soda-studio-ux-design-internship",
       "title": "UX Design Internship",
