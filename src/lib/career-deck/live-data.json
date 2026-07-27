@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-07-27T01:13:15.459Z",
+  "updatedAt": "2026-07-27T01:32:14.430Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-webook-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "webook.com",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-webook-workable-c07255c746",
+      "sourceName": "webook.com Careers / Workable",
+      "sourceUrl": "https://apply.workable.com/webook/j/C07255C746/",
+      "url": "https://apply.workable.com/webook/j/C07255C746/apply",
+      "location": "Riyadh, Saudi Arabia - on-site; Workable classifies the role as full-time, while duration and weekly schedule are not listed",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "webook.com asks applicants to be familiar with Figma, including components and auto-layout, and to provide a portfolio that may contain personal projects, coursework, or freelance work. Candidates should demonstrate strong attention to detail, structured design thinking, and curiosity about the reasoning behind solutions. Work includes designing user flows, wireframes, polished UI screens, mockups, and product improvements based on user feedback while collaborating with product designers and product managers on live features. The official source does not list degree or enrollment requirements, compensation, an application deadline, internship duration, weekly hours, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T01:32:14.430Z",
+      "attemptedAt": "2026-07-27T01:32:14.430Z",
+      "updatedAt": "2026-07-27T01:32:14.430Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "webook.com's official Workable page displayed Product Design Intern, posting ID C07255C746, with an active application link during the July 27, 2026 UTC check; Workable lists a May 4, 2026 posting date.",
+        "The official source confirms an on-site role in Riyadh classified as full-time, with work across user flows, wireframes, polished UI, user-feedback-driven improvements, mockups, and live product features.",
+        "webook.com lists Figma familiarity, a portfolio, attention to detail, and structured design thinking but does not list degree or enrollment requirements, compensation, a deadline, duration, weekly hours, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-transcelestial-industrial-design-engineering-intern",
       "title": "Industrial Design Engineering Intern",
