@@ -3242,6 +3242,37 @@
       "needsReview": true
     },
     {
+      "id": "tech-design-2026-07-27-kiska-product-design-intern",
+      "title": "Product Design Intern",
+      "organization": "KISKA",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-kiska-softgarden-65287181",
+      "sourceName": "KISKA Careers / Softgarden",
+      "sourceUrl": "https://kiska.softgarden.io/job/65287181/Product-Design-Intern?jobDbPVId=276237306&l=en",
+      "url": "https://kiska.softgarden.io/job/65287181/Product-Design-Intern?jobDbPVId=276237306&l=en",
+      "location": "5081 Anif, Austria (Salzburg area) - full-time; the official source does not state whether the role is onsite, hybrid, or remote or list weekly hours",
+      "deadline": "Not listed on official source",
+      "compensation": "Competitive compensation; amount not listed on official source",
+      "eligibility": "KISKA seeks a student or recent graduate in Product Design or Industrial Design who is available for six months and fluent in English. The employer also asks for creativity, motivation to learn studio design processes, an open and collaborative approach across creative fields, and ideally an interest in interaction design. Work spans product-experience design, support throughout the design process, concept contributions across projects, AI-assisted design and visualization, and collaboration with research, interaction, brand-strategy, and communication teams. The current official ATS page lists the role as full-time and open to candidates with or without professional experience. The official source does not state a deadline, exact start date, weekly hours, work arrangement, compensation amount, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T16:15:02.913Z",
+      "attemptedAt": "2026-07-27T16:15:02.913Z",
+      "updatedAt": "2026-07-27T16:15:02.913Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "KISKA's current official Softgarden board listed Product Design Intern, and the exact ATS page for job 65287181 returned HTTP 200 with an active Apply Online action during the July 27, 2026 UTC check.",
+        "KISKA's employer-hosted role description asks for a student or recent graduate in Product Design or Industrial Design who is available for six months and fluent in English, with work across product-experience design, AI-assisted visualization, and multidisciplinary collaboration.",
+        "The official ATS lists a full-time opening in 5081 Anif, Austria, for candidates with or without professional experience; KISKA describes compensation as competitive but does not publish an amount, deadline, exact start date, weekly hours, work arrangement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
       "id": "tech-design-2026-07-27-sig-sauer-industrial-design-intern",
       "title": "Intern, Industrial Design",
       "organization": "SIG SAUER",
