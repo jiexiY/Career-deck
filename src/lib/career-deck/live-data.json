@@ -1,6 +1,68 @@
 {
-  "updatedAt": "2026-07-27T03:42:51.670Z",
+  "updatedAt": "2026-07-27T04:41:13.204Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-27-ibda-ux-ui-design-intern",
+      "title": "UX/UI Design Intern",
+      "organization": "IBDA",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ibda-careers-ux-ui-design-intern",
+      "sourceName": "IBDA Careers",
+      "sourceUrl": "https://www.ibda.co/careers",
+      "url": "https://www.ibda.co/careers",
+      "location": "Dubai, UAE or remote worldwide - hybrid work is split between in5 Design coworking spaces or Fab Lab and remote work; fully remote applicants must overlap reasonably with Dubai time (GMT+4); weekly hours are not listed",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "IBDA describes this cohort as open to students and recent graduates. The UX/UI internship asks for familiarity with UX/UI principles and processes, experience with Figma, Framer, or similar tools, visual-design and typography judgment, interest in human-centered design and emerging technologies, and communication skills. Work includes user research, user flows, wireframes, interactive prototypes, usability testing, design iteration, developer handoff, and exploration of AR, VR, and data-visualization interfaces. The official source does not list a degree or enrollment requirement, compensation, an application deadline, internship dates or duration, weekly hours, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T04:41:13.204Z",
+      "attemptedAt": "2026-07-27T04:41:13.204Z",
+      "updatedAt": "2026-07-27T04:41:13.204Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.95,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "IBDA's employer-hosted careers page displayed UX/UI Design Intern as part of a new cohort of open intern and associate roles and provided direct application instructions during the July 27, 2026 UTC check; the page does not state a posting date.",
+        "The official source confirms work across user research, user flows, wireframes, prototypes, usability testing, design iteration, developer handoff, and emerging interfaces, with hybrid Dubai and fully remote options.",
+        "IBDA asks applicants to email a CV and portfolio plus a brief interest note; it does not list compensation, a deadline, internship dates or duration, weekly hours, a degree or enrollment requirement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-27-ibda-product-industrial-design-intern",
+      "title": "Product & Industrial Design Intern",
+      "organization": "IBDA",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ibda-careers-product-industrial-design-intern",
+      "sourceName": "IBDA Careers",
+      "sourceUrl": "https://www.ibda.co/careers",
+      "url": "https://www.ibda.co/careers",
+      "location": "Dubai, UAE - hybrid, split between in5 Design coworking spaces or Fab Lab and remote work; weekly hours are not listed",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "IBDA describes this cohort as open to students and recent graduates. The Product and Industrial Design internship asks for basic proficiency with Rhino, Fusion 360, or similar 3D CAD software, sketching and visualization skills, an understanding of manufacturing processes and materials, interest in user-centered design and emerging technology, and teamwork and communication skills. Work includes concept ideation, sketches, 3D models, technical drawings, materials and manufacturing research, rapid prototyping and 3D printing, design reviews, and iteration. The official source does not list a degree or enrollment requirement, compensation, an application deadline, internship dates or duration, weekly hours, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-27T04:41:13.204Z",
+      "attemptedAt": "2026-07-27T04:41:13.204Z",
+      "updatedAt": "2026-07-27T04:41:13.204Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.95,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "IBDA's employer-hosted careers page displayed Product and Industrial Design Intern as part of a new cohort of open intern and associate roles and provided direct application instructions during the July 27, 2026 UTC check; the page does not state a posting date.",
+        "The official source confirms concept ideation, sketching, 3D CAD and technical drawings, materials and manufacturing research, prototyping and 3D printing, design reviews, and iteration in a hybrid Dubai setup.",
+        "IBDA asks applicants to email a CV and portfolio plus a brief interest note; it does not list compensation, a deadline, internship dates or duration, weekly hours, a degree or enrollment requirement, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-27-sprinklr-design-intern",
       "title": "Design Intern",
