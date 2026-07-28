@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T19:50:13.741Z",
+  "updatedAt": "2026-07-28T21:18:32.829Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-28-samsung-stage-product-design-r114342",
+      "title": "Stage Product Design",
+      "organization": "Samsung",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-samsung-workday-r114342",
+      "sourceName": "Samsung Careers / Workday",
+      "sourceUrl": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Stage-Product-Design_R114342",
+      "url": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Stage-Product-Design_R114342",
+      "location": "6 rue Fructidor, Saint-Ouen, France - hybrid",
+      "deadline": "July 30, 2026",
+      "compensation": "Paid internship; amount not listed on official source",
+      "eligibility": "Applicants must be pursuing a master's degree in Product Design, Industrial Design, or a related field and be proficient in spoken and written English. Samsung asks for interaction-design, usability, and user-centered-design knowledge; product-rendering and prototyping experience with tools such as Figma, Rhino, Adobe Premiere, Adobe XD, After Effects, Blender, or C4D; and clear visual, prototype, and storytelling communication. Interest in motion design, micro-interactions, and video is requested, while UI/UX experience is helpful. The internship requires a French internship agreement. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-07-28T21:18:32.829Z",
+      "attemptedAt": "2026-07-28T21:18:32.829Z",
+      "updatedAt": "2026-07-28T21:18:32.829Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Samsung's employer-hosted Workday page for requisition R114342 returned HTTP 200 during the July 28, 2026 UTC check, and the official ATS listing displayed an active Apply action with a July 30, 2026 closing date.",
+        "The official posting confirms a paid, hybrid six-month Product Design internship in Saint-Ouen starting as soon as possible, covering physical and digital product concepts, rendering, prototyping, ergonomics, usability, and collaboration with designers and engineers.",
+        "Samsung requires current master's study in Product Design, Industrial Design, or a related field, English proficiency, relevant rendering and prototyping tools, and a French internship agreement; the role-specific Workday JSON endpoint returned HTTP 403 permission denied, while the public official job page remained reachable at HTTP 200."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-28-invariant-group-ai-native-product-design-intern",
