@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T16:11:00.083Z",
+  "updatedAt": "2026-07-28T16:46:41.281Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-28-baxter-ux-ui-industrial-design-coop",
+      "title": "UX/UI Industrial Design Co-op",
+      "organization": "Baxter",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-baxter-workday-jr-205594",
+      "sourceName": "Baxter Careers / Workday",
+      "sourceUrl": "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Batesville-Indiana/UX-UI-Industrial-Design-Co-op_JR-205594",
+      "url": "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Batesville-Indiana/UX-UI-Industrial-Design-Co-op_JR-205594",
+      "location": "Batesville, IN, United States - full-time; work arrangement not listed on official source",
+      "deadline": "Not listed on official source",
+      "compensation": "$21-$25 USD per hour; Baxter lists medical and dental coverage, insurance, an employee stock purchase plan, a 401(k), flexible spending accounts, educational assistance, paid time off and leave, commuting benefits, employee discounts, an employee assistance program, and childcare benefits for eligible roles",
+      "eligibility": "Applicants must be currently pursuing a bachelor's or master's degree in Industrial Design, Visual Communication or Graphic Design, Human-Computer Interaction, User Experience Design, or a related field. Baxter also requires Adobe Illustrator and Photoshop experience, knowledge of human-centered design, usability, or HCI principles, experience creating visual assets, mockups, wireframes, or prototypes, and a portfolio showing graphic design, UI/UX design, product design, or related work. Applicants must be authorized to work for any employer in the United States; Baxter states that it cannot sponsor or take over sponsorship of an employment visa. The official source does not state the co-op term, weekly schedule, work arrangement, or application deadline.",
+      "discoveredAt": "2026-07-28T16:46:41.281Z",
+      "attemptedAt": "2026-07-28T16:46:41.281Z",
+      "updatedAt": "2026-07-28T16:46:41.281Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.03
+      },
+      "evidence": [
+        "Baxter's official Workday URL for requisition JR-205594 returned HTTP 200 with current JobPosting metadata dated July 27, 2026 and a full role description during the July 28, 2026 UTC check.",
+        "The official posting confirms full-time work in Batesville, Indiana, UI and product-design responsibilities for medical devices, current bachelor's or master's study in a relevant design field, Adobe and portfolio requirements, $21-$25 hourly pay, and a no-sponsorship policy; it does not list a deadline, term, weekly schedule, or work arrangement.",
+        "The July 27 posting date and requisition JR-205594 distinguish this listing from Baxter's older JR-199292 page for the same title and location."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-28-hitachi-rail-system-design-engineer-intern-cbtc",
