@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T02:37:18.783Z",
+  "updatedAt": "2026-07-28T15:00:37.958Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,36 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-28-marvell-digital-design-engineer-intern",
+      "title": "Digital Design Engineer Intern - Fall 2026",
+      "organization": "Marvell",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-marvell-workday-2602707",
+      "sourceName": "Marvell Careers / Workday",
+      "sourceUrl": "https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers/job/Digital-Design-Engineer-Intern---Fall-2026_2602707",
+      "url": "https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers/job/Digital-Design-Engineer-Intern---Fall-2026_2602707",
+      "location": "Toronto, Canada - full-time, onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "CAD $32-$43 per hour",
+      "eligibility": "Applicants must be currently enrolled in a university program working toward a BS or MS in Computer Engineering, Electrical Engineering, or an equivalent field. Working knowledge of Verilog or SystemVerilog, familiarity with digital-electronics fundamentals, written and verbal communication skills, and the ability to work full time onsite are required. The posting says the role may require access to technology or software subject to U.S. export-control laws; applicants must be eligible to access that information, and candidates who are not U.S. citizens, lawful permanent residents, or protected individuals may be subject to an export-license review.",
+      "discoveredAt": "2026-07-28T15:00:37.958Z",
+      "attemptedAt": "2026-07-28T15:00:37.958Z",
+      "updatedAt": "2026-07-28T15:00:37.958Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Marvell's official Workday page displayed this Toronto internship with an active Apply action, requisition 2602707, and the relative posting label 'Posted 5 Days Ago' during the July 28, 2026 UTC check.",
+        "The official posting confirms full-time onsite work, RTL and ASIC design responsibilities, current BS or MS enrollment in Computer Engineering, Electrical Engineering, or an equivalent field, Verilog or SystemVerilog knowledge, digital-electronics fundamentals, CAD $32-$43 hourly pay, and an export-control eligibility review; it does not list an application deadline."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-28-coursicle-product-design-internship",
