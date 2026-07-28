@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T16:58:34.236Z",
+  "updatedAt": "2026-07-28T00:00:15.915Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3238,6 +3238,37 @@
       },
       "evidence": [
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-28-coursicle-product-design-internship",
+      "title": "Product Design Internship - NYC, Remote",
+      "organization": "Coursicle",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-coursicle-employer-product-design-internship",
+      "sourceName": "Coursicle Employer Careers Page",
+      "sourceUrl": "https://www.coursicle.com/blog/product-design-internship/",
+      "url": "https://www.coursicle.com/blog/product-design-internship/",
+      "location": "New York City preferred; remote applicants accepted - part-time; the official source does not list weekly hours",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid hourly; rate not listed on official source",
+      "eligibility": "Coursicle seeks a part-time product-design intern to ideate new product features and create Figma mockups for student-planning experiences, including live activities, widgets, and homework-import flows. The employer prefers candidates in New York City but accepts remote applicants and asks candidates to apply with a resume through the direct email listed on the official page. The posting does not state degree or enrollment requirements, an hourly rate, a deadline, weekly hours, work-authorization or sponsorship terms, or portfolio requirements. It says the role starts immediately and then gives early December 2027 in parentheses; that timing is preserved as written and should be confirmed directly with Coursicle.",
+      "discoveredAt": "2026-07-28T00:00:15.915Z",
+      "attemptedAt": "2026-07-28T00:00:15.915Z",
+      "updatedAt": "2026-07-28T00:00:15.915Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Coursicle's employer-hosted Product Design Internship page returned HTTP 200 with a direct application email during the July 28, 2026 UTC check; the page is dated May 20, 2026.",
+        "The official source confirms a part-time, paid-hourly product-design role, a New York City preference with remote applicants accepted, and work ideating product features and producing Figma mockups for student-planning experiences.",
+        "The employer page does not list the hourly rate, deadline, weekly hours, degree or enrollment requirements, portfolio requirements, or work-authorization terms. Its phrase 'start immediately (early December 2027)' is internally inconsistent, so the timing remains a review item rather than an inferred date."
       ],
       "needsReview": true
     },
