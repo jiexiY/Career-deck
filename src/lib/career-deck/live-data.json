@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T15:00:37.958Z",
+  "updatedAt": "2026-07-28T15:41:10.895Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,36 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-28-hitachi-rail-system-design-engineer-intern-cbtc",
+      "title": "System Design Engineer Intern - CBTC",
+      "organization": "Hitachi Rail Singapore",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hitachi-rail-workday-r1012514",
+      "sourceName": "Hitachi Rail Careers / Workday",
+      "sourceUrl": "https://gtsgbu.wd3.myworkdayjobs.com/en-US/Careers/job/System-Design-Engineer-Intern---CBTC_R1012514",
+      "url": "https://gtsgbu.wd3.myworkdayjobs.com/en-US/Careers/job/System-Design-Engineer-Intern---CBTC_R1012514",
+      "location": "Singapore, Singapore - full-time, hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing a degree in an Engineering field and have curiosity, the ability to learn technical skills quickly, and strong communication skills for working with Hitachi Rail personnel globally. Students able to commit to a minimum six-month, full-time, credit-bearing internship are preferred. The posting lists MS Office, Windows, Linux, Python, Pandas, and NumPy as technologies used but states that prior experience with them is not required. Work-authorization and sponsorship terms are not listed.",
+      "discoveredAt": "2026-07-28T15:41:10.895Z",
+      "attemptedAt": "2026-07-28T15:41:10.895Z",
+      "updatedAt": "2026-07-28T15:41:10.895Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hitachi Rail's official Workday page displayed this full-time hybrid Singapore internship with an active Apply action, requisition R1012514, and the relative posting label 'Posted Today' during the July 28, 2026 UTC check.",
+        "The official posting confirms CBTC performance analysis and train-run simulation work, current Engineering degree study, the preferred minimum six-month full-time credit-bearing commitment, and that prior experience with the listed tools is optional; compensation, an application deadline, and work-authorization terms are not listed."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-28-marvell-digital-design-engineer-intern",
