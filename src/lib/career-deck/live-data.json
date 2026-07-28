@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T16:46:41.281Z",
+  "updatedAt": "2026-07-28T19:50:13.741Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-28-invariant-group-ai-native-product-design-intern",
+      "title": "AI-Native Product Design Intern",
+      "organization": "Invariant Group",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-invariant-group-careers",
+      "sourceName": "Invariant Group Careers",
+      "sourceUrl": "https://www.invariantgroup.net/",
+      "url": "https://www.invariantgroup.net/",
+      "location": "New York City, NY or Dubai, United Arab Emirates - in person; remote globally",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid stipend plus performance-based bonuses; performance-based equity compensation is available for exceptional candidates",
+      "eligibility": "Invariant Group seeks an AI-native product designer with strong UI/UX instincts, excellent Figma skills, and the ability to turn abstract product ideas into clean, intuitive interfaces. The role works with the founding team on product flows, landing pages, prototypes, visual systems, and user-facing experiences. Applicants must send a portfolio to hello@invariantgroup.com. The official source does not list a degree or student-status requirement, application deadline, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-07-28T19:50:13.741Z",
+      "attemptedAt": "2026-07-28T19:50:13.741Z",
+      "updatedAt": "2026-07-28T19:50:13.741Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Invariant Group's employer-hosted site displayed the AI-Native Product Design Intern role under its actively hiring Summer Associates section with a direct portfolio application email during the July 28, 2026 UTC check.",
+        "The official page states that the summer associate program runs for two months from June through August 2026 and permits in-person work in New York City or Dubai or remote work globally.",
+        "The official source confirms product-flow, landing-page, prototype, visual-system, UI/UX, and Figma work, plus a paid stipend, performance-based bonuses, and possible equity compensation; it does not list a pay amount, deadline, degree requirement, work-authorization requirement, or sponsorship policy."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-28-baxter-ux-ui-industrial-design-coop",
