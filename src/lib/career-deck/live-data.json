@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T21:18:32.829Z",
+  "updatedAt": "2026-07-28T22:10:37.125Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-28-above-agency-user-experience-design-internship",
+      "title": "User Experience Design Internship",
+      "organization": "Above Agency",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-above-teamtailor-7468027",
+      "sourceName": "Above Agency Careers / Teamtailor",
+      "sourceUrl": "https://above.teamtailor.com/jobs/7468027-user-experience-design-internship",
+      "url": "https://above.teamtailor.com/jobs/7468027-user-experience-design-internship",
+      "location": "Malmö or Stockholm, Sweden - Teamtailor labels the role hybrid, while the posting text says internships are onsite",
+      "deadline": "Rolling; fixed deadline not listed on official source",
+      "compensation": "Paid internship; amount not listed on official source",
+      "eligibility": "Above Agency seeks strong conceptual thinking, a flexible design toolkit, a user-centered approach, qualitative user-research experience, visual storytelling ability, hands-on AI-enabled workflows and prototyping, and a structured design process. Interaction-design knowledge is helpful. Applicants must submit a portfolio and short motivation statement. The employer states that it can support visa and work-permit processes for successful international candidates. The official source does not list a degree or enrollment requirement, weekly schedule, fixed application deadline, or pay amount.",
+      "discoveredAt": "2026-07-28T22:10:37.125Z",
+      "attemptedAt": "2026-07-28T22:10:37.125Z",
+      "updatedAt": "2026-07-28T22:10:37.125Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Above Agency's employer-hosted Teamtailor page displayed this internship with an active Apply for this job action during the July 28, 2026 UTC check.",
+        "The official posting confirms an August or September 2026 start in Malmö or Stockholm, a minimum six-month commitment, and rolling interviews; Teamtailor labels the role hybrid while the description says internships are onsite.",
+        "Above Agency confirms that the internship is paid and that visa and work-permit support is available for successful international candidates; it does not list a pay amount, fixed deadline, degree requirement, or weekly schedule."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-07-28-samsung-stage-product-design-r114342",
