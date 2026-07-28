@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T00:00:15.915Z",
+  "updatedAt": "2026-07-28T02:15:48.368Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -14257,10 +14257,10 @@
       "url": "https://careers.sharkninja.com/job/needham/fall-2026-product-design-engineering-co-op-advanced-development-july-to-december/47204/90824549568",
       "location": "Needham, MA - onsite",
       "deadline": "Not listed on official source",
-      "compensation": "$30-$36 USD per hour",
-      "eligibility": "Current bachelor's student in year three or beyond, current master's student, or within one year of graduation; full-time onsite July/August-December 2026; product design engineering, industrial design, or related background with CAD and prototyping experience required.",
+      "compensation": "$30-$36 USD per hour; eligible benefits include medical insurance, an HSA company contribution, sick time, company holidays, employee product discounts, product-testing opportunities, and referral bonuses",
+      "eligibility": "Applicants must be current bachelor's students in year three or beyond, current master's students, or within one year of graduation, with an academic focus in Industrial Design, Product Design Engineering, Mechanical Engineering with industrial-design coursework, or a related field. The co-op runs full time at 40 hours per week, five days onsite in Needham, from July or August through December 2026, and SharkNinja states that it provides no relocation or housing assistance. Candidates need CAD experience with SolidWorks, Creo, or Rhino, basic rapid-prototyping and 3D-printing skills, and hands-on experience building physical prototypes; electronics, Arduino, Raspberry Pi, and machine-shop experience are helpful. A portfolio is required and must include at least two projects showing the problem, the applicant's role, early ideation, prototyping and iteration, user-testing lessons, and technical considerations. The application asks about current U.S. work authorization and future sponsorship needs, but the posting does not state a sponsorship policy.",
       "discoveredAt": "2026-07-16T12:31:11.7860091-07:00",
-      "updatedAt": "2026-07-16T12:31:11.7860091-07:00",
+      "updatedAt": "2026-07-28T02:15:48.368Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.97,
@@ -14269,7 +14269,9 @@
       },
       "evidence": [
         "Official SharkNinja early-talent search results listed this role as open in Needham, MA and posted on July 2, 2026.",
-        "The official role page confirms the July/August-December 2026 term, five-day onsite schedule, third-year-or-beyond student or recent-graduate eligibility, CAD and rapid prototyping expectations, and the $30-$36 hourly pay range."
+        "The official role page confirms the July/August-December 2026 term, five-day onsite schedule, third-year-or-beyond student or recent-graduate eligibility, CAD and rapid prototyping expectations, and the $30-$36 hourly pay range.",
+        "SharkNinja's employer-hosted careers page and Greenhouse ATS both displayed Job ID 4646272006 with an active application during the July 28, 2026 UTC recheck; Greenhouse records an ATS update timestamp of July 21, 2026.",
+        "The refreshed official posting explicitly requires a process-focused portfolio with at least two projects, states that relocation and housing assistance are unavailable, lists eligible benefit categories, and asks work-authorization and sponsorship questions without publishing a sponsorship policy."
       ],
       "needsReview": false
     },
