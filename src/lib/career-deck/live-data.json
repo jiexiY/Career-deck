@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T17:43:46.039Z",
+  "updatedAt": "2026-07-31T19:21:46.970Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -16993,6 +16993,36 @@
         "Official Zynga university URL was present in the shared conversation."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-31-mercari-ui-ux-designer-internship-class-2028",
+      "title": "UI/UX Designer (Internship) - Mercari Group (Class of 2028)",
+      "organization": "Mercari Group",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-mercari-workable",
+      "sourceName": "Mercari Workable",
+      "sourceUrl": "https://apply.workable.com/mercari/j/DBA3561ADB/",
+      "url": "https://apply.workable.com/mercari/j/DBA3561ADB/",
+      "location": "Japan - remote or Roppongi office; internship participation must be from within Japan",
+      "deadline": "August 31, 2026 at 23:59 JST",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be able to join Mercari as new graduates in October 2027 or April 2028, participate from within Japan, work at least 20 hours per week, and submit a portfolio; a roughly 2-3 month internship is encouraged. Marketplace applicants need Japanese and English at CEFR B1 or higher. Fintech applicants need Japanese at CEFR C1 or higher, with English at CEFR A2 welcomed. Mercari states that overseas applicants can receive visa support and accommodation arrangements, plus airfare if tickets have not already been purchased when an internship offer is made.",
+      "discoveredAt": "2026-07-31T19:21:46.970Z",
+      "attemptedAt": "2026-07-31T19:21:46.970Z",
+      "updatedAt": "2026-07-31T19:21:46.970Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Mercari's official Workable page displayed this UI/UX Designer internship with an active application button on July 31, 2026 and listed an August 31, 2026 application deadline.",
+        "The official posting confirms Japan-based participation, remote or Roppongi work, at least 20 hours per week, a recommended 2-3 month term, Class of 2028 eligibility, required language levels, and a mandatory portfolio; compensation is not listed."
+      ],
+      "needsReview": false
     }
   ]
 }
