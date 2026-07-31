@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T16:42:41.032Z",
+  "updatedAt": "2026-07-31T17:43:46.039Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -11993,7 +11993,7 @@
       "organization": "Fortune Brands Innovations",
       "section": "tech",
       "type": "internship",
-      "status": "open",
+      "status": "closed",
       "sourceId": "src-fortune-brands-smartrecruiters",
       "sourceName": "Fortune Brands SmartRecruiters",
       "sourceUrl": "https://jobs.smartrecruiters.com/FortuneBrands/744000116207685-industrial-design-intern",
@@ -12003,8 +12003,8 @@
       "compensation": "$33,300-$45,760 base salary range; pay cadence not specified on official source",
       "eligibility": "Actively pursuing a bachelor's degree in Industrial Design with 2D hand and digital sketching, Adobe Creative Suite, 3D modeling, rendering, and presentation skills. SolidWorks is preferred and used for project CAD; KeyShot, Vizcom, InDesign, PowerPoint, Miro, or equivalent tools are relevant. Work spans discovery research, concept development and testing, CAD, product collections, color-material-finish development, sketches, prototypes, and cross-functional collaboration. This Summer 2026 internship follows a hybrid schedule with office attendance Tuesday through Thursday. The official source does not state exact term dates, a deadline, or work-authorization terms.",
       "discoveredAt": "2026-07-20T04:25:30.218Z",
-      "attemptedAt": "2026-07-20T04:25:30.218Z",
-      "updatedAt": "2026-07-20T04:25:30.218Z",
+      "attemptedAt": "2026-07-31T17:43:46.039Z",
+      "updatedAt": "2026-07-31T17:43:46.039Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.99,
@@ -12013,7 +12013,8 @@
       },
       "evidence": [
         "Fortune Brands' official SmartRecruiters posting and public employer API displayed posting 744000116207685 with an active application route on July 19, 2026.",
-        "The employer source confirms the Summer 2026 industrial-design scope, bachelor's enrollment and design-tool profile, three-day hybrid office schedule, and $33,300-$45,760 base salary range. It does not specify the pay cadence, exact term dates, deadline, or work-authorization terms."
+        "The employer source confirms the Summer 2026 industrial-design scope, bachelor's enrollment and design-tool profile, three-day hybrid office schedule, and $33,300-$45,760 base salary range. It does not specify the pay cadence, exact term dates, deadline, or work-authorization terms.",
+        "Fortune Brands' official SmartRecruiters page explicitly displayed 'This job has expired' and 'Sorry, this job has expired' on July 31, 2026, so the role was marked closed."
       ],
       "needsReview": false
     },
