@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T19:21:46.970Z",
+  "updatedAt": "2026-07-31T21:38:48.820Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -13849,6 +13849,36 @@
       "evidence": [
         "Palantir Technologies' official Lever page listed this Washington, DC Product Designer internship with an active application action on July 17, 2026.",
         "The official posting confirms end-to-end interaction and visual design, user research, Figma prototyping, frontend collaboration, 2027 graduation, security-clearance eligibility, an interface-design portfolio, and estimated compensation of $8,500 per month; it does not state a deadline or currency."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-31-palantir-product-designer-internship-us-government-palo-alto",
+      "title": "Product Designer, Internship - US Government",
+      "organization": "Palantir Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-palantir-lever",
+      "sourceName": "Palantir Technologies Lever",
+      "sourceUrl": "https://jobs.lever.co/palantir/9db71277-3a9a-481b-a2a3-25c3125b0e8a",
+      "url": "https://jobs.lever.co/palantir/9db71277-3a9a-481b-a2a3-25c3125b0e8a",
+      "location": "Palo Alto, CA - on-site",
+      "deadline": "Not listed on official source",
+      "compensation": "$8,500 per month; currency not listed on official source",
+      "eligibility": "Applicants must be planning to graduate in 2028, treat this as their final internship before graduation, provide a portfolio with at least one software-interface design project, and hold an active U.S. security clearance or be eligible and willing to obtain one.",
+      "discoveredAt": "2026-07-31T21:38:48.820Z",
+      "attemptedAt": "2026-07-31T21:38:48.820Z",
+      "updatedAt": "2026-07-31T21:38:48.820Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Palantir Technologies' official Lever board created this Palo Alto Product Designer internship at 21:35:37 UTC on July 31, 2026, and the direct page displayed an active application action during this monitor check.",
+        "The official posting confirms end-to-end interaction and visual design, user research, Figma prototyping, frontend collaboration, 2028 graduation, security-clearance eligibility, an interface-design portfolio, and estimated compensation of $8,500 per month; it does not state a deadline or currency."
       ],
       "needsReview": false
     },
