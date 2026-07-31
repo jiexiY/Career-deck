@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T02:57:57.083Z",
+  "updatedAt": "2026-07-31T07:01:15.575Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6990,6 +6990,68 @@
       "evidence": [
         "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5198271007",
         "Game monitor fit score 7/10; last checked 2026-07-30."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-31-schneider-electric-electromechanical-design-intern-apodaca",
+      "title": "Electromechanical Design Intern (Apodaca, N.L.)",
+      "organization": "Schneider Electric",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-schneider-electric-careers-126974",
+      "sourceName": "Schneider Electric Careers",
+      "sourceUrl": "https://careers.se.com/jobs/126974?lang=en-us",
+      "url": "https://careers.se.com/jobs/126974?lang=en-us",
+      "location": "Apodaca, Nuevo León, Mexico - hybrid; morning availability required",
+      "deadline": "Posted until filled on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be current bachelor's students in Mechanical Engineering, Electrical Engineering, Mechatronics, or a related field and expect to graduate in July 2027 or later. Schneider Electric asks for intermediate or advanced English, morning availability, and CAD experience with AutoCAD, SolidWorks, CATIA, Creo, Solid Edge, or a comparable tool. The role supports product evolution through design updates, engineering changes, 3D models, 2D drawings, prototype builds, testing, and validation. The official source does not list compensation, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-07-31T07:01:15.575Z",
+      "attemptedAt": "2026-07-31T07:01:15.575Z",
+      "updatedAt": "2026-07-31T07:01:15.575Z",
+      "confidence": {
+        "source": 0.94,
+        "extraction": 0.99,
+        "freshness": 0.9,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Schneider Electric's employer-hosted careers result for job 126974 displayed the exact role, Apodaca locations, hybrid arrangement, full description, and posted-until-filled language during the July 31, 2026 UTC check; the official result had been crawled four days earlier.",
+        "The official posting describes product-design updates, engineering changes, 3D models, 2D drawings, prototypes, testing, and validation, and requires current relevant bachelor's study with graduation in July 2027 or later, English proficiency, morning availability, and CAD experience.",
+        "The direct employer-hosted job page returned HTTP 403 during the July 31 check. A repeated exact job-ID search on Schneider Electric's official careers domain still returned the current posting, so the role remains open but is flagged for human review."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-31-openverse-ui-ux-designer-intern",
+      "title": "UI/UX Designer Intern",
+      "organization": "Openverse",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-openverse-careers-ui-ux-designer-intern",
+      "sourceName": "Openverse Careers",
+      "sourceUrl": "https://www.openverse.tech/careers/ui-ux-designer-intern",
+      "url": "https://www.openverse.tech/careers/ui-ux-designer-intern",
+      "location": "Da Nang, Vietnam - office or remote",
+      "deadline": "Not listed on official source",
+      "compensation": "Negotiable allowance based on commitment and performance; amount and currency not listed",
+      "eligibility": "Openverse asks for a portfolio or work samples demonstrating layout, typography, and visual consistency; Figma proficiency; basic responsive-design and component-design knowledge; and strong collaboration and attention to detail. Adobe tools or Canva are a plus. Responsibilities include UI states and components, wireframes, user flows, low-fidelity prototypes, feedback and usability work, visual assets, design libraries, case studies, and pitch decks. The official source does not list a degree or enrollment requirement, internship term, weekly schedule, application deadline, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-07-31T07:01:15.575Z",
+      "attemptedAt": "2026-07-31T07:01:15.575Z",
+      "updatedAt": "2026-07-31T07:01:15.575Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Openverse's current employer-hosted careers index listed UI/UX Designer Intern under Design as an office-or-remote internship, and the linked official role page displayed an active Apply Now action during the July 31, 2026 UTC check.",
+        "The official role page confirms UI states and components, wireframes, user flows, low-fidelity prototypes, usability feedback, visual assets, Figma, responsive-design basics, and portfolio requirements for Web3 products.",
+        "Openverse lists a negotiable allowance based on commitment and performance and possible conversion to a fresher or junior designer role; it does not list an amount, currency, degree requirement, term, deadline, work-authorization requirement, or sponsorship policy."
       ],
       "needsReview": false
     },
