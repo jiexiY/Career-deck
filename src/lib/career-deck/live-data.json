@@ -7200,6 +7200,37 @@
       "needsReview": false
     },
     {
+      "id": "tech-design-2026-08-04-ge-aerospace-turbomachinery-mechanical-design-engineer-intern",
+      "title": "Intern – Turbomachinery Mechanical Design Engineer",
+      "organization": "GE Aerospace",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5037471",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Intern---Turbomachinery-Mechanical-Design-Engineer_R5037471",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Intern---Turbomachinery-Mechanical-Design-Engineer_R5037471",
+      "location": "Queretaro, Mexico - part time (30 hours per week); no relocation assistance",
+      "deadline": "August 12, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be enrolled in Mechanical Engineering or Aeronautical Engineering with at least 1.5 years remaining before graduation and be available for 30 hours per week. GE Aerospace requires mechanical-design foundations, mechanical-design experience through academic projects, conversational English, adaptability, and the ability to learn quickly. Work includes guided mechanical-design assessments for turbomachinery hardware, technical drawings and manuals, stack-up and hand calculations, life assessments, finite-element analysis, and 3D-model manipulation. The official source does not list compensation, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-04T11:08:32.762Z",
+      "attemptedAt": "2026-08-04T11:08:32.762Z",
+      "updatedAt": "2026-08-04T11:08:32.762Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday search and detail APIs returned requisition R5037471 as active, posted, and accepting applications during the August 4, 2026 UTC check; Workday records an August 4, 2026 posting date and an August 12, 2026 application deadline.",
+        "The employer source confirms a part-time Queretaro role requiring 30 hours per week, current Mechanical or Aeronautical Engineering enrollment with at least 1.5 years before graduation, and guided turbomachinery mechanical-design assessment work using calculations, finite-element analysis, and 3D models.",
+        "The official posting states that relocation assistance is not provided and does not list compensation, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
       "id": "tech-design-2026-07-31-schneider-electric-electromechanical-design-intern-apodaca",
       "title": "Electromechanical Design Intern (Apodaca, N.L.)",
       "organization": "Schneider Electric",
