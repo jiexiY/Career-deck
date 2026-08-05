@@ -7200,6 +7200,37 @@
       "needsReview": false
     },
     {
+      "id": "tech-design-2026-08-04-hp-college-intern-mechatronic-systems-ai-design",
+      "title": "College Intern - Mechatronic Systems & AI Design",
+      "organization": "HP",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hp-workday-uni4652",
+      "sourceName": "HP Careers / Workday",
+      "sourceUrl": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Mechatronic-Systems---AI-Design_UNI4652-1",
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Mechatronic-Systems---AI-Design_UNI4652-1",
+      "location": "Singapore, South West, Singapore - full time; work arrangement not listed; 5-6 months starting January 2027",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be enrolled in a bachelor's or master's program in Mechanical Engineering, Mechatronics, or a related field and be available for a five-to-six-month full-time internship starting in January 2027. HP seeks foundations in kinematics, servo control, and motion systems; familiarity with AI concepts used in engineering; Python, MATLAB, or C/C++ programming; 3D CAD experience such as Creo; and experience designing sheet-metal or plastic parts. Work includes designing and optimizing motion-control systems, prototyping and refining mechanical and thermal solutions, AI-driven analysis, reliability characterization, cross-functional R&D, and product-improvement analysis. The official source does not list an application deadline, compensation, work arrangement, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-05T02:15:08.535Z",
+      "attemptedAt": "2026-08-05T02:15:08.535Z",
+      "updatedAt": "2026-08-05T02:15:08.535Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "HP's official Workday search and detail APIs returned requisition UNI4652 as posted, active, and accepting applications during the August 5, 2026 UTC check; Workday records an August 4, 2026 posting date.",
+        "The employer-hosted posting confirms a full-time Singapore internship lasting five to six months from January 2027 for bachelor's or master's students in Mechanical Engineering, Mechatronics, or a related field, with motion-control, mechanical and thermal design, AI-analysis, prototyping, reliability, and 3D-CAD work.",
+        "The official posting does not list an application deadline, compensation, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
       "id": "tech-design-2026-08-04-ge-aerospace-turbomachinery-mechanical-design-engineer-intern",
       "title": "Intern – Turbomachinery Mechanical Design Engineer",
       "organization": "GE Aerospace",
