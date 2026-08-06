@@ -3242,6 +3242,68 @@
       "needsReview": true
     },
     {
+      "id": "tech-design-2026-08-05-ge-aerospace-mechanical-design-engineering-intern-istanbul",
+      "title": "Mechanical Design Engineering Intern (6 months)",
+      "organization": "GE Aerospace",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5036669",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Mechanical-Design-Engineering-Intern--6-months-_R5036669-1",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Mechanical-Design-Engineering-Intern--6-months-_R5036669-1",
+      "location": "Istanbul, Turkiye - part time; work arrangement not listed; initial 6-month term with an optional 5-month extension; no relocation assistance",
+      "deadline": "August 7, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be third- or fourth-year undergraduate students in Mechanical Engineering or Aerospace Engineering with demonstrated analytical and problem-solving skills and experience using UG NX and ANSYS. GE Aerospace prefers communication and documentation skills, familiarity with aerospace safety and quality practices, and the ability to work across teams. Work includes design-review cycles, hardware releases, technology-demonstrator and ground- or flight-test support, part design with manufacturing teams, procurement-schedule tracking, and engineering documentation. The role begins with a six-month term and may extend for five additional months. The official source does not list compensation, work arrangement, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-06T03:07:13.381Z",
+      "attemptedAt": "2026-08-06T03:07:13.381Z",
+      "updatedAt": "2026-08-06T03:07:13.381Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday search and detail APIs returned requisition R5036669 as active, posted, and accepting applications during the August 6, 2026 UTC check; Workday records an August 5, 2026 posting date and an August 7, 2026 application deadline.",
+        "The employer-hosted posting confirms an Istanbul part-time mechanical-design internship with an initial six-month term and optional five-month extension for third- or fourth-year Mechanical or Aerospace Engineering students, covering design reviews, hardware releases, part design, test support, and UG NX and ANSYS work.",
+        "The official posting states that relocation assistance is not provided and does not list compensation, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-05-ge-aerospace-variable-geometries-mechanical-designer-intern-queretaro",
+      "title": "Variable Geometries Mechanical Designer Intern",
+      "organization": "GE Aerospace",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5037605",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Variable-Geometries-Mechanical-Designer_R5037605-1",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Variable-Geometries-Mechanical-Designer_R5037605-1",
+      "location": "Queretaro, Mexico - full time; work arrangement not listed; no relocation assistance",
+      "deadline": "August 13, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants need relevant study in Mechanical Engineering, Aeronautics, Mechanical-Administrative Engineering, Mechanical-Electrical Engineering, Physics, or Mechatronics, with a graduation date of January 2027 or later. GE Aerospace requires intermediate English, advanced Spanish, and a solid mechanical-design background. Work includes low- to medium-complexity mechanical design and analysis for actuation mechanisms, hand calculations or finite-element analysis, design-test integration, technical and business substantiation, project communication, invention disclosures, and engineering documentation. The official source does not list compensation, work arrangement, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-06T03:07:13.381Z",
+      "attemptedAt": "2026-08-06T03:07:13.381Z",
+      "updatedAt": "2026-08-06T03:07:13.381Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday search and detail APIs returned requisition R5037605 as active, posted, and accepting applications during the August 6, 2026 UTC check; Workday records an August 5, 2026 posting date and an August 13, 2026 application deadline.",
+        "The employer-hosted posting confirms a full-time Queretaro mechanical-design internship for students graduating in January 2027 or later, with relevant engineering or physics study, intermediate English, advanced Spanish, and actuation-mechanism analysis, finite-element analysis, design-test integration, and documentation work.",
+        "The official posting states that relocation assistance is not provided and does not list compensation, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
       "id": "tech-design-2026-08-04-hp-college-intern-mechatronic-systems-ai-design",
       "title": "College Intern - Mechatronic Systems & AI Design",
       "organization": "HP",
