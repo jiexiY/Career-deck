@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T16:03:15.963Z",
+  "updatedAt": "2026-08-09T19:21:44.913Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -6999,7 +6999,7 @@
       "organization": "GE Aerospace",
       "section": "tech",
       "type": "internship",
-      "status": "open",
+      "status": "closed",
       "sourceId": "src-ge-aerospace-workday-r5036669",
       "sourceName": "GE Aerospace Careers / Workday",
       "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Mechanical-Design-Engineering-Intern--6-months-_R5036669-1",
@@ -7009,8 +7009,8 @@
       "compensation": "Not listed on official source",
       "eligibility": "Applicants must be third- or fourth-year undergraduate students in Mechanical Engineering or Aerospace Engineering with demonstrated analytical and problem-solving skills and experience using UG NX and ANSYS. GE Aerospace prefers communication and documentation skills, familiarity with aerospace safety and quality practices, and the ability to work across teams. Work includes design-review cycles, hardware releases, technology-demonstrator and ground- or flight-test support, part design with manufacturing teams, procurement-schedule tracking, and engineering documentation. The role begins with a six-month term and may extend for five additional months. The official source does not list compensation, work arrangement, work-authorization requirements, or sponsorship terms.",
       "discoveredAt": "2026-08-06T03:07:13.381Z",
-      "attemptedAt": "2026-08-06T03:07:13.381Z",
-      "updatedAt": "2026-08-06T03:07:13.381Z",
+      "attemptedAt": "2026-08-09T19:21:44.913Z",
+      "updatedAt": "2026-08-09T19:21:44.913Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.99,
@@ -7020,7 +7020,8 @@
       "evidence": [
         "GE Aerospace's official Workday search and detail APIs returned requisition R5036669 as active, posted, and accepting applications during the August 6, 2026 UTC check; Workday records an August 5, 2026 posting date and an August 7, 2026 application deadline.",
         "The employer-hosted posting confirms an Istanbul part-time mechanical-design internship with an initial six-month term and optional five-month extension for third- or fourth-year Mechanical or Aerospace Engineering students, covering design reviews, hardware releases, part design, test support, and UG NX and ANSYS work.",
-        "The official posting states that relocation assistance is not provided and does not list compensation, work arrangement, work-authorization requirements, or sponsorship terms."
+        "The official posting states that relocation assistance is not provided and does not list compensation, work arrangement, work-authorization requirements, or sponsorship terms.",
+        "GE Aerospace's official Workday search API omitted requisition R5036669 on two checks on August 9, 2026, and the employer-hosted detail API returned HTTP 404; the role was therefore marked closed."
       ],
       "needsReview": false
     },
