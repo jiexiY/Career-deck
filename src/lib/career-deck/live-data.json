@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T02:26:32.119Z",
+  "updatedAt": "2026-08-10T05:54:57.049Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -7979,6 +7979,37 @@
         "Sprinklr's official Workday feed returned Design Intern, requisition 113310-JOB, as an active Gurgaon posting with an employer application URL during the July 27, 2026 UTC check; Workday records July 24, 2026 as the posting start date.",
         "The official source confirms a full-time Product Design internship focused on enterprise product features, design systems, user-centered research and discovery, AI design workflows, and agentic experiences that preserve user clarity, trust, and control.",
         "Sprinklr asks for a two-to-three-project portfolio, Figma proficiency, interaction-design and usability fundamentals, AI-tool exposure, research experience, collaboration, and structured storytelling, but does not list compensation, a deadline, duration, weekly hours, work arrangement, degree or enrollment requirements, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-10-sprinklr-ux-research-intern",
+      "title": "UX Research Intern",
+      "organization": "Sprinklr",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sprinklr-workday-113313-job",
+      "sourceName": "Sprinklr Careers / Workday",
+      "sourceUrl": "https://sprinklr.wd1.myworkdayjobs.com/careers/job/India---Haryana---Gurgaon/Research-Intern_113313-JOB",
+      "url": "https://sprinklr.wd1.myworkdayjobs.com/careers/job/India---Haryana---Gurgaon/Research-Intern_113313-JOB",
+      "location": "Gurgaon, Haryana, India - full-time, six-month internship; the official source does not state whether the role is onsite, hybrid, or remote or list weekly hours",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a bachelor's or master's degree in Human-Computer Interaction, Cognitive Science, Psychology, Design, or a related field. Applicants should have academic or project experience with foundational UX research methods such as card sorting, heuristic evaluations, semi-structured interviews, and context mapping; the ability to synthesize complex qualitative and quantitative data; strong presentation and data-storytelling skills; curiosity about AI systems and human-AI research; and familiarity with user-testing platforms, survey tools, and collaboration or prototyping tools such as Figma and Miro. The official source states a six-month, full-time internship but does not list compensation, an application deadline, weekly hours, work arrangement, an internship start date, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-08-10T05:54:57.049Z",
+      "attemptedAt": "2026-08-10T05:54:57.049Z",
+      "updatedAt": "2026-08-10T05:54:57.049Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.02
+      },
+      "evidence": [
+        "Sprinklr's official Workday feed returned UX Research Intern, requisition 113313-JOB, as an active Gurgaon posting with an employer application URL during the August 10, 2026 UTC check; Workday records August 10, 2026 as the posting start date.",
+        "The official posting confirms a six-month, full-time UX Research internship that owns a multi-phase study and covers interviews, surveys, usability tests, qualitative and quantitative analysis, journey mapping, research operations, stakeholder presentations, and a capstone presented to product leadership.",
+        "Sprinklr asks for current bachelor's or master's study in HCI, Cognitive Science, Psychology, Design, or a related field; foundational UX research experience; analytical and presentation skills; AI-system curiosity; and familiarity with research, survey, Figma, and Miro tools, but does not list compensation, a deadline, weekly hours, work arrangement, an internship start date, or work-authorization terms."
       ],
       "needsReview": false
     },
