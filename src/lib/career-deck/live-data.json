@@ -10623,17 +10623,17 @@
       "section": "tech",
       "type": "internship",
       "status": "open",
-      "sourceId": "src-ge-aerospace-workday-r5037439",
+      "sourceId": "src-ge-aerospace-workday-r5038357",
       "sourceName": "GE Aerospace Careers / Workday",
-      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Additive-and-Test-Enabling-Hardware-Mechanical-Design-Intern--6-Months-_R5037439-1",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Additive-and-Test-Enabling-Hardware-Mechanical-Design-Intern--6-Months-_R5037439-1",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Additive-and-Test-Enabling-Hardware-Mechanical-Design-Intern--6-Months-_R5038357-1",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Additive-and-Test-Enabling-Hardware-Mechanical-Design-Intern--6-Months-_R5038357-1",
       "location": "Kartal, Istanbul, Turkiye - part time for at least three days per week during the academic term and full time during summer; initial six-month internship with an optional five-month extension; no relocation assistance",
-      "deadline": "July 31, 2026",
+      "deadline": "August 18, 2026",
       "compensation": "Not listed on official source",
       "eligibility": "Currently studying mechanical, mechatronics, metallurgy, manufacturing, or a similar engineering discipline and able to remain enrolled throughout the internship; third-year undergraduate and master's students are preferred. Applicants need English proficiency, analytical and research skills, basic root-cause analysis, finite-element analysis, and CAD geometry-modeling knowledge, strong documentation, responsibility, communication, teamwork, and availability for at least three workdays per week during the academic term plus full-time summer work. Additive-manufacturing, test-system, additive-design-method, and stronger CAD experience are preferred. Work includes production and test-part geometry preparation, analysis and modification, evaluation of analyses, additive-design literature research, procedure tracking, reporting, and documentation. The official source does not state compensation or work-authorization and sponsorship terms.",
       "discoveredAt": "2026-07-24T04:08:50.744Z",
-      "attemptedAt": "2026-07-24T04:08:50.744Z",
-      "updatedAt": "2026-07-24T04:08:50.744Z",
+      "attemptedAt": "2026-08-10T10:06:41.794Z",
+      "updatedAt": "2026-08-10T10:06:41.794Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.99,
@@ -10641,9 +10641,10 @@
         "duplicateProbability": 0.01
       },
       "evidence": [
-        "GE Aerospace's official Workday API returned HTTP 200 for requisition R5037439 and marked the posting as active, posted, and accepting applications during the July 23, 2026 check; the employer source lists a July 16, 2026 posting date.",
+        "GE Aerospace's official Workday API returned HTTP 200 for replacement requisition R5038357 during the August 10, 2026 check; the employer source lists an August 10, 2026 posting date and an August 18, 2026 application deadline.",
+        "The previous requisition R5037439 returned HTTP 404 on two repeat checks on August 10, 2026, so this record now follows the active employer replacement instead of creating a duplicate.",
         "The employer source confirms the Kartal, Istanbul location, initial six-month term with an optional five-month extension, current engineering-student requirement, academic-term and summer schedules, and additive and test-hardware mechanical design responsibilities.",
-        "The official posting lists a July 31, 2026 application deadline and no relocation assistance; it does not list compensation or work-authorization and sponsorship terms."
+        "The official posting lists no relocation assistance and does not list compensation or work-authorization and sponsorship terms."
       ],
       "needsReview": false
     },
