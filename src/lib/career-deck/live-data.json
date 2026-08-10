@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T16:01:50.613Z",
+  "updatedAt": "2026-08-10T22:20:03.627Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3238,6 +3238,38 @@
       },
       "evidence": [
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-08-10-globalfoundries-ip-design-engineering-intern-fall-2026",
+      "title": "IP & Design Engineering Intern (Fall 2026)",
+      "organization": "GlobalFoundries",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-globalfoundries-workday-jr-2502699",
+      "sourceName": "GlobalFoundries Careers / Workday",
+      "sourceUrl": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/XMLNAME-1H-University-Intern---PVD-Equipment_JR-2502699",
+      "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/XMLNAME-1H-University-Intern---PVD-Equipment_JR-2502699",
+      "location": "Richardson, Texas, United States - full time for at least 40 hours per week; the official source does not state whether the role is onsite, hybrid, or remote",
+      "deadline": "Not listed on official source; the title says Fall 2026 while the role summary says Summer 2026",
+      "compensation": "$20-$40 USD per hour; exact pay depends on qualifications, experience, and location",
+      "eligibility": "Currently pursuing an MS or PhD in Electrical Engineering or a related discipline. GlobalFoundries requires transistor-level circuit-design understanding, RF or mm-Wave circuit-design knowledge and experience, proficiency with Cadence EDA tools, English fluency, and availability for at least 40 hours per week. Preferred qualifications include graduate study in RF, mm-Wave, mixed-signal, or analog IC design; knowledge of RF transceiver building blocks and RF CMOS technologies; prior related internship or co-op experience; leadership experience; project-management skills; and strong planning, communication, and organizational skills. Work includes mm-Wave reference-circuit design and tape-out, schematic and physical-layout design, parasitic extraction, pre- and post-layout simulation, electromagnetic simulation, circuit optimization, and collaboration with design leads. The official source does not list work-authorization or sponsorship terms and conflicts on timing: the title says Fall 2026 while the summary says Summer 2026.",
+      "discoveredAt": "2026-08-10T22:20:03.627Z",
+      "attemptedAt": "2026-08-10T22:20:03.627Z",
+      "updatedAt": "2026-08-10T22:20:03.627Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.96,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GlobalFoundries' official Workday API returned HTTP 200 for requisition JR-2502699 and displayed an active IP & Design Engineering Intern posting during the August 10, 2026 UTC check; Workday records an August 6, 2026 posting date.",
+        "The employer source confirms Richardson, Texas, at least 40 hours per week, a $20-$40 hourly range, and RF or mm-Wave reference-circuit design responsibilities spanning schematic design, physical layout, extraction, simulation, optimization, and tape-out.",
+        "The posting requires current MS or PhD study in Electrical Engineering or a related field, transistor-level and RF or mm-Wave circuit-design knowledge, Cadence EDA proficiency, and English fluency.",
+        "The official title says Fall 2026 while the role summary says Summer 2026; no deadline, work arrangement, or work-authorization and sponsorship terms are listed, so the timing conflict remains flagged for review."
       ],
       "needsReview": true
     },
