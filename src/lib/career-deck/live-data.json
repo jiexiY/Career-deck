@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T05:54:57.049Z",
+  "updatedAt": "2026-08-10T06:05:57.218Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -8010,6 +8010,37 @@
         "Sprinklr's official Workday feed returned UX Research Intern, requisition 113313-JOB, as an active Gurgaon posting with an employer application URL during the August 10, 2026 UTC check; Workday records August 10, 2026 as the posting start date.",
         "The official posting confirms a six-month, full-time UX Research internship that owns a multi-phase study and covers interviews, surveys, usability tests, qualitative and quantitative analysis, journey mapping, research operations, stakeholder presentations, and a capstone presented to product leadership.",
         "Sprinklr asks for current bachelor's or master's study in HCI, Cognitive Science, Psychology, Design, or a related field; foundational UX research experience; analytical and presentation skills; AI-system curiosity; and familiarity with research, survey, Figma, and Miro tools, but does not list compensation, a deadline, weekly hours, work arrangement, an internship start date, or work-authorization terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-10-skydio-product-design-engineer-intern",
+      "title": "Product Design Engineer Intern",
+      "organization": "Skydio",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-skydio-ashby-ce482813-99c2-4eaa-a165-2ed201249182",
+      "sourceName": "Skydio Careers / Ashby",
+      "sourceUrl": "https://jobs.ashbyhq.com/skydio/ce482813-99c2-4eaa-a165-2ed201249182",
+      "url": "https://jobs.ashbyhq.com/skydio/ce482813-99c2-4eaa-a165-2ed201249182",
+      "location": "San Mateo, California, United States - hybrid; the official source does not list weekly hours",
+      "deadline": "Not listed on official source",
+      "compensation": "$41 USD per hour for undergraduate students; $53 USD per hour for graduate students; $58 USD for PhD students, with the pay cadence omitted for the PhD amount in the official text; regional location may affect pay",
+      "eligibility": "Skydio seeks curiosity, strong mechanical-design fundamentals, a passion for detailed mechanical design, and experience with 3D CAD; familiarity with CATIA is highly valued. Helpful experience includes injection molding, metal casting, CNC machining, sheet-metal forming, composites, design for manufacturing with domestic and international suppliers, and integrating circuit boards, antennas, and connectors into mechanical assemblies. Work covers prototype part design, root-cause analysis, engineering and manufacturing changes, hands-on prototyping and testing, cross-functional supplier collaboration, and design reviews. The official source does not state degree or enrollment requirements, internship dates or duration, weekly hours, an application deadline, or work-authorization and sponsorship terms; it states that Skydio uses E-Verify for U.S. positions.",
+      "discoveredAt": "2026-08-10T06:05:57.218Z",
+      "attemptedAt": "2026-08-10T06:05:57.218Z",
+      "updatedAt": "2026-08-10T06:05:57.218Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Skydio's official Ashby job-board API returned posting ce482813-99c2-4eaa-a165-2ed201249182 as listed with an active employer application URL during the August 10, 2026 UTC check; the ATS records July 28, 2026 as its publication date.",
+        "The official source confirms a hybrid Product Design Engineer internship in San Mateo focused on prototype part design, mechanical root-cause analysis, design and manufacturing changes, hands-on prototyping and testing, supplier collaboration, and design reviews.",
+        "Skydio lists 3D CAD and mechanical-design fundamentals, values CATIA, and describes manufacturing and DFM experience as helpful; it states $41 per hour for undergraduate students, $53 per hour for graduate students, and $58 for PhD students without a pay cadence on the last amount, but does not list enrollment rules, term dates, duration, weekly hours, a deadline, or sponsorship terms."
       ],
       "needsReview": false
     },
