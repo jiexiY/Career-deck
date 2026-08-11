@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T16:40:44.115Z",
+  "updatedAt": "2026-08-11T22:57:11.714Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -7513,6 +7513,66 @@
         "GE Aerospace's official Workday search and detail APIs returned requisition R5037471 as active, posted, and accepting applications during the August 4, 2026 UTC check; Workday records an August 4, 2026 posting date and an August 12, 2026 application deadline.",
         "The employer source confirms a part-time Queretaro role requiring 30 hours per week, current Mechanical or Aeronautical Engineering enrollment with at least 1.5 years before graduation, and guided turbomachinery mechanical-design assessment work using calculations, finite-element analysis, and 3D models.",
         "The official posting states that relocation assistance is not provided and does not list compensation, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-11-palantir-product-designer-internship-new-york",
+      "title": "Product Designer, Internship",
+      "organization": "Palantir Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-palantir-lever",
+      "sourceName": "Palantir Technologies Lever",
+      "sourceUrl": "https://jobs.lever.co/palantir/1a935143-e857-480c-bc5a-ad625d754eb6",
+      "url": "https://jobs.lever.co/palantir/1a935143-e857-480c-bc5a-ad625d754eb6",
+      "location": "New York, NY - on-site",
+      "deadline": "Not listed on official source",
+      "compensation": "$8,500 per month; currency not listed on official source",
+      "eligibility": "Applicants must be planning to graduate in 2028, treat this as their final internship before graduating, and provide a portfolio demonstrating at least one software-interface design project. Palantir lists Figma prototyping, user research, interaction and visual design, and collaboration with engineers as core work. The official posting does not state work-authorization or sponsorship requirements.",
+      "discoveredAt": "2026-08-11T22:57:11.714Z",
+      "attemptedAt": "2026-08-11T22:57:11.714Z",
+      "updatedAt": "2026-08-11T22:57:11.714Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Palantir Technologies' official Lever API returned this New York posting with an active application URL on August 11, 2026; the posting identifier was created on October 10, 2019 and currently specifies 2028 graduation eligibility.",
+        "The official posting confirms end-to-end interaction and visual design, user research, Figma prototyping, frontend collaboration, an interface-design portfolio, and estimated compensation of $8,500 per month; it does not state a deadline, currency, work-authorization requirement, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-11-palantir-product-designer-internship-us-government-new-york",
+      "title": "Product Designer, Internship - US Government",
+      "organization": "Palantir Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-palantir-lever",
+      "sourceName": "Palantir Technologies Lever",
+      "sourceUrl": "https://jobs.lever.co/palantir/8f7bbffa-92aa-4d25-9586-943b3322a27d",
+      "url": "https://jobs.lever.co/palantir/8f7bbffa-92aa-4d25-9586-943b3322a27d",
+      "location": "New York, NY - on-site",
+      "deadline": "Not listed on official source",
+      "compensation": "$8,500 per month; currency not listed on official source",
+      "eligibility": "Applicants must hold an active U.S. security clearance or be eligible and willing to obtain one, be planning to graduate in 2028, treat this as their final internship before graduating, and provide a portfolio demonstrating at least one software-interface design project. The official posting does not state other work-authorization requirements or sponsorship terms.",
+      "discoveredAt": "2026-08-11T22:57:11.714Z",
+      "attemptedAt": "2026-08-11T22:57:11.714Z",
+      "updatedAt": "2026-08-11T22:57:11.714Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Palantir Technologies' official Lever API returned this New York U.S. Government posting with an active application URL on August 11, 2026; the posting identifier was created on August 12, 2025 and currently specifies 2028 graduation eligibility.",
+        "The official posting confirms security-clearance eligibility, end-to-end interaction and visual design, user research, Figma prototyping, frontend collaboration, an interface-design portfolio, and estimated compensation of $8,500 per month; it does not state a deadline, currency, other work-authorization requirements, or sponsorship terms."
       ],
       "needsReview": false
     },
