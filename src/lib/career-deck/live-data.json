@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T05:20:04.258Z",
+  "updatedAt": "2026-08-11T05:30:04.442Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -3240,6 +3240,37 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-08-11-micron-intern-dram-ip-circuits-design-engineer-jr108471",
+      "title": "Intern - DRAM IP Circuits Design Engineer",
+      "organization": "Micron Technology",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-micron-workday-jr108471",
+      "sourceName": "Micron Technology Careers / Workday",
+      "sourceUrl": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---DRAM-IP-Circuits-Design-Engineer_JR108471",
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---DRAM-IP-Circuits-Design-Engineer_JR108471",
+      "location": "Boise, Idaho, United States - full time; the official source does not list weekly hours or state whether the role is onsite, hybrid, or remote",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a bachelor's, master's, or PhD degree in Electrical Engineering, Computer Engineering, Semiconductor Engineering, or a related STEM field. Micron asks for coursework or academic projects in CMOS analog circuits, CMOS digital circuits, semiconductor devices, signal integrity, or related circuit-design topics; basic programming in Python, Perl, TCL, MATLAB, or a similar language; analytical, problem-solving, communication, and teamwork skills; and the ability to complete a technical project and present recommendations. Preferred qualifications include analog, mixed-signal, memory, high-speed-interface, or semiconductor-circuit-design experience; familiarity with EDA tools, SPICE, Verilog, or mixed-signal verification; physical-design exposure spanning layout review, parasitic extraction, post-layout simulation, floor-planning, or design rules; and experience using AI for engineering workflows. Work includes DRAM IP circuit design, simulation and optimization, process-voltage-temperature analysis, schematic and layout review, parasitic extraction, post-layout verification, performance validation, cross-functional collaboration, and automation or Agentic-AI workflows. The official source does not list internship dates or duration, compensation, an application deadline, weekly hours, work arrangement, graduation timing, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-08-11T05:30:04.442Z",
+      "attemptedAt": "2026-08-11T05:30:04.442Z",
+      "updatedAt": "2026-08-11T05:30:04.442Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Micron Technology's official Workday API returned HTTP 200 for requisition JR108471 and marked the posting active and accepting applications during the August 11, 2026 UTC check; Workday records an August 10, 2026 posting date.",
+        "The employer source confirms a full-time Boise DRAM IP Circuits Design internship covering analog, mixed-signal, and high-speed interface circuit design, simulation, layout review, parasitic extraction, post-layout verification, silicon validation, and engineering-workflow automation.",
+        "Micron requires current bachelor's, master's, or PhD study in Electrical Engineering, Computer Engineering, Semiconductor Engineering, or a related STEM field plus relevant circuit coursework, basic scripting, and analytical and communication skills, but does not list term dates, duration, compensation, a deadline, weekly hours, work arrangement, graduation timing, or sponsorship terms."
+      ],
+      "needsReview": false
     },
     {
       "id": "tech-design-2026-08-11-micron-intern-dram-design-engineer-jr108448",
