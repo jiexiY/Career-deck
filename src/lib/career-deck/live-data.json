@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T02:22:17.400Z",
+  "updatedAt": "2026-08-12T14:51:48.818Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -7487,6 +7487,36 @@
       "evidence": [
         "Palantir Technologies' official Lever API returned this New York posting with an active application URL on August 11, 2026; the posting identifier was created on October 10, 2019 and currently specifies 2028 graduation eligibility.",
         "The official posting confirms end-to-end interaction and visual design, user research, Figma prototyping, frontend collaboration, an interface-design portfolio, and estimated compensation of $8,500 per month; it does not state a deadline, currency, work-authorization requirement, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-12-palantir-product-designer-internship-london",
+      "title": "Product Designer, Internship",
+      "organization": "Palantir Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-palantir-lever",
+      "sourceName": "Palantir Technologies Lever",
+      "sourceUrl": "https://jobs.lever.co/palantir/44129013-01e0-4699-8fc1-7a189bb37b63",
+      "url": "https://jobs.lever.co/palantir/44129013-01e0-4699-8fc1-7a189bb37b63",
+      "location": "London, United Kingdom - on-site",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be planning to graduate in 2028, treat this as their final internship before graduating, and provide a portfolio demonstrating at least one software-interface design project. Palantir lists Figma prototyping, user research, interaction and visual design, collaboration with engineers, and familiarity with HTML, CSS, JavaScript, or TypeScript as relevant work and skills. The official posting does not state work-authorization or sponsorship requirements.",
+      "discoveredAt": "2026-08-12T14:51:48.818Z",
+      "attemptedAt": "2026-08-12T14:51:48.818Z",
+      "updatedAt": "2026-08-12T14:51:48.818Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Palantir Technologies' official Lever API returned this London posting with active hosted and application URLs on August 12, 2026; the posting identifier was created on January 29, 2019 and currently specifies 2028 graduation eligibility.",
+        "The official posting confirms end-to-end interaction and visual design, user research, Figma prototyping, frontend collaboration, and an interface-design portfolio. It does not state compensation, a deadline, work-authorization requirements, or sponsorship terms."
       ],
       "needsReview": false
     },
