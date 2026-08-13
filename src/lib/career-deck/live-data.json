@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T16:12:12.920Z",
+  "updatedAt": "2026-08-13T21:35:55.812Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -7158,6 +7158,37 @@
       "evidence": [
         "Verified official application route: https://www.riotgames.com/en/work-with-us/job/8115074?gh_jid=8115074",
         "Game monitor fit score 7/10; last checked 2026-08-12."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-13-micron-intern-digital-ip-design-engineer-dram-jr108533",
+      "title": "Intern - Digital IP Design Engineer, DRAM",
+      "organization": "Micron Technology",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-micron-workday-jr108533",
+      "sourceName": "Micron Technology Careers / Workday",
+      "sourceUrl": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---Digital-IP-Design-Engineer--DRAM_JR108533",
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---Digital-IP-Design-Engineer--DRAM_JR108533",
+      "location": "Boise, Idaho, United States - full time; the official source does not list weekly hours or state whether the role is onsite, hybrid, or remote",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Currently pursuing a bachelor's or master's degree in Electrical Engineering, Computer Engineering, Semiconductor Engineering, or a related STEM field. Micron asks for coursework in CMOS digital circuits, SystemVerilog/UVM, and static timing analysis; experience with Python, Perl, TCL, MATLAB, or a similar programming language; analytical and problem-solving ability; and effective written, verbal, and collaborative communication. Preferred qualifications include digital IC design, verification, or semiconductor-development projects; familiarity with RTL design, synthesis, timing closure, verification, physical design, and industry-standard EDA tools; memory-system, semiconductor-design, or VLSI research or project experience; and experience using AI-assisted engineering workflows. Work includes RTL-to-GDS digital IP circuit design and verification, process-voltage-temperature analysis, design automation, cross-functional implementation and silicon validation, and technical presentations. The official source does not list internship dates or duration, compensation, an application deadline, weekly hours, work arrangement, graduation timing, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-08-13T21:35:55.812Z",
+      "attemptedAt": "2026-08-13T21:35:55.812Z",
+      "updatedAt": "2026-08-13T21:35:55.812Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Micron Technology's official Workday API returned HTTP 200 for requisition JR108533 and marked the posting active and accepting applications during the August 13, 2026 UTC check; Workday records an August 13, 2026 posting date.",
+        "The employer source confirms a full-time Boise DRAM Digital IP Design Engineering internship covering RTL-to-GDS circuit design and verification, process-voltage-temperature analysis, design automation, cross-functional implementation, and silicon validation.",
+        "Micron requires current bachelor's or master's study in Electrical Engineering, Computer Engineering, Semiconductor Engineering, or a related STEM field plus relevant digital-circuit coursework, scripting, analytical, and communication skills, but does not list term dates, duration, compensation, a deadline, weekly hours, work arrangement, graduation timing, or sponsorship terms."
       ],
       "needsReview": false
     },
