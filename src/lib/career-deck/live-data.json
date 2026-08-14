@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T16:11:46.132Z",
+  "updatedAt": "2026-08-14T16:26:30.709Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -3240,6 +3240,38 @@
         "URL extracted from Game Conversation Source. Fields marked TBD until verified against the official source."
       ],
       "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-08-14-rivian-vw-electrical-design-engineering-intern",
+      "title": "Electrical Design Engineering Intern",
+      "organization": "Rivian and Volkswagen Group Technologies",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-rivian-vw-ashby",
+      "sourceName": "Rivian and Volkswagen Group Technologies Ashby",
+      "sourceUrl": "https://jobs.ashbyhq.com/rivianvw.tech/e93841e0-d1b4-484e-a1e7-6ac494c9868c",
+      "url": "https://jobs.ashbyhq.com/rivianvw.tech/e93841e0-d1b4-484e-a1e7-6ac494c9868c",
+      "location": "Irvine, CA - in person; Ashby metadata labels the workplace Hybrid",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source; the posting includes generic full-time bonus, RSU, and benefits language without stating that it applies to this internship",
+      "eligibility": "Applicants must be currently enrolled in an accredited graduate degree program in Electrical Engineering, Computer Engineering, or a closely related field. The role requires audio-amplifier design or testing experience, core analog and digital circuit, microcontroller, and power fundamentals, hands-on use of standard electrical lab equipment, and experience with schematic-capture and PCB-layout tools such as Altium, Cadence Allegro, or KiCAD. Preferred experience includes student engineering teams, automotive or embedded communication protocols, and low-voltage power electronics. The internship is full time from September 21 through December 18, 2026, and the posting body describes it as in person in Irvine, California.",
+      "discoveredAt": "2026-08-14T16:26:30.709Z",
+      "attemptedAt": "2026-08-14T16:26:30.709Z",
+      "updatedAt": "2026-08-14T16:26:30.709Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Rivian and Volkswagen Group Technologies' official Ashby API returned posting e93841e0-d1b4-484e-a1e7-6ac494c9868c as listed with an active application URL and a publication timestamp of August 14, 2026 at 16:19 UTC; the posting explicitly states that it represents an open, active vacancy.",
+        "The official posting confirms a full-time September 21-December 18, 2026 term in Irvine, graduate enrollment in Electrical Engineering, Computer Engineering, or a related field, and hands-on schematic, PCB, prototyping, lab-validation, power, signal-integrity, and zonal-control work.",
+        "The posting body calls the position in person, while Ashby metadata labels the workplace Hybrid and sets its remote flag; the location field follows the role description and preserves the metadata discrepancy.",
+        "The official source does not list a numeric pay range or application deadline. Its generic rewards section discusses full-time bonus, equity, and benefits without confirming that those programs apply to this internship."
+      ],
+      "needsReview": false
     }
   ]
 }
