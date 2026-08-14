@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T02:51:41.126Z",
+  "updatedAt": "2026-08-14T08:27:55.778Z",
   "opportunities": [
     {
       "id": "conversation-game-2k-career-opportunities-2k-com-careers",
@@ -7130,6 +7130,39 @@
       "evidence": [
         "Verified official application route: https://www.riotgames.com/en/work-with-us/job/8115074?gh_jid=8115074",
         "Game monitor fit score 7/10; last checked 2026-08-13."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-14-globalfoundries-testchip-design-implementation-intern-jan-jun-2027",
+      "title": "Testchip Design & Implementation Intern (Jan-Jun 2027)",
+      "organization": "GlobalFoundries",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-globalfoundries-workday-jr-2604352",
+      "sourceName": "GlobalFoundries Careers / Workday",
+      "sourceUrl": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/Testchip-Design---Implementation-Intern--Jan-Jun-2027-_JR-2604352",
+      "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/Testchip-Design---Implementation-Intern--Jan-Jun-2027-_JR-2604352",
+      "location": "Woodlands, Singapore - full time for at least 40 hours per week from January through June 2027; the official source does not state whether the role is onsite, hybrid, or remote or list exact start and end dates",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Actively pursuing a diploma, bachelor's degree, or master's degree in Electrical or Electronic Engineering, Computer Science Engineering, Information Technology, or a related field through an accredited program during the internship; in good academic standing; and able to work at least 40 hours per week. Preferred qualifications include interest or knowledge in programming languages such as Python, R, C++, JavaScript, SKILL, TCL, PERL, or SVRF; Microsoft Power Platform knowledge; prior related internship or co-op experience; leadership and project-management experience; an interest in AI tools and emerging technologies; and strong written, verbal, planning, and organizational skills. Work focuses on researching AI and automation opportunities for the Testchip Design & Implementation team's knowledge workflows, contributing digital-transformation recommendations, gathering requirements with engineers, refining implementation approaches, and documenting findings and progress. The official source does not list compensation, an application deadline, work arrangement, or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-08-14T08:27:55.778Z",
+      "attemptedAt": "2026-08-14T08:27:55.778Z",
+      "updatedAt": "2026-08-14T08:27:55.778Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GlobalFoundries' official Workday API returned HTTP 200 for requisition JR-2604352, marked the role posted and accepting applications, and recorded an August 14, 2026 posting date during the August 14, 2026 UTC check.",
+        "The employer source confirms a full-time January-June 2027 internship in Woodlands, Singapore, with availability of at least 40 hours per week.",
+        "The posting requires active diploma, bachelor's, or master's study in Electrical or Electronic Engineering, Computer Science Engineering, Information Technology, or a related field through an accredited program during the internship, plus good academic standing.",
+        "Despite the Testchip Design & Implementation title, the stated work centers on AI and automation research, engineering-workflow requirements, knowledge-management recommendations, and documentation rather than direct testchip circuit or physical-design tasks.",
+        "GlobalFoundries does not list compensation, an application deadline, exact internship dates, work arrangement, or work-authorization and sponsorship terms."
       ],
       "needsReview": false
     },
