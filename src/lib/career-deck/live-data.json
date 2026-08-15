@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T16:26:30.709Z",
+  "updatedAt": "2026-08-15T02:21:45.087Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -3270,6 +3270,3758 @@
         "The official posting confirms a full-time September 21-December 18, 2026 term in Irvine, graduate enrollment in Electrical Engineering, Computer Engineering, or a related field, and hands-on schematic, PCB, prototyping, lab-validation, power, signal-integrity, and zonal-control work.",
         "The posting body calls the position in person, while Ashby metadata labels the workplace Hybrid and sets its remote flag; the location field follows the role description and preserves the metadata discrepancy.",
         "The official source does not list a numeric pay range or application deadline. Its generic rewards section discusses full-time bonus, equity, and benefits without confirming that those programs apply to this internship."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-developer-engagement-representative-anz-australia-new-zealand-part-time-contract-remote-8020695",
+      "title": "Developer Engagement Representative - ANZ (Australia / New Zealand)  (Part-Time Contract)",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/8020695?gh_jid=8020695",
+      "location": "Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/8020695?gh_jid=8020695",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-developer-engagement-representative-latam-part-time-contract-remote-7705949",
+      "title": "Developer Engagement Representative - LATAM (Part-Time Contract)",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/7705949?gh_jid=7705949",
+      "location": "Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/7705949?gh_jid=7705949",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-developer-engagement-representative-malaysia-part-time-contract-remote-7978940",
+      "title": "Developer Engagement Representative - Malaysia  (Part-Time Contract)",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/7978940?gh_jid=7978940",
+      "location": "Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/7978940?gh_jid=7978940",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-developer-engagement-representative-philippines-part-time-contract-remote-8083281",
+      "title": "Developer Engagement Representative - Philippines (Part-Time Contract)",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/8083281?gh_jid=8083281",
+      "location": "Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/8083281?gh_jid=8083281",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-developer-engagement-representative-thailand-part-time-contract-remote-7992558",
+      "title": "Developer Engagement Representative - Thailand (Part-Time Contract)",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/7992558?gh_jid=7992558",
+      "location": "Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/7992558?gh_jid=7992558",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-global-developer-engagement-representative-part-time-contractor-remote-7736682",
+      "title": "Global Developer Engagement Representative, Part-Time, Contractor",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/7736682?gh_jid=7736682",
+      "location": "Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/7736682?gh_jid=7736682",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-human-evaluator-studio-contract-united-states-7697520",
+      "title": "Human Evaluator, Studio (Contract)",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/7697520?gh_jid=7697520",
+      "location": "United States",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/7697520?gh_jid=7697520",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-marketing-manager-europe-amsterdam-north-holland-netherlands-7965517",
+      "title": "Marketing Manager, Europe",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/7965517?gh_jid=7965517",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/7965517?gh_jid=7965517",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-marketing-manager-india-gurugram-haryana-india-7921673",
+      "title": "Marketing Manager, India",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/7921673?gh_jid=7921673",
+      "location": "Gurugram, Haryana, India",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/7921673?gh_jid=7921673",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-proactive-moderation-operations-specialist-gurugram-haryana-india-8069989",
+      "title": "Proactive Moderation Operations Specialist",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/8069989?gh_jid=8069989",
+      "location": "Gurugram, Haryana, India",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/8069989?gh_jid=8069989",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-product-marketing-manager-creator-monetization-san-mateo-ca-united-states-7951971",
+      "title": "Product Marketing Manager, Ads",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/7951971?gh_jid=7951971",
+      "location": "San Mateo, CA, United States",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/7951971?gh_jid=7951971",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-product-support-specialist-gurugram-haryana-india-7780883",
+      "title": "Product Support Specialist",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/8070027?gh_jid=8070027",
+      "location": "Gurugram, Haryana, India",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/8070027?gh_jid=8070027",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-quality-analyst-gurugram-haryana-india-7785784",
+      "title": "Quality Analyst",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/8070025?gh_jid=8070025",
+      "location": "Gurugram, Haryana, India",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/8070025?gh_jid=8070025",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-roblox-strategic-financial-analyst-revenue-san-mateo-ca-united-states-8065848",
+      "title": "Strategic Financial Analyst, Revenue",
+      "organization": "Roblox",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-roblox-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://careers.roblox.com/jobs/8065848?gh_jid=8065848",
+      "location": "San Mateo, CA, United States",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;p&gt;&lt;span style=\"font-weight: 400;\"&gt;Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://careers.roblox.com/jobs/8065848?gh_jid=8065848",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-epic-games-machine-learning-intern-montrealquebeccanada-6138140004",
+      "title": "Machine Learning Intern",
+      "organization": "Epic Games",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-epic-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
+      "location": "Montreal,Quebec,Canada",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;div class=\"content-intro\"&gt;&lt;h2&gt;WHAT MAKES US EPIC?&lt;/h2&gt; &lt;p&gt;At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether i",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-community-manager-united-kingdom-remote-4927747007",
+      "title": "Community Manager",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927747007",
+      "location": "United Kingdom-Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;article&gt; &lt;p&gt;&lt;strong&gt;About NetEaseGames:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As a leading internet technology company based in China, NetEase, Inc. (NASDAQ: NTES and HKEX:9999, “NetEase”) provides premium online services cen",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/4927747007",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-content-marketing-united-kingdom-remote-4927750007",
+      "title": "Content Marketing",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927750007",
+      "location": "United Kingdom-Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;article&gt; &lt;p&gt;&lt;strong&gt;About NetEase Games:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As&nbsp;a&nbsp;leading&nbsp;internet&nbsp;technology&nbsp;company&nbsp;based&nbsp;inChina,&nbsp;NetEase,&nbsp;Inc.&nbsp;(NASDAQ:&nbsp;NTES&nbsp;an",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/4927750007",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-esport-specialist-united-kingdom-remote-4927758007",
+      "title": "Esport Specialist",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927758007",
+      "location": "United Kingdom-Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&lt;strong&gt;About NetEaseGames:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As a leading internet technology company based in China, NetEase, Inc. (NASDAQ: NTES and HKEX:9999, “NetEase”)provides premium online services centered around cont",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/4927758007",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-localization-linguist-zhen-singapore-singapore-guoco-midtown-5212119007",
+      "title": "Localization Linguist (ZH→EN) (Singapore)",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5212119007",
+      "location": "Singapore-Guoco Midtown",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&lt;/p&gt; &lt;p class=\"block___NY-qf paragraph___LIXe0\"&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt; &lt;ol class=\"block___NY-qf list___9IR08 orderedList___Lej9D\"&gt; &lt;li class=\"listItem___pn9uW\"&gt; &lt;p class=\"",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5212119007",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-marketing-campaign-ipbranding-united-kingdom-remote-4927744007",
+      "title": "Marketing Campaign (IP/Branding)",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "training-program",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927744007",
+      "location": "United Kingdom-Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;article&gt; &lt;p&gt;&lt;strong&gt;About NetEase Games:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As a leading internet technology company based in China, NetEase, Inc. (NASDAQ: NTES and HKEX:9999, “NetEase”) provides premium online services ce",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/4927744007",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-overseas-kolinfluencer-operations-specialist-singapore-singapore-guoco-midtown-5180061007",
+      "title": "Overseas KOL/Influencer Operations Specialist (Singapore)",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5180061007",
+      "location": "Singapore-Guoco Midtown",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&nbsp;&lt;/p&gt; &lt;h3&gt;&lt;/h3&gt; &lt;h4&gt;&lt;strong&gt;Job Description / Responsibilities:&lt;/strong&gt;&lt;/h4&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Lead and execute overseas influencer marketing initiatives (K",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5180061007",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-payment-product-manager-singapore-guoco-midtown-5205258007",
+      "title": "Payment Product Manager",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5205258007",
+      "location": "Singapore-Guoco Midtown",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&lt;/p&gt; &lt;article&gt; &lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt; &lt;div&gt; &lt;ul&gt; &lt;li class=\"list-item \"&gt;Own cross-border payment requirements, product solution design, and PRD documentation.&",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5205258007",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-product-manager-singapore-singapore-guoco-midtown-5198271007",
+      "title": "Product Manager (Singapore)",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5198271007",
+      "location": "Singapore-Guoco Midtown",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;What You Will Do&lt;br&gt;· Own product discovery and feature planning for existing internet platform products, translating user insights into user-centered product improvements.&lt;br&gt;· Research into and provide &nbsp;insights ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5198271007",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-product-operations-manager-singapore-singapore-guoco-midtown-5201423007",
+      "title": "Product Operations Manager (Singapore)",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5201423007",
+      "location": "Singapore-Guoco Midtown",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&lt;strong&gt;What You Will Do &lt;/strong&gt;&lt;br&gt;1. Identify user needs and growth opportunities through user feedback, behavioral data, market trends, and major game launches. &lt;br&gt;2. Develop user growth strategies acr",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5201423007",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-product-operations-specialist-singapore-singapore-guoco-midtown-5200240007",
+      "title": "Product Operations Specialist (Singapore)",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5200240007",
+      "location": "Singapore-Guoco Midtown",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&lt;/p&gt; &lt;p&gt;**Role Overview**&lt;/p&gt; &lt;p&gt;We are looking for a product operations professional with strong monetization and campaign management capabilities. You will be responsible for driving user acquisition, reve",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5200240007",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-netease-games-user-research-intern-canada-remote-united-states-remote-5185215007",
+      "title": "User Research Intern",
+      "organization": "NetEase Games",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-netease-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://job-boards.greenhouse.io/neteasegames/jobs/5185215007",
+      "location": "Canada-Remote; United States-Remote",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;&lt;strong&gt;About the Company&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As a leading internet technology company based in China, NetEase, Inc. (NASDAQ: NTES and HKEX:9999, “NetEase”) provides premium online services centered around conte",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://job-boards.greenhouse.io/neteasegames/jobs/5185215007",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-fx-quantitative-analyst-singapore-capitasky-jobsingapore-capitaskyfx-quantitative",
+      "title": "FX Quantitative Analyst",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/FX-Quantitative-Analyst_R107977",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "FX Quantitative Analyst Singapore-CapitaSky Posted Today Full time : FX Quantitative Analyst Business Unit Corporate Development Group (CDG) as the platform for the company's new business incubation and new business exploration, CDG is resp",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/FX-Quantitative-Analyst_R107977",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-growth-operations-manager-utility-apps-singapore-capitasky-jobsingapore-capitasky",
+      "title": "Growth Operations Manager, Utility Apps",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Growth-Operations-Manager--Utility-Apps_R107951",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Growth Operations Manager, Utility Apps Singapore-CapitaSky Posted Today Full time : Growth Operations Manager, Utility Apps Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry I",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Growth-Operations-Manager--Utility-Apps_R107951",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-data-science-intern-safety-strategies-singapore-capitasky-jobsingapore-capitaskyd",
+      "title": "Data Science Intern (Safety Strategies)",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Safety-Strategies-_R107769",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Data Science Intern (Safety Strategies) Singapore-CapitaSky Posted 22 Days Ago Full time : Data Science Intern (Safety Strategies) Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Safety-Strategies-_R107769",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-product-marketing-manager-pubg-mobile-united-kingdom-london-jobunited-kingdom-lon",
+      "title": "Product Marketing Manager, PUBG Mobile",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Product-Marketing-Manager--PUBG-Mobile_R107893-1",
+      "location": "United Kingdom-London",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Product Marketing Manager, PUBG Mobile United Kingdom-London Posted 3 Days Ago Full time : Product Marketing Manager, PUBG Mobile Business Unit Tencent Games was established in 2003. We are a leading global platform for game development, op",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Product-Marketing-Manager--PUBG-Mobile_R107893-1",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-product-operations-intern-monetization-singapore-capitasky-jobsingapore-capitasky",
+      "title": "Product Operations Intern (Monetization)",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Product-Operations-Intern--Monetization-_R107947",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Product Operations Intern (Monetization) Singapore-CapitaSky Posted 3 Days Ago Full time : Product Operations Intern (Monetization) Business Unit Corporate Development Group (CDG) as the platform for the company's new business incubation an",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Product-Operations-Intern--Monetization-_R107947",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-hr-generalist-intern-singapore-capitasky-jobsingapore-capitaskyhr-generalist-inte",
+      "title": "HR Generalist Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/HR-Generalist-Intern_R107933",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "HR Generalist Intern Singapore-CapitaSky Posted 3 Days Ago Full time : HR Generalist Intern Business Unit The S3 HR and Management Line follows a \"User-Focused and Employee-Oriented\" philosophy and employs a three-pillar HR organization mod",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/HR-Generalist-Intern_R107933",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-global-recruitment-intern-japan-tokyo-business-tower-jobjapan-tokyo-business-towe",
+      "title": "Global Recruitment Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Global-Recruitment-Intern_R107849",
+      "location": "Japan-Tokyo-Business Tower",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Global Recruitment Intern Japan-Tokyo-Business Tower Posted 21 Days Ago Full time : Global Recruitment Intern What the Role Entails About Tencent Tencent is an Internet-based platform company founded in Shenzhen, China, in 1998. We use tech",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Global-Recruitment-Intern_R107849",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-advertising-product-manager-intern-singapore-capitasky-jobsingapore-capitaskyadve",
+      "title": "Advertising Product Manager Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Advertising-Product-Manager-Intern_R107938",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Advertising Product Manager Intern Singapore-CapitaSky Posted 8 Days Ago Full time : Advertising Product Manager Intern Business Unit Corporate Development Group (CDG) as the platform for the company's new business incubation and new busine",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Advertising-Product-Manager-Intern_R107938",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-workbuddy-overseas-operations-specialist-singapore-capitasky-jobsingapore-capitas",
+      "title": "WorkBuddy Overseas Operations Specialist",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/WorkBuddy-Overseas-Operations-Specialist_R107710",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "WorkBuddy Overseas Operations Specialist Singapore-CapitaSky Posted 22 Days Ago Full time : WorkBuddy Overseas Operations Specialist Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and in",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/WorkBuddy-Overseas-Operations-Specialist_R107710",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-product-manager-ai-creator-platform-worksolo-us-california-los-angeles-jobus-cali",
+      "title": "Product Manager – AI Creator Platform",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Los-Angeles/Product-Manager---AI-Creator-Platform--WorkSolo-_R107700-1",
+      "location": "US-California-Los Angeles",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Product Manager – AI Creator Platform US-California-Los Angeles Posted 15 Days Ago Full time : Product Manager – AI Creator Platform Business Unit What the Role Entails Key Responsibilities Product Strategy & Roadmap Own the product strateg",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Los-Angeles/Product-Manager---AI-Creator-Platform--WorkSolo-_R107700-1",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-tci-jp_business-development-intern-japan-tokyo-mori-tower-jobjapan-tokyo-mori-tow",
+      "title": "TCI JP_Business Development Intern｜腾讯云日本销培生",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Mori-Tower/TCI-JP-Business-Development-Intern-_R107887",
+      "location": "Japan-Tokyo-Mori Tower",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "TCI JP_Business Development Intern｜腾讯云日本销培生 Japan-Tokyo-Mori Tower Posted 15 Days Ago Full time : TCI JP_Business Development Intern｜腾讯云日本销培生 部署紹介/Business Unit 当社の「クラウド＆スマート・インダストリー・グループ（CSIG）」は、クラウドおよびインダストリー・インターネット戦略の推進を担い、クラウド技術、AI、ネット",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Mori-Tower/TCI-JP-Business-Development-Intern-_R107887",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-pr-intern-communications-japan-tokyo-business-tower-jobjapan-tokyo-business-tower",
+      "title": "PR Intern - Communications",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/PR-Intern---Communications_R107147",
+      "location": "Japan-Tokyo-Business Tower",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "PR Intern - Communications Japan-Tokyo-Business Tower Posted 16 Days Ago Full time : PR Intern - Communications チーム紹介/About the Hiring Team Level Infinite は、テンセントのグローバルゲームブランドとして、世界中のゲーム、開発チーム、スタジオにワンストップなサービスネットワークを提供するグローバルなゲームパブリッシャーです。私",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/PR-Intern---Communications_R107147",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-game-operations-intern-japan-tokyo-business-tower-jobjapan-tokyo-business-towerga",
+      "title": "Game Operations Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Game-Operations-Intern_R107226",
+      "location": "Japan-Tokyo-Business Tower",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Game Operations Intern Japan-Tokyo-Business Tower Posted 16 Days Ago Part time : Game Operations Intern What the Role Entails We are seeking a highly motivated and detail-oriented Game Operation Intern to support the publishing and promotio",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Game-Operations-Intern_R107226",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-business-development-intern-japan-tokyo-business-tower-jobjapan-tokyo-business-to",
+      "title": "Business Development Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Business-Development-Intern_R107839",
+      "location": "Japan-Tokyo-Business Tower",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Business Development Intern Japan-Tokyo-Business Tower Posted 21 Days Ago Full time : Business Development Intern 部署紹介/Business Unit 全世界で12億人以上のユーザーを誇る WeChat は、中国と世界中の人々、サービス、企業をつなぎ、モバイルの未来を大きく変革しています。海外市場で WeChat Pay として知られる Weixin Pay は、",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Business-Development-Intern_R107839",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-global-recruitment-intern-netherlands-amsterdam-jobnetherlands-amsterdamglobal-re",
+      "title": "Global Recruitment Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Netherlands-Amsterdam/Global-Recruitment-Intern_R107847",
+      "location": "Netherlands-Amsterdam",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Global Recruitment Intern Netherlands-Amsterdam Posted 21 Days Ago Full time : Global Recruitment Intern Business Unit The S3 HR and Management Line follows a \"User-Focused and Employee-Oriented\" philosophy and employs a three-pillar HR org",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Netherlands-Amsterdam/Global-Recruitment-Intern_R107847",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-game-design-intern-rapid-prototyping-singapore-capitasky-jobsingapore-capitaskyga",
+      "title": "Game Design Intern — Rapid Prototyping",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Game-Design-Intern---Rapid-Prototyping_R107688-1",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Game Design Intern — Rapid Prototyping Singapore-CapitaSky Posted 21 Days Ago Full time : Game Design Intern — Rapid Prototyping Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game develop",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Game-Design-Intern---Rapid-Prototyping_R107688-1",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-social-media-operation-intern-singapore-capitasky-jobsingapore-capitaskysocial-me",
+      "title": "Social Media Operation Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Social-Media-Operation-Intern---_R107689-1",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Social Media Operation Intern Singapore-CapitaSky Posted 21 Days Ago Full time : Social Media Operation Intern Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Social-Media-Operation-Intern---_R107689-1",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-business-development-intern-kol-endorsements-partnerships-france-paris-jobfrance-",
+      "title": "Business Development Intern, KOL Endorsements & Partnerships",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/France-Paris/Business-Development-Intern--KOL-Endorsements---Partnerships_R107822-1",
+      "location": "France-Paris",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Business Development Intern, KOL Endorsements & Partnerships France-Paris Posted 22 Days Ago Full time : Business Development Intern, KOL Endorsements & Partnerships About the Hiring Team Level Infinite is Tencent’s global gaming brand. It ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/France-Paris/Business-Development-Intern--KOL-Endorsements---Partnerships_R107822-1",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-global-talent-sourcing-intern-singapore-capitasky-jobsingapore-capitaskyglobal-ta",
+      "title": "Global Talent Sourcing Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Global-Talent-Sourcing-Intern_R107834",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Global Talent Sourcing Intern Singapore-CapitaSky Posted 22 Days Ago Full time : Global Talent Sourcing Intern Business Unit The S3 HR and Management Line follows a \"User-Focused and Employee-Oriented\" philosophy and employs a three-pillar ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Global-Talent-Sourcing-Intern_R107834",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-pubg-mobile-marketing-team-intern-location-not-listed-jobpubg-mobile-marketing-te",
+      "title": "PUBG Mobile Marketing Team Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/PUBG-Mobile-Marketing-Team-Intern_R107793-1",
+      "location": "Location not listed",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "PUBG Mobile Marketing Team Intern Posted 23 Days Ago Full time : PUBG Mobile Marketing Team Intern Business Unit Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and th",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/PUBG-Mobile-Marketing-Team-Intern_R107793-1",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-publishing-producerstudio-publishing-japan-tokyo-mori-tower-jobjapan-tokyo-mori-t",
+      "title": "パブリッシングプロデューサー（スタジオ パブリッシング）｜Publishing Producer（Studio Publishing）",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Mori-Tower/----Publishing-Producer-Studio-Publishing-_R107619",
+      "location": "Japan-Tokyo-Mori Tower",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "パブリッシングプロデューサー（スタジオ パブリッシング）｜Publishing Producer（Studio Publishing） Japan-Tokyo-Mori Tower Posted 23 Days Ago Full time : パブリッシングプロデューサー（スタジオ パブリッシング）｜Publishing Producer（Studio Publishing） チーム紹介/About the Hiring Team Level Infinite は、テンセント",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Mori-Tower/----Publishing-Producer-Studio-Publishing-_R107619",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-bd-and-strategic-analysis-intern-4-locations-jobus-california-palo-altobd-and-str",
+      "title": "BD and Strategic Analysis Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/BD-and-Strategic-Analysis-Intern_R107804",
+      "location": "4 Locations",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "BD and Strategic Analysis Intern 4 Locations Posted 28 Days Ago Full time : BD and Strategic Analysis Intern Business Unit About the Hiring Team What the Role Entails Tencent Games was established in 2003. We are a leading global platform f",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/BD-and-Strategic-Analysis-Intern_R107804",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-overseas-growth-operations-specialist-us-california-palo-alto-jobus-california-pa",
+      "title": "Overseas Growth Operations Specialist",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Overseas-Growth-Operations-Specialist_R107764",
+      "location": "US-California-Palo Alto",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Overseas Growth Operations Specialist US-California-Palo Alto Posted 30+ Days Ago Full time : Overseas Growth Operations Specialist Business Unit What the Role Entails We're looking for an Overseas Growth Operations Specialist based in Palo",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Overseas-Growth-Operations-Specialist_R107764",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-tci-kr_business-development-intern-skorea-seoul-jobskorea-seoultci-kr-business-de",
+      "title": "TCI KR_Business Development Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/TCI-KR-Business-Development-Intern_R107790",
+      "location": "S.Korea-Seoul",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "TCI KR_Business Development Intern S.Korea-Seoul Posted 30+ Days Ago Full time : TCI KR_Business Development Intern Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry Internet s",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/TCI-KR-Business-Development-Intern_R107790",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-data-scientist-intern-singapore-capitasky-jobsingapore-capitaskydata-scientist-in",
+      "title": "Data Scientist Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Scientist-Intern_R107754",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Data Scientist Intern Singapore-CapitaSky Posted 30+ Days Ago Full time : Data Scientist Intern Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Scientist-Intern_R107754",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-data-ai-analytics-intern-singapore-capitasky-jobsingapore-capitaskydata-ai-analyt",
+      "title": "Data & AI Analytics Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data---AI-Analytics-Intern_R107767",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Data & AI Analytics Intern Singapore-CapitaSky Posted 30+ Days Ago Full time : Data & AI Analytics Intern Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data---AI-Analytics-Intern_R107767",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-trust-safety-public-affairs-global-policy-intern-singapore-capitasky-jobsingapore",
+      "title": "Trust & Safety, Public Affairs & Global Policy Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Trust---Safety--Public-Affairs---Global-Policy-Intern_R107765",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Trust & Safety, Public Affairs & Global Policy Intern Singapore-CapitaSky Posted 30+ Days Ago Full time : Trust & Safety, Public Affairs & Global Policy Intern About the Hiring Team The Global Public Affairs team is committed to identifying",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Trust---Safety--Public-Affairs---Global-Policy-Intern_R107765",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-project-managementbusiness-development-intern-australia-new-south-wales-sydney-jo",
+      "title": "Project Management/Business Development Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Australia-New-South-Wales-Sydney/Project-Management-Business-Development-Intern_R107728-1",
+      "location": "Australia-New South Wales-Sydney",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Project Management/Business Development Intern Australia-New South Wales-Sydney Posted 30+ Days Ago Full time : Project Management/Business Development Intern Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Australia-New-South-Wales-Sydney/Project-Management-Business-Development-Intern_R107728-1",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-ai-product-manager-intern-united-kingdom-london-jobunited-kingdom-londonproduct-m",
+      "title": "AI Product Manager Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Product-manager-Intern_R107654-1",
+      "location": "United Kingdom-London",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "AI Product Manager Intern United Kingdom-London Posted 30+ Days Ago Full time : AI Product Manager Intern About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Product-manager-Intern_R107654-1",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-data-product-intern-united-kingdom-london-jobunited-kingdom-londondata-product-in",
+      "title": "Data Product Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Data-Product-Intern_R107644-1",
+      "location": "United Kingdom-London",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Data Product Intern United Kingdom-London Posted 30+ Days Ago Full time : Data Product Intern About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Data-Product-Intern_R107644-1",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-pubg-mobile-marketing-and-communication-assistant-intern-france-paris-jobfrance-p",
+      "title": "PUBG MOBILE Marketing and Communication Assistant Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/France-Paris/Marketing-and-Communication-Assistant-Intern_R107493-1",
+      "location": "France-Paris",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "PUBG MOBILE Marketing and Communication Assistant Intern France-Paris Posted 30+ Days Ago Full time : PUBG MOBILE Marketing and Communication Assistant Intern Business Unit Tencent Games was established in 2003. We are a leading global plat",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/France-Paris/Marketing-and-Communication-Assistant-Intern_R107493-1",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-project-management-intern-gaming-united-kingdom-london-jobunited-kingdom-londonpr",
+      "title": "Project Management Intern, Gaming",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Project-Management-Intern--Gaming_R107659-1",
+      "location": "United Kingdom-London",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Project Management Intern, Gaming United Kingdom-London Posted 30+ Days Ago Full time : Project Management Intern, Gaming Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development th",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Project-Management-Intern--Gaming_R107659-1",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-game-community-intern-united-kingdom-london-jobunited-kingdom-londongame-communit",
+      "title": "Game Community Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Game-Community-Intern_R107657-1",
+      "location": "United Kingdom-London",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Game Community Intern United Kingdom-London Posted 30+ Days Ago Full time : Game Community Intern About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of servi",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Game-Community-Intern_R107657-1",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-ai-game-production-intern-netherlands-amsterdam-jobnetherlands-amsterdamai-game-p",
+      "title": "AI Game Production Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Netherlands-Amsterdam/AI-Game-Production-Intern_R107625",
+      "location": "Netherlands-Amsterdam",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "AI Game Production Intern Netherlands-Amsterdam Posted 30+ Days Ago Full time : AI Game Production Intern About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Netherlands-Amsterdam/AI-Game-Production-Intern_R107625",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-data-science-intern-singapore-capitasky-jobsingapore-capitaskydata-science-intern",
+      "title": "Data Science Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern_R107361-1",
+      "location": "Singapore-CapitaSky",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Data Science Intern Singapore-CapitaSky Posted 30+ Days Ago Full time : Data Science Intern About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services fo",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern_R107361-1",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-marketing-intern-skorea-seoul-jobskorea-seoulmarketing-intern_r107145",
+      "title": "Marketing Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/Marketing-Intern_R107145",
+      "location": "S.Korea-Seoul",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Marketing Intern S.Korea-Seoul Posted 30+ Days Ago Full time : Marketing Intern About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, dev",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/Marketing-Intern_R107145",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-hok-hok-hq-marketing-manager-china-shenzhen-jobchina-shenzhenhok-hok-hq-marketing",
+      "title": "HOK全球品牌经理 （HOK HQ Marketing Manager）",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/China-Shenzhen/HOK--HOK-HQ-Marketing-Manager-_R107205-3",
+      "location": "China-Shenzhen",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "HOK全球品牌经理 （HOK HQ Marketing Manager） China-Shenzhen Posted 30+ Days Ago Full time : HOK全球品牌经理 （HOK HQ Marketing Manager） 团队介绍 Level Infinite 是腾讯旗下国际游戏业务品牌，致力为全球玩家带来充满乐趣、原汁原味的游戏体验，让玩家随时随地进入游戏世界；并通过打造包容、互通、便捷的玩家社区，促进分享交流。 Level Infinite为合作工作室",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/China-Shenzhen/HOK--HOK-HQ-Marketing-Manager-_R107205-3",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-game-research-intern-skorea-seoul-jobskorea-seoulgame-research-intern_r107171",
+      "title": "Game Research Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/Game-Research-Intern_R107171",
+      "location": "S.Korea-Seoul",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Game Research Intern S.Korea-Seoul Posted 30+ Days Ago Full time : Game Research Intern Business Unit About the Hiring Team Game Research Center(GRC) is a department focusing on game industry study, game analysis, game design research, data",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/Game-Research-Intern_R107171",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-business-development-intern-thailand-bangkok-jobthailand-bangkokbusiness-developm",
+      "title": "Business Development Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Thailand-Bangkok/Business-Development-Intern_R107012",
+      "location": "Thailand-Bangkok",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Business Development Intern Thailand-Bangkok Posted 30+ Days Ago Full time : Business Development Intern Business Unit What the Role Entails - Business Operations: Collaborate with Business Development (BD) to strengthen customer relations ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Thailand-Bangkok/Business-Development-Intern_R107012",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-business-development-intern-malaysia-kuala-lumpur-jobmalaysia-kuala-lumpurbusines",
+      "title": "Business Development Intern",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Malaysia-Kuala-Lumpur/Business-Development-Intern_R107011",
+      "location": "Malaysia-Kuala Lumpur",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Business Development Intern Malaysia-Kuala Lumpur Posted 30+ Days Ago Full time : Business Development Intern Business Unit What the Role Entails - Business Operations: Collaborate with Business Development (BD) to strengthen customer relat",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Malaysia-Kuala-Lumpur/Business-Development-Intern_R107011",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-influencer-specialist-thailand-jobthailandinfluencer-specialist_r106960-1",
+      "title": "Influencer Specialist",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Thailand/Influencer-Specialist_R106960-1",
+      "location": "Thailand",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Influencer Specialist Thailand Posted 30+ Days Ago Full time : Influencer Specialist About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Thailand/Influencer-Specialist_R106960-1",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-marketing-manager-thailand-jobthailandmarketing-manager_r106929-1",
+      "title": "Marketing Manager",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Thailand/Marketing-Manager_R106929-1",
+      "location": "Thailand",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Marketing Manager Thailand Posted 30+ Days Ago Full time : Marketing Manager About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, develo",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Thailand/Marketing-Manager_R106929-1",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-community-manager-thailand-jobthailandcommunity-manager_r106926",
+      "title": "Community Manager",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Thailand/Community-Manager_R106926",
+      "location": "Thailand",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Community Manager Thailand Posted 30+ Days Ago Full time : Community Manager About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, develo",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Thailand/Community-Manager_R106926",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-tencent-level-infinite-timi-lightspeed-community-manager-sea-china-shenzhen-jobchina-shenzhencommunity-manager-sea_r1067",
+      "title": "Community Manager-SEA",
+      "organization": "Tencent / Level Infinite / TiMi / Lightspeed",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-tencent-workday",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/China-Shenzhen/Community-Manager-SEA_R106750-1",
+      "location": "China-Shenzhen",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Community Manager-SEA China-Shenzhen Posted 30+ Days Ago Full time : Community Manager-SEA 团队介绍 Level Infinite 是腾讯旗下国际游戏业务品牌，致力为全球玩家带来充满乐趣、原汁原味的游戏体验，让玩家随时随地进入游戏世界；并通过打造包容、互通、便捷的玩家社区，促进分享交流。 Level Infinite为合作工作室提供一系列支持及服务，助力其释放产品潜能。 Level In",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/China-Shenzhen/Community-Manager-SEA_R106750-1",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-revenue-associate-jakarta-j02071071",
+      "title": "Revenue Associate",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02071071",
+      "location": "Jakarta",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Revenue Associate Jakarta Strategy Entry Level As a Revenue Associate team, you are part of a team that performs analysis, make insightful recommendations and designs solutions to address complex business issues. You will develop products a",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02071071",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hn-delta-force-cong-tac-vien-community-marketing-hanoi-j02100038",
+      "title": "[HN, Delta Force] Cộng tác viên Community Marketing",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02100038",
+      "location": "Hanoi",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HN, Delta Force] Cộng tác viên Community Marketing Hanoi Marketing Internship 1. Phát triển và vận hành cộng đồng - Tổ chức hoạt động: Triển khai và vận hành các giải đấu, sự kiện cộng đồng của Delta Force nhằm duy trì tương tác và gắn kết",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02100038",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-garena-development-program-jakarta-j02067139",
+      "title": "Garena Development Program",
+      "organization": "Garena",
+      "section": "game",
+      "type": "training-program",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02067139",
+      "location": "Jakarta",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Garena Development Program Jakarta Strategy Entry Level Garena Development Program is designed for early career professionals who are eager to make their mark in the gaming industry. Through GDP, you will join dynamic working environment an",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02067139",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-garena-internship-program-jakarta-j02067184",
+      "title": "Garena Internship Program",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02067184",
+      "location": "Jakarta",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Garena Internship Program Jakarta Strategy Internship Garena Internship Program offers students a chance to explore careers in gaming through real, hands-on work. The GIP participants will support projects across functions like Marketing, P",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02067184",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-associate-project-coordinator-contract-singapore-j02112091",
+      "title": "Associate, Project Coordinator (Contract)",
+      "organization": "Garena",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02112091",
+      "location": "Singapore",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Associate, Project Coordinator (Contract) Singapore Game Operations Experienced (Individual Contributor) Act as the primary liaison between Game Developers, Marketing, and Revenue Planning teams to consolidate collaboration content and alig",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02112091",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-esports-manager-ph-based-manila-j02120537",
+      "title": "Esports Manager (PH-Based)",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02120537",
+      "location": "Manila",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Esports Manager (PH-Based) Manila Esports Experienced (Individual Contributor) Lead overall esports planning, budgeting, and project management for the Philippines. Design and execute annual esports calendars (e.g., national leagues, qualif",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02120537",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hcm-game-team-cong-tac-vien-marketing-ho-chi-minh-city-j02092901",
+      "title": "[HCM, Game Team] Cộng tác viên Marketing",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02092901",
+      "location": "Ho Chi Minh City",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HCM, Game Team] Cộng tác viên Marketing Ho Chi Minh City Marketing Internship Thực thi chiến dịch: Tham gia team marketing trong việc thực hiện các chiến dịch quảng cáo, truyền thông, giúp game đạt được sự chú ý và yêu thích từ cộng đồng. ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02092901",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hn-lien-quan-mobile-assistant-manager-marketing-brand-manager-hanoi-j02113848",
+      "title": "[HN, Lien Quan Mobile] Assistant Manager, Marketing (Brand Manager)",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02113848",
+      "location": "Hanoi",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HN, Lien Quan Mobile] Assistant Manager, Marketing (Brand Manager) Hanoi Marketing Experienced (Individual Contributor) Unleash the Power: Join Our Arena of Valor Marketing Team! Are you ready to take your creativity to the next level? At ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02113848",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-intern-game-designer-singapore-j02105882",
+      "title": "Intern, Game Designer",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02105882",
+      "location": "Singapore",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Intern, Game Designer Singapore Internship Assist in the design and iteration of game mechanics, systems, and levels under supervision. Support the development of gameplay loops and player progression models. Help create, maintain or update",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02105882",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-garena-management-trainee-gmt-2027-bangkok-j02159956",
+      "title": "Garena Management Trainee (GMT) 2027",
+      "organization": "Garena",
+      "section": "game",
+      "type": "training-program",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02159956",
+      "location": "Bangkok",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Garena Management Trainee (GMT) 2027 Bangkok Game Operations Entry Level The Garena Management Trainee (GMT) 2027 is Thai’s 2-year flagship program for aspiring graduates who seek to create purposeful impact in the gaming industry and becom",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02159956",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-esports-operations-associate-delta-force-contract-bangkok-j02159975",
+      "title": "Esports Operations Associate - Delta Force (Contract)",
+      "organization": "Garena",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02159975",
+      "location": "Bangkok",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Esports Operations Associate - Delta Force (Contract) Bangkok Esports Experienced (Individual Contributor) We are looking for an Esports Operations Associate to support Delta Force (DF) esports tournaments, community engagement, and partner",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02159975",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-business-development-jakarta-j02131575",
+      "title": "Business Development",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02131575",
+      "location": "Jakarta",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Business Development Jakarta Business Development and Partnerships Entry Level As a business development team, you will play a crucial role to ensuring the smooth game partnerships operation activities. This role involves coordinating activ",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02131575",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-strategic-operations-so-2026-bangkok-j02088654",
+      "title": "Strategic Operations (SO) 2026",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02088654",
+      "location": "Bangkok",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Strategic Operations (SO) 2026 Bangkok Game Operations Experienced (Individual Contributor) About Garena Garena is a leading global game developer and publisher, best known for iconic titles such as Garena Free Fire and Arena of Valor (RoV)",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02088654",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-game-testing-and-event-setup-contract-fc-online-bangkok-j02163763",
+      "title": "Game Testing and Event Setup (Contract) - FC Online",
+      "organization": "Garena",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02163763",
+      "location": "Bangkok",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Game Testing and Event Setup (Contract) - FC Online Bangkok Game Operations Experienced (Individual Contributor) Live Event and Content Testing: Actively test and verify the functionality and quality of new in-game events, features, and con",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02163763",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-general-marketing-dhaka-j02022384",
+      "title": "General Marketing",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02022384",
+      "location": "Dhaka",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "General Marketing Dhaka Marketing Experienced (Individual Contributor) Plan and implement marketing campaigns tailored for the Bangladesh market Drive brand development initiatives to strengthen the core identity of our games through impact",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02022384",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-marketing-and-community-specialist-contract-singapore-j02157633",
+      "title": "Marketing and Community Specialist (Contract)",
+      "organization": "Garena",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02157633",
+      "location": "Singapore",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Marketing and Community Specialist (Contract) Singapore Marketing Experienced (Individual Contributor) Build and manage the studio's player community across platforms (e.g., Discord, social channels, forums). Gather and synthesize player fe",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02157633",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-receptionist-bangkok-j02138931",
+      "title": "Receptionist",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02138931",
+      "location": "Bangkok",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Receptionist Bangkok People Entry Level Support daily office operations, including managing office supplies, vendors, and administrative tasks. Handle front desk duties: greet visitors, manage calls, deliveries, and meeting room bookings. A",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02138931",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hn-lien-quan-mobile-strategic-marketing-specialist-hanoi-j02113892",
+      "title": "[HN, Lien Quan Mobile] Strategic Marketing Specialist",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02113892",
+      "location": "Hanoi",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HN, Lien Quan Mobile] Strategic Marketing Specialist Hanoi Marketing Experienced (Individual Contributor) Unleash the Power: Join Our Arena of Valor Marketing Team! Are you ready to take your creativity to the next level? At Garena Arena o",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02113892",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-intern-video-graphic-design-editor-singapore-j02167283",
+      "title": "Intern, Video & Graphic Design Editor",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02167283",
+      "location": "Singapore",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Intern, Video & Graphic Design Editor Singapore Internship Develop creative concepts and produce video assets for promotional campaigns, game updates, events, and social media. Edit videos for YouTube, Shorts, TikTok, and X, optimising cont",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02167283",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-intern-social-media-creatives-singapore-j02167269",
+      "title": "Intern, Social Media & Creatives",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02167269",
+      "location": "Singapore",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Intern, Social Media & Creatives Singapore Internship Own and grow the studio's presence across YouTube, TikTok, and X through content planning, publishing, and community management. Develop and maintain the social content calendar, ensurin",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02167269",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-video-editor-casablanca-j02129976",
+      "title": "Video Editor",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02129976",
+      "location": "Casablanca",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Video Editor Casablanca Design Entry Level As a Video Editor, you will be responsible for transforming raw clips or video footage to create compelling visual stories to attract, engage, and inspire the target audience. You'll have your full",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02129976",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-revenue-management-associate-fc-online-bangkok-j02165905",
+      "title": "Revenue Management Associate - FC Online",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02165905",
+      "location": "Bangkok",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Revenue Management Associate - FC Online Bangkok Game Operations Experienced (Individual Contributor) Own the day-to-day revenue performance of EA Sports FC Online Thailand, tracking and reporting on key metrics including paying user rate, ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02165905",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-garena-strategy-and-operations-vn-ho-chi-minh-city-j02074989",
+      "title": "[HCMC] Garena Strategy and Operations VN 2026",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02074989",
+      "location": "Ho Chi Minh City",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HCMC] Garena Strategy and Operations VN 2026 Ho Chi Minh City Strategy Experienced (Individual Contributor) About the Role The Strategy & Operations (SO) role is designed for high-potential individuals who want to push their growth through",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02074989",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-garena-strategy-and-operations-vn-hanoi-j02078733",
+      "title": "[HN] Garena Strategy and Operations VN 2026",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02078733",
+      "location": "Hanoi",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HN] Garena Strategy and Operations VN 2026 Hanoi Strategy Entry Level About the Role The Strategy & Operations (SO) role is designed for high-potential individuals who want to push their growth through real, hands-on experience in the gami",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02078733",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-associate-configuration-qa-singapore-j02133478",
+      "title": "Associate, Configuration & QA",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02133478",
+      "location": "Singapore",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Associate, Configuration & QA Singapore Game Operations Entry Level Operate and maintain the daily operations of the gaming product from configuration, quality assurance, live environment handling (including bugs and hacks), and operational",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02133478",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-associate-product-management-singapore-j02169117",
+      "title": "Associate, Product Management",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02169117",
+      "location": "Singapore",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Associate, Product Management Singapore Product Management Experienced (Individual Contributor) Shared Game Services (SGS) provides core platform services to all games published by Garena. Services include but not limited to authentication,",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02169117",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-intern-community-kol-management-singapore-j02167296",
+      "title": "Intern, Community & KOL Management",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02167296",
+      "location": "Singapore",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Intern, Community & KOL Management Singapore Internship Own and grow the game's player community across Roblox, Discord, and other community platforms. Manage the Roblox Group and Discord server, including announcements, moderation, communi",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02167296",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hcm-fc-online-cong-tac-vien-esports-marketing-ho-chi-minh-city-j02172441",
+      "title": "[HCM, FC Online] Cộng tác viên Esports Marketing",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02172441",
+      "location": "Ho Chi Minh City",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HCM, FC Online] Cộng tác viên Esports Marketing Ho Chi Minh City Marketing Internship Hỗ trợ và phối hợp chặt chẽ với phòng Marketing trong việc triển khai các chiến dịch marketing của FC Online, góp phần nâng cao hiệu quả các hoạt động qu",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02172441",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-video-editor-shooter-games-bangkok-j02165465",
+      "title": "Video Editor - Shooter Games",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02165465",
+      "location": "Bangkok",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Video Editor - Shooter Games Bangkok Game Operations Entry Level Edit engaging short-form and long-form video content based on creative briefs. Create gaming-focused content using gameplay footage, memes, overlays, sound effects, and motion",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02165465",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-strategy-operations-jakarta-j02159399",
+      "title": "Strategy & Operations - Marketing & Community",
+      "organization": "Garena",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02159399",
+      "location": "Jakarta",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Strategy & Operations - Marketing & Community Jakarta Strategy Experienced (Individual Contributor) Strategy & Operations - Marketing & Community Project is designed for outstanding professionals who want to make a mark in the game industry",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02159399",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-social-media-community-specialist-jakarta-j00239726",
+      "title": "Social Media & Community Specialist",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J00239726",
+      "location": "Jakarta",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Social Media & Community Specialist Jakarta Game Operations Entry Level As a Social Media and Community Specialist, you are an agile communicator with passion and initiative in driving and engaging with the community. You will need to manag",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J00239726",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hn-free-fire-cong-tac-vien-kol-marketing-hanoi-j02095231",
+      "title": "[HN, Free Fire] Cộng tác viên KOL Marketing",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02095231",
+      "location": "Hanoi",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HN, Free Fire] Cộng tác viên KOL Marketing Hanoi Marketing Internship Bạn mê game, yêu thích nhịp sống sôi động của cộng đồng và luôn cập nhật những xu hướng mới trên mạng xã hội? Chào mừng đến với Free Fire – nơi những ý tưởng sáng tạo đư",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02095231",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hcm-cong-tac-vien-thu-mua-purchasing-collaborator-hanoi-j02157816",
+      "title": "[HCM] Cộng tác viên Thu mua (Purchasing Collaborator)",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02157816",
+      "location": "Hanoi",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HCM] Cộng tác viên Thu mua (Purchasing Collaborator) Hanoi People Internship Đằng sau mỗi giải đấu, mỗi sự kiện và mỗi sản phẩm game là hàng loạt hoạt động vận hành diễn ra mỗi ngày để mọi thứ được chuẩn bị đầy đủ và đúng thời điểm. Nếu bạ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02157816",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hn-free-fire-cong-tac-vien-graphic-design-hanoi-j01996015",
+      "title": "[HN, Free Fire] Cộng tác viên Graphic Design",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J01996015",
+      "location": "Hanoi",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HN, Free Fire] Cộng tác viên Graphic Design Hanoi Design Internship Chịu trách nhiệm thiết kế đồ họa theo yêu cầu của dự án (Website, microsite,…) Phát triển ý tưởng và thực hiện concept cho các dự án marketing, content online và offline… ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J01996015",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-community-and-event-specialist-jakarta-j02174741",
+      "title": "Community and Event Specialist",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02174741",
+      "location": "Jakarta",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Community and Event Specialist Jakarta Marketing Entry Level As a Community & Event Specialist, you are an agile communicator with passion and initiative in driving the community. As the forefront person in our game’s communities, you will ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02174741",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hn-lien-quan-mobile-cong-tac-vien-campaign-marketing-hanoi-j00385803",
+      "title": "[HN, Liên Quân Mobile] Cộng tác viên Campaign Marketing",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J00385803",
+      "location": "Hanoi",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HN, Liên Quân Mobile] Cộng tác viên Campaign Marketing Hanoi Marketing Internship Bạn là một game thủ, một người hâm mộ, hay đơn giản chỉ là người yêu thích cảm giác hồi hộp của những trận đấu đỉnh cao? Chào mừng đến với Garena Arena of Va",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J00385803",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-growth-monetization-strategy-jakarta-j02116487",
+      "title": "Growth & Monetization Strategy",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02116487",
+      "location": "Jakarta",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Growth & Monetization Strategy Jakarta Strategy Entry Level As a Growth and Monetization team, you are part of a team that performs analysis, make insightful recommendations and designs solutions to address complex business issues. You will",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02116487",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hn-garena-strategy-and-operations-marketing-vn-2026-hanoi-j02169799",
+      "title": "[HN] Garena Strategy and Operations (Marketing) VN 2026",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02169799",
+      "location": "Hanoi",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HN] Garena Strategy and Operations (Marketing) VN 2026 Hanoi Strategy Experienced (Individual Contributor) About the Role The Strategy & Operations (Marketing) role is designed for high-potential individuals who want to push their growth t",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02169799",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hcmc-garena-strategy-and-operations-marketing-vn-2026-ho-chi-minh-city-j02169786",
+      "title": "[HCMC] Garena Strategy and Operations (Marketing) VN 2026",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02169786",
+      "location": "Ho Chi Minh City",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HCMC] Garena Strategy and Operations (Marketing) VN 2026 Ho Chi Minh City Strategy Experienced (Individual Contributor) About the Role The Strategy & Operations (Marketing) role is designed for high-potential individuals who want to push t",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02169786",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-video-editor-fc-online-contract-bangkok-j02176182",
+      "title": "Video Editor - FC Online (Contract)",
+      "organization": "Garena",
+      "section": "game",
+      "type": "part-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02176182",
+      "location": "Bangkok",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Video Editor - FC Online (Contract) Bangkok Game Operations Experienced (Individual Contributor) TikTok Content Production: Produce and edit high-quality short-form video content specifically for the TikTok platform. Trend Adaptation: Stay ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02176182",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-hn-new-game-cong-tac-vien-product-live-ops-qa-hanoi-j02175201",
+      "title": "[HN, New game] Cộng tác viên Product (Live Ops & QA)",
+      "organization": "Garena",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02175201",
+      "location": "Hanoi",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "[HN, New game] Cộng tác viên Product (Live Ops & QA) Hanoi Game Operations Internship 1. Vận hành và kiểm thử sản phẩm (40%) - Kiểm thử các sự kiện in-game, tính năng mới, bản sửa lỗi định kỳ, website - đảm bảo hoạt động ổn định và đúng kế ",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02175201",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-garena-esports-video-editor-videographer-jakarta-j02176611",
+      "title": "Esports Video Editor / Videographer",
+      "organization": "Garena",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-garena",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://ats.workatsea.com/apply/J02176611",
+      "location": "Jakarta",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Esports Video Editor / Videographer Jakarta Esports Entry Level Esports Video Editor / Videographer will play a critical role in esports content production, in a video format, suitable for Youtube, TikTok, Instagram, Facebook channels, with",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://ats.workatsea.com/apply/J02176611",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-content-producer-league-of-legends-wild-rift-shanghai-china-8029742",
+      "title": "Content Producer - League of Legends: Wild Rift",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/8029742?gh_jid=8029742",
+      "location": "Shanghai, China",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title&nbsp;&lt;em&gt;League of Legends&lt;/em&gt;&nbsp;to cri",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/8029742?gh_jid=8029742",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-esports-product-manager-korea-riftbound-seoul-korea-8118875",
+      "title": "Esports Product Manager, Korea  - Riftbound",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/8118875?gh_jid=8118875",
+      "location": "Seoul, Korea",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;The Riot Esports team is focused on delivering amazing fan experiences through global events and regional competitions. Our professional and semi-professional competitive tiers in League of Legends, VALORANT and other Esports invol",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/8118875?gh_jid=8118875",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-influencer-manager-thailand-valorant-contract-bangkok-thailand-7905081",
+      "title": "Influencer Manager, Thailand - VALORANT (Contract)",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/7905081?gh_jid=7905081",
+      "location": "Bangkok, Thailand",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;As the Influencer Manager (Contract) for VALORANT , you will work with the team to bring influencer engagement strategies to life through direct relationship management, digital and online campaigns and collaborate with other teams",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/7905081?gh_jid=7905081",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-influencer-manager-wild-rift-contract-manila-philippines-7982892",
+      "title": "Influencer Manager, Wild Rift (Contract)",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/7982892?gh_jid=7982892",
+      "location": "Manila, Philippines",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title League of Legends to critical and player acclaim. As th",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/7982892?gh_jid=7982892",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-localization-operations-manager-shanghai-china-7862369",
+      "title": "Localization Operations Manager",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/7862369?gh_jid=7862369",
+      "location": "Shanghai, China",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title&nbsp;&lt;em&gt;League of Legends&lt;/em&gt;&nbsp;to cri",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/7862369?gh_jid=7862369",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-producer-valorant-mobile-monetization-support-contract-shanghai-china-8027173",
+      "title": "Producer - VALORANT Mobile, Monetization Support (Contract)",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/8055498?gh_jid=8055498",
+      "location": "Shanghai, China",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title League of Legends to critical and player acclaim. As th",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/8055498?gh_jid=8055498",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-publishing-operations-manager-teamfight-tactics-contract-singapore-8051454",
+      "title": "Publishing Operations Manager - Teamfight Tactics (Contract)",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/8051454?gh_jid=8051454",
+      "location": "Singapore",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;Riot Games was established in 2006 by avid gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title League of Legends to critical acclaim. Players form the foundation",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/8051454?gh_jid=8051454",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-publishing-product-manager-event-valorant-contract-shanghai-china-7695533",
+      "title": "Publishing Product Manager, Event - VALORANT (Contract)",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/7695533?gh_jid=7695533",
+      "location": "Shanghai, China",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in genre-defining games. Back in 2009, that vision gave birth to our debut title League of Legends, which achi",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/7695533?gh_jid=7695533",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-retail-operations-manager-korea-riftbound-seoul-korea-8114848",
+      "title": "Retail Operations Manager, Korea  - Riftbound",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/8114848?gh_jid=8114848",
+      "location": "Seoul, Korea",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;Riot is expanding into the Trading Card Game space with Riftbound, and we are looking for a Retail Operations Manager to build and operate its retail ecosystem in Korea.&lt;/p&gt; &lt;p&gt;As a &lt;strong&gt;Retail Operations Manag",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/8114848?gh_jid=8114848",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-technical-producer-ii-central-technology-data-foundations-los-angeles-usa-8115074",
+      "title": "Technical Producer II - Central Technology, Data Foundations",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/8115074?gh_jid=8115074",
+      "location": "Los Angeles, USA",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;As Technical Producers at Riot, we lead passionate technical teams and initiatives to create products and experiences that maximize developer and player value. We guide development, clear blockers, and help teams deliver in a susta",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/8115074?gh_jid=8115074",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-riot-games-treasury-analyst-iii-singapore-7257339",
+      "title": "Treasury Analyst III",
+      "organization": "Riot Games",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-riot-greenhouse",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://www.riotgames.com/en/work-with-us/job/7257339?gh_jid=7257339",
+      "location": "Singapore",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "&lt;p&gt;Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title&nbsp;&lt;em&gt;League of Legends&lt;/em&gt;&nbsp;to cri",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://www.riotgames.com/en/work-with-us/job/7257339?gh_jid=7257339",
+        "Game monitor fit score 6/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-brand-publishing-manager-sky-china-china-shanghai-ff5cd7cb-ed3e-4741-b863-d34b194333cd",
+      "title": "Brand Publishing Manager – Sky China",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/ff5cd7cb-ed3e-4741-b863-d34b194333cd/application",
+      "location": "China - Shanghai",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Brand Publishing Manager – Sky China Working location: Shanghai thatgamecompany is best recognized for creating award-winning, enriching, and meaningful game titles such as Journey, Flower, and Flow. Our most recent game, Sky, is our most c",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/ff5cd7cb-ed3e-4741-b863-d34b194333cd/application",
+        "Game monitor fit score 9/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-content-creator-program-manager-japan-japan-2ab99c73-084c-4ce2-888b-6b7a9be3f47b",
+      "title": "Content & Creator Program Manager - Japan / ★ソーシャル・コンテンツストラテジスト",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/2ab99c73-084c-4ce2-888b-6b7a9be3f47b/application",
+      "location": "Japan",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "【Responsibilities】 Official Account Management: Lead the operation of Sky’s official Japanese social media accounts. This includes managing content scheduling and publishing, planning and executing online events for the Japan region, handli",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/2ab99c73-084c-4ce2-888b-6b7a9be3f47b/application",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-ip-experiential-marketing-manager-china-shanghai-42d41ab1-ba42-4fbb-abda-36ec3c9fe903",
+      "title": "IP & Experiential Marketing Manager",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/42d41ab1-ba42-4fbb-abda-36ec3c9fe903/application",
+      "location": "China - Shanghai",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Role Overview As a key leader within the China Marketing team, you will drive and oversee integrated IP entertainment marketing (e.g., animation projects, brand crossovers) and offline experiential initiatives (e.g., conventions, pop-up sto",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/42d41ab1-ba42-4fbb-abda-36ec3c9fe903/application",
+        "Game monitor fit score 8/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-ugc-creator-community-specialist-china-shanghai-aed66f8c-b0ff-4a8b-a329-6a3d70a5f6a3",
+      "title": "UGC & Creator Community Specialist",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/aed66f8c-b0ff-4a8b-a329-6a3d70a5f6a3/application",
+      "location": "China - Shanghai",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Role Overview Responsible for building and operating the local UGC (User-Generated Content) ecosystem and creator community for thatgamecompany's (TGC) IPs. Drive player passion and foster a healthy, vibrant, and brand-aligned creator commu",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/aed66f8c-b0ff-4a8b-a329-6a3d70a5f6a3/application",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-brand-marketing-manager-indonesia-remote-south-east-asia-481cd61f-e855-4e18-9925-1ee4104bc480",
+      "title": "Brand Marketing Manager - Indonesia",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/481cd61f-e855-4e18-9925-1ee4104bc480/application",
+      "location": "Remote - South East Asia",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Responsibilities - Plan, execute, and manage local marketing campaigns and social content - Serve as a key liaison between TGC and our Indonesia publishing partners - Establish and maintain relationships with local content creators and infl",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/481cd61f-e855-4e18-9925-1ee4104bc480/application",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-brand-marketing-partner-remote-us-cbe0c9ca-56fa-420e-8781-a8f90f415b9c",
+      "title": "Brand Marketing Partner",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/cbe0c9ca-56fa-420e-8781-a8f90f415b9c/application",
+      "location": "Remote - US",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Brand Marketing Partner Remote US & Canada Our 3rd party publishing team is seeking a Brand Marketing Partner to own how our games reach, resonate with, and grow audiences. You will lead social strategy, creator partnerships, viral campaign",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/cbe0c9ca-56fa-420e-8781-a8f90f415b9c/application",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-brand-intern-vietnam-remote-vietnam-167df23d-5a11-4527-bd32-230174522741",
+      "title": "Brand Intern-Vietnam",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/167df23d-5a11-4527-bd32-230174522741/application",
+      "location": "Remote - Vietnam",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Job Description： 1. Brand Strategy Support Assist in collecting and organizing market data and competitor information, and support the team in setting brand goals and evaluating the effectiveness of marketing campaigns. 2. Localized Content",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/167df23d-5a11-4527-bd32-230174522741/application",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-social-media-operation-intern-china-shanghai-ab5224b7-e0b7-4f29-bef4-3ca48292071e",
+      "title": "Social Media Operation Intern - 新媒体运营实习生",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/ab5224b7-e0b7-4f29-bef4-3ca48292071e/application",
+      "location": "China - Shanghai",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "【职位描述】 在这个岗位上，你将协助工作室与玩家之间建立重要纽带。我们希望结合你的帮助，让每一次沟通都充满诚意与温度。 内容管理： 你将协助管理国内主流社交媒体账号，确保各类资讯、视频及文章能够准确、及时且规范地发布。 文案撰写： 你将负责撰写日常社媒文案。我们希望你能用得体、真诚且富有感染力的文字，传达工作室的声音。 内容本地化： 你将协助团队将工作室的英文动态（如官方新闻、博客、开发者日志）翻译为流畅优美的中文，消除语言隔阂。 构建社区联结： 你将协助工作室在后台与玩家进",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/ab5224b7-e0b7-4f29-bef4-3ca48292071e/application",
+        "Game monitor fit score 7/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-japan-community-manager-other-7401ca29-6cc7-4248-adee-a2b1ce57ba40",
+      "title": "Japan Community Manager",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "student-community",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/7401ca29-6cc7-4248-adee-a2b1ce57ba40/application",
+      "location": "Other",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "JOB DESCRIPTION 1. Japan Community Hub Management & Long-term Operations: Responsible for the from-scratch setup, localization configuration, and long-term daily operations of core official community hubs in the Japanese market (focusing he",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/7401ca29-6cc7-4248-adee-a2b1ce57ba40/application",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-brand-intern-japan-japan-9ec1e441-b05a-4a00-a5ff-168eed66483f",
+      "title": "Brand Intern-Japan",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/9ec1e441-b05a-4a00-a5ff-168eed66483f/application",
+      "location": "Japan",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Job Description： 1. Brand Strategy Support Assist in collecting and organizing market data and competitor information, and support the team in setting brand goals and evaluating the effectiveness of marketing campaigns. 2. Localized Content",
+      "discoveredAt": "2026-07-08T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/9ec1e441-b05a-4a00-a5ff-168eed66483f/application",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "official-game-thatgamecompany-social-media-specialist-china-shanghai-75b36284-477d-4448-930d-0bcb88308352",
+      "title": "Social Media Specialist",
+      "organization": "thatgamecompany",
+      "section": "game",
+      "type": "full-time",
+      "status": "open",
+      "sourceId": "game-monitor-game-source-thatgamecompany",
+      "sourceName": "Game Monitor Official Adapter",
+      "url": "https://jobs.ashbyhq.com/thatgamecompany/75b36284-477d-4448-930d-0bcb88308352/application",
+      "location": "China - Shanghai",
+      "deadline": "Not listed on official source",
+      "compensation": "TBD",
+      "eligibility": "Role Overview Responsible for daily content creation and community operation across core Chinese social platforms (e.g., Bilibili, Xiaohongshu, Weibo) for thatgamecompany's (TGC) IPs. Drive brand emotional value, maintain community engageme",
+      "discoveredAt": "2026-08-14T19:00:00-07:00",
+      "updatedAt": "2026-08-15T02:21:45.087Z",
+      "confidence": {
+        "source": 0.96,
+        "extraction": 0.82,
+        "freshness": 0.9,
+        "duplicateProbability": 0.05
+      },
+      "evidence": [
+        "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/75b36284-477d-4448-930d-0bcb88308352/application",
+        "Game monitor fit score 10/10; last checked 2026-08-14."
       ],
       "needsReview": false
     }
