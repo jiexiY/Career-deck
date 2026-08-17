@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T02:46:36.050Z",
+  "updatedAt": "2026-08-17T15:09:05.480Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -6990,6 +6990,37 @@
       "evidence": [
         "Verified official application route: https://jobs.ashbyhq.com/thatgamecompany/75b36284-477d-4448-930d-0bcb88308352/application",
         "Game monitor fit score 10/10; last checked 2026-08-16."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-17-micron-intern-dram-design-engineer",
+      "title": "Intern - DRAM Design Engineer",
+      "organization": "Micron Technology",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-micron-workday",
+      "sourceName": "Micron Technology Workday",
+      "sourceUrl": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---DRAM-Design-Engineer_JR108458",
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---DRAM-Design-Engineer_JR108458",
+      "location": "Boise, ID - Main Site",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source; the posting includes general employee-benefits language without stating intern-specific pay or benefit eligibility",
+      "eligibility": "The official posting does not state an enrollment, degree, experience, work-authorization, or sponsorship requirement. It lists the internship as full time at Micron's Boise main site and describes work designing or analyzing digital and analog circuits used in memory-product development, with the application of artificial intelligence expected.",
+      "discoveredAt": "2026-08-17T15:09:05.480Z",
+      "attemptedAt": "2026-08-17T15:09:05.480Z",
+      "updatedAt": "2026-08-17T15:09:05.480Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.97,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Micron Technology's official Workday endpoint returned requisition JR108458 as posted and accepting applications on August 17, 2026; Workday labels it Posted Today and reports a posting start date of August 17, 2026.",
+        "The official posting identifies the role as a full-time internship at the Boise, Idaho main site and describes digital- and analog-circuit design or analysis for DRAM memory products, with artificial-intelligence application expected.",
+        "The official source does not list a numeric pay range, application deadline, academic or experience requirements, internship dates, work-authorization requirements, or sponsorship policy; its benefits language is general and is not presented as intern-specific."
       ],
       "needsReview": false
     },
