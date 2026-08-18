@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T16:25:02.106Z",
+  "updatedAt": "2026-08-18T18:28:40.842Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7113,6 +7113,72 @@
         "The official posting confirms a full-time September 21-December 18, 2026 term in Irvine, graduate enrollment in Electrical Engineering, Computer Engineering, or a related field, and hands-on schematic, PCB, prototyping, lab-validation, power, signal-integrity, and zonal-control work.",
         "The posting body calls the position in person, while Ashby metadata labels the workplace Hybrid and sets its remote flag; the location field follows the role description and preserves the metadata discrepancy.",
         "The official source does not list a numeric pay range or application deadline. Its generic rewards section discusses full-time bonus, equity, and benefits without confirming that those programs apply to this internship."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-18-micron-dram-design-engineer-intern-jr108061",
+      "title": "DRAM Design Engineer (Intern)",
+      "organization": "Micron Technology",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-micron-workday-jr108061",
+      "sourceName": "Micron Technology Workday",
+      "sourceUrl": "https://micron.wd1.myworkdayjobs.com/External/job/Jalisco-Mexico/DRAM-Design-Engineer--Intern-_JR108061",
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Jalisco-Mexico/DRAM-Design-Engineer--Intern-_JR108061",
+      "location": "Jalisco, Mexico - part time",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be in the final year of a bachelor's degree or pursuing a master's degree in Electronics Engineering, Electrical Engineering, or a related field through an accredited university. The posting seeks digital-logic and semiconductor fundamentals, with memory-architecture exposure preferred. It identifies the role as part time in Jalisco, Mexico. The official source does not state an internship duration, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-08-18T18:28:40.842Z",
+      "attemptedAt": "2026-08-18T18:28:40.842Z",
+      "updatedAt": "2026-08-18T18:28:40.842Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.35
+      },
+      "evidence": [
+        "Micron Technology's official Workday API returned requisition JR108061 as posted and accepting applications, with a posting start date of August 18, 2026.",
+        "The official record identifies a part-time internship in Jalisco, Mexico focused on DRAM memory, logic, and analog circuit design, layout, simulation, validation, and manufacturability.",
+        "The posting requires final-year bachelor's or master's study in Electronics Engineering, Electrical Engineering, or a related field at an accredited university; it prefers digital-logic, semiconductor, and memory-architecture knowledge.",
+        "Micron also posted the materially identical JR108395 requisition. Both official records have distinct requisition and posting IDs and active application routes, so they are preserved as parallel openings rather than collapsed by title and location.",
+        "The official source does not list compensation, an application deadline, internship duration, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-18-micron-dram-design-engineer-intern-jr108395",
+      "title": "DRAM Design Engineer (Intern)",
+      "organization": "Micron Technology",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-micron-workday-jr108395",
+      "sourceName": "Micron Technology Workday",
+      "sourceUrl": "https://micron.wd1.myworkdayjobs.com/External/job/Jalisco-Mexico/DRAM-Design-Engineer--Intern-_JR108395",
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Jalisco-Mexico/DRAM-Design-Engineer--Intern-_JR108395",
+      "location": "Jalisco, Mexico - part time",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be in the final year of a bachelor's degree or pursuing a master's degree in Electronics Engineering, Electrical Engineering, or a related field through an accredited university. The posting seeks digital-logic and semiconductor fundamentals, with memory-architecture exposure preferred. It identifies the role as part time in Jalisco, Mexico. The official source does not state an internship duration, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-08-18T18:28:40.842Z",
+      "attemptedAt": "2026-08-18T18:28:40.842Z",
+      "updatedAt": "2026-08-18T18:28:40.842Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.35
+      },
+      "evidence": [
+        "Micron Technology's official Workday API returned requisition JR108395 as posted and accepting applications, with a posting start date of August 18, 2026.",
+        "The official record identifies a part-time internship in Jalisco, Mexico focused on DRAM memory, logic, and analog circuit design, layout, simulation, validation, and manufacturability.",
+        "The posting requires final-year bachelor's or master's study in Electronics Engineering, Electrical Engineering, or a related field at an accredited university; it prefers digital-logic, semiconductor, and memory-architecture knowledge.",
+        "JR108395 is materially identical to JR108061, but Micron's official Workday API exposes a distinct requisition ID, posting ID, and active application route; the two are retained as parallel openings.",
+        "The official source does not list compensation, an application deadline, internship duration, work-authorization requirements, or sponsorship terms."
       ],
       "needsReview": false
     }
