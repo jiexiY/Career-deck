@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T02:38:26.926Z",
+  "updatedAt": "2026-08-18T07:18:46.299Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7081,6 +7081,38 @@
       "evidence": [
         "Verified official application route: https://www.riotgames.com/en/work-with-us/job/8128657?gh_jid=8128657",
         "Game monitor fit score 6/10; last checked 2026-08-17."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-21-philips-avent-product-design-internship",
+      "title": "Product Design Internship – Philips Avent Experience Innovation",
+      "organization": "Philips",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-philips-workday-586188",
+      "sourceName": "Philips Careers / Workday",
+      "sourceUrl": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/Product-Design-Internship---Philips-Avent-Experience-Innovation_586188",
+      "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/Product-Design-Internship---Philips-Avent-Experience-Innovation_586188",
+      "location": "Amsterdam, Netherlands - onsite; collaboration with the Eindhoven team; 32-40 hours weekly for at least six months, with a flexible Q3/Q4 2026 start",
+      "deadline": "Not listed on official source",
+      "compensation": "€500-€700 gross per month full-time, depending on education level and relocation; part-time pro rata; conditional €300 net monthly Amsterdam-area housing allowance and up to €192 net monthly travel allowance; paid holidays per internship term",
+      "eligibility": "Currently studying Industrial Design, Product Design, or a closely related physical-product-design discipline at bachelor's or master's level. Applicants should provide a portfolio demonstrating physical product design, sketching, form development, prototyping, and visual communication. Experience with or curiosity about SolidWorks, Rhino, Fusion 360, KeyShot, Blender, or similar tools is relevant. The non-thesis internship requires 32-40 hours per week for at least six months and has a flexible Q3/Q4 2026 start; a connected graduation assignment may be possible. The official source does not state an application deadline or work-authorization and sponsorship terms.",
+      "discoveredAt": "2026-07-21T22:31:42.184Z",
+      "attemptedAt": "2026-08-18T07:18:46.299Z",
+      "updatedAt": "2026-08-18T07:18:46.299Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Philips' official Workday API returned requisition 586188 as posted and application-enabled during the August 18, 2026 check, with an official posting date of August 18, 2026.",
+        "This is a material refresh of the previously tracked requisition: the current official posting changes the start from September 2026 to a flexible Q3/Q4 2026 window while retaining a minimum six-month, 32-to-40-hour schedule in Amsterdam and collaboration with the Eindhoven team.",
+        "The official posting requires bachelor's- or master's-level study in Industrial Design, Product Design, or a related physical-product-design discipline and a portfolio showing physical product design, sketching, form development, prototyping, and visual communication.",
+        "Philips lists a €500-€700 gross monthly full-time allowance, conditional housing and travel allowances, and paid holidays; the source does not list an application deadline or work-authorization and sponsorship terms."
       ],
       "needsReview": false
     }
