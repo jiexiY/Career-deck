@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T16:39:58.058Z",
+  "updatedAt": "2026-08-19T20:48:37.995Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7127,6 +7127,38 @@
         "The official posting confirms a full-time September 21-December 18, 2026 term in Irvine, graduate enrollment in Electrical Engineering, Computer Engineering, or a related field, and hands-on schematic, PCB, prototyping, lab-validation, power, signal-integrity, and zonal-control work.",
         "The posting body calls the position in person, while Ashby metadata labels the workplace Hybrid and sets its remote flag; the location field follows the role description and preserves the metadata discrepancy.",
         "The official source does not list a numeric pay range or application deadline. Its generic rewards section discusses full-time bonus, equity, and benefits without confirming that those programs apply to this internship."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-19-rocket-product-design-intern-r-083086",
+      "title": "Product Design Intern - Fall 2026",
+      "organization": "Rocket Innovation Studio",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-rocket-workday-r-083086",
+      "sourceName": "Rocket Companies Workday",
+      "sourceUrl": "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Remote---Ontario/Product-Design-Intern---Fall-2026_R-083086",
+      "url": "https://quickenloans.wd5.myworkdayjobs.com/en-US/rocket_careers/job/Remote---Ontario/Product-Design-Intern---Fall-2026_R-083086",
+      "location": "Remote - Ontario, Canada - full time",
+      "deadline": "Not listed on official source",
+      "compensation": "Official posting states a $14.00-$43.50 range without specifying currency or pay period; the position may also be eligible for a bonus, incentives, medical, dental, and vision benefits, a retirement plan, and paid time off, without stating intern-specific eligibility details",
+      "eligibility": "The posting asks for proficiency with design tools such as Figma, Sketch, or Adobe Creative Suite, strong visual-design and UI/UX skills, clear communication of design decisions, and a passion for user experience. Preferred qualifications include end-to-end iterative product-design work, user research and usability testing, design-thinking methods, awareness of front-end constraints, and cross-functional collaboration. Workday identifies the role as full time and remote in Ontario for Fall 2026. The official source does not state an enrollment or degree requirement, internship duration, application deadline, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-08-19T20:48:37.995Z",
+      "attemptedAt": "2026-08-19T20:48:37.995Z",
+      "updatedAt": "2026-08-19T20:48:37.995Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Rocket Companies' official Workday API returned requisition R-083086 with an active application page during the August 19, 2026 check; Workday labels it Posted 30+ Days Ago and reports a posting start date of June 16, 2026.",
+        "The official record identifies a full-time, remote Fall 2026 Product Design internship in Ontario with Rocket Innovation Studio, focused on sketching, wireframing, prototyping, research insights, user-centered design, and collaboration with product managers, engineers, and designers.",
+        "The posting requires design-tool proficiency, strong visual-design and UI/UX skills, and communication of design rationale; it prefers end-to-end product-design, user-research, usability-testing, design-thinking, and front-end-awareness experience.",
+        "The official posting states a $14.00-$43.50 compensation range without identifying currency or pay period. It does not list an application deadline, academic requirement, internship duration, work-authorization requirement, or sponsorship policy."
       ],
       "needsReview": false
     }
