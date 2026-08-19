@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T18:28:40.842Z",
+  "updatedAt": "2026-08-19T01:24:50.036Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7179,6 +7179,38 @@
         "The posting requires final-year bachelor's or master's study in Electronics Engineering, Electrical Engineering, or a related field at an accredited university; it prefers digital-logic, semiconductor, and memory-architecture knowledge.",
         "JR108395 is materially identical to JR108061, but Micron's official Workday API exposes a distinct requisition ID, posting ID, and active application route; the two are retained as parallel openings.",
         "The official source does not list compensation, an application deadline, internship duration, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-18-globalfoundries-esd-device-design-engineer-intern-jr-2604348",
+      "title": "ESD Device Design Engineer Intern (Jan-Jun 2027)",
+      "organization": "GlobalFoundries",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-globalfoundries-workday-jr-2604348",
+      "sourceName": "GlobalFoundries Workday",
+      "sourceUrl": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/ESD-Device-Design-Engineer-Intern--Jan-Jun-2027-_JR-2604348",
+      "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/ESD-Device-Design-Engineer-Intern--Jan-Jun-2027-_JR-2604348",
+      "location": "Singapore - Woodlands - full time",
+      "deadline": "December 31, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be actively pursuing a bachelor's degree in Electronic Engineering or a related field through an accredited degree program during the internship, be in good academic standing, and be able to work at least 40 hours per week. The title identifies the internship term as January through June 2027 in Woodlands, Singapore. The official posting does not state a work-authorization or sponsorship policy.",
+      "discoveredAt": "2026-08-19T01:24:50.036Z",
+      "attemptedAt": "2026-08-19T01:24:50.036Z",
+      "updatedAt": "2026-08-19T01:24:50.036Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GlobalFoundries' official Workday API returned requisition JR-2604348 as posted and accepting applications, with a posting start date of August 18, 2026 and an application end date of December 31, 2026.",
+        "The official posting identifies a full-time January-June 2027 internship in Woodlands, Singapore supporting ESD and I/O device design guidance, high-voltage ESD device experiments, TCAD simulation, technical analysis, and latch-up prevention work.",
+        "The posting requires active bachelor's study in Electronic Engineering or a related field through an accredited program, good academic standing, and availability for at least 40 hours per week.",
+        "The official source does not list compensation, work-authorization requirements, or sponsorship terms."
       ],
       "needsReview": false
     }
