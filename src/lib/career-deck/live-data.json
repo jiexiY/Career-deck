@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T02:18:28.075Z",
+  "updatedAt": "2026-08-20T15:51:04.504Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7103,6 +7103,38 @@
         "The official record identifies a full-time, remote Fall 2026 Product Design internship in Ontario with Rocket Innovation Studio, focused on sketching, wireframing, prototyping, research insights, user-centered design, and collaboration with product managers, engineers, and designers.",
         "The posting requires design-tool proficiency, strong visual-design and UI/UX skills, and communication of design rationale; it prefers end-to-end product-design, user-research, usability-testing, design-thinking, and front-end-awareness experience.",
         "The official posting states a $14.00-$43.50 compensation range without identifying currency or pay period. It does not list an application deadline, academic requirement, internship duration, work-authorization requirement, or sponsorship policy."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-20-stellar-design-engineering-intern-summer-2027-4417059",
+      "title": "Design Engineering Intern - Summer 2027",
+      "organization": "Stellar Industries",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-stellar-industries-paylocity-4417059",
+      "sourceName": "Stellar Industries Careers / Paylocity",
+      "sourceUrl": "https://www.stellarindustries.com/careers/design-engineering-intern-summer-2027-galion-ohio/",
+      "url": "https://recruiting.paylocity.com/recruiting/jobs/Apply/4417059/Stellar-Industries-Inc/login",
+      "location": "Galion, OH",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid internship; no numeric pay range or intern-specific benefit eligibility is listed on the official source",
+      "eligibility": "The posting prefers a currently enrolled undergraduate studying mechanical, industrial, aerospace, or another related engineering field. It lists Windows, Word, Excel, AutoCAD, SolidWorks, simulation or FEA, accurate machine-tool measurement, MRP applications, geometry, trigonometry, statistics, communication, organization, initiative, independent and team work, computing and technical design, practicality, and creativity. The official source identifies the role as a Summer 2027 internship but does not state exact dates, weekly hours, work arrangement, an application deadline, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-20T15:51:04.504Z",
+      "attemptedAt": "2026-08-20T15:51:04.504Z",
+      "updatedAt": "2026-08-20T15:51:04.504Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Stellar Industries' official careers page returned job ID 4417059 with an active Paylocity application route during the August 20, 2026 check. The visible page says Posted on August 20, 2026; its structured metadata reports publication on August 13 and modification on August 20, 2026.",
+        "The official posting identifies a Summer 2027 Design Engineering internship in Galion, Ohio involving design calculations, equipment and material specifications, AutoCAD and SolidWorks work, FEA simulation, production and assembly drawings, bills of materials, design review, scheduling, and resolution of design and test problems.",
+        "The posting prefers current undergraduate study in mechanical, industrial, aerospace, or a related engineering field and lists technical, mathematical, communication, organization, initiative, practical-design, and teamwork competencies.",
+        "Stellar identifies the internship as paid but does not list a numeric pay range, exact program dates, weekly hours, work arrangement, application deadline, work-authorization requirements, or sponsorship terms."
       ],
       "needsReview": false
     },
