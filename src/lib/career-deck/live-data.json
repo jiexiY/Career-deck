@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T16:07:51.906Z",
+  "updatedAt": "2026-08-20T21:35:45.016Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -3270,6 +3270,38 @@
         "The official posting identifies a Summer 2027 Design Engineering internship in Galion, Ohio involving design calculations, equipment and material specifications, AutoCAD and SolidWorks work, FEA simulation, production and assembly drawings, bills of materials, design review, scheduling, and resolution of design and test problems.",
         "The posting prefers current undergraduate study in mechanical, industrial, aerospace, or a related engineering field and lists technical, mathematical, communication, organization, initiative, practical-design, and teamwork competencies.",
         "Stellar identifies the internship as paid but does not list a numeric pay range, exact program dates, weekly hours, work arrangement, application deadline, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-20-micron-hbm-soc-rtl-design-engineer-intern-jr109290",
+      "title": "Intern - HBM SoC RTL Design Engineer",
+      "organization": "Micron Technology",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-micron-workday-jr109290",
+      "sourceName": "Micron Technology Workday",
+      "sourceUrl": "https://micron.wd1.myworkdayjobs.com/External/job/Folsom-CA/Intern---HBM-SoC-RTL-Design-Engineer_JR109290",
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Folsom-CA/Intern---HBM-SoC-RTL-Design-Engineer_JR109290",
+      "location": "Folsom, CA - full time; six-month internship",
+      "deadline": "Not listed on official source",
+      "compensation": "$38.84-$50.24 per hour base pay; the posting says additional compensation may include benefits, bonuses, and equity but does not confirm intern-specific eligibility",
+      "eligibility": "Applicants must be pursuing a bachelor's or master's degree in Electrical Engineering, Computer Engineering, or a related field, cannot graduate before December 2027, and must be available for a six-month internship. The posting requires SystemVerilog or Verilog, SoC-integration familiarity, RTL-to-GDS flow experience including synthesis and static timing analysis, familiarity with Cadence, Synopsys, or Siemens EDA tools, and programming or scripting in Python, TCL, Perl, or shell. Preferred experience includes HBM, DRAM, or memory-centric SoC design, high-speed interfaces, clocking, reset, and power management, plus an understanding of or willingness to learn agentic AI. The official source does not state exact internship dates, an application deadline, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-20T21:35:45.016Z",
+      "attemptedAt": "2026-08-20T21:35:45.016Z",
+      "updatedAt": "2026-08-20T21:35:45.016Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Micron Technology's official Workday API returned requisition JR109290 as posted and application-enabled during the August 20, 2026 check; Workday labels it Posted Today and reports a posting start date of August 20, 2026.",
+        "The official posting identifies a full-time, six-month HBM SoC RTL Design Engineer internship in Folsom, California focused on RTL design, SoC integration, internal and third-party IP, clocking, reset, power intent, pre-silicon validation, post-silicon bring-up, documentation, design reviews, and manufacturability.",
+        "The role requires bachelor's- or master's-level study in Electrical Engineering, Computer Engineering, or a related field, graduation no earlier than December 2027, six-month availability, SystemVerilog or Verilog, RTL-to-GDS and EDA-tool familiarity, and programming or scripting experience.",
+        "Micron lists base pay of $38.84-$50.24 per hour and says additional compensation may include benefits, bonuses, and equity. The official source does not list exact internship dates, an application deadline, work-authorization requirements, sponsorship terms, or intern-specific additional-compensation eligibility."
       ],
       "needsReview": false
     },
