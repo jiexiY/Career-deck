@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T21:35:45.016Z",
+  "updatedAt": "2026-08-21T01:55:50.946Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -3302,6 +3302,70 @@
         "The official posting identifies a full-time, six-month HBM SoC RTL Design Engineer internship in Folsom, California focused on RTL design, SoC integration, internal and third-party IP, clocking, reset, power intent, pre-silicon validation, post-silicon bring-up, documentation, design reviews, and manufacturability.",
         "The role requires bachelor's- or master's-level study in Electrical Engineering, Computer Engineering, or a related field, graduation no earlier than December 2027, six-month availability, SystemVerilog or Verilog, RTL-to-GDS and EDA-tool familiarity, and programming or scripting experience.",
         "Micron lists base pay of $38.84-$50.24 per hour and says additional compensation may include benefits, bonuses, and equity. The official source does not list exact internship dates, an application deadline, work-authorization requirements, sponsorship terms, or intern-specific additional-compensation eligibility."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-textron-aviation-fall-co-op-design-engineer-sustaining-343839",
+      "title": "Fall Co-Op - Design Engineer (Sustaining)",
+      "organization": "Textron Aviation",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-textron-aviation-taleo-343839",
+      "sourceName": "Textron Aviation Careers / Taleo",
+      "sourceUrl": "https://mapp.txtav.com/careers/search",
+      "url": "https://textron.taleo.net/careersection/textron_ur/jobdetail.ftl?job=343839",
+      "location": "Wichita, Kansas, United States - full-time, first shift, onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing a bachelor's degree in Aerospace Engineering, Mechanical Engineering, or Electrical Engineering. The posting requires lawful U.S. work authorization at the time of application and says visa sponsorship is unavailable, including for F-1 students and J-1 exchange visitors who would need employment sponsorship. Candidates must work onsite for the full program unless the hiring manager approves otherwise. Taleo labels the role full-time, first shift, and Internship / Co-Op. The Fall Co-Op title conflicts with generic body copy describing a 10-week summer internship, so exact dates and duration are not treated as confirmed.",
+      "discoveredAt": "2026-08-21T01:55:50.946Z",
+      "attemptedAt": "2026-08-21T01:55:50.946Z",
+      "updatedAt": "2026-08-21T01:55:50.946Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.97,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Textron Aviation's official careers search listed requisition 343839 as open on August 17, 2026 in Wichita, Kansas, and linked to an active official Taleo application during the August 20, 2026 check.",
+        "The official posting describes complex aircraft design assignments across design, analysis, electrical, and avionics disciplines, including support for new-product and sustaining designs and coordination with engineering and technical groups.",
+        "The official Taleo page requires bachelor's-level study in Aerospace, Mechanical, or Electrical Engineering, lawful U.S. work authorization without visa sponsorship, and onsite work unless the hiring manager approves otherwise.",
+        "Taleo metadata labels the position full-time, first shift, and Internship / Co-Op. Because generic summer-program language conflicts with the Fall Co-Op title, no exact dates or duration are published. The official source lists no application deadline or compensation."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-textron-aviation-fall-co-op-design-engineer-advanced-design-343849",
+      "title": "Fall Co-Op - Design Engineer (Advanced Design)",
+      "organization": "Textron Aviation",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-textron-aviation-taleo-343849",
+      "sourceName": "Textron Aviation Careers / Taleo",
+      "sourceUrl": "https://mapp.txtav.com/careers/search",
+      "url": "https://textron.taleo.net/careersection/textron_ur/jobdetail.ftl?job=343849",
+      "location": "Wichita, Kansas, United States - part-time, first shift, onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing a bachelor's degree in Aerospace Engineering, Mechanical Engineering, or Electrical Engineering. The posting requires lawful U.S. work authorization at the time of application and says visa sponsorship is unavailable, including for F-1 students and J-1 exchange visitors who would need employment sponsorship. Candidates must work onsite for the full program unless the hiring manager approves otherwise. Taleo labels the role part-time, first shift, and Internship / Co-Op. The official source does not state exact program dates or weekly hours.",
+      "discoveredAt": "2026-08-21T01:55:50.946Z",
+      "attemptedAt": "2026-08-21T01:55:50.946Z",
+      "updatedAt": "2026-08-21T01:55:50.946Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Textron Aviation's official careers search listed requisition 343849 as open on August 17, 2026 in Wichita, Kansas, and linked to an active official Taleo application during the August 20, 2026 check.",
+        "The official posting describes complex aircraft design assignments across design, analysis, electrical, and avionics disciplines, including support for new-product and sustaining designs and coordination with engineering and technical groups.",
+        "The official Taleo page requires bachelor's-level study in Aerospace, Mechanical, or Electrical Engineering, lawful U.S. work authorization without visa sponsorship, and onsite work unless the hiring manager approves otherwise.",
+        "Taleo metadata labels the position part-time, first shift, and Internship / Co-Op. The official source lists no exact program dates, weekly hours, application deadline, or compensation."
       ],
       "needsReview": false
     },
