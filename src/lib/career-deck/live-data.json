@@ -1,6 +1,134 @@
 {
-  "updatedAt": "2026-08-21T08:46:20.395Z",
+  "updatedAt": "2026-08-21T09:16:20.920Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-31-kiewit-civil-structural-intern-fall-2026-181010",
+      "title": "Civil/Structural Intern (4-8 month co-op) - Western Canada Region - Fall 2026",
+      "organization": "Kiewit",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-kiewit-careers-181010",
+      "sourceName": "Kiewit Careers",
+      "sourceUrl": "https://kiewitcareers.kiewit.com/job/Burnaby-CivilStructural-Intern-%284-8-month-co-op%29-Western-Canada-Region-Fall-2026-Brit/1396330300/",
+      "url": "https://kiewitcareers.kiewit.com/job/Burnaby-CivilStructural-Intern-%284-8-month-co-op%29-Western-Canada-Region-Fall-2026-Brit/1396330300/",
+      "location": "Burnaby, British Columbia, Canada - full-time for four to eight months starting September 2026; exact dates, weekly hours, and work arrangement are not listed",
+      "deadline": "Not listed on official source; Kiewit's careers page had an active Apply control on August 21, 2026",
+      "compensation": "$22-$27 per hour; the official posting does not label the currency and says the actual rate varies by education, experience, skill set, and location",
+      "eligibility": "Applicants must be pursuing Civil Engineering, Structural Engineering, or a related degree, have completed their second year before the internship starts, be available full-time for four to eight months beginning in September 2026, and return to full-time studies afterward. The posting also asks for Microsoft Word and Excel knowledge, written and verbal communication, a strong work ethic, reliable attendance, and the ability to meet deadlines. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T09:16:20.920Z",
+      "attemptedAt": "2026-08-21T09:16:20.920Z",
+      "updatedAt": "2026-08-21T09:16:20.920Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Kiewit's employer-hosted careers board and detail page listed requisition 181010 with an active Apply control during the August 21, 2026 check; the board reports a July 31, 2026 posting date.",
+        "The full-time Burnaby co-op sits in Kiewit's Design Engineering department and supports civil, structural, roadway, hydro, and dam projects through design calculations, analyses, multidisciplinary deliverables, and internal design tools and standards.",
+        "The posting requires relevant degree study, completion of the second year, four to eight months of full-time availability starting September 2026, and a return to full-time studies afterward.",
+        "The official source lists $22-$27 per hour without explicitly labeling the currency and does not state an application deadline, exact dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-23-kiewit-electrical-design-intern-summer-2027-181541",
+      "title": "Electrical Design Intern - Kiewit Industrial & Water Engineering (Summer 2027)",
+      "organization": "Kiewit",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-kiewit-careers-181541",
+      "sourceName": "Kiewit Careers",
+      "sourceUrl": "https://kiewitcareers.kiewit.com/job/Lenexa-Electrical-Design-Intern-Kiewit-Industrial-%26-Water-Engineering-%28Summer-2027%29-KS/1412187100/",
+      "url": "https://kiewitcareers.kiewit.com/job/Lenexa-Electrical-Design-Intern-Kiewit-Industrial-%26-Water-Engineering-%28Summer-2027%29-KS/1412187100/",
+      "location": "Lenexa, KS - full-time temporary internship based in Kiewit's Lenexa office for Summer 2027; exact dates and weekly hours are not listed",
+      "deadline": "Not listed on official source; Kiewit's careers page had an active Apply control on August 21, 2026",
+      "compensation": "Not listed on official source; the posting describes benefits for full-time staff but does not clarify intern eligibility",
+      "eligibility": "Applicants must be pursuing an associate, vocational, or bachelor's degree in Design and Drafting Technology, Engineering Technology, Design, or a related field. The posting seeks basic experience with 3D tools such as MicroStation, AutoCAD, Revit, AutoCAD MEP, or Navisworks; the ability to conceptualize in 3D; and working knowledge of spreadsheets, databases, PDF software, email, and electronic meetings. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T09:16:20.920Z",
+      "attemptedAt": "2026-08-21T09:16:20.920Z",
+      "updatedAt": "2026-08-21T09:16:20.920Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Kiewit's employer-hosted careers board and detail page listed requisition 181541 with an active Apply control during the August 21, 2026 check; the board reports a July 23, 2026 posting date.",
+        "The Summer 2027 role develops electrical 3D models, plans, details, schematics, one-line drawings, cable schedules, construction-record updates, and safety and constructability checks for industrial and water projects.",
+        "The posting requires relevant design, drafting, or engineering-technology study plus foundational 3D-design software and office-data skills.",
+        "The official source does not list compensation, an application deadline, exact internship dates, weekly hours, work-authorization requirements, or sponsorship terms, and its staff-benefits language does not clarify intern eligibility."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-23-kiewit-mechanical-design-intern-summer-2027-181535",
+      "title": "Mechanical Design Intern - Kiewit Industrial & Water Engineering (Summer 2027)",
+      "organization": "Kiewit",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-kiewit-careers-181535",
+      "sourceName": "Kiewit Careers",
+      "sourceUrl": "https://kiewitcareers.kiewit.com/job/Lenexa-Mechanical-Design-Intern-Kiewit-Industrial-%26-Water-Engineering-%28Summer-2027%29-KS/1412141600/",
+      "url": "https://kiewitcareers.kiewit.com/job/Lenexa-Mechanical-Design-Intern-Kiewit-Industrial-%26-Water-Engineering-%28Summer-2027%29-KS/1412141600/",
+      "location": "Lenexa, KS - full-time temporary internship based in Kiewit's Lenexa office for Summer 2027; exact dates and weekly hours are not listed",
+      "deadline": "Not listed on official source; Kiewit's careers page had an active Apply control on August 21, 2026",
+      "compensation": "Not listed on official source; the posting describes benefits for full-time staff but does not clarify intern eligibility",
+      "eligibility": "Applicants must be pursuing a bachelor's or associate degree in Computer-Aided Design and Drafting Technology or a related field. The posting seeks familiarity with design-document creation and layouts; design software such as SmartPlant, AutoCAD, MicroStation, Smart3D, or Revit; Microsoft Office; professional collaboration; reliable attendance; deadline management; and the ability to work overtime or weekends when required. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T09:16:20.920Z",
+      "attemptedAt": "2026-08-21T09:16:20.920Z",
+      "updatedAt": "2026-08-21T09:16:20.920Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Kiewit's employer-hosted careers board and detail page listed requisition 181535 with an active Apply control during the August 21, 2026 check; the board reports a July 23, 2026 posting date.",
+        "The Summer 2027 role uses SmartPlant P&ID to draft piping and instrumentation diagrams, creates mechanical sketches and detail drawings, checks design deliverables, navigates 3D models for interference and constructability, and coordinates with engineers and design partners.",
+        "The posting requires current CAD and drafting or related degree study, relevant design-software familiarity, Microsoft Office proficiency, and professional communication and deadline management.",
+        "The official source does not list compensation, an application deadline, exact internship dates, weekly hours, work-authorization requirements, or sponsorship terms, and its staff-benefits language does not clarify intern eligibility."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-05-kiewit-structural-design-intern-summer-2027-181731",
+      "title": "Structural Design Intern - Kiewit Industrial & Water Engineering (Summer 2027)",
+      "organization": "Kiewit",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-kiewit-careers-181731",
+      "sourceName": "Kiewit Careers",
+      "sourceUrl": "https://kiewitcareers.kiewit.com/job/Lenexa-Structural-Design-Intern-Kiewit-Industrial-%26-Water-Engineering-%28Summer-2027%29-KS/1416357500/",
+      "url": "https://kiewitcareers.kiewit.com/job/Lenexa-Structural-Design-Intern-Kiewit-Industrial-%26-Water-Engineering-%28Summer-2027%29-KS/1416357500/",
+      "location": "Lenexa, KS - full-time temporary internship based in Kiewit's Lenexa office for Summer 2027; exact dates and weekly hours are not listed",
+      "deadline": "Not listed on official source; Kiewit's careers page had an active Apply control on August 21, 2026",
+      "compensation": "Not listed on official source; the posting describes benefits for full-time staff but does not clarify intern eligibility",
+      "eligibility": "Applicants must be pursuing an associate or bachelor's degree in Computer-Aided Design and Drafting Technology, Engineering Technology, Design, or a related field. The posting requires foundational use of drafting tools such as Revit, AutoCAD, or Navisworks; spreadsheets and databases; timely assignment completion; professional communication; and the ability to interpret multidisciplinary engineering and vendor documents. The intern may travel to a project site for a tour. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T09:16:20.920Z",
+      "attemptedAt": "2026-08-21T09:16:20.920Z",
+      "updatedAt": "2026-08-21T09:16:20.920Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Kiewit's employer-hosted careers board and detail page listed requisition 181731 with an active Apply control during the August 21, 2026 check; the board reports an August 5, 2026 posting date.",
+        "The Summer 2027 role collaborates with engineers and multiple disciplines to build BIM models for foundations and steel structures, create plans, drawings, and details, and improve department design standards and tools.",
+        "The posting requires relevant CAD, drafting, engineering-technology, or design study; foundational Revit, AutoCAD, or Navisworks ability; office-data skills; and the ability to interpret multidisciplinary engineering and vendor documents.",
+        "The official source does not list compensation, an application deadline, exact internship dates, weekly hours, work-authorization requirements, or sponsorship terms, and its staff-benefits language does not clarify intern eligibility."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-04-02-manitou-group-design-engineering-intern-45575",
       "title": "Design Engineering Intern",
