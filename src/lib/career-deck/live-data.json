@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T07:43:49.467Z",
+  "updatedAt": "2026-08-21T07:53:49.622Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-21-cadence-ssg-design-engineering-intern-fall-2026-r52641",
+      "title": "SSG Design Engineering Intern (Fall 2026)",
+      "organization": "Cadence Design Systems",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-cadence-workday-r52641",
+      "sourceName": "Cadence Careers / Workday",
+      "sourceUrl": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SSG-Design-Engineering-Intern--Fall-2026-_R52641",
+      "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SSG-Design-Engineering-Intern--Fall-2026-_R52641",
+      "location": "San Jose, CA - full-time; the official source says ideal candidates should attend a local school near the office, but it does not state the work arrangement or exact Fall 2026 program dates",
+      "deadline": "Not listed on official source; the employer Workday page remained available with an Apply control on August 21, 2026",
+      "compensation": "$35-$62 USD per hour for California. The posting says the candidate may also be eligible for incentive compensation including bonus, equity, and benefits.",
+      "eligibility": "Applicants must be currently enrolled in a BS or MS program in Electrical Engineering, Computer Engineering, or a similar major. The posting requires a deep understanding of digital design and/or design-verification fundamentals, automation skills using Tcl, Perl, and shell scripting, and strong oral and written communication. Exposure to design-automation tools is preferred, and ideal candidates should attend a local school near the San Jose office. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T07:53:49.622Z",
+      "attemptedAt": "2026-08-21T07:53:49.622Z",
+      "updatedAt": "2026-08-21T07:53:49.622Z",
+      "confidence": {
+        "source": 0.98,
+        "extraction": 0.98,
+        "freshness": 0.93,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cadence's official Workday page returned HTTP 200 and exposed an active Apply control for requisition R52641, SSG Design Engineering Intern (Fall 2026), during the August 21, 2026 check.",
+        "The internship supports Cadence's Silicon Solutions Group and the Janus Network-on-Chip IP through digital-design or design-verification work, including SystemVerilog RTL, simulation and debugging, synthesis and place-and-route studies, UVM and SVA tests and monitors, coverage analysis, and verification scripting.",
+        "The posting requires current BS or MS study in Electrical Engineering, Computer Engineering, or a similar major; digital-design or verification fundamentals; Tcl, Perl, and shell scripting; and communication skills. It lists $35-$62 USD per hour for California.",
+        "Cadence's structured Workday endpoint rejected automated access with HTTP 403, while the employer-facing posting remained available. The accessible official source does not list an application deadline, exact program dates, work arrangement, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-21-milwaukee-tool-spring-2027-industrial-design-co-op-7uh1ztyt",
       "title": "Spring 2027: Industrial Design Co-Op",
