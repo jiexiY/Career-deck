@@ -1,6 +1,102 @@
 {
-  "updatedAt": "2026-08-21T07:29:19.255Z",
+  "updatedAt": "2026-08-21T07:43:49.467Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-21-milwaukee-tool-spring-2027-industrial-design-co-op-7uh1ztyt",
+      "title": "Spring 2027: Industrial Design Co-Op",
+      "organization": "Milwaukee Tool",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-milwaukee-tool-yello-7uH1zTYt-P3KAapkw5EH5A",
+      "sourceName": "Milwaukee Tool Careers / Yello",
+      "sourceUrl": "https://www.milwaukeetool.jobs/GradsAndInterns/Internships",
+      "url": "https://tti.yello.co/external/requisitions/7uH1zTYt-P3KAapkw5EH5A",
+      "location": "Brookfield, WI or Milwaukee, WI - Milwaukee Tool states that internships are in person; exact site assignment and weekly hours are not listed on the role page",
+      "deadline": "Not listed on official source; the posting had an active Apply control on August 21, 2026",
+      "compensation": "Paid co-op with a housing stipend, 401(k) savings plan, associate tool discount, and onsite wellness, fitness, food, and coffee amenities. No numeric pay range is listed on the official source.",
+      "eligibility": "Applicants must be currently pursuing a BS, BA, or BFA in Industrial Design and submit both a resume and a portfolio showing visual thinking, ideation, renderings, storyboards, CAD modeling, and the design process. The posting also asks for teamwork, adaptability across several projects, and clear communication. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T07:43:49.467Z",
+      "attemptedAt": "2026-08-21T07:43:49.467Z",
+      "updatedAt": "2026-08-21T07:43:49.467Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Milwaukee Tool's employer-hosted internships page listed the Spring 2027 Industrial Design Co-Op in Brookfield or Milwaukee and linked to an active official Yello application during the August 21, 2026 check.",
+        "The official Yello posting specifies the Spring 2027 term as January 11 through April 23, 2027.",
+        "The role contributes from early sketches through production using 2D sketching, study models, 3D CAD, ergonomic mockups, cross-functional collaboration, and design presentations.",
+        "The posting requires current BS, BA, or BFA study in Industrial Design plus a resume and process-focused portfolio. It identifies the role as paid and lists a housing stipend and other benefits, but it does not provide a numeric pay range, application deadline, weekly hours, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-milwaukee-tool-summer-2027-industrial-design-intern-e6iarspa",
+      "title": "Summer 2027: Industrial Design Intern",
+      "organization": "Milwaukee Tool",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-milwaukee-tool-yello-E6Iarspa1WmwK_kYCleqrg",
+      "sourceName": "Milwaukee Tool Careers / Yello",
+      "sourceUrl": "https://www.milwaukeetool.jobs/GradsAndInterns/Internships",
+      "url": "https://tti.yello.co/external/requisitions/E6Iarspa1WmwK_kYCleqrg",
+      "location": "Brookfield, WI or Milwaukee, WI - Milwaukee Tool states that internships are in person; exact site assignment and weekly hours are not listed on the role page",
+      "deadline": "Not listed on official source; the posting had an active Apply control on August 21, 2026",
+      "compensation": "Paid internship with a housing stipend, 401(k) savings plan, associate tool discount, and onsite wellness, fitness, food, and coffee amenities. No numeric pay range is listed on the official source.",
+      "eligibility": "Applicants must be currently pursuing a BS, BA, or BFA in Industrial Design and submit both a resume and a portfolio showing visual thinking, ideation, renderings, storyboards, CAD modeling, and the design process. The posting also asks for teamwork, adaptability across several projects, and clear communication. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T07:43:49.467Z",
+      "attemptedAt": "2026-08-21T07:43:49.467Z",
+      "updatedAt": "2026-08-21T07:43:49.467Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Milwaukee Tool's employer-hosted internships page listed the Summer 2027 Industrial Design Intern opening in Brookfield or Milwaukee and linked to an active official Yello application during the August 21, 2026 check.",
+        "The official Yello posting specifies the Summer 2027 term as May 24 through August 6, 2027.",
+        "The role contributes from early sketches through production using 2D sketching, study models, 3D CAD, ergonomic mockups, cross-functional collaboration, and design presentations.",
+        "The posting requires current BS, BA, or BFA study in Industrial Design plus a resume and process-focused portfolio. It identifies the role as paid and lists a housing stipend and other benefits, but it does not provide a numeric pay range, application deadline, weekly hours, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-milwaukee-tool-summer-2027-mechanical-design-engineering-intern-19r8ls1g",
+      "title": "Summer 2027: Mechanical Design Engineering Intern",
+      "organization": "Milwaukee Tool",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-milwaukee-tool-yello-19R8LS1Gy_lzxGSj8HKSzg",
+      "sourceName": "Milwaukee Tool Careers / Yello",
+      "sourceUrl": "https://www.milwaukeetool.jobs/GradsAndInterns/Internships",
+      "url": "https://tti.yello.co/external/requisitions/19R8LS1Gy_lzxGSj8HKSzg",
+      "location": "Brookfield, WI or Chicago, IL - Milwaukee Tool states that internships are in person; exact site assignment is not listed on the role page",
+      "deadline": "Not listed on official source; the posting had an active Apply control on August 21, 2026",
+      "compensation": "Paid 11-week internship with summer housing support, a 401(k) savings plan, associate discount, and onsite wellness, fitness, food, and coffee amenities. No numeric pay range is listed on the official source.",
+      "eligibility": "Applicants must be working toward a Bachelor of Science degree in Mechanical Engineering, Engineering Mechanics, or Mechanical Engineering Technology. The posting requires the ability to research new technical information quickly and communicate technical status to an engineering supervisor and project team. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T07:43:49.467Z",
+      "attemptedAt": "2026-08-21T07:43:49.467Z",
+      "updatedAt": "2026-08-21T07:43:49.467Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Milwaukee Tool's employer-hosted internships page listed the Summer 2027 Mechanical Design Engineering Intern opening in Brookfield or Chicago and linked to an active official Yello application during the August 21, 2026 check.",
+        "The official Yello posting describes an 11-week paid Summer 2027 internship with housing support; it does not list exact start and end dates.",
+        "The role supports product-design teams through test development, data analysis, competitor benchmarking, experiment and test-system design, hands-on testing, and evaluation of design extremes.",
+        "The posting requires pursuit of a BS in Mechanical Engineering, Engineering Mechanics, or Mechanical Engineering Technology. It does not provide a numeric pay range, application deadline, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-14-sharkninja-industrial-design-co-op-4655076006",
       "title": "Fall 2026: Industrial Design Co-op (August through December)",
