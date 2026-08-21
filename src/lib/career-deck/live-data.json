@@ -1,6 +1,135 @@
 {
-  "updatedAt": "2026-08-21T19:56:01.786Z",
+  "updatedAt": "2026-08-21T20:22:32.229Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-19-nvidia-hardware-design-for-test-dft-internships-jr2023487",
+      "title": "NVIDIA 2027 Internships: Hardware Design for Test (DFT)",
+      "organization": "NVIDIA",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-nvidia-workday-jr2023487",
+      "sourceName": "NVIDIA Careers / Workday",
+      "sourceUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
+      "location": "Santa Clara, CA - full-time, 12-week internship; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "Applications are accepted on an ongoing basis; NVIDIA's official Workday API returned the posting with canApply true and an August 19, 2026 posting start date",
+      "compensation": "$20-$71 USD per hour, based on position, location, year in school, degree, and experience. The official posting says interns are eligible for NVIDIA intern benefits but does not enumerate them.",
+      "eligibility": "Applicants must remain actively enrolled for the full internship while pursuing an M.S. or Ph.D. in Electrical Engineering, Computer Engineering, or a related field, and must clearly list the anticipated graduation month and year on the resume or CV. Relevant course or internship experience may be required in DFT, digital design, test architecture and planning, static timing analysis, pre-silicon and post-silicon debugging, scan-chain design, ATPG, boundary scan, memory or logic BIST, compression, and at-speed or delay testing. Depending on the role, Perl, TCL, C, C++, Python, Synopsys, TetraMAX, Cadence Modus, or Linux knowledge may be required. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T20:22:32.229Z",
+      "attemptedAt": "2026-08-21T20:22:32.229Z",
+      "updatedAt": "2026-08-21T20:22:32.229Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "NVIDIA's official Workday API returned requisition JR2023487 with HTTP 200, canApply true, posted true, a full-time designation, and an August 19, 2026 posting start date during the August 21 check.",
+        "The official posting describes a 12-week Hardware Design for Test internship covering DFT planning, digital design, static timing analysis, scan and ATPG methods, BIST, compression, at-speed testing, and silicon debugging.",
+        "The posting requires active M.S. or Ph.D. enrollment in Electrical Engineering, Computer Engineering, or a related field for the full internship and requires the anticipated graduation month and year on the resume or CV.",
+        "The official source lists $20-$71 USD per hour, intern-benefit eligibility, and ongoing applications; it does not state exact internship dates, weekly hours, work arrangement, work-authorization terms, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-19-nvidia-mixed-signal-design-internships-jr2023502",
+      "title": "NVIDIA 2027 Internships: Mixed Signal Design",
+      "organization": "NVIDIA",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-nvidia-workday-jr2023502",
+      "sourceName": "NVIDIA Careers / Workday",
+      "sourceUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502",
+      "location": "Santa Clara, CA - full-time, 12-week internship; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "Applications are accepted on an ongoing basis; NVIDIA's official Workday API returned the posting with canApply true and an August 19, 2026 posting start date",
+      "compensation": "$20-$71 USD per hour, based on position, location, year in school, degree, and experience. The official posting says interns are eligible for NVIDIA intern benefits but does not enumerate them.",
+      "eligibility": "Applicants must remain actively enrolled for the full internship while pursuing a B.S., M.S., or Ph.D. in Electrical Engineering, Computer Engineering, or a related field, and must clearly list the anticipated graduation month and year on the resume or CV. Relevant course or internship experience may be required in analog fundamentals and simulation, layout and physical design, CMOS analog and high-speed circuit design, serial communication circuits, PLLs, DACs, ADCs, bandgaps, and lab-test equipment. Depending on the role, Verilog, SystemVerilog, VHDL, Perl, Python, SPICE or HSPICE, Simulink, Cadence Virtuoso, or Synopsys knowledge may be required. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T20:22:32.229Z",
+      "attemptedAt": "2026-08-21T20:22:32.229Z",
+      "updatedAt": "2026-08-21T20:22:32.229Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "NVIDIA's official Workday API returned requisition JR2023502 with HTTP 200, canApply true, posted true, a full-time designation, and an August 19, 2026 posting start date during the August 21 check.",
+        "The official posting describes a 12-week Mixed Signal Design internship spanning analog simulation, layout and physical design, FinFET CMOS analog and high-speed circuits, PLLs, DACs, ADCs, bandgaps, and hardware lab testing.",
+        "The posting requires active B.S., M.S., or Ph.D. enrollment in Electrical Engineering, Computer Engineering, or a related field for the full internship and requires the anticipated graduation month and year on the resume or CV.",
+        "The official source lists $20-$71 USD per hour, intern-benefit eligibility, and ongoing applications; it does not state exact internship dates, weekly hours, work arrangement, work-authorization terms, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-19-vertiv-mechanical-thermal-engineering-intern-summer-2027-20279136",
+      "title": "Mechanical/Thermal Engineering Intern (Summer 2027)",
+      "organization": "Vertiv",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-vertiv-oracle-20279136",
+      "sourceName": "Vertiv Careers / Oracle Recruiting",
+      "sourceUrl": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279136",
+      "url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279136",
+      "location": "Delaware or Lorain, OH - Summer 2027; the official source does not state exact dates, duration, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "Not listed on official source; Vertiv's official Oracle API returned the public requisition on August 21, 2026 with no external posted end date",
+      "compensation": "Not listed on official source; internship benefits, housing, and relocation assistance are not stated",
+      "eligibility": "Applicants should be pursuing a bachelor's degree in Mechanical Engineering with a thermal background or have acceptable experience. Preferred qualifications include AutoCAD and Revit, Microsoft Office, interpreting construction drawings and equipment specifications, and researching new data-center equipment and facility designs. Applicants must already be legally authorized to work in the United States; Vertiv states that it will not sponsor this role and that people with E, F-1, H-1, H-2, L, B, J, or TN temporary visas, or anyone needing sponsorship now or in the future, are not eligible.",
+      "discoveredAt": "2026-08-21T20:22:32.229Z",
+      "attemptedAt": "2026-08-21T20:22:32.229Z",
+      "updatedAt": "2026-08-21T20:22:32.229Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Vertiv's official Oracle Recruiting API returned requisition 20279136 as a public campus posting during the August 21, 2026 check, with an August 19, 2026 posting timestamp at 17:14:04 UTC and no posted end date.",
+        "The Summer 2027 intern supports conceptual and detailed HVAC and ventilation design, schematic and construction drawings, thermal-transfer calculations, CFD analysis, mechanical-system layouts, specifications, integration drawings, and construction-phase technical support.",
+        "The official posting identifies Delaware or Lorain, Ohio and seeks a Mechanical Engineering bachelor's candidate with a thermal background or acceptable experience; AutoCAD, Revit, and engineering-document interpretation are preferred.",
+        "Vertiv requires existing US work authorization and explicitly excludes sponsorship and listed temporary-visa categories. The source does not state pay, exact dates, duration, weekly hours, work arrangement, benefits, housing, or relocation assistance."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-formlabs-electrical-engineering-intern-winter-spring-2027-8148283",
+      "title": "Electrical Engineering Intern (Winter/Spring 2027)",
+      "organization": "Formlabs",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-formlabs-greenhouse-8148283",
+      "sourceName": "Formlabs Careers / Greenhouse",
+      "sourceUrl": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
+      "url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
+      "location": "Somerville, MA - onsite, full-time (40 hours per week), Winter/Spring 2027 (January-May); housing and relocation assistance are not offered",
+      "deadline": "Not listed on official source; Formlabs' official Greenhouse API returned the posting with HTTP 200 and an updated timestamp of August 21, 2026 at 19:55:12 UTC",
+      "compensation": "$1,575-$1,950 USD per week, paid biweekly based on an assumed 40 hours per week. Intern benefits include flexible out-of-office time, commuter benefits, catered onsite lunches three times weekly, snacks, cohort development, culture events, and unlimited 3D prints; no housing or relocation assistance is offered.",
+      "eligibility": "Applicants must submit a portfolio of prior engineering work or projects; applications without a portfolio will not be considered. The role seeks experience across analog, digital, or electromechanical systems; soldering and hands-on prototyping; microcontrollers, sensors, feedback, or motor control; PCB design, assembly, and debugging; C programming; and Python test scripting. Electromechanical-product experience is optional. The official source does not state academic-enrollment, degree, graduation-date, age, work-authorization, or sponsorship requirements.",
+      "discoveredAt": "2026-08-21T20:22:32.229Z",
+      "attemptedAt": "2026-08-21T20:22:32.229Z",
+      "updatedAt": "2026-08-21T20:22:32.229Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Formlabs' official Greenhouse API returned job 8148283 with HTTP 200, the exact Electrical Engineering Intern (Winter/Spring 2027) title, Intern and Full-Time metadata, and an August 21, 2026 update timestamp at 19:55:12 UTC.",
+        "The official posting specifies an onsite Somerville internship from January through May 2027, full-time commitment based on 40 hours per week, and a required engineering-work portfolio.",
+        "The intern will design, prototype, and validate electronics and electromechanical subsystems, develop system requirements, make design decisions, build and debug PCBs, program microcontrollers in C, and develop Python test scripts.",
+        "The official source lists a $1,575-$1,950 USD weekly pay range paid biweekly, enumerates intern-specific benefits, and states that housing and relocation assistance are not offered.",
+        "The official source does not list an application deadline or academic-enrollment, degree, graduation-date, age, work-authorization, or sponsorship requirements."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-21-analog-devices-analog-design-engineer-intern-r265297",
       "title": "Analog Design Engineer Intern",
