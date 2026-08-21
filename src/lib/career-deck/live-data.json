@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T04:57:54.209Z",
+  "updatedAt": "2026-08-21T05:27:54.685Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7983,6 +7983,134 @@
         "The official posting describes a part-time, 6-9-month design-engineering internship in Charlotte beginning in Spring 2027, focused on automotive structural design, CAD modeling, product modification, testing, PLM data, technical drawings, component specifications, and design-performance analysis.",
         "The listing requires full-time four-year-university enrollment, minimum completed semester hours, a 2.8 or 3.0 cumulative GPA depending on functional area, and experience or education in structures, CAD modeling, procedures, design, and testing.",
         "Hendrick Motorsports does not list compensation, an application deadline, work-authorization requirements, sponsorship terms, or a work arrangement on the official posting."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-tiktok-product-design-intern-monetization-ads-2027-summer-7673245417891858741",
+      "title": "Product Design Intern (Monetization Ads) - 2027 Summer",
+      "organization": "TikTok",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tiktok-careers-7673245417891858741",
+      "sourceName": "TikTok Careers",
+      "sourceUrl": "https://lifeattiktok.com/search/7673245417891858741",
+      "url": "https://lifeattiktok.com/search/7673245417891858741",
+      "location": "San Jose - full time for 12 weeks during Summer 2027; work arrangement and exact dates not stated on official source",
+      "deadline": "Rolling review; no closing date listed on official source",
+      "compensation": "$30 USD per hour in the selected city; TikTok says interns have day-one health, life, and wellbeing benefits, 10 paid holidays, paid sick time, and possible housing allowance when not fully remote, with benefits varying by employment and location",
+      "eligibility": "Applicants must be pursuing an undergraduate degree in Human-Computer Interaction or a related design discipline. The posting seeks experience designing and shipping end-to-end products, the ability to produce design variations and explain design choices, and availability for a 12-week full-time period during Summer 2027. Candidates may apply to no more than two positions across TikTok and its affiliates and should state their availability. The official source does not state exact program dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T05:27:54.685Z",
+      "attemptedAt": "2026-08-21T05:27:54.685Z",
+      "updatedAt": "2026-08-21T05:27:54.685Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TikTok's official careers page returned position 7673245417891858741, job code A172001, as an active San Jose internship with an Apply control during the August 20, 2026 check.",
+        "The official posting describes end-to-end product design for internal tools and platforms, user-feedback research, rough prototyping, high-fidelity UI and UX specifications, and cross-functional work with design, product, marketing, and engineering.",
+        "The listing requires current undergraduate study in Human-Computer Interaction or a related design discipline, end-to-end product-design experience, design rationale, and a 12-week full-time commitment during Summer 2027.",
+        "TikTok lists $30 USD per hour and specified intern benefits. The direct application endpoint linked by the official page returned HTTP 404 without an interactive browser session, so this record preserves the working employer-hosted job-detail URL. The source does not list exact program dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-tiktok-design-system-design-intern-monetization-ads-2027-summer-7673245417890875701",
+      "title": "Design System Design Intern (Monetization Ads) - 2027 Summer",
+      "organization": "TikTok",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tiktok-careers-7673245417890875701",
+      "sourceName": "TikTok Careers",
+      "sourceUrl": "https://lifeattiktok.com/search/7673245417890875701",
+      "url": "https://lifeattiktok.com/search/7673245417890875701",
+      "location": "San Jose - full time for 12 weeks during Summer 2027; work arrangement and exact dates not stated on official source",
+      "deadline": "Rolling review; no closing date listed on official source",
+      "compensation": "$30-$50 USD per hour in the selected city; TikTok says interns have day-one health, life, and wellbeing benefits, 10 paid holidays, paid sick time, and possible housing allowance when not fully remote, with benefits varying by employment and location",
+      "eligibility": "Applicants must be pursuing a bachelor's degree in Product Design, Interaction Design, Human-Computer Interaction, Visual Communication, or have equivalent experience. The posting requires strong UI and interaction fundamentals, Figma experience with components and auto layout, and availability for a 12-week full-time period during Summer 2027. Design-system concepts, engineering collaboration, accessibility knowledge, and thoughtful use of AI tools in design workflows are preferred. Candidates may apply to no more than two positions across TikTok and its affiliates and should state their availability. The official source does not state exact program dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T05:27:54.685Z",
+      "attemptedAt": "2026-08-21T05:27:54.685Z",
+      "updatedAt": "2026-08-21T05:27:54.685Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TikTok's official careers page returned position 7673245417890875701, job code A199076, as an active San Jose internship with an Apply control during the August 20, 2026 check.",
+        "The official posting covers components, variants, patterns, responsive and accessible specifications, Figma and Keystone documentation, UI audits, design-system adoption, engineering handoff, and design critiques for TikTok monetization products.",
+        "The listing requires relevant bachelor's-degree study or equivalent experience, UI and interaction fundamentals, Figma skills, and a 12-week full-time commitment during Summer 2027; design systems, accessibility, engineering collaboration, and AI-assisted design workflows are preferred.",
+        "TikTok lists $30-$50 USD per hour and specified intern benefits. The direct application endpoint linked by the official page returned HTTP 404 without an interactive browser session, so this record preserves the working employer-hosted job-detail URL. The source does not list exact program dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-tiktok-content-design-intern-monetization-ads-2027-summer-7673247317487028485",
+      "title": "Content Design Intern (Monetization Ads) - 2027 Summer",
+      "organization": "TikTok",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tiktok-careers-7673247317487028485",
+      "sourceName": "TikTok Careers",
+      "sourceUrl": "https://lifeattiktok.com/search/7673247317487028485",
+      "url": "https://lifeattiktok.com/search/7673247317487028485",
+      "location": "San Jose - Summer 2027; work arrangement, weekly hours, and exact dates not stated on official source",
+      "deadline": "Rolling review; no closing date listed on official source",
+      "compensation": "$30 USD per hour in the selected city; TikTok says interns have day-one health, life, and wellbeing benefits, 10 paid holidays, paid sick time, and possible housing allowance when not fully remote, with benefits varying by employment and location",
+      "eligibility": "Applicants must be pursuing an undergraduate degree in Human-Computer Interaction or a related design discipline. The posting requires clear writing, rapid revision based on feedback, and cross-functional collaboration with design, product, engineering, and research. A writing portfolio and familiarity with design collaboration tools such as Figma are preferred. Candidates may apply to no more than two positions across TikTok and its affiliates and should state their availability. The official source does not state exact program dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T05:27:54.685Z",
+      "attemptedAt": "2026-08-21T05:27:54.685Z",
+      "updatedAt": "2026-08-21T05:27:54.685Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TikTok's official careers page returned position 7673247317487028485, job code A43269A, as an active San Jose internship with an Apply control during the August 20, 2026 check.",
+        "The official posting describes UX writing for ads and monetization interfaces, including labels, controls, helper text, system messages, content guidelines, terminology, critiques, localization, and cross-functional product collaboration.",
+        "The listing requires current undergraduate study in Human-Computer Interaction or a related design discipline, clear and iterative writing, and cross-functional collaboration; a writing portfolio and Figma familiarity are preferred.",
+        "TikTok lists $30 USD per hour and specified intern benefits. The direct application endpoint linked by the official page returned HTTP 404 without an interactive browser session, so this record preserves the working employer-hosted job-detail URL. The source does not list exact program dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-12-kpmg-digital-village-design-off-cycle-internship-58775244",
+      "title": "Advisory - Consulting, Digital Village (Design) | Off-Cycle Internship (Jan 2027 to Jun 2027)",
+      "organization": "KPMG Singapore",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-kpmg-singapore-careers-58775244",
+      "sourceName": "KPMG Singapore Careers",
+      "sourceUrl": "https://careers.kpmg.com.sg/job/Advisory-Consulting%2C-Digital-Village-%28Design%29-Off-Cycle-Internship-%28Jan-2027-to-Jun-2027%29/58775244/",
+      "url": "https://careers.kpmg.com.sg/job/Advisory-Consulting%2C-Digital-Village-%28Design%29-Off-Cycle-Internship-%28Jan-2027-to-Jun-2027%29/58775244/",
+      "location": "Singapore - January through June 2027; work arrangement and weekly hours not stated on official source",
+      "deadline": "No closing date listed on official source; applications opened August 12, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "The posting seeks a strong interest in digital innovation, initiative, independent learning, collaboration, communication, human-centered design methods, UI design, and rapid prototyping. Foundational experience with Figma, Adobe Photoshop, InDesign, Illustrator, or similar design tools is requested. The official source does not state a degree or enrollment requirement, compensation, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T05:27:54.685Z",
+      "attemptedAt": "2026-08-21T05:27:54.685Z",
+      "updatedAt": "2026-08-21T05:27:54.685Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "KPMG Singapore's official careers page returned requisition 58775244 with HTTP 200, an active Apply now control, and an official application opening date of August 12, 2026 during the August 20, 2026 check.",
+        "The official posting identifies this as a UI/UX Design internship in Singapore from January through June 2027, covering product direction, visual design, user personas, journey mapping, user stories, testing, requirements gathering, concept design, prototyping, validation, and design documentation.",
+        "KPMG seeks human-centered design and rapid-prototyping experience, initiative, collaboration, communication, and foundational proficiency with Figma and Adobe design tools.",
+        "KPMG does not list a closing date, compensation, weekly hours, work arrangement, degree or enrollment requirement, work-authorization requirements, or sponsorship terms on the official posting."
       ],
       "needsReview": false
     }
