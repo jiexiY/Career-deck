@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-08-21T07:53:49.622Z",
+  "updatedAt": "2026-08-21T08:03:49.753Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-06-globalfoundries-ip-design-engineering-intern-fall-2026-jr-2502699",
+      "title": "IP & Design Engineering Intern (Fall 2026)",
+      "organization": "GlobalFoundries",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-globalfoundries-workday-jr-2502699",
+      "sourceName": "GlobalFoundries Workday",
+      "sourceUrl": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/XMLNAME-1H-University-Intern---PVD-Equipment_JR-2502699",
+      "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/XMLNAME-1H-University-Intern---PVD-Equipment_JR-2502699",
+      "location": "Richardson, TX - full time; the title says Fall 2026 while the description says Summer 2026, and the official source does not state exact dates or the work arrangement",
+      "deadline": "Not listed on official source; Workday returned the role as posted and accepting applications on August 21, 2026",
+      "compensation": "$20.00-$40.00; the official posting does not state the pay period and also displays a second $0.00-$0.00 expected salary range, so the compensation details need clarification",
+      "eligibility": "Applicants must be pursuing an MS or PhD in Electrical Engineering or a related discipline and have transistor-level circuit-design understanding, RF/mm-Wave design knowledge and experience, Cadence EDA proficiency, written and spoken English fluency, and availability for at least 40 hours per week. RF, mm-Wave, mixed-signal, or analog IC design study is preferred. The official source does not state work-authorization or sponsorship terms, and its title and description conflict on whether the term is Fall or Summer 2026.",
+      "discoveredAt": "2026-08-21T08:03:49.753Z",
+      "attemptedAt": "2026-08-21T08:03:49.753Z",
+      "updatedAt": "2026-08-21T08:03:49.753Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.97,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GlobalFoundries' official Workday API returned requisition JR-2502699 with posted and canApply both true, a posting start date of August 6, 2026, full-time status, and Richardson, Texas as the location during the August 21, 2026 check.",
+        "The official posting describes work with the RF/mm-Wave Reference Design Team on circuit tape-out, schematic design, physical layout, parasitic extraction, pre- and post-layout simulation, electromagnetic simulation, and circuit optimization.",
+        "The posting requires MS or PhD study in Electrical Engineering or a related discipline, transistor-level and RF/mm-Wave design knowledge, Cadence EDA proficiency, English fluency, and at least 40 hours per week of availability.",
+        "The official title says Fall 2026, while the role summary says Summer 2026. It lists an expected salary range of $20.00-$40.00 without a pay period and then a second $0.00-$0.00 range. No application deadline, exact internship dates, work arrangement, work-authorization requirement, or sponsorship policy is stated."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-07-08-hevo-data-ux-design-intern-433ffdef",
+      "title": "UX Design Intern",
+      "organization": "Hevo Data",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hevo-data-lever-433ffdef-3125-48ed-a131-52c697c321ee",
+      "sourceName": "Hevo Data Lever",
+      "sourceUrl": "https://jobs.lever.co/hevodata/433ffdef-3125-48ed-a131-52c697c321ee",
+      "url": "https://jobs.lever.co/hevodata/433ffdef-3125-48ed-a131-52c697c321ee/apply",
+      "location": "Bangalore, India - onsite; weekly hours and internship dates are not stated on the official source",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "The posting seeks familiarity with Figma, basic UX principles, and polished UI design. It lists exposure to Figma component libraries, SaaS products or dashboards, AI-assisted prototyping or no-code tools, and developer handoff among its requirements, and it values clear product thinking and interest in AI-driven design workflows. The official source does not state a degree or student-status requirement, internship dates or duration, weekly hours, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T08:03:49.753Z",
+      "attemptedAt": "2026-08-21T08:03:49.753Z",
+      "updatedAt": "2026-08-21T08:03:49.753Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Lever's official API returned Hevo Data posting 433ffdef-3125-48ed-a131-52c697c321ee with active hosted and application URLs during the August 21, 2026 check; Lever records its creation timestamp as July 8, 2026 at 09:47:57 UTC.",
+        "The official posting identifies an onsite UX Design internship in Bangalore on Hevo Data's Frontend/UI team, working with product and design partners on user flows, interfaces, components, prototypes, design systems, and AI-assisted design workflows.",
+        "The role asks for Figma familiarity and UX/UI fundamentals, with exposure to component libraries, SaaS products or dashboards, AI-assisted prototyping or no-code tools, and developer handoff.",
+        "The official source does not list compensation, an application deadline, program dates or duration, weekly hours, a degree or student-status requirement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-21-cadence-ssg-design-engineering-intern-fall-2026-r52641",
       "title": "SSG Design Engineering Intern (Fall 2026)",
