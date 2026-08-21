@@ -1,6 +1,102 @@
 {
-  "updatedAt": "2026-08-21T16:49:44.933Z",
+  "updatedAt": "2026-08-21T19:56:01.786Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-21-analog-devices-analog-design-engineer-intern-r265297",
+      "title": "Analog Design Engineer Intern",
+      "organization": "Analog Devices",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-analog-devices-workday-r265297",
+      "sourceName": "Analog Devices Careers / Workday",
+      "sourceUrl": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297",
+      "location": "Wilmington, MA - the official source does not state exact internship dates, duration, weekly hours, or an onsite, hybrid, or remote arrangement; up to 10% travel is required",
+      "deadline": "Not listed on official source; Analog Devices' official Workday API returned the posting with canApply true and a Posted Today label on August 21, 2026",
+      "compensation": "$22-$41 expected wage range. The official source does not state the pay unit or list internship benefits, so neither is inferred.",
+      "eligibility": "Applicants should be pursuing a bachelor's or master's degree in Electrical Engineering or a related field and have coursework or projects in analog-circuit design and simulation. The posting seeks foundational analog and mixed-signal IC design, SPICE simulation, IC layout, CMOS, ADC, lab-testing, analytical, communication, and collaboration skills. Applicants other than US citizens, US permanent residents, or protected individuals may undergo an export-licensing review for access to technical data. The official source does not state general sponsorship terms.",
+      "discoveredAt": "2026-08-21T19:56:01.786Z",
+      "attemptedAt": "2026-08-21T19:56:01.786Z",
+      "updatedAt": "2026-08-21T19:56:01.786Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Analog Devices' official Workday API returned requisition R265297 with HTTP 200, canApply true, and an August 21, 2026 start date during the August 21 check; the posting was labeled Posted Today.",
+        "The Wilmington internship supports analog and mixed-signal IC development through circuit design, SPICE and Cadence simulation, IC layout, lab measurement, troubleshooting, and optimization with senior engineers.",
+        "The official posting requires pursuit of a bachelor's or master's degree in Electrical Engineering or a related field and lists a $22-$41 expected wage range without stating the pay unit.",
+        "The official source does not list an application deadline, exact internship dates, duration, weekly hours, work arrangement, general sponsorship terms, or benefits."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-wsp-overhead-transmission-line-design-engineering-intern-spring-summer-2027-93367",
+      "title": "Overhead Transmission Line Design Engineering Intern - Spring/Summer 2027",
+      "organization": "WSP",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-wsp-oracle-93367",
+      "sourceName": "WSP Careers / Oracle Recruiting",
+      "sourceUrl": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/93367",
+      "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/93367",
+      "location": "Saint Louis, MO - full-time temporary internship anticipated across the Spring and Summer 2027 semesters; exact dates, weekly hours, and work arrangement are not listed",
+      "deadline": "Not listed on official source; WSP's official Oracle API returned the public requisition on August 21, 2026 with no external posted end date",
+      "compensation": "Not listed on official source; no relocation or housing assistance is available, and generic corporate benefits language does not confirm intern eligibility",
+      "eligibility": "The role introduction says undergraduate or graduate enrollment, while the required qualifications specify active enrollment in an accredited Civil Engineering or related undergraduate program with an anticipated graduation date of August 2027 or later. Applicants must be at least 18 and authorized to work in the United States at the start of the internship. Civil-engineering interest, communication, technical-writing, office-tool, safety, and policy-compliance skills are required; GPA 3.0+, structural and geotechnical coursework, prior experience, FE/EIT progress, and MATHCAD, SOLIDWORKS, or AUTOCAD familiarity are preferred. Sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T19:56:01.786Z",
+      "attemptedAt": "2026-08-21T19:56:01.786Z",
+      "updatedAt": "2026-08-21T19:56:01.786Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "WSP's official Oracle Recruiting API returned requisition 93367 as a public early-career posting during the August 21, 2026 check and records an August 21, 2026 posting timestamp at 14:39:57 UTC with no posted end date.",
+        "The full-time Saint Louis internship is anticipated across Spring and Summer 2027 and supports civil-engineering research, field work, preliminary design calculations, final design plans, provisions, estimates, and project documentation for overhead transmission lines.",
+        "The official source requires age 18+, US work authorization at the internship start, relevant enrollment, and an August 2027 or later graduation date. It does not state compensation, exact dates, weekly hours, a deadline, work arrangement, or sponsorship terms.",
+        "The role introduction allows undergraduate or graduate enrollment, while its required-qualifications section specifically says undergraduate enrollment; the record preserves that discrepancy for human review."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-08-21-wsp-overhead-transmission-line-design-engineering-intern-summer-fall-2027-93368",
+      "title": "Overhead Transmission Line Design Engineering Intern - Summer/Fall 2027",
+      "organization": "WSP",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-wsp-oracle-93368",
+      "sourceName": "WSP Careers / Oracle Recruiting",
+      "sourceUrl": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/93368",
+      "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/93368",
+      "location": "Saint Louis, MO - full-time temporary internship anticipated across the Summer and Fall 2027 semesters; exact dates, weekly hours, and work arrangement are not listed",
+      "deadline": "Not listed on official source; WSP's official Oracle API returned the public requisition on August 21, 2026 with no external posted end date",
+      "compensation": "Not listed on official source; no relocation or housing assistance is available, and generic corporate benefits language does not confirm intern eligibility",
+      "eligibility": "The role introduction says undergraduate or graduate enrollment, while the required qualifications specify active enrollment in an accredited Civil Engineering or related undergraduate program with an anticipated graduation date of December 2027 or later. Applicants must be at least 18 and authorized to work in the United States at the start of the internship. Civil-engineering interest, communication, technical-writing, office-tool, safety, and policy-compliance skills are required; GPA 3.0+, structural and geotechnical coursework, prior experience, FE/EIT progress, and MATHCAD, SOLIDWORKS, or AUTOCAD familiarity are preferred. Sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T19:56:01.786Z",
+      "attemptedAt": "2026-08-21T19:56:01.786Z",
+      "updatedAt": "2026-08-21T19:56:01.786Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "WSP's official Oracle Recruiting API returned requisition 93368 as a public early-career posting during the August 21, 2026 check and records an August 21, 2026 posting timestamp at 14:44:27 UTC with no posted end date.",
+        "The full-time Saint Louis internship is anticipated across Summer and Fall 2027 and supports civil-engineering research, field work, preliminary design calculations, final design plans, provisions, estimates, and project documentation for overhead transmission lines.",
+        "The official source requires age 18+, US work authorization at the internship start, relevant enrollment, and a December 2027 or later graduation date. It does not state compensation, exact dates, weekly hours, a deadline, work arrangement, or sponsorship terms.",
+        "The role introduction allows undergraduate or graduate enrollment, while its required-qualifications section specifically says undergraduate enrollment; the record preserves that discrepancy for human review."
+      ],
+      "needsReview": true
+    },
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
       "title": "Internships",
@@ -9843,18 +9939,18 @@
       "organization": "Rivian and Volkswagen Group Technologies",
       "section": "tech",
       "type": "internship",
-      "status": "open",
+      "status": "closed",
       "sourceId": "src-rivian-vw-ashby",
       "sourceName": "Rivian and Volkswagen Group Technologies Ashby",
       "sourceUrl": "https://jobs.ashbyhq.com/rivianvw.tech/e93841e0-d1b4-484e-a1e7-6ac494c9868c",
       "url": "https://jobs.ashbyhq.com/rivianvw.tech/e93841e0-d1b4-484e-a1e7-6ac494c9868c",
       "location": "Irvine, CA - in person; Ashby metadata labels the workplace Hybrid",
-      "deadline": "Not listed on official source",
+      "deadline": "Closed; the role disappeared from Rivian-VW's official Ashby board and its direct job and application routes no longer contained the role or an application form on repeated checks August 21, 2026",
       "compensation": "Not listed on official source; the posting includes generic full-time bonus, RSU, and benefits language without stating that it applies to this internship",
       "eligibility": "Applicants must be currently enrolled in an accredited graduate degree program in Electrical Engineering, Computer Engineering, or a closely related field. The role requires audio-amplifier design or testing experience, core analog and digital circuit, microcontroller, and power fundamentals, hands-on use of standard electrical lab equipment, and experience with schematic-capture and PCB-layout tools such as Altium, Cadence Allegro, or KiCAD. Preferred experience includes student engineering teams, automotive or embedded communication protocols, and low-voltage power electronics. The internship is full time from September 21 through December 18, 2026, and the posting body describes it as in person in Irvine, California.",
       "discoveredAt": "2026-08-14T16:26:30.709Z",
-      "attemptedAt": "2026-08-14T16:26:30.709Z",
-      "updatedAt": "2026-08-14T16:26:30.709Z",
+      "attemptedAt": "2026-08-21T19:56:01.786Z",
+      "updatedAt": "2026-08-21T19:56:01.786Z",
       "confidence": {
         "source": 0.99,
         "extraction": 0.98,
@@ -9865,7 +9961,8 @@
         "Rivian and Volkswagen Group Technologies' official Ashby API returned posting e93841e0-d1b4-484e-a1e7-6ac494c9868c as listed with an active application URL and a publication timestamp of August 14, 2026 at 16:19 UTC; the posting explicitly states that it represents an open, active vacancy.",
         "The official posting confirms a full-time September 21-December 18, 2026 term in Irvine, graduate enrollment in Electrical Engineering, Computer Engineering, or a related field, and hands-on schematic, PCB, prototyping, lab-validation, power, signal-integrity, and zonal-control work.",
         "The posting body calls the position in person, while Ashby metadata labels the workplace Hybrid and sets its remote flag; the location field follows the role description and preserves the metadata discrepancy.",
-        "The official source does not list a numeric pay range or application deadline. Its generic rewards section discusses full-time bonus, equity, and benefits without confirming that those programs apply to this internship."
+        "The official source does not list a numeric pay range or application deadline. Its generic rewards section discusses full-time bonus, equity, and benefits without confirming that those programs apply to this internship.",
+        "On August 21, 2026, the role was absent from the employer's current 103-job Ashby board; on a repeat check eight seconds later, both the direct job and application routes again returned only the generic Jobs shell without the role title or application form, so the record was marked closed based on repeated disappearance from official employer and ATS surfaces."
       ],
       "needsReview": false
     }
