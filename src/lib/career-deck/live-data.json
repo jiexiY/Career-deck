@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T05:51:25.292Z",
+  "updatedAt": "2026-08-21T06:21:25.558Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-21-tiktok-ai-product-design-intern-2027-start-7667861682171611397",
+      "title": "AI Product Design Intern (TikTok-Design)-2027 Start",
+      "organization": "TikTok",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tiktok-careers-7667861682171611397",
+      "sourceName": "TikTok Careers",
+      "sourceUrl": "https://lifeattiktok.com/search/7667861682171611397",
+      "url": "https://lifeattiktok.com/resume/7667861682171611397/apply",
+      "location": "Singapore - work arrangement not stated on official source",
+      "deadline": "Rolling review; no closing date listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing an undergraduate, master's, or PhD degree in Human-Computer Interaction, Artificial Intelligence, Computer Science, Design, Psychology, or a related technical discipline. The posting requires strong interaction and UI skills, Figma, familiarity with iOS and Android design guidelines, frequent use and understanding of AI products, and communication and collaboration skills. Preferred qualifications include an AI product-design internship or portfolio case study, English as a working language, overseas or cross-cultural experience, and skills in visual, motion, or user-research design. Candidates may apply to no more than two positions across TikTok and its affiliates and should state their availability. The official source does not state exact program dates, weekly hours, work arrangement, compensation, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T06:21:25.558Z",
+      "attemptedAt": "2026-08-21T06:21:25.558Z",
+      "updatedAt": "2026-08-21T06:21:25.558Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TikTok's official careers page returned position 7667861682171611397, job code A72037, as an active Singapore internship with an Apply control during the August 20, 2026 check.",
+        "The official posting covers AI product and tool design from concept to launch, user-centered AI experiences, interaction logic, design standards, and use of AI tools in daily design workflows.",
+        "The posting requires current undergraduate, master's, or PhD study in HCI, AI, Computer Science, Design, Psychology, or a related technical discipline and lists interaction and UI skills, Figma, mobile-platform guidelines, AI-product familiarity, communication, and collaboration.",
+        "TikTok does not list compensation, a publication date, exact program dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms for this Singapore role, so none are inferred."
+      ],
+      "needsReview": false
+    },
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
       "title": "Internships",
