@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T02:09:21.152Z",
+  "updatedAt": "2026-08-21T02:22:51.438Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -3494,6 +3494,38 @@
         "The official posting covers AI-enabled design systems and workflows, internal design tools, automated asset generation, training-data production, multi-platform implementation with engineering, and UX iteration based on business metrics.",
         "The posting requires current undergraduate or master's study in HCI, AI, Computer Science, Design, or a related technical discipline and lists AI-assisted coding, high-fidelity prototyping, design judgment, communication, and collaboration.",
         "TikTok lists $30 per hour and specified intern benefits. It does not expose a publication date, exact program dates, weekly hours, work arrangement, closing date, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-wsp-power-distribution-design-engineering-intern-summer-2027-93152",
+      "title": "Power Distribution Design Engineering Intern - Summer 2027",
+      "organization": "WSP",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-wsp-oracle-93152",
+      "sourceName": "WSP Careers / Oracle",
+      "sourceUrl": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/93152",
+      "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/93152",
+      "location": "The Woodlands, TX, United States - full-time; official work location is Spring, TX",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source; the posting includes general employee-benefits language without confirming intern-specific eligibility",
+      "eligibility": "Applicants must be actively enrolled in an accredited undergraduate or graduate Electrical Engineering or related degree program, have an anticipated graduation date of August 2027 or later, be at least 18 years old, and be authorized to work in the United States at the start of the internship. The posting seeks interest in electrical engineering, communication skills, the ability to take direction, basic technical-writing and office-software proficiency, and a record of following workplace-safety policies. Excel, Outlook, Google Earth, AutoCAD or MicroStation, prior internship experience, and campus leadership are preferred. The 12-week Summer 2027 program is scheduled to begin May 17, 2027, with a potentially flexible individual start date. The official source does not state a sponsorship policy beyond requiring U.S. work authorization at the start of the internship.",
+      "discoveredAt": "2026-08-21T02:22:51.438Z",
+      "attemptedAt": "2026-08-21T02:22:51.438Z",
+      "updatedAt": "2026-08-21T02:22:51.438Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "WSP's official Oracle candidate API returned requisition 93152 as posted and application-enabled during the August 20, 2026 check, with an official posting start timestamp of August 17, 2026 at 6:53 a.m. Pacific time.",
+        "The official posting identifies a full-time, 12-week Summer 2027 Power Distribution Design Engineering internship in the Spring/Woodlands, Texas office, scheduled to begin May 17, 2027, supporting medium-voltage distribution-system design, construction drawings, layouts, material estimates, and project coordination.",
+        "The posting requires current undergraduate or graduate study in Electrical Engineering or a related field, graduation in August 2027 or later, age 18 or older, and U.S. work authorization at the start of the internship.",
+        "WSP states that relocation and housing assistance are unavailable. The official source lists no application deadline, numeric compensation, sponsorship policy, or confirmed intern-specific benefit eligibility."
       ],
       "needsReview": false
     },
