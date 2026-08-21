@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T09:16:20.920Z",
+  "updatedAt": "2026-08-21T09:36:22.131Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-30-medpace-ux-design-intern-fall-2026-12894",
+      "title": "UX Design Intern - Fall 2026",
+      "organization": "Medpace, Inc.",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-medpace-careers-12894",
+      "sourceName": "Medpace Careers",
+      "sourceUrl": "https://careers.medpace.com/jobs/12894",
+      "url": "https://careers.medpace.com/jobs/12894",
+      "location": "Cincinnati, OH - 40 hours per week in Medpace's Cincinnati office; the posting describes an office-based culture with occasional work from home for eligible positions after training but does not say whether this internship qualifies",
+      "deadline": "Not listed as an application deadline; Medpace's structured job data lists July 30, 2027 as validThrough, which conflicts with the Fall 2026 timing and should not be treated as a reliable deadline",
+      "compensation": "Not listed on official source; the posting references competitive compensation and employee benefits generally but does not state intern pay or benefit eligibility",
+      "eligibility": "Applicants must be pursuing a bachelor's degree or higher in Visual/Communication Design, Human-Computer Interaction, Industrial Design, or a related field and be available to work 40 hours per week in Medpace's Cincinnati office. The posting seeks experience defining and documenting UX and interaction requirements, a portfolio showing UX activities and deliverables, experience with Figma or Adobe Creative Cloud, and strong communication, presentation, strategy, and complex problem-solving skills. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T09:36:22.131Z",
+      "attemptedAt": "2026-08-21T09:36:22.131Z",
+      "updatedAt": "2026-08-21T09:36:22.131Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Medpace's employer-hosted careers page returned job 12894 with directApply set to true during the August 21, 2026 check; its structured data records an official posting timestamp of July 30, 2026 at 10:04 Pacific time.",
+        "The Fall 2026 internship designs web and mobile user flows, wireframes, prototypes, high-fidelity mockups, and scalable visual specifications for internal clinical-research software while contributing to UX research, strategy, and Agile or Lean UX work.",
+        "The posting requires relevant bachelor's-or-higher degree study, 40 hours per week in the Cincinnati office, a UX portfolio, experience documenting UX requirements, and familiarity with Figma or Adobe Creative Cloud.",
+        "The official source does not state pay, benefit eligibility, a reliable application deadline, work-authorization requirements, or sponsorship terms; its July 30, 2027 validThrough metadata conflicts with the role's Fall 2026 timing."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-31-kiewit-civil-structural-intern-fall-2026-181010",
       "title": "Civil/Structural Intern (4-8 month co-op) - Western Canada Region - Fall 2026",
