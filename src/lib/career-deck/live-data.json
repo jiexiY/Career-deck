@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T06:59:18.813Z",
+  "updatedAt": "2026-08-21T07:19:19.099Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-21-project44-product-design-intern-8101750",
+      "title": "Product Design Intern",
+      "organization": "project44",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-project44-greenhouse-8101750",
+      "sourceName": "project44 Careers / Greenhouse",
+      "sourceUrl": "https://www.project44.com/company/careers/open-roles/job/?detail=8101750",
+      "url": "https://job-boards.greenhouse.io/project44/jobs/8101750",
+      "location": "Bengaluru, India - onsite five days per week; six-month internship",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be currently pursuing or have recently completed a degree in Design, Human-Computer Interaction, or a related field, or have equivalent experience. The posting requires a portfolio showing design thinking, craft, and digital-product problem solving; familiarity with Figma, Adobe Creative Suite, Claude Code, or similar tools; communication and collaboration skills; and the ability to work from the Bengaluru office five days per week for the six-month internship. User-research or usability-testing experience, interest in product strategy or design systems, and a passion for inclusive and accessible experiences are preferred. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T07:19:19.099Z",
+      "attemptedAt": "2026-08-21T07:19:19.099Z",
+      "updatedAt": "2026-08-21T07:19:19.099Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.95,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "project44's employer-hosted careers page and official Greenhouse board returned job 8101750 as an active Product Design Intern opening in Bengaluru with an Apply control during the August 21, 2026 check.",
+        "The official posting describes a six-month internship that requires working from the Bengaluru office five days per week.",
+        "The role covers end-to-end product design from research and ideation through prototyping and delivery, in collaboration with product managers, engineers, and designers, and includes mentorship and design critiques.",
+        "The posting requires current or recently completed study in Design, HCI, or a related field or equivalent experience, a digital-product portfolio, and familiarity with tools such as Figma, Adobe Creative Suite, and Claude Code. It does not list compensation, an application deadline, a publication date, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-21-sostrene-grene-product-design-intern-first-half-2027-1364599955",
       "title": "Product Design Intern - 1. halvår af 2027",
