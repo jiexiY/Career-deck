@@ -1,6 +1,262 @@
 {
-  "updatedAt": "2026-08-21T08:15:49.896Z",
+  "updatedAt": "2026-08-21T08:32:50.194Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-21-iudex-non-calculat-ux-ui-design-intern-16581935",
+      "title": "UX/UI Design Intern",
+      "organization": "Iudex Non Calculat",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-iudex-non-calculat-join-16581935",
+      "sourceName": "Iudex Non Calculat / JOIN",
+      "sourceUrl": "https://join.com/companies/iudexncai/16581935-ux-ui-design-intern",
+      "url": "https://join.com/companies/iudexncai/16581935-ux-ui-design-intern",
+      "location": "Zurich, Switzerland - 60% to 100% availability, ideally for six months, with at least two days per week onsite; remaining schedule and exact dates are not listed",
+      "deadline": "Not listed on official source; the JOIN page had an active application form on August 21, 2026",
+      "compensation": "The JOIN header lists CHF 2,000-3,500 per month, while the body lists CHF 2,000-3,000 per month at 100% and prorated for lower availability; the exact range needs clarification",
+      "eligibility": "Applicants need native or C1 German plus good English, a portfolio spanning research through shipped interfaces, Figma and UX-method proficiency, evidence-based product thinking, and current or recently completed study in Interaction Design, HCI, Design, Computer Science, or a related field, or equivalent experience. The role requires 60% to 100% availability, at least two onsite days per week in Zurich, and either a Swiss work permit or EU/EFTA citizenship. React, TypeScript, Tailwind, B2B or AI-product experience, analytics, and French are preferred.",
+      "discoveredAt": "2026-08-21T08:32:50.194Z",
+      "attemptedAt": "2026-08-21T08:32:50.194Z",
+      "updatedAt": "2026-08-21T08:32:50.194Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.97,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Iudex Non Calculat's official JOIN page listed job 16581935 with an active application form for a UX/UI Design Intern in Zurich during the August 21, 2026 check.",
+        "The role covers bilingual user research, information architecture, wireframes, prototypes, AI-assisted rapid prototyping, design systems, engineering handoff, design QA, and UX measurement for legal-insurance products.",
+        "The posting requires C1 or native German, good English, a portfolio, Figma and UX methods, 60% to 100% availability, at least two onsite days per week, and a Swiss work permit or EU/EFTA citizenship.",
+        "The official header and body disagree on the upper end of monthly compensation, listing CHF 3,500 and CHF 3,000 respectively. No application deadline or exact program dates are stated."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-08-21-deerstreet-experience-ux-ui-design-mandatory-intern-16586392",
+      "title": "UX/UI Design Praktikum (Pflichtpraktikant) (m/w/d)",
+      "organization": "deerstreet-experience GmbH",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-deerstreet-experience-join-16586392",
+      "sourceName": "deerstreet-experience / JOIN",
+      "sourceUrl": "https://join.com/companies/deerstreet/16586392-ux-ui-design-praktikum-pflichtpraktikant-m-w-d",
+      "url": "https://join.com/companies/deerstreet/16586392-ux-ui-design-praktikum-pflichtpraktikant-m-w-d",
+      "location": "Munich or Furth, Germany - full-time mandatory internship; the official source offers a choice between the two offices but does not state dates, duration, or remote-work terms",
+      "deadline": "Not listed on official source; the JOIN page had an active application form on August 21, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be studying UX Design, HCI, Digital Media, Communication Design, or a related field and seeking a full-time mandatory internship. The posting asks for initial independent project experience, Figma familiarity, comfort with Adobe Creative Cloud or Blender, a portfolio, teamwork, fluent German and English, and interest in creative technology. HTML, CSS, JavaScript, motion-design, or 3D skills are preferred. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T08:32:50.194Z",
+      "attemptedAt": "2026-08-21T08:32:50.194Z",
+      "updatedAt": "2026-08-21T08:32:50.194Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "deerstreet-experience's official JOIN page listed job 16586392 with an active application form for a UX/UI mandatory internship during the August 21, 2026 check.",
+        "The internship covers web, mobile, automotive, and mobility interfaces, wireframes, flows, mockups, design systems, digital brand experiences, user research, usability testing, reviews, and client work.",
+        "The posting requires relevant current study, a full-time mandatory internship, Figma, a portfolio, fluent German and English, and some prior independent or university project experience; Adobe Creative Cloud or Blender familiarity is also requested.",
+        "The role permits a choice between the Munich and Furth offices but does not list compensation, a deadline, dates, duration, remote-work terms, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-digitalbegleiter-paid-ux-design-branding-intern-16552381",
+      "title": "Praktikum in UX Design & Branding (Bezahlt)",
+      "organization": "Digitalbegleiter",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-digitalbegleiter-join-16552381",
+      "sourceName": "Digitalbegleiter / JOIN",
+      "sourceUrl": "https://join.com/companies/digitalbegleiter/16552381-praktikum-in-ux-design-und-branding-bezahlt",
+      "url": "https://join.com/companies/digitalbegleiter/16552381-praktikum-in-ux-design-und-branding-bezahlt",
+      "location": "Berlin, Germany - hybrid with remote options and flexible scheduling; exact dates, duration, and weekly hours are not listed",
+      "deadline": "Not listed on official source; the JOIN page had an active application form on August 21, 2026",
+      "compensation": "EUR 500 per month",
+      "eligibility": "The posting seeks design study such as Communication Design, UX/UI Design, or Media Design, or a convincing career-changer portfolio. Applicants should have basic Figma knowledge, interest in UX/UI, branding, digital design, and prototyping, a willingness to learn additional tools, visual judgment, creativity, initiative, teamwork, and a structured independent work style. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T08:32:50.194Z",
+      "attemptedAt": "2026-08-21T08:32:50.194Z",
+      "updatedAt": "2026-08-21T08:32:50.194Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Digitalbegleiter's official JOIN page listed job 16552381 with an active application form for a paid UX Design and Branding internship in Berlin during the August 21, 2026 check.",
+        "The internship includes design research, competitor analysis, look-and-feel concepts, user-centered digital-product and brand work, interactive Figma prototypes, presentations, and client-meeting support.",
+        "The source lists EUR 500 per month and a hybrid Berlin arrangement with remote options and flexible scheduling.",
+        "The official page does not provide an application deadline, exact dates, duration, weekly hours, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-et-si-graphic-ux-ui-design-intern-september-2026-16597533",
+      "title": "Stage Design graphique / UX-UI design - Septembre 2026",
+      "organization": "Et Si",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-et-si-join-16597533",
+      "sourceName": "Et Si / JOIN",
+      "sourceUrl": "https://join.com/companies/etsicommunicationfr/16597533-stage-design-graphique-ux-ui-design-septembre-2026",
+      "url": "https://join.com/companies/etsicommunicationfr/16597533-stage-design-graphique-ux-ui-design-septembre-2026",
+      "location": "Montreuil, France - internship beginning September 2026; exact start date, duration, weekly hours, and work arrangement are not listed",
+      "deadline": "Not listed on official source; the JOIN page had an active application form on August 21, 2026",
+      "compensation": "Not listed on the current role page; a separate same-titled listing on the employer's official JOIN openings list shows EUR 615-EUR 616 per month, but applicability to this posting needs confirmation",
+      "eligibility": "Applicants should come from a design school with at least Bac+3 standing and have strong creativity, Photoshop, Illustrator, and Figma knowledge, initial After Effects exposure, digital and social-media fluency, and a dynamic, autonomous, rigorous, and organized work style. The official source does not state language, work-authorization, or sponsorship requirements.",
+      "discoveredAt": "2026-08-21T08:32:50.194Z",
+      "attemptedAt": "2026-08-21T08:32:50.194Z",
+      "updatedAt": "2026-08-21T08:32:50.194Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.98,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Et Si's official JOIN listing redirected the discovered URL to current job 16597533 and displayed an active application form for a September 2026 Graphic Design / UX-UI internship during the August 21, 2026 check.",
+        "The role supports social brand content, art direction for pitches and competitions, and digital graphics for websites, newsletters, and apps across the user experience.",
+        "A separate same-titled role on the employer's official JOIN openings list displays EUR 615-EUR 616 per month, but the current role page does not state compensation, so that amount is not treated as confirmed for this posting. The role asks for design-school training at Bac+3 or above plus Photoshop, Illustrator, Figma, and initial After Effects experience.",
+        "The official source does not state an application deadline, exact start date, duration, weekly hours, work arrangement, language requirements, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "tech-design-2026-08-21-indiekidz-ux-ui-design-mandatory-intern-16346861",
+      "title": "UX/UI Design Intern (Mandatory Internship / Pflichtpraktikum, Unpaid) - AI SaaS startup",
+      "organization": "IndieKidz GmbH",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-indiekidz-join-16346861",
+      "sourceName": "IndieKidz / JOIN",
+      "sourceUrl": "https://join.com/companies/indiekidzeu/16346861-ux-ui-design-intern-mandatory-internship-pflichtpraktikum-unpaid-ai-saas-startup",
+      "url": "https://join.com/companies/indiekidzeu/16346861-ux-ui-design-intern-mandatory-internship-pflichtpraktikum-unpaid-ai-saas-startup",
+      "location": "Berlin, Germany - hybrid with remote options considered, including fully remote work in Berlin or nearby areas with one day working together; approximately 35 hours per week for three to six months, starting as soon as possible",
+      "deadline": "Not listed on official source; the JOIN page had an active application form on August 21, 2026",
+      "compensation": "Unpaid mandatory internship; listed benefits are a coworking seat and lunch when the team meets once per week",
+      "eligibility": "Applicants should be currently enrolled in a relevant study program or have a similar educational background, submit a CV and portfolio, and bring enthusiasm for UX/UI design, attention to detail, basic Figma or Adobe XD knowledge, willingness to learn, adaptability, and communication skills. AI-tool knowledge is preferred. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T08:32:50.194Z",
+      "attemptedAt": "2026-08-21T08:32:50.194Z",
+      "updatedAt": "2026-08-21T08:32:50.194Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "IndieKidz's official JOIN page listed job 16346861 with an active application form for an unpaid mandatory UX/UI internship during the August 21, 2026 check.",
+        "The role designs an AI SaaS web product through user flows, wireframes, mockups, prototypes, UI assets, user research, usability testing, onboarding improvements, and collaboration with software engineers.",
+        "The posting specifies Berlin with hybrid or remote options, an ASAP start, three-to-six-month duration, approximately 35 hours per week, and required CV and portfolio submission.",
+        "The source explicitly states that the internship is unpaid and does not list a deadline, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-cresta-product-design-intern-ai-human-agents-4476000008",
+      "title": "Product Design Intern for AI and Human Agents Platform",
+      "organization": "Cresta",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-cresta-greenhouse-4476000008",
+      "sourceName": "Cresta Careers / Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/cresta/jobs/4476000008",
+      "url": "https://job-boards.greenhouse.io/cresta/jobs/4476000008",
+      "location": "Toronto, Canada - the posting says Cresta is actively hiring for the role in the US and Canada, but Toronto is the listed job location and no work arrangement, dates, duration, or weekly hours are stated",
+      "deadline": "Not listed on official source; Greenhouse returned the role as active with an application form on August 21, 2026",
+      "compensation": "$30-$50 per hour, currency not specified and subject to taxes; lunch and dinner may each be expensed up to $25 while working in the office, and the posting also references equity and benefits without detailed eligibility",
+      "eligibility": "Applicants should be currently pursuing a bachelor's degree in Design, HCI, or a related field and have a portfolio showing user-centered design, polished UI craft, and interaction concepts. The posting values prototyping with Cursor, Claude Code, v0, or other current AI tools; interaction, visual, prototyping, and user-research experience; curiosity; adaptability; and collaboration. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T08:32:50.194Z",
+      "attemptedAt": "2026-08-21T08:32:50.194Z",
+      "updatedAt": "2026-08-21T08:32:50.194Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cresta's official Greenhouse API and job page returned job 4476000008 as active with an application form during the August 21, 2026 check; Greenhouse records an August 3, 2026 update.",
+        "The internship covers end-to-end product design, UX concepts for human and AI agents, user research, prototyping in Figma and AI-assisted tools, and collaboration with engineering, product, ML, customer-success, and sales teams.",
+        "The role requires current bachelor's study in Design, HCI, or a related field plus a portfolio and user-centered UX, visual, interaction, research, and prototyping capabilities.",
+        "The official source lists $30-$50 per hour without identifying the currency and does not state a deadline, dates, duration, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-orderly-product-design-intern-4762763008",
+      "title": "Product Design Intern",
+      "organization": "Orderly",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-orderly-greenhouse-4762763008",
+      "sourceName": "Orderly Careers / Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/orderly/jobs/4762763008",
+      "url": "https://job-boards.greenhouse.io/orderly/jobs/4762763008",
+      "location": "APAC - the posting asks for at least two remote working days per week but does not identify a country, office, or the rest of the work schedule; minimum internship duration is six months",
+      "deadline": "Not listed on official source; Greenhouse returned the role as active with an application form on August 21, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing a bachelor's degree in Design, Visual Communication, or a related field and communicate fluently in Chinese and English. The posting seeks interest in technology, blockchain, trading, or finance, a detail-oriented and proactive work style, at least two remote working days per week, and at least six months of availability. Prior exposure to trading products is preferred. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T08:32:50.194Z",
+      "attemptedAt": "2026-08-21T08:32:50.194Z",
+      "updatedAt": "2026-08-21T08:32:50.194Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Orderly's official Greenhouse API and job page returned job 4762763008 as active with an application form during the August 21, 2026 check.",
+        "The internship supports interactive product features, user experience for cryptocurrency traders, user research, competitor analysis, developer collaboration, and refinement of product flows.",
+        "The posting requires current bachelor's study in Design, Visual Communication, or a related field, fluent Chinese and English, at least two remote working days per week, and at least six months of availability.",
+        "The official source does not list compensation, a deadline, exact dates, weekly hours, a specific APAC country or office, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-01-28-cadence-design-engineering-intern-r52784",
+      "title": "Design Engineering Intern",
+      "organization": "Cadence Design Systems",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-cadence-workday-r52784",
+      "sourceName": "Cadence Careers / Workday",
+      "sourceUrl": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/CORK-01/Intern_R52784",
+      "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/CORK-01/Intern_R52784",
+      "location": "Cork, Ireland - full-time; the official source does not state internship dates, duration, exact weekly hours, or work arrangement",
+      "deadline": "Not listed on official source; Cadence's public Workday API returned requisition R52784 as active on August 21, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing a bachelor's or master's degree in Electrical Engineering, Computer Engineering, or a similar major. The posting requires deep digital-design fundamentals, Tcl, Perl, and shell-scripting automation skills, and strong oral and written communication. Exposure to design-automation tools is preferred. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T08:32:50.194Z",
+      "attemptedAt": "2026-08-21T08:32:50.194Z",
+      "updatedAt": "2026-08-21T08:32:50.194Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Cadence's official public Workday search and detail APIs returned requisition R52784 as a live full-time role in Cork during the August 21, 2026 check, with an official posting start date of January 28, 2026.",
+        "Although Workday's display title is the generic 'Intern,' the official description identifies the job as Design Engineering Intern on Cadence's Tensilica CPU Processor Team.",
+        "The role implements and verifies Xtensa processor RTL using Verilog, simulation, debugging, synthesis, place-and-route and other EDA scripts, test plans, functional diagnostics, failure debugging, and coverage analysis.",
+        "The posting requires relevant bachelor's or master's study, digital-design fundamentals, Tcl, Perl, and shell scripting, and communication skills, but does not list compensation, a deadline, internship dates or duration, exact weekly hours, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-21-fluid-design-industrial-design-intern-march-2027-16600044",
       "title": "Internship Industrial Design March 2027 (m/f/d)",
