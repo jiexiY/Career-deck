@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T21:38:33.279Z",
+  "updatedAt": "2026-08-21T22:19:04.196Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-21-general-matter-summer-2027-mechanical-engineering-internship-5377107008",
+      "title": "Summer 2027 Internship - Mechanical Engineering",
+      "organization": "General Matter",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-general-matter-greenhouse-5377107008",
+      "sourceName": "General Matter Careers / Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/generalmatter/jobs/5377107008",
+      "url": "https://job-boards.greenhouse.io/generalmatter/jobs/5377107008",
+      "location": "South Bay, Los Angeles, CA - Summer 2027; the official source does not state exact dates, duration, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "Not listed on official source; General Matter's official Greenhouse API returned the active job, first published August 21, 2026 at 2:54:28 PM PDT and updated at 3:04:20 PM PDT",
+      "compensation": "$30-$40 USD per hour, depending on the candidate's current standing in school. Interns receive a monthly housing stipend and are eligible for overtime pay; the stipend amount and other benefits, relocation, or transportation support are not stated.",
+      "eligibility": "Applicants must be current undergraduate or graduate students pursuing Mechanical Engineering, Aerospace Engineering, or a related technical discipline. The role seeks hands-on experience with mechanical design, prototyping, or structural or mechanism analysis; familiarity with CAD tools such as NX or SolidWorks; exposure to FEA or engineering coding in Python or MATLAB; strong engineering fundamentals; and comfort in a fast-paced multidisciplinary team. The posting says interns must be able to work extended hours and weekends as necessary. Graduation-year, work-authorization, and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T22:19:04.196Z",
+      "attemptedAt": "2026-08-21T22:19:04.196Z",
+      "updatedAt": "2026-08-21T22:19:04.196Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "General Matter's official Greenhouse API returned job 5377107008 with HTTP 200 as an active Summer 2027 Mechanical Engineering internship in South Bay, Los Angeles during the August 21 check.",
+        "Greenhouse reports that the role was first published August 21, 2026 at 2:54:28 PM PDT and updated at 3:04:20 PM PDT, with no application deadline listed.",
+        "The internship covers mechanisms and mechanical structures from requirements and design through development, qualification, production release, testing, root-cause analysis, and cross-functional system integration.",
+        "The official source lists $30-$40 USD per hour, a monthly housing stipend, and overtime eligibility; it does not state the stipend amount, exact program dates, duration, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-19-nvidia-hardware-asic-design-internships-jr2023486",
       "title": "NVIDIA 2027 Internships: Hardware ASIC Design",
