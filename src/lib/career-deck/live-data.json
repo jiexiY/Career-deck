@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T06:42:48.478Z",
+  "updatedAt": "2026-08-21T06:59:18.813Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-21-sostrene-grene-product-design-intern-first-half-2027-1364599955",
+      "title": "Product Design Intern - 1. halvår af 2027",
+      "organization": "Søstrene Grene",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sostrene-grene-successfactors-1364599955",
+      "sourceName": "Søstrene Grene Careers / SAP SuccessFactors",
+      "sourceUrl": "https://career.sostrenegrene.com/job/Aarhus-C-Product-Design-Intern-1_-halv%C3%A5r-af-2027-8000/1364599955/",
+      "url": "https://career.sostrenegrene.com/talentcommunity/apply/1364599955/?locale=en_GB",
+      "location": "Åboulevarden 21, 8000 Aarhus C, Denmark - work arrangement and weekly hours not stated on official source",
+      "deadline": "Apply as soon as possible; interviews are held on a rolling basis. Official structured metadata is valid through September 14, 2026",
+      "compensation": "Unpaid internship",
+      "eligibility": "Applicants must be current product-design students at VIA, AARCH, KADK, Design School Kolding's product-design program, or another relevant international industrial-design school, and must be fluent in written and spoken Danish and English. The posting requires proficiency with Rhino3D and the Adobe suite, including Illustrator, InDesign, Photoshop, and Acrobat; KeyShot proficiency is preferred. Applicants should be able to start during the first half of 2027 for at least two months, preferably longer, and must submit a CV with an integrated portfolio. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T06:59:18.813Z",
+      "attemptedAt": "2026-08-21T06:59:18.813Z",
+      "updatedAt": "2026-08-21T06:59:18.813Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.94,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Søstrene Grene's official SAP SuccessFactors page returned job 1364599955 with an active Apply control during the August 20, 2026 check; structured metadata lists August 14, 2026 as the posting date and September 14, 2026 as the valid-through date.",
+        "The official posting describes an unpaid product-design internship at Åboulevarden 21 in Aarhus, with a flexible start during the first half of 2027 and a minimum duration of two months, preferably longer.",
+        "The posting requires current product-design or industrial-design study, written and spoken Danish and English, Rhino3D, and the Adobe suite, and lists KeyShot as preferred.",
+        "Work includes ideation, sketching, form development, production drawing, artwork preparation, sample feedback, and exposure to the full product-development process. The official source does not state weekly hours, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-21-union-home-mortgage-ux-ui-design-intern-331154",
       "title": "UX/UI Design Intern",
