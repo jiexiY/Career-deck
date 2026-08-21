@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T01:55:50.946Z",
+  "updatedAt": "2026-08-21T02:09:21.152Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -3366,6 +3366,134 @@
         "The official posting describes complex aircraft design assignments across design, analysis, electrical, and avionics disciplines, including support for new-product and sustaining designs and coordination with engineering and technical groups.",
         "The official Taleo page requires bachelor's-level study in Aerospace, Mechanical, or Electrical Engineering, lawful U.S. work authorization without visa sponsorship, and onsite work unless the hiring manager approves otherwise.",
         "Taleo metadata labels the position part-time, first shift, and Internship / Co-Op. The official source lists no exact program dates, weekly hours, application deadline, or compensation."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-logitech-cmf-design-intern-147674",
+      "title": "CMF Design Intern",
+      "organization": "Logitech",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-logitech-workday-147674",
+      "sourceName": "Logitech Workday",
+      "sourceUrl": "https://logitech.wd5.myworkdayjobs.com/Logitech",
+      "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Cork-Ireland/CMF-Design-Intern_147674",
+      "location": "Cork, Ireland - full-time, onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source; the posting mentions competitive benefits generally but does not confirm intern-specific eligibility",
+      "eligibility": "Applicants must be enrolled in an undergraduate or graduate program in Industrial Design, Textile and Surface Design, or a related field. The posting seeks interest in sustainability and material innovation; proficiency with 3D modeling software such as SolidWorks, Rhino, Fusion, or Creo and digital design tools; sketching and rendering skills; basic manufacturing-process knowledge; and a design portfolio. The official source does not state the internship duration, weekly hours, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T02:09:21.152Z",
+      "attemptedAt": "2026-08-21T02:09:21.152Z",
+      "updatedAt": "2026-08-21T02:09:21.152Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Logitech's official Workday detail API returned requisition 147674 as posted and application-enabled during the August 20, 2026 check; Workday reports a posting start date of August 14, 2026.",
+        "The official source identifies a full-time, onsite CMF Design internship in Cork within Logitech's Color, Material, Finish team, focused on sustainable material research, circular-design concepts, sketches, renderings, 3D prototypes, design reviews, and feasibility work with engineers.",
+        "The posting requires current undergraduate or graduate study in Industrial Design, Textile and Surface Design, or a related field and lists 3D modeling, digital design, sketching, rendering, manufacturing-process knowledge, sustainability interest, and a portfolio.",
+        "The official source lists no application deadline, internship duration, weekly hours, numeric compensation, work-authorization requirements, sponsorship terms, or confirmed intern-specific benefit eligibility."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-tiktok-product-design-intern-2027-summer-7667855239770736901",
+      "title": "Product Design Intern (TikTok-Design) - 2027 Summer",
+      "organization": "TikTok",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tiktok-careers-7667855239770736901",
+      "sourceName": "TikTok Careers",
+      "sourceUrl": "https://lifeattiktok.com/search/7667855239770736901",
+      "url": "https://lifeattiktok.com/resume/7667855239770736901/apply",
+      "location": "San Jose - work arrangement not stated on official source",
+      "deadline": "Rolling review; no closing date listed on official source",
+      "compensation": "$30 per hour in the selected city; TikTok says interns have day-one health, life, and wellbeing benefits, 10 paid holidays, paid sick time, and possible housing allowance when not fully remote, with benefits varying by employment and location",
+      "eligibility": "Applicants must be pursuing an undergraduate or master's degree in Human-Computer Interaction, Artificial Intelligence, Computer Science, Design, or a related technical discipline. The role requires full-stack product-design skills, strong interaction and UI fundamentals, AI-assisted coding skills for high-fidelity prototypes, and communication and collaboration skills. Preferred qualifications include product-design internship or project experience, familiarity with design systems, and interest in emerging technology and AI. Candidates may apply to no more than two positions across TikTok and its affiliates and should state their availability. The official source does not state exact program dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T02:09:21.152Z",
+      "attemptedAt": "2026-08-21T02:09:21.152Z",
+      "updatedAt": "2026-08-21T02:09:21.152Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TikTok's official careers page returned position 7667855239770736901, job code A169603, as an active San Jose internship with a working official application route during the August 20, 2026 check.",
+        "The official posting describes product-design ownership across short-video, live-streaming, and local-services experiences, cross-functional work with Product, Engineering, Research, and Data, UX iteration, AI-assisted prototyping, and design implementation.",
+        "The posting requires current undergraduate or master's study in HCI, AI, Computer Science, Design, or a related technical discipline and lists full-stack product design, interaction and UI fundamentals, AI-assisted coding, communication, and collaboration.",
+        "TikTok lists $30 per hour and specified intern benefits. It does not expose a publication date, exact program dates, weekly hours, work arrangement, closing date, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-tiktok-ai-product-design-intern-2027-summer-7667856128008702261",
+      "title": "AI Product Design Intern (TikTok-Design) - 2027 Summer",
+      "organization": "TikTok",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tiktok-careers-7667856128008702261",
+      "sourceName": "TikTok Careers",
+      "sourceUrl": "https://lifeattiktok.com/search/7667856128008702261",
+      "url": "https://lifeattiktok.com/resume/7667856128008702261/apply",
+      "location": "San Jose - work arrangement not stated on official source",
+      "deadline": "Rolling review; no closing date listed on official source",
+      "compensation": "$30 per hour in the selected city; TikTok says interns have day-one health, life, and wellbeing benefits, 10 paid holidays, paid sick time, and possible housing allowance when not fully remote, with benefits varying by employment and location",
+      "eligibility": "Applicants must be pursuing an undergraduate or master's degree in Human-Computer Interaction, Artificial Intelligence, Computer Science, Design, Psychology, or a related technical discipline. The posting requires interaction and UI skills, Figma, familiarity with iOS and Android guidelines, frequent use and understanding of AI products, and communication and collaboration skills. Preferred qualifications include an AI product-design internship or portfolio case study and skills in visual, motion, or user-research design. Candidates may apply to no more than two positions across TikTok and its affiliates and should state their availability. The official source does not state exact program dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T02:09:21.152Z",
+      "attemptedAt": "2026-08-21T02:09:21.152Z",
+      "updatedAt": "2026-08-21T02:09:21.152Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TikTok's official careers page returned position 7667856128008702261, job code A07489A, as an active San Jose internship with a working official application route during the August 20, 2026 check.",
+        "The official posting covers AI product and tool design from concept to launch, user-centered AI experiences, interaction logic, design standards, and use of AI tools in daily design workflows.",
+        "The posting requires current undergraduate or master's study in HCI, AI, Computer Science, Design, Psychology, or a related technical discipline and lists interaction and UI skills, Figma, mobile-platform guidelines, AI-product familiarity, communication, and collaboration.",
+        "TikTok lists $30 per hour and specified intern benefits. It does not expose a publication date, exact program dates, weekly hours, work arrangement, closing date, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-tiktok-design-engineering-intern-design-system-ai-workflow-2027-summer-7667857406611343621",
+      "title": "Design Engineering Intern (Design System & AI Workflow - TikTok-Design) - 2027 Summer",
+      "organization": "TikTok",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-tiktok-careers-7667857406611343621",
+      "sourceName": "TikTok Careers",
+      "sourceUrl": "https://lifeattiktok.com/search/7667857406611343621",
+      "url": "https://lifeattiktok.com/resume/7667857406611343621/apply",
+      "location": "San Jose - work arrangement not stated on official source",
+      "deadline": "Rolling review; no closing date listed on official source",
+      "compensation": "$30 per hour in the selected city; TikTok says interns have day-one health, life, and wellbeing benefits, 10 paid holidays, paid sick time, and possible housing allowance when not fully remote, with benefits varying by employment and location",
+      "eligibility": "Applicants must be pursuing an undergraduate or master's degree in Human-Computer Interaction, Artificial Intelligence, Computer Science, Design, or a related technical discipline. The posting requires AI-assisted coding with tools such as Cursor and Claude Code, end-to-end high-fidelity interactive prototyping, strong design judgment, and communication and collaboration skills. Preferred qualifications include agent orchestration, generative-model tools, model training, and shipped social, creator, content, or AI-driven side projects. Candidates may apply to no more than two positions across TikTok and its affiliates and should state their availability. The official source does not state exact program dates, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T02:09:21.152Z",
+      "attemptedAt": "2026-08-21T02:09:21.152Z",
+      "updatedAt": "2026-08-21T02:09:21.152Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.96,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "TikTok's official careers page returned position 7667857406611343621, job code A163782, as an active San Jose internship with a working official application route during the August 20, 2026 check.",
+        "The official posting covers AI-enabled design systems and workflows, internal design tools, automated asset generation, training-data production, multi-platform implementation with engineering, and UX iteration based on business metrics.",
+        "The posting requires current undergraduate or master's study in HCI, AI, Computer Science, Design, or a related technical discipline and lists AI-assisted coding, high-fidelity prototyping, design judgment, communication, and collaboration.",
+        "TikTok lists $30 per hour and specified intern benefits. It does not expose a publication date, exact program dates, weekly hours, work arrangement, closing date, work-authorization requirements, or sponsorship terms, so none are inferred."
       ],
       "needsReview": false
     },
