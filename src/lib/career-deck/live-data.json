@@ -1,6 +1,134 @@
 {
-  "updatedAt": "2026-08-21T08:03:49.753Z",
+  "updatedAt": "2026-08-21T08:15:49.896Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-21-fluid-design-industrial-design-intern-march-2027-16600044",
+      "title": "Internship Industrial Design March 2027 (m/f/d)",
+      "organization": "FLUID Design GmbH",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-fluid-design-join-16600044",
+      "sourceName": "FLUID Design / JOIN",
+      "sourceUrl": "https://join.com/companies/fluid/16600044-internship-industrial-design-march-2027-m-f-d",
+      "url": "https://join.com/companies/fluid/16600044-internship-industrial-design-march-2027-m-f-d",
+      "location": "Munich, Germany - six-month paid internship starting March 2027; the exact work arrangement, weekly hours, and end date are not listed on the official source",
+      "deadline": "Not listed on official source; the posting says positions through the end of February 2027 are already filled and the March 2027 opening had an active application form on August 21, 2026",
+      "compensation": "Paid six-month internship; no numeric pay range or benefits are listed on the official source",
+      "eligibility": "Applicants must be enrolled creative industrial-design students seeking a curriculum-mandatory internship. The posting asks for English communication skills, 3D CAD proficiency with Rhino preferred, rendering experience with KeyShot preferred, Adobe software proficiency, conceptual and visual-design ability, and a PDF or website portfolio; LinkedIn profile links are not accepted as a portfolio. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T08:15:49.896Z",
+      "attemptedAt": "2026-08-21T08:15:49.896Z",
+      "updatedAt": "2026-08-21T08:15:49.896Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "FLUID Design's official JOIN page listed job 16600044 with an active application form for a six-month paid industrial-design internship in Munich starting March 2027 during the August 21, 2026 check.",
+        "The internship works in interdisciplinary teams on user-needs-based design concepts, final product designs, design guidelines, and strategies.",
+        "The posting requires enrolled creative industrial-design study, a curriculum-mandatory internship, English communication, 3D CAD and rendering skills, Adobe software, and a portfolio; it names Rhino and KeyShot as preferred tools.",
+        "JOIN's structured metadata exposes an old 2021 date-posted value even though the live role is for March 2027, indicating reused listing metadata. The page itself was active and recently updated, but it does not state a deadline, numeric pay, exact end date, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-fluid-design-experience-design-intern-march-2027-16469138",
+      "title": "Internship Experience Design March 2027 (m/f/d)",
+      "organization": "FLUID Design GmbH",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-fluid-design-join-16469138",
+      "sourceName": "FLUID Design / JOIN",
+      "sourceUrl": "https://join.com/companies/fluid/16469138-internship-experience-design-march-2027-m-f-d",
+      "url": "https://join.com/companies/fluid/16469138-internship-experience-design-march-2027-m-f-d",
+      "location": "Munich, Germany - paid five-to-six-month curriculum internship starting March 2027; the exact work arrangement, weekly hours, and end date are not listed on the official source",
+      "deadline": "Not listed on official source; the role had an active application form on August 21, 2026",
+      "compensation": "Paid five-to-six-month internship; no numeric pay range or benefits are listed on the official source",
+      "eligibility": "Applicants must be enrolled design students throughout the internship and complete it as a five-to-six-month mandatory part of their curriculum. The posting asks for visual-storytelling, interaction-design, digital-interface, conceptual-design, Figma, Adobe Creative Cloud, and prototyping skills or interest; curiosity about Arduino, sensors, AR/VR, physical computing, and AI-supported prototyping; English communication; a CV; and work examples. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T08:15:49.896Z",
+      "attemptedAt": "2026-08-21T08:15:49.896Z",
+      "updatedAt": "2026-08-21T08:15:49.896Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "FLUID Design's official JOIN page listed job 16469138 with an active application form for a paid Experience Design internship in Munich starting March 2027 during the August 21, 2026 check.",
+        "The role spans visual experiences in Figma and design systems, interface and experience concepts, interactive digital and physical prototypes, sensors or hardware, and AI-supported prototyping workflows.",
+        "The posting requires enrolled design-student status throughout a five-to-six-month curriculum-mandatory internship, English communication, a CV, and work examples, and it asks for visual, interaction, interface, conceptual, Figma, Adobe, and prototyping capabilities or interests.",
+        "The official source does not list an application deadline, numeric pay, exact start or end date beyond March 2027, weekly hours, work arrangement, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-07-pa-consulting-industrial-design-intern-fall-2026-744000142162319",
+      "title": "Industrial Design Intern - Fall 2026",
+      "organization": "PA Consulting",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-pa-consulting-smartrecruiters-744000142162319",
+      "sourceName": "PA Consulting Careers / SmartRecruiters",
+      "sourceUrl": "https://www.paconsulting.com/jobs/industrial-design-intern-fall-2026-744000142162319",
+      "url": "https://jobs.smartrecruiters.com/PAConsulting/744000142162319-industrial-design-intern-fall-2026",
+      "location": "Boston, MA - full-time; the description calls the approximately four-month role in person, while PA's hybrid policy requires at least two days per week in the office or on a client site and may require up to five days, depending on the assignment",
+      "deadline": "Not listed on official source; the employer and SmartRecruiters pages remained active on August 21, 2026",
+      "compensation": "$33 USD per hour for this Massachusetts role",
+      "eligibility": "Applicants must be currently pursuing or have recently completed a degree in Industrial Design or a related field and submit a portfolio. The posting asks for design-process and concept-exploration ability, visual storytelling, sketching and visualization, Adobe Creative Suite, 3D modeling and rendering with SolidWorks and KeyShot preferred, hands-on prototyping and model making, communication and collaboration, and interest in emerging technology and generative-AI tools such as Midjourney, Vizcom, or Microsoft Copilot. The official source does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T08:15:49.896Z",
+      "attemptedAt": "2026-08-21T08:15:49.896Z",
+      "updatedAt": "2026-08-21T08:15:49.896Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "PA Consulting's employer careers site and official SmartRecruiters page both listed requisition 744000142162319 as active during the August 21, 2026 check; SmartRecruiters records a posting date of August 7, 2026.",
+        "The paid, approximately four-month internship supports research, ideation, concept development, CAD modeling, rendering, prototyping, storytelling, client work, and internal innovation with industrial designers, engineers, strategists, and technologists.",
+        "The role requires current or recently completed Industrial Design or related study and a portfolio, with Adobe Creative Suite, sketching, visualization, SolidWorks and KeyShot preferred, prototyping, model-making, communication, and collaboration among the listed capabilities.",
+        "The description calls the role in person, while PA's additional information describes a hybrid policy of at least two office or client-site days per week and up to five as needed. The source lists $33 per hour but no application deadline, exact program dates, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-milwaukee-tool-fall-2026-industrial-designer-co-op-yf-y-fj4",
+      "title": "Fall 2026: Industrial Designer Co-Op",
+      "organization": "Milwaukee Tool",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-milwaukee-tool-yello-yf-y-fj4vyab84xiipfo0g",
+      "sourceName": "Milwaukee Tool / Yello",
+      "sourceUrl": "https://tti.yello.co/external/requisitions/YF_Y_fJ4VYAb84xiiPfo0g",
+      "url": "https://tti.yello.co/external/requisitions/YF_Y_fJ4VYAb84xiiPfo0g/apply",
+      "location": "Location not listed on the role-specific Yello source; Milwaukee Tool says most internships are in Brookfield or Milwaukee, WI and are in person, but the exact assignment is not stated",
+      "deadline": "Not listed on official source; the Yello application form remained active on August 21, 2026",
+      "compensation": "Paid co-op with a housing stipend, 401(k) savings plan, associate tool discount, and onsite wellness, fitness, food, and coffee amenities; no numeric pay range is listed on the official source",
+      "eligibility": "Applicants must be currently pursuing a BS, BA, or BFA in Industrial Design and submit both a resume and a portfolio showing visual thinking, ideation, renderings, storyboards, CAD modeling, and design process. The posting also asks for teamwork, adaptability across several projects, and clear communication. The application asks whether sponsorship will be required now or in the future, but the official source does not state an eligibility or sponsorship policy.",
+      "discoveredAt": "2026-08-21T08:15:49.896Z",
+      "attemptedAt": "2026-08-21T08:15:49.896Z",
+      "updatedAt": "2026-08-21T08:15:49.896Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Milwaukee Tool's official Yello page listed the Fall 2026 Industrial Designer Co-Op with an active one-step application form during the August 21, 2026 check.",
+        "The role-specific source gives the Fall term as September 14 through December 18, 2026 and describes work from initial sketches through production using 2D sketching, study models, 3D CAD, ergonomic mockups, cross-functional collaboration, and design presentations.",
+        "The posting requires current BS, BA, or BFA study in Industrial Design plus a resume and process-focused portfolio, and identifies the role as paid with a housing stipend and other benefits.",
+        "The role-specific page does not state a location, deadline, numeric pay, weekly hours, work-authorization requirements, or sponsorship policy. Milwaukee Tool's employer internship page says most internships are in Brookfield or Milwaukee and in person, but it does not assign this Fall role to a specific site, so no exact location is inferred."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-06-globalfoundries-ip-design-engineering-intern-fall-2026-jr-2502699",
       "title": "IP & Design Engineering Intern (Fall 2026)",
