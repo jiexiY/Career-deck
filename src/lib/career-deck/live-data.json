@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-08-21T09:36:22.131Z",
+  "updatedAt": "2026-08-21T09:47:21.382Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-31-zoll-industrial-design-intern-r19818",
+      "title": "Industrial Design Intern",
+      "organization": "ZOLL Medical Corporation",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-zoll-workday-r19818",
+      "sourceName": "ZOLL Careers / Workday",
+      "sourceUrl": "https://careers.zoll.com/jobs/r19818",
+      "url": "https://zoll.wd5.myworkdayjobs.com/ZOLLMedicalCorp/job/Pittsburgh-PA/Industrial-Design-Intern_R19818",
+      "location": "Pittsburgh, PA - full-time hybrid; the official sources do not list weekly hours, internship duration, or start and end dates",
+      "deadline": "Applications are accepted on an ongoing basis until the position is filled",
+      "compensation": "$25-$35 per hour; the actual rate may vary based on shift, geography, skills, education, experience, and other qualifications, and the posting does not clarify intern benefit eligibility",
+      "eligibility": "Applicants must be currently enrolled in or have experience with an Industrial Design, Product Design, or other applicable design program. Required experience includes rapidly sketching and iterating ideas, creating low- and mid-fidelity physical prototypes, applying user-centered design methods, selecting materials and manufacturing methods, collaborating directly with engineers, and presenting a portfolio with two or three examples of the design process. The posting also requires proficiency with drawing software such as Photoshop or Illustrator, KeyShot, and 3D CAD tools such as SolidWorks or Fusion 360. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T09:47:21.382Z",
+      "attemptedAt": "2026-08-21T09:47:21.382Z",
+      "updatedAt": "2026-08-21T09:47:21.382Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "ZOLL's employer-hosted careers page listed Industrial Design Intern R19818 with active Apply controls during the August 21, 2026 check, and the linked official Workday detail endpoint returned the same requisition as active.",
+        "Workday records July 31, 2026 as the posting start date and identifies the Pittsburgh role as full-time; ZOLL's employer page labels the arrangement hybrid.",
+        "The intern supports current and future LifeVest development through concept sketching, physical prototypes, stakeholder interviews, user testing, use cases, 2D and 3D models, CAD renderings, design documentation, and collaboration with engineering teams and vendors.",
+        "The official source lists $25-$35 per hour and an ongoing-until-filled deadline but does not state weekly hours, internship dates, work-authorization requirements, sponsorship terms, or intern benefit eligibility."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-06-23-glance-ux-design-intern-7916115",
+      "title": "UX Design - Intern",
+      "organization": "Glance",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-glance-greenhouse-7916115",
+      "sourceName": "Glance Greenhouse",
+      "sourceUrl": "https://job-boards.greenhouse.io/glance/jobs/7916115",
+      "url": "https://job-boards.greenhouse.io/glance/jobs/7916115",
+      "location": "Bengaluru, India - assigned to Glance's Bangalore office; the official posting does not state weekly hours, internship duration, or workplace arrangement",
+      "deadline": "Not listed on official source; Glance's Greenhouse page had active Apply and Submit application controls on August 21, 2026",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants should be design students or recent graduates with a strong portfolio demonstrating both product thinking and visual craft. The posting seeks curiosity about interaction and user behavior, systems thinking, comfort shipping and iterating, and an interest in AI, ambient computing, or TV and large-screen experiences as a plus. The official source does not state degree requirements, work-authorization requirements, or sponsorship terms.",
+      "discoveredAt": "2026-08-21T09:47:21.382Z",
+      "attemptedAt": "2026-08-21T09:47:21.382Z",
+      "updatedAt": "2026-08-21T09:47:21.382Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Glance's official Greenhouse API returned job 7916115 during the August 21, 2026 check, and the corresponding ATS page displayed active Apply and Submit application controls.",
+        "Greenhouse identifies the role with Glance TV's Product & UX department in Bengaluru and records an updated timestamp of June 23, 2026 at 08:34:02 Eastern time.",
+        "The intern contributes UX and visual design for TV shopping cards, brand stores, editorial layouts, ambient surfaces, and AI-agent interactions while working through flows and edge cases, maintaining design-system patterns, joining critiques, and supporting engineering handoff.",
+        "The official source does not list compensation, an application deadline, weekly hours, internship duration, workplace arrangement, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-07-30-medpace-ux-design-intern-fall-2026-12894",
       "title": "UX Design Intern - Fall 2026",
