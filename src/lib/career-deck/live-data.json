@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T04:20:53.604Z",
+  "updatedAt": "2026-08-21T04:34:24.040Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7695,6 +7695,198 @@
         "The official posting describes a paid, 10-week hybrid User Experience Design internship based in Grainger's downtown Chicago office, with work on user and stakeholder discussions, feedback sessions, wireframes, prototypes, design concepts and flows, AI-enabled design workflows, and design presentations.",
         "The listing requires bachelor's-level study in a relevant design discipline with expected graduation between December 2027 and June 2028, design and research fundamentals, and wireframing or prototyping proficiency; Figma experience is preferred, and Grainger states that the role does not require sponsorship.",
         "Grainger lists starting pay of $33 USD per hour and notes that the rate is not guaranteed and may be amended. The official source does not list an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-17-crown-ux-interaction-design-co-op-146261",
+      "title": "UX Interaction Design Co-op - Spring 2027",
+      "organization": "Crown Equipment Corporation",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-crown-careers-146261",
+      "sourceName": "Crown Equipment Careers",
+      "sourceUrl": "https://us-careers.crown.com/job/New-Bremen-UX-Interaction-Design-Co-op-Spring-2027-OH-45869/1420008000/",
+      "url": "https://us-careers.crown.com/job/New-Bremen-UX-Interaction-Design-Co-op-Spring-2027-OH-45869/1420008000/",
+      "location": "New Bremen, OH",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be enrolled in an associate or bachelor's degree program in Interaction Design, Human-Computer Interaction, User Experience, Interactive Media, Visual Design, or a related field. The posting requires communication and interpersonal skills, work samples or a portfolio, and reliable transportation between local company locations. Applicants must be legally authorized to work in the United States; Crown states that it does not sponsor temporary visas or candidates who need current or future sponsorship. The official source does not state an application deadline or work arrangement.",
+      "discoveredAt": "2026-08-21T04:34:24.040Z",
+      "attemptedAt": "2026-08-21T04:34:24.040Z",
+      "updatedAt": "2026-08-21T04:34:24.040Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Crown Equipment Corporation's official careers page returned requisition 146261 as active during the August 20, 2026 check and records an official posting date of August 17, 2026.",
+        "The official posting describes a Spring 2027 UX interaction-design co-op in New Bremen working on lift-truck interfaces, warehouse-management tools, and mobile applications through user research, field observation, interviews, task analysis, prototypes, and design-system documentation.",
+        "The listing requires relevant associate- or bachelor's-level study, communication skills, a portfolio or work samples, and transportation between local company locations.",
+        "Crown requires United States work authorization and states that it does not provide current or future visa sponsorship. The official source does not list compensation, an application deadline, or a work arrangement."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-17-crown-industrial-design-co-op-146258",
+      "title": "Industrial Design Co-op - Spring 2027",
+      "organization": "Crown Equipment Corporation",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-crown-careers-146258",
+      "sourceName": "Crown Equipment Careers",
+      "sourceUrl": "https://us-careers.crown.com/job/New-Bremen-Industrial-Design-Co-op-Spring-2027-OH-45869/1420008800/",
+      "url": "https://us-careers.crown.com/job/New-Bremen-Industrial-Design-Co-op-Spring-2027-OH-45869/1420008800/",
+      "location": "New Bremen, OH",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be enrolled in a bachelor's degree program in Industrial Design. The posting seeks communication, analytical problem-solving, and judgment skills and requires reliable transportation between local company locations. Applicants must be legally authorized to work in the United States; Crown states that it does not sponsor temporary visas or candidates who need current or future sponsorship. The official source does not state an application deadline or work arrangement.",
+      "discoveredAt": "2026-08-21T04:34:24.040Z",
+      "attemptedAt": "2026-08-21T04:34:24.040Z",
+      "updatedAt": "2026-08-21T04:34:24.040Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Crown Equipment Corporation's official careers page returned requisition 146258 as active during the August 20, 2026 check and records an official posting date of August 17, 2026.",
+        "The official posting describes a Spring 2027 industrial-design co-op in New Bremen covering user and product research, field research, concepts, sketches, renderings, models, ergonomics, materials, mechanisms, color and finish, 3D CAD, rapid prototypes, manufacturability, graphics, and field testing.",
+        "The listing requires current bachelor's-level study in Industrial Design plus communication, analytical problem-solving, and judgment skills and transportation between local company locations.",
+        "Crown requires United States work authorization and states that it does not provide current or future visa sponsorship. The official source does not list compensation, an application deadline, or a work arrangement."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-17-crown-visual-design-co-op-146260",
+      "title": "Visual Design Co-op - Spring 2027",
+      "organization": "Crown Equipment Corporation",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-crown-careers-146260",
+      "sourceName": "Crown Equipment Careers",
+      "sourceUrl": "https://us-careers.crown.com/job/New-Bremen-Visual-Design-Co-op-Spring-2027-OH-45869/1420008300/",
+      "url": "https://us-careers.crown.com/job/New-Bremen-Visual-Design-Co-op-Spring-2027-OH-45869/1420008300/",
+      "location": "New Bremen, OH",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must have completed the first year of a two- or four-year Graphic Design or Visual Communications program. The posting requires experience with Adobe Photoshop, Illustrator, and InDesign and asks applicants to provide a portfolio link or PDF. Applicants must be legally authorized to work in the United States; Crown states that it does not sponsor temporary visas or candidates who need current or future sponsorship. The official source does not state an application deadline or work arrangement.",
+      "discoveredAt": "2026-08-21T04:34:24.040Z",
+      "attemptedAt": "2026-08-21T04:34:24.040Z",
+      "updatedAt": "2026-08-21T04:34:24.040Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Crown Equipment Corporation's official careers page returned requisition 146260 as active during the August 20, 2026 check and records an official posting date of August 17, 2026.",
+        "The official posting describes a Spring 2027 visual-design co-op in New Bremen supporting product branding, interaction design, product graphics, labels, mock-up decals, print and package design, presentations, typography, iconography, color, and visual documentation.",
+        "The listing requires completion of the first year of a two- or four-year Graphic Design or Visual Communications program, Adobe design-tool experience, and a portfolio link or PDF.",
+        "Crown requires United States work authorization and states that it does not provide current or future visa sponsorship. The official source does not list compensation, an application deadline, or a work arrangement."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-17-hilton-user-experience-design-intern-218190",
+      "title": "2027 Corporate Summer Internship - User Experience and Design",
+      "organization": "Hilton",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hilton-oracle-218190",
+      "sourceName": "Hilton Oracle Careers",
+      "sourceUrl": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218190",
+      "url": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218190",
+      "location": "McLean, VA - onsite; 40 hours per week for 10 weeks from June 1 through August 6, 2027",
+      "deadline": "Not listed on official source",
+      "compensation": "$25 USD per hour plus a one-time $2,500 stipend",
+      "eligibility": "Applicants must be able to complete the full 10-week program and work 40 hours per week onsite in McLean. Hilton lists current sophomore or junior standing in postsecondary education, or less than one year of professional experience, as a minimum qualification. Preferred backgrounds include a bachelor's degree in Design, User Experience, Marketing, Advertising, Communications, or a related field; exposure to Figma, Adobe Creative Cloud, Airtable, Jira, AI, or similar tools; and project, internship, or campus experience. The official source does not state an application deadline, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-08-21T04:34:24.040Z",
+      "attemptedAt": "2026-08-21T04:34:24.040Z",
+      "updatedAt": "2026-08-21T04:34:24.040Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hilton's official Oracle recruiting API returned requisition 218190 as active during the August 20, 2026 check, with an external posting start date of August 16, 2026 at 22:00 Pacific time and no posted end date.",
+        "The official posting describes an onsite, 10-week corporate User Experience and Design internship in McLean running June 1-August 6, 2027 for 40 hours per week, with work on research, analysis, presentations, digital experiences, design operations, and user-centered design.",
+        "Hilton requires full-program availability and onsite work and lists sophomore or junior postsecondary standing, or less than one year of professional experience, as a minimum qualification; relevant design study and exposure to Figma, Adobe Creative Cloud, Airtable, Jira, and AI tools are preferred.",
+        "Hilton lists pay of $25 USD per hour plus a one-time $2,500 stipend. The official source does not list an application deadline, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-10-srp-college-intern-design-engineering-20429",
+      "title": "College Intern - Design Engineering",
+      "organization": "Salt River Project",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-srp-careers-20429",
+      "sourceName": "SRP Careers",
+      "sourceUrl": "https://careers.srpnet.com/job/Tempe-College-Intern-Design-Engineering-AZ-85280/1417905600/",
+      "url": "https://careers.srpnet.com/job/Tempe-College-Intern-Design-Engineering-AZ-85280/1417905600/",
+      "location": "Tempe, AZ - hybrid eligible where the work allows; employees must live and work in Arizona",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "College coursework is evaluated individually. Preferred applicants are juniors or seniors pursuing an ABET-accredited bachelor's degree in Electrical Engineering or a closely related field, with power, circuits, or energy coursework, Microsoft Office skills, the ability to work in office and field environments, and familiarity with AutoCAD, AutoCAD Electrical, MicroStation, or GIS. Applicants must be legally authorized to work in the United States; SRP states that it does not sponsor H-1B, OPT, or other employment-related visas. The official source does not state an application deadline.",
+      "discoveredAt": "2026-08-21T04:34:24.040Z",
+      "attemptedAt": "2026-08-21T04:34:24.040Z",
+      "updatedAt": "2026-08-21T04:34:24.040Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Salt River Project's official careers page returned requisition 20429 as active during the August 20, 2026 check and records an official posting date of August 10, 2026.",
+        "The official posting describes a 15- to 40-hour-per-week design-engineering internship in Tempe covering voltage-drop and flicker calculations, fault current, cable pulling, overhead and underground distribution design, engineering standards, design reviews, field observation, structural analysis, and ampacity studies.",
+        "SRP prefers junior- or senior-level Electrical Engineering or closely related ABET study, relevant power or circuits coursework, office and field capability, and familiarity with AutoCAD, AutoCAD Electrical, MicroStation, or GIS.",
+        "SRP allows up to three telework days per week where the job permits, requires employees to live and work in Arizona, and does not sponsor H-1B, OPT, or other employment-related visas. The official source does not list compensation or an application deadline."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-genesys-user-experience-design-intern-jr111614",
+      "title": "User Experience Design Intern",
+      "organization": "Genesys",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-genesys-workday-jr111614",
+      "sourceName": "Genesys Workday",
+      "sourceUrl": "https://genesys.wd1.myworkdayjobs.com/Genesys/job/Galway-Flexible/User-Experience-Design-Intern_JR111614",
+      "url": "https://genesys.wd1.myworkdayjobs.com/Genesys/job/Galway-Flexible/User-Experience-Design-Intern_JR111614",
+      "location": "Galway, Ireland - hybrid from the Galway office; full time from January 11 through the end of August 2027",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be working toward a degree in Human-Computer Interaction, Interaction Design, Industrial Design, Visual Design, or a related field. The posting seeks UX and interaction-design fundamentals across problem framing, user flows, wireframes, prototyping, usability testing, and iteration; desktop and mobile product experience; Figma proficiency; and a portfolio. Figma Make, advanced prototyping, and AI-assisted design tools are beneficial. The official source does not state an application deadline, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-08-21T04:34:24.040Z",
+      "attemptedAt": "2026-08-21T04:34:24.040Z",
+      "updatedAt": "2026-08-21T04:34:24.040Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Genesys's official Workday careers page returned requisition JR111614 with HTTP 200 during the August 20, 2026 check and displayed it as posted two days earlier; the underlying Workday detail API denied automated access, so no exact posting date was inferred.",
+        "The official posting describes a full-time, hybrid User Experience Design internship based from the Galway office, running January 11 through the end of August 2027, with work on requirements, conceptual models, personas, scenarios, user flows, wireframes, information architecture, prototypes, visual artifacts, and usability-centered iteration for web and mobile products.",
+        "The listing requires relevant degree study, UX and interaction-design fundamentals, desktop and mobile experience, Figma proficiency, and a portfolio; Figma Make, advanced prototyping, and AI-assisted design-tool experience are beneficial.",
+        "Genesys does not list compensation, an application deadline, work-authorization requirements, or sponsorship terms on the official posting."
       ],
       "needsReview": false
     }
