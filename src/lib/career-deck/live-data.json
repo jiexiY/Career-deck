@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T04:34:24.040Z",
+  "updatedAt": "2026-08-21T04:57:54.209Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7887,6 +7887,102 @@
         "The official posting describes a full-time, hybrid User Experience Design internship based from the Galway office, running January 11 through the end of August 2027, with work on requirements, conceptual models, personas, scenarios, user flows, wireframes, information architecture, prototypes, visual artifacts, and usability-centered iteration for web and mobile products.",
         "The listing requires relevant degree study, UX and interaction-design fundamentals, desktop and mobile experience, Figma proficiency, and a portfolio; Figma Make, advanced prototyping, and AI-assisted design-tool experience are beneficial.",
         "Genesys does not list compensation, an application deadline, work-authorization requirements, or sponsorship terms on the official posting."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-31-pg-design-co-op-spring-2027-r000156511",
+      "title": "Design Co-op Spring 2027",
+      "organization": "Procter & Gamble",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-pg-workday-r000156511",
+      "sourceName": "P&G Workday",
+      "sourceUrl": "https://pg.wd5.myworkdayjobs.com/en-US/1000/job/Design-Co-op-Spring-2027_R000156511",
+      "url": "https://pg.wd5.myworkdayjobs.com/en-US/1000/job/Design-Co-op-Spring-2027_R000156511",
+      "location": "Cincinnati, OH - full time, 40 hours per week; Spring session is approximately January through April 2027",
+      "deadline": "Not listed on official source",
+      "compensation": "$29-$50 USD per hour; actual compensation depends on factors including location, degree or credentials, skills, and experience",
+      "eligibility": "Applicants must be attending a university or college with a design major and have a portfolio demonstrating creative excellence, human-centered design thinking, technical mastery, prototyping and iteration, and presentation skills. P&G's posting includes industrial-design work on packaging, devices, and delivery systems and digital-design work spanning UI/UX, communication design, interactive design, and digital products. Immigration sponsorship is not available for this role. The official source does not state an application deadline or work arrangement.",
+      "discoveredAt": "2026-08-21T04:57:54.209Z",
+      "attemptedAt": "2026-08-21T04:57:54.209Z",
+      "updatedAt": "2026-08-21T04:57:54.209Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "P&G's official public Workday API returned requisition R000156511 as posted and accepting applications during the August 20, 2026 check, with an official posting start date of July 31, 2026.",
+        "The official posting describes a full-time, 40-hour-per-week Spring 2027 design co-op in Cincinnati, approximately January through April, with graphic, industrial, and digital design tracks covering packaging, products, devices, UI/UX, and digital contexts.",
+        "The listing requires current university or college study in design and a portfolio demonstrating design craft, human-centered problem solving, prototyping, technical mastery, and visual and verbal presentation skills.",
+        "P&G lists pay of $29-$50 USD per hour and states that immigration sponsorship is unavailable. The official source does not list an application deadline or work arrangement."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-artefakt-product-design-intern-april-2027",
+      "title": "Product Design Intern",
+      "organization": "ARTEFAKT Design GmbH & Co. KG",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-artefakt-careers-product-design-intern-2027",
+      "sourceName": "ARTEFAKT Careers",
+      "sourceUrl": "https://artefakt.de/en/jobs-2/",
+      "url": "https://artefakt.de/en/jobs-2/",
+      "location": "Darmstadt, Germany - full time at ARTEFAKT's Darmstadt office; starts April 2027",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must have completed at least four semesters in a design-related degree program, and the internship must be a mandatory part of their studies. The posting seeks sketching ability, experience with Adobe Creative Cloud or Affinity and common CAD and rendering software, ideally Rhinoceros, and fluency in German and/or English. Applicants from abroad must hold a valid work and residence permit. A portfolio is requested as a PDF of no more than 15 MB or as a link. The official source does not state an application deadline.",
+      "discoveredAt": "2026-08-21T04:57:54.209Z",
+      "attemptedAt": "2026-08-21T04:57:54.209Z",
+      "updatedAt": "2026-08-21T04:57:54.209Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "ARTEFAKT Design's official careers page returned HTTP 200 and listed the Product Design Intern opening during the August 20, 2026 check; the page does not provide a publication date.",
+        "The official posting describes a full-time product-design internship starting in April 2027 at ARTEFAKT's Darmstadt office, covering research, concept and design development, digital and analog tools, workshop prototyping, and presentations for bicycle, sanitary, and furniture-industry projects.",
+        "The listing requires at least four completed semesters in a design-related degree program, a mandatory curricular internship, sketching ability, CAD and rendering experience, German and/or English, and a portfolio; foreign applicants need a valid work and residence permit.",
+        "ARTEFAKT does not list compensation or an application deadline on the official page."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-05-06-hendrick-design-engineering-intern-r-80377",
+      "title": "Design Engineering Intern (Spring/Summer 2027)",
+      "organization": "Hendrick Motorsports",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hendrick-workday-r-80377",
+      "sourceName": "Hendrick Motorsports Workday",
+      "sourceUrl": "https://hendrick.wd5.myworkdayjobs.com/en-US/HMSCareers/job/Hendrick-Motorsports/Design-Engineering-Intern--Spring-Summer-2027-_R-80377",
+      "url": "https://hendrick.wd5.myworkdayjobs.com/en-US/HMSCareers/job/Hendrick-Motorsports/Design-Engineering-Intern--Spring-Summer-2027-_R-80377",
+      "location": "Charlotte, NC - part time; 6-9-month assignment beginning in Spring 2027",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be full-time students carrying 12 semester hours at a four-year university and have completed at least 30 semester hours before the internship begins. Students who transferred from a two-year institution must have completed 12 semester hours at the four-year university before the start date. The minimum cumulative GPA is 2.8/4.0 or 3.0/4.0 depending on the functional area. The posting seeks education or experience involving structures, CAD modeling, procedures, design, and testing. The official source does not state an application deadline, work-authorization requirement, sponsorship policy, or work arrangement.",
+      "discoveredAt": "2026-08-21T04:57:54.209Z",
+      "attemptedAt": "2026-08-21T04:57:54.209Z",
+      "updatedAt": "2026-08-21T04:57:54.209Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hendrick Motorsports' official public Workday API returned requisition R-80377 as accepting applications during the August 20, 2026 check, with an official posting start date of May 6, 2026.",
+        "The official posting describes a part-time, 6-9-month design-engineering internship in Charlotte beginning in Spring 2027, focused on automotive structural design, CAD modeling, product modification, testing, PLM data, technical drawings, component specifications, and design-performance analysis.",
+        "The listing requires full-time four-year-university enrollment, minimum completed semester hours, a 2.8 or 3.0 cumulative GPA depending on functional area, and experience or education in structures, CAD modeling, procedures, design, and testing.",
+        "Hendrick Motorsports does not list compensation, an application deadline, work-authorization requirements, sponsorship terms, or a work arrangement on the official posting."
       ],
       "needsReview": false
     }
