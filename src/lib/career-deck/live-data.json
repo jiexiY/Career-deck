@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T06:21:25.558Z",
+  "updatedAt": "2026-08-21T06:42:48.478Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-21-union-home-mortgage-ux-ui-design-intern-331154",
+      "title": "UX/UI Design Intern",
+      "organization": "Union Home Mortgage",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-union-home-mortgage-paycom-331154",
+      "sourceName": "Union Home Mortgage Careers / Paycom",
+      "sourceUrl": "https://www.paycomonline.net/v4/ats/web.php/portal/56CA827D488C9EDCE842370F906D69ED/jobs/331154",
+      "url": "https://www.paycomonline.net/v4/ats/web.php/portal/56CA827D488C9EDCE842370F906D69ED/jobs/331154",
+      "location": "Strongsville, OH 44136 - based at Union Home Mortgage headquarters; 40 hours per week during the three-month summer program",
+      "deadline": "Applications accepted on a rolling basis; open until filled and may close before the posting expiration date",
+      "compensation": "Compensated internship; no numeric pay range or intern-specific benefits are listed on the official source",
+      "eligibility": "Applicants must be pursuing a four-year college degree in User Experience Design, Interaction Design, Product Design, Human-Computer Interaction, Visual Communication Design, Information Systems, Information Technology, or a related field. The posting seeks interest in user experience, interaction design, product design, and technology; visual and conceptual communication; interactive prototyping; modern UI/UX or prototyping tools; AI-assisted design tools; analytical problem solving; and written and verbal communication. Familiarity with Figma or a similar platform is required. AI-assisted design experience and coursework, personal projects, portfolios, or other user-experience examples are preferred. Union Home Mortgage participates in E-Verify, but the official source does not state sponsorship or other work-authorization terms.",
+      "discoveredAt": "2026-08-21T06:42:48.478Z",
+      "attemptedAt": "2026-08-21T06:42:48.478Z",
+      "updatedAt": "2026-08-21T06:42:48.478Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.97,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Union Home Mortgage's official Paycom posting returned job 331154 as an active UX/UI Design Intern role in Strongsville, Ohio, with an Apply control during the August 20, 2026 check.",
+        "The official posting describes a compensated, 40-hour-per-week internship based at Union Home Mortgage headquarters during a three-month summer program.",
+        "The role works with Product Owners, AI Software Engineers, business stakeholders, users, and design resources on user flows, interaction models, screen designs, functional prototypes, accessibility, responsive behavior, usability, and the design system.",
+        "The posting requires pursuit of a relevant four-year degree and familiarity with Figma or a similar platform. It does not list a numeric pay range, publication date, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-21-tiktok-ai-product-design-intern-2027-start-7667861682171611397",
       "title": "AI Product Design Intern (TikTok-Design)-2027 Start",
