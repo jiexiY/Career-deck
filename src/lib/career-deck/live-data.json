@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T20:22:32.229Z",
+  "updatedAt": "2026-08-21T21:28:03.451Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-19-nvidia-hardware-physical-design-vlsi-internships-jr2023501",
+      "title": "NVIDIA 2027 Internships: Hardware Physical Design / VLSI",
+      "organization": "NVIDIA",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-nvidia-workday-jr2023501",
+      "sourceName": "NVIDIA Careers / Workday",
+      "sourceUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
+      "location": "Santa Clara, CA - full-time, 12-week internship; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "Applications are accepted on an ongoing basis; NVIDIA's official Workday API returned the posting with canApply true and an August 19, 2026 posting start date",
+      "compensation": "$20-$71 USD per hour, based on position, location, year in school, degree, and experience. The official posting says interns are eligible for NVIDIA intern benefits but does not enumerate them.",
+      "eligibility": "Applicants must remain actively enrolled for the full internship while pursuing a B.S., M.S., or Ph.D. in Electrical Engineering, Computer Engineering, or a related field, and must clearly list the anticipated graduation month and year on the resume or CV. Relevant course or internship experience may be required in floorplanning, place and route, static timing analysis, power integrity and IR-drop analysis, physical verification, clock-tree synthesis, VLSI, computer architecture, mixed-signal and digital design, CAD and physical-design methodologies, synthesis, RC extraction, timing closure, power and noise analysis, and back-end verification. Depending on the role, Perl, C, C++, TCL, Linux, Scheme, Python, SKILL, Make, ICC2, Design Compiler, PrimeTime, Innovus, Virtuoso, or related EDA-tool knowledge may be required. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T21:28:03.451Z",
+      "attemptedAt": "2026-08-21T21:28:03.451Z",
+      "updatedAt": "2026-08-21T21:28:03.451Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "NVIDIA's official Workday API returned requisition JR2023501 with HTTP 200, canApply true, posted true, a full-time designation, and an August 19, 2026 posting start date during the August 21 check.",
+        "The official posting describes a 12-week Hardware Physical Design / VLSI internship spanning floorplanning, place and route, static timing analysis, power integrity, physical verification, clock-tree synthesis, CAD methodologies, timing closure, and back-end verification.",
+        "The posting requires active B.S., M.S., or Ph.D. enrollment in Electrical Engineering, Computer Engineering, or a related field for the full internship and requires the anticipated graduation month and year on the resume or CV.",
+        "The official source lists $20-$71 USD per hour, intern-benefit eligibility, and ongoing applications; it does not state exact internship dates, weekly hours, work arrangement, work-authorization terms, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-19-nvidia-hardware-design-for-test-dft-internships-jr2023487",
       "title": "NVIDIA 2027 Internships: Hardware Design for Test (DFT)",
