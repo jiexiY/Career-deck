@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T04:07:23.341Z",
+  "updatedAt": "2026-08-21T04:20:53.604Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7599,6 +7599,102 @@
         "The official posting describes one full-time, onsite Spring 2027 industrial-design intern or co-op opening beginning in January in Racine County, Wisconsin, supporting trend research, mood boards, sketching, model building, CMF documentation, KeyShot renderings, and product field testing.",
         "The listing requires associate- or bachelor's-level study in art, design, or product development at an accredited technical school or university and identifies communication, attention to detail, and Microsoft Office proficiency among its qualifications.",
         "Andis lists pay of up to $17 USD per hour. The official source does not list an application deadline, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-10-medpace-ux-design-intern-spring-2027-12924",
+      "title": "UX Design Intern - Spring 2027",
+      "organization": "Medpace, Inc.",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-medpace-careers-12924",
+      "sourceName": "Medpace Careers",
+      "sourceUrl": "https://careers.medpace.com/jobs/12924",
+      "url": "https://careers.medpace.com/jobs/12924",
+      "location": "Cincinnati, OH - office based; 40 hours per week",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing a bachelor's degree or higher in Visual/Communication Design, Human-Computer Interaction, Industrial Design, or a related field and be available to work 40 hours per week in Medpace's Cincinnati office. The role seeks experience defining and documenting UX and interaction requirements, a portfolio showing UX activities and deliverables, and experience with Figma or Adobe Creative Cloud. The official source does not state an application deadline, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-08-21T04:20:53.604Z",
+      "attemptedAt": "2026-08-21T04:20:53.604Z",
+      "updatedAt": "2026-08-21T04:20:53.604Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Medpace's official careers page returned job 12924 as an active posting during the August 20, 2026 check, with structured data recording an official posting timestamp of August 10, 2026 at 10:34 Pacific time.",
+        "The official posting describes a 40-hour-per-week, office-based Spring 2027 UX design internship in Cincinnati working on clinical-research software through user flows, wireframes, prototypes, high-fidelity web and mobile mockups, Agile or Lean UX practices, and design research.",
+        "The listing requires bachelor's-level or higher study in Visual/Communication Design, Human-Computer Interaction, Industrial Design, or a related field, plus UX documentation experience, a portfolio, and experience with Figma or Adobe Creative Cloud.",
+        "Medpace does not list compensation, an application deadline, work-authorization requirements, or sponsorship terms on the official posting."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-06-23-heron-power-electronics-design-engineer-intern-28af5d2d",
+      "title": "Intern, Electronics Design Engineer, Fall 2026/Spring 2027",
+      "organization": "Heron Power",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-heron-power-ashby-28af5d2d-bd93-4681-9422-05d17c3437eb",
+      "sourceName": "Heron Power Ashby",
+      "sourceUrl": "https://jobs.ashbyhq.com/heron-power/28af5d2d-bd93-4681-9422-05d17c3437eb",
+      "url": "https://jobs.ashbyhq.com/heron-power/28af5d2d-bd93-4681-9422-05d17c3437eb/application",
+      "location": "Scotts Valley, CA - full time and onsite",
+      "deadline": "Not listed on official source",
+      "compensation": "Not listed on official source",
+      "eligibility": "Applicants must be pursuing a bachelor's or master's degree in Electrical Engineering and have at least one prior internship term in an electrical-engineering field or examples of hardware projects. Required experience includes circuit simulation and ECAD tools such as LTSpice or Altium, microcontrollers and board-level protocols, analog circuits and power-conversion fundamentals, and hands-on electrical debugging with lab instruments. The official source does not state an application deadline, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-08-21T04:20:53.604Z",
+      "attemptedAt": "2026-08-21T04:20:53.604Z",
+      "updatedAt": "2026-08-21T04:20:53.604Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Heron Power's official Ashby job-board API returned posting 28af5d2d-bd93-4681-9422-05d17c3437eb as listed with active hosted and application URLs during the August 20, 2026 check; Ashby records an official publication timestamp of June 23, 2026 at 13:08 Pacific time.",
+        "The official posting identifies a full-time, onsite Fall 2026 or Spring 2027 electronics design-engineering internship in Scotts Valley involving subsystem architecture, circuit simulation and design, ECAD libraries, layout, schematic capture, component sourcing, testing, bring-up, and debugging.",
+        "The listing requires current bachelor's- or master's-level Electrical Engineering study, at least one prior electrical-engineering internship term or hardware-project examples, and experience with circuit simulation, ECAD tools, microcontrollers, board-level protocols, analog circuits, power conversion, and lab debugging.",
+        "Heron Power does not list compensation, an application deadline, work-authorization requirements, or sponsorship terms on the official posting."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-16-grainger-gtg-user-experience-design-intern-1419930600",
+      "title": "GTG Intern - User Experience Design",
+      "organization": "Grainger Businesses",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-grainger-careers-1419930600",
+      "sourceName": "Grainger Businesses Careers",
+      "sourceUrl": "https://jobs.grainger.com/job/CHICAGO-GTG-Intern-User-Experience-Design-1-IL-60661-4555/1419930600/",
+      "url": "https://jobs.grainger.com/job/CHICAGO-GTG-Intern-User-Experience-Design-1-IL-60661-4555/1419930600/",
+      "location": "Chicago, IL - hybrid; 10-week program based in the downtown Chicago office",
+      "deadline": "Not listed on official source",
+      "compensation": "$33 USD per hour starting pay; the employer states the rate is not guaranteed and may be amended",
+      "eligibility": "Applicants must be pursuing a bachelor's degree in Human-Centered Design, Design Methods, Human-Computer Interaction, Visual Design, UX Design, Product Design, Interaction Design, or a related field, with expected graduation between December 2027 and June 2028. The posting seeks design, usability, accessibility, and research fundamentals plus wireframing or prototyping-tool proficiency, with Figma preferred. Grainger states that the role does not require sponsorship. The official source does not list an application deadline.",
+      "discoveredAt": "2026-08-21T04:20:53.604Z",
+      "attemptedAt": "2026-08-21T04:20:53.604Z",
+      "updatedAt": "2026-08-21T04:20:53.604Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Grainger Businesses' official careers page returned posting 1419930600 as active during the August 20, 2026 check and dates the posting August 16, 2026.",
+        "The official posting describes a paid, 10-week hybrid User Experience Design internship based in Grainger's downtown Chicago office, with work on user and stakeholder discussions, feedback sessions, wireframes, prototypes, design concepts and flows, AI-enabled design workflows, and design presentations.",
+        "The listing requires bachelor's-level study in a relevant design discipline with expected graduation between December 2027 and June 2028, design and research fundamentals, and wireframing or prototyping proficiency; Figma experience is preferred, and Grainger states that the role does not require sponsorship.",
+        "Grainger lists starting pay of $33 USD per hour and notes that the rate is not guaranteed and may be amended. The official source does not list an application deadline."
       ],
       "needsReview": false
     }
