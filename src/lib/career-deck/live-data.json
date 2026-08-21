@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T02:22:51.438Z",
+  "updatedAt": "2026-08-21T03:36:53.087Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7503,6 +7503,38 @@
         "The official posting confirms a full-time September 21-December 18, 2026 term in Irvine, graduate enrollment in Electrical Engineering, Computer Engineering, or a related field, and hands-on schematic, PCB, prototyping, lab-validation, power, signal-integrity, and zonal-control work.",
         "The posting body calls the position in person, while Ashby metadata labels the workplace Hybrid and sets its remote flag; the location field follows the role description and preserves the metadata discrepancy.",
         "The official source does not list a numeric pay range or application deadline. Its generic rewards section discusses full-time bonus, equity, and benefits without confirming that those programs apply to this internship."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-21-kepler-fpga-digital-design-engineering-intern-f06ca5e6",
+      "title": "FPGA Digital Design Engineering Intern (January 2027) (4-16 months)",
+      "organization": "Kepler Communications",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-kepler-lever-f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03",
+      "sourceName": "Kepler Communications Lever",
+      "sourceUrl": "https://jobs.lever.co/kepler/f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03",
+      "url": "https://jobs.lever.co/kepler/f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03/apply",
+      "location": "Toronto, Ontario, Canada - hybrid; strong preference for working from the Toronto office at least 2-3 days per week",
+      "deadline": "Not listed on official source",
+      "compensation": "$29.75-$39.00 CAD per hour; actual total compensation depends on job-related knowledge, skills, experience, performance, and education or training",
+      "eligibility": "Applicants need at least two years in an Electrical or Computer Engineering degree program, or equivalent, and experience with Verilog, SystemVerilog, or VHDL. They must be currently enrolled in an undergraduate program at a Canadian post-secondary institution, return to study after the internship, and be available full time for 4-16 months beginning January 2027. Kepler strongly prefers candidates who can work from its Toronto office at least 2-3 days per week, while noting that flexibility may be discussed for exceptional candidates. The official source does not state an application deadline, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-08-21T03:36:53.087Z",
+      "attemptedAt": "2026-08-21T03:36:53.087Z",
+      "updatedAt": "2026-08-21T03:36:53.087Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Kepler Communications' official Lever API returned posting f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03 with active hosted and application URLs during the August 20, 2026 check; the posting says it is for a current vacancy and Lever records an initial publication timestamp of July 21, 2026 at 18:50:07 UTC.",
+        "The official posting identifies a hybrid, full-time January 2027 FPGA design-engineering internship or co-op in Toronto lasting 4-16 months, with work on FPGA code, custom IP, SDR and SDN controls, sensor interfaces, and high-speed FPGA interfaces.",
+        "The posting requires at least two years in an Electrical or Computer Engineering degree program or equivalent, current undergraduate enrollment at a Canadian post-secondary institution, return to studies after the internship, and Verilog, SystemVerilog, or VHDL experience.",
+        "Kepler lists an hourly rate of $29.75-$39.00 CAD. The official source does not list an application deadline, work-authorization requirements, or sponsorship terms."
       ],
       "needsReview": false
     }
