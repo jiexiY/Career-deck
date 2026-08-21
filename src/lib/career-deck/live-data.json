@@ -1,6 +1,102 @@
 {
-  "updatedAt": "2026-08-21T07:19:19.099Z",
+  "updatedAt": "2026-08-21T07:29:19.255Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-07-14-sharkninja-industrial-design-co-op-4655076006",
+      "title": "Fall 2026: Industrial Design Co-op (August through December)",
+      "organization": "SharkNinja",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-sharkninja-greenhouse-4655076006",
+      "sourceName": "SharkNinja Careers / Greenhouse",
+      "sourceUrl": "https://careers.sharkninja.com/job/needham/fall-2026-industrial-design-co-op-august-through-december/47204/91842038544",
+      "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4655076006",
+      "location": "Needham, MA - full-time, 40 hours per week and onsite five days per week; August through December 2026; no relocation or housing assistance",
+      "deadline": "Not listed on official source; the posting remained open with an Apply control on August 21, 2026",
+      "compensation": "$26-$35 USD per hour. Listed benefits include medical insurance, an HSA with company contribution, sick time, company holidays, employee product discounts, product testing opportunities, referral bonuses, and more, subject to eligibility.",
+      "eligibility": "Applicants must be currently enrolled in an industrial-design bachelor's or master's program, or have graduated from one within the past year, with an academic focus on industrial design. The role requires availability for a full-time, 40-hour-per-week schedule onsite in Needham five days per week, confidence using SolidWorks or Rhino, high-quality 3D rendering in KeyShot, and an original portfolio or work samples showing the product-development process. Familiarity with mechanical engineering and part design is also requested. The official source states that relocation and housing assistance are not available and does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T07:29:19.255Z",
+      "attemptedAt": "2026-08-21T07:29:19.255Z",
+      "updatedAt": "2026-08-21T07:29:19.255Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SharkNinja's employer-hosted careers page and official Greenhouse board returned job 4655076006 as an active Industrial Design Co-op in Needham with an Apply control during the August 21, 2026 check. The employer page lists July 14, 2026 as the posting date, and Greenhouse reports an August 18, 2026 update.",
+        "The official posting defines an August-through-December 2026 work period, 40 hours per week, and five onsite days per week, and explicitly says relocation and housing assistance are unavailable.",
+        "The work spans consumer research, concepting, sketches, renderings, visual and functional prototypes, production-ready CAD, CMF specifications, and collaboration with Design, Engineering, Marketing, and UX.",
+        "The posting requires current or recent industrial-design study, SolidWorks or Rhino, KeyShot, and work samples or a portfolio. It lists $26-$35 USD per hour but no application deadline, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-06-10-sharkninja-industrial-design-intern-4601610006",
+      "title": "Fall 2026: Industrial Design Intern (September through December)",
+      "organization": "SharkNinja",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-sharkninja-greenhouse-4601610006",
+      "sourceName": "SharkNinja Careers / Greenhouse",
+      "sourceUrl": "https://careers.sharkninja.com/job/needham/summer-2026-industrial-design-intern-june-to-september/47204/86214487440",
+      "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4601610006",
+      "location": "Needham, MA - full-time, 40 hours per week and onsite five days per week; September through December 2026; no relocation or housing assistance",
+      "deadline": "Not listed on official source; the posting remained open with an Apply control on August 21, 2026",
+      "compensation": "$17-$44 USD per hour. Listed benefits include medical insurance, an HSA with company contribution, sick time, company holidays, employee product discounts, product testing opportunities, referral bonuses, and more, subject to eligibility.",
+      "eligibility": "Applicants must be currently enrolled in an industrial-design bachelor's or master's program. The role requires availability for a full-time, 40-hour-per-week schedule onsite in Needham five days per week, confidence using SolidWorks or Rhino, high-quality 3D rendering in KeyShot, and an original portfolio or work samples showing the product-development process. Familiarity with mechanical engineering and part design is also requested. The official source states that relocation and housing assistance are not available and does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T07:29:19.255Z",
+      "attemptedAt": "2026-08-21T07:29:19.255Z",
+      "updatedAt": "2026-08-21T07:29:19.255Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SharkNinja's employer-hosted careers page and official Greenhouse board returned job 4601610006 as an active Industrial Design Intern opening in Needham with an Apply control during the August 21, 2026 check. The employer page lists June 10, 2026 as the posting date, and Greenhouse reports an August 18, 2026 update.",
+        "The official posting defines a September-through-December 2026 work period, 40 hours per week, and five onsite days per week, and explicitly says relocation and housing assistance are unavailable.",
+        "The role covers research and concepting through CAD and prototyping, including sketches, renderings, visual and functional prototypes, production-ready CAD, CMF details, and collaboration across Design, Engineering, Marketing, and UX.",
+        "The posting requires current industrial-design study, SolidWorks or Rhino, KeyShot, and work samples or a portfolio. It lists $17-$44 USD per hour but no application deadline, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-02-sharkninja-product-design-engineering-co-op-4646272006",
+      "title": "Fall 2026: Product Design Engineering Co-op, Advanced Development (July/August to December)",
+      "organization": "SharkNinja",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-sharkninja-greenhouse-4646272006",
+      "sourceName": "SharkNinja Careers / Greenhouse",
+      "sourceUrl": "https://careers.sharkninja.com/job/needham/fall-2026-product-design-engineering-co-op-advanced-development-july-to-december/47204/90824549568",
+      "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4646272006",
+      "location": "Needham, MA - full-time, 40 hours per week and onsite five days per week; July/August through December 2026; no relocation or housing assistance",
+      "deadline": "Not listed on official source; the posting remained open with an Apply control on August 21, 2026",
+      "compensation": "$30-$36 USD per hour. Listed benefits include medical insurance, an HSA with company contribution, sick time, company holidays, employee product discounts, product testing opportunities, referral bonuses, and more, subject to eligibility.",
+      "eligibility": "Applicants must be third-year-or-later bachelor's students, currently enrolled master's students, or within one year of graduation, with an academic focus in Industrial Design, Product Design Engineering, Mechanical Engineering with industrial-design coursework, or a related field. The role requires availability for a full-time, 40-hour-per-week schedule onsite in Needham five days per week; CAD experience with SolidWorks, Creo, or Rhino; physical and rapid prototyping skills; and a portfolio with at least two projects showing ideation, iteration, user testing, and technical considerations. The official source states that relocation and housing assistance are not available and does not state work-authorization or sponsorship terms.",
+      "discoveredAt": "2026-08-21T07:29:19.255Z",
+      "attemptedAt": "2026-08-21T07:29:19.255Z",
+      "updatedAt": "2026-08-21T07:29:19.255Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "SharkNinja's employer-hosted careers page and official Greenhouse board returned job 4646272006 as an active Product Design Engineering Co-op in Needham with an Apply control during the August 21, 2026 check. The employer page lists July 2, 2026 as the posting date, and Greenhouse reports an August 18, 2026 update.",
+        "The official posting defines a July/August-through-December 2026 work period, 40 hours per week, and five onsite days per week, and explicitly says relocation and housing assistance are unavailable.",
+        "The role combines industrial design and mechanical engineering through user-centered concept generation, design studies, rapid prototyping, user testing, and iterative refinement based on technical and consumer feedback.",
+        "The posting requires qualifying current or recent study, CAD and prototyping experience, and a process-focused portfolio with at least two projects. It lists $30-$36 USD per hour but no application deadline, work-authorization requirements, or sponsorship terms, so none are inferred."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-21-project44-product-design-intern-8101750",
       "title": "Product Design Intern",
