@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T05:27:54.685Z",
+  "updatedAt": "2026-08-21T05:51:25.292Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -8111,6 +8111,38 @@
         "The official posting identifies this as a UI/UX Design internship in Singapore from January through June 2027, covering product direction, visual design, user personas, journey mapping, user stories, testing, requirements gathering, concept design, prototyping, validation, and design documentation.",
         "KPMG seeks human-centered design and rapid-prototyping experience, initiative, collaboration, communication, and foundational proficiency with Figma and Adobe design tools.",
         "KPMG does not list a closing date, compensation, weekly hours, work arrangement, degree or enrollment requirement, work-authorization requirements, or sponsorship terms on the official posting."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-21-brokersatlas-ui-ux-design-intern",
+      "title": "UI/UX Design Intern",
+      "organization": "BrokersAtlas",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-brokersatlas-careers-ui-ux-design-intern",
+      "sourceName": "BrokersAtlas Careers",
+      "sourceUrl": "https://atlasbrokers.ca/careers",
+      "url": "https://atlasbrokers.ca/careers",
+      "location": "Remote-first - the official source says interns can work from anywhere in the world; geographic, tax, and work-authorization restrictions are not stated",
+      "deadline": "Not listed on official source",
+      "compensation": "Paid; amount and currency not listed on official source",
+      "eligibility": "BrokersAtlas describes its internship program as open to students and early-career professionals, with no prior industry experience required and a minimum three-month commitment. The official source does not list role-specific education, portfolio, experience, or tool requirements; exact dates; weekly hours; work-authorization requirements; or sponsorship terms.",
+      "discoveredAt": "2026-08-21T05:51:25.292Z",
+      "attemptedAt": "2026-08-21T05:51:25.292Z",
+      "updatedAt": "2026-08-21T05:51:25.292Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.95,
+        "freshness": 0.9,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "BrokersAtlas's employer-hosted careers page returned HTTP 200 and listed UI/UX Design Intern among eight open positions during the August 20, 2026 check; the page does not provide a publication date.",
+        "The official page describes a paid, remote-first internship program for students and early-career professionals with a minimum three-month commitment, mentorship, work on production features, and possible conversion to full-time.",
+        "BrokersAtlas says remote team members can work from anywhere in the world and directs applicants to careers@atlasbrokers.ca.",
+        "The source does not list a closing date, compensation amount or currency, exact dates, weekly hours, role-specific qualifications, work-authorization requirements, or sponsorship terms."
       ],
       "needsReview": false
     }
