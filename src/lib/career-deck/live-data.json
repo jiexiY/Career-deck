@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T21:28:03.451Z",
+  "updatedAt": "2026-08-21T21:38:33.279Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-19-nvidia-hardware-asic-design-internships-jr2023486",
+      "title": "NVIDIA 2027 Internships: Hardware ASIC Design",
+      "organization": "NVIDIA",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-nvidia-workday-jr2023486",
+      "sourceName": "NVIDIA Careers / Workday",
+      "sourceUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
+      "location": "Santa Clara, CA - full-time, 12-week internship; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "Applications are accepted on an ongoing basis; NVIDIA's official Workday API returned the posting with canApply true and an August 19, 2026 posting start date",
+      "compensation": "$20-$71 USD per hour, based on position, location, year in school, degree, and experience. The official posting says interns are eligible for NVIDIA intern benefits but does not enumerate them.",
+      "eligibility": "Applicants must remain actively enrolled for the full internship while pursuing a B.S., M.S., or Ph.D. in Electrical Engineering, Computer Engineering, or a related field, and must clearly list the anticipated graduation month and year on the resume or CV. Relevant course or internship experience may be required in RTL and HDL design, digital systems, VLSI, chip planning, timing and static timing analysis, synthesis, power and performance optimization, testbench creation, gate-level netlists, computer architecture and arithmetic, functional coverage, CMOS circuits, system-on-chip and SRAM design, architectural tradeoff analysis, power and noise analysis, silicon instrumentation, CAD and physical-design methodologies, floorplanning, power and clock distribution, packaging, place and route, timing closure, verification, and emulation. Depending on the role, SystemVerilog, Verilog, VHDL, UVM, Perl, TCL, C, C++, Python, Linux, or testbench-tool knowledge may be required. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-21T21:38:33.279Z",
+      "attemptedAt": "2026-08-21T21:38:33.279Z",
+      "updatedAt": "2026-08-21T21:38:33.279Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "NVIDIA's official Workday API returned requisition JR2023486 with HTTP 200, canApply true, posted true, a full-time designation, and an August 19, 2026 posting start date during the August 21 check.",
+        "The official posting describes a 12-week Hardware ASIC Design internship spanning RTL and HDL design, VLSI, static timing analysis, synthesis, power and performance optimization, computer architecture, SoC and SRAM design, physical-design methods, timing closure, verification, and emulation.",
+        "The posting requires active B.S., M.S., or Ph.D. enrollment in Electrical Engineering, Computer Engineering, or a related field for the full internship and requires the anticipated graduation month and year on the resume or CV.",
+        "The official source lists $20-$71 USD per hour, intern-benefit eligibility, and ongoing applications; it does not state exact internship dates, weekly hours, work arrangement, work-authorization terms, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-19-nvidia-hardware-physical-design-vlsi-internships-jr2023501",
       "title": "NVIDIA 2027 Internships: Hardware Physical Design / VLSI",
