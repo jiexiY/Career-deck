@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T08:32:50.194Z",
+  "updatedAt": "2026-08-21T08:46:20.395Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-04-02-manitou-group-design-engineering-intern-45575",
+      "title": "Design Engineering Intern",
+      "organization": "Manitou Group",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-manitou-group-careers-45575",
+      "sourceName": "Manitou Group Careers",
+      "sourceUrl": "https://careers.manitou-group.com/offers/design-engineering-intern/",
+      "url": "https://careers.manitou-group.com/offers/design-engineering-intern/",
+      "location": "Madison, SD - onsite, with occasional travel for local field testing; the contract is listed as up to six months, but exact dates and weekly hours are not stated",
+      "deadline": "Not listed on official source; Manitou Group's careers page had an active inline application form on August 21, 2026",
+      "compensation": "$21 per hour; the official posting describes a company benefits program but does not clarify intern-specific eligibility",
+      "eligibility": "Applicants must be currently enrolled in Aerospace, Mechanical, or Agricultural Engineering; completion of the sophomore year or later is preferred. The posting seeks 3D solid-modeling ability, attention to detail, follow-through, written and verbal communication, and experience or interest in hydraulic systems, electrical systems, engine environments, or structural design of mobile machinery. Applicants must be authorized to work in the United States, and the application form separately asks whether they are eligible to work without corporate visa sponsorship.",
+      "discoveredAt": "2026-08-21T08:46:20.395Z",
+      "attemptedAt": "2026-08-21T08:46:20.395Z",
+      "updatedAt": "2026-08-21T08:46:20.395Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Manitou Group's employer-hosted careers page listed job 45575 with an active inline application form during the August 21, 2026 check; the page reports an April 2, 2026 posting date.",
+        "The Madison, South Dakota internship trains students on Siemens NX and covers 3D solid models and drawings, design calculations and analysis, prototypes, design and cost reviews, assembly drawings, bills of material, production support, and field follow-up.",
+        "The official source lists $21 per hour, an onsite Madison location, occasional local field-testing travel, and a contract duration of up to six months, but it does not state an application deadline, exact dates, or weekly hours.",
+        "The posting requires current Aerospace, Mechanical, or Agricultural Engineering study and U.S. work authorization; the application also asks whether the candidate can work without corporate visa sponsorship."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-21-iudex-non-calculat-ux-ui-design-intern-16581935",
       "title": "UX/UI Design Intern",
