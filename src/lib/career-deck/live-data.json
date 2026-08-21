@@ -1,6 +1,102 @@
 {
-  "updatedAt": "2026-08-21T22:19:04.196Z",
+  "updatedAt": "2026-08-21T23:52:34.868Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-18-ge-aerospace-unison-engineering-intern-spring-2027-r5037093",
+      "title": "Unison Engineering Intern - Spring 2027",
+      "organization": "GE Aerospace (Unison Industries)",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5037093",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Spring-2027_R5037093-1",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Spring-2027_R5037093-1",
+      "location": "Beavercreek or Dayton, OH; Jacksonville, FL; Norwich, NY; or St. George, UT - full-time Spring 2027 internship; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "November 6, 2026; GE Aerospace's official Workday API returned the posting with canApply true and an August 18, 2026 posting start date",
+      "compensation": "Starts at $20 USD per hour and increases for each undergraduate year completed. Relocation support and housing assistance are available for interns who relocate; the upper pay bound and support amounts are not stated.",
+      "eligibility": "Applicants must have at least a 3.0 cumulative GPA and attend a full-time, nationally accredited baccalaureate or graduate engineering program in Aeronautical or Aerospace Engineering, Mechanical Engineering, Electrical Engineering, or Electrical and Computer Engineering. Reliable transportation is required. Applicants must already be legally authorized to work in the United States, and GE Aerospace will not provide employment-visa sponsorship now or in the future. Because the work involves export-controlled information, employment also requires U.S. Person status as a U.S. citizen, lawful permanent resident, asylee, or refugee. Offers are conditioned on a background investigation and drug screen.",
+      "discoveredAt": "2026-08-21T23:52:34.868Z",
+      "attemptedAt": "2026-08-21T23:52:34.868Z",
+      "updatedAt": "2026-08-21T23:52:34.868Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday API returned requisition R5037093 with HTTP 200, canApply true, posted true, a full-time designation, an August 18, 2026 posting start date, and a November 6, 2026 end date during the August 21 check.",
+        "The Spring 2027 internship supports aircraft-engine and component product development through electrical and mechanical requirements definition, design and analysis, hardware build, lab testing, and product or program support.",
+        "The official posting lists Beavercreek or Dayton, Ohio; Jacksonville, Florida; Norwich, New York; and St. George, Utah, and requires a 3.0 GPA plus full-time enrollment in an accepted engineering degree program.",
+        "The source lists pay starting at $20 USD per hour plus relocation and housing assistance for interns who relocate, and it requires existing U.S. work authorization, no current or future visa sponsorship, and qualifying U.S. Person status for export-controlled work."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-18-ge-aerospace-unison-engineering-intern-summer-2027-r5037097",
+      "title": "Unison Engineering Intern - Summer 2027",
+      "organization": "GE Aerospace (Unison Industries)",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5037097",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Summer-2027_R5037097",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Summer-2027_R5037097",
+      "location": "Beavercreek or Dayton, OH; Jacksonville, FL; Norwich, NY; or St. George, UT - full-time Summer 2027 internship; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "November 6, 2026; GE Aerospace's official Workday API returned the posting with canApply true and an August 18, 2026 posting start date",
+      "compensation": "Starts at $20 USD per hour and increases for each undergraduate year completed. Relocation support and housing assistance are available for interns who relocate; the upper pay bound and support amounts are not stated.",
+      "eligibility": "Applicants must have at least a 3.0 cumulative GPA and attend a full-time, nationally accredited baccalaureate or graduate engineering program in Aeronautical or Aerospace Engineering, Mechanical Engineering, Electrical Engineering, or Electrical and Computer Engineering. Reliable transportation is required. Applicants must already be legally authorized to work in the United States, and GE Aerospace will not provide employment-visa sponsorship now or in the future. Because the work involves export-controlled information, employment also requires U.S. Person status as a U.S. citizen, lawful permanent resident, asylee, or refugee. Offers are conditioned on a background investigation and drug screen.",
+      "discoveredAt": "2026-08-21T23:52:34.868Z",
+      "attemptedAt": "2026-08-21T23:52:34.868Z",
+      "updatedAt": "2026-08-21T23:52:34.868Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday API returned requisition R5037097 with HTTP 200, canApply true, posted true, a full-time designation, an August 18, 2026 posting start date, and a November 6, 2026 end date during the August 21 check.",
+        "The Summer 2027 internship supports aircraft-engine and component product development through electrical and mechanical requirements definition, design and analysis, hardware build, lab testing, and product or program support.",
+        "The official posting lists Beavercreek or Dayton, Ohio; Jacksonville, Florida; Norwich, New York; and St. George, Utah, and requires a 3.0 GPA plus full-time enrollment in an accepted engineering degree program.",
+        "The source lists pay starting at $20 USD per hour plus relocation and housing assistance for interns who relocate, and it requires existing U.S. work authorization, no current or future visa sponsorship, and qualifying U.S. Person status for export-controlled work."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-18-ge-aerospace-unison-engineering-intern-fall-2027-r5037092",
+      "title": "Unison Engineering Intern - Fall 2027",
+      "organization": "GE Aerospace (Unison Industries)",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5037092",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Fall-2027_R5037092-1",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Fall-2027_R5037092-1",
+      "location": "Beavercreek or Dayton, OH; Jacksonville, FL; Norwich, NY; or St. George, UT - full-time Fall 2027 internship; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "November 6, 2026; GE Aerospace's official Workday API returned the posting with canApply true and an August 18, 2026 posting start date",
+      "compensation": "Starts at $20 USD per hour and increases for each undergraduate year completed. Relocation support and housing assistance are available for interns who relocate; the upper pay bound and support amounts are not stated.",
+      "eligibility": "Applicants must have at least a 3.0 cumulative GPA and attend a full-time, nationally accredited baccalaureate or graduate engineering program in Aeronautical or Aerospace Engineering, Mechanical Engineering, Electrical Engineering, or Electrical and Computer Engineering. Reliable transportation is required. Applicants must already be legally authorized to work in the United States, and GE Aerospace will not provide employment-visa sponsorship now or in the future. Because the work involves export-controlled information, employment also requires U.S. Person status as a U.S. citizen, lawful permanent resident, asylee, or refugee. Offers are conditioned on a background investigation and drug screen.",
+      "discoveredAt": "2026-08-21T23:52:34.868Z",
+      "attemptedAt": "2026-08-21T23:52:34.868Z",
+      "updatedAt": "2026-08-21T23:52:34.868Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday API returned requisition R5037092 with HTTP 200, canApply true, posted true, a full-time designation, an August 18, 2026 posting start date, and a November 6, 2026 end date during the August 21 check.",
+        "The Fall 2027 internship supports aircraft-engine and component product development through electrical and mechanical requirements definition, design and analysis, hardware build, lab testing, and product or program support.",
+        "The official posting lists Beavercreek or Dayton, Ohio; Jacksonville, Florida; Norwich, New York; and St. George, Utah, and requires a 3.0 GPA plus full-time enrollment in an accepted engineering degree program.",
+        "The source lists pay starting at $20 USD per hour plus relocation and housing assistance for interns who relocate, and it requires existing U.S. work authorization, no current or future visa sponsorship, and qualifying U.S. Person status for export-controlled work."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-21-general-matter-summer-2027-mechanical-engineering-internship-5377107008",
       "title": "Summer 2027 Internship - Mechanical Engineering",
