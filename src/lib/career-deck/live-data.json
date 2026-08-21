@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T03:36:53.087Z",
+  "updatedAt": "2026-08-21T04:07:23.341Z",
   "opportunities": [
     {
       "id": "conversation-game-crystal-dynamics-internships-www-crystaldynamics-com-careers-internships",
@@ -7535,6 +7535,70 @@
         "The official posting identifies a hybrid, full-time January 2027 FPGA design-engineering internship or co-op in Toronto lasting 4-16 months, with work on FPGA code, custom IP, SDR and SDN controls, sensor interfaces, and high-speed FPGA interfaces.",
         "The posting requires at least two years in an Electrical or Computer Engineering degree program or equivalent, current undergraduate enrollment at a Canadian post-secondary institution, return to studies after the internship, and Verilog, SystemVerilog, or VHDL experience.",
         "Kepler lists an hourly rate of $29.75-$39.00 CAD. The official source does not list an application deadline, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-07-28-andis-product-design-engineering-intern-co-op-1097",
+      "title": "Product Design Engineering Intern/Co-op - Spring 2027",
+      "organization": "Andis Company",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-andis-adp-1097-593142",
+      "sourceName": "Andis Company ADP",
+      "sourceUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7438bb46-1da0-4d48-9595-b3b6547a5bc7&ccId=9200600597109_2&lang=en_US&jobId=593142",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7438bb46-1da0-4d48-9595-b3b6547a5bc7&ccId=9200600597109_2&lang=en_US&jobId=593142",
+      "location": "Racine, Racine County, WI - full time and primarily onsite, with the possibility of some remote work; Monday-Friday first shift",
+      "deadline": "Not listed on official source",
+      "compensation": "Up to $20 USD per hour",
+      "eligibility": "Applicants must be enrolled in an accredited technical school or university and pursuing an associate or bachelor's degree in engineering or a related field, with a minimum 3.0/4.0 GPA. Experience with AutoCAD and with SolidWorks, Creo, or Autodesk is required. The role is a full-time Spring 2027 internship or co-op beginning in January, primarily onsite with the possibility of some remote work. The official source does not state an application deadline, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-08-21T04:07:23.341Z",
+      "attemptedAt": "2026-08-21T04:07:23.341Z",
+      "updatedAt": "2026-08-21T04:07:23.341Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Andis Company's official careers page links to its ADP career center, whose public API returned client requisition 1097 and external job ID 593142 as listed during the August 20, 2026 check, with an official posting timestamp of July 28, 2026 at 15:21 UTC.",
+        "The official posting describes one full-time Spring 2027 intern or co-op opening beginning in January in Racine County, Wisconsin, primarily onsite with the possibility of some remote work, supporting 2D drafting, engineering change orders, bills of materials, testing, and small SolidWorks model changes.",
+        "The listing requires associate- or bachelor's-level study in engineering or a related field at an accredited technical school or university, a minimum 3.0/4.0 GPA, AutoCAD experience, and experience with SolidWorks, Creo, or Autodesk.",
+        "Andis lists pay of up to $20 USD per hour. The official source does not list an application deadline, work-authorization requirements, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-11-andis-industrial-design-intern-co-op-1103",
+      "title": "Industrial Design Intern/Co-op - Spring 2027",
+      "organization": "Andis Company",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-andis-adp-1103-593993",
+      "sourceName": "Andis Company ADP",
+      "sourceUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7438bb46-1da0-4d48-9595-b3b6547a5bc7&ccId=9200600597109_2&lang=en_US&jobId=593993",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7438bb46-1da0-4d48-9595-b3b6547a5bc7&ccId=9200600597109_2&lang=en_US&jobId=593993",
+      "location": "Racine County, WI - full time and onsite; Monday-Friday first shift",
+      "deadline": "Not listed on official source",
+      "compensation": "Up to $17 USD per hour",
+      "eligibility": "Applicants must be enrolled in an accredited technical school or university and pursuing an associate or bachelor's degree in art, design, or product development. The listing seeks clear communication, motivation, attention to detail, written communication skills, and proficiency with PowerPoint, Word, Excel, and Outlook; project-management and product-management experience is a plus. The role is a full-time, onsite Spring 2027 internship or co-op beginning in January. The official source does not state an application deadline, work-authorization requirement, or sponsorship policy.",
+      "discoveredAt": "2026-08-21T04:07:23.341Z",
+      "attemptedAt": "2026-08-21T04:07:23.341Z",
+      "updatedAt": "2026-08-21T04:07:23.341Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Andis Company's official careers page links to its ADP career center, whose public API returned client requisition 1103 and external job ID 593993 as listed during the August 20, 2026 check, with an official posting timestamp of August 11, 2026 at 10:28 UTC.",
+        "The official posting describes one full-time, onsite Spring 2027 industrial-design intern or co-op opening beginning in January in Racine County, Wisconsin, supporting trend research, mood boards, sketching, model building, CMF documentation, KeyShot renderings, and product field testing.",
+        "The listing requires associate- or bachelor's-level study in art, design, or product development at an accredited technical school or university and identifies communication, attention to detail, and Microsoft Office proficiency among its qualifications.",
+        "Andis lists pay of up to $17 USD per hour. The official source does not list an application deadline, work-authorization requirements, or sponsorship terms."
       ],
       "needsReview": false
     }
