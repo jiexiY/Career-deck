@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-21T23:52:34.868Z",
+  "updatedAt": "2026-08-22T00:24:22.439Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-19-nvidia-digital-circuit-design-internships-jr2023504",
+      "title": "NVIDIA 2027 Internships: Digital Circuit Design",
+      "organization": "NVIDIA",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-nvidia-workday-jr2023504",
+      "sourceName": "NVIDIA Careers / Workday",
+      "sourceUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504",
+      "location": "Santa Clara, CA - full-time, 12-week internship; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "Applications are accepted on an ongoing basis; NVIDIA's official Workday API returned the posting with canApply true and an August 19, 2026 posting start date",
+      "compensation": "$20-$71 USD per hour, based on position, location, year in school, degree, and experience. The official posting says interns are eligible for NVIDIA intern benefits but does not enumerate them.",
+      "eligibility": "Applicants must remain actively enrolled for the full internship while pursuing a B.S., M.S., or Ph.D. in Electrical Engineering, Computer Engineering, or a related field, and must clearly list the anticipated graduation month and year on the resume or CV. Relevant course or internship experience may be required in digital circuit and device fundamentals, place and route, datapath tiling, SPICE simulation, CMOS logic and transistor-level circuits, timing and delay analysis, standard-cell and memory or SRAM design, power and leakage optimization, circuit simulation and characterization, power distribution and management, advanced digital systems, operating systems, object-oriented programming, and EDA tools. Depending on the role, Verilog, SystemVerilog, VHDL, Perl, Python, SPICE or HSPICE, Monte Carlo methods, CMOS, FinFET, Synopsys, Cadence, or SerDes knowledge may be required. Work-authorization and sponsorship terms are not stated.",
+      "discoveredAt": "2026-08-22T00:24:22.439Z",
+      "attemptedAt": "2026-08-22T00:24:22.439Z",
+      "updatedAt": "2026-08-22T00:24:22.439Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "NVIDIA's official Workday API returned requisition JR2023504 with HTTP 200, canApply true, posted true, a full-time designation, and an August 19, 2026 posting start date during the August 21 check.",
+        "The official posting describes a 12-week Digital Circuit Design internship spanning CMOS and transistor-level circuit design, timing analysis, standard cells, SRAM, power optimization, circuit characterization, place and route, and power-management methods.",
+        "The posting requires active B.S., M.S., or Ph.D. enrollment in Electrical Engineering, Computer Engineering, or a related field for the full internship and requires the anticipated graduation month and year on the resume or CV.",
+        "The official source lists $20-$71 USD per hour, intern-benefit eligibility, and ongoing applications; it does not state exact internship dates, weekly hours, work arrangement, work-authorization terms, or sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-18-ge-aerospace-unison-engineering-intern-spring-2027-r5037093",
       "title": "Unison Engineering Intern - Spring 2027",
