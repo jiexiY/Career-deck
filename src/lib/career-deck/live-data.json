@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-22T03:11:45.668Z",
+  "updatedAt": "2026-08-22T04:35:16.918Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-22-hitachi-energy-summer-electrical-engineering-intern-raleigh-r0142463",
+      "title": "2027 Summer Electrical Engineering Intern - Raleigh",
+      "organization": "Hitachi Energy",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-hitachi-workday-r0142463",
+      "sourceName": "Hitachi Energy Careers / Workday",
+      "sourceUrl": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/XMLNAME-2027-Summer-Electrical-Engineering-Intern--Raleigh_R0142463",
+      "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/XMLNAME-2027-Summer-Electrical-Engineering-Intern--Raleigh_R0142463",
+      "location": "Raleigh, NC - 12-week, full-time, paid Summer 2027 internship; may be hybrid or fully in office, while the official Workday field says Remote: No",
+      "deadline": "May 17, 2027; Hitachi Energy's official Workday API returned the posting with canApply true and an August 22, 2026 posting start date",
+      "compensation": "Paid; the official source does not list an hourly rate or salary range, housing, or relocation support.",
+      "eligibility": "Applicants must be pursuing a bachelor's or master's degree in Electrical Engineering and already have work authorization that permits them to work for Hitachi Energy in the United States. The posting also asks for cross-cultural collaboration, conceptual and analytical thinking, teamwork, self-motivation, and the ability to work independently. It does not state a minimum GPA, graduation year, citizenship requirement, or separate future-sponsorship policy.",
+      "discoveredAt": "2026-08-22T04:35:16.918Z",
+      "attemptedAt": "2026-08-22T04:35:16.918Z",
+      "updatedAt": "2026-08-22T04:35:16.918Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.99,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "Hitachi Energy's official Workday API returned requisition R0142463 with HTTP 200, canApply true, posted true, a full-time designation, an August 22, 2026 posting start date, and a May 17, 2027 posting end date during the August 21 check.",
+        "The official umbrella posting says possible placements include Design Engineer, R&D Engineering, Supply Chain, Power Systems, Distribution Transformers, and Quality and Continuous Improvement.",
+        "The source describes a 12-week, full-time, paid Summer 2027 internship in Raleigh that may use a hybrid or fully in-office schedule; its Workday metadata labels the role non-remote.",
+        "Applicants must be pursuing a bachelor's or master's degree in Electrical Engineering and already have U.S. work authorization; the source does not list exact pay, housing, relocation support, a GPA threshold, graduation-year limits, or a separate future-sponsorship policy."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-17-ge-aerospace-systems-engineering-co-op-mechanical-aerospace-electric-power-fall-2027-r5030145",
       "title": "Systems Engineering Co-op - Mechanical/Aerospace Engineering (Electric Power) - Fall 2027",
