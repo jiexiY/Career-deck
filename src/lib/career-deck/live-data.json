@@ -1,6 +1,102 @@
 {
-  "updatedAt": "2026-08-22T02:17:51.237Z",
+  "updatedAt": "2026-08-22T03:11:45.668Z",
   "opportunities": [
+    {
+      "id": "tech-design-2026-08-17-ge-aerospace-systems-engineering-co-op-mechanical-aerospace-electric-power-fall-2027-r5030145",
+      "title": "Systems Engineering Co-op - Mechanical/Aerospace Engineering (Electric Power) - Fall 2027",
+      "organization": "GE Aerospace",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5030145",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Fall-2027_R5030145-1",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Fall-2027_R5030145-1",
+      "location": "Dayton, OH or Bohemia, NY - full-time Fall 2027 co-op; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "November 6, 2026; GE Aerospace's official Workday API returned the posting with canApply true and an August 17, 2026 posting start date",
+      "compensation": "Starts at $20 USD per hour and increases for each undergraduate year completed. Relocation support and housing assistance are available for participants who relocate; the upper pay bound and support amounts are not stated.",
+      "eligibility": "Applicants must be U.S. citizens, have at least a 3.0 cumulative GPA without rounding, and attend a full-time, nationally accredited baccalaureate or graduate engineering program in Mechanical Engineering or Aeronautical/Aerospace Engineering. Applicants must be willing and able to work in the United States and have reliable transportation because many sites lack public transit. Employment requires qualifying U.S. Person status for access to export-controlled information, and offers are conditioned on a background investigation and drug screen. The official source does not separately state visa-sponsorship availability.",
+      "discoveredAt": "2026-08-22T03:11:45.668Z",
+      "attemptedAt": "2026-08-22T03:11:45.668Z",
+      "updatedAt": "2026-08-22T03:11:45.668Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday API returned requisition R5030145 with HTTP 200, canApply true, posted true, a full-time designation, an August 17, 2026 posting start date, and a November 6, 2026 end date during the August 21 check.",
+        "The Fall 2027 co-op works on real-world aerospace-system design and analysis for commercial and military applications, with possible assignments in engine controls, navigation and guidance, electrical power, mechanical systems, computing systems, and platform integration.",
+        "The official posting lists Dayton, Ohio and Bohemia, New York, and requires U.S. citizenship, a 3.0 GPA, and full-time enrollment in Mechanical Engineering or Aeronautical/Aerospace Engineering.",
+        "The source lists pay starting at $20 USD per hour plus relocation and housing assistance; it does not state exact program dates, weekly hours, work arrangement, the upper pay bound, assistance amounts, or separate visa-sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-17-ge-aerospace-systems-engineering-co-op-mechanical-aerospace-electric-power-spring-2027-r5030103",
+      "title": "Systems Engineering Co-op - Mechanical/Aerospace Engineering (Electric Power) - Spring 2027",
+      "organization": "GE Aerospace",
+      "section": "tech",
+      "type": "co-op",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5030103",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Spring-2027_R5030103-1",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Spring-2027_R5030103-1",
+      "location": "Dayton, OH or Bohemia, NY - full-time Spring 2027 co-op; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "November 6, 2026; GE Aerospace's official Workday API returned the posting with canApply true and an August 17, 2026 posting start date",
+      "compensation": "Starts at $20 USD per hour and increases for each undergraduate year completed. Relocation support and housing assistance are available for participants who relocate; the upper pay bound and support amounts are not stated.",
+      "eligibility": "Applicants must be U.S. citizens, have at least a 3.0 cumulative GPA without rounding, and attend a full-time, nationally accredited baccalaureate or graduate engineering program in Mechanical Engineering or Aeronautical/Aerospace Engineering. Applicants must be willing and able to work in the United States and have reliable transportation because many sites lack public transit. Employment requires qualifying U.S. Person status for access to export-controlled information, and offers are conditioned on a background investigation and drug screen. The official source does not separately state visa-sponsorship availability.",
+      "discoveredAt": "2026-08-22T03:11:45.668Z",
+      "attemptedAt": "2026-08-22T03:11:45.668Z",
+      "updatedAt": "2026-08-22T03:11:45.668Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday API returned requisition R5030103 with HTTP 200, canApply true, posted true, a full-time designation, an August 17, 2026 posting start date, and a November 6, 2026 end date during the August 21 check.",
+        "The Spring 2027 co-op works on real-world aerospace-system design and analysis for commercial and military applications, with possible assignments in engine controls, navigation and guidance, electrical power, mechanical systems, computing systems, and platform integration.",
+        "The official posting lists Dayton, Ohio and Bohemia, New York, and requires U.S. citizenship, a 3.0 GPA, and full-time enrollment in Mechanical Engineering or Aeronautical/Aerospace Engineering.",
+        "The source lists pay starting at $20 USD per hour plus relocation and housing assistance; it does not state exact program dates, weekly hours, work arrangement, the upper pay bound, assistance amounts, or separate visa-sponsorship terms."
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "tech-design-2026-08-17-ge-aerospace-systems-engineering-intern-electrical-computer-avionics-summer-2027-r5030118",
+      "title": "Systems Engineering Intern - Electrical Engineering & Computer Engineering/Science (Avionics) - Summer 2027",
+      "organization": "GE Aerospace",
+      "section": "tech",
+      "type": "internship",
+      "status": "open",
+      "sourceId": "src-ge-aerospace-workday-r5030118",
+      "sourceName": "GE Aerospace Careers / Workday",
+      "sourceUrl": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Summer-2027_R5030118-1",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Summer-2027_R5030118-1",
+      "location": "Grand Rapids, MI or Clearwater, FL - full-time Summer 2027 internship; the official source does not state exact dates, weekly hours, or an onsite, hybrid, or remote arrangement",
+      "deadline": "November 6, 2026; GE Aerospace's official Workday API returned the posting with canApply true and an August 17, 2026 posting start date",
+      "compensation": "Starts at $20 USD per hour and increases for each undergraduate year completed. Relocation support and housing assistance are available for interns who relocate; the upper pay bound and support amounts are not stated.",
+      "eligibility": "Applicants must be U.S. citizens, have at least a 3.0 cumulative GPA without rounding, and attend a full-time, nationally accredited baccalaureate or graduate program in Electrical Engineering, Electrical and Computer Engineering, Computer Engineering, or Computer Science. Applicants must be willing and able to work in the United States and have reliable transportation because many sites lack public transit. Employment requires qualifying U.S. Person status for access to export-controlled information, and offers are conditioned on a background investigation and drug screen. The official source does not separately state visa-sponsorship availability.",
+      "discoveredAt": "2026-08-22T03:11:45.668Z",
+      "attemptedAt": "2026-08-22T03:11:45.668Z",
+      "updatedAt": "2026-08-22T03:11:45.668Z",
+      "confidence": {
+        "source": 0.99,
+        "extraction": 0.99,
+        "freshness": 0.98,
+        "duplicateProbability": 0.01
+      },
+      "evidence": [
+        "GE Aerospace's official Workday API returned requisition R5030118 with HTTP 200, canApply true, posted true, a full-time designation, an August 17, 2026 posting start date, and a November 6, 2026 end date during the August 21 check.",
+        "The Summer 2027 internship works on real-world aerospace-system design and analysis for commercial and military applications, with possible assignments in controls, navigation and guidance, avionics, computing systems, data management, and platform integration.",
+        "The official posting lists Grand Rapids, Michigan and Clearwater, Florida, and requires U.S. citizenship, a 3.0 GPA, and full-time enrollment in Electrical Engineering, Electrical and Computer Engineering, Computer Engineering, or Computer Science.",
+        "The source lists pay starting at $20 USD per hour plus relocation and housing assistance; it does not state exact program dates, weekly hours, work arrangement, the upper pay bound, assistance amounts, or separate visa-sponsorship terms."
+      ],
+      "needsReview": false
+    },
     {
       "id": "tech-design-2026-08-19-nvidia-digital-circuit-design-internships-jr2023504",
       "title": "NVIDIA 2027 Internships: Digital Circuit Design",
